@@ -1,0 +1,742 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>大数据理论基础 笔记 - 暮瞻</title><meta name="Description" content="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。"><meta property="og:title" content="大数据理论基础 笔记" />
+<meta property="og:description" content="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ralvines.top/big-data/" /><meta property="og:image" content="https://z1.ax1x.com/2023/10/23/piApGh6.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-22T20:20:40+08:00" />
+<meta property="article:modified_time" content="2023-10-22T20:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://z1.ax1x.com/2023/10/23/piApGh6.jpg"/>
+
+<meta name="twitter:title" content="大数据理论基础 笔记"/>
+<meta name="twitter:description" content="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。"/>
+<meta name="application-name" content="暮瞻">
+<meta name="apple-mobile-web-app-title" content="暮瞻">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/big-data/" /><link rel="prev" href="https://blog.ralvines.top/data-proceed/" /><link rel="next" href="https://blog.ralvines.top/zixikongjian/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "大数据理论基础 笔记",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/blog.ralvines.top\/big-data\/"
+        },"genre": "posts","keywords": "大数据, 数据开发, 数据库","wordcount":  2247 ,
+        "url": "https:\/\/blog.ralvines.top\/big-data\/","datePublished": "2023-10-22T20:20:40+08:00","dateModified": "2023-10-22T20:25:40+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"authors": [{
+                        "@type": "Person",
+                        "name": "Ralvine"                    
+                    }],"description": "大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。"
+    }
+    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        
+        <div class="header-title">
+            <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner">
+                
+                <div class="dropdown">
+                    <a href="/posts/" 
+                        class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/cage/home/" 
+                        class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/movies/" title="" >🎞️ 影视 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/time/home/" 
+                        class="menu-item menu-more dropbtn" title="" >🧭 时迹 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/time/project/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+                </div>
+                <a class="menu-item"
+                    href="/about/" >🏡 关于 
+                </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-desktop">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-desktop">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </span><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <a href="https://git.bnblogs.cc/zfp" class="github-corner" target="_blank" title="Follow me on GitHub"
+                aria-label="Follow me on GitHub"><svg width="3.5rem" height="3.5rem" viewBox="0 0 250 250"
+                    style="fill:#70B7FD; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);"
+                    aria-hidden="true">
+                    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+                    <path
+                        d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                        fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+                    <path
+                        d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                        fill="currentColor" class="octo-body"></path>
+                </svg></a>
+            <div class="header-title">
+                <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                <div class="search mobile" id="search-mobile">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-mobile">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-mobile">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </div>
+                <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
+                    取消
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="/posts/" 
+                    class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/cage/home/" 
+                    class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/movies/" title="" >🎞️ 影视 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/time/home/" 
+                    class="menu-item menu-more dropbtn" title="" >🧭 时迹 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/time/project/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+            </div>
+            <a class="menu-item"
+                href="/about/" >🏡 关于 
+            </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#大数据概念1">大数据概念</a>
+      <ul>
+        <li><a href="#定义">定义</a></li>
+        <li><a href="#特点">特点</a></li>
+        <li><a href="#示例2">示例</a></li>
+        <li><a href="#作用">作用</a></li>
+        <li><a href="#总体架构">总体架构</a></li>
+        <li><a href="#大数据分析">大数据分析</a></li>
+        <li><a href="#技术基础">技术基础</a></li>
+        <li><a href="#云计算">云计算</a></li>
+        <li><a href="#数据科学">数据科学</a>
+          <ul>
+            <li><a href="#web应用">Web应用</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#数据治理3">数据治理</a>
+      <ul>
+        <li><a href="#数据">数据</a></li>
+        <li><a href="#治理">治理</a></li>
+        <li><a href="#流程">流程</a></li>
+        <li><a href="#工具">工具</a></li>
+      </ul>
+    </li>
+    <li><a href="#数据仓库4">数据仓库</a>
+      <ul>
+        <li><a href="#诞生">诞生</a></li>
+        <li><a href="#概念">概念</a></li>
+        <li><a href="#特征">特征</a></li>
+        <li><a href="#结构">结构</a></li>
+        <li><a href="#与数据库">与数据库</a></li>
+      </ul>
+    </li>
+    <li><a href="#技术栈5">技术栈</a>
+      <ul>
+        <li><a href="#采集与预处理">采集与预处理</a></li>
+        <li><a href="#分布式存储">分布式存储</a></li>
+        <li><a href="#数据清洗">数据清洗</a></li>
+        <li><a href="#查询与分析">查询与分析</a></li>
+        <li><a href="#可视化">可视化</a></li>
+        <li><a href="#全貌">全貌</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">大数据理论基础 笔记</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>学习笔记</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E6%95%B0%E6%8D%AE%E7%A0%94%E5%8F%91%E4%B8%8E%E5%88%86%E6%9E%90/"><i class="far fa-list-alt fa-fw"></i>数据研发与分析</a>&nbsp;<a href="/series/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/"><i class="far fa-list-alt fa-fw"></i>产品经理</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 2247 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 5 分钟&nbsp;<span id="/big-data/" class="leancloud_visitors" data-flag-title="大数据理论基础 笔记">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="featured-image"><img
+        
+        loading="eager"
+        src="https://z1.ax1x.com/2023/10/23/piApGh6.jpg"
+        srcset="https://z1.ax1x.com/2023/10/23/piApGh6.jpg, https://z1.ax1x.com/2023/10/23/piApGh6.jpg 1.5x, https://z1.ax1x.com/2023/10/23/piApGh6.jpg 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piApGh6.jpg"
+        title="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。" height="auto"   width="auto" ></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#大数据概念1">大数据概念</a>
+      <ul>
+        <li><a href="#定义">定义</a></li>
+        <li><a href="#特点">特点</a></li>
+        <li><a href="#示例2">示例</a></li>
+        <li><a href="#作用">作用</a></li>
+        <li><a href="#总体架构">总体架构</a></li>
+        <li><a href="#大数据分析">大数据分析</a></li>
+        <li><a href="#技术基础">技术基础</a></li>
+        <li><a href="#云计算">云计算</a></li>
+        <li><a href="#数据科学">数据科学</a>
+          <ul>
+            <li><a href="#web应用">Web应用</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#数据治理3">数据治理</a>
+      <ul>
+        <li><a href="#数据">数据</a></li>
+        <li><a href="#治理">治理</a></li>
+        <li><a href="#流程">流程</a></li>
+        <li><a href="#工具">工具</a></li>
+      </ul>
+    </li>
+    <li><a href="#数据仓库4">数据仓库</a>
+      <ul>
+        <li><a href="#诞生">诞生</a></li>
+        <li><a href="#概念">概念</a></li>
+        <li><a href="#特征">特征</a></li>
+        <li><a href="#结构">结构</a></li>
+        <li><a href="#与数据库">与数据库</a></li>
+      </ul>
+    </li>
+    <li><a href="#技术栈5">技术栈</a>
+      <ul>
+        <li><a href="#采集与预处理">采集与预处理</a></li>
+        <li><a href="#分布式存储">分布式存储</a></li>
+        <li><a href="#数据清洗">数据清洗</a></li>
+        <li><a href="#查询与分析">查询与分析</a></li>
+        <li><a href="#可视化">可视化</a></li>
+        <li><a href="#全貌">全貌</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="大数据概念1" class="headerLink">
+    <a href="#%e5%a4%a7%e6%95%b0%e6%8d%ae%e6%a6%82%e5%bf%b51" class="header-mark"></a>大数据概念<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="定义" class="headerLink">
+    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h3><p>数据量特别大、数据类别特别复杂的数据集，无法用传统的数据库进行存储，管理和处理。</p>
+<h3 id="特点" class="headerLink">
+    <a href="#%e7%89%b9%e7%82%b9" class="header-mark"></a>特点</h3><p><strong>4V</strong></p>
+<ul>
+<li>数据量大（Volume）：PB级别</li>
+<li>类别复杂（Variety）：结构化（数字、符号等），非结构化（文本、图像、声音等）</li>
+<li>处理速度快（Velocity）</li>
+<li>真实性高（Veracity）</li>
+</ul>
+<p>且价值密度很低，质量差别大，可以产生价值。</p>
+<h3 id="示例2" class="headerLink">
+    <a href="#%e7%a4%ba%e4%be%8b2" class="header-mark"></a>示例<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3><p>超市：通过进销存数据+客户购物数据+社交网络舆情监测数据，预测接下来几天的销售预期，进而制定合适的营销策略增加销售。从而产生价值。</p>
+<h3 id="作用" class="headerLink">
+    <a href="#%e4%bd%9c%e7%94%a8" class="header-mark"></a>作用</h3><p>提炼出有用的数据。</p>
+<h3 id="总体架构" class="headerLink">
+    <a href="#%e6%80%bb%e4%bd%93%e6%9e%b6%e6%9e%84" class="header-mark"></a>总体架构</h3><ol>
+<li>数据存储：解决类型复杂和数据量庞大的问题。</li>
+<li>数据处理：快速和时效性。</li>
+<li><strong>数据分析</strong>：价值筛选。</li>
+</ol>
+<p><strong>流程</strong>：保存于存储层，根据需求目标建立数据模型和分析指标，通过处理层的强大并行和分布式计算实现价值的生成。</p>
+<h3 id="大数据分析" class="headerLink">
+    <a href="#%e5%a4%a7%e6%95%b0%e6%8d%ae%e5%88%86%e6%9e%90" class="header-mark"></a>大数据分析</h3><ol>
+<li>可视化。</li>
+<li>数据挖掘：用算法提炼有价值信息。</li>
+<li>预测：建立模型，预测趋势。</li>
+<li>语义引擎：机器学习的成果，自主迭代，理解数据的含义。</li>
+<li>质量管理：剔除错误数据。</li>
+</ol>
+<p><strong>流程</strong></p>
+<ol>
+<li>获取数据。</li>
+<li>准备数据：数据探索、预处理。</li>
+<li>分析数据：建立模型。</li>
+<li>展示结果：可视化数据结论。</li>
+<li>应用结论。</li>
+</ol>
+<h3 id="技术基础" class="headerLink">
+    <a href="#%e6%8a%80%e6%9c%af%e5%9f%ba%e7%a1%80" class="header-mark"></a>技术基础</h3><p><strong>方向</strong></p>
+<ol>
+<li>集中式</li>
+<li>分布式（前沿）</li>
+</ol>
+<p><strong>分布式文件系统优势</strong></p>
+<ol>
+<li>可扩展</li>
+<li>容错</li>
+<li>高并发：并行处理</li>
+</ol>
+<p><strong>突破</strong>：Google 分布式计算模型</p>
+<ul>
+<li>MapReduce：计算框架</li>
+<li>GFS（Google File System）：文件系统</li>
+<li>BigTable：数据存储系统</li>
+</ul>
+<p><strong>主流</strong></p>
+<ol>
+<li><strong>Hadoop</strong>：开源，标准
+MapReduce分布式计算框架；
+基于GFS的<strong>HDFS</strong>分布式文件系统；
+基于BigTable的<strong>HBase</strong>数据存储系统。</li>
+<li>Spark：基于Hadoop的改良
+存储数据由硬盘改为内存，提高速度，短期处理。</li>
+<li>Storm：Twitter主推
+支持实时运算，不收集、存储数据，实时接收并处理、返回。</li>
+</ol>
+<p><strong>使用场景</strong></p>
+<ol>
+<li>Hadoop：离线、复杂</li>
+<li>Spark：离线、快速</li>
+<li>Storm：在线、实时</li>
+</ol>
+<h3 id="云计算" class="headerLink">
+    <a href="#%e4%ba%91%e8%ae%a1%e7%ae%97" class="header-mark"></a>云计算</h3><p>降低大数据处理成本，提供基础。</p>
+<h3 id="数据科学" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e7%a7%91%e5%ad%a6" class="header-mark"></a>数据科学</h3><p>如何利用大数据产生价值。</p>
+<p><strong>5P</strong></p>
+<ul>
+<li>目标：解决实际问题</li>
+<li>人物：数据科学家</li>
+<li>过程：团队沟通、技术工作</li>
+<li>平台：计算、存储</li>
+<li>可编程：R, Patterns 等</li>
+</ul>
+<h4 id="web应用" class="headerLink">
+    <a href="#web%e5%ba%94%e7%94%a8" class="header-mark"></a>Web应用</h4><p>应用层：仍保持传统Web应用（LAMP、JavaEE、NODE等）。
+数据存储：对日志等非结构数据使用分布式文件系统。</p>
+<h2 id="数据治理3" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e6%b2%bb%e7%90%863" class="header-mark"></a>数据治理<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2><p>数据治理的最终目标是提升数据的价值。</p>
+<h3 id="数据" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae" class="header-mark"></a>数据</h3><p>指标 = 数字 + 解释</p>
+<h3 id="治理" class="headerLink">
+    <a href="#%e6%b2%bb%e7%90%86" class="header-mark"></a>治理</h3><p>管理共同事务的方法综合，实现利益调和与联合行动的过程。</p>
+<p><strong>基本职能</strong></p>
+<ul>
+<li>计划：决策与机制建构。</li>
+<li>组织：分配任务。</li>
+<li>领导：激励、沟通、解决。</li>
+<li>控制：监督、目标导向。</li>
+</ul>
+<h3 id="流程" class="headerLink">
+    <a href="#%e6%b5%81%e7%a8%8b" class="header-mark"></a>流程</h3><ol>
+<li>采集 存储</li>
+<li>标准化 建模</li>
+<li>清洗 质量控制</li>
+<li>分析 交付需求 服务</li>
+</ol>
+<p><strong>示例</strong></p>
+<ul>
+<li>网易数据中台产品（网易数帆链接）</li>
+<li>华为数据治理产品（数据湖治理）</li>
+</ul>
+<h3 id="工具" class="headerLink">
+    <a href="#%e5%b7%a5%e5%85%b7" class="header-mark"></a>工具</h3><p><figure><a class="lightgallery" href="https://pic4.zhimg.com/80/v2-5102010cb038e90a7b86f308b78ddb7b_1440w.webp" title="数据治理的工具结构" data-thumbnail="https://pic4.zhimg.com/80/v2-5102010cb038e90a7b86f308b78ddb7b_1440w.webp">
+        <img
+            
+            loading="lazy"
+            src="https://pic4.zhimg.com/80/v2-5102010cb038e90a7b86f308b78ddb7b_1440w.webp"
+            srcset="https://pic4.zhimg.com/80/v2-5102010cb038e90a7b86f308b78ddb7b_1440w.webp, https://pic4.zhimg.com/80/v2-5102010cb038e90a7b86f308b78ddb7b_1440w.webp 1.5x, https://pic4.zhimg.com/80/v2-5102010cb038e90a7b86f308b78ddb7b_1440w.webp 2x"
+            sizes="auto"
+            alt="https://pic4.zhimg.com/80/v2-5102010cb038e90a7b86f308b78ddb7b_1440w.webp">
+    </a></figure></p>
+<p><strong>基础支撑</strong>：同步和存储</p>
+<ol>
+<li>容器：提供治理动作的空间。</li>
+<li>管道：提供数据传输的通道。</li>
+</ol>
+<p><strong>核心能力</strong>：标准化管理、建模开发、共享、安全。</p>
+<p><strong>应用</strong>：展示（可视化）、算法（预测）。</p>
+<h2 id="数据仓库4" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e4%bb%93%e5%ba%934" class="header-mark"></a>数据仓库<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2><h3 id="诞生" class="headerLink">
+    <a href="#%e8%af%9e%e7%94%9f" class="header-mark"></a>诞生</h3><ol>
+<li>历史积存：使用频率低，堆积导致查询性能下降。</li>
+<li>企业分析：各部门数据抽取系统独立，数据不一致，资源浪费，权限存在风险。</li>
+</ol>
+<h3 id="概念" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h3><ul>
+<li>Data Warehouse</li>
+<li>目的：企业分析性报告和决策支持。</li>
+<li>能力：业务数据筛选整合，BI（商业智能），支持到前端的可视化分析。</li>
+<li>输入：各类数据源。</li>
+<li>输出应用：分析、挖掘、报表。</li>
+</ul>
+<h3 id="特征" class="headerLink">
+    <a href="#%e7%89%b9%e5%be%81" class="header-mark"></a>特征</h3><ol>
+<li>主题：数据库对应项目，数据仓库基于实际需求，高度抽象整合，围绕主题组织。</li>
+<li>集成：多个数据源的集成，存储方式各不相同，带有抽取、清洗、转换的过程。</li>
+<li>稳定：保存历史快照，不允许修改，大多仅查询分析。</li>
+<li>时变：定期接收新集成数据。以时间戳标记版本标记最新数据，老旧可定期删除。</li>
+</ol>
+<h3 id="结构" class="headerLink">
+    <a href="#%e7%bb%93%e6%9e%84" class="header-mark"></a>结构</h3><p><figure><a class="lightgallery" href="https://pic3.zhimg.com/80/v2-9a8b8352571c3e7d18c031f8c5d8caee_1440w.webp" title="数据仓库的分层架构" data-thumbnail="https://pic3.zhimg.com/80/v2-9a8b8352571c3e7d18c031f8c5d8caee_1440w.webp">
+        <img
+            
+            loading="lazy"
+            src="https://pic3.zhimg.com/80/v2-9a8b8352571c3e7d18c031f8c5d8caee_1440w.webp"
+            srcset="https://pic3.zhimg.com/80/v2-9a8b8352571c3e7d18c031f8c5d8caee_1440w.webp, https://pic3.zhimg.com/80/v2-9a8b8352571c3e7d18c031f8c5d8caee_1440w.webp 1.5x, https://pic3.zhimg.com/80/v2-9a8b8352571c3e7d18c031f8c5d8caee_1440w.webp 2x"
+            sizes="auto"
+            alt="https://pic3.zhimg.com/80/v2-9a8b8352571c3e7d18c031f8c5d8caee_1440w.webp">
+    </a></figure></p>
+<p>ODS $\rightarrow$ DW $\rightarrow$ DA</p>
+<ul>
+<li>源数据：短周期、操作性，历史数据只读。</li>
+<li>仓库：归宿，长期保存。</li>
+<li>应用：从仓库独立出来面向主体需求所计算生成。</li>
+</ul>
+<h3 id="与数据库" class="headerLink">
+    <a href="#%e4%b8%8e%e6%95%b0%e6%8d%ae%e5%ba%93" class="header-mark"></a>与数据库</h3><ul>
+<li>数据库：面向交易，操作型，OLTP（On-Line Transaction Processing）。</li>
+<li>数仓：历史数据分析，管理决策， OLAP（On-Line Analytical Processing）。</li>
+</ul>
+<p><strong>区别</strong></p>
+<ol>
+<li>/业务</li>
+<li>存储历史/业务实时数据</li>
+<li>引入冗余，多维度/避免冗余，易用</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>数据仓库</th>
+<th>数据库</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>面向</td>
+<td>主题</td>
+<td>业务</td>
+</tr>
+<tr>
+<td>存储</td>
+<td>历史</td>
+<td>业务</td>
+</tr>
+<tr>
+<td>类型</td>
+<td>清洗过、综合</td>
+<td>细节</td>
+</tr>
+<tr>
+<td>冗余</td>
+<td>有意引入，多维度指标分析</td>
+<td>避免，易操作</td>
+</tr>
+<tr>
+<td>设计</td>
+<td>分析</td>
+<td>捕获并调用</td>
+</tr>
+</tbody>
+</table>
+<p><strong>例子</strong>：银行数据库作为事务系统记账，数据仓库作为决策的平台分析数据。</p>
+<h2 id="技术栈5" class="headerLink">
+    <a href="#%e6%8a%80%e6%9c%af%e6%a0%885" class="header-mark"></a>技术栈<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></h2><p><figure><a class="lightgallery" href="http://dbaplus.cn/uploadfile/2018/0508/20180508060539882.jpg" title="大数据技术栈" data-thumbnail="http://dbaplus.cn/uploadfile/2018/0508/20180508060539882.jpg">
+        <img
+            
+            loading="lazy"
+            src="http://dbaplus.cn/uploadfile/2018/0508/20180508060539882.jpg"
+            srcset="http://dbaplus.cn/uploadfile/2018/0508/20180508060539882.jpg, http://dbaplus.cn/uploadfile/2018/0508/20180508060539882.jpg 1.5x, http://dbaplus.cn/uploadfile/2018/0508/20180508060539882.jpg 2x"
+            sizes="auto"
+            alt="http://dbaplus.cn/uploadfile/2018/0508/20180508060539882.jpg">
+    </a></figure></p>
+<h3 id="采集与预处理" class="headerLink">
+    <a href="#%e9%87%87%e9%9b%86%e4%b8%8e%e9%a2%84%e5%a4%84%e7%90%86" class="header-mark"></a>采集与预处理</h3><ul>
+<li>Flume NG：实时日志收集系统。</li>
+<li>Logstash：开源服务器端数据处理管道。</li>
+<li>Sqoop：将数据在关系型数据库和Hadoop之间转移。</li>
+<li>流式计算：对高吞吐量数据源的实时清洗、聚合与分析。
+Strom：单主节点（nimbus）和多工作节点（supervisor）组成的主从结构
+Spark Streaming</li>
+<li>Kafka：分布式的、基于发布/订阅的消息系统。</li>
+<li>Zookeeper：分布式的、开源的分布式应用程序协调服务，提供数据同步服务。</li>
+</ul>
+<h3 id="分布式存储" class="headerLink">
+    <a href="#%e5%88%86%e5%b8%83%e5%bc%8f%e5%ad%98%e5%82%a8" class="header-mark"></a>分布式存储</h3><ul>
+<li>HDFS，HBase</li>
+<li>Redis：速度非常快的非关系数据库。</li>
+</ul>
+<h3 id="数据清洗" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e6%b8%85%e6%b4%97" class="header-mark"></a>数据清洗</h3><ul>
+<li>MapReduce：查询引擎，大规模数据集的并行计算。</li>
+</ul>
+<h3 id="查询与分析" class="headerLink">
+    <a href="#%e6%9f%a5%e8%af%a2%e4%b8%8e%e5%88%86%e6%9e%90" class="header-mark"></a>查询与分析</h3><ul>
+<li>Hive：客户端工具，把SQL语句翻译成MapReduce程序，结构化数据映射为数据库表，且有HQL查询功能，依赖HDFS和MapReduce。解决传统关系型数据库(MySql、Oracle)在大数据处理上的瓶颈。</li>
+<li>Impala：Hive的补充，高效SQL查询。</li>
+</ul>
+<h3 id="可视化" class="headerLink">
+    <a href="#%e5%8f%af%e8%a7%86%e5%8c%96" class="header-mark"></a>可视化</h3><p><strong>BI</strong>平台</p>
+<ul>
+<li>PowerBI</li>
+<li>FineBI</li>
+<li>Tableau</li>
+<li>Oracle</li>
+</ul>
+<h3 id="全貌" class="headerLink">
+    <a href="#%e5%85%a8%e8%b2%8c" class="header-mark"></a>全貌</h3><ul>
+<li>采集和预处理</li>
+<li>数据存储</li>
+<li>数据库操作</li>
+<li>数据仓库</li>
+<li>机器学习</li>
+<li>并行计算</li>
+<li>可视化</li>
+</ul>
+<p><figure><a class="lightgallery" href="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp" title="技术栈全貌图" data-thumbnail="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp">
+        <img
+            
+            loading="lazy"
+            src="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp"
+            srcset="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp, https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp 1.5x, https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp 2x"
+            sizes="auto"
+            alt="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp">
+    </a></figure></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>大数据基础 @知乎用户MuDbXQ <a href="https://zhuanlan.zhihu.com/p/84554633" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/84554633</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>大数据(big data)：基础概念 @刘博 <a href="https://zhuanlan.zhihu.com/p/33619503" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/33619503</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>一文给小白讲清数据治理 @POINT小数点数据 <a href="https://zhuanlan.zhihu.com/p/388520475" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/388520475</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>什么是数据仓库？它和数据库的区别是什么？看这一篇就够了 @麦聪软件首席架构 <a href="https://zhuanlan.zhihu.com/p/433495465" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/433495465</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>【基础】大数据技术栈介绍 @法映 <a href="https://zhuanlan.zhihu.com/p/138352849" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/138352849</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div></div>
+
+        
+
+
+<h2>相关内容</h2>
+<div class="related-container">
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/24-product/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/24/piEGcUs.png"
+        srcset="https://z1.ax1x.com/2023/10/24/piEGcUs.png, https://z1.ax1x.com/2023/10/24/piEGcUs.png 1.5x, https://z1.ax1x.com/2023/10/24/piEGcUs.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/24/piEGcUs.png"
+        title="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/24-product/">24 秋招：投递与面试总体复盘</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/phd-apply/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAGdW6.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAGdW6.png, https://z1.ax1x.com/2023/10/23/piAGdW6.png 1.5x, https://z1.ax1x.com/2023/10/23/piAGdW6.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAGdW6.png"
+        title="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/phd-apply/">PHD申请实录</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/bapu/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAGdW6.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAGdW6.png, https://z1.ax1x.com/2023/10/23/piAGdW6.png 1.5x, https://z1.ax1x.com/2023/10/23/piAGdW6.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAGdW6.png"
+        title="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/bapu/">扒谱</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/didi-data/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAGdW6.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAGdW6.png, https://z1.ax1x.com/2023/10/23/piAGdW6.png 1.5x, https://z1.ax1x.com/2023/10/23/piAGdW6.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAGdW6.png"
+        title="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/didi-data/">滴滴大数据研发实习进程实录</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/zixikongjian/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAGdW6.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAGdW6.png, https://z1.ax1x.com/2023/10/23/piAGdW6.png 1.5x, https://z1.ax1x.com/2023/10/23/piAGdW6.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAGdW6.png"
+        title="大数据时代，基于数据仓库的治理方法论和相关的技术栈变得尤为重要。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/zixikongjian/">紫金港校区自习空间汇总测评</a>
+            </h2>
+        </div>
+    
+
+</div>
+
+<div class="sponsor">
+        <div class="sponsor-avatar"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        srcset="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 1.5x, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        title="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg" ></div><a href="https://blog.ralvines.top/praise/" title="Sponsor" target="_blank" class="sponsor-button" rel="noopener noreferrer">
+                <i class="far fa-heart fa-fw icon" style="color: #ec6cb9;"></i>
+                <span>赞赏</span>
+            </a></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-10-22</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/big-data/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
+                    </span></div>
+            <div class="post-info-share">
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/big-data/" data-title="大数据理论基础 笔记" data-hashtags="大数据,数据开发,数据库"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/big-data/" data-hashtag="大数据"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/big-data/" data-title="大数据理论基础 笔记" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/big-data/" data-title="大数据理论基础 笔记"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/big-data/" data-title="大数据理论基础 笔记" data-image="https://z1.ax1x.com/2023/10/23/piApGh6.jpg"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/big-data/" data-title="大数据理论基础 笔记"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/big-data/" data-title="大数据理论基础 笔记"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/">大数据</a>,&nbsp;<a href="/tags/%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91/">数据开发</a>,&nbsp;<a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/data-proceed/" class="prev" rel="prev" title="数据处理与分析 笔记"><i class="fas fa-angle-left fa-fw"></i>数据处理与分析 笔记</a>
+            <a href="/zixikongjian/" class="next" rel="next" title="紫金港校区自习空间汇总测评">紫金港校区自习空间汇总测评<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">「明日巴陵道 秋山又几重」</div>
+                <div class="footer-line">
+                    <a href="https://blog.ralvines.top/tags/">文章标签</a>·<a href="https://blog.ralvines.top/board/">留言板</a>·<a href="https://blog.ralvines.top/friend/">友情链接</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2015 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://blog.ralvines.top/" target="_blank" rel="noopener noreferrer">Ralvine</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/extra.css" customAttribute>
+        <noscript><link rel="stylesheet" href="/extra.css" customAttribute></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"WnrAryWpgks2AK4OU3RxIbWw-MdYXbMMI","appKey":"j2y3ZpqwMC6btwiHLsBU02My","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"wnrarywp.us-w1-cname.lncldglobal.com","visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"desktop-header-typeit":"暮瞻","mobile-header-typeit":"暮瞻"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/valine/Valine.min.js" defer></script><script type="text/javascript" src="/js/valine.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>
