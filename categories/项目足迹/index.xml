@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>项目足迹 - 分类 - 暮瞻</title>
-        <link>https://ralvine.github.io/blog/categories/%E9%A1%B9%E7%9B%AE%E8%B6%B3%E8%BF%B9/</link>
+        <link>https://blog.ralvines.top/categories/%E9%A1%B9%E7%9B%AE%E8%B6%B3%E8%BF%B9/</link>
         <description>项目足迹 - 分类 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://ralvine.github.io/blog/categories/%E9%A1%B9%E7%9B%AE%E8%B6%B3%E8%BF%B9/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/%E9%A1%B9%E7%9B%AE%E8%B6%B3%E8%BF%B9/" rel="self" type="application/rss+xml" /><item>
     <title>PHD申请实录</title>
-    <link>https://ralvine.github.io/blog/phd-apply/</link>
+    <link>https://blog.ralvines.top/phd-apply/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/phd-apply/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/phd-apply/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
             </div><h2 id="意向与套磁" class="headerLink">
@@ -55,9 +55,9 @@ Letter</p>
 </div>]]></description>
 </item><item>
     <title>扒谱</title>
-    <link>https://ralvine.github.io/blog/bapu/</link>
+    <link>https://blog.ralvines.top/bapu/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/bapu/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/bapu/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
             </div><p>uvr5</p>
@@ -87,9 +87,9 @@ Letter</p>
 </div>]]></description>
 </item><item>
     <title>滴滴大数据研发实习进程实录</title>
-    <link>https://ralvine.github.io/blog/didi-data/</link>
+    <link>https://blog.ralvines.top/didi-data/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/didi-data/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/didi-data/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
             </div><h2 id="岗位信息" class="headerLink">
@@ -233,9 +233,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </div>]]></description>
 </item><item>
     <title>紫金港校区自习空间汇总测评</title>
-    <link>https://ralvine.github.io/blog/zixikongjian/</link>
+    <link>https://blog.ralvines.top/zixikongjian/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/zixikongjian/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/zixikongjian/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
             </div><h2 id="指标" class="headerLink">
@@ -262,9 +262,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>]]></description>
 </item><item>
     <title>华为鸿蒙通用软件开发复盘</title>
-    <link>https://ralvine.github.io/blog/huawei/</link>
+    <link>https://blog.ralvines.top/huawei/</link>
     <pubDate>Thu, 12 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/huawei/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/huawei/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/24/piEGg5n.jpg" referrerpolicy="no-referrer">
             </div><h2 id="岗位信息" class="headerLink">
@@ -323,9 +323,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
     <a href="#%e9%9d%a2%e8%af%95%e5%87%86%e5%a4%87" class="header-mark"></a>面试准备</h4>]]></description>
 </item><item>
     <title>GRE备考实录</title>
-    <link>https://ralvine.github.io/blog/gre/</link>
+    <link>https://blog.ralvines.top/gre/</link>
     <pubDate>Wed, 16 Aug 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/gre/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gre/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piA8fr4.png" referrerpolicy="no-referrer">
             </div><p>本人新大二，报名的是8月25号上午考试院的考试，从8月2号回校开始零基础脱产自学，每天早九晚十但是实际学习时间可能只有一半。虽然考试体验不是很好，但最后瞎猫碰见死耗子取得了出乎意料的成绩，想跟大家分享一下一些乱七八糟的经验（或许有用）</p>
@@ -349,9 +349,9 @@ GRE阅读比写作容易备考很多。因为阅读并没有那么多生僻单�
 ]]></description>
 </item><item>
     <title>IELTS备考实录</title>
-    <link>https://ralvine.github.io/blog/ielts/</link>
+    <link>https://blog.ralvines.top/ielts/</link>
     <pubDate>Wed, 16 Aug 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/ielts/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/ielts/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piA8fr4.png" referrerpolicy="no-referrer">
             </div>]]></description>

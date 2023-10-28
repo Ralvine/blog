@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>数据库 - 标签 - 暮瞻</title>
-        <link>https://ralvine.github.io/blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+        <link>https://blog.ralvines.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
         <description>数据库 - 标签 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://ralvine.github.io/blog/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" rel="self" type="application/rss+xml" /><item>
     <title>大数据理论基础 笔记</title>
-    <link>https://ralvine.github.io/blog/big-data/</link>
+    <link>https://blog.ralvines.top/big-data/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/big-data/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/big-data/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piApGh6.jpg" referrerpolicy="no-referrer">
             </div><h2 id="大数据概念1" class="headerLink">
@@ -287,9 +287,9 @@ Spark Streaming</li>
 </div>]]></description>
 </item><item>
     <title>数据处理与分析 笔记</title>
-    <link>https://ralvine.github.io/blog/data-proceed/</link>
+    <link>https://blog.ralvines.top/data-proceed/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/data-proceed/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-proceed/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/24/piE1O8f.png" referrerpolicy="no-referrer">
             </div><h2 id="数据分析理论业务层" class="headerLink">
@@ -462,9 +462,9 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
 ]]></description>
 </item><item>
     <title>数据可视化 笔记</title>
-    <link>https://ralvine.github.io/blog/data-view/</link>
+    <link>https://blog.ralvines.top/data-view/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/data-view/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-view/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/24/piEsjk6.png" referrerpolicy="no-referrer">
             </div><h2 id="tableau1" class="headerLink">
@@ -483,9 +483,9 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
 ]]></description>
 </item><item>
     <title>数据库与数据仓库 笔记</title>
-    <link>https://ralvine.github.io/blog/data-warehouse/</link>
+    <link>https://blog.ralvines.top/data-warehouse/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/data-warehouse/</guid>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
             </div><h2 id="数据仓库1" class="headerLink">

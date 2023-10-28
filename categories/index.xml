@@ -1,71 +1,71 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - 分类 - 暮瞻</title>
-        <link>https://ralvine.github.io/blog/categories/</link>
+        <link>https://blog.ralvines.top/categories/</link>
         <description>Categories - 分类 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://ralvine.github.io/blog/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/" rel="self" type="application/rss+xml" /><item>
     <title>🏖生活</title>
-    <link>https://ralvine.github.io/blog/categories/%E7%94%9F%E6%B4%BB/</link>
+    <link>https://blog.ralvines.top/categories/%E7%94%9F%E6%B4%BB/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E7%94%9F%E6%B4%BB/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E7%94%9F%E6%B4%BB/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>项目足迹</title>
-    <link>https://ralvine.github.io/blog/categories/%E9%A1%B9%E7%9B%AE%E8%B6%B3%E8%BF%B9/</link>
+    <link>https://blog.ralvines.top/categories/%E9%A1%B9%E7%9B%AE%E8%B6%B3%E8%BF%B9/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E9%A1%B9%E7%9B%AE%E8%B6%B3%E8%BF%B9/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E9%A1%B9%E7%9B%AE%E8%B6%B3%E8%BF%B9/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>笔记</title>
-    <link>https://ralvine.github.io/blog/categories/%E7%AC%94%E8%AE%B0/</link>
+    <link>https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E7%AC%94%E8%AE%B0/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>学习笔记</title>
-    <link>https://ralvine.github.io/blog/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <link>https://blog.ralvines.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>宏观札记</title>
-    <link>https://ralvine.github.io/blog/categories/%E5%AE%8F%E8%A7%82%E6%9C%AD%E8%AE%B0/</link>
+    <link>https://blog.ralvines.top/categories/%E5%AE%8F%E8%A7%82%E6%9C%AD%E8%AE%B0/</link>
     <pubDate>Fri, 01 Sep 2023 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E5%AE%8F%E8%A7%82%E6%9C%AD%E8%AE%B0/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E5%AE%8F%E8%A7%82%E6%9C%AD%E8%AE%B0/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>📒课程手记</title>
-    <link>https://ralvine.github.io/blog/categories/%E8%AF%BE%E7%A8%8B%E6%89%8B%E8%AE%B0/</link>
+    <link>https://blog.ralvines.top/categories/%E8%AF%BE%E7%A8%8B%E6%89%8B%E8%AE%B0/</link>
     <pubDate>Tue, 04 Jul 2023 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E8%AF%BE%E7%A8%8B%E6%89%8B%E8%AE%B0/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E8%AF%BE%E7%A8%8B%E6%89%8B%E8%AE%B0/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>札录</title>
-    <link>https://ralvine.github.io/blog/categories/%E6%9C%AD%E5%BD%95/</link>
+    <link>https://blog.ralvines.top/categories/%E6%9C%AD%E5%BD%95/</link>
     <pubDate>Tue, 15 Nov 2022 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E6%9C%AD%E5%BD%95/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E6%9C%AD%E5%BD%95/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>便笺</title>
-    <link>https://ralvine.github.io/blog/categories/%E4%BE%BF%E7%AC%BA/</link>
+    <link>https://blog.ralvines.top/categories/%E4%BE%BF%E7%AC%BA/</link>
     <pubDate>Sun, 06 Nov 2016 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E4%BE%BF%E7%AC%BA/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E4%BE%BF%E7%AC%BA/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>随笔</title>
-    <link>https://ralvine.github.io/blog/categories/%E9%9A%8F%E7%AC%94/</link>
+    <link>https://blog.ralvines.top/categories/%E9%9A%8F%E7%AC%94/</link>
     <pubDate>Sun, 06 Nov 2016 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
-    </author><guid>https://ralvine.github.io/blog/categories/%E9%9A%8F%E7%AC%94/</guid>
+    </author><guid>https://blog.ralvines.top/categories/%E9%9A%8F%E7%AC%94/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
