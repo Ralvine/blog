@@ -32,5 +32,6 @@
 
 {{< friend name="SaraKale’s blog" url="https://sarakale.top/blog" avatar="https://npm.elemecdn.com/sarakale-assets@v1/sarakale.jpg" bio="星轮流转，唯心不变…" >}}
 
+{{< friend name="晓雨杂记" url="https://lihaoyu.cn" avatar="https://blog-api.lihaoyu.cn/images/profile/avatar-128x.webp" bio="也许我们会分别，但我们将永远不会忘记彼此" >}}
 
 
