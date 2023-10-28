@@ -18,10 +18,13 @@
     </div>
   </div>
 
-<center><b>@Ralvine</b></center>
+<center><b>Ralvine</b></center>
 <center>
 {{< typeit >}}
 以我观物 故物皆著我之色彩
 {{< /typeit >}}
 </center>
 
+## ☎️ 联络我
+
+## 关于我

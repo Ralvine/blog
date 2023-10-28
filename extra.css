@@ -1,3 +1,18 @@
+@font-face {
+  font-family: LXGWWenKai-Bold;
+  src: url("/asset/font/LXGWWenKai-Bold.TTF");
+}
+
+@font-face {
+  font-family: LXGWWenKai-Light;
+  src: url("/asset/font/LXGWWenKai-Bold.TTF");
+}
+
+@font-face {
+  font-family: LXGWWenKai-Regular;
+  src: url("/asset/font/LXGWWenKai-Regular.TTF");
+}
+
 @media screen and (max-width: 1000px) {
     .media {
         width: 100% !important;

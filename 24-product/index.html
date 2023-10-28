@@ -64,7 +64,7 @@
             <div class="menu-inner">
                 
                 <div class="dropdown">
-                    <a href="/posts/" 
+                    <a href="/article/" 
                         class="menu-item menu-more dropbtn" title="" >🌳 归档 
                     </a>
                     <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
@@ -149,7 +149,7 @@
                 </a>
             </div>
             <div class="dropdown">
-                <a href="/posts/" 
+                <a href="/article/" 
                     class="menu-item menu-more dropbtn" title="" >🌳 归档 
                 </a>
                 <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
@@ -181,7 +181,22 @@
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div><main class="main">
-            <div class="container"><div class="toc" id="toc-auto">
+            <div class="container"><script>
+            (function(){
+                if("test"){
+                    if (prompt('请输入文章密码') != "test"){
+                        alert('密码错误！');
+                        if (history.length === 1) {
+                            window.opener = null;
+                            window.open('', '_self');
+                            window.close();
+                        } else {
+                            history.back();
+                        }
+                    }
+                }
+            })();
+        </script><div class="toc" id="toc-auto">
         <h2 class="toc-title">目录</h2>
         <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>

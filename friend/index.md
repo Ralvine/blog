@@ -1,10 +1,24 @@
 # 🤝 友链
 
 
+
+---
+
 <center>
-{{< typeit >}}
-雄关漫道真如铁 而今迈步从头越
-{{< /typeit >}}</center>
+  {{< typeit >}}
+  “雄关漫道真如铁 而今迈步从头越”
+  {{< /typeit >}}
+  🌗<br>
+  <a href="https://blog.ralvines.top/friend/"><u><font face="黑体" size=3 color="#000000">友链</u></font></a> / <a href="https://blog.ralvines.top/board/"><font face="黑体" size=3 color="#000000">留言板</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="黑体" size=3 color="#000000">赞赏</font></a>
+</center>
+
+---
+
+
+
+## 🚪 传送门
+
+排名不分先后。
 
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" bio="一个记录技术、阅读、生活的博客" >}}
 
@@ -35,3 +49,11 @@
 {{< friend name="晓雨杂记" url="https://lihaoyu.cn" avatar="https://blog-api.lihaoyu.cn/images/profile/avatar-128x.webp" bio="也许我们会分别，但我们将永远不会忘记彼此" >}}
 
 
+## 👉 交换友链
+
+欢迎交换友链~在下方留言你的：
+
+> 1. 名字
+> 2. 一句话介绍
+> 3. 主页地址
+> 4. 头像
