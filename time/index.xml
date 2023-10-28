@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Times on 暮瞻</title>
+    <link>https://ralvine.github.io/blog/time/</link>
+    <description>Recent content in Times on 暮瞻</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>ralvine@163.com (Ralvine)</managingEditor>
+    <webMaster>ralvine@163.com (Ralvine)</webMaster>
+    <lastBuildDate>Fri, 02 Aug 2019 11:04:49 +0800</lastBuildDate><atom:link href="https://ralvine.github.io/blog/time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📦 项目</title>
+      <link>https://ralvine.github.io/blog/time/project/</link>
+      <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
+      <author>ralvine@163.com (Ralvine)</author>
+      <guid>https://ralvine.github.io/blog/time/project/</guid>
+      <description>计算数学 基于用电可靠性的配电网规划模型 统筹电源用户类型和配电网络拓扑、适用于树形电网的线路规划模型，基于局部搜索、几何团簇构建目标连接网络并</description>
+    </item>
+    
+    <item>
+      <title>📸 摄影</title>
+      <link>https://ralvine.github.io/blog/time/photo/</link>
+      <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
+      <author>ralvine@163.com (Ralvine)</author>
+      <guid>https://ralvine.github.io/blog/time/photo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🧭 时迹</title>
+      <link>https://ralvine.github.io/blog/time/home/</link>
+      <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
+      <author>ralvine@163.com (Ralvine)</author>
+      <guid>https://ralvine.github.io/blog/time/home/</guid>
+      <description>“一个人的命运啊，当然要靠自我奋斗，但也要考虑到历史的行程。” ⏳回溯 成长 体验 👁观点 行业 学术 历史 现象 理念 📔笔记 人工智能 课程 语言 后端 前端 数据 编曲</description>
+    </item>
+    
+  </channel>
+</rss>

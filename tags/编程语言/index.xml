@@ -1,0 +1,804 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>编程语言 - 标签 - 暮瞻</title>
+        <link>https://ralvine.github.io/blog/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</link>
+        <description>编程语言 - 标签 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://ralvine.github.io/blog/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" rel="self" type="application/rss+xml" /><item>
+    <title>面向对象程序设计 课程笔记</title>
+    <link>https://ralvine.github.io/blog/oop/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/oop/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAWIwd.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>🎓 计算机科学与技术学院</li>
+<li>🕙 2022-2023 春夏</li>
+<li>🧑‍🏫 许威威</li>
+<li>📝 50%作业，50%期末</li>
+</ul>
+</div>
+        </div>
+    </div>
+<h2 id="介绍1" class="headerLink">
+    <a href="#%e4%bb%8b%e7%bb%8d1" class="header-mark"></a>介绍<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><p>Buzzwords</p>
+<ul>
+<li>继承</li>
+<li>cohesion 凝聚</li>
+<li>coupling 耦合</li>
+<li>overriding</li>
+<li>interface 接口</li>
+<li>polymorphic 多态
+<ul>
+<li>polymorphic method calls</li>
+</ul>
+</li>
+<li>matator methods</li>
+<li>Encapsulation 封装</li>
+</ul>
+<p>C的优缺点&amp;C++新特性</p>
+<h2 id="引用" class="headerLink">
+    <a href="#%e5%bc%95%e7%94%a8" class="header-mark"></a>引用</h2><p>函数swap操作形参无法交换外部变量，C用指针，C++引入引用。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">n</span><span class="o">=</span><span class="mi">4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span><span class="o">&amp;</span> <span class="n">SetValue</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">SetValue</span><span class="p">()</span><span class="o">=</span><span class="mi">40</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="c1">// Output: 40.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="常量" class="headerLink">
+    <a href="#%e5%b8%b8%e9%87%8f" class="header-mark"></a>常量</h2><p>区别define，有类型检查。</p>
+<p>常量指针，不允许通过指针修改目标内容，但可以改变指向对象。</p>
+<p>在函数形参中使用，防止形参被修改</p>
+<p>常量成员函数：不应修改其所作用的对象（除了静态成员变量）</p>
+<p>常量对象 <code>const Sample o;</code> 不可修改对象，但是可以执行其中的常量成员函数。</p>
+<p>成员函数名字参数相同，有无const的区别属于重载关系。（实例对象是否常量决定了调用哪个成员函数）</p>
+<p>常引用：对象作函数参数，为了避免复制构造函数降低效率，直接用引用，而为了防止实参跟着变，采用常引用。</p>
+<h2 id="动态内存分配" class="headerLink">
+    <a href="#%e5%8a%a8%e6%80%81%e5%86%85%e5%ad%98%e5%88%86%e9%85%8d" class="header-mark"></a>动态内存分配</h2><p>分配变量：<code>int* P; P=new T;</code></p>
+<p>T是任意类型名，相当于开辟了sizeof(T)的空间，P是指向它起始地址的指针，即T*.</p>
+<p>释放：只能delete一次，对数组应为<code>delete [] p;</code></p>
+<p>不delete就不会释放！</p>
+<h2 id="内联函数重载和缺省参数" class="headerLink">
+    <a href="#%e5%86%85%e8%81%94%e5%87%bd%e6%95%b0%e9%87%8d%e8%bd%bd%e5%92%8c%e7%bc%ba%e7%9c%81%e5%8f%82%e6%95%b0" class="header-mark"></a>内联函数、重载和缺省参数</h2><p>函数调用存在开销，调用本身耗时，内联函数在编译时直接插入函数内操作本身，但程序体积会变大。</p>
+<p><code>inline int func(parameter) {}</code></p>
+<p>函数名字相同但参数个数或类型不同，叫做重载。使函数命名简单，编译器自动判断调用哪个函数。二义性，调用函数的参数匹配不上。</p>
+<p>缺省参数，最右边连续若干个参数可有缺省值。</p>
+<p><code>void func(int x1, int x2=2, int x3=3) {}</code></p>
+<h2 id="类和对象" class="headerLink">
+    <a href="#%e7%b1%bb%e5%92%8c%e5%af%b9%e8%b1%a1" class="header-mark"></a>类和对象</h2><p>C语言：结构化程序设计，程序=数据结构+算法，但函数和操作的数据结构没有直接联系，规模增大后难以理解、扩充、查错。</p>
+<p>C++：面向对象程序</p>
+<p>指针方式：<code>ClassName* p= &amp;AClassObject</code>，用 - &gt; 指向其成员变量或函数。</p>
+<p>引用方式：<code>ClassName&amp; p= AClassObject</code> 同时跟着变。</p>
+<p>私有成员：缺省=private，同Class其他对象的私有成员也可访问。</p>
+<p>成员函数也可重载、参数缺省。</p>
+<h2 id="构造函数" class="headerLink">
+    <a href="#%e6%9e%84%e9%80%a0%e5%87%bd%e6%95%b0" class="header-mark"></a>构造函数</h2><p>一个类可以有多个构造函数。</p>
+<p>对象数组，注意动态分配时没定义就不初始化。</p>
+<p>复制构造函数，参数必须引用<code>X::X(X&amp; x)</code>；起作用：直接<code>Complex c2(c1)</code>，或者函数参数或返回值含有该类对象；但是对象间赋值不会调用复制构造函数。</p>
+<p>常量引用参数：减少开销，确保实参值不变时使用。</p>
+<p>类型转换构造函数：只含一个参数。</p>
+<p>析构函数：有对象数组情况下，程序结束时每个元素都会调用析构函数；临时对象和形参对象消亡都会调用。</p>
+<p>局部对象：<code>{ 生命周期 }</code>，静态对象static：函数结束时不消亡。</p>
+<p>不同编译器输出有所差别，有的做了优化，赋值可以不用再临时生成被复制的对象。</p>
+<h2 id="this指针" class="headerLink">
+    <a href="#this%e6%8c%87%e9%92%88" class="header-mark"></a>this指针</h2><p>C++编译先翻译成C时，Class变为Struct，因此需要多一个this指针指向函数作用的对象。因此可以返回对象自身。</p>
+<p>静态成员函数则不可使用this指针，因为其不具体作用于某个对象。</p>
+<h2 id="静态成员变量" class="headerLink">
+    <a href="#%e9%9d%99%e6%80%81%e6%88%90%e5%91%98%e5%8f%98%e9%87%8f" class="header-mark"></a>静态成员变量</h2><p>静态成员为所有对象共享，总共就一份。sizeof()计算对象时不会计算其static成员变量。</p>
+<p>访问方式。需要在定义类的文件中单独进行声明或初始化！</p>
+<p>静态成员<strong>函数</strong>还可以直接通过整个类进行调用。</p>
+<p>本质是全局变量，只是放在类中。例：方体类的实例总数。</p>
+<p>⬆️缺陷，若实例对象是复制构造生成的，Total会有遗漏，特别是临时对象消亡时还会调用析构函数，因此需要单独写一个复制构造函数。</p>
+<p>静态成员<strong>函数</strong>不能调用非静态的成员变量或函数。</p>
+<h2 id="成员对象和封闭类" class="headerLink">
+    <a href="#%e6%88%90%e5%91%98%e5%af%b9%e8%b1%a1%e5%92%8c%e5%b0%81%e9%97%ad%e7%b1%bb" class="header-mark"></a>成员对象和封闭类</h2><p>Class中有成员变量为其他Class类型，即称其为成员对象。例如Class Car下有成员变量Engine，属于Engine类。</p>
+<p>初始化列表：构造函数后直接赋值。</p>
+<p>先执行封闭类下所有对象成员构造函数，再执行封闭类构造函数；析构时顺序相反。</p>
+<h2 id="友元" class="headerLink">
+    <a href="#%e5%8f%8b%e5%85%83" class="header-mark"></a>友元</h2><p>友元类，关系不能传递和继承。</p>
+<h2 id="运算符重载" class="headerLink">
+    <a href="#%e8%bf%90%e7%ae%97%e7%ac%a6%e9%87%8d%e8%bd%bd" class="header-mark"></a>运算符重载</h2><p>根据参数数目决定重载为成员函数或普通函数</p>
+<p>赋值运算符的重载：以string为例，需要防止指向同一块内存。</p>
+<p>此时返回对象需要引用，如<code>String&amp;</code>：应当保留运算符原本特性，使得允许a=b=c和(a=b)=c.</p>
+<p>还需要防止s=s.</p>
+<p>还需要为其写单独的复制构造函数。</p>
+<p>若声明时直接赋值，属于调用构造函数。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>智云课堂回放 <a href="https://classroom.zju.edu.cn/coursedetail?course_id=50910&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">https://classroom.zju.edu.cn/coursedetail?course_id=50910&tenant_code=112</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
+</item><item>
+    <title>数据结构与算法 课程笔记</title>
+    <link>https://ralvine.github.io/blog/data-structure/</link>
+    <pubDate>Thu, 01 Sep 2022 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://ralvine.github.io/about.md</uri><email>ralvine@163.com</email></author><guid>https://ralvine.github.io/blog/data-structure/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>🎓 数学科学学院</li>
+<li>🕙 2021-2022 秋冬</li>
+<li>🧑‍🏫 王何宇</li>
+<li>📝 作业，项目作业，期末考试</li>
+</ul>
+</div>
+        </div>
+    </div>
+<ul>
+<li><strong>CH3.</strong> 链表、栈和队列</li>
+<li><strong>CH4.</strong> 树</li>
+<li><strong>CH5.</strong> 哈希</li>
+<li><strong>CH6.</strong> 优先队列和堆</li>
+<li><strong>CH7.</strong> 分类</li>
+<li><strong>CH8.</strong> *</li>
+<li><strong>CH9.</strong> 图</li>
+<li><strong>Extra.</strong> 主定理</li>
+</ul>
+<h2 id="c-基础知识" class="headerLink">
+    <a href="#c-%e5%9f%ba%e7%a1%80%e7%9f%a5%e8%af%86" class="header-mark"></a>C++ 基础知识</h2><h3 id="动态内存与释放" class="headerLink">
+    <a href="#%e5%8a%a8%e6%80%81%e5%86%85%e5%ad%98%e4%b8%8e%e9%87%8a%e6%94%be" class="header-mark"></a>动态内存与释放</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">char</span><span class="o">*</span> <span class="n">name</span><span class="p">;</span> <span class="k">delete</span> <span class="p">[]</span> <span class="n">name</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Birds</span><span class="p">()</span> <span class="p">{</span><span class="n">name</span><span class="o">=</span><span class="k">new</span> <span class="kt">char</span><span class="p">[</span><span class="mi">256</span><span class="p">]}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>利用指针实现动态内存分配。同值对象指向相同address</p>
+<p>Shell命令查看内存泄漏状况<code>valgrind filename</code></p>
+<p>释放内存：及时delete变量。由于为指针，要防止指向新地址时原内存未被释放。</p>
+<h3 id="template" class="headerLink">
+    <a href="#template" class="header-mark"></a>template</h3><p>编译时自动填充typename
+在类外撰写类成员函数时需要添加
+可指定T的具体类型</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="k">template</span><span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Array</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">FunctionName</span><span class="p">(</span><span class="k">const</span> <span class="n">Array</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="n">_obj</span><span class="p">)</span> <span class="p">{}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="关键字修饰符" class="headerLink">
+    <a href="#%e5%85%b3%e9%94%ae%e5%ad%97%e4%bf%ae%e9%a5%b0%e7%ac%a6" class="header-mark"></a>关键字修饰符</h3><h4 id="const" class="headerLink">
+    <a href="#const" class="header-mark"></a>const</h4><p>对成员函数：修饰非静态数据，只读化。应尽可能将该成员函数声明为const 成员函数，除非成员函数需要修改数据成员。const可访问非常量数据，反之不可。指针数据可以被const 函数修改。
+<code>Class:: func() const {}</code></p>
+<p>对形参：指针传递，禁止修改指针指向地址内存数据；值传递不需要const保护。</p>
+<p><code>void copyMemory(const T* _s,T* _d,int _n);</code></p>
+<h4 id="static" class="headerLink">
+    <a href="#static" class="header-mark"></a>Static</h4><p>静态变量，延长生命周期又相较全局变量保留了一定的访问范围。需要一个数据对象为整个类而非某个对象服务,同时又力求不破坏类的封装性,即要求此成员隐藏在类的内部时使用。</p>
+<h4 id="this" class="headerLink">
+    <a href="#this" class="header-mark"></a>*this</h4><p>指向obj自身的指针</p>
+<h4 id="explicit-显式转换" class="headerLink">
+    <a href="#explicit-%e6%98%be%e5%bc%8f%e8%bd%ac%e6%8d%a2" class="header-mark"></a>Explicit 显式转换</h4><p>explicit 对单参数构造函数限制隐式转换
+防止编译器进行类型等方式的强制转换。</p>
+<h3 id="宏定义" class="headerLink">
+    <a href="#%e5%ae%8f%e5%ae%9a%e4%b9%89" class="header-mark"></a>宏定义</h3><p>用于简化重复语句<code>#define TEMP template&lt;typename T&gt;</code></p>
+<p>编译处理</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#ifndef xxx
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define xxx
+</span></span></span><span class="line"><span class="cl"><span class="cp">#else
+</span></span></span><span class="line"><span class="cl"><span class="cp">#endif
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="传递-引用" class="headerLink">
+    <a href="#%e4%bc%a0%e9%80%92-%e5%bc%95%e7%94%a8" class="header-mark"></a>传递 引用</h3><h4 id="形参的值传递-指针传递-引用传递" class="headerLink">
+    <a href="#%e5%bd%a2%e5%8f%82%e7%9a%84%e5%80%bc%e4%bc%a0%e9%80%92-%e6%8c%87%e9%92%88%e4%bc%a0%e9%80%92-%e5%bc%95%e7%94%a8%e4%bc%a0%e9%80%92" class="header-mark"></a>形参的值传递 指针传递 引用传递</h4><p>默认为值传递，开辟新函数，储存实参数据；指针实质存在一层中介地址，引用传递直接对传入对象进行修改；*&amp;obj适用于struct对象，对其属性变量进行修改</p>
+<p>（1）T* a： 传递实参指针地址，及最终指向数据地址，但可以利用*a修改地址内存数据
+（2）T&amp; a：左值引用，实参的别名</p>
+<h4 id="左值-右值引用" class="headerLink">
+    <a href="#%e5%b7%a6%e5%80%bc-%e5%8f%b3%e5%80%bc%e5%bc%95%e7%94%a8" class="header-mark"></a>左值 右值引用</h4><p>右值引用&amp;&amp;：防止传递给形参T&amp; a的是常量（此时函数无法修改a）</p>
+<p><strong>看能不能对表达式取地址，如果能，则为左值，否则为右值</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">int</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="o">&amp;</span><span class="n">d</span> <span class="o">=</span> <span class="n">c</span><span class="p">;</span> <span class="c1">// error.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="o">&amp;&amp;</span><span class="n">d</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>约定</strong> rhs：引用；lhs：赋值</p>
+<h3 id="stdmove" class="headerLink">
+    <a href="#stdmove" class="header-mark"></a>std::move</h3><p>强制将左值转换为右值引用，如push_back避免开辟新内存</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">AvlNode</span><span class="p">(</span><span class="k">const</span> <span class="n">Comparable</span> <span class="o">&amp;</span> <span class="n">ele</span><span class="p">,</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">lt</span><span class="p">,</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">rt</span><span class="p">,</span> <span class="kt">int</span> <span class="n">h</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span><span class="o">:</span> <span class="n">element</span><span class="p">{</span><span class="n">ele</span><span class="p">},</span> <span class="n">left</span><span class="p">{</span><span class="n">lt</span><span class="p">},</span> <span class="n">right</span><span class="p">{</span><span class="n">rt</span><span class="p">},</span> <span class="n">height</span><span class="p">{</span><span class="n">h</span><span class="p">}</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl"><span class="n">AvlNode</span><span class="p">(</span><span class="n">Comparable</span> <span class="o">&amp;&amp;</span> <span class="n">ele</span><span class="p">,</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">lt</span><span class="p">,</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">rt</span><span class="p">,</span> <span class="kt">int</span> <span class="n">h</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span><span class="o">:</span> <span class="n">element</span><span class="p">{</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">ele</span><span class="p">)},</span> <span class="n">left</span><span class="p">{</span><span class="n">lt</span><span class="p">},</span> <span class="n">right</span><span class="p">{</span><span class="n">rt</span><span class="p">},</span> <span class="n">height</span><span class="p">{</span><span class="n">h</span><span class="p">}</span> <span class="p">{}</span> <span class="c1">//参数无地址，临时ele=参数
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="class--struct-封装" class="headerLink">
+    <a href="#class--struct-%e5%b0%81%e8%a3%85" class="header-mark"></a>Class &amp; Struct 封装</h3><p>外部只提供相应功能的接口，不允许直接对底层对象进行修改。</p>
+<h4 id="复制构造函数" class="headerLink">
+    <a href="#%e5%a4%8d%e5%88%b6%e6%9e%84%e9%80%a0%e5%87%bd%e6%95%b0" class="header-mark"></a>复制构造函数</h4><p>将b中成员属性复制到c： <code>Birds c(b);</code>
+类中处理：定义拷贝函数；否则：缺省。
+需要开辟新的动态内存</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">Birds</span><span class="p">(</span><span class="n">Birds</span> <span class="n">_obj</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="n">name</span><span class="o">=</span><span class="k">new</span> <span class="kt">char</span> <span class="p">[</span><span class="mi">256</span><span class="p">];</span> 
+</span></span><span class="line"><span class="cl"><span class="n">for循环迭代载入name</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">_obj</span><span class="p">.</span><span class="n">name</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="函数化" class="headerLink">
+    <a href="#%e5%87%bd%e6%95%b0%e5%8c%96" class="header-mark"></a>函数化</h4><p>如复制构造函数中的copyMemory，便于多核并行运算。</p>
+<h4 id="struct-定义传入参数" class="headerLink">
+    <a href="#struct-%e5%ae%9a%e4%b9%89%e4%bc%a0%e5%85%a5%e5%8f%82%e6%95%b0" class="header-mark"></a>struct 定义传入参数</h4><p>使得struct能够直接在定义时传入相应参数</p>
+<p><code>BinaryNode(const Comparable&amp; theElement, BinaryNode *lt, BinaryNode *rt): element(theElement),left(lt),right(rt) {}</code></p>
+<h4 id="operator-重载运算符" class="headerLink">
+    <a href="#operator-%e9%87%8d%e8%bd%bd%e8%bf%90%e7%ae%97%e7%ac%a6" class="header-mark"></a>Operator 重载运算符</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">const Array&amp; operator=(const Array&amp; _obj)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="注释" class="headerLink">
+    <a href="#%e6%b3%a8%e9%87%8a" class="header-mark"></a>注释</h3><p>doxymacs/doxygen格式的注释：
+可以通过命令提取所有相应注释以html方式直观显示。</p>
+<h3 id="standard-template-library" class="headerLink">
+    <a href="#standard-template-library" class="header-mark"></a>Standard Template Library</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// get random number.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">srand</span><span class="p">((</span><span class="kt">unsigned</span><span class="p">)</span><span class="n">time</span><span class="p">(</span><span class="k">nullptr</span><span class="p">));</span> <span class="c1">// 随机种子
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="o">=</span><span class="n">rand</span><span class="p">()</span><span class="o">%</span><span class="mi">10</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="n">abs</span><span class="p">();</span><span class="n">min</span><span class="p">();</span><span class="n">max</span><span class="p">();</span><span class="n">swap</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;cmath&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="n">sqrt</span><span class="p">();</span><span class="n">sin</span><span class="p">();</span><span class="n">cos</span><span class="p">();</span><span class="n">tan</span><span class="p">();</span><span class="n">pow</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;ctime&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="n">clock_t</span> <span class="n">start</span> <span class="o">=</span> <span class="n">clock</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="复杂度" class="headerLink">
+    <a href="#%e5%a4%8d%e6%9d%82%e5%ba%a6" class="header-mark"></a>复杂度</h2><h3 id="big-o" class="headerLink">
+    <a href="#big-o" class="header-mark"></a>big O</h3><p>$1000N=O(N^2); (logN)^k=O(N);\$
+$1 &lt; logN &lt; N &lt; NlogN &lt; N^2$</p>
+<h3 id="时间复杂度" class="headerLink">
+    <a href="#%e6%97%b6%e9%97%b4%e5%a4%8d%e6%9d%82%e5%ba%a6" class="header-mark"></a>时间复杂度</h3><blockquote>
+<p>for循环｜内语句*迭代次数；嵌套循环
+顺序语句｜求和，取Max；判定语句
+NlogN|最大子序列问题 一次N遍历&amp;一次二分查找
+logN｜二分搜索，欧几里得</p>
+</blockquote>
+<h2 id="主定理" class="headerLink">
+    <a href="#%e4%b8%bb%e5%ae%9a%e7%90%86" class="header-mark"></a>主定理</h2><p><strong>归纳法证明：</strong> （例）</p>
+<p>**一般性证明：**构造树，$depth=log(b,n)，widget=a^{(log(b,n))}=n^{(log(b,a))}$</p>
+<p><em>实例：二分查找</em>
+$$
+T(n) = T(n/2) + O(1)  \
+T(n/2) = T(n/4) + O(1)  \<br>
+&hellip;\
+T(2) = T(1) + O(1)     \
+T(1) = O(1)\
+a=1,b=2,k=0\代入得O(logN);
+$$</p>
+<p>另可直接证，由于为1/2,1/4&hellip;1/n,尾项2^k项为n，故共logn项，T(n)=logn*o(1)=logn</p>
+<h2 id="vector--list--stack--queues" class="headerLink">
+    <a href="#vector--list--stack--queues" class="header-mark"></a>Vector &amp; List &amp; Stack &amp; Queues</h2><h3 id="iterator" class="headerLink">
+    <a href="#iterator" class="header-mark"></a>iterator</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">iterator</span> <span class="n">a</span><span class="o">=</span><span class="n">A</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">i</span> <span class="o">=</span> <span class="n">find</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="mi">1</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="vector--list" class="headerLink">
+    <a href="#vector--list" class="header-mark"></a>Vector &amp; List</h3><p>Array|经典数组
+Vector|批量分配内存的数组，空间不够时再申请新的内存；模板化<T>；允许拷贝赋值
+List|链表 Single/Double-Linked-List <strong>双链表</strong> 表头、尾、哨兵结点</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span> <span class="c1">//10个初值为1的元素
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="n">b</span><span class="p">.</span><span class="n">begin</span><span class="o">+</span><span class="mi">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//共有
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span><span class="n">a</span><span class="p">.</span><span class="n">empty</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">front</span><span class="p">();</span><span class="n">a</span><span class="p">.</span><span class="n">back</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span><span class="c1">//现有元素数目调整,多删少补,未给定参数2则随机
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Vector
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span><span class="n">a</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">pop_back</span><span class="p">();</span><span class="n">a</span><span class="p">.</span><span class="n">swap</span><span class="p">(</span><span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span><span class="c1">//容量
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// List
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">.</span><span class="n">push_front</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">single_val</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">remove_if</span><span class="p">(</span><span class="n">condition</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">unique</span><span class="p">();</span><span class="c1">//去重
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>Access</th>
+<th>Insert</th>
+<th>Delete</th>
+<th>Search</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array/Vector</td>
+<td>1</td>
+<td>n</td>
+<td>n</td>
+<td>n</td>
+</tr>
+<tr>
+<td>Single-linked-List</td>
+<td>n</td>
+<td>1</td>
+<td>1</td>
+<td>n</td>
+</tr>
+<tr>
+<td>Double-linked-List</td>
+<td>n</td>
+<td>1</td>
+<td>1</td>
+<td>n</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stack--queue" class="headerLink">
+    <a href="#stack--queue" class="header-mark"></a>Stack &amp; Queue</h3><p><code>pop() push() size() swap() empty();</code>Stack:LIFO <code>top();</code> Queue:FIFO <code>front() back();</code></p>
+<h4 id="stack-计算器" class="headerLink">
+    <a href="#stack-%e8%ae%a1%e7%ae%97%e5%99%a8" class="header-mark"></a>Stack 计算器</h4><p>前缀/后缀。<strong>中缀转后缀：</strong><code>A+B*(C-D)-E/F</code>转为<code>ABCD−∗+EF/−</code></p>
+<p>优先级设置 ‘*’ = ‘/’ &gt; ‘+’ = ‘-’ &gt;
+style1:‘(’优先级最高，如直接读入；推入操作符时不弹
+style2:‘(’优先级最低，强制直接读入
+数字直接放到[输出列]，右括号直接弹到左括号止；操作符：栈弹出直到遇到比自己优先级低的操作符再入栈。计算：顺序读取，数字入栈，符号弹出两数字运算，结果入栈</p>
+<h2 id="树" class="headerLink">
+    <a href="#%e6%a0%91" class="header-mark"></a>树</h2><p>Binary Tree 二叉树平均深度O(√N)，表达式树应用；</p>
+<h3 id="二叉搜索树" class="headerLink">
+    <a href="#%e4%ba%8c%e5%8f%89%e6%90%9c%e7%b4%a2%e6%a0%91" class="header-mark"></a>二叉搜索树</h3><p>左小右大；平均深度O(logN)最坏深度O(N-1)</p>
+<h4 id="构建" class="headerLink">
+    <a href="#%e6%9e%84%e5%bb%ba" class="header-mark"></a><strong>构建</strong></h4><p>contains｜findMin(Max)｜insert｜～:makeEmpty递归</p>
+<p>copy| clone，递归return new node; 重载运算符：this!=&amp;rhs则makeEmpty再clone rhs.root，最终return *this</p>
+<p>remove|(*&amp;t)t为结点地址；空,return;t&lt;&gt;x判断;t=x.</p>
+<p>双子:t-&gt;ele=findmax(t-&gt;right)-&gt;ele,remove(t-&gt;ele;t-&gt;right); // 右子找min代入t,删除该min</p>
+<p>单子/无子：T*oldNode=t,另引入的参数t=t-&gt;left/right相当于改结点地址为t左/右子，再删oldNode即删了原结点.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// findmin: 递归或while 注意空树直接返回nullptr
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">BinaryNode</span> <span class="o">*</span> <span class="nf">findMin</span><span class="p">(</span> <span class="n">BinaryNode</span> <span class="o">*</span><span class="n">t</span> <span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">t</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">nullptr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">findMin</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// insert
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mf">1.</span><span class="k">if</span> <span class="n">t</span><span class="o">==</span><span class="k">nullptr</span><span class="o">:</span><span class="k">new</span> <span class="n">node</span><span class="p">{</span><span class="n">x</span><span class="p">,</span><span class="k">nullptr</span><span class="p">,</span><span class="k">nullptr</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="mf">2.</span><span class="k">else</span> <span class="n">compare</span> <span class="n">x</span><span class="p">,</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">ele</span><span class="p">,</span><span class="err">递归</span>
+</span></span><span class="line"><span class="cl"><span class="mf">3.</span><span class="n">balance</span> <span class="n">and</span> <span class="n">update</span> <span class="n">the</span> <span class="n">height</span><span class="p">(</span><span class="n">max</span><span class="p">(</span><span class="n">subtree</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">).</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="关于-struct-构造" class="headerLink">
+    <a href="#%e5%85%b3%e4%ba%8e-struct-%e6%9e%84%e9%80%a0" class="header-mark"></a>关于 struct 构造</h4><p>BinaryNode置于private；针对struct的操作也位于private部分</p>
+<p>外部操作→public函数→private函数</p>
+<h4 id="关于-function-参数" class="headerLink">
+    <a href="#%e5%85%b3%e4%ba%8e-function-%e5%8f%82%e6%95%b0" class="header-mark"></a>关于 function 参数</h4><p>对Struct BinaryNode，由于其element为变量，left/right为指针，fuction引用时应采用(BinaryNode * &amp; t)，引用Node地址</p>
+<h4 id="时间分析" class="headerLink">
+    <a href="#%e6%97%b6%e9%97%b4%e5%88%86%e6%9e%90" class="header-mark"></a>时间分析</h4><p>内部路径长｜所有结点的深度和；递推关系、秩，D(N)=D(i)+D(N-i-1)+N-1 =&gt; O(NlogN),average</p>
+<p>任意结点预期深度logN；交替insert/remove O(N^2)，期望深度O(√N)</p>
+<h3 id="balance-树" class="headerLink">
+    <a href="#balance-%e6%a0%91" class="header-mark"></a>Balance 树</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">/// Height 处理
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Binary Tree
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">height</span><span class="p">(</span> <span class="n">BinaryNode</span> <span class="o">*</span><span class="n">t</span> <span class="p">)</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">t</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">max</span><span class="p">(</span><span class="n">height</span><span class="p">(</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">),</span> <span class="n">height</span><span class="p">(</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// AVL Tree: Struct AvlNode has added the val &#39;height&#39;.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">height</span><span class="p">(</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">t</span> <span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">t</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="o">?</span> <span class="o">-</span><span class="mi">1</span> <span class="o">:</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">height</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="avl-树" class="headerLink">
+    <a href="#avl-%e6%a0%91" class="header-mark"></a>AVL 树</h4><p>每个结点的左子树和右子树高度最多差1（空树为-1）</p>
+<p><strong>Rotation的具体实现</strong></p>
+<table>
+<thead>
+<tr>
+<th>插入方式</th>
+<th>描述</th>
+<th>旋转方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LL</td>
+<td>在a的<strong>左子树</strong>根节点的<strong>左子树</strong>上插入节点而破坏平衡</td>
+<td>右旋转</td>
+</tr>
+<tr>
+<td>RR</td>
+<td>在a的<strong>右子树</strong>根节点的<strong>右子树</strong>上插入节点而破坏平衡</td>
+<td>左旋转</td>
+</tr>
+<tr>
+<td>LR</td>
+<td>在a的<strong>左子树</strong>根节点的<strong>右子树</strong>上插入节点而破坏平衡</td>
+<td>先左旋后右旋</td>
+</tr>
+<tr>
+<td>RL</td>
+<td>在a的<strong>右子树</strong>根节点的<strong>左子树</strong>上插入节点而破坏平衡</td>
+<td>先右旋后左旋</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// insert. 伪代码
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">x</span><span class="o">&lt;</span><span class="n">t</span><span class="o">-&gt;</span><span class="nl">ele</span><span class="p">:</span><span class="err">左插入，</span><span class="n">insert</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">),</span><span class="err">此时判定</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="n">balance</span> <span class="nl">condition</span><span class="p">:</span><span class="n">height</span> <span class="n">of</span> <span class="n">left</span><span class="o">-</span><span class="n">right</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">then</span> <span class="k">if</span> <span class="n">x</span><span class="o">&lt;</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="o">-&gt;</span><span class="n">ele</span> <span class="err">即</span><span class="n">LL</span><span class="err">，对</span><span class="n">t调用右旋</span> <span class="c1">// 其余同理
+</span></span></span><span class="line"><span class="cl"><span class="c1">// right rotation. (for LL-insert style)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="n">rotateWithLeftChild</span><span class="p">(</span> <span class="n">AvlNode</span> <span class="o">*</span> <span class="o">&amp;</span> <span class="n">k2</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">AvlNode</span> <span class="o">*</span><span class="n">k1</span> <span class="o">=</span> <span class="n">k2</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">k2</span><span class="o">-&gt;</span><span class="n">left</span> <span class="o">=</span> <span class="n">k1</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">k1</span><span class="o">-&gt;</span><span class="n">right</span> <span class="o">=</span> <span class="n">k2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// after rotation , update the height.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">k2</span><span class="o">-&gt;</span><span class="n">height</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">k2</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">),</span> <span class="n">height</span><span class="p">(</span> <span class="n">k2</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">k1</span><span class="o">-&gt;</span><span class="n">height</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">k1</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">),</span> <span class="n">k2</span><span class="o">-&gt;</span><span class="n">height</span> <span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">k2</span> <span class="o">=</span> <span class="n">k1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// LR-insert.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="nf">doubleWithLeftChild</span><span class="p">(</span> <span class="n">AvlNode</span> <span class="o">*</span> <span class="o">&amp;</span> <span class="n">k3</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">rotateWithRightChild</span><span class="p">(</span> <span class="n">k3</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">rotateWithLeftChild</span><span class="p">(</span> <span class="n">k3</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>时间复杂度分析</strong>:计算高度O(logN)；保证查询O(logN)避免Binary Tree最坏的N；但由于旋转存在，操作效率低，特别是remove时可能需要一直旋转到根；额外封装，繁琐</p>
+<p>*另一种写法：独立的balance操作</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// at the end of each insert or remove operation, you need to do &#34;balance(t)&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">static</span> <span class="k">const</span> <span class="kt">int</span> <span class="n">ALLOWED_IMBALANCE</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">balance</span><span class="p">(</span> <span class="n">AvlNode</span> <span class="o">*</span> <span class="o">&amp;</span> <span class="n">t</span> <span class="p">)</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">t</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">)</span> <span class="o">-</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="o">&gt;</span> <span class="n">ALLOWED_IMBALANCE</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">)</span> <span class="o">&gt;=</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">      <span class="n">rotateWithLeftChild</span><span class="p">(</span> <span class="n">t</span> <span class="p">);</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">else</span> 
+</span></span><span class="line"><span class="cl">      <span class="n">doubleWithLeftChild</span><span class="p">(</span> <span class="n">t</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="o">-</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">)</span> <span class="o">&gt;</span> <span class="n">ALLOWED_IMBALANCE</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="o">&gt;=</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">)</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">      <span class="n">rotateWithRightChild</span><span class="p">(</span> <span class="n">t</span> <span class="p">);</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">else</span>
+</span></span><span class="line"><span class="cl">      <span class="n">doubleWithRightChild</span><span class="p">(</span> <span class="n">t</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">t</span><span class="o">-&gt;</span><span class="n">height</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">),</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="splay-树" class="headerLink">
+    <a href="#splay-%e6%a0%91" class="header-mark"></a>Splay 树*</h4><p>保证从空树开始任意连续M次操作最多花费O(MlogN)的时间</p>
+<h3 id="traversals" class="headerLink">
+    <a href="#traversals" class="header-mark"></a>Traversals</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// 前序
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">文件路径展开</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 中序 O(N)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">if</span><span class="p">(</span> <span class="n">t</span> <span class="o">!=</span> <span class="k">nullptr</span> <span class="p">)</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">printTree</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">,</span> <span class="n">out</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span> <span class="o">&lt;&lt;</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">element</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">printTree</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">,</span> <span class="n">out</span> <span class="p">);</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 后序 O(N)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">高度计算</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 层序
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">using</span> <span class="o">&lt;</span><span class="n">queue</span><span class="o">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="b-树" class="headerLink">
+    <a href="#b-%e6%a0%91" class="header-mark"></a>B 树*</h3><h3 id="sets--maps" class="headerLink">
+    <a href="#sets--maps" class="header-mark"></a>Sets &amp; Maps</h3><p>Sets｜排序、去重</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="c1">//logN
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">swap</span><span class="p">(</span><span class="n">b</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Maps｜key-value(&gt;=1)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">map</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">map</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;::</span><span class="n">iterator</span> <span class="n">b</span><span class="p">;</span> <span class="c1">// key:b-&gt;first; value:b-&gt;second....
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="哈希" class="headerLink">
+    <a href="#%e5%93%88%e5%b8%8c" class="header-mark"></a>哈希</h2><p>散列表；[insert/search/delete]average:O(1)；Key -&gt; Table；素数 TableSize；collision</p>
+<h3 id="分析" class="headerLink">
+    <a href="#%e5%88%86%e6%9e%90" class="header-mark"></a>分析</h3><p>**负数补偿？**value&lt;0，then+tableSize</p>
+<p>**均匀分配键：**单元数目有限，键数实际上无穷；习惯：0～tableSize-1</p>
+<p>装填因子；分离链接法（缺点：内存分配耗时）；除了链表，也可用二叉树/新散列表</p>
+<h3 id="开放寻址法" class="headerLink">
+    <a href="#%e5%bc%80%e6%94%be%e5%af%bb%e5%9d%80%e6%b3%95" class="header-mark"></a>开放寻址法</h3><p>冲突解决函数，𝝀&lt;0.5聚集效应,f(i)为冲突点与探查点的距离</p>
+<p>线性探测:f(i)=i；一次聚集-占据单元形成区块</p>
+<p>平方探测:f(i)=i^2<em>保证表的大小是素数，否则表被填满一半就找不到空单元了</em>；二次聚集</p>
+<p>双散列:f(i)=i*hash(x),结果不可以为0；example，hash(x)=R-(xmodR)</p>
+<h3 id="再散列" class="headerLink">
+    <a href="#%e5%86%8d%e6%95%a3%e5%88%97" class="header-mark"></a>再散列</h3><p>O(N);一半/插满的策略;</p>
+<p>途中策略：某一装填因子</p>
+<h3 id="可扩散列" class="headerLink">
+    <a href="#%e5%8f%af%e6%89%a9%e6%95%a3%e5%88%97" class="header-mark"></a>可扩散列*</h3><h2 id="priority-queues--heaps" class="headerLink">
+    <a href="#priority-queues--heaps" class="header-mark"></a>Priority Queues &amp; Heaps</h2><h3 id="二叉堆" class="headerLink">
+    <a href="#%e4%ba%8c%e5%8f%89%e5%a0%86" class="header-mark"></a>二叉堆</h3><p>完全二叉树；最小堆、最大堆；数组存储i,2i,2i+1；查找O(N)；堆序性质</p>
+<p>**为何选用Heap？**Min/Max:O(1)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">insert</span><span class="p">(</span> <span class="k">const</span> <span class="n">Comparable</span> <span class="o">&amp;</span> <span class="n">x</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// check size.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">if</span><span class="p">(</span> <span class="n">currentSize</span> <span class="o">==</span> <span class="n">array</span><span class="p">.</span><span class="n">size</span><span class="p">(</span> <span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">array</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span> <span class="n">array</span><span class="p">.</span><span class="n">size</span><span class="p">(</span> <span class="p">)</span> <span class="o">*</span> <span class="mi">2</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Percolate up 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">hole</span> <span class="o">=</span> <span class="o">++</span><span class="n">currentSize</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Comparable</span> <span class="n">copy</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">array</span><span class="p">[</span> <span class="mi">0</span> <span class="p">]</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span> <span class="n">copy</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span><span class="p">(</span> <span class="p">;</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">array</span><span class="p">[</span> <span class="n">hole</span> <span class="o">/</span> <span class="mi">2</span> <span class="p">];</span> <span class="n">hole</span> <span class="o">/=</span> <span class="mi">2</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">array</span><span class="p">[</span> <span class="n">hole</span> <span class="p">]</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span> <span class="n">array</span><span class="p">[</span> <span class="n">hole</span> <span class="o">/</span> <span class="mi">2</span> <span class="p">]</span> <span class="p">);</span> <span class="c1">// 规避大量交换
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">array</span><span class="p">[</span> <span class="n">hole</span> <span class="p">]</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span> <span class="n">array</span><span class="p">[</span> <span class="mi">0</span> <span class="p">]</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="applications-of-priority-queues" class="headerLink">
+    <a href="#applications-of-priority-queues" class="header-mark"></a>Applications of Priority Queues</h3><h2 id="排序" class="headerLink">
+    <a href="#%e6%8e%92%e5%ba%8f" class="header-mark"></a>排序</h2><h3 id="插入排序" class="headerLink">
+    <a href="#%e6%8f%92%e5%85%a5%e6%8e%92%e5%ba%8f" class="header-mark"></a>插入排序</h3><h3 id="快排" class="headerLink">
+    <a href="#%e5%bf%ab%e6%8e%92" class="header-mark"></a>快排</h3><h4 id="pivot策略" class="headerLink">
+    <a href="#pivot%e7%ad%96%e7%95%a5" class="header-mark"></a>Pivot策略</h4><p><strong>最好/坏可能性</strong></p>
+<p>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度
+每次问题规模减半，a=2，b=2，d=1
+复杂度为n^2 log(n)
+最差情况下，复杂度为O(n^2)</p>
+<h4 id="选择的线性期望时间算法" class="headerLink">
+    <a href="#%e9%80%89%e6%8b%a9%e7%9a%84%e7%ba%bf%e6%80%a7%e6%9c%9f%e6%9c%9b%e6%97%b6%e9%97%b4%e7%ae%97%e6%b3%95" class="header-mark"></a>选择的线性期望时间算法</h4><h3 id="线性时间排序-bucket-sort-and-radix-sort-复杂度分析" class="headerLink">
+    <a href="#%e7%ba%bf%e6%80%a7%e6%97%b6%e9%97%b4%e6%8e%92%e5%ba%8f-bucket-sort-and-radix-sort-%e5%a4%8d%e6%9d%82%e5%ba%a6%e5%88%86%e6%9e%90" class="header-mark"></a>线性时间排序: Bucket Sort and Radix Sort 复杂度分析</h3><h3 id="计基数排序非比较算法" class="headerLink">
+    <a href="#%e8%ae%a1%e5%9f%ba%e6%95%b0%e6%8e%92%e5%ba%8f%e9%9d%9e%e6%af%94%e8%be%83%e7%ae%97%e6%b3%95" class="header-mark"></a>计（基）数排序——非比较算法</h3><p>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次
+每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1
+复杂度为n^1 log(n) = nlog(n)，近似为O(kN)，k为整数的位数</p>
+<h3 id="归并排序堆排序" class="headerLink">
+    <a href="#%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f%e5%a0%86%e6%8e%92%e5%ba%8f" class="header-mark"></a>归并排序/堆排序</h3><p><em>归并排序</em> ｜ 数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)
+每次问题规模减半，a=2，b=2，d=1
+复杂度为nlog(n)</p>
+<h2 id="图论" class="headerLink">
+    <a href="#%e5%9b%be%e8%ae%ba" class="header-mark"></a>图论</h2><p>G[graph] -&gt; V[vertex],E[edge(arc)],path；digraph 有向；Weight&amp;cost 权/值；Adjacent 邻接；cycle 回路：满足w1=wN length&gt;=1；loop 环：回到自身，length=0；Simple path 简单路径；强/弱连通、基础图/完全图</p>
+<h3 id="表示" class="headerLink">
+    <a href="#%e8%a1%a8%e7%a4%ba" class="header-mark"></a>表示</h3><p>Adjacent Matrix：dense <code>A[u][v]</code></p>
+<p>Adjacent List：sparse O(|E|+|V|)</p>
+<h3 id="拓扑排序" class="headerLink">
+    <a href="#%e6%8b%93%e6%89%91%e6%8e%92%e5%ba%8f" class="header-mark"></a>拓扑排序</h3><p>find indegree=0 v1 -&gt; delete v1, neighbors indegree-1 -&gt;find indegree=0 v2&hellip;</p>
+<p>![image-20211231162550699](/Users/ralvine/Library/Application Support/typora-user-images/image-20211231162550699.png)</p>
+<p>O(V^2) using <Queue></p>
+<h3 id="dijkstras" class="headerLink">
+    <a href="#dijkstras" class="header-mark"></a>Dijkstras</h3><h3 id="最坏可能" class="headerLink">
+    <a href="#%e6%9c%80%e5%9d%8f%e5%8f%af%e8%83%bd" class="header-mark"></a>最坏可能</h3><h3 id="可对负边权使用的算法" class="headerLink">
+    <a href="#%e5%8f%af%e5%af%b9%e8%b4%9f%e8%be%b9%e6%9d%83%e4%bd%bf%e7%94%a8%e7%9a%84%e7%ae%97%e6%b3%95" class="header-mark"></a>可对负边权使用的算法</h3><h3 id="最小生成树" class="headerLink">
+    <a href="#%e6%9c%80%e5%b0%8f%e7%94%9f%e6%88%90%e6%a0%91" class="header-mark"></a>最小生成树</h3><p>如何扩张（Ch10）</p>
+<h3 id="深度优先-广度优先" class="headerLink">
+    <a href="#%e6%b7%b1%e5%ba%a6%e4%bc%98%e5%85%88-%e5%b9%bf%e5%ba%a6%e4%bc%98%e5%85%88" class="header-mark"></a>深度优先 广度优先</h3><h2 id="算法设计补充" class="headerLink">
+    <a href="#%e7%ae%97%e6%b3%95%e8%ae%be%e8%ae%a1%e8%a1%a5%e5%85%85" class="header-mark"></a>算法设计补充</h2><h3 id="贪心算法" class="headerLink">
+    <a href="#%e8%b4%aa%e5%bf%83%e7%ae%97%e6%b3%95" class="header-mark"></a>贪心算法</h3><p>ch10.1 分析复杂度</p>
+<h3 id="分治算法-divide-and-conquer" class="headerLink">
+    <a href="#%e5%88%86%e6%b2%bb%e7%ae%97%e6%b3%95-divide-and-conquer" class="header-mark"></a>分治算法 Divide-and-Conquer</h3><p>分而治之，递归</p>
+<h3 id="dynamic-programming" class="headerLink">
+    <a href="#dynamic-programming" class="header-mark"></a>Dynamic Programming</h3><p>ch10.3 与d-c的比较（自底向上&amp;自顶向下）</p>
+<h3 id="回溯法" class="headerLink">
+    <a href="#%e5%9b%9e%e6%ba%af%e6%b3%95" class="header-mark"></a>回溯法</h3>]]></description>
+</item></channel>
+</rss>
