@@ -1,6 +1,11 @@
 # 🤝 友链
 
 
+<center>
+{{< typeit >}}
+雄关漫道真如铁 而今迈步从头越
+{{< /typeit >}}</center>
+
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" bio="一个记录技术、阅读、生活的博客" >}}
 
 {{< friend name="长街短梦" url="https://wangyunzi.com/" avatar="https://blog.wangyunzi.com/avatar.png" bio="此行山高路远，我只剩口袋玫瑰一片" >}}

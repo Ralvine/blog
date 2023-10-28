@@ -21,7 +21,7 @@
 <center><b>@Ralvine</b></center>
 <center>
 {{< typeit >}}
-以我观物，故物皆著我之色彩。
+以我观物 故物皆著我之色彩
 {{< /typeit >}}
 </center>
 

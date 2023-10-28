@@ -7,5 +7,9 @@
 
 ![☕️赞助我一杯咖啡](/blog/images/qrcode.jpg)
 
-<center>☕️</center>
-<center>赞助我一杯咖啡</center>
+<center>
+{{< typeit >}}
+☕️
+
+赞助我一杯咖啡
+{{< /typeit >}}</center>
