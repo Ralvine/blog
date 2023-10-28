@@ -5,7 +5,7 @@
 
 {{< friend name="长街短梦" url="https://wangyunzi.com/" avatar="https://blog.wangyunzi.com/avatar.png" bio="此行山高路远，我只剩口袋玫瑰一片" >}}
 
-{{< friend name="频率" url="https://www.sulvblog.cn" avatar="https://pinlyu.com/resources/img/avatar.webp" bio="风卷过的起点" >}}
+{{< friend name="频率" url="https://pinlyu.com/" avatar="https://pinlyu.com/resources/img/avatar.webp" bio="风卷过的起点" >}}
 
 {{< friend name="Night1918" url="https://blog.jyhao.cn" avatar="https://blog.jyhao.cn/img/favicon.png" bio="一个爱折腾的大学生" >}}
 
