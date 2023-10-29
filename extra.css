@@ -12,7 +12,13 @@
     margin: 2px;
     flex: 0 0 30%;
     display:flex;
+    transition: transform 0.3s ease
 }
+
+.subpage-box-cover:hover {
+    transform: scale(1.05);
+}
+
 
 .subpage-box-cover a {
     border-bottom:none
@@ -24,12 +30,11 @@
     margin: 0;
     object-fit: cover;
     opacity:.9;
-    transition: transform 0.3s ease
 }
 
 .subpage-box-cover img:hover {
     opacity:.7;
-    transform: scale(1.05)
+    
 }
 
 .subpage-box-cover .image-caption {

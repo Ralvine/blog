@@ -14,8 +14,8 @@
 ---
 
 <center>
-{{< typeit >}}
-👏
+{{< typeit >}}👏{{< /typeit >}}</center>
 
-欢迎在本页面留下您的足迹{{< /typeit >}}</center>
+<center>
+{{< typeit >}}欢迎在本页面留下您的足迹{{< /typeit >}}</center>
 

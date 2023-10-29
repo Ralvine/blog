@@ -18,16 +18,14 @@
   </div>
   <div class="subpage-box-cover">
     <a href="books/" data-pjax-state="">
-      <p class="image-caption">长沙</p>
+      <p class="image-caption">武汉</p>
       <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
     <a href="books/" data-pjax-state="">
-      <p class="image-caption">长沙</p>
+      <p class="image-caption">乌镇</p>
       <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
     </a>
   </div>
 </div>
-
-## 💬 讨论区

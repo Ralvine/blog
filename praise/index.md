@@ -12,7 +12,7 @@
 
 <center>
 {{< typeit >}}
-☕️
+☕️{{< /typeit >}}</center>
 
-赞助我一杯咖啡
-{{< /typeit >}}</center>
+<center>
+{{< typeit >}}赞助我一杯咖啡{{< /typeit >}}</center>
