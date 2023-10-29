@@ -1,17 +1,14 @@
 # 🌳 归档
 
 
-
-<center>
-  {{< typeit >}}
-  “施工中”
-  {{< /typeit >}}
-  🌗<br>
-  <a href="https://blog.ralvines.top/friend/"><font face="黑体" size=3 color="#000000">标签</font></a> / <a href="https://blog.ralvines.top/board/"><font face="黑体" size=3 color="#000000">分类</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="黑体" size=3 color="#000000">系列</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="黑体" size=3 color="#000000">所有文章</font></a>
+<center>  
+  <br>
+  <a href="https://blog.ralvines.top/friend/"><font face="LXGW WenKai Screen" size=3 color="#333333">分类</font></a> / <a href="https://blog.ralvines.top/board/"><font face="LXGW WenKai Screen" size=3 color="#333333">标签</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="LXGW WenKai Screen" size=3 color="#333333">系列</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="LXGW WenKai Screen" size=3 color="#333333">所有文章</font></a>
+  <br>
 </center>
 
----
-
+<br>
+<div style="column-count: 2">
 
 ## ⏳ 回溯
  成长
@@ -51,3 +48,4 @@
  读书
  变革
 
+</div>

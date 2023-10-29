@@ -2,17 +2,11 @@
 
 
 
----
-
-<center>
-  {{< typeit >}}
-  “雄关漫道真如铁 而今迈步从头越”
-  {{< /typeit >}}
-  🌗<br>
-  <a href="https://blog.ralvines.top/friend/"><u><font face="黑体" size=3 color="#000000">友链</u></font></a> / <a href="https://blog.ralvines.top/board/"><font face="黑体" size=3 color="#000000">留言板</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="黑体" size=3 color="#000000">赞赏</font></a>
+<center>  
+  <br>
+  <a href="https://blog.ralvines.top/friend/"><font face="LXGW WenKai Screen" size=3 color="#333333">友链</font></a> / <a href="https://blog.ralvines.top/board/"><font face="LXGW WenKai Screen" size=3 color="#333333">留言板</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="LXGW WenKai Screen" size=3 color="#333333">赞赏</font></a>
+  <br>
 </center>
-
----
 
 
 
@@ -47,6 +41,11 @@
 {{< friend name="SaraKale’s blog" url="https://sarakale.top/blog" avatar="https://npm.elemecdn.com/sarakale-assets@v1/sarakale.jpg" bio="星轮流转，唯心不变…" >}}
 
 {{< friend name="晓雨杂记" url="https://lihaoyu.cn" avatar="https://blog-api.lihaoyu.cn/images/profile/avatar-128x.webp" bio="也许我们会分别，但我们将永远不会忘记彼此" >}}
+
+{{< friend name="空白Koobai" url="https://koobai.com" avatar="https://img.koobai.com/photo/koobai.webp" bio="一张纸一个画布一段人生" >}}
+
+{{< friend name="爱扑bug的熊" url="https://blog.cuijiacai.com" avatar="https://blog.cuijiacai.com/img/profile.png" bio="钱塘依旧，潮生潮落。" >}}
+
 
 
 ## 👉 交换友链

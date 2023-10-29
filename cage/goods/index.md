@@ -1,6 +1,13 @@
 # 📱 产品
 
 
+<center>  
+  <br>
+  <a href="https://blog.ralvines.top/friend/"><font face="LXGW WenKai Screen" size=3 color="#333333">友链</font></a> / <a href="https://blog.ralvines.top/board/"><font face="LXGW WenKai Screen" size=3 color="#333333">留言板</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="LXGW WenKai Screen" size=3 color="#333333">赞赏</font></a>
+  <br>
+</center>
+
+<br>
 <div class="culture-list" cover-src="https://cos.pinlyu.com/culture/books/" json-src="books.json">
 
   <div class="media">

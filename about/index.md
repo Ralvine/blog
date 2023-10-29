@@ -1,39 +1,16 @@
 # 🏡 关于
 
-  <div class="container">
-    <div class="page home" posts>
-      <div class="home-profile">
-        <div class="home-avatar">
-            <img
-              loading="eager"
-              src="/images/avatar.jpg"
-              srcset="/images/avatar.jpg, /images/avatar.jpg 1.5x, /images/avatar.jpg 2x"
-              sizes="auto"
-              alt="/images/avatar.jpg"
-              title="/images/avatar.jpg" height="0" width="0" 
-            >
-        </div>
-        <h2 class="home-subtitle">
-      </div>
-    </div>
-  </div>
 
-<center>
-
----
-
-  {{< typeit >}}
-  “以我观物 故物皆著我之色彩”
-  {{< /typeit >}}
-  🌗<br>
-  <a href="https://blog.ralvines.top/friend/"><font face="黑体" size=3 color="#000000">友链</font></a> / <a href="https://blog.ralvines.top/board/"><font face="黑体" size=3 color="#000000">留言板</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="黑体" size=3 color="#000000">赞赏</font></a>
+<center>  
+  <br>
+  <a href="https://blog.ralvines.top/friend/"><font face="LXGW WenKai Screen" size=3 color="#333333">友链</font></a> / <a href="https://blog.ralvines.top/board/"><font face="LXGW WenKai Screen" size=3 color="#333333">留言板</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="LXGW WenKai Screen" size=3 color="#333333">赞赏</font></a>
+  <br>
 </center>
 
----
 
 ## ☎️ 联络我
 
-## 关于我
+## ✍️ 关于我
 
 ### 🏫 教育
 

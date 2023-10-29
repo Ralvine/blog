@@ -1,6 +1,12 @@
 # 📦 项目
 
 
+<center>  
+  <br>
+  <a href="https://blog.ralvines.top/friend/"><font face="LXGW WenKai Screen" size=3 color="#333333">摄影</font></a> / <a href="https://blog.ralvines.top/board/"><font face="LXGW WenKai Screen" size=3 color="#333333">项目</font></a>
+  <br>
+</center>
+
 ## 计算数学
 
 {{< showcase "基于用电可靠性的配电网规划模型" "统筹电源用户类型和配电网络拓扑、适用于树形电网的线路规划模型，基于局部搜索、几何团簇构建目标连接网络并计算可靠性。" "https://z1.ax1x.com/2023/10/23/piAratS.png" "/blog/about/" >}}
