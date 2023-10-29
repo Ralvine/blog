@@ -4,7 +4,21 @@
         <link>https://blog.ralvines.top/series/</link>
         <description>Series - 系列 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sat, 28 Oct 2023 09:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/" rel="self" type="application/rss+xml" /><item>
+    <title>报道与档案</title>
+    <link>https://blog.ralvines.top/series/%E6%8A%A5%E9%81%93%E4%B8%8E%E6%A1%A3%E6%A1%88/</link>
+    <pubDate>Sat, 28 Oct 2023 09:20:40 &#43;0800</pubDate><author>
+        <name>Ralvine</name>
+    </author><guid>https://blog.ralvines.top/series/%E6%8A%A5%E9%81%93%E4%B8%8E%E6%A1%A3%E6%A1%88/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>中国共产党与社会主义</title>
+    <link>https://blog.ralvines.top/series/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E4%B8%8E%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89/</link>
+    <pubDate>Sat, 28 Oct 2023 09:20:40 &#43;0800</pubDate><author>
+        <name>Ralvine</name>
+    </author><guid>https://blog.ralvines.top/series/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E4%B8%8E%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>数据</title>
     <link>https://blog.ralvines.top/series/%E6%95%B0%E6%8D%AE/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
@@ -59,20 +73,6 @@
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
     </author><guid>https://blog.ralvines.top/series/%E8%AF%BE%E7%A8%8B-%E5%A4%A7%E4%B8%89/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>课程-计算机</title>
-    <link>https://blog.ralvines.top/series/%E8%AF%BE%E7%A8%8B-%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-        <name>Ralvine</name>
-    </author><guid>https://blog.ralvines.top/series/%E8%AF%BE%E7%A8%8B-%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>报道与档案</title>
-    <link>https://blog.ralvines.top/series/%E6%8A%A5%E9%81%93%E4%B8%8E%E6%A1%A3%E6%A1%88/</link>
-    <pubDate>Tue, 15 Nov 2022 20:20:40 &#43;0800</pubDate><author>
-        <name>Ralvine</name>
-    </author><guid>https://blog.ralvines.top/series/%E6%8A%A5%E9%81%93%E4%B8%8E%E6%A1%A3%E6%A1%88/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -8,3 +8,5 @@
 </center>
 
 ## 💬 讨论区
+
+{{< showcase "长沙" "啊" "https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" "/blog/about/" >}}
