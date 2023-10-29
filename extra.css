@@ -49,13 +49,11 @@
     width: 100%;
     box-sizing: border-box;
     padding-left: 10px;
-    font-family: LXGWWenKai-Bold; /*简单做个测试*/
     font-size: .8em;
     line-height:1.8em
 }
 
 .media-meta-item.title {
-    font-family: LXGWWenKai-Bold; /*简单做个测试*/
     font-weight: 700;
     font-size:.85em
 }
@@ -67,6 +65,7 @@
     white-space: normal !important;
     text-overflow: ellipsis;
     overflow-wrap: break-word;
+    font-family: "LXGW WenKai Screen"; /*简单做个测试*/
     -webkit-line-clamp: 4;
     -webkit-box-orient:vertical
 }
