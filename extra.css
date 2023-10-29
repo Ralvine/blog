@@ -11,8 +11,7 @@
 .subpage-box-cover {
     margin: 2px;
     flex: 0 0 30%;
-    
-    display:flex
+    display:flex;
 }
 
 .subpage-box-cover a {
@@ -24,11 +23,13 @@
     height: 100%;
     margin: 0;
     object-fit: cover;
-    opacity:.9
+    opacity:.9;
+    transition: transform 0.3s ease
 }
 
 .subpage-box-cover img:hover {
-    opacity:.7
+    opacity:.7;
+    transform: scale(1.05)
 }
 
 .subpage-box-cover .image-caption {
@@ -68,7 +69,8 @@
     float: left;
     margin-bottom: 1em;
     box-sizing: border-box;
-    overflow:hidden
+    overflow:hidden;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0.1);
 }
 
 .media:nth-Child(2n) {
@@ -85,7 +87,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    float:left
+    float:left;
 }
 
 .media-meta {
@@ -100,7 +102,7 @@
     box-sizing: border-box;
     padding-left: 10px;
     font-size: .8em;
-    line-height:1.8em
+    line-height:1.8em;
 }
 
 .media-meta-item.title {

@@ -7,6 +7,27 @@
   <br>
 </center>
 
-## 💬 讨论区
 
-{{< showcase "长沙" "啊" "https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" "/blog/about/" >}}
+<div class="subpage-box">
+
+  <div class="subpage-box-cover">
+    <a href="books/" data-pjax-state="">
+      <p class="image-caption">长沙</p>
+      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
+    </a>
+  </div>
+  <div class="subpage-box-cover">
+    <a href="books/" data-pjax-state="">
+      <p class="image-caption">长沙</p>
+      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
+    </a>
+  </div>
+  <div class="subpage-box-cover">
+    <a href="books/" data-pjax-state="">
+      <p class="image-caption">长沙</p>
+      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
+    </a>
+  </div>
+</div>
+
+## 💬 讨论区
