@@ -1,15 +1,6 @@
 # 🤝 友链
 
 
-
-<center>  
-  <br>
-  <a href="https://blog.ralvines.top/friend/"><font face="LXGW WenKai Screen" size=3 color="#333333">友链</font></a> / <a href="https://blog.ralvines.top/board/"><font face="LXGW WenKai Screen" size=3 color="#333333">留言板</font></a> / <a href="https://blog.ralvines.top/praise/"><font face="LXGW WenKai Screen" size=3 color="#333333">赞赏</font></a>
-  <br>
-</center>
-
-
-
 ## 🚪 传送门
 
 排名不分先后。
@@ -48,10 +39,9 @@
 
 {{< friend name="辛未羊" url="https://panqiincs.me" avatar="https://panqiincs.me/images/avatar.jpg" bio="记录生活和学习的清静之地" >}}
 
-{{< friend name="Cooper's Zone" url="baohengtao.com" avatar="https://raw.githubusercontent.com/baohengtao/blog.img/master/uPic/thu_math.JPG" bio="一个记事本" >}}
+{{< friend name="Cooper's Zone" url="https://baohengtao.com/" avatar="https://raw.githubusercontent.com/baohengtao/blog.img/master/uPic/thu_math.JPG" bio="一个记事本" >}}
 
 {{< friend name="荷戟独彷徨" url="https://guanqr.com/" avatar="https://cdn.jsdelivr.net/gh/guanqr/blog/static/icons/android-chrome-512x512.png" bio="爱光学，爱生活，爱创造" >}}
-
 
 
 

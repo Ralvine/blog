@@ -1,6 +1,11 @@
 # 🧭 拾迹
 
 
+{{< quote-center >}}
+日月之行 若出其中<br>
+星汉灿烂 若出其里
+{{< /quote-center >}}
+
 <div class="subpage-box">
 
   <div class="subpage-box-cover">
