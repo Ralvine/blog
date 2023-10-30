@@ -4,9 +4,17 @@
         <link>https://blog.ralvines.top/</link>
         <description>不忘其所始，不求其所终；受而喜之，忘而复之。</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sat, 28 Oct 2023 09:20:40 &#43;0800</lastBuildDate>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate>
             <atom:link href="https://blog.ralvines.top/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>数学前沿专题讨论：遗传算法</title>
+    <link>https://blog.ralvines.top/qianyan-yichuan/</link>
+    <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan-yichuan/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piA8fr4.png" referrerpolicy="no-referrer">
+            </div>]]></description>
+</item><item>
     <title>悼念李克强</title>
     <link>https://blog.ralvines.top/lkq/</link>
     <pubDate>Sat, 28 Oct 2023 09:20:40 &#43;0800</pubDate><author>
@@ -871,52 +879,5 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
 </ol>
 </div>
 ]]></description>
-</item><item>
-    <title>数据库与数据仓库 笔记</title>
-    <link>https://blog.ralvines.top/data-warehouse/</link>
-    <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
-            </div><h2 id="数据仓库1" class="headerLink">
-    <a href="#%e6%95%b0%e6%8d%ae%e4%bb%93%e5%ba%931" class="header-mark"></a>数据仓库<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="模型" class="headerLink">
-    <a href="#%e6%a8%a1%e5%9e%8b" class="header-mark"></a>模型</h3><ol>
-<li>星型模型：事实表+维度表
-<figure><a class="lightgallery" href="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp" title="星型模型" data-thumbnail="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp">
-        
-    </a></figure></li>
-</ol>
-<h3 id="数据倾斜" class="headerLink">
-    <a href="#%e6%95%b0%e6%8d%ae%e5%80%be%e6%96%9c" class="header-mark"></a>数据倾斜</h3><p>大量的数据集中到了一台或者几台机器上计算。</p>
-<p>表现</p>
-<ul>
-<li>MapReduce：ruduce阶段卡在99.99%</li>
-<li>Spark：个别task执行极慢</li>
-</ul>
-<p>分类</p>
-<ul>
-<li>频率倾斜：某区域数据量过多</li>
-<li>大小倾斜：部分记录大小过大</li>
-</ul>
-<h2 id="实例尚硅谷-电商数仓1" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h2 id="sql23" class="headerLink">
-    <a href="#sql23" class="header-mark"></a>SQL<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2><h3 id="常见问题4" class="headerLink">
-    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%984" class="header-mark"></a>常见问题<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h3><div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>SQL从入门到实战 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>数据库（SQL）面试题，基础知识（超全面） @weihubeats <a href="https://blog.csdn.net/qq_42651904/article/details/83146345" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_42651904/article/details/83146345</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p>【SQL】SQL经典50题&amp;答案 @胖熊酱 <a href="https://zhuanlan.zhihu.com/p/67645448" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/67645448</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
 </item></channel>
 </rss>

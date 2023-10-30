@@ -6,10 +6,13 @@
 而今迈步从头越
 {{< /quote-center >}}
 
-## 💬 关于本站
+👏🏻 欢迎造访 <font face="LXGW WenKai Screen" > Dawniew </font>
 
-## ☎️ 联络我
+💬 您可以通过订阅本站的 RSS 追踪最新文章
 
+☎️ 也可以通过 [:(fab fa-qq):](http://wpa.qq.com/msgrd?v=3&uin=1337253857&site=qg&menu=yes) 或 [:(fas fa-mail-bulk):](mailto:ralvine@163.com) 联系我
+
+⚠️ 更多事宜，请在留言板说明，并留下您的联系方式
 
 <div class="subpage-box">
 

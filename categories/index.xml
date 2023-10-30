@@ -4,19 +4,19 @@
         <link>https://blog.ralvines.top/categories/</link>
         <description>Categories - 分类 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sat, 28 Oct 2023 09:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>笔记</title>
+    <link>https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
+        <name>Ralvine</name>
+    </author><guid>https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>札录</title>
     <link>https://blog.ralvines.top/categories/%E6%9C%AD%E5%BD%95/</link>
     <pubDate>Sat, 28 Oct 2023 09:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
     </author><guid>https://blog.ralvines.top/categories/%E6%9C%AD%E5%BD%95/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>笔记</title>
-    <link>https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/</link>
-    <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-        <name>Ralvine</name>
-    </author><guid>https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>回溯</title>
