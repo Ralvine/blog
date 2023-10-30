@@ -6,7 +6,6 @@
 故物皆着我之色彩
 {{< /quote-center >}}
 
-<br>
 <div class="subpage-box">
 
   <div class="subpage-box-cover">

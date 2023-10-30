@@ -7,7 +7,6 @@
 
 ## ⏰ 2023
 
-<br>
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pim7aNV.jpg)"></div>

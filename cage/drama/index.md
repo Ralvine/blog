@@ -7,17 +7,16 @@
 
 ## ⏰ 2023
 
-<br>
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pim7aNV.jpg)"></div>
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimbYF0.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">潜伏<span style="float:right;font-weight:400">历史/谍战</span></div>
       <div class="media-meta-item">
-        <span class="author">07-22</span>
+        <span class="author">07-22 精讲</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">阿巴巴。</font></div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
     </div>
   </div>
   <div class="media">
@@ -25,10 +24,10 @@
     <div class="media-meta">
       <div class="media-meta-item title">漫长的季节<span style="float:right;font-weight:400">犯罪/家庭</span></div>
       <div class="media-meta-item">
-        <span class="author">08-19</span>
+        <span class="author">08-19 精讲</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">测试。</font></div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
     </div>
   </div>
 </div>

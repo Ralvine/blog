@@ -15,7 +15,6 @@
 ⚠️ 更多事宜，请在留言板说明，并留下您的联系方式
 
 <div class="subpage-box">
-
   <div class="subpage-box-cover">
     <a href="https://blog.ralvines.top/about/friend/" data-pjax-state="">
       <p class="image-caption">🤝 友链</p>
