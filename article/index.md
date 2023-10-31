@@ -17,33 +17,33 @@
 <div class="subpage-box">
 
   <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
+    <a href="https://blog.ralvines.top/categories/回溯" data-pjax-state="">
       <p class="image-caption">⏳ 回溯</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
+      <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/10/30/pimrxeJ.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
+    <a href="https://blog.ralvines.top/categories/观点" data-pjax-state="">
       <p class="image-caption">👁 观点</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
+      <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/10/24/piEyqgg.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
+    <a href="https://blog.ralvines.top/categories/笔记" data-pjax-state="">
       <p class="image-caption">📔 笔记</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
+      <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/10/31/pinlcqO.jpg" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
-      <p class="image-caption">🏖 生活 </p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
+    <a href="https://blog.ralvines.top/categories/生活" data-pjax-state="">
+      <p class="image-caption">🏖 生活</p>
+      <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/10/23/piAWIwd.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
+    <a href="https://blog.ralvines.top/categories/札录" data-pjax-state="">
       <p class="image-caption">🗂️ 札录</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
+      <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" data-loaded="true">
     </a>
   </div>
 </div>
@@ -53,44 +53,6 @@
 
 ## 系列
 
-<div class="subpage-box">
-  <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
-      <p class="image-caption">理念</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
-      <p class="image-caption">课程</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
-      <p class="image-caption">产品</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
-      <p class="image-caption">旅行</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
-      <p class="image-caption">评测</p>
-      <img alt="阅读" data-src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="books/" data-pjax-state="">
-      <p class="image-caption">读书</p>
-      <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" data-loaded="true">
-    </a>
-  </div>
-</div>
 
 {{< align right "[更多 >>](https://blog.ralvines.top/series/)" >}}
 

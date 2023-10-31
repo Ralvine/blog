@@ -43,6 +43,9 @@
 
 {{< friend name="荷戟独彷徨" url="https://guanqr.com/" avatar="https://cdn.jsdelivr.net/gh/guanqr/blog/static/icons/android-chrome-512x512.png" bio="爱光学，爱生活，爱创造" >}}
 
+{{< friend name="哇子" url="http://blog.wazicode.top" avatar="" bio="" >}}
+
+
 ## 👉 交换友链
 
 欢迎交换友链~在下方留言你的：

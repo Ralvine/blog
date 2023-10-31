@@ -5,145 +5,13 @@
         <description>所有文章 | 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
             <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>数学前沿专题讨论：遗传算法</title>
-    <link>https://blog.ralvines.top/qianyan-yichuan/</link>
+    <title>数学前沿专题讨论：遗传算法和统计学习方法</title>
+    <link>https://blog.ralvines.top/qianyan/</link>
     <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan-yichuan/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piA8fr4.png" referrerpolicy="no-referrer">
             </div>]]></description>
-</item><item>
-    <title>悼念李克强</title>
-    <link>https://blog.ralvines.top/lkq/</link>
-    <pubDate>Sat, 28 Oct 2023 09:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/lkq/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/29/pie5zb6.png" referrerpolicy="no-referrer">
-            </div>]]></description>
-</item><item>
-    <title>24 秋招：投递与面试总体复盘</title>
-    <link>https://blog.ralvines.top/24-product/</link>
-    <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/24-product/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/24/piEGcUs.png" referrerpolicy="no-referrer">
-            </div><h2 id="投递实况" class="headerLink">
-    <a href="#%e6%8a%95%e9%80%92%e5%ae%9e%e5%86%b5" class="header-mark"></a>投递实况</h2><pre class="mermaid">gantt
-    dateFormat  YYYY-MM-DD
-    title 投递流程状态概览
-    section 华为-通用软件开发工程师
-    投递:done,2023-08-09,2023-09-17
-    机考:done,2023-09-27, 1d
-    综合测评:done,2023-09-28,2023-10-05
-    一面,二面,主管面:active,2023-10-12,1d
-
-    section TP-Link-数据分析工程师 Base深圳
-    投递:done,2023-09-12,2023-09-15
-    一面:done,2023-09-20,1d
-    测评:done,2023-09-21,1d
-    二面:active,2023-09-26,1d
-
-    section 小米-产品经理 Base北京
-    投递:done,2023-08-18,2023-08-28
-    一面:activate,2023-09-12,1d
-
-    section 帆软-产品经理 Base无锡
-    投递:done,2023-09-05,2023-09-13
-    笔试:done,2023-09-16,1d
-    电话一面:done,2023-10-11,1d
-    二面:done,2023-10-17,1d
-    合伙人三面:done,2023-10-19,1d
-    性格测评:done,2023-10-20,1d
-    offer:active,2023-10-20,1d
-
-    section Insta360-数据分析BI管培生 Base深圳
-    投递:done,2023-07-21,2023-09-11
-    面试:active,2023-09-13,1d
-
-    section 阿里云-商业技术工程师管培生 Base杭州
-    投递:done,2023-09-21,2023-09-22
-    测评:done,2023-09-23,1d
-    笔试:done,2023-09-27,2023-10-10
-    一面:active,2023-10-25,1d
-
-    section 拼多多-产品管培生 Base上海
-    投递:done,2023-10-15,2023-10-21
-    测评:done,2023-10-22,2023-10-24
-    一面:active,2023-10-28,1d
-
-</pre>
-<h2 id="择企" class="headerLink">
-    <a href="#%e6%8b%a9%e4%bc%81" class="header-mark"></a>择企</h2><ol>
-<li><strong>消费互联网</strong></li>
-</ol>
-<p>垄断型大厂</p>
-<ul>
-<li>腾讯</li>
-<li>阿里集团</li>
-<li>字节跳动</li>
-</ul>
-<p>平台型大厂</p>
-<ul>
-<li>美团</li>
-<li>网易</li>
-</ul>
-<ol start="2">
-<li><strong>终端与智能制造</strong></li>
-</ol>
-<ul>
-<li>华为</li>
-<li>TP-Link</li>
-<li>OPPO</li>
-<li>Realme</li>
-<li>小米</li>
-</ul>
-<ol start="3">
-<li><strong>产品领域独角兽或头部</strong></li>
-</ol>
-<p>影像</p>
-<ul>
-<li>影石</li>
-</ul>
-<p>BI产品</p>
-<ul>
-<li>帆软</li>
-</ul>
-<ol start="4">
-<li><strong>国企/银行</strong></li>
-</ol>
-<ul>
-<li>工商银行</li>
-<li>国开行</li>
-</ul>
-<ol start="5">
-<li><strong>新能源/汽车</strong></li>
-</ol>
-<ul>
-<li>比亚迪</li>
-</ul>
-<h2 id="择岗" class="headerLink">
-    <a href="#%e6%8b%a9%e5%b2%97" class="header-mark"></a>择岗</h2><ol>
-<li><strong>开发类（后端、算法）</strong></li>
-</ol>
-<ul>
-<li>C++开发</li>
-</ul>
-<ol start="2">
-<li><strong>产品类（数据、商业）</strong></li>
-</ol>
-<ul>
-<li>技术产品经理</li>
-<li>业务产品运营</li>
-<li>商业化产品经理</li>
-<li>数据产品经理</li>
-<li>管培</li>
-</ul>
-<ol start="3">
-<li><strong>数据类</strong></li>
-</ol>
-<ul>
-<li>数据分析</li>
-</ul>]]></description>
 </item><item>
     <title>PHD申请实录</title>
     <link>https://blog.ralvines.top/phd-apply/</link>
@@ -372,7 +240,7 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ol>
 </div>]]></description>
 </item><item>
-    <title>紫金港校区自习空间汇总测评</title>
+    <title>零碎记录</title>
     <link>https://blog.ralvines.top/zixikongjian/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/zixikongjian/</guid>
@@ -389,16 +257,282 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 <p>设施</p>
 <ul>
-<li>充电桩</li>
-<li>空调</li>
-<li>饮水机</li>
-<li>人体工学椅</li>
-<li>沙发</li>
-<li>插座</li>
-<li>食堂</li>
-<li>讨论区</li>
-<li>咖啡店</li>
-<li>打印机</li>
+<li>
+<p>充电桩</p>
+</li>
+<li>
+<p>空调</p>
+</li>
+<li>
+<p>饮水机</p>
+</li>
+<li>
+<p>人体工学椅</p>
+</li>
+<li>
+<p>沙发</p>
+</li>
+<li>
+<p>插座</p>
+</li>
+<li>
+<p>食堂</p>
+</li>
+<li>
+<p>讨论区</p>
+</li>
+<li>
+<p>咖啡店</p>
+</li>
+<li>
+<p>打印机</p>
+</li>
+<li>
+<p>复习阶段重点</p>
+<ul>
+<li>2023-09-27</li>
+<li>不要向外寻求答案，不要被外界干扰，不要在意评价</li>
+<li>张弛有度，状态不佳时合理休息</li>
+<li>保持作息，对浪费时间的行为及时止损</li>
+<li>抓住主要矛盾，追求质的提升，以学懂学透为标尺</li>
+<li>稳扎稳打，分配足量、大块、连续的时间进行同一部分的学习</li>
+</ul>
+</li>
+<li>
+<p>三点经验</p>
+<ul>
+<li>做难事必有所得，轻车熟路的事情缺乏挑战，只是重复，没有提高。</li>
+<li>从实际出发调整自己认知，看长远，而不是出于对美好结果的意愿进行决策判断。</li>
+<li>不仅要看个人的奋斗，也要考虑到历史的进程。</li>
+</ul>
+</li>
+<li>
+<p>一来独立自主，不寄托于外；二来战略主动，看到打通现实与理想的路径</p>
+<ul>
+<li>掌握战略主动权，不要等待、寄托外物。</li>
+<li>强者掌握自己的命运。</li>
+</ul>
+</li>
+<li>
+<p>生理与心理焦虑</p>
+<ul>
+<li>保持正常的作息</li>
+<li>每天晨间的规划与夜间的回溯</li>
+<li>少想 多解决</li>
+<li>多接触阳光</li>
+</ul>
+</li>
+<li>
+<p>自控力</p>
+<ul>
+<li>基态要固定下来</li>
+<li>规律作息本身是一件讨喜的事情</li>
+</ul>
+</li>
+<li>
+<p>一切负面心态都是与期望的落差，只有变得更强是永恒的。</p>
+</li>
+<li>
+<p>判断不是基于意愿，而应来自内心已有可行的方法。</p>
+</li>
+</ul>
+<p><figure><a class="lightgallery" href="https://pic3.zhimg.com/80/v2-db7f7d11c09afb3be48f430808e4ee8e_1440w.webp" title="数字经济重点产业" data-thumbnail="https://pic3.zhimg.com/80/v2-db7f7d11c09afb3be48f430808e4ee8e_1440w.webp">
+        
+    </a></figure></p>
+<p>重点产业</p>
+<ul>
+<li>
+<p>云计算</p>
+</li>
+<li>
+<p>大数据</p>
+</li>
+<li>
+<p>物联网</p>
+</li>
+<li>
+<p>工业互联网</p>
+</li>
+<li>
+<p>区块链</p>
+</li>
+<li>
+<p>人工智能</p>
+</li>
+<li>
+<p>虚拟现实和增强现实</p>
+</li>
+<li>
+<p>工业化</p>
+<ul>
+<li>电商冲击
+<ul>
+<li>商品标准化 预制菜</li>
+</ul>
+</li>
+<li>移动互联网内容冲击
+<ul>
+<li>媒体和领导人的讲话 作品等等</li>
+<li>创作主体民主化 网络群体普及 内容质量下降
+<ul>
+<li>亚文化逼仄</li>
+<li>App封闭化 中心化</li>
+<li>盗版少</li>
+<li>知识付费</li>
+<li>娱乐化</li>
+</ul>
+</li>
+<li>内容在话题上分散 在体量上向标准化集团集中
+<ul>
+<li>博客等个人创作式微</li>
+<li>明星等微博可见范围减小 言论趋平
+<ul>
+<li>更容易引起争议</li>
+</ul>
+</li>
+<li>平台割裂 不再挂靠网页可检索 形态也更多元 导致变为被动推送</li>
+</ul>
+</li>
+<li>实质上很多内容都进步了 电影 自媒体节目 但是更短平快</li>
+<li>劣币驱逐良币 为效率和流量服务</li>
+</ul>
+</li>
+<li>生产力进步 但是冗余人口在资本主义交换体系下
+<ul>
+<li>工作细分枯燥 成为螺丝钉</li>
+<li>竞争抹平 更加激烈</li>
+<li>只能进入服务业 手工业本身有价值差异 割裂</li>
+</ul>
+</li>
+<li>激进的城市化 互联网发展</li>
+</ul>
+</li>
+</ul>
+<p>刚才我说了，大家都只会说不的时候，结果可能是最保守的势力来管理社会，受益最多的就是既得利益集团。世界上很多国家统治集团就是利用这一点才能长期管理社会的，抓住一两个敏感的点去挑逗民众的愤怒情绪，让大家在反对某件事的过程中团结起来。民众反对来反对去，貌似输出了很多政治诉求，最后一看，政治诉求都相互抵消了，台上还是那些人，还是几十年前那些利益集团。台湾省已经在这个陷阱里出不来了，中国大陆千万不能掉进这种政治陷阱。一定要主动创造一套新制度，保卫好我们的现代化发展道路。</p>
+<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>]]></description>
+</item><item>
+    <title>秋招投递与面试复盘</title>
+    <link>https://blog.ralvines.top/24-product/</link>
+    <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/24-product/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/24/piEGcUs.png" referrerpolicy="no-referrer">
+            </div><h2 id="投递实况" class="headerLink">
+    <a href="#%e6%8a%95%e9%80%92%e5%ae%9e%e5%86%b5" class="header-mark"></a>投递实况</h2><pre class="mermaid">gantt
+    dateFormat  YYYY-MM-DD
+    title 投递流程状态概览
+    section 华为-通用软件开发工程师
+    投递:done,2023-08-09,2023-09-17
+    机考:done,2023-09-27, 1d
+    综合测评:done,2023-09-28,2023-10-05
+    一面,二面,主管面:active,2023-10-12,1d
+
+    section TP-Link-数据分析工程师 Base深圳
+    投递:done,2023-09-12,2023-09-15
+    一面:done,2023-09-20,1d
+    测评:done,2023-09-21,1d
+    二面:active,2023-09-26,1d
+
+    section 小米-产品经理 Base北京
+    投递:done,2023-08-18,2023-08-28
+    一面:activate,2023-09-12,1d
+
+    section 帆软-产品经理 Base无锡
+    投递:done,2023-09-05,2023-09-13
+    笔试:done,2023-09-16,1d
+    电话一面:done,2023-10-11,1d
+    二面:done,2023-10-17,1d
+    合伙人三面:done,2023-10-19,1d
+    性格测评:done,2023-10-20,1d
+    offer:active,2023-10-20,1d
+
+    section Insta360-数据分析BI管培生 Base深圳
+    投递:done,2023-07-21,2023-09-11
+    面试:active,2023-09-13,1d
+
+    section 阿里云-商业技术工程师管培生 Base杭州
+    投递:done,2023-09-21,2023-09-22
+    测评:done,2023-09-23,1d
+    笔试:done,2023-09-27,2023-10-10
+    一面:active,2023-10-25,1d
+
+    section 拼多多-产品管培生 Base上海
+    投递:done,2023-10-15,2023-10-21
+    测评:done,2023-10-22,2023-10-24
+    一面:active,2023-10-28,1d
+
+</pre>
+<h2 id="择企" class="headerLink">
+    <a href="#%e6%8b%a9%e4%bc%81" class="header-mark"></a>择企</h2><ol>
+<li><strong>消费互联网</strong></li>
+</ol>
+<p>垄断型大厂</p>
+<ul>
+<li>腾讯</li>
+<li>阿里集团</li>
+<li>字节跳动</li>
+</ul>
+<p>平台型大厂</p>
+<ul>
+<li>美团</li>
+<li>网易</li>
+</ul>
+<ol start="2">
+<li><strong>终端与智能制造</strong></li>
+</ol>
+<ul>
+<li>华为</li>
+<li>TP-Link</li>
+<li>OPPO</li>
+<li>Realme</li>
+<li>小米</li>
+</ul>
+<ol start="3">
+<li><strong>产品领域独角兽或头部</strong></li>
+</ol>
+<p>影像</p>
+<ul>
+<li>影石</li>
+</ul>
+<p>BI产品</p>
+<ul>
+<li>帆软</li>
+</ul>
+<ol start="4">
+<li><strong>国企/银行</strong></li>
+</ol>
+<ul>
+<li>工商银行</li>
+<li>国开行</li>
+</ul>
+<ol start="5">
+<li><strong>新能源/汽车</strong></li>
+</ol>
+<ul>
+<li>比亚迪</li>
+</ul>
+<h2 id="择岗" class="headerLink">
+    <a href="#%e6%8b%a9%e5%b2%97" class="header-mark"></a>择岗</h2><ol>
+<li><strong>开发类（后端、算法）</strong></li>
+</ol>
+<ul>
+<li>C++开发</li>
+</ul>
+<ol start="2">
+<li><strong>产品类（数据、商业）</strong></li>
+</ol>
+<ul>
+<li>技术产品经理</li>
+<li>业务产品运营</li>
+<li>商业化产品经理</li>
+<li>数据产品经理</li>
+<li>管培</li>
+</ul>
+<ol start="3">
+<li><strong>数据类</strong></li>
+</ol>
+<ul>
+<li>数据分析</li>
 </ul>]]></description>
 </item><item>
     <title>大数据理论基础 笔记</title>
@@ -877,5 +1011,52 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
 </ol>
 </div>
 ]]></description>
+</item><item>
+    <title>数据库与数据仓库 笔记</title>
+    <link>https://blog.ralvines.top/data-warehouse/</link>
+    <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
+            </div><h2 id="数据仓库1" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e4%bb%93%e5%ba%931" class="header-mark"></a>数据仓库<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="模型" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b" class="header-mark"></a>模型</h3><ol>
+<li>星型模型：事实表+维度表
+<figure><a class="lightgallery" href="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp" title="星型模型" data-thumbnail="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp">
+        
+    </a></figure></li>
+</ol>
+<h3 id="数据倾斜" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e5%80%be%e6%96%9c" class="header-mark"></a>数据倾斜</h3><p>大量的数据集中到了一台或者几台机器上计算。</p>
+<p>表现</p>
+<ul>
+<li>MapReduce：ruduce阶段卡在99.99%</li>
+<li>Spark：个别task执行极慢</li>
+</ul>
+<p>分类</p>
+<ul>
+<li>频率倾斜：某区域数据量过多</li>
+<li>大小倾斜：部分记录大小过大</li>
+</ul>
+<h2 id="实例尚硅谷-电商数仓1" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h2 id="sql23" class="headerLink">
+    <a href="#sql23" class="header-mark"></a>SQL<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2><h3 id="常见问题4" class="headerLink">
+    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%984" class="header-mark"></a>常见问题<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h3><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>SQL从入门到实战 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>数据库（SQL）面试题，基础知识（超全面） @weihubeats <a href="https://blog.csdn.net/qq_42651904/article/details/83146345" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_42651904/article/details/83146345</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>【SQL】SQL经典50题&amp;答案 @胖熊酱 <a href="https://zhuanlan.zhihu.com/p/67645448" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/67645448</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
 </item></channel>
 </rss>

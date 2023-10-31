@@ -5,14 +5,14 @@
     justify-content: center;
     gap: 10px;
     margin-top: 1.5em;
-    margin-bottom:1.5em
+    margin-bottom:1.5em;
 }
 
 .subpage-box-cover {
     margin: 2px;
     flex: 0 0 30%;
     display:flex;
-    transition: transform 0.3s ease
+    transition: transform 0.3s ease;
 }
 
 .subpage-box-cover:hover {
@@ -30,12 +30,14 @@
     margin: 0;
     object-fit: cover;
     opacity:.9;
+    box-shadow: 0 0px 50px rgba(0,0,0,0.3);
+    border-radius: 25px;
 }
 
 .subpage-box-cover img:hover {
     opacity:.7;
-    
 }
+
 
 .subpage-box-cover .image-caption {
     display: flex;

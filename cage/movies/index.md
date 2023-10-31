@@ -49,7 +49,7 @@
         <span class="author">07-11 影院·台州</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">高适视角的大唐盛衰面面观，文人的情怀和悲剧内核衍生出建功立业和随遇而安的两种人生轨迹，文采的你那少张扬与征伐的老来得志是一部厚重的史诗。</font></div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">高适视角的大唐盛衰面面观，文人的情怀和悲剧内核衍生出建功立业和随遇而安的两种人生轨迹，文采的年少张扬与征伐的老来得志是一部厚重的史诗。</font></div>
     </div>
   </div>
   <div class="media">
@@ -141,7 +141,7 @@
     </div>
   </div>
   <div class="media">
-    <div class="media-cover" style="background-image:url(https://cos.pinlyu.com/culture/books/蹦极.webp)"></div>
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinlUZF.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">贫民窟的百万富翁<span style="float:right;font-weight:400">剧情</span></div>
       <div class="media-meta-item">
@@ -152,7 +152,7 @@
     </div>
   </div>
   <div class="media">
-    <div class="media-cover" style="background-image:url(https://cos.pinlyu.com/culture/books/蹦极.webp)"></div>
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinl8x0.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">触不可及<span style="float:right;font-weight:400">剧情/喜剧</span></div>
       <div class="media-meta-item">
@@ -162,13 +162,55 @@
       <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
     </div>
   </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinlaa4.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">致命魔术<span style="float:right;font-weight:400">悬疑/惊悚</span></div>
+      <div class="media-meta-item">
+        <span class="author">04-30 线上</span>
+        <span class="star-score">★★★★★</span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinlJMV.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">三个老枪手<span style="float:right;font-weight:400">喜剧/犯罪</span></div>
+      <div class="media-meta-item">
+        <span class="author">04-27 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinlYrT.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">星际穿越<span style="float:right;font-weight:400">科研/冒险 二刷</span></div>
+      <div class="media-meta-item">
+        <span class="author">04-26 线上</span>
+        <span class="star-score">★★★★</span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">宇宙探索编辑部<span style="float:right;font-weight:400">科研/冒险 二刷</span></div>
+      <div class="media-meta-item">
+        <span class="author">04-14 小剧场·杭州</span>
+        <span class="star-score">★★★★</span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
 </div>
 
-- 蜘蛛侠（同框）
-- 致命魔术，2023-04-30
-- 三个老枪手，2023-04-27
-- 星际穿越，2023-04-26
-- **宇宙探索编辑部**，2023-04-14
+
+
+- ****，2023-04-14
 - **名侦探柯南：贝克街的亡灵**，2023-04-09
 - **铃芽之旅**，2023-03-29
 - 普罗旺斯的夏天，2023-02-12

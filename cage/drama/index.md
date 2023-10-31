@@ -9,7 +9,7 @@
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimbYF0.jpg)"></div>
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinltqU.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">潜伏<span style="float:right;font-weight:400">历史/谍战</span></div>
       <div class="media-meta-item">
@@ -34,19 +34,13 @@
 
 - 东周列国·春秋篇，2023-01 
 - 狂飙，2023-01 
-- 三体，2023-01 
-- 三体（动画），2022-12,2023-01 
+- 三体，2023-01
 
 ## ⏰ 2022
 
 - 开端，2022-01
-- 极限挑战 第四季，2022-01
-- 极限挑战 第三季，2022-01
-- 极限挑战 第二季，2022-01
-- 极限挑战 第一季，2022-01
-- 守护解放西3，2022-03
-- 守护解放西2，2022-02
-- 守护解放西，2022-02-10
+- 极限挑战系列，2022-01
+- 守护解放西系列，2022-02,03
 
 ## ⏰ 早期精选
 
