@@ -19,31 +19,7 @@
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/bapu/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
-            </div><p>uvr5</p>
-<ul>
-<li>人声伴奏分离</li>
-<li>伴奏带乐器分离（效果一般，适合基本的钢琴、吉他）</li>
-</ul>
-<p>basicpitch</p>
-<ul>
-<li>在线wav转midi（会有漏音情况，适合钢琴）</li>
-</ul>
-<p>ripx</p>
-<ul>
-<li>自动分析扒谱</li>
-</ul>
-<p>GiantMIDI<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<ul>
-<li>字节跳动古典钢琴数据集</li>
-</ul>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p><a href="https://github.com/bytedance/GiantMIDI-Piano" target="_blank" rel="noopener noreferrer">https://github.com/bytedance/GiantMIDI-Piano</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
+            </div>]]></description>
 </item><item>
     <title>大数据理论基础 笔记</title>
     <link>https://blog.ralvines.top/big-data/</link>
@@ -3718,7 +3694,7 @@ Whether it is difficult or easy to use And explain why it is useful</p>
 </ol>
 </div>]]></description>
 </item><item>
-    <title>政治经济学导论：城市化、市场化与现代化</title>
+    <title>政治经济学 &amp; 导论：城市化、市场化与现代化</title>
     <link>https://blog.ralvines.top/captalism/</link>
     <pubDate>Thu, 29 Jun 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/captalism/</guid>

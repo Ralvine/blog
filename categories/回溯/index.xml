@@ -216,6 +216,19 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </div>
         </div>
     </div>
+<h2 id="入职" class="headerLink">
+    <a href="#%e5%85%a5%e8%81%8c" class="header-mark"></a>入职</h2><h3 id="offer" class="headerLink">
+    <a href="#offer" class="header-mark"></a>Offer</h3><h3 id="入职准备" class="headerLink">
+    <a href="#%e5%85%a5%e8%81%8c%e5%87%86%e5%a4%87" class="header-mark"></a>入职准备</h3><ul>
+<li>入职申请表</li>
+<li>招商银行卡</li>
+</ul>
+<h3 id="报到" class="headerLink">
+    <a href="#%e6%8a%a5%e5%88%b0" class="header-mark"></a>报到</h3><ul>
+<li>培训</li>
+<li>领取工卡</li>
+<li>申领电脑</li>
+</ul>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -414,13 +427,17 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>职业规划和对华为、行业的理解</li>
 </ol>]]></description>
 </item><item>
-    <title>GRE备考实录</title>
-    <link>https://blog.ralvines.top/gre/</link>
+    <title>GRE &amp; IELTS 备考实录</title>
+    <link>https://blog.ralvines.top/gre-ielts/</link>
     <pubDate>Wed, 16 Aug 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gre/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gre-ielts/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piA8fr4.png" referrerpolicy="no-referrer">
-            </div><p>本人新大二，报名的是8月25号上午考试院的考试，从8月2号回校开始零基础脱产自学，每天早九晚十但是实际学习时间可能只有一半。虽然考试体验不是很好，但最后瞎猫碰见死耗子取得了出乎意料的成绩，想跟大家分享一下一些乱七八糟的经验（或许有用）</p>
+            </div><h2 id="题型" class="headerLink">
+    <a href="#%e9%a2%98%e5%9e%8b" class="header-mark"></a>题型</h2><h2 id="笔试经验" class="headerLink">
+    <a href="#%e7%ac%94%e8%af%95%e7%bb%8f%e9%aa%8c" class="header-mark"></a>笔试经验</h2><h3 id="雅思" class="headerLink">
+    <a href="#%e9%9b%85%e6%80%9d" class="header-mark"></a>雅思</h3><h3 id="gre" class="headerLink">
+    <a href="#gre" class="header-mark"></a>GRE</h3><p>本人新大二，报名的是8月25号上午考试院的考试，从8月2号回校开始零基础脱产自学，每天早九晚十但是实际学习时间可能只有一半。虽然考试体验不是很好，但最后瞎猫碰见死耗子取得了出乎意料的成绩，想跟大家分享一下一些乱七八糟的经验（或许有用）</p>
 <p>英语基础：本人英语基础比较一般，高考新一卷135，大英四3.3，四级603，六级549，在备考之前对GRE几乎没有什么基础</p>
 <p>单词：用的是kmf上的3000和1400以及zw的等价词和填空1600题生词伴侣（这个是把填空1600题的所有感觉有难度的词筛出来的表格）每天都花五六个小时记单词，大概是APP背累了再背PDF再背纸质书这样最后1400和等价词大概背了五遍，3000背了三遍，1600过了一遍的样子。最后考试的时候感觉大部分填空的单词都认识，做的也相对顺利。
 填空：填空发现机经的时候比较晚了，离考试还有十天左右。最开始用的是陈琦基础24套，那个比较简单，全做完了，并且上面单词跟3000基本重合的。zw1600开始用PDF刷题后来发现kmf网站更好用，大概做完了所有的medium，一半的easy，和一点点的hard，感觉考试的时候遇到了四五道原题</p>
@@ -437,15 +454,6 @@ GRE阅读比写作容易备考很多。因为阅读并没有那么多生僻单�
 <p>写作：
 理工科对写作要求不太高，而且新GRE已经取消了argument只剩issue了。issue比较难写，是因为选题通常比较抽象，比如一些政治和哲学论点。我机构老师采取的策略是写大纲，个人感觉很有用。issue和托福写作还不一样，托福是可以用自己或者朋友的例子的，而GRE不行，需要列举一些“高级”的例子，或者直接理论论证。例子可以多积累一点，配合写大纲。</p>
 <p>填空
-重点来了。填空是GRE最恶心的部分，理论上需要背大量（在GRE考试之外再也见不到的）单词。但填空也有蒙题技巧。首先，一些填空题的正确选项可能是比较简单的单词，这时候可以直接选你觉得对的；或者所有你认识的单词都觉得不对，那剩下的那（两）个不认识的单词就大概率是正确选项。如果上述两个策略都失效了，还有一种冒险性比较大的策略：众所周知一些英文词根词缀具有感情色彩。比如un-(e.g. unlikely)，a-(e.g. abandon)具有否定、负面的感情色彩。另一些则有肯定、正面的感情色彩。这时候可以根据词的感情色彩来匹配句子的感情色彩。另外，背单词从高频的开始背（一些机构会整理高频词，网上也有高频词），统计学不会骗人的。另外运气也很重要</p>
-]]></description>
-</item><item>
-    <title>IELTS备考实录</title>
-    <link>https://blog.ralvines.top/ielts/</link>
-    <pubDate>Wed, 16 Aug 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/ielts/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piA8fr4.png" referrerpolicy="no-referrer">
-            </div>]]></description>
+重点来了。填空是GRE最恶心的部分，理论上需要背大量（在GRE考试之外再也见不到的）单词。但填空也有蒙题技巧。首先，一些填空题的正确选项可能是比较简单的单词，这时候可以直接选你觉得对的；或者所有你认识的单词都觉得不对，那剩下的那（两）个不认识的单词就大概率是正确选项。如果上述两个策略都失效了，还有一种冒险性比较大的策略：众所周知一些英文词根词缀具有感情色彩。比如un-(e.g. unlikely)，a-(e.g. abandon)具有否定、负面的感情色彩。另一些则有肯定、正面的感情色彩。这时候可以根据词的感情色彩来匹配句子的感情色彩。另外，背单词从高频的开始背（一些机构会整理高频词，网上也有高频词），统计学不会骗人的。另外运气也很重要</p>]]></description>
 </item></channel>
 </rss>

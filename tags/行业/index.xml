@@ -88,31 +88,7 @@ Letter</p>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/bapu/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
-            </div><p>uvr5</p>
-<ul>
-<li>人声伴奏分离</li>
-<li>伴奏带乐器分离（效果一般，适合基本的钢琴、吉他）</li>
-</ul>
-<p>basicpitch</p>
-<ul>
-<li>在线wav转midi（会有漏音情况，适合钢琴）</li>
-</ul>
-<p>ripx</p>
-<ul>
-<li>自动分析扒谱</li>
-</ul>
-<p>GiantMIDI<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<ul>
-<li>字节跳动古典钢琴数据集</li>
-</ul>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p><a href="https://github.com/bytedance/GiantMIDI-Piano" target="_blank" rel="noopener noreferrer">https://github.com/bytedance/GiantMIDI-Piano</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
+            </div>]]></description>
 </item><item>
     <title>滴滴大数据研发实习进程实录</title>
     <link>https://blog.ralvines.top/didi-data/</link>
@@ -248,6 +224,19 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </div>
         </div>
     </div>
+<h2 id="入职" class="headerLink">
+    <a href="#%e5%85%a5%e8%81%8c" class="header-mark"></a>入职</h2><h3 id="offer" class="headerLink">
+    <a href="#offer" class="header-mark"></a>Offer</h3><h3 id="入职准备" class="headerLink">
+    <a href="#%e5%85%a5%e8%81%8c%e5%87%86%e5%a4%87" class="header-mark"></a>入职准备</h3><ul>
+<li>入职申请表</li>
+<li>招商银行卡</li>
+</ul>
+<h3 id="报到" class="headerLink">
+    <a href="#%e6%8a%a5%e5%88%b0" class="header-mark"></a>报到</h3><ul>
+<li>培训</li>
+<li>领取工卡</li>
+<li>申领电脑</li>
+</ul>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -429,7 +418,33 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </li>
 </ul>
 <p>刚才我说了，大家都只会说不的时候，结果可能是最保守的势力来管理社会，受益最多的就是既得利益集团。世界上很多国家统治集团就是利用这一点才能长期管理社会的，抓住一两个敏感的点去挑逗民众的愤怒情绪，让大家在反对某件事的过程中团结起来。民众反对来反对去，貌似输出了很多政治诉求，最后一看，政治诉求都相互抵消了，台上还是那些人，还是几十年前那些利益集团。台湾省已经在这个陷阱里出不来了，中国大陆千万不能掉进这种政治陷阱。一定要主动创造一套新制度，保卫好我们的现代化发展道路。</p>
-<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>]]></description>
+<p>这是演讲的一个主要观点，我希望不管是对这次演讲持支持或是反对的人，都能更多说一说“我希望怎样”，而不是“我反对什么”。</p>
+<h2 id="扒谱工具" class="headerLink">
+    <a href="#%e6%89%92%e8%b0%b1%e5%b7%a5%e5%85%b7" class="header-mark"></a>扒谱工具</h2><p>uvr5</p>
+<ul>
+<li>人声伴奏分离</li>
+<li>伴奏带乐器分离（效果一般，适合基本的钢琴、吉他）</li>
+</ul>
+<p>basicpitch</p>
+<ul>
+<li>在线wav转midi（会有漏音情况，适合钢琴）</li>
+</ul>
+<p>ripx</p>
+<ul>
+<li>自动分析扒谱</li>
+</ul>
+<p>GiantMIDI<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<ul>
+<li>字节跳动古典钢琴数据集</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://github.com/bytedance/GiantMIDI-Piano" target="_blank" rel="noopener noreferrer">https://github.com/bytedance/GiantMIDI-Piano</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
 </item><item>
     <title>秋招投递与面试复盘</title>
     <link>https://blog.ralvines.top/24-product/</link>
