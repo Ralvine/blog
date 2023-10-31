@@ -12,17 +12,45 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
             </div><h2 id="意向与套磁" class="headerLink">
-    <a href="#%e6%84%8f%e5%90%91%e4%b8%8e%e5%a5%97%e7%a3%81" class="header-mark"></a>意向与套磁</h2><p>香港科技大学 广州<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
-香港科技大学<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>
-香港大学<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>
-香港中文大学
-香港中文大学 深圳<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>
-香港理工大学
-香港浸会大学-北师大联合项目</p>
-<p>新加坡国立大学<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>
-南洋理工大学
-新加坡管理大学</p>
+    <a href="#%e6%84%8f%e5%90%91%e4%b8%8e%e5%a5%97%e7%a3%81" class="header-mark"></a>意向与套磁</h2><ol>
+<li>香港科技大学 广州<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li>香港科技大学<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+</ol>
+<ul>
+<li>YANGXIANG（不带博士，需要联系新的）</li>
+</ul>
+<ol start="3">
+<li>香港大学<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
+<li>香港中文大学</li>
+<li>香港中文大学 深圳<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></li>
+</ol>
+<ul>
+<li>张炼</li>
+<li>王本友（待联系）</li>
+</ul>
+<ol start="6">
+<li>香港理工大学</li>
+</ol>
+<ul>
+<li>乔中华（暂无后续）</li>
+</ul>
+<ol start="7">
+<li>香港浸会大学-北师大联合项目</li>
+</ol>
+<p>新加坡国立大学<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<ul>
+<li>（招生办暂无后续，暂无套磁）
+南洋理工大学</li>
+<li>夏克林（等GRE、雅思）</li>
+</ul>
+<p>新加坡管理大学</p>
+<ul>
+<li>（等GRE）</li>
+</ul>
 <p>奥本大学</p>
+<ul>
+<li>（等GRE）</li>
+</ul>
 <p>南方科技大学</p>
 <h2 id="语言" class="headerLink">
     <a href="#%e8%af%ad%e8%a8%80" class="header-mark"></a>语言</h2><p>GRE
@@ -252,38 +280,41 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 
 </pre>
 <h2 id="择企" class="headerLink">
-    <a href="#%e6%8b%a9%e4%bc%81" class="header-mark"></a>择企</h2><ol>
-<li><strong>消费互联网</strong></li>
+    <a href="#%e6%8b%a9%e4%bc%81" class="header-mark"></a>择企</h2><h3 id="消费互联网" class="headerLink">
+    <a href="#%e6%b6%88%e8%b4%b9%e4%ba%92%e8%81%94%e7%bd%91" class="header-mark"></a>消费互联网</h3><ol>
+<li>垄断型大厂</li>
 </ol>
-<p>垄断型大厂</p>
 <ul>
 <li>腾讯</li>
-<li>阿里集团</li>
+<li>阿里</li>
 <li>字节跳动</li>
 </ul>
-<p>平台型大厂</p>
+<ol start="2">
+<li>平台型大厂</li>
+</ol>
 <ul>
 <li>美团</li>
 <li>网易</li>
+<li>百度</li>
 </ul>
-<ol start="2">
-<li><strong>终端与智能制造</strong></li>
-</ol>
-<ul>
+<h3 id="终端与智能制造" class="headerLink">
+    <a href="#%e7%bb%88%e7%ab%af%e4%b8%8e%e6%99%ba%e8%83%bd%e5%88%b6%e9%80%a0" class="header-mark"></a>终端与智能制造</h3><ul>
 <li>华为</li>
 <li>TP-Link</li>
 <li>OPPO</li>
 <li>Realme</li>
 <li>小米</li>
 </ul>
-<ol start="3">
-<li><strong>产品领域独角兽或头部</strong></li>
+<h3 id="产品领域独角兽或头部" class="headerLink">
+    <a href="#%e4%ba%a7%e5%93%81%e9%a2%86%e5%9f%9f%e7%8b%ac%e8%a7%92%e5%85%bd%e6%88%96%e5%a4%b4%e9%83%a8" class="header-mark"></a>产品领域独角兽或头部</h3><ol>
+<li>影像</li>
 </ol>
-<p>影像</p>
 <ul>
 <li>影石</li>
 </ul>
-<p>BI产品</p>
+<ol start="2">
+<li>BI产品</li>
+</ol>
 <ul>
 <li>帆软</li>
 </ul>

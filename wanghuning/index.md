@@ -332,9 +332,9 @@
 {{< /quote >}}
 
 
-[^1]: https://book.douban.com/subject/2125296/
+[^1]: 政治的人生 豆瓣 https://book.douban.com/subject/2125296/
 [^2]: 王沪宁的1994年 https://mp.weixin.qq.com/s/Gn8bJ86JfHyio4YQTYoXbw
 [^3]: 习总书记的用人观 范小舟 《环球人物》2014年第25期 http://paper.people.com.cn/hqrw/html/2014-09/16/content_1498095.htm
-[^4]: 王沪宁 维基百科 https://zh.wikipedia.org/wiki/王沪宁
+[^4]: 王沪宁 维基百科
 [^5]: 教授王沪宁 看天下杂志 特稿 2016-06-15 https://web.archive.org/web/20230721223136/https://www.fx361.com/page/2016/0615/455427.shtml
 [^6]: 专访中共中央委员王沪宁 理性政治一生政治 第一财经日报 https://news.sina.com.cn/c/2005-09-23/11167845252.shtml

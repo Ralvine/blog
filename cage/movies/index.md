@@ -187,10 +187,10 @@
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinlYrT.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">星际穿越<span style="float:right;font-weight:400">科研/冒险 二刷</span></div>
+      <div class="media-meta-item title">星际穿越<span style="float:right;font-weight:400">科幻/冒险</span></div>
       <div class="media-meta-item">
-        <span class="author">04-26 线上</span>
-        <span class="star-score">★★★★</span>
+        <span class="author">04-26 线上 二刷</span>
+        <span class="star-score">★★★★★</span>
       </div>
       <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
     </div>
@@ -198,46 +198,186 @@
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">宇宙探索编辑部<span style="float:right;font-weight:400">科研/冒险 二刷</span></div>
+      <div class="media-meta-item title">宇宙探索编辑部<span style="float:right;font-weight:400">喜剧/科幻</span></div>
       <div class="media-meta-item">
         <span class="author">04-14 小剧场·杭州</span>
-        <span class="star-score">★★★★</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyawQ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">名侦探柯南：贝克街的亡灵<span style="float:right;font-weight:400">冒险/悬疑</span></div>
+      <div class="media-meta-item">
+        <span class="author">04-09 影院·杭州 重映</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyUeg.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">铃芽之旅<span style="float:right;font-weight:400">奇幻/爱情</span></div>
+      <div class="media-meta-item">
+        <span class="author">03-29 影院·杭州</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinytOS.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">普罗旺斯的夏天<span style="float:right;font-weight:400">家庭/喜剧</span></div>
+      <div class="media-meta-item">
+        <span class="author">02-12 线上</span>
+        <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/piny3Wt.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">流浪地球2<span style="float:right;font-weight:400">科幻/灾难</span></div>
+      <div class="media-meta-item">
+        <span class="author">01-25 影院·杭州 二刷</span>
+        <span class="star-score">★★★★★</span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyJQf.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">控方证人<span style="float:right;font-weight:400">悬疑/犯罪</span></div>
+      <div class="media-meta-item">
+        <span class="author">01-23 线上</span>
+        <span class="star-score">★★★★★</span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/piny1JI.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">阿凡达：水之道<span style="float:right;font-weight:400">科幻/冒险</span></div>
+      <div class="media-meta-item">
+        <span class="author">01-23 影院·台州</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyYy8.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">超时空宠爱<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+      <div class="media-meta-item">
+        <span class="author">01-08 解说</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
     </div>
   </div>
 </div>
 
-
-
-- ****，2023-04-14
-- **名侦探柯南：贝克街的亡灵**，2023-04-09
-- **铃芽之旅**，2023-03-29
-- 普罗旺斯的夏天，2023-02-12
-- **流浪地球2**，2023-01-25
-- *异形*，2023-01-23
-- *时间规划局*，2023-01-23
-- *终极面试*，2023-01-23
-- *杰瑞和玛姬生活阔绰*，2023-01-23
-- *迫降航班*，2023-01-23
-- 控方证人，2023-01-23
-- **阿凡达：水之道**，2023-01-12 
-- *超时空宠爱*，2023-01-08
-- *紧急迫降*，2023-01-07
-
 ## ⏰ 2022
 
-- **椒麻堂会**，2022-12-19
-- 小黄人大眼萌：神偷奶爸前传，2022-12-15
-- 名侦探柯南：万圣节的新娘，2022-12-07
-- 开国大典，2022-12-02
-- 美国X档案，2022-11-17
-- 飞龙猛将，2022-11-17
-- 本杰明·巴顿奇事，2022-11-04
-- 魂断蓝桥，2022-10-30
-- 1950他们正年轻，2022-10-10
-- **万里归途**，2022-10-03
-- 搞定岳父大人，2022-09-15
+<div class="culture-list" cover-src="" json-src="books.json">
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyGSP.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">椒麻堂会<span style="float:right;font-weight:400">剧情</span></div>
+      <div class="media-meta-item">
+        <span class="author">12-19 影院·台州</span>
+        <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">开国大典<span style="float:right;font-weight:400">历史/战争</span></div>
+      <div class="media-meta-item">
+        <span class="author">12-02 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">美国X档案<span style="float:right;font-weight:400">犯罪/剧情</span></div>
+      <div class="media-meta-item">
+        <span class="author">11-17 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">飞龙猛将<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+      <div class="media-meta-item">
+        <span class="author">11-17 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">本杰明·巴顿奇事<span style="float:right;font-weight:400">爱情/奇幻</span></div>
+      <div class="media-meta-item">
+        <span class="author">11-04 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">魂断蓝桥<span style="float:right;font-weight:400">爱情/战争</span></div>
+      <div class="media-meta-item">
+        <span class="author">10-30 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">万里归途<span style="float:right;font-weight:400">剧情/战争</span></div>
+      <div class="media-meta-item">
+        <span class="author">10-03 影院·台州</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinldIJ.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">搞定岳父大人<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+      <div class="media-meta-item">
+        <span class="author">09-15 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div>
+</div>
+
 - **新神榜：杨戬**，2022-09-04
 - 叶问3，2022-09-01
 - 神奇燕尾服，2022-09-01
