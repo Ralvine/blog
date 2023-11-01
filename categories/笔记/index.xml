@@ -54,9 +54,9 @@
 </ul>
 <h2 id="遗传算法" class="headerLink">
     <a href="#%e9%81%97%e4%bc%a0%e7%ae%97%e6%b3%95" class="header-mark"></a>遗传算法</h2><h2 id="统计学习方法" class="headerLink">
-    <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h3 id="首次展示knn" class="headerLink">
-    <a href="#%e9%a6%96%e6%ac%a1%e5%b1%95%e7%a4%baknn" class="header-mark"></a>首次展示：kNN</h3><h4 id="分类问题1" class="headerLink">
-    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h4><ul>
+    <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h2 id="首次展示knn" class="headerLink">
+    <a href="#%e9%a6%96%e6%ac%a1%e5%b1%95%e7%a4%baknn" class="header-mark"></a>首次展示：kNN</h2><h3 id="分类问题1" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3><ul>
 <li>
 <p>一种监督学习问题，旨在对数据分类</p>
 </li>
@@ -79,7 +79,8 @@
 <p>图像识别</p>
 </li>
 </ul>
-<h4 id="提出2" class="headerLink">
+<h3 id="knn模型构建" class="headerLink">
+    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba" class="header-mark"></a>kNN模型构建</h3><h4 id="提出2" class="headerLink">
     <a href="#%e6%8f%90%e5%87%ba2" class="header-mark"></a>提出<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h4><p>$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$
 $$y_i\in\mathcal{Y}={c_1,c_2,\cdots,c_K}$$
 $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
@@ -116,8 +117,8 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <li>存储成本高</li>
 <li>“维度灾难”和数据不平衡</li>
 </ol>
-<h4 id="knn模型构建流程" class="headerLink">
-    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>kNN模型构建流程</h4><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
+<h4 id="构建流程" class="headerLink">
+    <a href="#%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>构建流程</h4><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
 <ol>
 <li>在训练集 T 中找出与 x 最邻近的 k 个点，涵盖这 个点的 x 的邻域记作 $N_k(a)$</li>
 <li>在 $N_k(a)$ 中根据分类决策规则决定 x 的类别 y</li>
@@ -129,7 +130,8 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <li>决策规则</li>
 </ol>
 <p>特殊情况：最近邻（k=1）</p>
-<h4 id="k-值选择" class="headerLink">
+<h3 id="模型要素" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h3><h4 id="k-值选择" class="headerLink">
     <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h4><table>
 <thead>
 <tr>
@@ -176,8 +178,9 @@ $$P(Y\ne f(X))=1-P(Y=f(X))$$</li>
 <li>等价于风险经验最小化
 $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</li>
 </ul>
-<h4 id="分类模型预测流程" class="headerLink">
-    <a href="#%e5%88%86%e7%b1%bb%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>分类模型预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
+<h3 id="模型预测" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h3><h4 id="预测流程" class="headerLink">
+    <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
 <ol>
 <li>对未知类别的数据集中的每个点：</li>
 </ol>
@@ -195,8 +198,110 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <ol start="3">
 <li>重复步骤，完成对所有点的预测分类</li>
 </ol>
-<h4 id="heading" class="headerLink">
-    <a href="#heading" class="header-mark"></a></h4><div class="footnotes" role="doc-endnotes">
+<h4 id="python实现" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">KNN</span><span class="p">:</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">3</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">k</span> <span class="o">=</span> <span class="n">k</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span> <span class="o">=</span> <span class="n">X</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">y_train</span> <span class="o">=</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">euclidean_distance</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">x1</span> <span class="o">-</span> <span class="n">x2</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">y_pred</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">_predict</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">X</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">_predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">distances</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">euclidean_distance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">x_train</span><span class="p">)</span> <span class="k">for</span> <span class="n">x_train</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">k_indices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">distances</span><span class="p">)[:</span><span class="bp">self</span><span class="o">.</span><span class="n">k</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">k_nearest_labels</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">y_train</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">k_indices</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">most_common</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">k_nearest_labels</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">most_common</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 一个简单的例子：</span>
+</span></span><span class="line"><span class="cl"><span class="n">X_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">y_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">clf</span> <span class="o">=</span> <span class="n">KNN</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">predictions</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="改进" class="headerLink">
+    <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h3><h4 id="主要挑战" class="headerLink">
+    <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h4><ol>
+<li>前置处理：特征的选择</li>
+<li>模型</li>
+</ol>
+<ul>
+<li>合适的度量函数</li>
+<li>合适的K值</li>
+<li>降低训练和预测的复杂度</li>
+</ul>
+<h4 id="kd树" class="headerLink">
+    <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h4><p>一种二叉树数据结构，用于优化搜索算法。</p>
+<p><strong>优势：</strong></p>
+<ol>
+<li>降低搜索维度</li>
+<li>提高搜索效率</li>
+<li>更少的存储需求</li>
+<li>支持范围搜索</li>
+</ol>
+<p>可能因数据的特定分布而表现不佳。<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<h5 id="构造11" class="headerLink">
+    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><ol>
+<li>构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域。</li>
+<li>递归（生成子结点）：</li>
+</ol>
+<ul>
+<li>选择坐标轴和切分点，确定一个超平面</li>
+<li>将当前超矩形区域切分为左右两个子区域</li>
+<li>直到子区域内没有实例时终止。</li>
+</ul>
+<ol start="3">
+<li>实例保存在相应的结点上。</li>
+</ol>
+<p><strong>如何选择：</strong></p>
+<ul>
+<li>空间切分参照：坐标轴</li>
+<li>切分点的选择：中位数</li>
+</ul>
+<h5 id="搜索" class="headerLink">
+    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
@@ -247,16 +352,23 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <li id="fn:8">
 <p>特征空间中两个实例点的距离是两个实例点相似程度的反映。k 近邻模型的特征空间一般是 n 维实数向量空间 $R^n$，使用的距离是欧氏距离，但也可以是其他距离，如更一般的 $L_p$ 距离或 Minkowski 距离。&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
+<li id="fn:9">
+<p>实现 k 近邻法时，主要考虑的问题是如何对训练数据进行快速 k 近邻搜索。这点在特征空间的维数大及训练数据容量大时尤其必要。k 近邻法最简单的实现方法是线性扫描。这时要计算输入实例与每一个训练实例的距离。当训练集很大时，计算非常耗时，这种方法是不可行的。为了提高k 近邻搜索的效率，可以考虑使用特殊的结构存储训练数据，以减少计算距离的次数。具体方法很多，下面介绍其中的 kd 树方法。<br>
+使用 kd 树相比直接计算方法的主要好处在于它可以有效地减少计算量。kd 树是一种二叉树数据结构，它可以用于优化搜索算法，特别是在高维空间中。<br>
+以下是 kd 树相对于直接计算方法的一些优势：<br>
+降低搜索维度：kd 树能够将搜索范围缩小到与搜索点最近的局部区域，从而避免不必要的计算。<br>
+提高搜索效率：在具有大量数据点的高维空间中，kd 树可以更快地定位最近邻居，因为它可以避免对所有数据点进行逐一比较。<br>
+更少的存储需求：相对于直接计算方法，kd 树通常需要更少的存储空间，因为它可以通过二叉树结构有效地组织数据。<br>
+支持范围搜索：除了最近邻搜索之外，kd 树还可以很容易地扩展到支持范围搜索，以查找在给定半径内的所有邻居。<br>
+尽管 kd 树具有这些优势，但它可能会因数据的特定分布而表现不佳。例如，在存在大量密集聚集数据点的区域，kd 树的性能可能会下降。因此，在实际应用中，应该根据数据集的特点选择合适的算法来进行近邻搜索。&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>kd 树是一种对 k 维空间中的实例点进行存储以便对其进行快速检索的树形数据结构。kd 树是二叉树，表示对 k 维空间的一个划分。构造 kd 树相当于不断地用垂直于坐标轴的超平面将k 维空间切分，构成一系列的飞 维超矩形区域。kd树的每个结点对应于一个k 维超矩形区域。<br>
+构造 kd 树的方法如下:构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域:通过下面的递归方法，不断地对 k 维空间进行切分，生成子结点。在超矩形区域(结点)上选择一个坐标轴和在此坐标轴上的一个切分点，确定一个超平面，这个超平面通过选定的切分点并垂直于选定的坐标轴，将当前超矩形区域切分为左右两个子区域（子结点）；这时，实例被分到两个子区域。这个过程直到子区域内没有实例时终止（终止时的结点为叶结点）。在此过程中，将实例保存在相应的结点上。<br>
+平衡树：使用中位数作为划分点可以保证树的相对平衡，避免出现极端情况下的不平衡树结构，从而使得搜索效率总体比较高，但未必最优。考虑一些离群点。&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
 </div>]]></description>
-</item><item>
-    <title>扒谱</title>
-    <link>https://blog.ralvines.top/bapu/</link>
-    <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/bapu/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
-            </div>]]></description>
 </item><item>
     <title>大数据理论基础 笔记</title>
     <link>https://blog.ralvines.top/big-data/</link>
@@ -3998,5 +4110,132 @@ Whether it is difficult or easy to use And explain why it is useful</p>
 <p>书中花费了大量篇幅分析新中国前三十年的工业化建设模式，从中可以清晰地认识到奠基我国重工业基础的代价是工农“剪刀差”和“全盘苏化”带来的部分权益之牺牲。通过举国动员和全国人民的辛苦建设，我们用农矿产品换来了开启工业化大门的最核心、最底层的支持，但也因为路径依赖在外交环境恶化后，在财政危机下迫不得已开展上山下乡运动。在这里，农村第一次展现了其化解城市危机的重要价值，为缺乏资本和技术的城市与供给过剩的知识分子提供了短暂的庇护所，“劳动力的集中投入成功地代替了长期绝对稀缺的资金，农村由其内生的稳定性成功地承接并化解了城市的危机”，深刻分析了当时我国的经济基础、上层建筑，特别是城乡生产关系对经济发展的影响。</p>
 <p>城乡二元体制也是本书重点着墨的话题。温教授一针见血地指出我国“地方化”资源资本发展的客观事实。在很长时间内，地方的高度分权是央地财政分配体系的重要特征，“政府公司化”自1958年放权地方以来延续至今，使得政府成为经济活动中的另一重要引擎。而城乡二元结构带来的割裂，为工农产品“剪刀差”提供了社会条件。改革开放以来，广袤乡村的农民在非市场化制度下平均分配到无风险的资产，又将风险收益拱手让读于企业家和沿海发达地区的政府，他们为我国迈入社会主义市场经济体制亦做出了不可磨灭的贡献。“新中国成立后，农民仅通过这三种方式为国家建设积累资金就至少达到17.3万亿元”，可见“三农”在我国发展历程中的贡献如此之重。</p>
 <p>回望当下，随着对外开放的进一步深入和金融资本同经济社会更深层的嵌合，为了防范化解重大危机，实现可持续发展，解决好“三农”问题成为时代的新命题。新世纪以来，资本相较于产业不断过剩，旧的经济发展主义向更为绿色、科学的精细化模式转变。进入免除了农业税的“后税费时代”，农业人口结构的老龄化所引发的劳动力稀缺危机弱化了农村的社会调节功能，如何以生态文明建设引领农村新型工业化和城镇化，将山水资源以货币形式自我资本化，将广袤农村的自然要素锚定于更具流通性的价值度量，推动城乡产业融合发展、促进商品流通和农村内需延扩，都是更为实质性的问题。而在知识阶层再一次渐趋过剩的今天，除了城市服务业蓄水池之外，如何进一步发挥好农村在解决产能和劳动力匹配性问题的作用，也是令人值得深思的问题。</p>]]></description>
+</item><item>
+    <title>面向对象程序设计</title>
+    <link>https://blog.ralvines.top/oop/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/oop/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAWIwd.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 计算机科学与技术学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 许威威<br>
+📝 50%作业，50%期末</div>
+        </div>
+    </div>
+<h2 id="介绍1" class="headerLink">
+    <a href="#%e4%bb%8b%e7%bb%8d1" class="header-mark"></a>介绍<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><p>Buzzwords</p>
+<ul>
+<li>继承</li>
+<li>cohesion 凝聚</li>
+<li>coupling 耦合</li>
+<li>overriding</li>
+<li>interface 接口</li>
+<li>polymorphic 多态
+<ul>
+<li>polymorphic method calls</li>
+</ul>
+</li>
+<li>matator methods</li>
+<li>Encapsulation 封装</li>
+</ul>
+<p>C的优缺点&amp;C++新特性</p>
+<h2 id="引用" class="headerLink">
+    <a href="#%e5%bc%95%e7%94%a8" class="header-mark"></a>引用</h2><p>函数swap操作形参无法交换外部变量，C用指针，C++引入引用。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">n</span><span class="o">=</span><span class="mi">4</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span><span class="o">&amp;</span> <span class="n">SetValue</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">SetValue</span><span class="p">()</span><span class="o">=</span><span class="mi">40</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="c1">// Output: 40.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="常量" class="headerLink">
+    <a href="#%e5%b8%b8%e9%87%8f" class="header-mark"></a>常量</h2><p>区别define，有类型检查。</p>
+<p>常量指针，不允许通过指针修改目标内容，但可以改变指向对象。</p>
+<p>在函数形参中使用，防止形参被修改</p>
+<p>常量成员函数：不应修改其所作用的对象（除了静态成员变量）</p>
+<p>常量对象 <code>const Sample o;</code> 不可修改对象，但是可以执行其中的常量成员函数。</p>
+<p>成员函数名字参数相同，有无const的区别属于重载关系。（实例对象是否常量决定了调用哪个成员函数）</p>
+<p>常引用：对象作函数参数，为了避免复制构造函数降低效率，直接用引用，而为了防止实参跟着变，采用常引用。</p>
+<h2 id="动态内存分配" class="headerLink">
+    <a href="#%e5%8a%a8%e6%80%81%e5%86%85%e5%ad%98%e5%88%86%e9%85%8d" class="header-mark"></a>动态内存分配</h2><p>分配变量：<code>int* P; P=new T;</code></p>
+<p>T是任意类型名，相当于开辟了sizeof(T)的空间，P是指向它起始地址的指针，即T*.</p>
+<p>释放：只能delete一次，对数组应为<code>delete [] p;</code></p>
+<p>不delete就不会释放！</p>
+<h2 id="内联函数重载和缺省参数" class="headerLink">
+    <a href="#%e5%86%85%e8%81%94%e5%87%bd%e6%95%b0%e9%87%8d%e8%bd%bd%e5%92%8c%e7%bc%ba%e7%9c%81%e5%8f%82%e6%95%b0" class="header-mark"></a>内联函数、重载和缺省参数</h2><p>函数调用存在开销，调用本身耗时，内联函数在编译时直接插入函数内操作本身，但程序体积会变大。</p>
+<p><code>inline int func(parameter) {}</code></p>
+<p>函数名字相同但参数个数或类型不同，叫做重载。使函数命名简单，编译器自动判断调用哪个函数。二义性，调用函数的参数匹配不上。</p>
+<p>缺省参数，最右边连续若干个参数可有缺省值。</p>
+<p><code>void func(int x1, int x2=2, int x3=3) {}</code></p>
+<h2 id="类和对象" class="headerLink">
+    <a href="#%e7%b1%bb%e5%92%8c%e5%af%b9%e8%b1%a1" class="header-mark"></a>类和对象</h2><p>C语言：结构化程序设计，程序=数据结构+算法，但函数和操作的数据结构没有直接联系，规模增大后难以理解、扩充、查错。</p>
+<p>C++：面向对象程序</p>
+<p>指针方式：<code>ClassName* p= &amp;AClassObject</code>，用 - &gt; 指向其成员变量或函数。</p>
+<p>引用方式：<code>ClassName&amp; p= AClassObject</code> 同时跟着变。</p>
+<p>私有成员：缺省=private，同Class其他对象的私有成员也可访问。</p>
+<p>成员函数也可重载、参数缺省。</p>
+<h2 id="构造函数" class="headerLink">
+    <a href="#%e6%9e%84%e9%80%a0%e5%87%bd%e6%95%b0" class="header-mark"></a>构造函数</h2><p>一个类可以有多个构造函数。</p>
+<p>对象数组，注意动态分配时没定义就不初始化。</p>
+<p>复制构造函数，参数必须引用<code>X::X(X&amp; x)</code>；起作用：直接<code>Complex c2(c1)</code>，或者函数参数或返回值含有该类对象；但是对象间赋值不会调用复制构造函数。</p>
+<p>常量引用参数：减少开销，确保实参值不变时使用。</p>
+<p>类型转换构造函数：只含一个参数。</p>
+<p>析构函数：有对象数组情况下，程序结束时每个元素都会调用析构函数；临时对象和形参对象消亡都会调用。</p>
+<p>局部对象：<code>{ 生命周期 }</code>，静态对象static：函数结束时不消亡。</p>
+<p>不同编译器输出有所差别，有的做了优化，赋值可以不用再临时生成被复制的对象。</p>
+<h2 id="this指针" class="headerLink">
+    <a href="#this%e6%8c%87%e9%92%88" class="header-mark"></a>this指针</h2><p>C++编译先翻译成C时，Class变为Struct，因此需要多一个this指针指向函数作用的对象。因此可以返回对象自身。</p>
+<p>静态成员函数则不可使用this指针，因为其不具体作用于某个对象。</p>
+<h2 id="静态成员变量" class="headerLink">
+    <a href="#%e9%9d%99%e6%80%81%e6%88%90%e5%91%98%e5%8f%98%e9%87%8f" class="header-mark"></a>静态成员变量</h2><p>静态成员为所有对象共享，总共就一份。sizeof()计算对象时不会计算其static成员变量。</p>
+<p>访问方式。需要在定义类的文件中单独进行声明或初始化！</p>
+<p>静态成员<strong>函数</strong>还可以直接通过整个类进行调用。</p>
+<p>本质是全局变量，只是放在类中。例：方体类的实例总数。</p>
+<p>⬆️缺陷，若实例对象是复制构造生成的，Total会有遗漏，特别是临时对象消亡时还会调用析构函数，因此需要单独写一个复制构造函数。</p>
+<p>静态成员<strong>函数</strong>不能调用非静态的成员变量或函数。</p>
+<h2 id="成员对象和封闭类" class="headerLink">
+    <a href="#%e6%88%90%e5%91%98%e5%af%b9%e8%b1%a1%e5%92%8c%e5%b0%81%e9%97%ad%e7%b1%bb" class="header-mark"></a>成员对象和封闭类</h2><p>Class中有成员变量为其他Class类型，即称其为成员对象。例如Class Car下有成员变量Engine，属于Engine类。</p>
+<p>初始化列表：构造函数后直接赋值。</p>
+<p>先执行封闭类下所有对象成员构造函数，再执行封闭类构造函数；析构时顺序相反。</p>
+<h2 id="友元" class="headerLink">
+    <a href="#%e5%8f%8b%e5%85%83" class="header-mark"></a>友元</h2><p>友元类，关系不能传递和继承。</p>
+<h2 id="运算符重载" class="headerLink">
+    <a href="#%e8%bf%90%e7%ae%97%e7%ac%a6%e9%87%8d%e8%bd%bd" class="header-mark"></a>运算符重载</h2><p>根据参数数目决定重载为成员函数或普通函数</p>
+<p>赋值运算符的重载：以string为例，需要防止指向同一块内存。</p>
+<p>此时返回对象需要引用，如<code>String&amp;</code>：应当保留运算符原本特性，使得允许a=b=c和(a=b)=c.</p>
+<p>还需要防止s=s.</p>
+<p>还需要为其写单独的复制构造函数。</p>
+<p>若声明时直接赋值，属于调用构造函数。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>智云课堂回放 <a href="https://classroom.zju.edu.cn/coursedetail?course_id=50910&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">https://classroom.zju.edu.cn/coursedetail?course_id=50910&tenant_code=112</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
 </item></channel>
 </rss>

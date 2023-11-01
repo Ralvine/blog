@@ -1,0 +1,67 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>鸿蒙 - 标签 - 暮瞻</title>
+        <link>https://blog.ralvines.top/tags/%E9%B8%BF%E8%92%99/</link>
+        <description>鸿蒙 - 标签 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Thu, 12 Oct 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E9%B8%BF%E8%92%99/" rel="self" type="application/rss+xml" /><item>
+    <title>华为鸿蒙通用软件开发复盘</title>
+    <link>https://blog.ralvines.top/huawei/</link>
+    <pubDate>Thu, 12 Oct 2023 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/huawei/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/24/piEGg5n.jpg" referrerpolicy="no-referrer">
+            </div><h2 id="岗位信息" class="headerLink">
+    <a href="#%e5%b2%97%e4%bd%8d%e4%bf%a1%e6%81%af" class="header-mark"></a>岗位信息</h2><p>[基本要求]</p>
+<ol>
+<li>计算机、软件、通信等相关专业本科及以上学历；</li>
+<li>热爱编程，基础扎实，熟悉掌握但不限于JAVA/C++/C/Python/JS/HTML/GO等编程语言中的一种或数种，有良好的编程习惯；</li>
+<li>具备独立工作能力和解决问题的能力、善于沟通，乐于合作，热衷新技术，善于总结分享，喜欢动手实践；</li>
+<li>对数据结构、算法有一定了解；</li>
+</ol>
+<p>[优选条件]</p>
+<ol>
+<li>熟悉TCP/IP协议及互联网常见应用和协议的原理；</li>
+<li>有IT应用软件、互联网软件、IOS/安卓等相关产品开发经验，不满足于课堂所学，在校期间积极参加校内外软件编程大赛或积极参于编程开源社区组织；</li>
+<li>熟悉JS/AS/AJAX/HTML5/CSS等前端开发技术。</li>
+</ol>
+<ul>
+<li>华为终端BG 软件部 Harmony 手机软件业务</li>
+<li>Base上海</li>
+</ul>
+<h2 id="投递" class="headerLink">
+    <a href="#%e6%8a%95%e9%80%92" class="header-mark"></a>投递</h2><h3 id="流程" class="headerLink">
+    <a href="#%e6%b5%81%e7%a8%8b" class="header-mark"></a>流程</h3><pre class="mermaid">gantt
+    dateFormat  YYYY-MM-DD
+    title 华为 终端BG 软件部 Harmony手机上层开发方向 Base上海
+    section 通用软件开发工程师
+    投递:done,2023-08-09,2023-09-17
+    机考:done,2023-09-27, 1d
+    综合测评:done,2023-09-28,2023-10-05
+    一面,二面,主管面:active,2023-10-12,1d
+
+</pre>
+<h3 id="渠道" class="headerLink">
+    <a href="#%e6%b8%a0%e9%81%93" class="header-mark"></a>渠道</h3><ul>
+<li>华为招聘官方网站</li>
+</ul>
+<h3 id="面试" class="headerLink">
+    <a href="#%e9%9d%a2%e8%af%95" class="header-mark"></a>面试</h3><h4 id="内容回顾" class="headerLink">
+    <a href="#%e5%86%85%e5%ae%b9%e5%9b%9e%e9%a1%be" class="header-mark"></a>内容回顾</h4><p><strong>一面</strong></p>
+<ol>
+<li>自我介绍和简历项目深挖</li>
+<li>机考题目回顾和思路陈述</li>
+<li>手撕代码</li>
+</ol>
+<p><strong>二面</strong></p>
+<ol>
+<li>自我介绍和简历项目深挖</li>
+<li>手撕代码</li>
+</ol>
+<p><strong>主管面</strong></p>
+<ol>
+<li>自我介绍和个人特质</li>
+<li>职业规划和对华为、行业的理解</li>
+</ol>]]></description>
+</item></channel>
+</rss>
