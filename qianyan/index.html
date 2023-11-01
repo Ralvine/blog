@@ -7,8 +7,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
-    <title>数学前沿专题讨论：遗传算法和统计学习方法 - 暮瞻</title><meta name="Description" content="不忘其所始，不求其所终；受而喜之，忘而复之。"><meta property="og:title" content="数学前沿专题讨论：遗传算法和统计学习方法" />
-<meta property="og:description" content="" />
+    <title>数学前沿专题讨论：遗传算法和统计学习方法 - 暮瞻</title><meta name="Description" content="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。"><meta property="og:title" content="数学前沿专题讨论：遗传算法和统计学习方法" />
+<meta property="og:description" content="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.ralvines.top/qianyan/" /><meta property="og:image" content="https://z1.ax1x.com/2023/11/01/pinHqnH.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-10-30T20:20:40+08:00" />
@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://z1.ax1x.com/2023/11/01/pinHqnH.png"/>
 
 <meta name="twitter:title" content="数学前沿专题讨论：遗传算法和统计学习方法"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。"/>
 <meta name="application-name" content="暮瞻">
 <meta name="apple-mobile-web-app-title" content="暮瞻">
 
@@ -34,13 +34,13 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.ralvines.top\/qianyan\/"
-        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  0 ,
+        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  3032 ,
         "url": "https:\/\/blog.ralvines.top\/qianyan\/","datePublished": "2023-10-30T20:20:40+08:00","dateModified": "2023-10-30T20:25:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"authors": [{
                         "@type": "Person",
                         "name": "Ralvine"                    
-                    }],"description": ""
+                    }],"description": "毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。"
     }
     </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
 </head>
@@ -171,13 +171,34 @@
 </div><main class="main">
             <div class="container"><div class="toc" id="toc-auto">
         <h2 class="toc-title">目录</h2>
-        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents"></nav></div>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#背景">背景</a></li>
+    <li><a href="#遗传算法">遗传算法</a></li>
+    <li><a href="#统计学习方法">统计学习方法</a>
+      <ul>
+        <li><a href="#首次展示knn">首次展示：kNN</a>
+          <ul>
+            <li><a href="#分类问题1">分类问题</a></li>
+            <li><a href="#提出2">提出</a></li>
+            <li><a href="#knn模型构建流程">kNN模型构建流程</a></li>
+            <li><a href="#k-值选择">k 值选择</a></li>
+            <li><a href="#距离度量9">距离度量</a></li>
+            <li><a href="#决策规则">决策规则</a></li>
+            <li><a href="#分类模型预测流程">分类模型预测流程</a></li>
+            <li><a href="#heading"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
     </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">数学前沿专题讨论：遗传算法和统计学习方法</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
                 </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA/"><i class="far fa-list-alt fa-fw"></i>社会科学理论</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 0 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 0 分钟&nbsp;<span id="/qianyan/" class="leancloud_visitors" data-flag-title="数学前沿专题讨论：遗传算法和统计学习方法">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3032 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 7 分钟&nbsp;<span id="/qianyan/" class="leancloud_visitors" data-flag-title="数学前沿专题讨论：遗传算法和统计学习方法">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="featured-image"><img
@@ -187,13 +208,271 @@
         srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
         sizes="auto"
         alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="auto"   width="auto" ></div><div class="details toc" id="toc-static"  kept="">
+        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="auto"   width="auto" ></div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"></div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#背景">背景</a></li>
+    <li><a href="#遗传算法">遗传算法</a></li>
+    <li><a href="#统计学习方法">统计学习方法</a>
+      <ul>
+        <li><a href="#首次展示knn">首次展示：kNN</a>
+          <ul>
+            <li><a href="#分类问题1">分类问题</a></li>
+            <li><a href="#提出2">提出</a></li>
+            <li><a href="#knn模型构建流程">kNN模型构建流程</a></li>
+            <li><a href="#k-值选择">k 值选择</a></li>
+            <li><a href="#距离度量9">距离度量</a></li>
+            <li><a href="#决策规则">决策规则</a></li>
+            <li><a href="#分类模型预测流程">分类模型预测流程</a></li>
+            <li><a href="#heading"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2023-2024 秋冬<br>
+🧑‍🏫 毕惟红<br>
+📝 50%读书报告，10%考勤，10%编程，30%两次展示</div>
+        </div>
+    </div>
+<h2 id="背景" class="headerLink">
+    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><ol>
+<li>浙大 计算数学</li>
+<li>研究生</li>
+</ol>
+<ul>
+<li>数字模拟 投影法求曲面面积</li>
+<li>随机数生成 数值代数 多元非线性方程组求解</li>
+</ul>
+<p><strong>研究方向</strong></p>
+<ol>
+<li>图像处理</li>
+</ol>
+<ul>
+<li>图像分割 图像识别</li>
+<li>图像加密 做的比较好</li>
+</ul>
+<ol start="2">
+<li>语义识别</li>
+</ol>
+<ul>
+<li>三维点式数据（无人驾驶、激光雷达）</li>
+</ul>
+<ol start="3">
+<li>社区发现</li>
+</ol>
+<ul>
+<li>复杂网络</li>
+<li>拟牛顿</li>
+</ul>
+<h2 id="遗传算法" class="headerLink">
+    <a href="#%e9%81%97%e4%bc%a0%e7%ae%97%e6%b3%95" class="header-mark"></a>遗传算法</h2><h2 id="统计学习方法" class="headerLink">
+    <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h3 id="首次展示knn" class="headerLink">
+    <a href="#%e9%a6%96%e6%ac%a1%e5%b1%95%e7%a4%baknn" class="header-mark"></a>首次展示：kNN</h3><h4 id="分类问题1" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h4><ul>
+<li>
+<p>一种监督学习问题，旨在对数据分类</p>
+</li>
+<li>
+<p>将输入数据映射到预定义的类别或标签</p>
+</li>
+<li>
+<p>从已知的训练数据中学习一个分类模型，然后将该模型应用于新的、未知的数据，以预测其所属的类别</p>
+</li>
+<li>
+<p>垃圾邮件过滤、金融风险评估</p>
+</li>
+<li>
+<p>医学诊断、生物信息学</p>
+</li>
+<li>
+<p>情感分析、客户分类</p>
+</li>
+<li>
+<p>图像识别</p>
+</li>
+</ul>
+<h4 id="提出2" class="headerLink">
+    <a href="#%e6%8f%90%e5%87%ba2" class="header-mark"></a>提出<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h4><p>$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$
+$$y_i\in\mathcal{Y}={c_1,c_2,\cdots,c_K}$$
+$$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
+<ul>
+<li>
+<p>输入：特征向量（空间点）</p>
+</li>
+<li>
+<p>输出：类别（可以取多类）</p>
+</li>
+<li>
+<p>已标注的训练集</p>
+</li>
+<li>
+<p>预测：多数表决（“近朱者赤” ）</p>
+</li>
+<li>
+<p>不具有显式的学习过程</p>
+</li>
+</ul>
+<p><strong>适用范围</strong></p>
+<ul>
+<li>数值型和标称型<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
+</ul>
+<p><strong>优点</strong><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<ol>
+<li>直观、非参数化</li>
+<li>对异常值不敏感</li>
+<li>支持多类别</li>
+</ol>
+<p><strong>缺点</strong><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<ol>
+<li>时间复杂度高</li>
+<li>存储成本高</li>
+<li>“维度灾难”和数据不平衡</li>
+</ol>
+<h4 id="knn模型构建流程" class="headerLink">
+    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>kNN模型构建流程</h4><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
+<ol>
+<li>在训练集 T 中找出与 x 最邻近的 k 个点，涵盖这 个点的 x 的邻域记作 $N_k(a)$</li>
+<li>在 $N_k(a)$ 中根据分类决策规则决定 x 的类别 y</li>
+</ol>
+<p><strong>基本要素</strong></p>
+<ol>
+<li>k 值选择</li>
+<li>距离度量</li>
+<li>决策规则</li>
+</ol>
+<p>特殊情况：最近邻（k=1）</p>
+<h4 id="k-值选择" class="headerLink">
+    <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h4><table>
+<thead>
+<tr>
+<th>k值</th>
+<th>偏小</th>
+<th>偏大</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>近似误差</td>
+<td>减小</td>
+<td>增大</td>
+</tr>
+<tr>
+<td>估计误差</td>
+<td>增大</td>
+<td>减小</td>
+</tr>
+</tbody>
+</table>
+<p>交叉验证以提高泛化性能。<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<h4 id="距离度量9" class="headerLink">
+    <a href="#%e8%b7%9d%e7%a6%bb%e5%ba%a6%e9%87%8f9" class="header-mark"></a>距离度量<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h4><p>对于
+$$x_i=(x_i^{(1)}, x_i^{(2)}, \cdots, x_i^{(n)})$$</p>
+<ul>
+<li>$L_p$ 距离
+$$L_p(x_i,x_j)=(\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^p)^{1/p}$$</li>
+<li>欧氏距离
+$$L_2(x_i,x_j)=(\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^2)^{1/2}$$</li>
+<li>曼哈顿距离
+$$L_1(x_i,x_j)=\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|$$</li>
+<li>$L_\infty$ 距离
+$$L_\infty (x_i,x_j)=(\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$</li>
+</ul>
+<h4 id="决策规则" class="headerLink">
+    <a href="#%e5%86%b3%e7%ad%96%e8%a7%84%e5%88%99" class="header-mark"></a>决策规则</h4><p><strong>多数表决</strong>
+由输入实例的 k 个邻近的训练实例中的多数类决定输入实例的类。</p>
+<ul>
+<li>分类函数
+$$f:\mathbb{R}^n\rightarrow {c_1,c_2,\cdots,c_K}$$</li>
+<li>误分类概率
+$$P(Y\ne f(X))=1-P(Y=f(X))$$</li>
+<li>等价于风险经验最小化
+$$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</li>
+</ul>
+<h4 id="分类模型预测流程" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>分类模型预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
+<ol>
+<li>对未知类别的数据集中的每个点：</li>
+</ol>
+<ul>
+<li>计算已知类别数据集众多点与当前点之间的距离；</li>
+<li>按照距离递增次序排序。</li>
+</ul>
+<ol start="2">
+<li>选取与当前点距离最小的k个点：</li>
+</ol>
+<ul>
+<li>选定前k个点所在类别的出现频率</li>
+<li>返回前k个点出现频率最高的类别作为当前点的预测分类</li>
+</ul>
+<ol start="3">
+<li>重复步骤，完成对所有点的预测分类</li>
+</ol>
+<h4 id="heading" class="headerLink">
+    <a href="#heading" class="header-mark"></a></h4><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>垃圾邮件过滤：自动将电子邮件分为垃圾邮件和非垃圾邮件。<br>
+医学诊断：基于患者的症状数据来诊断疾病或预测病人的疾病风险。<br>
+金融风险评估：根据客户的财务和信用记录来评估客户的信用风险。<br>
+情感分析：根据文本数据中的情感内容对文本进行情感分类，如积极、消极或中性。<br>
+图像识别：对图像进行分类，例如识别数字、物体或人脸等。<br>
+生物信息学：基因序列分类，如预测蛋白质功能或基因表达模式。<br>
+客户分类：根据客户的行为和偏好将客户分成不同的市场细分。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>KNN算法于1948年由Cover和Hart提出。<br>
+存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每个数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。一般来说，只选择样本数据集中前k个最相似的数据。k一般不大于20，最后，选择k个中出现次数最多的分类，作为新数据的分类。<br>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>数值型数据是指具有数量意义的数据，可以进行数学运算和比较。这种数据通常表示为数字，例如年龄、温度、身高等。在机器学习中，数值型数据常用于回归分析和连续变量的预测。标称型数据则是指无序分类的数据，其中每个值代表一个类别而没有数量意义。标称型数据通常表示为符号或字符串，例如血型、性别、品种等。在机器学习中，标称型数据通常用于分类问题，其中算法需要将输入数据映射到预定义的类别或标签。<br>
+k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型数据，它可以基于数值之间的距离进行分类；对于标称型数据，它可以根据邻近样本的标签进行投票，并将测试样本分类为获得最多投票的类别。因此，kNN 算法对于这两种数据类型都有较好的适用性。<br>
+还有其他类型：<br>
+顺序型数据：顺序型数据是一种具有顺序或等级关系的数据类型，其中数据值之间存在某种顺序关系，但没有明确的数值差异。例如，学历等级（如小学、初中、高中、大学等）可以被视为顺序型数据。<br>
+时间序列数据：时间序列数据是按照时间顺序排列的数据集合，通常是在一系列连续时间点上收集的数据。例如，股票价格、天气数据、经济指标等都属于时间序列数据。<br>
+区间型数据：区间型数据是指数据值表示某个范围内的值，而不是特定的数值。这种数据类型通常用于表示测量的范围。例如，温度范围、年龄段等可以被视为区间型数据。<br>
+比率型数据：比率型数据是具有固定比例关系的数据类型，其中数据之间存在明确的比率关系。比率型数据具有绝对零点，可以进行比较和数学运算。例如，长度、重量、时间间隔等都属于比率型数据。<br>
+文本数据：文本数据是指以自然语言形式表示的数据，通常包含语句、段落或文档。处理文本数据通常需要使用自然语言处理技术来提取、转换和分析文本信息。<br>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>老师反馈：这里的表述并不严谨，模型需要通过交叉验证来确认参数 k&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>简单直观，非参数化：kNN 是一种非参数化方法，不对数据的分布做任何假设。因此，在处理复杂的数据集和未知的数据分布时，它通常具有很好的适应性。<br>
+对异常值鲁棒：kNN 对异常值比较鲁棒，因为它基于周围数据点的多数投票来确定分类，可以减少异常值对结果的影响。<br>
+适应多类别问题：kNN 能够很好地适应多类别分类问题，因为它可以通过投票的方式来确定一个实例所属的类别。<br>
+但是对高维数据的处理效率较低，需要大量的存储空间和计算时间；在数据不平衡或噪声较多的情况下，它可能会产生较差的分类结果。<br>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>计算成本高：kNN 算法需要计算每个测试点与所有训练点之间的距离，因此在处理大规模数据集时，计算成本会变得非常高。<br>
+存储成本高：除了计算成本高外，kNN 算法还需要存储整个训练集，这对于大规模数据集来说会占用大量的存储空间。<br>
+维度灾难：随着数据维度的增加，kNN 算法的性能可能会下降，因为在高维空间中，数据点之间的距离变得更加稀疏，导致算法的效率降低。<br>
+数据不平衡问题：在处理数据不平衡或噪声较多的数据集时，kNN 算法可能会受到数据分布的影响，从而导致分类性能下降。<br>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>近似误差是指模型用于近似真实关系的误差，通常表示模型与真实值之间的差异。<br>
+估计误差是指使用样本数据估计整体数据集特征时产生的误差。在 kNN 中，估计误差通常与样本的选择和样本的分布有关。<br>
+K值的减小：模型变得复杂，容易发生过拟合。相当于用较小的邻域中的训练实例进行预测，只有与输入实例较近的(相似的)训练实例才会对预测结果起作用，对噪声敏感，即预测结果会对近邻的实例点非常敏感。如果邻近的实例点恰巧是噪声，预测就会出错。换句话说，k 值的减小就意味着整体模型变得复杂，容易发生过拟合。<br>
+K值的增大：就意味着整体的模型变得简单.产生更平滑的决策边界，但可能会忽略数据的局部特征。这时与输入实例较远的(不相似的)训练实例也会对预测起作用，使预测发生错误。k 值的增大就意味着整体的模型变得简单。<br>
+k 值一般取一个比较小的数值。通常采用交叉验证法来选取最优的k 值。具体可以取部分训练集作为测试集，在不同取值条件下观察最优值。&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>特征空间中两个实例点的距离是两个实例点相似程度的反映。k 近邻模型的特征空间一般是 n 维实数向量空间 $R^n$，使用的距离是欧氏距离，但也可以是其他距离，如更一般的 $L_p$ 距离或 Minkowski 距离。&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div></div>
 
         <div class="sponsor">
         <div class="sponsor-avatar"><img
@@ -220,7 +499,7 @@
         srcset="https://z1.ax1x.com/2023/10/23/piA8qxO.png, https://z1.ax1x.com/2023/10/23/piA8qxO.png 1.5x, https://z1.ax1x.com/2023/10/23/piA8qxO.png 2x"
         sizes="auto"
         alt="https://z1.ax1x.com/2023/10/23/piA8qxO.png"
-        title="https://z1.ax1x.com/2023/10/23/piA8qxO.png" height="200"   width="400" ></a>
+        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
                 <a href="/captalism-symbol/">政治经济学：横向叙事与资本主义符号幻觉</a>
             </h2>
@@ -234,7 +513,7 @@
         srcset="https://z1.ax1x.com/2023/10/23/piAGKJ0.png, https://z1.ax1x.com/2023/10/23/piAGKJ0.png 1.5x, https://z1.ax1x.com/2023/10/23/piAGKJ0.png 2x"
         sizes="auto"
         alt="https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
-        title="https://z1.ax1x.com/2023/10/23/piAGKJ0.png" height="200"   width="400" ></a>
+        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
                 <a href="/captalism/">政治经济学 &amp; 导论：城市化、市场化与现代化</a>
             </h2>
@@ -248,7 +527,7 @@
         srcset="https://z1.ax1x.com/2023/10/23/piA8fr4.png, https://z1.ax1x.com/2023/10/23/piA8fr4.png 1.5x, https://z1.ax1x.com/2023/10/23/piA8fr4.png 2x"
         sizes="auto"
         alt="https://z1.ax1x.com/2023/10/23/piA8fr4.png"
-        title="https://z1.ax1x.com/2023/10/23/piA8fr4.png" height="200"   width="400" ></a>
+        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
                 <a href="/baciweiji/">政治经济学：现代化的代价</a>
             </h2>
@@ -262,7 +541,7 @@
         srcset="https://z1.ax1x.com/2023/10/23/piAfKt1.png, https://z1.ax1x.com/2023/10/23/piAfKt1.png 1.5x, https://z1.ax1x.com/2023/10/23/piAfKt1.png 2x"
         sizes="auto"
         alt="https://z1.ax1x.com/2023/10/23/piAfKt1.png"
-        title="https://z1.ax1x.com/2023/10/23/piAfKt1.png" height="200"   width="400" ></a>
+        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
                 <a href="/chinese-history/">史纲：解构苦难，建构辉煌</a>
             </h2>
@@ -276,7 +555,7 @@
         srcset="https://z1.ax1x.com/2023/10/24/piEyqgg.png, https://z1.ax1x.com/2023/10/24/piEyqgg.png 1.5x, https://z1.ax1x.com/2023/10/24/piEyqgg.png 2x"
         sizes="auto"
         alt="https://z1.ax1x.com/2023/10/24/piEyqgg.png"
-        title="https://z1.ax1x.com/2023/10/24/piEyqgg.png" height="200"   width="400" ></a>
+        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
                 <a href="/marx/">理解马克思：工人、工会与资本家</a>
             </h2>

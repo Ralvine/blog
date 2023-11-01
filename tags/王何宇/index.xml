@@ -16,13 +16,10 @@
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>🎓 数学科学学院</li>
-<li>🕙 2021-2022 秋冬</li>
-<li>🧑‍🏫 王何宇</li>
-<li>📝 作业，项目作业，期末考试</li>
-</ul>
-</div>
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2021-2022 秋冬<br>
+🧑‍🏫 王何宇<br>
+📝 作业，项目作业，期末考试</div>
         </div>
     </div>
 <ul>

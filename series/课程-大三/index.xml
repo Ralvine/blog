@@ -16,13 +16,10 @@
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>🎓 计算机科学与技术学院</li>
-<li>🕙 2022-2023 春夏</li>
-<li>🧑‍🏫 许威威</li>
-<li>📝 50%作业，50%期末</li>
-</ul>
-</div>
+            <div class="admonition-content">🎓 计算机科学与技术学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 许威威<br>
+📝 50%作业，50%期末</div>
         </div>
     </div>
 <h2 id="介绍1" class="headerLink">
