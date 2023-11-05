@@ -274,7 +274,8 @@
 <li>频率倾斜：某区域数据量过多</li>
 <li>大小倾斜：部分记录大小过大</li>
 </ul>
-<h2 id="实例尚硅谷-电商数仓1" class="headerLink">
+<h2 id="hadoop" class="headerLink">
+    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓1" class="headerLink">
     <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
