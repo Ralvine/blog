@@ -1,0 +1,602 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>泛函分析 - 暮瞻</title><meta name="Description" content="22-23 春夏学期「泛函分析」课程学习笔记。"><meta property="og:title" content="泛函分析" />
+<meta property="og:description" content="22-23 春夏学期「泛函分析」课程学习笔记。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ralvines.top/fhfx/" /><meta property="og:image" content="https://z1.ax1x.com/2023/10/23/piAW5eH.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-01T20:20:40+08:00" />
+<meta property="article:modified_time" content="2023-03-01T20:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://z1.ax1x.com/2023/10/23/piAW5eH.png"/>
+
+<meta name="twitter:title" content="泛函分析"/>
+<meta name="twitter:description" content="22-23 春夏学期「泛函分析」课程学习笔记。"/>
+<meta name="application-name" content="暮瞻">
+<meta name="apple-mobile-web-app-title" content="暮瞻">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/fhfx/" /><link rel="prev" href="https://blog.ralvines.top/fbhs/" /><link rel="next" href="https://blog.ralvines.top/23-april/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "泛函分析",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/blog.ralvines.top\/fhfx\/"
+        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  967 ,
+        "url": "https:\/\/blog.ralvines.top\/fhfx\/","datePublished": "2023-03-01T20:20:40+08:00","dateModified": "2023-03-01T20:25:40+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"authors": [{
+                        "@type": "Person",
+                        "name": "Ralvine"                    
+                    }],"description": "22-23 春夏学期「泛函分析」课程学习笔记。"
+    }
+    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        
+        <div class="header-title">
+            <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner">
+                
+                <div class="dropdown">
+                    <a href="/article/" 
+                        class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/cage/cage/" 
+                        class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/time/time/" 
+                        class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+                </div>
+                <a class="menu-item"
+                    href="/about/about/" >🏡 关于 
+                </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-desktop">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-desktop">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </span><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                <div class="search mobile" id="search-mobile">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-mobile">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-mobile">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </div>
+                <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
+                    取消
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="/article/" 
+                    class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/cage/cage/" 
+                    class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/time/time/" 
+                    class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+            </div>
+            <a class="menu-item"
+                href="/about/about/" >🏡 关于 
+            </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#ch1-距离空间">Ch1. 距离空间</a></li>
+    <li><a href="#ch2-巴拿赫空间希尔伯特空间">Ch2. 巴拿赫空间、希尔伯特空间</a></li>
+    <li><a href="#ch3-有界线性算子巴拿赫空间">Ch3. 有界线性算子：巴拿赫空间</a></li>
+    <li><a href="#ch4-有界线性算子希尔伯特空间">Ch4. 有界线性算子：希尔伯特空间</a></li>
+    <li><a href="#前辈经验">前辈经验</a></li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">泛函分析</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/"><i class="far fa-list-alt fa-fw"></i>本科课程</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-01">2023-03-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-03-01">2023-03-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 967 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/fhfx/" class="leancloud_visitors" data-flag-title="泛函分析">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#ch1-距离空间">Ch1. 距离空间</a></li>
+    <li><a href="#ch2-巴拿赫空间希尔伯特空间">Ch2. 巴拿赫空间、希尔伯特空间</a></li>
+    <li><a href="#ch3-有界线性算子巴拿赫空间">Ch3. 有界线性算子：巴拿赫空间</a></li>
+    <li><a href="#ch4-有界线性算子希尔伯特空间">Ch4. 有界线性算子：希尔伯特空间</a></li>
+    <li><a href="#前辈经验">前辈经验</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition warning open">
+                <div class="details-summary admonition-title">
+                    <i class="icon fas fa-exclamation-triangle fa-fwwarning"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+                </div>
+                <div class="details-content">
+                    <div class="admonition-content">
+                        本文最后更新于 <span class="timeago" datetime="2023-03-01T20:25:40" title="March 1, 2023">2023-03-01</span>，文中内容可能已过时。</div>
+                </div>
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 王伟<br>
+📝 20%小测，20%作业，60%期末</div>
+        </div>
+    </div>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<li>《实变函数与泛函分析概要（第五版）》王声望，郑维行</li>
+<li>课程讲义
+<ul>
+<li>Ch1.1</li>
+<li>Ch1.2</li>
+<li>Ch2.1</li>
+<li>Ch2.2</li>
+<li>Ch3.1</li>
+<li>Ch3.2</li>
+</ul>
+</li>
+<li>泛函分析笔记 @Reichtum</li>
+<li>课后习题讲解 @Reichtum
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/486354129" target="_blank" rel="noopener noreferrer">度量空间</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/524355026" target="_blank" rel="noopener noreferrer">Banach&amp;Hilbert</a></li>
+</ul>
+</li>
+<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=48021&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
+</ul>
+<h2 id="ch1-距离空间" class="headerLink">
+    <a href="#ch1-%e8%b7%9d%e7%a6%bb%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch1. 距离空间</h2><ul>
+<li>
+<p>定义</p>
+<ul>
+<li>距离公理：非负、对称、三角不等式</li>
+<li>非空即可定义、不唯一</li>
+<li>离散距离空间</li>
+<li>$\mathbb{R}^n$
+<ul>
+<li>欧氏距离、复数域</li>
+<li><strong>柯西不等式</strong></li>
+<li>max定义</li>
+</ul>
+</li>
+<li>连续函数空间$C[a,b]$</li>
+<li>$l^p$
+<ul>
+<li>元素：无限数列、级数绝对收敛</li>
+<li>距离定义
+<ul>
+<li>Holder不等式</li>
+<li><strong>Minkowski不等式</strong>、证明</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>$l^\infty$</li>
+<li>$L^p(F)$
+<ul>
+<li>可测集F</li>
+<li>距离定义
+<ul>
+<li>Holder不等式</li>
+<li>Minkowski不等式</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>$L^\infty$
+<ul>
+<li>本性有界</li>
+<li>本性有界可测、几乎处处相等看作同元素</li>
+<li>距离定义$essinf_F$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>收敛</p>
+<ul>
+<li>点列收敛
+<ul>
+<li>性质：极限唯一、有界</li>
+<li>子列收敛</li>
+</ul>
+</li>
+<li>欧式空间$\mathbb{R}^n$的收敛（如何证）
+<ul>
+<li>点列收敛、坐标收敛</li>
+</ul>
+</li>
+<li>$C[a,b]$ 的收敛
+<ul>
+<li>按照距离导出收敛</li>
+<li>某距离收敛等价函数列一致收敛</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>点集</p>
+<ul>
+<li>开球、闭球</li>
+<li>开集、闭包、闭集</li>
+<li>内点、内部</li>
+<li>聚点、导集、孤立点</li>
+<li>稠密性</li>
+<li>可分性
+<ul>
+<li>$L^\infty[a,b]$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>连续映射</p>
+<ul>
+<li>连续性等价条件</li>
+<li>归结原则、集合描述</li>
+<li>同胚、等距</li>
+</ul>
+</li>
+<li>
+<p>完备性</p>
+<ul>
+<li>柯西基本列</li>
+<li>完备性
+<ul>
+<li>三条定理</li>
+<li>$C[a,b]$、$l^p$、$L^\infty(F)$ 完备</li>
+<li>$S$ 三角不等式及<strong>完备性证明</strong></li>
+</ul>
+</li>
+<li>完备化
+<ul>
+<li>完备扩展定理</li>
+<li>$C[a,b]\rightarrow L^2[a,b]$</li>
+<li>$P\rightarrow C[a,b]$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>稀疏集</p>
+<ul>
+<li>与球的的充要条件</li>
+</ul>
+</li>
+<li>
+<p>闭球套定理、第一/二类型集</p>
+</li>
+<li>
+<p>$l_0^p$</p>
+<ul>
+<li>子空间、不完备、稠密</li>
+</ul>
+</li>
+<li>
+<p>$S$、$s$、$P$</p>
+</li>
+<li>
+<p>准紧集、紧集、全有界集</p>
+<ul>
+<li>$\epsilon-$ 网</li>
+<li>相互关系</li>
+<li>紧集套</li>
+<li>开覆盖</li>
+<li>有限交</li>
+<li>连续映射</li>
+</ul>
+</li>
+<li>
+<p>不动点定理、压缩映射</p>
+</li>
+<li>
+<p><strong>重点梳理</strong></p>
+<ul>
+<li>常见度量空间，及其距离、收敛、可分性、准紧条件
+<ul>
+<li>$\mathbb{R}^n$ （所有分量收敛）</li>
+<li>$C[a,b]$（一致收敛）、$C^k[a,b]$、$C^\infty [a,b]$</li>
+<li>$l^p$、$l^\infty$（不可分）</li>
+<li>$L^p$、$L^\infty$（不可分）</li>
+<li>$S$（测度收敛）、$s$（按坐标收敛）</li>
+</ul>
+</li>
+<li>重要证明
+<ul>
+<li>Cauchy、Holder、Minkowski、Young</li>
+</ul>
+</li>
+<li>各类点集、球、稠密、可分</li>
+<li>基本列、收敛、完备</li>
+<li>连续映射</li>
+<li>不动点、压缩映射</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch2-巴拿赫空间希尔伯特空间" class="headerLink">
+    <a href="#ch2-%e5%b7%b4%e6%8b%bf%e8%b5%ab%e7%a9%ba%e9%97%b4%e5%b8%8c%e5%b0%94%e4%bc%af%e7%89%b9%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch2. 巴拿赫空间、希尔伯特空间</h2><ul>
+<li>赋范线性空间
+<ul>
+<li>距离空间、范数/强收敛</li>
+<li>Banach</li>
+<li>商空间</li>
+<li>直和</li>
+</ul>
+</li>
+<li>内积空间
+<ul>
+<li>导出范数
+<ul>
+<li>Schwarz不等式、极化恒等式</li>
+<li>平行四边形公式</li>
+</ul>
+</li>
+<li>$l^2,L^2$</li>
+<li>正交、正交补、推广勾股</li>
+<li>规范正交系
+<ul>
+<li>Bessel</li>
+<li>完备、完全</li>
+<li>Schmidt正交化</li>
+<li>最佳逼近</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Hilbert
+<ul>
+<li>凸集、正交分解</li>
+<li>E.S.Fischer</li>
+<li>Parseval</li>
+<li>可分同构</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch3-有界线性算子巴拿赫空间" class="headerLink">
+    <a href="#ch3-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b7%b4%e6%8b%bf%e8%b5%ab%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch3. 有界线性算子：巴拿赫空间</h2><h2 id="ch4-有界线性算子希尔伯特空间" class="headerLink">
+    <a href="#ch4-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b8%8c%e5%b0%94%e4%bc%af%e7%89%b9%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch4. 有界线性算子：希尔伯特空间</h2><h2 id="前辈经验" class="headerLink">
+    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><p>小测：https://www.cc98.org/topic/5321722</p></div>
+
+        <div class="sponsor">
+        <div class="sponsor-avatar"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        srcset="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 1.5x, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        title="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg" ></div>
+            <div class="donation">
+            <a href="https://blog.ralvines.top/praise/" class="donation-button" data-pjax-state>赞赏</a>
+            </div></div>
+
+
+<div class="related-container">
+    <div class="related-text">相关内容</div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/wxqy/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        title="22-23 春夏学期「泛函分析」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/wxqy/">当代文学前沿问题研究</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/qianyan/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 春夏学期「泛函分析」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/qianyan/">数学前沿专题讨论：遗传算法和统计学习方法</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/c-test/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 春夏学期「泛函分析」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/c-test/">C&#43;&#43;笔试</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/css/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 春夏学期「泛函分析」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/css/">CSS</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/c-interview/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 春夏学期「泛函分析」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/c-interview/">C&#43;&#43;面向对象面试题总结</a>
+            </h2>
+        </div>
+    
+
+</div>
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-03-01</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/fhfx/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
+                    </span></div>
+            <div class="post-info-share">
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/fhfx/" data-title="泛函分析" data-hashtags="温铁军,经济,政治"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/fhfx/" data-hashtag="温铁军"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/fhfx/" data-title="泛函分析" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/fhfx/" data-title="泛函分析"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/fhfx/" data-title="泛函分析"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/fhfx/" data-title="泛函分析"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/fhfx/" data-title="泛函分析"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%B8%A9%E9%93%81%E5%86%9B/">温铁军</a>,&nbsp;<a href="/tags/%E7%BB%8F%E6%B5%8E/">经济</a>,&nbsp;<a href="/tags/%E6%94%BF%E6%B2%BB/">政治</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/fbhs/" class="prev" rel="prev" title="复变函数"><i class="fas fa-angle-left fa-fw"></i>复变函数</a>
+            <a href="/23-april/" class="next" rel="next" title="四月随想：与时舒卷">四月随想：与时舒卷<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">「明日巴陵道 秋山又几重」</div>
+                <div class="footer-line">
+                    <a href="https://blog.ralvines.top/tags/">文章标签</a> · <a href="https://blog.ralvines.top/about/board/">留言板</a> · <a href="https://blog.ralvines.top/about/friend/">友情链接</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2015 - 2023</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css" />
+<link rel='stylesheet' href='https://192960944.r.cdn36.com/chinesefonts2/packages/yzklct/dist/有字库龙藏体/result.css' /><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/extra.css" customAttribute>
+        <noscript><link rel="stylesheet" href="/extra.css" customAttribute></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"KEokTvqncSnkpSOc1tsOWa4M-gzGzoHsz","appKey":"IrISHvDjPwnvBj2sxGoiXkKG","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://keoktvqn.lc-cn-n1-shared.com","visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"desktop-header-typeit":"暮瞻","mobile-header-typeit":"暮瞻"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/valine/Valine.min.js" defer></script><script type="text/javascript" src="/js/valine.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>

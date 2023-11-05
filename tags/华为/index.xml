@@ -62,6 +62,80 @@
 <ol>
 <li>自我介绍和个人特质</li>
 <li>职业规划和对华为、行业的理解</li>
-</ol>]]></description>
+</ol>
+<h2 id="附面经整理" class="headerLink">
+    <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%86" class="header-mark"></a>附：面经整理</h2><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>面试经验整理<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p><strong>一面&amp;二面</strong></p>
+<ul>
+<li>自我介绍
+<ul>
+<li>准备自我介绍时候最好说些自己熟悉的领域</li>
+</ul>
+</li>
+<li>详细讲项目 细节</li>
+<li>笔试复盘
+<ul>
+<li>思路</li>
+</ul>
+</li>
+<li>手撕代码
+<ul>
+<li>一个二维数组初始值为0给其中两个点初始值为1每个为1的点每一轮可以上下左右把为0的点转化为1问要几轮将整个二维数组用1填满check1point3acresformore直接想到用队列结合dfs写完面试就结束了总体感觉不难可能是部门缺人降低了bar</li>
+</ul>
+</li>
+<li>基础知识 &amp; 实际应用场景
+<ul>
+<li>数据结构
+<ul>
+<li>链表</li>
+<li>数组</li>
+<li>树</li>
+<li>快排</li>
+<li>归并排序</li>
+<li>哈希</li>
+<li>复杂度</li>
+<li>图</li>
+</ul>
+</li>
+<li>网络
+<ul>
+<li>TCP/IP</li>
+<li>握手为什么不是两次 为什么不是4次</li>
+<li>IP传输是否可靠</li>
+<li>局部变量在内存的位置</li>
+<li>DFS实际操作中有什么不好</li>
+</ul>
+</li>
+<li>操作系统
+<ul>
+<li>进程 线程</li>
+<li>Linux</li>
+</ul>
+</li>
+<li>C++ 面向对象</li>
+<li>MySQL</li>
+</ul>
+</li>
+<li>课程大作业</li>
+<li>强调非科班 学习潜力 主修聚焦在计算数学和数据科学（统计学习方法）</li>
+<li><strong>思维</strong></li>
+</ul>
+<p><strong>业务主管面试</strong></p>
+<ul>
+<li>自我介绍</li>
+<li>项目</li>
+<li>为什么想来华为</li>
+<li>压力最大的一件事</li>
+<li>什么时候开始学习互联网相关的知识</li>
+<li>对加班的看法？如果工作量大怎么办？</li>
+<li>为什么选择杭研所？（其实我没有硬性的要求，我都不知道自己面的杭研所）</li>
+</ul>
+</div>
+        </div>
+    </div>]]></description>
 </item></channel>
 </rss>

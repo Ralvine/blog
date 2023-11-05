@@ -1,0 +1,515 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>C&#43;&#43;面向对象面试题总结 - 暮瞻</title><meta name="Description" content="不忘其所始，不求其所终；受而喜之，忘而复之。"><meta property="og:title" content="C&#43;&#43;面向对象面试题总结" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ralvines.top/c-interview/" /><meta property="og:image" content="https://z1.ax1x.com/2023/11/01/pinHqnH.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-30T20:20:40+08:00" />
+<meta property="article:modified_time" content="2023-08-30T20:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://z1.ax1x.com/2023/11/01/pinHqnH.png"/>
+
+<meta name="twitter:title" content="C&#43;&#43;面向对象面试题总结"/>
+<meta name="twitter:description" content=""/>
+<meta name="application-name" content="暮瞻">
+<meta name="apple-mobile-web-app-title" content="暮瞻">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/c-interview/" /><link rel="prev" href="https://blog.ralvines.top/zzjjx/" /><link rel="next" href="https://blog.ralvines.top/css/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "C++面向对象面试题总结",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/blog.ralvines.top\/c-interview\/"
+        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  3146 ,
+        "url": "https:\/\/blog.ralvines.top\/c-interview\/","datePublished": "2023-08-30T20:20:40+08:00","dateModified": "2023-08-30T20:25:40+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"authors": [{
+                        "@type": "Person",
+                        "name": "Ralvine"                    
+                    }],"description": ""
+    }
+    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        
+        <div class="header-title">
+            <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner">
+                
+                <div class="dropdown">
+                    <a href="/article/" 
+                        class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/cage/cage/" 
+                        class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/time/time/" 
+                        class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+                </div>
+                <a class="menu-item"
+                    href="/about/about/" >🏡 关于 
+                </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-desktop">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-desktop">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </span><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                <div class="search mobile" id="search-mobile">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-mobile">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-mobile">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </div>
+                <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
+                    取消
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="/article/" 
+                    class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/cage/cage/" 
+                    class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/time/time/" 
+                    class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+            </div>
+            <a class="menu-item"
+                href="/about/about/" >🏡 关于 
+            </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents"></nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">C&#43;&#43;面向对象面试题总结</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E8%AF%BE%E7%A8%8B-%E5%A4%A7%E5%9B%9B/"><i class="far fa-list-alt fa-fw"></i>课程-大四</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-30">2023-08-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-08-30">2023-08-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3146 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 7 分钟&nbsp;<span id="/c-interview/" class="leancloud_visitors" data-flag-title="C&#43;&#43;面向对象面试题总结">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><ol>
+<li>new/delete和malloc/free的区别</li>
+</ol>
+<ul>
+<li>malloc/free是C/C++的库函数，需要stdlib.h；new/delete是C++的关键字；</li>
+<li>都可用于申请动态内存和释放内存，new/delete在对象创建的时候自动执行构造函数，对象消亡前自动执行析构函数，底层实现其实也是malloc/free</li>
+<li>new无需指定内存块的大小，编译器会根据类型信息自行计算；malloc需要显式地支持所需内存的大小</li>
+<li>new返回<strong>指定类型</strong>的指针，无需进行类型转换；malloc默认返回类型为<strong>void</strong>*，必须强行转换为实际类型的指针</li>
+<li>new内存分配失败时会抛出bad_alloc异常；malloc失败时返回NULL</li>
+</ul>
+<ol start="2">
+<li>malloc的底层实现</li>
+</ol>
+<p>Linux下：</p>
+<ul>
+<li>开辟空间小于128K时，通过<strong>brk()函数</strong>
+<ul>
+<li>将数据段.data的最高地址指针**_edata<strong>向高地址移动，即</strong>增加堆**的有效区域来申请内存空间</li>
+<li>brk分配的内存需要等到高地址内存释放以后才能释放，这也是内存碎片产生的原因</li>
+</ul>
+</li>
+<li>开辟空间大于128K时，通过<strong>mmap()函数</strong>
+<ul>
+<li>利用mmap系统调用，在堆和栈之间<strong>文件映射区域</strong>申请一块虚拟内存</li>
+<li>128K限制可由M_MMAP_THRESHOLD选项进行修改</li>
+<li>mmap分配的内存可以单独释放</li>
+</ul>
+</li>
+<li>以上只涉及虚拟内存的分配，直到进程第一次访问其地址时，才会通过缺页中断机制分配到物理页中</li>
+</ul>
+<ol start="3">
+<li>指针和引用的异同点；如何相互转换</li>
+</ol>
+<ul>
+<li>本质：引用是别名，而指针是地址</li>
+<li>指针在运行时可以改变所指向的值，而引用一旦与某个对象绑定之后就不再改变(指向的地址不能改变，但指向的内容可以改变)</li>
+<li>指针变量在符号表上对应的地址值为<strong>指针变量的地址值</strong>，而引用在符号表上对应的地址值为<strong>引用对象的地址值</strong>；因此指针可以改变指向的对象，而引用的对象不能修改</li>
+<li>由于硬件通过地址访问内存位置，因此引用可以理解为一个常量指针，只能绑定到初始化它的对象上</li>
+</ul>
+<ol start="4">
+<li>struct、union的异同</li>
+</ol>
+<ul>
+<li>struct中每个变量依次存储；union中，每个变量都是从偏移地址零开始存储，同一时刻只有一个成员存储于该地址</li>
+<li>struct内存大小遵循<strong>结构对齐</strong>原则
+<ul>
+<li>数据成员对齐规则：每个数据成员存储的起始位置要从该成员大小的整数倍开始</li>
+<li>数据成员包含结构体：结构体成员要从其内部最大元素对象的整数倍地址开始存储</li>
+<li>结构体总大小：其内部最大基本成员的整数倍，不足则要补齐</li>
+</ul>
+</li>
+<li>union内存大小为其最大成员的整数倍</li>
+</ul>
+<ol start="5">
+<li>extern C的作用</li>
+</ol>
+<p>C++支持<strong>函数重载</strong>，即不同名字空间namespace的两个函数原型声明可以完全相同，或者两个函数同名但参数列表不同；g++编译器会对此进行<strong>name mangling</strong>，生成全局唯一的符号名称，使链接器可以准确识别</p>
+<p>C语言不支持函数重载，即不允许同名符号，所以不需要这些工作，因此在C++代码中加入extern C，是为了<strong>链接规范</strong></p>
+<ol start="6">
+<li>memcpy()函数需要注意哪些问题</li>
+</ol>
+<ul>
+<li>
+<p>函数原型声明void *memcpy(void *dest, void *src, unsigned int count);</p>
+</li>
+<li>
+<p>memcpy函数用于把资源内存（src所指向的内存区域）中连续的count个字节数据拷贝到目标内存（dest所指向的内存区域）</p>
+</li>
+<li>
+<p>数据长度count的单位是字节，1byte = 8bit</p>
+</li>
+<li>
+<p>数据类型为char，则数据长度就等于元素的个数；其他数据类型则要注意数据长度的值</p>
+</li>
+<li>
+<p>n * sizeof(type_name)的写法</p>
+</li>
+</ul>
+<ol start="7">
+<li>strcat、strncat、strcmp、strcpy函数</li>
+</ol>
+<ul>
+<li>strcpy拷贝函数，不会判断拷贝大小，也没有任何安全检查，不会检查目的地址内存是否够用；</li>
+<li>strncpy拷贝函数，会计算复制字符串的大小，但没有检查目标的边界；</li>
+<li>strcmp比较函数，把src所指向的字符串与dest所指向的字符串进行比较，若dest与src的前n个字符相同，则返回0；若dest大于src，则返回大于0的值；若dest小于src，则返回小于0的值</li>
+<li>strcat功能是将两个char类型连接；strncat功能是在字符串的结尾追加n个字符</li>
+</ul>
+<ol start="8">
+<li>机器大小端问题</li>
+</ol>
+<p>大端指数据的<strong>高字节</strong>保存在内存的<strong>低地址</strong>中，数据的<strong>低字节</strong>保存在内存的<strong>高地址</strong>中；小端与此相反。</p>
+<ul>
+<li>小端：强制转换数据不需要调整字节内容，1、2、4字节的存储方式一样</li>
+<li>大端：符号位的判定固定为第一个字节，很容易判断正负</li>
+</ul>
+<p>union判断大小端的方法</p>
+<ul>
+<li>union从低地址开始存，同一时间内只有一个成员占用内存；修改其中一个成员的值必然会影响另一个成员的值</li>
+</ul>
+<ol start="9">
+<li>static的用法（定义和用途）</li>
+</ol>
+<p>修饰</p>
+<ul>
+<li>局部变量：使其变为<strong>静态存储方式</strong>（静态数据区），函数执行完成之后不会被释放，而是继续保存在内存中；</li>
+<li>全局变量：使其只在本文件内部有效，其他文件不可链接或引用该变量；</li>
+<li>函数：静态函数，即函数只在本文件内部有效，对其他文件不可见；避免同名干扰，同时保护</li>
+</ul>
+<ol start="10">
+<li>const的用法（定义和用途）</li>
+</ol>
+<p>const起到<strong>强制保护</strong>的修饰作用，可以预防意外改动，提高程序的健壮性</p>
+<ul>
+<li>const修饰常量：定义时就初始化，以后不能更改；</li>
+<li>const修饰形参：func(const int a); 该形参在函数里不能改变；</li>
+<li>const修饰类成员函数：const类成员函数不能改变成员变量的数值</li>
+</ul>
+<ol start="11">
+<li>const常量和define的区别（编译阶段、安全性、内存占用等）</li>
+</ol>
+<ul>
+<li>const定义的常量有类型名字，存放在内存的静态区域中，在编译时确定其值；</li>
+<li>define定义的常量是没有类型的一个<strong>立即数</strong>，编译器会在预处理阶段将程序中所有使用到该常量的地方进行<strong>拷贝替换</strong>；</li>
+<li>由于define的拷贝有很多份，故宏定义的内存占用要高得多</li>
+</ul>
+<ol start="12">
+<li>volatile的用法</li>
+</ol>
+<p>被定义为volatile的变量可能会被意想不到地改变，编译器不会对volatile变量有关的运算进行<strong>编译优化</strong>：每次使用该变量必须从内存地址中读取，而不是保存在寄存器中的备份</p>
+<p>用到volatile的几种情况</p>
+<ul>
+<li>并行设备的硬件寄存器（如状态寄存器）</li>
+<li>中断服务子程序会访问到的非自动变量</li>
+<li>多线程应用中被几个任务共享的变量</li>
+</ul>
+<ol start="13">
+<li>常量指针、指针常量、常量引用（没有引用常量）</li>
+</ol>
+<ul>
+<li>常量指针即常量的指针，指针所指向的是个常量，可以被赋值为变量的地址，但是不能通过这个指针来修改</li>
+<li>指针常量本质是一个常量，指针所指向的值不可以改变，但指向的地址所对应的内容可以变化</li>
+</ul>
+<p>（具体参考问题17）</p>
+<ol start="14">
+<li>变量的作用域（全局变量和局部变量）</li>
+</ol>
+<ul>
+<li>全局变量：在所有函数体外部定义的，程序所在部分都可以使用，不受作用域的影响（生命期一直到程序的结束）</li>
+<li>局部变量：局限于作用域内，默认为auto关键字修饰，即进入作用域时自动生成，离开作用域时自动消失；</li>
+<li>局部变量可以和全局变量重名，在局部变量作用域范围内，全局变量失效，采用的是局部变量的值</li>
+</ul>
+<ol start="15">
+<li>sizeof和strlen</li>
+</ol>
+<ul>
+<li>sizeof是一个操作符或关键字，不是一个函数，而strlen是一个函数</li>
+<li>sizeof返回一个对象或类型所占的内存字节数，不会对其中的数据或指针做运算</li>
+<li>strlen返回一个字符串的长度，不包括&rsquo;/0'</li>
+</ul>
+<ol start="16">
+<li>sizeof(struct)和内存对齐</li>
+</ol>
+<p>内存对齐作用：</p>
+<ul>
+<li>移植原因：某些硬件平台只能在某些特定地址处取特定类型的数据；</li>
+<li>性能原因：数据结构(尤其是栈)应尽可能在自然边界上对齐，未对齐内存需要做两次内存访问，对齐内存仅需要一次</li>
+</ul>
+<p>struct内存对齐原则：</p>
+<ul>
+<li>结构体成员中，第一个成员偏移量是0，排列在后面的成员的当前偏移量必须是当前成员类型的整数倍</li>
+<li>结构体本身占用内存大小，应是结构体内最大数据成员的最小整数倍</li>
+<li>**pragma pack(n)**预编译指令，所有成员对齐以n字节为准，不再考虑当前类型和最大结构体内类型</li>
+</ul>
+<p>union内存对齐原则：</p>
+<ul>
+<li>union字节数必须是占用字节数最多的成员的字节数的倍数，而且需要能够容纳其他成员</li>
+</ul>
+<ol start="17">
+<li>char * const，const char *</li>
+</ol>
+<ul>
+<li>const char <em>ptr指向字符常量的指针，ptr是一个char</em>类型的常量，所指向的内容不能修改；</li>
+<li>char * const ptr指向字符的指针常数，即const指针，不能修改ptr指针，但可以修改该指针指向的内容</li>
+</ul></div>
+
+        <div class="sponsor">
+        <div class="sponsor-avatar"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        srcset="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 1.5x, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        title="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg" ></div>
+            <div class="donation">
+            <a href="https://blog.ralvines.top/praise/" class="donation-button" data-pjax-state>赞赏</a>
+            </div></div>
+
+
+<div class="related-container">
+    <div class="related-text">相关内容</div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/wxqy/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        title="https://z1.ax1x.com/2023/10/23/piAW5eH.png" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/wxqy/">当代文学前沿问题研究</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/qianyan/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/qianyan/">数学前沿专题讨论：遗传算法和统计学习方法</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/c-test/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/c-test/">C&#43;&#43;笔试</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/css/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/css/">CSS</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/zzjjx/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piA8qxO.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piA8qxO.png, https://z1.ax1x.com/2023/10/23/piA8qxO.png 1.5x, https://z1.ax1x.com/2023/10/23/piA8qxO.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piA8qxO.png"
+        title="https://z1.ax1x.com/2023/10/23/piA8qxO.png" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/zzjjx/">政治经济学</a>
+            </h2>
+        </div>
+    
+
+</div>
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-08-30</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/c-interview/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
+                    </span></div>
+            <div class="post-info-share">
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结" data-hashtags="温铁军,经济,政治"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/c-interview/" data-hashtag="温铁军"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%B8%A9%E9%93%81%E5%86%9B/">温铁军</a>,&nbsp;<a href="/tags/%E7%BB%8F%E6%B5%8E/">经济</a>,&nbsp;<a href="/tags/%E6%94%BF%E6%B2%BB/">政治</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/zzjjx/" class="prev" rel="prev" title="政治经济学"><i class="fas fa-angle-left fa-fw"></i>政治经济学</a>
+            <a href="/css/" class="next" rel="next" title="CSS">CSS<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">「明日巴陵道 秋山又几重」</div>
+                <div class="footer-line">
+                    <a href="https://blog.ralvines.top/tags/">文章标签</a> · <a href="https://blog.ralvines.top/about/board/">留言板</a> · <a href="https://blog.ralvines.top/about/friend/">友情链接</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2015 - 2023</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css" />
+<link rel='stylesheet' href='https://192960944.r.cdn36.com/chinesefonts2/packages/yzklct/dist/有字库龙藏体/result.css' /><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/extra.css" customAttribute>
+        <noscript><link rel="stylesheet" href="/extra.css" customAttribute></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"KEokTvqncSnkpSOc1tsOWa4M-gzGzoHsz","appKey":"IrISHvDjPwnvBj2sxGoiXkKG","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://keoktvqn.lc-cn-n1-shared.com","visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"desktop-header-typeit":"暮瞻","mobile-header-typeit":"暮瞻"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/valine/Valine.min.js" defer></script><script type="text/javascript" src="/js/valine.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>

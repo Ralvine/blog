@@ -1,0 +1,392 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>最优运输与蒙日-安培方程 - 暮瞻</title><meta name="Description" content="本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。"><meta property="og:title" content="最优运输与蒙日-安培方程" />
+<meta property="og:description" content="本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ralvines.top/tran/" /><meta property="og:image" content="https://z1.ax1x.com/2023/11/05/piQtwA1.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-01T13:20:40+08:00" />
+<meta property="article:modified_time" content="2022-01-01T13:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://z1.ax1x.com/2023/11/05/piQtwA1.jpg"/>
+
+<meta name="twitter:title" content="最优运输与蒙日-安培方程"/>
+<meta name="twitter:description" content="本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。"/>
+<meta name="application-name" content="暮瞻">
+<meta name="apple-mobile-web-app-title" content="暮瞻">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/tran/" /><link rel="prev" href="https://blog.ralvines.top/fcp/" /><link rel="next" href="https://blog.ralvines.top/shsj/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "最优运输与蒙日-安培方程",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/blog.ralvines.top\/tran\/"
+        },"genre": "posts","wordcount":  1014 ,
+        "url": "https:\/\/blog.ralvines.top\/tran\/","datePublished": "2022-01-01T13:20:40+08:00","dateModified": "2022-01-01T13:25:40+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"authors": [{
+                        "@type": "Person",
+                        "name": "Ralvine"                    
+                    }],"description": "本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。"
+    }
+    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        
+        <div class="header-title">
+            <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner">
+                
+                <div class="dropdown">
+                    <a href="/article/" 
+                        class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/cage/cage/" 
+                        class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/time/time/" 
+                        class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+                </div>
+                <a class="menu-item"
+                    href="/about/about/" >🏡 关于 
+                </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-desktop">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-desktop">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </span><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                <div class="search mobile" id="search-mobile">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-mobile">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-mobile">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </div>
+                <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
+                    取消
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="/article/" 
+                    class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/cage/cage/" 
+                    class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/time/time/" 
+                    class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+            </div>
+            <a class="menu-item"
+                href="/about/about/" >🏡 关于 
+            </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#大纲">大纲</a></li>
+    <li><a href="#课程论文">课程论文</a>
+      <ul>
+        <li><a href="#problem-1">Problem 1.</a></li>
+        <li><a href="#problem-2">Problem 2.</a></li>
+        <li><a href="#problem-3">Problem 3.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">最优运输与蒙日-安培方程</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E5%9B%9E%E6%BA%AF/"><i class="far fa-folder fa-fw"></i>回溯</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E8%87%AA%E6%88%91%E6%88%90%E9%95%BF/"><i class="far fa-list-alt fa-fw"></i>自我成长</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-01-01">2022-01-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2022-01-01">2022-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1014 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/tran/" class="leancloud_visitors" data-flag-title="最优运输与蒙日-安培方程">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#大纲">大纲</a></li>
+    <li><a href="#课程论文">课程论文</a>
+      <ul>
+        <li><a href="#problem-1">Problem 1.</a></li>
+        <li><a href="#problem-2">Problem 2.</a></li>
+        <li><a href="#problem-3">Problem 3.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition warning open">
+                <div class="details-summary admonition-title">
+                    <i class="icon fas fa-exclamation-triangle fa-fwwarning"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+                </div>
+                <div class="details-content">
+                    <div class="admonition-content">
+                        本文最后更新于 <span class="timeago" datetime="2022-01-01T13:25:40" title="January 1, 2022">2022-01-01</span>，文中内容可能已过时。</div>
+                </div>
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院（国际化课程）<br>
+🕙 2022-2023 秋冬（线上）<br>
+🧑‍🏫 Jiakun Liu（白圣,李玉婷）<br>
+📝 到课率+结课作业</div>
+        </div>
+    </div>
+<blockquote>
+<p>本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。</p>
+</blockquote>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li>Cedric Villani. 2003. Topics in Optimal Transportation. Graduate Studies in Mathematics 58, American Mathematical Society, Providence, Rhode Island.</li>
+<li>Villani, C., 2009. Optimal Transportation, Old and New, Grundlehren der Math. Wiss. 338. Springer-Verlag, Berlin.</li>
+<li>Figalli, A., 2017. The Monge-Ampere equation and its applications, Zurich Lectures in Advanced Mathematics. European Mathematical Society (EMS).</li>
+<li>Gilbarg, D. and Trudinger, N. S., 1983. Elliptic partial differential equations of second order. Springer-Verlag, Berlin.</li>
+</ul>
+<h2 id="大纲" class="headerLink">
+    <a href="#%e5%a4%a7%e7%ba%b2" class="header-mark"></a>大纲</h2><ul>
+<li><strong>CH0.</strong> 内容简介</li>
+<li><strong>CH1.</strong> Kantorovich对偶泛函</li>
+<li><strong>CH2.</strong> 最优运输的几何性质</li>
+<li><strong>CH3.</strong> Brenier的极化分解定理</li>
+<li><strong>CH4.</strong> Monge-Ampere方程</li>
+<li><strong>CH5.</strong> 严格凸与C1正则性</li>
+<li><strong>CH6.</strong> 自然边值条件与C1,alpha正则性</li>
+<li><strong>CH7.</strong> C2,alpha与高阶正则性</li>
+<li><strong>CH8.</strong> 整体正则性</li>
+</ul>
+<h2 id="课程论文" class="headerLink">
+    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><blockquote>
+<p>分别选取作业范围内的部分题目进行解答.</p>
+</blockquote>
+<h3 id="problem-1" class="headerLink">
+    <a href="#problem-1" class="header-mark"></a>Problem 1.</h3><blockquote>
+<p>Discuss the relationship between Kantorovich&rsquo;s problem:</p>
+<p>$$
+\inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C_k} (\gamma)=\int_{U\times V}c(s,y)d\gamma(x,y)
+$$</p>
+<p>and Monge&rsquo;sproblem:</p>
+<p>$$
+\inf\limits_{t_{\sharp}\mu=v}\mathscr{C_\text{M}}(t)=\int_{\mu}c(x,t(x)d\mu(x).
+$$</p>
+<p>Both two problems are related to the existence and uniqueness of the function $t$ and $\gamma$ given the cost function $c$.</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>First, we let $t$ be a measure preserving function, which satisfying that</p>
+<p>$$t_{\sharp} \mu=v, $$</p>
+<p>$$\int_U c(x,t(x))d\mu(x)=\inf\limits_{t_{\sharp}\mu=v}\mathscr{C}_M(t).$$</p>
+<p>From above, we now construct a corresponding function $\mu_t\in\Gamma(\mu \times v)$, where for $\forall E\subset U\times V$, we have</p>
+<p>$$\gamma_t(C):=\mu({x|(x,t(x))\in E}).$$</p>
+<p>It&rsquo;s easy to observe that for $\forall A\subset U$, by the measure language definition of the measure preserving mapping, we have</p>
+<p>$$\gamma_t(A\times V)=\mu({x|(x,t(x))\in A\times V})=\mu(A).$$</p>
+<p>Additionally, for $\forall B\subset V$, we have</p>
+<p>$$v(B)=\mu({x|(x,t(x))\in U\times B}),$$</p>
+<p>as</p>
+<p>$$t_{\sharp}\mu=v.$$</p>
+<p>Meanwhile</p>
+<p>$$\gamma_t(U\times B)=\mu({x|(x,t(x))\in U\times B})=v(B).$$</p>
+<p>Hence, for the constructed function $\gamma_t$, we know it is product on linear space. Then, by</p>
+<p>$$\int_{U\times V} c(x,y)d\gamma_t (x,y)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C}_k(\gamma),$$</p>
+<p>we get that</p>
+<p>$$\inf\limits_{t_{\sharp}\mu=v} \mathscr{C_\text{M}}(t)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)}\mathscr{C}_k(\gamma).$$</p>
+<p>Finally, as we know, the limitation of the Monge&rsquo;s problem is more strict, requiring that</p>
+<ol>
+<li>$t$ is a mapping of preserving measurability,</li>
+<li>$\gamma$ is just limited on linear space.</li>
+</ol>
+<p>Thus more freedom on the product space means more choices of function $\gamma$, thus there is going to have smaller total cost for Kantorovich&rsquo;s problem.</p>
+<h3 id="problem-2" class="headerLink">
+    <a href="#problem-2" class="header-mark"></a>Problem 2.</h3><blockquote>
+<p>Choose the Problem in subject: a mapping $T$ is a measure preserving ( $T_\sharp f=g$ ) iff $\forall h\in C(V), \int_V h(y)g(y)dy=\int_U h(T(x))f(x)dx.$</p>
+<p>(The definition of the measure preserving given by measure language and analysis language is equivalent.)</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>If $T$ is a mapping of preserving measurablity, then for $\forall E\subset V,$ always $\exists T^{-1}(E)\subset U$ s.t.</p>
+<p>$$\int_{T^{-1}(E)} f(x)dx=\int_E g(y)dy=\int_{T^{-1}(E)}g(Tx)|J|dx.$$</p>
+<p>where $J$ means the Jacobian $\displaystyle\frac{\partial y}{\partial x}$, i.e.</p>
+<p>$$f(x)=g(Tx)|J|, x\in T^{-1}(E)a.s..$$</p>
+<p>Let $E=V$, for $\forall$ continuous function $h$ over $V$, we have</p>
+<p>$$h(Tx)f(x)dx=h(Tx)g(Tx)|J|,x\in T^{-1}(V)a.s..$$</p>
+<p>Then, we can conclude that</p>
+<p>$$\int_U h(Tx)f(x)dx=\int_U h(Tx)g(Tx)|J|dx=\int_V h(y)g(y)dy.$$</p>
+<p>Additionally, we have assumpted that $\forall \in C(V),$ thus we have</p>
+<p>$$\int_V h(y)g(y)dy=\int_U h(T(x)f(x))dx.$$</p>
+<p>Now, for $\forall E\subset V$,  we let</p>
+<p>$$h(y)=\mathbb{I}{y\in E},y\in V,$$</p>
+<p>then we have</p>
+<p>$$\int_E g(y)dy=\int_{U\cap T^{-1(E)}}f(x)dx=\int_{T^{-1}(E)}f(x)dx.$$</p>
+<p>Therefore, we get</p>
+<p>$$T_\sharp f=g.$$</p>
+<h3 id="problem-3" class="headerLink">
+    <a href="#problem-3" class="header-mark"></a>Problem 3.</h3><blockquote>
+<p>Explain the background of Brenier polar factorise.</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>The problem of Monge has stayed with no solution until progress was made in the 1940s. Indeed, only with the work by Kantorovich, it was inserted into a suitable framework which gave the possibility to attack it and, later, to provide solutions and study them.</p>
+<p>Back to the 20 century, the Monge problem was asked, which is difficult to solve. after that, Kantoroich relaxes the optimal transfer problem into the optimal transmission solution, and instead of the Euclidean distance $|x-y|$ and more general measures and spaces, the problem was generalized with very general cost functions $c(x,y)$.</p>
+<p>Kantorovich use the idea of regarding the Monge problem as connected to linear programming, where the cost to be minimized becomes simply $\int_{X\times Y}c d\gamma$. Which means, this linear problem under linear constraints, is possible to prove existence of a solution. Then, by using techniques from convex optimization like duality, we could characterize the optimal solution.</p>
+<p>Now, there is some special cases, particularly if we let the cost $c(x,y)=|x-y|^2$, which is natural and has many application in physical models, for Bernier, who works to prove that the optimal $\gamma$ does not allow this splitting of masses and particles at $x$ are only sent to a unique destination $T(x)$, thus providing a solution to the original problem by Monge. Additionally, he proves a special form for the optimal map:</p>
+<p>For or a convex function $u$, the optimal $T$ is of the form $T(x)=\Delta u(x)$.</p>
+<p>Which makes a strong connection with the Monge-Ampère equation.</p>
+<p>$$|D^2u(x)|=\displaystyle\frac{f(x)}{g(\Delta u(x))}$$</p>
+<p>To the equation above, it is an degenerate, nonlinear, elliptic equation and is in the class of convex functions. Brenier uses result above to conclude the fact that matrices can be written as the product of a symmetric positive-definite matrix and an orthogonal one by prove that vector fields can be written as the composition of the gradient of a convex function and of a measure preserving map. It is the polar factorization theorem for vector maps, and the above narrative is the background to this theory.</p></div>
+
+        <div class="sponsor">
+        <div class="sponsor-avatar"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        srcset="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 1.5x, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        title="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg" ></div>
+            <div class="donation">
+            <a href="https://blog.ralvines.top/praise/" class="donation-button" data-pjax-state>赞赏</a>
+            </div></div>
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-01-01</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/tran/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
+                    </span></div>
+            <div class="post-info-share">
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/tran/" data-title="最优运输与蒙日-安培方程"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/tran/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/tran/" data-title="最优运输与蒙日-安培方程" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/tran/" data-title="最优运输与蒙日-安培方程"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/tran/" data-title="最优运输与蒙日-安培方程"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/tran/" data-title="最优运输与蒙日-安培方程"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/tran/" data-title="最优运输与蒙日-安培方程"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/fcp/" class="prev" rel="prev" title="Final Cut Pro 使用技巧"><i class="fas fa-angle-left fa-fw"></i>Final Cut Pro 使用技巧</a>
+            <a href="/shsj/" class="next" rel="next" title="2020-2023 寒假社会实践经历汇总">2020-2023 寒假社会实践经历汇总<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">「明日巴陵道 秋山又几重」</div>
+                <div class="footer-line">
+                    <a href="https://blog.ralvines.top/tags/">文章标签</a> · <a href="https://blog.ralvines.top/about/board/">留言板</a> · <a href="https://blog.ralvines.top/about/friend/">友情链接</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2015 - 2023</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css" />
+<link rel='stylesheet' href='https://192960944.r.cdn36.com/chinesefonts2/packages/yzklct/dist/有字库龙藏体/result.css' /><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/extra.css" customAttribute>
+        <noscript><link rel="stylesheet" href="/extra.css" customAttribute></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"KEokTvqncSnkpSOc1tsOWa4M-gzGzoHsz","appKey":"IrISHvDjPwnvBj2sxGoiXkKG","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://keoktvqn.lc-cn-n1-shared.com","visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"desktop-header-typeit":"暮瞻","mobile-header-typeit":"暮瞻"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/valine/Valine.min.js" defer></script><script type="text/javascript" src="/js/valine.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>

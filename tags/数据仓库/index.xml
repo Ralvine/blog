@@ -1,0 +1,50 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>数据仓库 - 标签 - 暮瞻</title>
+        <link>https://blog.ralvines.top/tags/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/</link>
+        <description>数据仓库 - 标签 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/" rel="self" type="application/rss+xml" /><item>
+    <title>SQL 强化笔记</title>
+    <link>https://blog.ralvines.top/sql/</link>
+    <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sql/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
+            </div><h2 id="mysql12" class="headerLink">
+    <a href="#mysql12" class="header-mark"></a>MySQL<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><ul>
+<li>语法 select-from-where-group by-having-order by-limit</li>
+<li>运行 from-where-group by-having-order by-limit-select</li>
+</ul>
+<h3 id="基础语句" class="headerLink">
+    <a href="#%e5%9f%ba%e7%a1%80%e8%af%ad%e5%8f%a5" class="header-mark"></a>基础语句</h3><ol>
+<li>select</li>
+</ol>
+<ul>
+<li><code>select</code> 字段（展示） <code>from</code> 表（数据来源）</li>
+<li><code>*</code> 全部字段</li>
+<li><code>as</code> 呈现字段名称</li>
+<li></li>
+</ul>
+<h2 id="spark-sql3" class="headerLink">
+    <a href="#spark-sql3" class="header-mark"></a>Spark SQL[^3]</h2><h2 id="hive-sql4" class="headerLink">
+    <a href="#hive-sql4" class="header-mark"></a>Hive SQL<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2><h3 id="常见问题5" class="headerLink">
+    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%985" class="header-mark"></a>常见问题<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h3><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>SQL从入门到实战 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>数据库（SQL）面试题，基础知识（超全面） @weihubeats <a href="https://blog.csdn.net/qq_42651904/article/details/83146345" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_42651904/article/details/83146345</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>一文学完所有的Hive Sql（两万字最全详解） @五分钟学大数据 <a href="https://blog.csdn.net/helloHbulie/article/details/115376657" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/helloHbulie/article/details/115376657</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>【SQL】SQL经典50题&amp;答案 @胖熊酱 <a href="https://zhuanlan.zhihu.com/p/67645448" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/67645448</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
+</item></channel>
+</rss>

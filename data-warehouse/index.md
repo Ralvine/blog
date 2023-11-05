@@ -28,13 +28,4 @@
 
 [^1]: https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a
 
-
-## SQL[^2][^3]
-
-### 常见问题[^4]
-
-
 [^1]: 尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 https://zhuanlan.zhihu.com/p/647035072
-[^2]: SQL从入门到实战 @戴师兄 https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf
-[^3]: 数据库（SQL）面试题，基础知识（超全面） @weihubeats https://blog.csdn.net/qq_42651904/article/details/83146345
-[^4]: 【SQL】SQL经典50题&答案 @胖熊酱 https://zhuanlan.zhihu.com/p/67645448

@@ -62,7 +62,81 @@
 <ol>
 <li>自我介绍和个人特质</li>
 <li>职业规划和对华为、行业的理解</li>
-</ol>]]></description>
+</ol>
+<h2 id="附面经整理" class="headerLink">
+    <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%86" class="header-mark"></a>附：面经整理</h2><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>面试经验整理<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p><strong>一面&amp;二面</strong></p>
+<ul>
+<li>自我介绍
+<ul>
+<li>准备自我介绍时候最好说些自己熟悉的领域</li>
+</ul>
+</li>
+<li>详细讲项目 细节</li>
+<li>笔试复盘
+<ul>
+<li>思路</li>
+</ul>
+</li>
+<li>手撕代码
+<ul>
+<li>一个二维数组初始值为0给其中两个点初始值为1每个为1的点每一轮可以上下左右把为0的点转化为1问要几轮将整个二维数组用1填满check1point3acresformore直接想到用队列结合dfs写完面试就结束了总体感觉不难可能是部门缺人降低了bar</li>
+</ul>
+</li>
+<li>基础知识 &amp; 实际应用场景
+<ul>
+<li>数据结构
+<ul>
+<li>链表</li>
+<li>数组</li>
+<li>树</li>
+<li>快排</li>
+<li>归并排序</li>
+<li>哈希</li>
+<li>复杂度</li>
+<li>图</li>
+</ul>
+</li>
+<li>网络
+<ul>
+<li>TCP/IP</li>
+<li>握手为什么不是两次 为什么不是4次</li>
+<li>IP传输是否可靠</li>
+<li>局部变量在内存的位置</li>
+<li>DFS实际操作中有什么不好</li>
+</ul>
+</li>
+<li>操作系统
+<ul>
+<li>进程 线程</li>
+<li>Linux</li>
+</ul>
+</li>
+<li>C++ 面向对象</li>
+<li>MySQL</li>
+</ul>
+</li>
+<li>课程大作业</li>
+<li>强调非科班 学习潜力 主修聚焦在计算数学和数据科学（统计学习方法）</li>
+<li><strong>思维</strong></li>
+</ul>
+<p><strong>业务主管面试</strong></p>
+<ul>
+<li>自我介绍</li>
+<li>项目</li>
+<li>为什么想来华为</li>
+<li>压力最大的一件事</li>
+<li>什么时候开始学习互联网相关的知识</li>
+<li>对加班的看法？如果工作量大怎么办？</li>
+<li>为什么选择杭研所？（其实我没有硬性的要求，我都不知道自己面的杭研所）</li>
+</ul>
+</div>
+        </div>
+    </div>]]></description>
 </item><item>
     <title>面向对象程序设计</title>
     <link>https://blog.ralvines.top/oop/</link>
@@ -191,10 +265,462 @@
 </ol>
 </div>]]></description>
 </item><item>
+    <title>偏微分方程</title>
+    <link>https://blog.ralvines.top/pde/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pde/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 计算机科学与技术学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 许威威<br>
+📝 50%作业，50%期末</div>
+        </div>
+    </div>
+<p>!!! quote &quot;&quot;
+- 🎓 数学科学学院
+- 🕙 2021-2022 春夏
+- 🧑‍🏫 鲁汪涛
+- 📝 作业，小测，期末考试</p>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><h2 id="ch1-引言" class="headerLink">
+    <a href="#ch1-%e5%bc%95%e8%a8%80" class="header-mark"></a>Ch.1 引言</h2><h3 id="1-发展史" class="headerLink">
+    <a href="#1-%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>1. 发展史</h3><blockquote>
+<p>17 - 微积分 Newton &amp; Lebnitz</p>
+<p>18 - Euler &amp; Bernoulli &amp; Lagrange &amp; Laplace &amp; Poisson</p>
+<p>19 - pde应用 Fourier &amp; Green &amp; Cauchy &amp; Hadamard</p>
+<p>20 - 复杂理论</p>
+<p>21 - 计算机数值分析 &amp; 微分方程数值解</p>
+</blockquote>
+<h3 id="2-基本定义" class="headerLink">
+    <a href="#2-%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>2. 基本定义</h3><h4 id="21-概念" class="headerLink">
+    <a href="#21-%e6%a6%82%e5%bf%b5" class="header-mark"></a>2.1 概念</h4><ul>
+<li><strong>向量：</strong>$x=(x_1,x_2,\cdots,x_n)\in \mathbb{R}^n,x\in \Omega$ 开区域</li>
+<li><strong>函数：</strong>$u:\Omega\rightarrow\mathbb{R}$  偏导$\displaystyle\frac{\partial u}{\partial x_1}=\partial_{x_{1}}u=\partial_{1}u$</li>
+<li><strong>梯度：</strong>$grad/\nabla/Du=(\partial_{1}u,\partial_{2}u,\cdots,\partial_{n}u)$</li>
+<li><strong>散度：</strong>$\vec{F}=(F_1,F_2,\cdots,F_n),\Omega\rightarrow \mathbb{R}^n\Rightarrow div\vec{F}=\displaystyle\sum\limits_{i=1}^n\frac{\partial F_i}{\partial x_i}$</li>
+<li><strong>Hessian矩阵：</strong>$D^2u=\begin{pmatrix}\displaystyle\frac{\partial^2u}{\partial x_1^2}&amp;\displaystyle\frac{\partial^2 u}{\partial x_1x_2}&amp;\cdots&amp;\displaystyle\frac{\partial^2u}{\partial x_1x_n}\\vdots&amp;\vdots&amp;\ddots&amp;\vdots\\displaystyle\frac{\partial^2u}{\partial x_nx_1}&amp;\displaystyle\frac{\partial^2u}{\partial x_nx_2}&amp;\cdots&amp;\displaystyle\frac{\partial^2u}{\partial x_n^2}\end{pmatrix}$</li>
+<li><strong>Laplace算子：</strong> $\Delta u=tr(D^2u)$=$\displaystyle\sum\limits_{i=1}^n\frac{\partial ^2u}{\partial x_i^2}$=$div$($Du$)  散度的梯度</li>
+<li><strong>所有k阶偏导：</strong>$D^ku=\displaystyle\frac{\partial^ku}{\partial x_{i1}\partial x_{i2}\cdots\partial x_{ik}}\in\mathbb{R}^{n^k},n^k个$</li>
+</ul>
+<p>$|D^ku|=(\sum\limits_{i1=1}^n\sum\limits_{i2=1}^n\cdots\sum\limits_{ik=1}^n|\partial_{x1}\partial_{x2}\cdots\partial_{xk}u|)^{1/2}$</p>
+<ul>
+<li><strong>多重指标：</strong>$\alpha=(\alpha_1,\alpha_2,\cdots,\alpha_n), 阶|\alpha|=\alpha_1+\alpha_2+\cdots+\alpha_n$ 去重</li>
+</ul>
+<p>$D^\alpha u=\partial_{x1}^{\alpha1}\partial_{x1}^{\alpha2}\cdots\partial_{x1}^{\alpha n}\Rightarrow|D^ku|=(\sum\limits_{|\alpha|=k}|D^\alpha u|^2)^{1/2}$</p>
+<ul>
+<li><strong>偏微分方程：</strong></li>
+</ul>
+<p>$F(D^ku(x),D^{k-1}u(x),\cdots,Du(x),u(x),x)=0, x\in\Omega.$ k阶</p>
+<p>$\displaystyle\left{\begin{array}{l}
+F:\mathbb{R}^{n^k}\times\mathbb{R}^{n^{k-1}}\times\cdots\times\mathbb{R}^{n}\times\mathbb{R}\times\Omega\rightarrow\mathbb{R}.（已知）\
+u:\Omega\rightarrow\mathbb{R}.（未知）\
+\end{array}\right.$</p>
+<h4 id="22-线性空间" class="headerLink">
+    <a href="#22-%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>2.2 线性空间</h4><ul>
+<li>
+<p><strong>函数：</strong>$u\rightarrow C(\Omega), ||u||<em>{C(\Omega)}=\sup\limits</em>{x\in\Omega}|u(x)|.$</p>
+</li>
+<li>
+<p><strong>k次连续可微函数：</strong>$||u||<em>{C^k(\Omega)}=\sup\limits</em>{x\in\Omega}|u(x)|+\displaystyle\sum\limits_{|\alpha|=1}^2\sup\limits_{x\in\Omega}|D^\alpha u(x)|.$</p>
+</li>
+<li>
+<p><strong>支集：</strong>$spt\space u=\overline{{ x\in\Omega|u(x)\neq0}}.$所有满足$u(x)\neq0$点集在$\Omega$上的闭包</p>
+</li>
+<li>
+<p>$C_0^k$ 具有紧支集的函数类；$C^\infty(\Omega)=\bigcap\limits_{k=1}^\infty C^k(\Omega)$任意阶偏导存在且连续的函数类</p>
+</li>
+</ul>
+<h4 id="23-解的光滑性" class="headerLink">
+    <a href="#23-%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>2.3 解的光滑性</h4><p>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</p>
+<h4 id="24-分类" class="headerLink">
+    <a href="#24-%e5%88%86%e7%b1%bb" class="header-mark"></a>2.4 分类</h4><ul>
+<li>
+<p><strong>线性：</strong>$\displaystyle\sum\limits_{|\alpha|\leq k}a_{\alpha}(x)D^{\alpha}u=f(x)$</p>
+</li>
+<li>
+<p><strong>半线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}(x)D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
+</li>
+<li>
+<p><strong>拟线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}[D^{k-1}u(x),\cdots,Du(x),u(x),x]D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
+</li>
+<li>
+<p>**完全非线性：**非线性依赖$D^ku$</p>
+</li>
+</ul>
+<h3 id="3-实例" class="headerLink">
+    <a href="#3-%e5%ae%9e%e4%be%8b" class="header-mark"></a>3 实例</h3><ol>
+<li><strong>Laplace方程：</strong>$\Delta u=0$</li>
+<li><strong>特征值方程：</strong>$\Delta u+\lambda u=0$</li>
+<li><strong>热方程：</strong>$u_t-a^2\Delta u=0(a&gt;0)$</li>
+<li>&hellip;</li>
+</ol>
+<h3 id="4-椭圆型" class="headerLink">
+    <a href="#4-%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>4 椭圆型&amp;</h3><h3 id="5-适定性" class="headerLink">
+    <a href="#5-%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>5 适定性</h3><h4 id="51-定义" class="headerLink">
+    <a href="#51-%e5%ae%9a%e4%b9%89" class="header-mark"></a>5.1 定义</h4><ul>
+<li>
+<p>**定解问题：**PDE+条件</p>
+</li>
+<li>
+<p>**适定：**解存在、唯一、连续依赖已知函数</p>
+</li>
+<li>
+<p>**形式解：**对实际问题假设解的光滑性以求出表达式（先验估计）</p>
+</li>
+<li>
+<p>$\Omega$ - 开域、$\overline\Omega$ - 闭包、$\partial\Omega$ - 边界</p>
+<p>$\mathbb{R}_+^n={x=(x_1,\cdots,x_n)\in\mathbb{R}^n|x_n&gt;0}$ 上半空间</p>
+<p>$\mathbb{R}<em>+^1=\mathbb{R}</em>+,\space\mathbb{R}<em>+^{n+1}=\mathbb{R}</em>+^n\times\mathbb{R}_+$</p>
+</li>
+<li>
+<p><strong>闭球：</strong>$B(x,r),\space 体积\space\alpha(n)r^n=$</p>
+<p>…………………………</p>
+</li>
+</ul>
+<h4 id="52-定理" class="headerLink">
+    <a href="#52-%e5%ae%9a%e7%90%86" class="header-mark"></a>5.2 定理</h4><ul>
+<li>
+<p><strong>Green 公式：</strong></p>
+<p>…………………………</p>
+</li>
+</ul>
+<h2 id="ch2-位势方程" class="headerLink">
+    <a href="#ch2-%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch.2 位势方程</h2><h3 id="1-possion方程" class="headerLink">
+    <a href="#1-possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>1 Possion方程</h3><p>$-\Delta u=f(x)$</p>
+<h3 id="2-调和函数" class="headerLink">
+    <a href="#2-%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>2 调和函数</h3><p>$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$</p>
+<h2 id="ch3-热方程" class="headerLink">
+    <a href="#ch3-%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch.3 热方程</h2><h3 id="1-基本定义" class="headerLink">
+    <a href="#1-%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>1 基本定义</h3><h4 id="11-热方程" class="headerLink">
+    <a href="#11-%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>1.1 热方程</h4><ul>
+<li><strong>基本形式：</strong>$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t&gt;0$</li>
+<li><strong>推导</strong></li>
+<li>**反应扩散方程：**反应项、扩散项</li>
+</ul>
+<h4 id="12-概念" class="headerLink">
+    <a href="#12-%e6%a6%82%e5%bf%b5" class="header-mark"></a>1.2 概念</h4><ul>
+<li>
+<p><strong>定解问题：</strong></p>
+<ul>
+<li>
+<p><strong>定解条件</strong></p>
+<ul>
+<li>
+<p><strong>初始条件：</strong>$u(x,0)=\varphi (x)$</p>
+</li>
+<li>
+<p>**边值条件：**边界分布或外围介质影响（$x\in\partial\Omega,t\ge0$）</p>
+<p>$u(x,t)=g(x,t)$. $g=const$ 恒温</p>
+<p>$k\frac{\partial}{\partial\displaystyle\vec{n}}u(x,t)=g(x,t)$. $g\ge0$ 热量流入；$g\equiv0$ 绝热</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>偏微分方程</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>**函数集：**所有$Q$内关于$x$二阶偏导连续，关于$t$一阶偏导连续函数</p>
+<p>$C^{2,1}(Q)={u\in C(Q)|u_t,u_{xi},u_{xixj}\in C(Q);i,j=1,\cdots,n}$</p>
+</li>
+<li>
+<p>**古典解：**热方程在上述集中的解</p>
+</li>
+<li>
+<p>$C^{1,0}(Q)$</p>
+</li>
+</ul>
+<h3 id="2-初值问题" class="headerLink">
+    <a href="#2-%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>2 初值问题</h3><h4 id="21-fourier" class="headerLink">
+    <a href="#21-fourier" class="header-mark"></a>2.1 Fourier</h4><ul>
+<li>
+<p><strong>Fourier 级数展开</strong></p>
+<p>$f(x)\in C^1(\mathbb{R}),\space\forall l&gt;0,\space x\in(-l,l)$</p>
+<p>$f(x)=\displaystyle\frac{a_0}{2}+\displaystyle\sum\limits_{k=1}^\infty \big (a_k\cos \displaystyle\frac{k\pi}{l}x+b_k\sin\displaystyle\frac{k\pi}{l}x\big )$</p>
+</li>
+<li>
+<p>**Fourier 积分：**级数极限</p>
+</li>
+</ul>
+<h4 id="22-一维热方程初值问题" class="headerLink">
+    <a href="#22-%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>2.2 一维热方程初值问题</h4><p>$$
+\displaystyle\left{\begin{array}{l}
+\displaystyle\frac{\partial{u}}{\partial t}-a^2\displaystyle\frac{\partial^2u}{\partial x^2}=f(x,t), &amp; (x,t)\in\mathbb{R}\times\mathbb{R}_+\
+u(x,0)=\varphi(x), &amp; x\in\mathbb
+{R}\
+\end{array}\right.
+$$</p>
+<p>!!! quote &quot;&quot;
+- 🎓 数学科学学院
+- 🕙 2022-2023 秋冬
+- 🧑‍🏫 孔德兴
+- 📝 作业，考试</p>
+<h2 id="参考-1" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83-1" class="header-mark"></a>参考</h2><ul>
+<li>《偏微分方程》孔德兴</li>
+</ul>
+<h2 id="ch1-绪论" class="headerLink">
+    <a href="#ch1-%e7%bb%aa%e8%ae%ba" class="header-mark"></a>Ch1. 绪论</h2><h2 id="ch2-一阶方程" class="headerLink">
+    <a href="#ch2-%e4%b8%80%e9%98%b6%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch2. 一阶方程</h2><ul>
+<li>线性方程</li>
+<li>拟线性方程</li>
+<li>偏微分方程组</li>
+</ul>
+<h2 id="ch3-双元二阶方程" class="headerLink">
+    <a href="#ch3-%e5%8f%8c%e5%85%83%e4%ba%8c%e9%98%b6%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch3. 双元二阶方程</h2><h2 id="ch4-波动方程" class="headerLink">
+    <a href="#ch4-%e6%b3%a2%e5%8a%a8%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch4. 波动方程</h2><ul>
+<li>一维
+<ul>
+<li>导出、定解条件</li>
+<li>柯西问题</li>
+<li>初边值问题
+<ul>
+<li>分离变量法</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>高维
+<ul>
+<li>球平均法</li>
+</ul>
+</li>
+<li>传播</li>
+<li>能量不等式</li>
+</ul>
+<h2 id="ch5-热传导方程" class="headerLink">
+    <a href="#ch5-%e7%83%ad%e4%bc%a0%e5%af%bc%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch5. 热传导方程</h2><ul>
+<li>导出、定解条件</li>
+<li>柯西问题
+<ul>
+<li>傅立叶变换法</li>
+</ul>
+</li>
+<li>初边值问题</li>
+<li>极值原理</li>
+</ul>
+<h2 id="ch6-laplace方程" class="headerLink">
+    <a href="#ch6-laplace%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch6. Laplace方程</h2><ul>
+<li>导出、定解条件</li>
+<li>变分法</li>
+<li>调和函数
+<ul>
+<li>格林公式</li>
+<li>极值原理</li>
+</ul>
+</li>
+<li>格林函数
+-镜像法</li>
+<li>强极值原理</li>
+</ul>]]></description>
+</item><item>
+    <title>微分方程数值解</title>
+    <link>https://blog.ralvines.top/pdeszj/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pdeszj/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 计算机科学与技术学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 许威威<br>
+📝 50%作业，50%期末</div>
+        </div>
+    </div>
+<p>!!! quote &quot;&quot;
+- 🎓 数学科学学院
+- 🕙 2022-2023 春夏
+- 🧑‍🏫 张庆海
+- 📝 40%平时，60%期末</p>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<li>教材讲义</li>
+<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51564&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
+</ul>
+<h2 id="ch7-bvp-fd" class="headerLink">
+    <a href="#ch7-bvp-fd" class="header-mark"></a>Ch7. BVP-FD</h2><blockquote>
+<p>P60-70 (11)</p>
+</blockquote>
+<ul>
+<li>有限差分离散化</li>
+<li>误差和一致性</li>
+<li>稳定性、收敛性
+<ul>
+<li>范数收敛</li>
+<li>Green函数
+<ul>
+<li>解决方案</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>其他边值条件</li>
+<li>二维
+<ul>
+<li>Kronecker乘积</li>
+<li>范数收敛性</li>
+</ul>
+</li>
+<li>不规则边界、收敛性</li>
+</ul>
+<h2 id="ch9-multigrid" class="headerLink">
+    <a href="#ch9-multigrid" class="header-mark"></a>Ch9. Multigrid</h2><blockquote>
+<p>P80-87 (8)</p>
+</blockquote>
+<ul>
+<li>残差方程</li>
+<li>模型问题</li>
+<li>算法组成
+<ul>
+<li>傅立叶模式</li>
+<li>松弛</li>
+<li>限制、延拓</li>
+<li>双网格矫正</li>
+<li>多重网格cycles</li>
+</ul>
+</li>
+<li>收敛性分析
+<ul>
+<li>代数图</li>
+<li>FMG最优复杂度</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch11-ivp" class="headerLink">
+    <a href="#ch11-ivp" class="header-mark"></a>Ch11. IVP</h2><blockquote>
+<p>P102-138 (37)</p>
+</blockquote>
+<ul>
+<li>数学基础
+<ul>
+<li>ODE</li>
+<li>算子范数</li>
+<li>矩阵指数</li>
+<li>Lipschitz连续条件</li>
+<li>解的唯一存在性</li>
+<li>well-posed 适定性</li>
+<li>常系数线性IVPs</li>
+</ul>
+</li>
+<li>数值方法
+<ul>
+<li>欧拉法</li>
+<li>前欧拉</li>
+<li>后欧拉</li>
+<li>梯形法</li>
+<li>leapfrog 中点法</li>
+<li>截断误差</li>
+<li>欧拉法的收敛性</li>
+<li>零/绝对稳定性</li>
+</ul>
+</li>
+<li>线性多步法
+<ul>
+<li>一致性、稳定性</li>
+<li>零稳定性</li>
+<li>线性差分方程</li>
+<li>收敛性</li>
+<li>绝对稳定性</li>
+</ul>
+</li>
+<li>刚性IVPs
+<ul>
+<li>刚度 stiffness</li>
+<li>A-稳定性</li>
+</ul>
+</li>
+<li>单步法
+<ul>
+<li>一致性、收敛性</li>
+<li>绝对稳定性</li>
+<li>A-稳定性、L-稳定性</li>
+</ul>
+</li>
+<li>龙格库塔法
+<ul>
+<li>显式法</li>
+<li>必要阶数条件</li>
+<li>隐式法</li>
+<li>Collocation 配点法</li>
+<li>实用误差估计、步长控制</li>
+<li>一致性、收敛性</li>
+<li>绝对稳定性</li>
+<li>I-稳定性、L-稳定性</li>
+<li>收缩性、B-稳定性</li>
+<li>代数稳定性</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch12-mol" class="headerLink">
+    <a href="#ch12-mol" class="header-mark"></a>Ch12. MOL</h2><blockquote>
+<p>P140-155 (16)</p>
+</blockquote>
+<ul>
+<li>热方程
+<ul>
+<li>抛物、导出</li>
+<li>边值条件、精确解</li>
+<li>FTCS</li>
+<li>Crank-Nicolson</li>
+<li>精度、一致性</li>
+<li>绝对稳定性、Lax-Richtmyer稳定性</li>
+<li>收敛性</li>
+<li>离散最大值原理</li>
+<li>冯诺依曼稳定性</li>
+</ul>
+</li>
+<li>平流方程
+<ul>
+<li>经典MOL法
+<ul>
+<li>FTCS</li>
+<li>leapfrog</li>
+<li>Lax-Friedrichs</li>
+<li>Lax-Wendroff</li>
+<li>upwind</li>
+<li>Beam-Warming</li>
+</ul>
+</li>
+<li>CFL条件</li>
+<li>修正方程</li>
+<li>冯诺依曼分析</li>
+</ul>
+</li>
+</ul>
+<h2 id="作业" class="headerLink">
+    <a href="#%e4%bd%9c%e4%b8%9a" class="header-mark"></a>作业</h2><ul>
+<li>Homework01</li>
+<li>Homework02</li>
+<li>Homework03</li>
+<li>Homework04</li>
+<li>Homework05</li>
+<li>Project01</li>
+<li>Project02</li>
+<li>Project03</li>
+<li>Project04</li>
+</ul>
+<h2 id="前辈经验" class="headerLink">
+    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<p>lz这学期上了<strong>张庆海</strong>老师的微分方程数值解课程，个人认为这门课在数院是一门非常有特点的课，虽说比较硬核但确实能学到许多，于是开个帖写写课程体会（顺便安利一手） 1.理论与实践结合 数院的课大多以理论为导向，这门课是少有的几门理论与实践并重的课程之一。本学期这门课一共有两个编程大作业，都与课上学的算法密不可分。顺带提醒，先确保完全弄明白算法之后再动手coding，否则成吨的bug在等着你&hellip;</p>
+<p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
+<p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>
+</blockquote>]]></description>
+</item><item>
     <title>数据结构与算法</title>
-    <link>https://blog.ralvines.top/data-structure/</link>
-    <pubDate>Thu, 01 Sep 2022 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-structure/</guid>
+    <link>https://blog.ralvines.top/dsa/</link>
+    <pubDate>Wed, 01 Sep 2021 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/dsa/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
@@ -208,7 +734,8 @@
 📝 作业，项目作业，期末考试</div>
         </div>
     </div>
-<ul>
+<h2 id="大纲" class="headerLink">
+    <a href="#%e5%a4%a7%e7%ba%b2" class="header-mark"></a>大纲</h2><ul>
 <li><strong>CH3.</strong> 链表、栈和队列</li>
 <li><strong>CH4.</strong> 树</li>
 <li><strong>CH5.</strong> 哈希</li>
@@ -254,11 +781,11 @@
 <p>对形参：指针传递，禁止修改指针指向地址内存数据；值传递不需要const保护。</p>
 <p><code>void copyMemory(const T* _s,T* _d,int _n);</code></p>
 <h4 id="static" class="headerLink">
-    <a href="#static" class="header-mark"></a>Static</h4><p>静态变量，延长生命周期又相较全局变量保留了一定的访问范围。需要一个数据对象为整个类而非某个对象服务,同时又力求不破坏类的封装性,即要求此成员隐藏在类的内部时使用。</p>
+    <a href="#static" class="header-mark"></a>static</h4><p>静态变量，延长生命周期又相较全局变量保留了一定的访问范围。需要一个数据对象为整个类而非某个对象服务,同时又力求不破坏类的封装性,即要求此成员隐藏在类的内部时使用。</p>
 <h4 id="this" class="headerLink">
     <a href="#this" class="header-mark"></a>*this</h4><p>指向obj自身的指针</p>
 <h4 id="explicit-显式转换" class="headerLink">
-    <a href="#explicit-%e6%98%be%e5%bc%8f%e8%bd%ac%e6%8d%a2" class="header-mark"></a>Explicit 显式转换</h4><p>explicit 对单参数构造函数限制隐式转换
+    <a href="#explicit-%e6%98%be%e5%bc%8f%e8%bd%ac%e6%8d%a2" class="header-mark"></a>explicit 显式转换</h4><p><code>explicit</code> 对单参数构造函数限制隐式转换
 防止编译器进行类型等方式的强制转换。</p>
 <h3 id="宏定义" class="headerLink">
     <a href="#%e5%ae%8f%e5%ae%9a%e4%b9%89" class="header-mark"></a>宏定义</h3><p>用于简化重复语句<code>#define TEMP template&lt;typename T&gt;</code></p>
@@ -279,11 +806,14 @@
 </div>
 </div><h3 id="传递-引用" class="headerLink">
     <a href="#%e4%bc%a0%e9%80%92-%e5%bc%95%e7%94%a8" class="header-mark"></a>传递 引用</h3><h4 id="形参的值传递-指针传递-引用传递" class="headerLink">
-    <a href="#%e5%bd%a2%e5%8f%82%e7%9a%84%e5%80%bc%e4%bc%a0%e9%80%92-%e6%8c%87%e9%92%88%e4%bc%a0%e9%80%92-%e5%bc%95%e7%94%a8%e4%bc%a0%e9%80%92" class="header-mark"></a>形参的值传递 指针传递 引用传递</h4><p>默认为值传递，开辟新函数，储存实参数据；指针实质存在一层中介地址，引用传递直接对传入对象进行修改；*&amp;obj适用于struct对象，对其属性变量进行修改</p>
-<p>（1）T* a： 传递实参指针地址，及最终指向数据地址，但可以利用*a修改地址内存数据
-（2）T&amp; a：左值引用，实参的别名</p>
+    <a href="#%e5%bd%a2%e5%8f%82%e7%9a%84%e5%80%bc%e4%bc%a0%e9%80%92-%e6%8c%87%e9%92%88%e4%bc%a0%e9%80%92-%e5%bc%95%e7%94%a8%e4%bc%a0%e9%80%92" class="header-mark"></a>形参的值传递 指针传递 引用传递</h4><p>默认为值传递，开辟新函数，储存实参数据；指针实质存在一层中介地址，引用传递直接对传入对象进行修改；</p>
+<p><code>*&amp;obj</code> 适用于struct对象，对其属性变量进行修改</p>
+<ol>
+<li><code>T* a</code> ： 传递实参指针地址，及最终指向数据地址，但可以利用*a修改地址内存数据</li>
+<li><code>T&amp; a</code> ：左值引用，实参的别名</li>
+</ol>
 <h4 id="左值-右值引用" class="headerLink">
-    <a href="#%e5%b7%a6%e5%80%bc-%e5%8f%b3%e5%80%bc%e5%bc%95%e7%94%a8" class="header-mark"></a>左值 右值引用</h4><p>右值引用&amp;&amp;：防止传递给形参T&amp; a的是常量（此时函数无法修改a）</p>
+    <a href="#%e5%b7%a6%e5%80%bc-%e5%8f%b3%e5%80%bc%e5%bc%95%e7%94%a8" class="header-mark"></a>左值 右值引用</h4><p>右值引用 <code>&amp;&amp;</code> ：防止传递给形参 <code>T&amp; a</code> 的是常量（此时函数无法修改a）</p>
 <p><strong>看能不能对表达式取地址，如果能，则为左值，否则为右值</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -301,7 +831,7 @@
 </div>
 </div><p><strong>约定</strong> rhs：引用；lhs：赋值</p>
 <h3 id="stdmove" class="headerLink">
-    <a href="#stdmove" class="header-mark"></a>std::move</h3><p>强制将左值转换为右值引用，如push_back避免开辟新内存</p>
+    <a href="#stdmove" class="header-mark"></a>std::move</h3><p>强制将左值转换为右值引用，如 <code>push_back</code> 避免开辟新内存</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -382,28 +912,35 @@
 </div>
 </div><h2 id="复杂度" class="headerLink">
     <a href="#%e5%a4%8d%e6%9d%82%e5%ba%a6" class="header-mark"></a>复杂度</h2><h3 id="big-o" class="headerLink">
-    <a href="#big-o" class="header-mark"></a>big O</h3><p>$1000N=O(N^2); (logN)^k=O(N);\$
-$1 &lt; logN &lt; N &lt; NlogN &lt; N^2$</p>
+    <a href="#big-o" class="header-mark"></a>big O</h3><p>$1000N=O(N^2); (logN)^k=O(N);$</p>
+<p>$1 &lt; logN &lt; N &lt; NlogN &lt; N^2$</p>
 <h3 id="时间复杂度" class="headerLink">
-    <a href="#%e6%97%b6%e9%97%b4%e5%a4%8d%e6%9d%82%e5%ba%a6" class="header-mark"></a>时间复杂度</h3><blockquote>
-<p>for循环｜内语句*迭代次数；嵌套循环
-顺序语句｜求和，取Max；判定语句
-NlogN|最大子序列问题 一次N遍历&amp;一次二分查找
-logN｜二分搜索，欧几里得</p>
-</blockquote>
+    <a href="#%e6%97%b6%e9%97%b4%e5%a4%8d%e6%9d%82%e5%ba%a6" class="header-mark"></a>时间复杂度</h3><ul>
+<li>for循环｜内语句*迭代次数；嵌套循环</li>
+<li>顺序语句｜求和，取Max；判定语句</li>
+<li>NlogN|最大子序列问题 一次N遍历&amp;一次二分查找</li>
+<li>logN｜二分搜索，欧几里得</li>
+</ul>
 <h2 id="主定理" class="headerLink">
-    <a href="#%e4%b8%bb%e5%ae%9a%e7%90%86" class="header-mark"></a>主定理</h2><p><strong>归纳法证明：</strong> （例）</p>
-<p>**一般性证明：**构造树，$depth=log(b,n)，widget=a^{(log(b,n))}=n^{(log(b,a))}$</p>
-<p><em>实例：二分查找</em>
-$$
-T(n) = T(n/2) + O(1)  \
-T(n/2) = T(n/4) + O(1)  \<br>
-&hellip;\
-T(2) = T(1) + O(1)     \
-T(1) = O(1)\
-a=1,b=2,k=0\代入得O(logN);
-$$</p>
-<p>另可直接证，由于为1/2,1/4&hellip;1/n,尾项2^k项为n，故共logn项，T(n)=logn*o(1)=logn</p>
+    <a href="#%e4%b8%bb%e5%ae%9a%e7%90%86" class="header-mark"></a>主定理</h2><p><strong>归纳法证明：</strong></p>
+<p>（例）</p>
+<p><strong>一般性证明：</strong></p>
+<p>构造树，$\text{depth}=log(b,n)，\text{widget}=a^{(log(b,n))}=n^{(log(b,a))}$</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>实例：二分查找<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>$T(n) = T(n/2) + O(1)$</p>
+<p>$T(n/2) = T(n/4) + O(1)$</p>
+<p>$&hellip;$</p>
+<p>$T(2) = T(1) + O(1)$</p>
+<p>$T(1) = O(1)$</p>
+<p>$a=1,b=2,k=0$ 代入得 $O(logN)$;</p>
+</div>
+        </div>
+    </div>
+<p>另可直接证，由于为$1/2,1/4&hellip;1/n$, 尾项$2^k$项为$n$，故共$logn$项，$$T(n)=logn\times o(1)=logn$$</p>
 <h2 id="vector--list--stack--queues" class="headerLink">
     <a href="#vector--list--stack--queues" class="header-mark"></a>Vector &amp; List &amp; Stack &amp; Queues</h2><h3 id="iterator" class="headerLink">
     <a href="#iterator" class="header-mark"></a>iterator</h3><div class="highlight"><div class="chroma">
@@ -417,9 +954,11 @@ $$</p>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="vector--list" class="headerLink">
-    <a href="#vector--list" class="header-mark"></a>Vector &amp; List</h3><p>Array|经典数组
-Vector|批量分配内存的数组，空间不够时再申请新的内存；模板化<T>；允许拷贝赋值
-List|链表 Single/Double-Linked-List <strong>双链表</strong> 表头、尾、哨兵结点</p>
+    <a href="#vector--list" class="header-mark"></a>Vector &amp; List</h3><ul>
+<li>Array | 经典数组</li>
+<li>Vector | 批量分配内存的数组，空间不够时再申请新的内存；模板化<code>&lt;T&gt;</code>；允许拷贝赋值</li>
+<li>List | 链表 Single/Double-Linked-List <strong>双链表</strong> 表头、尾、哨兵结点</li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -495,23 +1034,38 @@ List|链表 Single/Double-Linked-List <strong>双链表</strong> 表头、尾、
 </tbody>
 </table>
 <h3 id="stack--queue" class="headerLink">
-    <a href="#stack--queue" class="header-mark"></a>Stack &amp; Queue</h3><p><code>pop() push() size() swap() empty();</code>Stack:LIFO <code>top();</code> Queue:FIFO <code>front() back();</code></p>
+    <a href="#stack--queue" class="header-mark"></a>Stack &amp; Queue</h3><p><code>pop() push() size() swap() empty();</code></p>
+<ul>
+<li>Stack: LIFO <code>top();</code></li>
+<li>Queue: FIFO <code>front() back();</code></li>
+</ul>
 <h4 id="stack-计算器" class="headerLink">
-    <a href="#stack-%e8%ae%a1%e7%ae%97%e5%99%a8" class="header-mark"></a>Stack 计算器</h4><p>前缀/后缀。<strong>中缀转后缀：</strong><code>A+B*(C-D)-E/F</code>转为<code>ABCD−∗+EF/−</code></p>
-<p>优先级设置 ‘*’ = ‘/’ &gt; ‘+’ = ‘-’ &gt;
-style1:‘(’优先级最高，如直接读入；推入操作符时不弹
-style2:‘(’优先级最低，强制直接读入
-数字直接放到[输出列]，右括号直接弹到左括号止；操作符：栈弹出直到遇到比自己优先级低的操作符再入栈。计算：顺序读取，数字入栈，符号弹出两数字运算，结果入栈</p>
+    <a href="#stack-%e8%ae%a1%e7%ae%97%e5%99%a8" class="header-mark"></a>Stack 计算器</h4><ul>
+<li>前缀/后缀。</li>
+<li><strong>中缀转后缀：</strong><code>A+B*(C-D)-E/F</code>转为<code>ABCD−∗+EF/−</code></li>
+</ul>
+<p>优先级设置 <code>‘*’ = ‘/’ &gt; ‘+’ = ‘-’ &gt;</code></p>
+<ul>
+<li>style1: <code>‘(’</code> 优先级最高，如直接读入；推入操作符时不弹</li>
+<li>style2: <code>‘(’</code> 优先级最低，强制直接读入</li>
+<li>数字直接放到[输出列]，右括号直接弹到左括号止；</li>
+<li>操作符：栈弹出直到遇到比自己优先级低的操作符再入栈。</li>
+<li>计算：顺序读取，数字入栈，符号弹出两数字运算，结果入栈。</li>
+</ul>
 <h2 id="树" class="headerLink">
-    <a href="#%e6%a0%91" class="header-mark"></a>树</h2><p>Binary Tree 二叉树平均深度O(√N)，表达式树应用；</p>
+    <a href="#%e6%a0%91" class="header-mark"></a>树</h2><p>Binary Tree 二叉树平均深度 $O(\sqrt{N})$ ，表达式树应用；</p>
 <h3 id="二叉搜索树" class="headerLink">
-    <a href="#%e4%ba%8c%e5%8f%89%e6%90%9c%e7%b4%a2%e6%a0%91" class="header-mark"></a>二叉搜索树</h3><p>左小右大；平均深度O(logN)最坏深度O(N-1)</p>
+    <a href="#%e4%ba%8c%e5%8f%89%e6%90%9c%e7%b4%a2%e6%a0%91" class="header-mark"></a>二叉搜索树</h3><p>左小右大；平均深度 $O(logN)$ ，最坏深度 $O(N-1)$.</p>
 <h4 id="构建" class="headerLink">
-    <a href="#%e6%9e%84%e5%bb%ba" class="header-mark"></a><strong>构建</strong></h4><p>contains｜findMin(Max)｜insert｜～:makeEmpty递归</p>
-<p>copy| clone，递归return new node; 重载运算符：this!=&amp;rhs则makeEmpty再clone rhs.root，最终return *this</p>
-<p>remove|(*&amp;t)t为结点地址；空,return;t&lt;&gt;x判断;t=x.</p>
-<p>双子:t-&gt;ele=findmax(t-&gt;right)-&gt;ele,remove(t-&gt;ele;t-&gt;right); // 右子找min代入t,删除该min</p>
-<p>单子/无子：T*oldNode=t,另引入的参数t=t-&gt;left/right相当于改结点地址为t左/右子，再删oldNode即删了原结点.</p>
+    <a href="#%e6%9e%84%e5%bb%ba" class="header-mark"></a>构建</h4><ul>
+<li><code>contains</code>｜<code>findMin(Max)</code>｜<code>insert</code>｜<code>～</code></li>
+<li><code>makeEmpty</code> 递归</li>
+<li><code>copy</code> | clone，递归 <code>return new node</code>;</li>
+<li>重载运算符：<code>this!=&amp;rhs</code> 则 <code>makeEmpty</code> 再 <code>clone rhs.root</code> ，最终 <code>return *this</code></li>
+<li><code>remove</code> | <code>(*&amp;t)t</code> 为结点地址；空, <code>return</code>; <code>t&lt;&gt;x</code> 判断; <code>t=x</code>.</li>
+<li>双子: <code>t-&gt;ele=findmax(t-&gt;right)-&gt;ele</code> , <code>remove(t-&gt;ele;t-&gt;right); // 右子找min代入t,删除该min</code></li>
+<li>单子/无子: <code>T*oldNode=t</code> ,另引入的参数 <code>t=t-&gt;left/right</code> 相当于改结点地址为 t 左/右子，再删 <code>oldNode</code> 即删了原结点.</li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -543,13 +1097,27 @@ style2:‘(’优先级最低，强制直接读入
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="关于-struct-构造" class="headerLink">
-    <a href="#%e5%85%b3%e4%ba%8e-struct-%e6%9e%84%e9%80%a0" class="header-mark"></a>关于 struct 构造</h4><p>BinaryNode置于private；针对struct的操作也位于private部分</p>
-<p>外部操作→public函数→private函数</p>
+    <a href="#%e5%85%b3%e4%ba%8e-struct-%e6%9e%84%e9%80%a0" class="header-mark"></a>关于 struct 构造</h4><ul>
+<li><code>BinaryNode</code> 置于 private；针对 <code>struct</code> 的操作也位于 private 部分</li>
+<li>外部操作 $\rightarrow$ public函数 $\rightarrow$ private函数</li>
+</ul>
 <h4 id="关于-function-参数" class="headerLink">
-    <a href="#%e5%85%b3%e4%ba%8e-function-%e5%8f%82%e6%95%b0" class="header-mark"></a>关于 function 参数</h4><p>对Struct BinaryNode，由于其element为变量，left/right为指针，fuction引用时应采用(BinaryNode * &amp; t)，引用Node地址</p>
+    <a href="#%e5%85%b3%e4%ba%8e-function-%e5%8f%82%e6%95%b0" class="header-mark"></a>关于 function 参数</h4><p>对 <code>Struct BinaryNode</code>，由于其 <code>element</code> 为变量，<code>left/right</code> 为指针，fuction 引用时应采用 <code>BinaryNode * &amp; t</code> ，引用 Node 地址。</p>
 <h4 id="时间分析" class="headerLink">
-    <a href="#%e6%97%b6%e9%97%b4%e5%88%86%e6%9e%90" class="header-mark"></a>时间分析</h4><p>内部路径长｜所有结点的深度和；递推关系、秩，D(N)=D(i)+D(N-i-1)+N-1 =&gt; O(NlogN),average</p>
-<p>任意结点预期深度logN；交替insert/remove O(N^2)，期望深度O(√N)</p>
+    <a href="#%e6%97%b6%e9%97%b4%e5%88%86%e6%9e%90" class="header-mark"></a>时间分析</h4><ul>
+<li>
+<p>内部路径长｜所有结点的深度和</p>
+</li>
+<li>
+<p>递推关系、秩，(average) $$D(N)=D(i)+D(N-i-1)+N-1 \Rightarrow O(NlogN)$$</p>
+</li>
+<li>
+<p>任意结点预期深度 $logN$</p>
+</li>
+<li>
+<p>交替 <code>insert/remove</code> $O(N^2)$ ，期望深度 $O(\sqrt{N})$</p>
+</li>
+</ul>
 <h3 id="balance-树" class="headerLink">
     <a href="#balance-%e6%a0%91" class="header-mark"></a>Balance 树</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -659,8 +1227,14 @@ style2:‘(’优先级最低，强制直接读入
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p><strong>时间复杂度分析</strong>:计算高度O(logN)；保证查询O(logN)避免Binary Tree最坏的N；但由于旋转存在，操作效率低，特别是remove时可能需要一直旋转到根；额外封装，繁琐</p>
-<p>*另一种写法：独立的balance操作</p>
+</div><p><strong>时间复杂度分析</strong></p>
+<ul>
+<li>计算高度O(logN)；</li>
+<li>保证查询O(logN)避免Binary Tree最坏的N；</li>
+<li>但由于旋转存在，操作效率低，特别是remove时可能需要一直旋转到根；</li>
+<li>额外封装，繁琐。</li>
+</ul>
+<p><em>另一种写法：独立的balance操作</em></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -702,7 +1276,7 @@ style2:‘(’优先级最低，强制直接读入
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="splay-树" class="headerLink">
-    <a href="#splay-%e6%a0%91" class="header-mark"></a>Splay 树*</h4><p>保证从空树开始任意连续M次操作最多花费O(MlogN)的时间</p>
+    <a href="#splay-%e6%a0%91" class="header-mark"></a>Splay 树*</h4><p>保证从空树开始任意连续M次操作最多花费 $O(MlogN)$ 的时间</p>
 <h3 id="traversals" class="headerLink">
     <a href="#traversals" class="header-mark"></a>Traversals</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -736,7 +1310,9 @@ style2:‘(’优先级最低，强制直接读入
 </div>
 </div><h3 id="b-树" class="headerLink">
     <a href="#b-%e6%a0%91" class="header-mark"></a>B 树*</h3><h3 id="sets--maps" class="headerLink">
-    <a href="#sets--maps" class="header-mark"></a>Sets &amp; Maps</h3><p>Sets｜排序、去重</p>
+    <a href="#sets--maps" class="header-mark"></a>Sets &amp; Maps</h3><ul>
+<li>Sets｜排序、去重</li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -749,7 +1325,9 @@ style2:‘(’优先级最低，强制直接读入
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">swap</span><span class="p">(</span><span class="n">b</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Maps｜key-value(&gt;=1)</p>
+</div><ul>
+<li>Maps｜key-value(&gt;=1)</li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -761,24 +1339,64 @@ style2:‘(’优先级最低，强制直接读入
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="哈希" class="headerLink">
-    <a href="#%e5%93%88%e5%b8%8c" class="header-mark"></a>哈希</h2><p>散列表；[insert/search/delete]average:O(1)；Key -&gt; Table；素数 TableSize；collision</p>
+    <a href="#%e5%93%88%e5%b8%8c" class="header-mark"></a>哈希</h2><ul>
+<li>散列表</li>
+<li><code>insert</code> / <code>search</code> / <code>delete</code></li>
+<li>average:O(1)</li>
+<li>Key -&gt; Table</li>
+<li>素数</li>
+<li>TableSize</li>
+<li>collision</li>
+</ul>
 <h3 id="分析" class="headerLink">
-    <a href="#%e5%88%86%e6%9e%90" class="header-mark"></a>分析</h3><p>**负数补偿？**value&lt;0，then+tableSize</p>
-<p>**均匀分配键：**单元数目有限，键数实际上无穷；习惯：0～tableSize-1</p>
-<p>装填因子；分离链接法（缺点：内存分配耗时）；除了链表，也可用二叉树/新散列表</p>
+    <a href="#%e5%88%86%e6%9e%90" class="header-mark"></a>分析</h3><p><strong>负数补偿？</strong></p>
+<ul>
+<li>value&lt;0，then+tableSize</li>
+</ul>
+<p><strong>均匀分配键：</strong></p>
+<ul>
+<li>单元数目有限，键数实际上无穷</li>
+<li>习惯：0～tableSize-1</li>
+<li>装填因子</li>
+<li>分离链接法（缺点：内存分配耗时）</li>
+<li>除了链表，也可用二叉树/新散列表</li>
+</ul>
 <h3 id="开放寻址法" class="headerLink">
-    <a href="#%e5%bc%80%e6%94%be%e5%af%bb%e5%9d%80%e6%b3%95" class="header-mark"></a>开放寻址法</h3><p>冲突解决函数，𝝀&lt;0.5聚集效应,f(i)为冲突点与探查点的距离</p>
-<p>线性探测:f(i)=i；一次聚集-占据单元形成区块</p>
-<p>平方探测:f(i)=i^2<em>保证表的大小是素数，否则表被填满一半就找不到空单元了</em>；二次聚集</p>
+    <a href="#%e5%bc%80%e6%94%be%e5%af%bb%e5%9d%80%e6%b3%95" class="header-mark"></a>开放寻址法</h3><ul>
+<li>
+<p>冲突解决函数，$\lambda&lt;0.5$ 聚集效应, $f(i)$ 为冲突点与探查点的距离</p>
+</li>
+<li>
+<p>线性探测: $f(i)=i$ ；一次聚集-占据单元形成区块</p>
+</li>
+<li>
+<p>平方探测: $f(i)=i^2$ 二次聚集</p>
+<p><em>保证表的大小是素数，否则表被填满一半就找不到空单元了</em></p>
+</li>
+<li>
 <p>双散列:f(i)=i*hash(x),结果不可以为0；example，hash(x)=R-(xmodR)</p>
+</li>
+</ul>
 <h3 id="再散列" class="headerLink">
-    <a href="#%e5%86%8d%e6%95%a3%e5%88%97" class="header-mark"></a>再散列</h3><p>O(N);一半/插满的策略;</p>
-<p>途中策略：某一装填因子</p>
+    <a href="#%e5%86%8d%e6%95%a3%e5%88%97" class="header-mark"></a>再散列</h3><ul>
+<li>$O(N)$</li>
+<li>一半/插满的策略</li>
+<li>途中策略：某一装填因子</li>
+</ul>
 <h3 id="可扩散列" class="headerLink">
     <a href="#%e5%8f%af%e6%89%a9%e6%95%a3%e5%88%97" class="header-mark"></a>可扩散列*</h3><h2 id="priority-queues--heaps" class="headerLink">
     <a href="#priority-queues--heaps" class="header-mark"></a>Priority Queues &amp; Heaps</h2><h3 id="二叉堆" class="headerLink">
-    <a href="#%e4%ba%8c%e5%8f%89%e5%a0%86" class="header-mark"></a>二叉堆</h3><p>完全二叉树；最小堆、最大堆；数组存储i,2i,2i+1；查找O(N)；堆序性质</p>
-<p>**为何选用Heap？**Min/Max:O(1)</p>
+    <a href="#%e4%ba%8c%e5%8f%89%e5%a0%86" class="header-mark"></a>二叉堆</h3><ul>
+<li>完全二叉树</li>
+<li>最小堆、最大堆</li>
+<li>数组存储 $i,2i,2i+1$</li>
+<li>查找 $O(N)$</li>
+<li>堆序性质</li>
+</ul>
+<p><strong>为何选用Heap？</strong></p>
+<ul>
+<li>Min/Max: $O(1)$</li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -815,42 +1433,81 @@ style2:‘(’优先级最低，强制直接读入
     <a href="#%e6%8f%92%e5%85%a5%e6%8e%92%e5%ba%8f" class="header-mark"></a>插入排序</h3><h3 id="快排" class="headerLink">
     <a href="#%e5%bf%ab%e6%8e%92" class="header-mark"></a>快排</h3><h4 id="pivot策略" class="headerLink">
     <a href="#pivot%e7%ad%96%e7%95%a5" class="header-mark"></a>Pivot策略</h4><p><strong>最好/坏可能性</strong></p>
-<p>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度
-每次问题规模减半，a=2，b=2，d=1
-复杂度为n^2 log(n)
-最差情况下，复杂度为O(n^2)</p>
+<ul>
+<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
+<li>每次问题规模减半，$a=2，b=2，d=1$</li>
+<li>复杂度为 $n^2 log(n)$</li>
+<li>最差情况下，复杂度为 $O(n^2)$</li>
+</ul>
 <h4 id="选择的线性期望时间算法" class="headerLink">
     <a href="#%e9%80%89%e6%8b%a9%e7%9a%84%e7%ba%bf%e6%80%a7%e6%9c%9f%e6%9c%9b%e6%97%b6%e9%97%b4%e7%ae%97%e6%b3%95" class="header-mark"></a>选择的线性期望时间算法</h4><h3 id="线性时间排序-bucket-sort-and-radix-sort-复杂度分析" class="headerLink">
     <a href="#%e7%ba%bf%e6%80%a7%e6%97%b6%e9%97%b4%e6%8e%92%e5%ba%8f-bucket-sort-and-radix-sort-%e5%a4%8d%e6%9d%82%e5%ba%a6%e5%88%86%e6%9e%90" class="header-mark"></a>线性时间排序: Bucket Sort and Radix Sort 复杂度分析</h3><h3 id="计基数排序非比较算法" class="headerLink">
-    <a href="#%e8%ae%a1%e5%9f%ba%e6%95%b0%e6%8e%92%e5%ba%8f%e9%9d%9e%e6%af%94%e8%be%83%e7%ae%97%e6%b3%95" class="header-mark"></a>计（基）数排序——非比较算法</h3><p>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次
-每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为O(n)的，a=10，b=10，d=1
-复杂度为n^1 log(n) = nlog(n)，近似为O(kN)，k为整数的位数</p>
+    <a href="#%e8%ae%a1%e5%9f%ba%e6%95%b0%e6%8e%92%e5%ba%8f%e9%9d%9e%e6%af%94%e8%be%83%e7%ae%97%e6%b3%95" class="header-mark"></a>计（基）数排序——非比较算法</h3><ul>
+<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
+<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为 $O(n)$ 的，$a=10，b=10，d=1$</li>
+<li>复杂度为 $n^1 log(n) = nlog(n)$ ，近似为 $O(kN)$ ，k为整数的位数</li>
+</ul>
 <h3 id="归并排序堆排序" class="headerLink">
-    <a href="#%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f%e5%a0%86%e6%8e%92%e5%ba%8f" class="header-mark"></a>归并排序/堆排序</h3><p><em>归并排序</em> ｜ 数据列均分为两部分，分别排序，之后以O(n)的复杂度进行合并，空间复杂度O(n)
-每次问题规模减半，a=2，b=2，d=1
-复杂度为nlog(n)</p>
+    <a href="#%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f%e5%a0%86%e6%8e%92%e5%ba%8f" class="header-mark"></a>归并排序/堆排序</h3><p>归并排序</p>
+<ul>
+<li>数据列均分为两部分，分别排序，之后以 $O(n)$ 的复杂度进行合并，空间复杂度 $O(n)$</li>
+<li>每次问题规模减半，$a=2，b=2，d=1$</li>
+<li>复杂度为 $nlog(n)$</li>
+</ul>
 <h2 id="图论" class="headerLink">
-    <a href="#%e5%9b%be%e8%ae%ba" class="header-mark"></a>图论</h2><p>G[graph] -&gt; V[vertex],E[edge(arc)],path；digraph 有向；Weight&amp;cost 权/值；Adjacent 邻接；cycle 回路：满足w1=wN length&gt;=1；loop 环：回到自身，length=0；Simple path 简单路径；强/弱连通、基础图/完全图</p>
+    <a href="#%e5%9b%be%e8%ae%ba" class="header-mark"></a>图论</h2><ul>
+<li>G[graph] -&gt; V[vertex]</li>
+<li>E[edge(arc)], path</li>
+<li>digraph 有向</li>
+<li>Weight&amp;cost 权/值</li>
+<li>Adjacent 邻接</li>
+<li>cycle 回路：满足 $w1=wN$ , length&gt;=1</li>
+<li>loop 环：回到自身，length=0</li>
+<li>Simple path 简单路径</li>
+<li>强/弱连通、基础图/完全图</li>
+</ul>
 <h3 id="表示" class="headerLink">
-    <a href="#%e8%a1%a8%e7%a4%ba" class="header-mark"></a>表示</h3><p>Adjacent Matrix：dense <code>A[u][v]</code></p>
-<p>Adjacent List：sparse O(|E|+|V|)</p>
+    <a href="#%e8%a1%a8%e7%a4%ba" class="header-mark"></a>表示</h3><ul>
+<li>Adjacent Matrix：dense <code>A[u][v]</code></li>
+<li>Adjacent List：sparse $O(|E|+|V|) $</li>
+</ul>
 <h3 id="拓扑排序" class="headerLink">
-    <a href="#%e6%8b%93%e6%89%91%e6%8e%92%e5%ba%8f" class="header-mark"></a>拓扑排序</h3><p>find indegree=0 v1 -&gt; delete v1, neighbors indegree-1 -&gt;find indegree=0 v2&hellip;</p>
-<p>![image-20211231162550699](/Users/ralvine/Library/Application Support/typora-user-images/image-20211231162550699.png)</p>
-<p>O(V^2) using <Queue></p>
+    <a href="#%e6%8b%93%e6%89%91%e6%8e%92%e5%ba%8f" class="header-mark"></a>拓扑排序</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">-&gt; delete v1, neighbors indegree-1 
+</span></span><span class="line"><span class="cl">-&gt; find indegree=0 v2
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>$O(V^2)$ using <code>&lt;Queue&gt;</code></li>
+</ul>
 <h3 id="dijkstras" class="headerLink">
     <a href="#dijkstras" class="header-mark"></a>Dijkstras</h3><h3 id="最坏可能" class="headerLink">
     <a href="#%e6%9c%80%e5%9d%8f%e5%8f%af%e8%83%bd" class="header-mark"></a>最坏可能</h3><h3 id="可对负边权使用的算法" class="headerLink">
     <a href="#%e5%8f%af%e5%af%b9%e8%b4%9f%e8%be%b9%e6%9d%83%e4%bd%bf%e7%94%a8%e7%9a%84%e7%ae%97%e6%b3%95" class="header-mark"></a>可对负边权使用的算法</h3><h3 id="最小生成树" class="headerLink">
-    <a href="#%e6%9c%80%e5%b0%8f%e7%94%9f%e6%88%90%e6%a0%91" class="header-mark"></a>最小生成树</h3><p>如何扩张（Ch10）</p>
+    <a href="#%e6%9c%80%e5%b0%8f%e7%94%9f%e6%88%90%e6%a0%91" class="header-mark"></a>最小生成树</h3><ul>
+<li>如何扩张？（Ch10）</li>
+</ul>
 <h3 id="深度优先-广度优先" class="headerLink">
     <a href="#%e6%b7%b1%e5%ba%a6%e4%bc%98%e5%85%88-%e5%b9%bf%e5%ba%a6%e4%bc%98%e5%85%88" class="header-mark"></a>深度优先 广度优先</h3><h2 id="算法设计补充" class="headerLink">
     <a href="#%e7%ae%97%e6%b3%95%e8%ae%be%e8%ae%a1%e8%a1%a5%e5%85%85" class="header-mark"></a>算法设计补充</h2><h3 id="贪心算法" class="headerLink">
-    <a href="#%e8%b4%aa%e5%bf%83%e7%ae%97%e6%b3%95" class="header-mark"></a>贪心算法</h3><p>ch10.1 分析复杂度</p>
+    <a href="#%e8%b4%aa%e5%bf%83%e7%ae%97%e6%b3%95" class="header-mark"></a>贪心算法</h3><ul>
+<li>ch10.1 分析复杂度</li>
+</ul>
 <h3 id="分治算法-divide-and-conquer" class="headerLink">
-    <a href="#%e5%88%86%e6%b2%bb%e7%ae%97%e6%b3%95-divide-and-conquer" class="header-mark"></a>分治算法 Divide-and-Conquer</h3><p>分而治之，递归</p>
+    <a href="#%e5%88%86%e6%b2%bb%e7%ae%97%e6%b3%95-divide-and-conquer" class="header-mark"></a>分治算法 Divide-and-Conquer</h3><ul>
+<li>分而治之，递归</li>
+</ul>
 <h3 id="dynamic-programming" class="headerLink">
-    <a href="#dynamic-programming" class="header-mark"></a>Dynamic Programming</h3><p>ch10.3 与d-c的比较（自底向上&amp;自顶向下）</p>
+    <a href="#dynamic-programming" class="header-mark"></a>Dynamic Programming</h3><ul>
+<li>ch10.3 与d-c的比较（自底向上&amp;自顶向下）</li>
+</ul>
 <h3 id="回溯法" class="headerLink">
     <a href="#%e5%9b%9e%e6%ba%af%e6%b3%95" class="header-mark"></a>回溯法</h3>]]></description>
 </item></channel>

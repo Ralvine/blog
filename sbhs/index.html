@@ -1,0 +1,693 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>实变函数 - 暮瞻</title><meta name="Description" content="21-22, 22-23 春夏学期「实变函数」课程学习笔记。"><meta property="og:title" content="实变函数" />
+<meta property="og:description" content="21-22, 22-23 春夏学期「实变函数」课程学习笔记。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ralvines.top/sbhs/" /><meta property="og:image" content="https://z1.ax1x.com/2023/10/23/piAW5eH.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-01T20:20:40+08:00" />
+<meta property="article:modified_time" content="2023-03-01T20:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://z1.ax1x.com/2023/10/23/piAW5eH.png"/>
+
+<meta name="twitter:title" content="实变函数"/>
+<meta name="twitter:description" content="21-22, 22-23 春夏学期「实变函数」课程学习笔记。"/>
+<meta name="application-name" content="暮瞻">
+<meta name="apple-mobile-web-app-title" content="暮瞻">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/sbhs/" /><link rel="prev" href="https://blog.ralvines.top/pdeszj/" /><link rel="next" href="https://blog.ralvines.top/pde/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "实变函数",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/blog.ralvines.top\/sbhs\/"
+        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  3102 ,
+        "url": "https:\/\/blog.ralvines.top\/sbhs\/","datePublished": "2023-03-01T20:20:40+08:00","dateModified": "2023-03-01T20:25:40+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"authors": [{
+                        "@type": "Person",
+                        "name": "Ralvine"                    
+                    }],"description": "21-22, 22-23 春夏学期「实变函数」课程学习笔记。"
+    }
+    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        
+        <div class="header-title">
+            <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner">
+                
+                <div class="dropdown">
+                    <a href="/article/" 
+                        class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/cage/cage/" 
+                        class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/time/time/" 
+                        class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+                </div>
+                <a class="menu-item"
+                    href="/about/about/" >🏡 关于 
+                </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-desktop">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-desktop">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </span><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                <div class="search mobile" id="search-mobile">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-mobile">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-mobile">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </div>
+                <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
+                    取消
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="/article/" 
+                    class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/cage/cage/" 
+                    class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/time/time/" 
+                    class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+            </div>
+            <a class="menu-item"
+                href="/about/about/" >🏡 关于 
+            </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#ch1-集合">Ch1. 集合</a></li>
+    <li><a href="#ch2-l可测集">Ch2. L可测集</a></li>
+    <li><a href="#ch3-可测函数">Ch3. 可测函数</a></li>
+    <li><a href="#ch4-l积分">Ch4. L积分</a></li>
+    <li><a href="#ch5-l微分">Ch5. L微分</a></li>
+    <li><a href="#ch6-lp空间">Ch6. $L^p$空间</a></li>
+    <li><a href="#前辈经验">前辈经验</a></li>
+    <li><a href="#参考书目">参考书目</a></li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">实变函数</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/"><i class="far fa-list-alt fa-fw"></i>本科课程</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-01">2023-03-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-03-01">2023-03-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3102 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 7 分钟&nbsp;<span id="/sbhs/" class="leancloud_visitors" data-flag-title="实变函数">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#ch1-集合">Ch1. 集合</a></li>
+    <li><a href="#ch2-l可测集">Ch2. L可测集</a></li>
+    <li><a href="#ch3-可测函数">Ch3. 可测函数</a></li>
+    <li><a href="#ch4-l积分">Ch4. L积分</a></li>
+    <li><a href="#ch5-l微分">Ch5. L微分</a></li>
+    <li><a href="#ch6-lp空间">Ch6. $L^p$空间</a></li>
+    <li><a href="#前辈经验">前辈经验</a></li>
+    <li><a href="#参考书目">参考书目</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition warning open">
+                <div class="details-summary admonition-title">
+                    <i class="icon fas fa-exclamation-triangle fa-fwwarning"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+                </div>
+                <div class="details-content">
+                    <div class="admonition-content">
+                        本文最后更新于 <span class="timeago" datetime="2023-03-01T20:25:40" title="March 1, 2023">2023-03-01</span>，文中内容可能已过时。</div>
+                </div>
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 贾厚玉<br>
+📝 20%小测，20%作业，60%期末</div>
+        </div>
+    </div>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<li>《实变函数》，周性伟</li>
+<li>PPT
+<ul>
+<li>Ch1.1</li>
+<li>Ch1.2</li>
+<li>Ch3</li>
+<li>Ch4</li>
+<li>Ch5</li>
+<li>Ch6</li>
+</ul>
+</li>
+<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51173&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
+<li><a href="https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&amp;vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">实变函数习题十讲</a></li>
+<li><a href="https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&amp;vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer"></a></li>
+</ul>
+<h2 id="ch1-集合" class="headerLink">
+    <a href="#ch1-%e9%9b%86%e5%90%88" class="header-mark"></a>Ch1. 集合</h2><ul>
+<li>三次完备化
+<ul>
+<li>有理数&amp;实数（极限封闭）</li>
+<li>黎曼几分&amp;勒贝格积分</li>
+<li>广义函数（Dirac）</li>
+</ul>
+</li>
+<li>集合运算
+<ul>
+<li>表示、集族</li>
+<li>幂集</li>
+<li>交、并、差、对称差、无穷、间断点集</li>
+<li>DeMorgan</li>
+</ul>
+</li>
+<li>集合序列、极限
+<ul>
+<li>单调集列</li>
+<li>上下限集、上下极限</li>
+<li>笛卡尔乘积、性质</li>
+</ul>
+</li>
+<li>映射
+<ul>
+<li>映射（单、满、逆）、像/原像（性质）、复合</li>
+</ul>
+</li>
+<li>特征函数</li>
+<li>集合等价、基数
+<ul>
+<li>集合对等</li>
+<li>基数（势）</li>
+<li>有限/可数集
+<ul>
+<li>[0,1]不可数</li>
+<li>A~A$\cup$B</li>
+</ul>
+</li>
+<li>连续统势
+<ul>
+<li>n元数列全体</li>
+<li>可数集子集全体</li>
+<li>至多可数直积全体</li>
+</ul>
+</li>
+<li>基数比较
+<ul>
+<li>$A_2\subset A_1\subset A_0,A_0$~$A_2\Rightarrow A_0$~$A_1$</li>
+<li>Banach分解、分离集</li>
+<li>Cantor-Bernstein定理（真子集对等）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>$\mathbb{R}^n$
+<ul>
+<li>笛卡尔乘积、加法、数乘、内积、模、距离</li>
+<li>性质（交换、柯西不等式、系数、三角不等式）</li>
+<li>邻域</li>
+<li>极限描述（距离、邻域、$\epsilon-N$、分量）</li>
+<li>点集
+<ul>
+<li>内点、内域</li>
+<li>外点、外域</li>
+<li>边界点</li>
+<li>聚点、导集</li>
+<li>闭包</li>
+<li>孤立点、孤立集</li>
+<li>离散集</li>
+<li>稠密集、无处稠密集、疏朗集</li>
+<li>开集、闭集</li>
+<li>自密集、完备集</li>
+</ul>
+</li>
+<li>一些性质、Bolzano-Weierstrass定理</li>
+<li>开集构造定理</li>
+<li>Cantor完备集
+<ul>
+<li>性质（无内点、连续统势c、稠子集、开区间长度和）</li>
+<li>Cantor函数</li>
+</ul>
+</li>
+<li>长方体（矩体）、方体</li>
+</ul>
+</li>
+<li>连续映射
+<ul>
+<li>距离函数、性质</li>
+<li>开覆盖、紧集
+<ul>
+<li>充要条件：有界闭集</li>
+</ul>
+</li>
+<li>连续延拓定理</li>
+<li>连续函数的集合特征</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch2-l可测集" class="headerLink">
+    <a href="#ch2-l%e5%8f%af%e6%b5%8b%e9%9b%86" class="header-mark"></a>Ch2. L可测集</h2><ul>
+<li>外测度
+<ul>
+<li>L覆盖（开区间、可有限）</li>
+<li>集合函数</li>
+<li>单点集（利用数列）</li>
+<li>非负、单调、次可数可加、平移不变</li>
+<li>区间</li>
+<li>$[0,1]$Cantor集</li>
+<li>$m^*_\delta (E)$</li>
+<li>不相交可加性、介值</li>
+</ul>
+</li>
+<li>可测集$\mathcal{M}$
+<ul>
+<li>卡氏条件</li>
+<li>充要条件</li>
+</ul>
+</li>
+<li>测度
+<ul>
+<li>零测集（单点、有理数、任意子集）、可测</li>
+<li>区间可测</li>
+<li>性质（空、交并差、可数交并、可数可加）</li>
+<li>单调可测集列</li>
+<li>平移不变性</li>
+<li>不可测集</li>
+<li>Borel集</li>
+<li>$G_\delta, F_\sigma$</li>
+<li>可测集构造（开/闭集逼近）、等价命题</li>
+<li>可测集特征</li>
+</ul>
+</li>
+<li>代数、$\sigma$代数
+<ul>
+<li>定义</li>
+<li>Borel可测、非Borel可测、关系</li>
+</ul>
+</li>
+<li>$\mathbb{R}^n$可测集
+<ul>
+<li>直积可测性问题</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch3-可测函数" class="headerLink">
+    <a href="#ch3-%e5%8f%af%e6%b5%8b%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch3. 可测函数</h2><ul>
+<li>定义
+<ul>
+<li>广义实数</li>
+<li>可测函数</li>
+<li>特征函数可测</li>
+<li>稠密和可测例</li>
+</ul>
+</li>
+<li>性质
+<ul>
+<li>运算</li>
+<li>几乎处处</li>
+<li>局部有界</li>
+</ul>
+</li>
+<li>连续函数逼近
+<ul>
+<li>简单函数</li>
+<li>支集</li>
+</ul>
+</li>
+<li>测度收敛
+<ul>
+<li>逐点收敛</li>
+<li>一致收敛</li>
+<li>几乎处处收敛
+<ul>
+<li>Egoroff</li>
+</ul>
+</li>
+<li>依测度收敛
+<ul>
+<li>依测度基本列</li>
+<li>Riesz</li>
+<li>Lusin、逆命题</li>
+</ul>
+</li>
+<li>连续扩张定理</li>
+<li>连续逼近、Frechet</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch4-l积分" class="headerLink">
+    <a href="#ch4-l%e7%a7%af%e5%88%86" class="header-mark"></a>Ch4. L积分</h2><ul>
+<li>非负简单函数
+<ul>
+<li>分划</li>
+<li>L积分、性质</li>
+</ul>
+</li>
+<li>非负可测函数
+<ul>
+<li>等价定义</li>
+<li>性质</li>
+<li>Chebyshev不等式</li>
+<li>几乎处处有限</li>
+<li>积分为0条件</li>
+<li>绝对连续性</li>
+<li>分布函数</li>
+<li>Levi（非负渐升列）</li>
+<li>逐项积分</li>
+<li>Fatou</li>
+</ul>
+</li>
+<li>一般可测函数
+<ul>
+<li>有界、控制函数</li>
+<li>性质</li>
+<li>绝对连续性</li>
+<li>LDCT</li>
+<li>有界收敛</li>
+<li>逐项积分</li>
+<li>分片积分</li>
+<li>含参</li>
+</ul>
+</li>
+<li>R积分与L积分
+<ul>
+<li>广义R</li>
+<li>重积分、累次积分</li>
+<li>Tonelli</li>
+<li>分布函数表达</li>
+</ul>
+</li>
+<li>Fubini</li>
+<li>可积与连续
+<ul>
+<li>卷积</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch5-l微分" class="headerLink">
+    <a href="#ch5-l%e5%be%ae%e5%88%86" class="header-mark"></a>Ch5. L微分</h2><ul>
+<li>单调可微
+<ul>
+<li>Vitali覆盖</li>
+<li>覆盖定理</li>
+<li>单调微分定理</li>
+<li>Dini微商</li>
+<li>单调可微性</li>
+<li>逐项微分</li>
+</ul>
+</li>
+<li>有界变差</li>
+<li>不定积分的微分</li>
+<li>绝对连续函数、微积分基本定理</li>
+<li>密度、全密点、近似连续点</li>
+</ul>
+<h2 id="ch6-lp空间" class="headerLink">
+    <a href="#ch6-lp%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch6. $L^p$空间</h2><ul>
+<li>定义
+<ul>
+<li>本性有界（上界、上确界）</li>
+<li>$L^\infty$、$||\ ||_\infty$</li>
+<li>线性空间</li>
+</ul>
+</li>
+<li>Holder不等式
+<ul>
+<li>共轭指标</li>
+<li>Young不等式</li>
+</ul>
+</li>
+<li>Minkowski不等式</li>
+<li>完备距离空间</li>
+<li>极限
+<ul>
+<li>收敛列</li>
+<li>柯西基本列</li>
+<li>稠密、可分</li>
+</ul>
+</li>
+</ul>
+<h2 id="前辈经验" class="headerLink">
+    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<p>以下基于个人学习经历与其他情况写一些关于实变函数的学习建议（普适）零.实变函数是近代分析学的起点，起着“地基”的作用。首先明确两个问题，一是这门课所要研究的数学对象，二是为了研究这个数学对象我们引进了哪些数学工具。在数学分析中我们的研究对象是一个单独的函数，所使用的数学工具是微分、积分、极限。实变函数课提出了一个全新的观点：我们不再单独研究一个函数，而是把一些函数打包成一个集合，组成“函数空间”这样一个整体。我们的研究对象就是各种“函数空间”，所使用的工具是“<strong>测度”与“积分</strong>”。分析中的一个重要支柱是利用“函数空间”去解“各种偏微分方程”，这门课是分析学的一个重要基础</p>
+<p><strong>一.参考书：</strong></p>
+<p>1.学院用的教材是周性伟先生的教材（与同济大学相同），但习题较困难，建议配上周民强的实变函数论，尤其强调例题（大部分与教材中类似或重合）</p>
+<p>2.英文参考书：Folland（实分析教材，写的很好，但对初学者阅读难度较大）、Stein（主线清晰，但部分重要结论在习题中，正文直接引用）</p>
+<p><strong>二.这门课的核心内容是：</strong></p>
+<p>（1）测度论 （2）积分论 （3）利用测度与积分去研究函数空间（主要研究Lp空间与L2空间）</p>
+<p>注记1：教材会在最开始花笔墨讲解集合论的东西，引入集合论的原因是我们在这门课的学习中会遇到不可数集，进行不可数的运算，为了避免逻辑上的自相矛盾，我们需要引入选择公理。事实上如果你承认一些基本事实，那么即使不学这部分的内容也无伤大雅。但是对于一些有精神洁癖的同学，凡事都想刨根问底，那么跳过这部分直接学测度论可能就会有一些难受，但是，切记<strong>集合论不是这门课的重点！</strong></p>
+<p>注记2：一个很重要的观点：<strong>集合是特殊的函数，测度是特殊的积分</strong></p>
+<p>1.**测度：**如何测量一个集合的“度”，这个“度”是“长度”、“面积”、“体积”等概念的推广。教材是从欧式空间的Lebesgue测度讲起，它是欧式空间上最自然最canonical的测度，是最符合我们直觉的测度 它的构造测度的步骤是：“（长方体的）体积-&gt;（任意集合的）外测度/内测度-&gt;（Lebesgue可测集的）Lebesgue测度” 在对一个具体的空间定义好了什么是测度后，我们很自然地要考虑更加整体的性质，即把所有带有测度结构的空间放到一起研究。注意到可测函数的复合依然是可测函数，这是一个重要的性质，我们很多年后也许会忘记这门课具体内容，但应该会记得Littleword三原理。这是一种哲学上的观点：可测集差不多是开集，可测函数差不多是连续函数，依测度收敛差不多是一致收敛。如果我们用范畴的观点去看，Littleword三原理其实就是在比较拓扑范畴与测度范畴的关系。作为范畴中的对象，拓扑结构由开集刻画，测度结构由可测集刻画，Caratheodory定理描述了这两个结构的关系。作为范畴中的态射，拓扑范畴的态射是连续函数，测度范畴的态射是可测函数，Lusin定理描述了这两个态射的关系。这两个范畴中又都有极限结构，Egorov定理描述了这两种收敛的关系</p>
+<p>2.**.积分：**对比较特殊的欧式空间，我们会学习Lebesgue积分，它是数学分析中黎曼积分的推广。这里大家要理解：数学分析中学的黎曼积分有哪些不足，Lebesgue积分如何弥补了这些不足；黎曼积分中的许多定理如何推广到Lebesgue积分上去 如何从测度定义积分，是积分论要掌握的核心知识，集合对应于特征函数，所以我们可以定义特征函数的积分，再由sigma可加性，我们可以定义简单函数的积分，再利用Levi单调收敛定理，我们进而可以定义非负可测函数的积分，最后利用绝对值可积，我们定义可测函数的积分。值得注意的是，这不仅做到了“把测度的定义推广到积分的定义”，同时保留了很多良好的性质与定理</p>
+<p>3.<strong>Lebesgue积分VSRiemann积分：</strong> 一个自然的问题：黎曼积分中的一些定理和性质是不是在Lebesgue积分的框架下依然成立呢？我们在数学分析中学过以下四个理论：牛顿莱布尼兹定理、局部积分公式、中值定理、链式法则。在推广到Lebesgue积分论的过程中，最重要的一定要知道，我们是在什么框架下推广的！</p>
+<p>4.计算题 这门课的计算题大致有：计算Lebesgue积分、计算有界变差。计算Lebesgue积分的常见方法有换元法、局部积分公式、中值定理、单调收敛定理、Lebesgue控制收敛定理。计算有界变差的常见方法有导函数的黎曼积分、计数函数的积分。每种计算的每种方法都可以在书上找到课后习题，这部分的内容就是靠做题练的，<strong>没有捷径</strong>。</p>
+</blockquote>
+<h2 id="参考书目" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e4%b9%a6%e7%9b%ae" class="header-mark"></a>参考书目</h2><ul>
+<li>周性伟</li>
+<li>周民强</li>
+<li>郑维声、王声望</li>
+</ul></div>
+
+        <div class="sponsor">
+        <div class="sponsor-avatar"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        srcset="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 1.5x, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        title="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg" ></div>
+            <div class="donation">
+            <a href="https://blog.ralvines.top/praise/" class="donation-button" data-pjax-state>赞赏</a>
+            </div></div>
+
+
+<div class="related-container">
+    <div class="related-text">相关内容</div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/wxqy/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        title="21-22, 22-23 春夏学期「实变函数」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/wxqy/">当代文学前沿问题研究</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/qianyan/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="21-22, 22-23 春夏学期「实变函数」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/qianyan/">数学前沿专题讨论：遗传算法和统计学习方法</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/c-test/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="21-22, 22-23 春夏学期「实变函数」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/c-test/">C&#43;&#43;笔试</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/css/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="21-22, 22-23 春夏学期「实变函数」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/css/">CSS</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/c-interview/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="21-22, 22-23 春夏学期「实变函数」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/c-interview/">C&#43;&#43;面向对象面试题总结</a>
+            </h2>
+        </div>
+    
+
+</div>
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-03-01</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/sbhs/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
+                    </span></div>
+            <div class="post-info-share">
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/sbhs/" data-title="实变函数" data-hashtags="温铁军,经济,政治"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/sbhs/" data-hashtag="温铁军"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/sbhs/" data-title="实变函数" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/sbhs/" data-title="实变函数"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/sbhs/" data-title="实变函数"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/sbhs/" data-title="实变函数"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/sbhs/" data-title="实变函数"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%B8%A9%E9%93%81%E5%86%9B/">温铁军</a>,&nbsp;<a href="/tags/%E7%BB%8F%E6%B5%8E/">经济</a>,&nbsp;<a href="/tags/%E6%94%BF%E6%B2%BB/">政治</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/pdeszj/" class="prev" rel="prev" title="微分方程数值解"><i class="fas fa-angle-left fa-fw"></i>微分方程数值解</a>
+            <a href="/pde/" class="next" rel="next" title="偏微分方程">偏微分方程<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">「明日巴陵道 秋山又几重」</div>
+                <div class="footer-line">
+                    <a href="https://blog.ralvines.top/tags/">文章标签</a> · <a href="https://blog.ralvines.top/about/board/">留言板</a> · <a href="https://blog.ralvines.top/about/friend/">友情链接</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2015 - 2023</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css" />
+<link rel='stylesheet' href='https://192960944.r.cdn36.com/chinesefonts2/packages/yzklct/dist/有字库龙藏体/result.css' /><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/extra.css" customAttribute>
+        <noscript><link rel="stylesheet" href="/extra.css" customAttribute></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"KEokTvqncSnkpSOc1tsOWa4M-gzGzoHsz","appKey":"IrISHvDjPwnvBj2sxGoiXkKG","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://keoktvqn.lc-cn-n1-shared.com","visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"desktop-header-typeit":"暮瞻","mobile-header-typeit":"暮瞻"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/valine/Valine.min.js" defer></script><script type="text/javascript" src="/js/valine.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>

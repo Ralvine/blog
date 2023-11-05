@@ -4,83 +4,319 @@
         <link>https://blog.ralvines.top/categories/%E5%9B%9E%E6%BA%AF/</link>
         <description>回溯 - 分类 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/%E5%9B%9E%E6%BA%AF/" rel="self" type="application/rss+xml" /><item>
-    <title>PHD申请实录</title>
-    <link>https://blog.ralvines.top/phd-apply/</link>
-    <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/phd-apply/</guid>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/%E5%9B%9E%E6%BA%AF/" rel="self" type="application/rss+xml" /><item>
+    <title>毕业设计</title>
+    <link>https://blog.ralvines.top/bishe/</link>
+    <pubDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/bishe/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/11/01/pinHOHA.png" referrerpolicy="no-referrer">
-            </div><h2 id="意向与套磁" class="headerLink">
-    <a href="#%e6%84%8f%e5%90%91%e4%b8%8e%e5%a5%97%e7%a3%81" class="header-mark"></a>意向与套磁</h2><ol>
-<li>香港科技大学 广州<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
-<li>香港科技大学<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+                <img src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" referrerpolicy="no-referrer">
+            </div><h2 id="选题" class="headerLink">
+    <a href="#%e9%80%89%e9%a2%98" class="header-mark"></a>选题</h2><ul>
+<li>三维点阵数据 语义识别 无人驾驶</li>
+<li>shape net</li>
+</ul>
+<h2 id="待办" class="headerLink">
+    <a href="#%e5%be%85%e5%8a%9e" class="header-mark"></a>待办：</h2><p>正式确认主题并进行初步工作
+程序性流程 开题</p>
+<p><a href="https://zhuanlan.zhihu.com/p/580137666" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/580137666</a>
+<a href="https://zhuanlan.zhihu.com/p/59865273" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/59865273</a>
+<a href="https://www.zhihu.com/question/308840909" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/308840909</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/107977891" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/107977891</a>
+专栏：三维点云从理论到实践</p>]]></description>
+</item><item>
+    <title>GRE &amp; IELTS 备考实录</title>
+    <link>https://blog.ralvines.top/gre-ielts/</link>
+    <pubDate>Wed, 01 Nov 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gre-ielts/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/11/01/pinHLBd.png" referrerpolicy="no-referrer">
+            </div><h2 id="雅思" class="headerLink">
+    <a href="#%e9%9b%85%e6%80%9d" class="header-mark"></a>雅思</h2><p><strong>总览</strong></p>
+<ul>
+<li><i class="far fa-check-square fa-fw"></i> Simon</li>
+</ul>
+<p><strong>Speaking</strong></p>
+<ul>
+<li><i class="far fa-square fa-fw"></i> 题库</li>
+<li><i class="far fa-square fa-fw"></i> 雅思口语900句</li>
+</ul>
+<p><strong>Listening</strong></p>
+<ul>
+<li><i class="far fa-square fa-fw"></i> 王陆听力语料库 Unit 3 5 11</li>
+<li><i class="far fa-square fa-fw"></i> 考点词真经179</li>
+<li><i class="far fa-square fa-fw"></i> 听力核心词</li>
+<li><i class="far fa-square fa-fw"></i> 高频场景词800</li>
+</ul>
+<p><strong>Reading</strong></p>
+<ul>
+<li><i class="far fa-square fa-fw"></i> 真题核心词 1 2 4 5 6</li>
+<li><i class="far fa-square fa-fw"></i> 考点词376</li>
+<li><i class="far fa-square fa-fw"></i> 考点词538</li>
+<li><i class="far fa-square fa-fw"></i> 7000词100句</li>
+</ul>
+<p><strong>Writing</strong></p>
+<ul>
+<li><i class="far fa-square fa-fw"></i> 顾家北作文</li>
+<li><i class="far fa-square fa-fw"></i> Simon</li>
+<li><i class="far fa-square fa-fw"></i> Simon观点库&amp;范文</li>
+<li><i class="far fa-square fa-fw"></i> 写作真经总纲</li>
+<li><i class="far fa-square fa-fw"></i> 刘洪波写作框架</li>
+</ul>
+<p><strong>模练</strong></p>
+<ul>
+<li><i class="far fa-check-square fa-fw"></i> 雅思哥 雅剑 C18-C10</li>
+</ul>
+<h3 id="口语" class="headerLink">
+    <a href="#%e5%8f%a3%e8%af%ad" class="header-mark"></a>口语</h3><p><strong>Scoring</strong></p>
+<ul>
+<li>Fluency</li>
+<li>Clear</li>
+<li>Vocabulary</li>
+<li>Grammar (less fault)</li>
+</ul>
+<p><strong>3 Parts</strong></p>
+<ol>
+<li>1 brief+2 mini topics(short)</li>
 </ol>
 <ul>
-<li>YANGXIANG（不带博士，需要联系新的）</li>
+<li>Fluency</li>
+</ul>
+<ol start="2">
+<li>topic areas</li>
+</ol>
+<ul>
+<li>person
+<ul>
+<li>who, what does, when met, how know, why like</li>
+<li>teacher, famous, friend, family, child, helps other, does well</li>
+</ul>
+</li>
+<li>place
+<ul>
+<li>which, where, what did, why like</li>
+<li>city, holiday, historic, river, shop</li>
+</ul>
+</li>
+<li>object</li>
+<li>event
+<ul>
+<li>in life, festival, party, celebration</li>
+<li>birthday, wedding, sports, concert</li>
+</ul>
+</li>
+<li>activity
+<ul>
+<li>what, where, who, why</li>
+<li>hobby, sport, game, healthy, new, recently</li>
+</ul>
+</li>
+<li>favorites
+<ul>
+<li>film/TV program, music, book, website, advertisement</li>
+</ul>
+</li>
+<li>Vocabulary</li>
 </ul>
 <ol start="3">
-<li>香港大学<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
-<li>香港中文大学</li>
-<li>香港中文大学 深圳<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></li>
+<li>long detailed answers</li>
 </ol>
 <ul>
-<li>张炼</li>
-<li>王本友（待联系）</li>
+<li>opinion+reason+example+(opposite)</li>
+<li>Structure</li>
 </ul>
-<ol start="6">
-<li>香港理工大学</li>
-</ol>
+<p><strong>theme words</strong></p>
 <ul>
-<li>乔中华（暂无后续）</li>
+<li>Person: caring, kind, big-hearted, down-to-earth, easy-going, always there when you need him, someone who cheers me up, a magnetic personality, light up room</li>
+<li>Place: friendly, welcoming, inviting, warm, approachable, polite, thoughtful, attentive, great atmosphere, make me feel at home, excellent service, nothing was too much to ask, unforgettable evening</li>
+<li>Wedding: bride, groom, guests, ceremony, marriage vows, speech, reception, flower, cake</li>
+<li>Festival: what it commemorates, religious significance, gifts, decorations, customs, special meal, public holiday</li>
+<li>Sports Game: athletes, players, crowd, spectators, stadium, field, pitch, track, commentators, the contest, score, winner</li>
+<li>Concert: band, group, orchestra, lighting, sound, stage, crowd, audience, instruments, voice, song, piece of music</li>
+<li>Sports: keep fit, stay in good condition, feel refreshed, build strength and endurance, a low-impact sport, relieve stress, clear my mind</li>
 </ul>
-<ol start="7">
-<li>香港浸会大学-北师大联合项目</li>
-</ol>
-<p>新加坡国立大学<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
-<ul>
-<li>（招生办暂无后续，暂无套磁）
-南洋理工大学</li>
-<li>夏克林（等GRE、雅思）</li>
+<h3 id="听力" class="headerLink">
+    <a href="#%e5%90%ac%e5%8a%9b" class="header-mark"></a>听力</h3><ul>
+<li>
+<p>30 min + 10 min (end)</p>
+</li>
+<li>
+<p>40 questions</p>
+</li>
+<li>
+<p>4 sections</p>
+</li>
 </ul>
-<p>新加坡管理大学</p>
-<ul>
-<li>（等GRE）</li>
-</ul>
-<p>奥本大学</p>
-<ul>
-<li>（等GRE）</li>
-</ul>
-<p>南方科技大学</p>
-<h2 id="语言" class="headerLink">
-    <a href="#%e8%af%ad%e8%a8%80" class="header-mark"></a>语言</h2><p>GRE
-IELTS</p>
-<h2 id="材料" class="headerLink">
-    <a href="#%e6%9d%90%e6%96%99" class="header-mark"></a>材料</h2><p>CV
-PS
-RP
-Transcript
-Letter</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
 <ol>
-<li id="fn:1">
-<p><a href="https://facultyprofiles.hkust-gz.edu.cn" target="_blank" rel="noopener noreferrer">https://facultyprofiles.hkust-gz.edu.cn</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="https://science.hkust.edu.hk/zh-hans/about/our_people?academic-unit=3008&amp;show=faculty-members" target="_blank" rel="noopener noreferrer">https://science.hkust.edu.hk/zh-hans/about/our_people?academic-unit=3008&show=faculty-members</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p><a href="https://hkumath.hku.hk/web/about-us/faculty.php" target="_blank" rel="noopener noreferrer">https://hkumath.hku.hk/web/about-us/faculty.php</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p><a href="https://sse-mphil-phd.cuhk.edu.cn/teacher-search?class_type=20&amp;keywords=&amp;category=All&amp;alphabet=All&amp;academic=All&amp;page=1" target="_blank" rel="noopener noreferrer">https://sse-mphil-phd.cuhk.edu.cn/teacher-search?class_type=20&keywords=&category=All&alphabet=All&academic=All&page=1</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:5">
-<p><a href="https://www.math.nus.edu.sg/people/regular-faculty/" target="_blank" rel="noopener noreferrer">https://www.math.nus.edu.sg/people/regular-faculty/</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
+<li>daily conversation</li>
+<li>speech non-academic topic</li>
+<li>two or three speakers conversation(education)</li>
+<li>one speaker speech(education)</li>
 </ol>
-</div>]]></description>
+<ul>
+<li>3 types</li>
+</ul>
+<ol>
+<li>gap-fill</li>
+<li>multiple choice</li>
+<li>matching</li>
+</ol>
+<p><strong>breaks</strong></p>
+<ul>
+<li>before each section</li>
+<li>in the middle of section 1,2,3</li>
+<li>end of each section</li>
+</ul>
+<p><strong>technique</strong></p>
+<ul>
+<li>don&rsquo;t check back</li>
+<li>listen for keywords or synonyms</li>
+</ul>
+<h3 id="阅读" class="headerLink">
+    <a href="#%e9%98%85%e8%af%bb" class="header-mark"></a>阅读</h3><ul>
+<li>1 hour 40 questions</li>
+</ul>
+<p><strong>Order</strong></p>
+<ol>
+<li>topic</li>
+<li>questions &amp; underline keywords</li>
+<li>read bodies</li>
+</ol>
+<p><strong>Types</strong></p>
+<ol>
+<li><strong>gap-fill</strong></li>
+</ol>
+<ul>
+<li>words from passage/list/box</li>
+<li>label a diagram/table</li>
+</ul>
+<ol start="2">
+<li>true/false/not given &amp; yes/no/not given</li>
+<li>multiple choice</li>
+<li>matching</li>
+</ol>
+<ul>
+<li><strong>paragraph headings</strong></li>
+<li><strong>paragraph information</strong></li>
+<li>sentence endings</li>
+<li>other features eg <strong>names</strong></li>
+</ul>
+<ol start="5">
+<li>short answer questions</li>
+</ol>
+<h3 id="作文" class="headerLink">
+    <a href="#%e4%bd%9c%e6%96%87" class="header-mark"></a>作文</h3><h4 id="task1" class="headerLink">
+    <a href="#task1" class="header-mark"></a>Task1</h4><ul>
+<li>Time</li>
+<li>Type</li>
+</ul>
+<ol>
+<li>Line graph</li>
+<li>Bar chart</li>
+<li>Pie chart</li>
+<li>Table</li>
+<li>Diagram - comparing</li>
+<li>Diagram - process</li>
+<li>Skeleton</li>
+<li>Introduction</li>
+<li>Overview: 2+2</li>
+<li>Details</li>
+<li>Details</li>
+</ol>
+<h4 id="task2" class="headerLink">
+    <a href="#task2" class="header-mark"></a>Task2</h4><ul>
+<li>40min</li>
+</ul>
+<ol>
+<li>10min plan</li>
+<li>5min introduction</li>
+<li>20min body</li>
+<li>5min conclusion</li>
+</ol>
+<ul>
+<li>250 words</li>
+<li>Type</li>
+</ul>
+<ol>
+<li>discussion</li>
+<li>opinion</li>
+<li>problem and solution</li>
+<li>two-part question</li>
+</ol>
+<ul>
+<li>Skeleton: 2+5x2+1</li>
+</ul>
+<ol>
+<li>introduction</li>
+</ol>
+<ul>
+<li>2 sentences</li>
+<li>30-40 words</li>
+</ul>
+<ol start="2">
+<li>main body</li>
+</ol>
+<ul>
+<li>2 paragraphs, each 5 sentences  90-100 words
+Topic+First+Second+Finally insert some explains</li>
+<li>firstly secondly finally - dis/advantages probelm/solutions</li>
+<li>idea explain example - one reason/idea/solution</li>
+</ul>
+<ol start="3">
+<li>conclusion</li>
+</ol>
+<ul>
+<li>never write an anything new</li>
+<li>1 sentence review/summary</li>
+<li>paraphrasing to show variety</li>
+</ul>
+<p><strong>词汇</strong></p>
+<ul>
+<li>as opposed to</li>
+<li>agree scheme</li>
+<li>become commonplace</li>
+<li>do outweigh sth</li>
+</ul>
+<h2 id="gre" class="headerLink">
+    <a href="#gre" class="header-mark"></a>GRE</h2><p><strong>单词</strong></p>
+
+
+<blockquote class="quote">
+        <p>用的是kmf上的3000和1400以及zw的等价词和填空1600题生词伴侣（这个是把填空1600题的所有感觉有难度的词筛出来的表格）每天都花五六个小时记单词，大概是APP背累了再背PDF再背纸质书这样最后1400和等价词大概背了五遍，3000背了三遍，1600过了一遍的样子。最后考试的时候感觉大部分填空的单词都认识，做的也相对顺利。</p></blockquote> 
+
+<p><strong>填空</strong></p>
+
+
+<blockquote class="quote"><p>填空发现机经的时候比较晚了，离考试还有十天左右。最开始用的是陈琦基础24套，那个比较简单，全做完了，并且上面单词跟3000基本重合的。zw1600开始用PDF刷题后来发现kmf网站更好用，大概做完了所有的medium，一半的easy，和一点点的hard，感觉考试的时候遇到了四五道原题。</p>
+<p>重点来了。填空是GRE最恶心的部分，理论上需要背大量（在GRE考试之外再也见不到的）单词。但填空也有蒙题技巧。首先，一些填空题的正确选项可能是比较简单的单词，这时候可以直接选你觉得对的；或者所有你认识的单词都觉得不对，那剩下的那（两）个不认识的单词就大概率是正确选项。如果上述两个策略都失效了，还有一种冒险性比较大的策略：众所周知一些英文词根词缀具有感情色彩。比如un-(e.g. unlikely)，a-(e.g. abandon)具有否定、负面的感情色彩。另一些则有肯定、正面的感情色彩。这时候可以根据词的感情色彩来匹配句子的感情色彩。另外，背单词从高频的开始背（一些机构会整理高频词，网上也有高频词），统计学不会骗人的。另外运气也很重要。</p>
+</blockquote> 
+
+<p><strong>阅读</strong></p>
+
+
+<blockquote class="quote"><p>早早发现自己根本读不懂，于是阅读几乎没准备，把拿分重心放到填空上了。加起来做了差不多十篇吧，打算考试的时候战略性放弃长阅读。最后考试的时候的确读不完，短阅读认真做长阅读直接瞎猜的。</p>
+<p>GRE阅读比写作容易备考很多。因为阅读并没有那么多生僻单词。个人觉得阅读首先要通读全文，然后再做题，不能像雅思托福一样看题找答案。遇到不懂的单词先猜，猜不出来可以尝试直接去掉这个词再读全文。如果之前有过托福基础，做GRE阅读会更容易一些。选择题切记别想多，按最直接的选。并且一定要把选项全部看完。逻辑题也是如此，一定要搞清楚原文到底说的是啥，然后把选项依次带入验证。</p>
+</blockquote> 
+
+<p><strong>数学</strong></p>
+
+
+<blockquote class="quote"><p>备考初期，各个部分的题都做了差不多十个试试难度，后面发现填空做不完了再没管过，考试前一晚上临睡觉翻完了数学词汇。考试的时候感觉题目对中国学生来说真的小意思，不过要认真一点，做完之后好好检查，尽量别提前太早交。另外，记住那些常用的重要的词汇，比如直径半径分子分母等等。</p>
+<p>基本裸考。数学的难度介于小学和初中数学之间，极少数涉及高中以上内容（比如正态分布）。因此做题主要就是仔细，考虑全面。可以看一些机构整理的专有名词表，防止看到单词不知道什么意思而丢分，例如我这次不知道range有极差的意思，看见题脑子空白了一段时间。</p>
+</blockquote> 
+
+<p><strong>作文</strong></p>
+
+
+<blockquote class="quote"><p>这个不做错误示范了，我两篇都写了刚400字，除了打字慢，还有根本想不出来该用什么论据。好像字数要到550才能拿到一个好看的分数？因为作文我已经准备二战了。</p>
+<p>理工科对写作要求不太高，而且新GRE已经取消了argument只剩issue了。issue比较难写，是因为选题通常比较抽象，比如一些政治和哲学论点。我机构老师采取的策略是写大纲，个人感觉很有用。issue和托福写作还不一样，托福是可以用自己或者朋友的例子的，而GRE不行，需要列举一些“高级”的例子，或者直接理论论证。例子可以多积累一点，配合写大纲。</p>
+</blockquote> 
+
+<p><strong>模考</strong></p>
+
+
+<blockquote class="quote">
+        <p>考前务必要熟悉流程，我在雷哥上做了一套，但没做几个题，但对于怎么看前面的检查和用计算器相对很熟悉了，很有必要！</p></blockquote>]]></description>
 </item><item>
     <title>滴滴大数据研发实习进程实录</title>
     <link>https://blog.ralvines.top/didi-data/</link>
@@ -309,6 +545,8 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>美团</li>
 <li>网易</li>
 <li>百度</li>
+<li>京东</li>
+<li>滴滴</li>
 </ul>
 <h3 id="终端与智能制造" class="headerLink">
     <a href="#%e7%bb%88%e7%ab%af%e4%b8%8e%e6%99%ba%e8%83%bd%e5%88%b6%e9%80%a0" class="header-mark"></a>终端与智能制造</h3><ul>
@@ -331,14 +569,14 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <ul>
 <li>帆软</li>
 </ul>
-<ol start="4">
+<ol start="3">
 <li><strong>国企/银行</strong></li>
 </ol>
 <ul>
 <li>工商银行</li>
 <li>国开行</li>
 </ul>
-<ol start="5">
+<ol start="4">
 <li><strong>新能源/汽车</strong></li>
 </ol>
 <ul>
@@ -366,6 +604,121 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ol>
 <ul>
 <li>数据分析</li>
+</ul>
+<h2 id="知识体系" class="headerLink">
+    <a href="#%e7%9f%a5%e8%af%86%e4%bd%93%e7%b3%bb" class="header-mark"></a>知识体系</h2><h3 id="开发类" class="headerLink">
+    <a href="#%e5%bc%80%e5%8f%91%e7%b1%bb" class="header-mark"></a>开发类</h3><ul>
+<li>操作系统</li>
+<li>Linux</li>
+<li>C++面向对象</li>
+<li>数据结构</li>
+<li>算法</li>
+</ul>
+<h3 id="产品类" class="headerLink">
+    <a href="#%e4%ba%a7%e5%93%81%e7%b1%bb" class="header-mark"></a>产品类</h3><ol>
+<li>工具</li>
+</ol>
+<ul>
+<li>Axure</li>
+<li>墨刀&amp;Figma</li>
+</ul>
+<ol start="2">
+<li>产品项目</li>
+</ol>
+<ul>
+<li>如何拆解需求</li>
+<li>工作流程和框架</li>
+<li>产品迭代</li>
+<li>模块之间的交互</li>
+<li>商业化</li>
+<li>使用场景分析</li>
+</ul>
+<ol start="3">
+<li>能力</li>
+</ol>
+<ul>
+<li>沟通 执行 领导</li>
+<li>判断 决策 影响</li>
+<li>产品思维</li>
+</ul>
+<ol start="4">
+<li>需求 生产 销售 协调</li>
+<li>技术方向的业务认知</li>
+</ol>
+<ul>
+<li>
+<p>云计算和云产品</p>
+</li>
+<li>
+<p>边缘计算</p>
+</li>
+<li>
+<p>网络协议和端口</p>
+</li>
+<li>
+<p>操作系统</p>
+</li>
+<li>
+<p>数据结构</p>
+</li>
+<li>
+<p>相关习题 <a href="https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799" target="_blank" rel="noopener noreferrer">1</a> <a href="https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629" target="_blank" rel="noopener noreferrer">2</a> <a href="https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&amp;pid=31369524&amp;testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86%26selectStatus%3D0&amp;testclass=%e4%ba%a7%e5%93%81%2F%e8%bf%90%e8%90%a5" target="_blank" rel="noopener noreferrer">3</a></p>
+</li>
+</ul>
+<h3 id="数据类" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e7%b1%bb" class="header-mark"></a>数据类</h3><h2 id="综合测评" class="headerLink">
+    <a href="#%e7%bb%bc%e5%90%88%e6%b5%8b%e8%af%84" class="header-mark"></a>综合测评</h2><h3 id="逻辑综合" class="headerLink">
+    <a href="#%e9%80%bb%e8%be%91%e7%bb%bc%e5%90%88" class="header-mark"></a>逻辑综合</h3><p>（美团非技术类综测）</p>
+<ol>
+<li>逻辑推理</li>
+</ol>
+<ul>
+<li>三图 看变换方式
+<ul>
+<li>翻转折叠 旋转 对应区块变换规则</li>
+<li>三图的某种图形数是前两者的和</li>
+<li>某种图形各行总数相同</li>
+</ul>
+</li>
+<li>宫格
+<ul>
+<li>各行图形数量 种类相同</li>
+<li>数字运算关系</li>
+</ul>
+</li>
+<li>序列
+<ul>
+<li>文字形同结构笔画</li>
+<li>数字看第三项和前两项关系</li>
+<li>两个之间的关系 等差等比</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>数字计算</li>
+</ol>
+<ul>
+<li>排列组合 方程 逻辑分类</li>
+<li>闰年 被4整除且不被100整除 或者 能被400整除</li>
+</ul>
+<ol start="3">
+<li>言语理解</li>
+</ol>
+<ul>
+<li>概括归纳 推理 表述判断
+<ul>
+<li>可以 可能 程度不同</li>
+</ul>
+</li>
+<li>词义辨析填空</li>
+<li>语病</li>
+<li>句子排序</li>
+</ul>
+<ol start="4">
+<li>资料分析</li>
+</ol>
+<ul>
+<li>同比 环比</li>
 </ul>]]></description>
 </item><item>
     <title>华为鸿蒙通用软件开发复盘</title>
@@ -425,35 +778,825 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <ol>
 <li>自我介绍和个人特质</li>
 <li>职业规划和对华为、行业的理解</li>
-</ol>]]></description>
+</ol>
+<h2 id="附面经整理" class="headerLink">
+    <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%86" class="header-mark"></a>附：面经整理</h2><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>面试经验整理<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p><strong>一面&amp;二面</strong></p>
+<ul>
+<li>自我介绍
+<ul>
+<li>准备自我介绍时候最好说些自己熟悉的领域</li>
+</ul>
+</li>
+<li>详细讲项目 细节</li>
+<li>笔试复盘
+<ul>
+<li>思路</li>
+</ul>
+</li>
+<li>手撕代码
+<ul>
+<li>一个二维数组初始值为0给其中两个点初始值为1每个为1的点每一轮可以上下左右把为0的点转化为1问要几轮将整个二维数组用1填满check1point3acresformore直接想到用队列结合dfs写完面试就结束了总体感觉不难可能是部门缺人降低了bar</li>
+</ul>
+</li>
+<li>基础知识 &amp; 实际应用场景
+<ul>
+<li>数据结构
+<ul>
+<li>链表</li>
+<li>数组</li>
+<li>树</li>
+<li>快排</li>
+<li>归并排序</li>
+<li>哈希</li>
+<li>复杂度</li>
+<li>图</li>
+</ul>
+</li>
+<li>网络
+<ul>
+<li>TCP/IP</li>
+<li>握手为什么不是两次 为什么不是4次</li>
+<li>IP传输是否可靠</li>
+<li>局部变量在内存的位置</li>
+<li>DFS实际操作中有什么不好</li>
+</ul>
+</li>
+<li>操作系统
+<ul>
+<li>进程 线程</li>
+<li>Linux</li>
+</ul>
+</li>
+<li>C++ 面向对象</li>
+<li>MySQL</li>
+</ul>
+</li>
+<li>课程大作业</li>
+<li>强调非科班 学习潜力 主修聚焦在计算数学和数据科学（统计学习方法）</li>
+<li><strong>思维</strong></li>
+</ul>
+<p><strong>业务主管面试</strong></p>
+<ul>
+<li>自我介绍</li>
+<li>项目</li>
+<li>为什么想来华为</li>
+<li>压力最大的一件事</li>
+<li>什么时候开始学习互联网相关的知识</li>
+<li>对加班的看法？如果工作量大怎么办？</li>
+<li>为什么选择杭研所？（其实我没有硬性的要求，我都不知道自己面的杭研所）</li>
+</ul>
+</div>
+        </div>
+    </div>]]></description>
 </item><item>
-    <title>GRE &amp; IELTS 备考实录</title>
-    <link>https://blog.ralvines.top/gre-ielts/</link>
-    <pubDate>Wed, 16 Aug 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gre-ielts/</guid>
+    <title>PHD 申请实录</title>
+    <link>https://blog.ralvines.top/phd-apply/</link>
+    <pubDate>Fri, 29 Sep 2023 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/phd-apply/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/11/01/pinHLBd.png" referrerpolicy="no-referrer">
-            </div><h2 id="题型" class="headerLink">
-    <a href="#%e9%a2%98%e5%9e%8b" class="header-mark"></a>题型</h2><h2 id="笔试经验" class="headerLink">
-    <a href="#%e7%ac%94%e8%af%95%e7%bb%8f%e9%aa%8c" class="header-mark"></a>笔试经验</h2><h3 id="雅思" class="headerLink">
-    <a href="#%e9%9b%85%e6%80%9d" class="header-mark"></a>雅思</h3><h3 id="gre" class="headerLink">
-    <a href="#gre" class="header-mark"></a>GRE</h3><p>本人新大二，报名的是8月25号上午考试院的考试，从8月2号回校开始零基础脱产自学，每天早九晚十但是实际学习时间可能只有一半。虽然考试体验不是很好，但最后瞎猫碰见死耗子取得了出乎意料的成绩，想跟大家分享一下一些乱七八糟的经验（或许有用）</p>
-<p>英语基础：本人英语基础比较一般，高考新一卷135，大英四3.3，四级603，六级549，在备考之前对GRE几乎没有什么基础</p>
-<p>单词：用的是kmf上的3000和1400以及zw的等价词和填空1600题生词伴侣（这个是把填空1600题的所有感觉有难度的词筛出来的表格）每天都花五六个小时记单词，大概是APP背累了再背PDF再背纸质书这样最后1400和等价词大概背了五遍，3000背了三遍，1600过了一遍的样子。最后考试的时候感觉大部分填空的单词都认识，做的也相对顺利。
-填空：填空发现机经的时候比较晚了，离考试还有十天左右。最开始用的是陈琦基础24套，那个比较简单，全做完了，并且上面单词跟3000基本重合的。zw1600开始用PDF刷题后来发现kmf网站更好用，大概做完了所有的medium，一半的easy，和一点点的hard，感觉考试的时候遇到了四五道原题</p>
-<p>阅读：早早发现自己根本读不懂，于是阅读几乎没准备，把拿分重心放到填空上了。加起来做了差不多十篇吧，打算考试的时候战略性放弃长阅读。最后考试的时候的确读不完，短阅读认真做长阅读直接瞎猜的。</p>
-<p>数学：备考初期，各个部分的题都做了差不多十个试试难度，后面发现填空做不完了再没管过，考试前一晚上临睡觉翻完了数学词汇。考试的时候感觉题目对中国学生来说真的小意思，不过要认真一点，做完之后好好检查，尽量别提前太早交。另外，记住那些常用的重要的词汇，比如直径半径分子分母等等。</p>
-<p>作文：这个不做错误示范了，我两篇都写了刚400字，除了打字慢，还有根本想不出来该用什么论据。好像字数要到550才能拿到一个好看的分数？因为作文我已经准备二战了</p>
-<p>模考：考前务必要熟悉流程，我在雷哥上做了一套，但没做几个题，但对于怎么看前面的检查和用计算器相对很熟悉了，很有必要！</p>
-<p>希望各位杀G的小伙伴都取得理想成绩呀！</p>
-<p>我的GRE学习经历大概可以分为两段：第一段是2022年在某杭州机构学的，其中写作上了两节课，数学上了一节课，阅读写作上了若干节课（这个阶段基本就是混，比如阅读抄答案，填空查字典），但到今年为止基本已经忘光。8月开始在培训托福的机构上GRE课，上了两节阅读两节写作，背了400个单词就上考场了。因为有科研任务，备考时间大约两周，每天2-4h。来分享一些经验。</p>
-<p>阅读：
-GRE阅读比写作容易备考很多。因为阅读并没有那么多生僻单词。个人觉得阅读首先要通读全文，然后再做题，不能像雅思托福一样看题找答案。遇到不懂的单词先猜，猜不出来可以尝试直接去掉这个词再读全文。如果之前有过托福基础，做GRE阅读会更容易一些。选择题切记别想多，按最直接的选。并且一定要把选项全部看完。逻辑题也是如此，一定要搞清楚原文到底说的是啥，然后把选项依次带入验证。</p>
-<p>数学：
-基本裸考。数学的难度介于小学和初中数学之间，极少数涉及高中以上内容（比如正态分布）。因此做题主要就是仔细，考虑全面。可以看一些机构整理的专有名词表，防止看到单词不知道什么意思而丢分，例如我这次不知道range有极差的意思，看见题脑子空白了一段时间。</p>
-<p>写作：
-理工科对写作要求不太高，而且新GRE已经取消了argument只剩issue了。issue比较难写，是因为选题通常比较抽象，比如一些政治和哲学论点。我机构老师采取的策略是写大纲，个人感觉很有用。issue和托福写作还不一样，托福是可以用自己或者朋友的例子的，而GRE不行，需要列举一些“高级”的例子，或者直接理论论证。例子可以多积累一点，配合写大纲。</p>
-<p>填空
-重点来了。填空是GRE最恶心的部分，理论上需要背大量（在GRE考试之外再也见不到的）单词。但填空也有蒙题技巧。首先，一些填空题的正确选项可能是比较简单的单词，这时候可以直接选你觉得对的；或者所有你认识的单词都觉得不对，那剩下的那（两）个不认识的单词就大概率是正确选项。如果上述两个策略都失效了，还有一种冒险性比较大的策略：众所周知一些英文词根词缀具有感情色彩。比如un-(e.g. unlikely)，a-(e.g. abandon)具有否定、负面的感情色彩。另一些则有肯定、正面的感情色彩。这时候可以根据词的感情色彩来匹配句子的感情色彩。另外，背单词从高频的开始背（一些机构会整理高频词，网上也有高频词），统计学不会骗人的。另外运气也很重要</p>]]></description>
+                <img src="https://z1.ax1x.com/2023/11/01/pinHOHA.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>时下重点<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>明确各个项目的具体要求和DDL</li>
+<li>还需要看一下NTU等院校「数据」类学院的其他项目</li>
+<li>PHD待套磁：港四，新国立</li>
+<li>IELTS&amp;GRE</li>
+</ul>
+</div>
+        </div>
+    </div>
+<h2 id="意向与套磁" class="headerLink">
+    <a href="#%e6%84%8f%e5%90%91%e4%b8%8e%e5%a5%97%e7%a3%81" class="header-mark"></a>意向与套磁</h2><ul>
+<li>理学院</li>
+<li>数据科学学院</li>
+</ul>
+<p><strong>香港</strong></p>
+<ol>
+<li>香港科技大学 广州<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li>香港科技大学<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+</ol>
+<ul>
+<li>YANGXIANG（不带博士，需要联系新的）</li>
+</ul>
+<ol start="3">
+<li>香港大学<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
+<li>香港中文大学</li>
+<li>香港中文大学 深圳<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></li>
+</ol>
+<ul>
+<li>张炼</li>
+<li>王本友（待联系）</li>
+</ul>
+<ol start="6">
+<li>香港理工大学</li>
+</ol>
+<ul>
+<li>乔中华（暂无后续）</li>
+</ul>
+<ol start="7">
+<li>香港理工大学 深圳</li>
+<li>香港浸会大学-北师大联合项目</li>
+</ol>
+<p><strong>新加坡</strong></p>
+<ol start="9">
+<li>新加坡国立大学<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></li>
+</ol>
+<ul>
+<li>（招生办暂无后续，暂无套磁）</li>
+</ul>
+<ol start="10">
+<li>南洋理工大学</li>
+</ol>
+<ul>
+<li>夏克林（等GRE、雅思）</li>
+</ul>
+<p><strong>备选</strong></p>
+<ol start="11">
+<li>新加坡管理大学</li>
+</ol>
+<ul>
+<li>（等GRE）</li>
+</ul>
+<ol start="12">
+<li>奥本大学</li>
+</ol>
+<ul>
+<li>（等GRE）</li>
+</ul>
+<p><strong>排除</strong></p>
+<ul>
+<li>UCSD</li>
+<li>NYU</li>
+<li>CMU</li>
+<li>USC</li>
+<li>UMich 密歇根州立</li>
+<li>UChicago</li>
+</ul>
+<p><strong>老师推荐</strong></p>
+<ul>
+<li>奥本大学 林（已视频，等雅思、GRE）</li>
+<li>南洋理工 夏（已视频，等雅思、GRE）</li>
+<li>港理工 乔中华（已邮件）</li>
+<li>浸会-北师大</li>
+<li>南科大</li>
+</ul>
+<p>南方科技大学</p>
+<h2 id="ms-备选" class="headerLink">
+    <a href="#ms-%e5%a4%87%e9%80%89" class="header-mark"></a>MS [备选]</h2><ul>
+<li>
+<p>港五</p>
+</li>
+<li>
+<p>NUS</p>
+</li>
+<li>
+<p>NTU</p>
+</li>
+<li>
+<p>数据科学</p>
+</li>
+<li>
+<p>计算机科学</p>
+</li>
+<li>
+<p>人工智能</p>
+</li>
+</ul>
+<h2 id="材料" class="headerLink">
+    <a href="#%e6%9d%90%e6%96%99" class="header-mark"></a>材料</h2><ul>
+<li><i class="far fa-square fa-fw"></i> 护照 东四线下办理 先去纳米楼打印在读证明</li>
+<li><i class="far fa-square fa-fw"></i> GRE &amp; IELTS</li>
+<li><i class="far fa-check-square fa-fw"></i> CV</li>
+<li><i class="far fa-square fa-fw"></i> PS</li>
+<li><i class="far fa-square fa-fw"></i> RP</li>
+<li><i class="far fa-check-square fa-fw"></i> Transcript</li>
+<li><i class="far fa-square fa-fw"></i> Letter（王何宇、毕惟红、赖俊）</li>
+</ul>
+<h2 id="时间线" class="headerLink">
+    <a href="#%e6%97%b6%e9%97%b4%e7%ba%bf" class="header-mark"></a>时间线</h2><table>
+<thead>
+<tr>
+<th>学校</th>
+<th>项目</th>
+<th>要求</th>
+<th>一轮截止</th>
+<th>二轮截止</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>港大</td>
+<td>人工智能 MS</td>
+<td></td>
+<td>12.15</td>
+<td>3.15</td>
+</tr>
+<tr>
+<td></td>
+<td>数据科学 MS</td>
+<td></td>
+<td>12.13</td>
+<td></td>
+</tr>
+<tr>
+<td>港中大</td>
+<td>统计学与数据科学高级研究 MS</td>
+<td>IELTS6.5</td>
+<td>12.31</td>
+<td>2.28</td>
+</tr>
+<tr>
+<td>港科大</td>
+<td>数据驱动建模 MS</td>
+<td></td>
+<td>11.15</td>
+<td>2.15</td>
+</tr>
+<tr>
+<td>港理工</td>
+<td>数据科学及分析 MS</td>
+<td></td>
+<td>4.30</td>
+<td></td>
+</tr>
+<tr>
+<td>港城</td>
+<td>MS</td>
+<td></td>
+<td>滚动录取</td>
+<td></td>
+</tr>
+<tr>
+<td>新国立</td>
+<td>MS</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>南洋理工</td>
+<td>MS</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>港中深</td>
+<td>数据科学 PHD</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>新国立</td>
+<td>理学 MS</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>南洋理工</td>
+<td>理学 PHD</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://facultyprofiles.hkust-gz.edu.cn" target="_blank" rel="noopener noreferrer">https://facultyprofiles.hkust-gz.edu.cn</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://science.hkust.edu.hk/zh-hans/about/our_people?academic-unit=3008&amp;show=faculty-members" target="_blank" rel="noopener noreferrer">https://science.hkust.edu.hk/zh-hans/about/our_people?academic-unit=3008&show=faculty-members</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://hkumath.hku.hk/web/about-us/faculty.php" target="_blank" rel="noopener noreferrer">https://hkumath.hku.hk/web/about-us/faculty.php</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://sse-mphil-phd.cuhk.edu.cn/teacher-search?class_type=20&amp;keywords=&amp;category=All&amp;alphabet=All&amp;academic=All&amp;page=1" target="_blank" rel="noopener noreferrer">https://sse-mphil-phd.cuhk.edu.cn/teacher-search?class_type=20&keywords=&category=All&alphabet=All&academic=All&page=1</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://www.math.nus.edu.sg/people/regular-faculty/" target="_blank" rel="noopener noreferrer">https://www.math.nus.edu.sg/people/regular-faculty/</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
+</item><item>
+    <title>Matlab曲线拟合工具箱的国产替代产品研发与应用</title>
+    <link>https://blog.ralvines.top/srtp/</link>
+    <pubDate>Wed, 01 Mar 2023 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/srtp/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piADxe0.png" referrerpolicy="no-referrer">
+            </div><h2 id="开发日志" class="headerLink">
+    <a href="#%e5%bc%80%e5%8f%91%e6%97%a5%e5%bf%97" class="header-mark"></a>开发日志</h2><h3 id="2023526" class="headerLink">
+    <a href="#2023526" class="header-mark"></a>2023.5.26</h3><ul>
+<li>在函数说明文档中提供了<code>spapi</code>的部分具体实现方式</li>
+</ul>
+<h3 id="2023523" class="headerLink">
+    <a href="#2023523" class="header-mark"></a>2023.5.23</h3><ul>
+<li>对部分函数进行了单增排列和参数检查上的功能优化</li>
+</ul>
+<h3 id="2023518-会议记录" class="headerLink">
+    <a href="#2023518-%e4%bc%9a%e8%ae%ae%e8%ae%b0%e5%bd%95" class="header-mark"></a>2023.5.18 会议记录</h3><ul>
+<li>
+<p><code>ba_obj</code> 中存放一个 <code>void *</code> 类型的指针，这种类型的指针可以被转化为任意类型的指针，用来指向其保存的数据的内存位置</p>
+<ul>
+<li>在构造 <code>ba_obj</code> 对象的时候传给其构造函数的指针尽量指向堆内存</li>
+<li>若要指向栈内存，对象的生命周期需要开发者自行维护。</li>
+<li>注：若使用栈内存构造一个 <code>ba_obj</code> 对象，在离开当前作用域之后该 <code>ba_obj</code> 对象仍被使用，则其内部指针指向的数据其实已经被释放，此时很可能会引发软件闪退问题</li>
+</ul>
+</li>
+<li>
+<p><code>ba_obj</code> 的设计初衷是用来保存和传递矩阵的，不要对 <code>ba_obj</code> 对象写下 <code>get&lt; int / double &gt;()</code></p>
+</li>
+<li>
+<p><code>ba_obj</code> 的构造函数的参数中的指针参数也应该指向堆内存</p>
+</li>
+<li>
+<p><code>ba_obj</code> 不需要指针参数的构造函数内部也是重新 <code>new</code> 了堆内存赋值给其保存的指针的</p>
+</li>
+<li>
+<p>软件中的 <code>int,double</code> 被视为 $1 \times 1$ 的 <code>int,double</code> 矩阵，不存在C++中独立的 <code>int,double</code></p>
+</li>
+<li>
+<p><code>baltam::structure</code> 中保存一个 <code>std::map&lt;std::string, ba_obj_ptr&gt;</code> 作为存储数据的数据结构</p>
+<ul>
+<li>其 <code>map</code> 的 <code>value</code> 是指向 <code>ba_obj</code> 的智能指针</li>
+<li>在给 <code>baltam::structure</code> 使用 <code>set_field(key,value_ptr)</code> 函数添加字段 <code>key</code> 的时候，数据指针<code>value_ptr</code> 应指向堆内存</li>
+</ul>
+</li>
+<li>
+<p>测试脚本的两个目的</p>
+<ul>
+<li>给不熟悉相关理论的用户一个快速上手的示例</li>
+<li>测试函数的功能</li>
+</ul>
+</li>
+<li>
+<p>对于错误输入的处理并不一定要与MATLAB相同，可以更多的考虑相关理论的背景，报错与否一个重要的考量是用户友好</p>
+</li>
+</ul>
+<h3 id="2023516" class="headerLink">
+    <a href="#2023516" class="header-mark"></a>2023.5.16</h3><ul>
+<li>改写并优化了<code>fnval</code>和<code>fnder</code>的测试脚本</li>
+</ul>
+<h3 id="2023513" class="headerLink">
+    <a href="#2023513" class="header-mark"></a>2023.5.13</h3><ul>
+<li>新增<code>spapi</code>函数说明</li>
+</ul>
+<h3 id="202359" class="headerLink">
+    <a href="#202359" class="header-mark"></a>2023.5.9</h3><ul>
+<li>新增测试 <code>test_fnval.m</code> 和 <code>test_fnder.m</code></li>
+</ul>
+<h3 id="2023424" class="headerLink">
+    <a href="#2023424" class="header-mark"></a>2023.4.24</h3><ul>
+<li>优化了函数说明文档，统一了表达方式和字体样式</li>
+<li>更正了<code>fnder</code>和<code>ppmak</code>文档中的错误表述</li>
+</ul>
+<h3 id="2023412-会议记录" class="headerLink">
+    <a href="#2023412-%e4%bc%9a%e8%ae%ae%e8%ae%b0%e5%bd%95" class="header-mark"></a>2023.4.12 会议记录</h3><ul>
+<li>介绍开发环境与插件的机制及开发规范，具体可见
+<a href="http://183.66.214.98:20005/numerical_computation/style_guide/-/wikis/C&#43;&#43;-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83" target="_blank" rel="noopener noreferrer">C++ 开发规范</a>
+<a href="https://www.bilibili.com/video/BV1SW4y1j71Y/?spm_id_from=333.999.0.0&amp;vd_source=ee756967a7f488a76fc48a6117203f55" target="_blank" rel="noopener noreferrer">mac操作系统使用安装北太天元</a></li>
+<li>内核的使用文档，具体可见 <code>spline/deps/core/share/doc/html</code></li>
+<li>报bug的方式：在gitlab中的议题中报</li>
+<li>介绍源码的调试方法，文档可见
+<a href="http://183.66.214.98:20005/numerical_computation/style_guide/-/wikis/CLion%E8%B0%83%E8%AF%95baltam%E4%BE%9D%E8%B5%96%E7%9A%84%E5%8A%A8%E6%80%81%E5%BA%93" target="_blank" rel="noopener noreferrer">CLion调试baltam依赖的动态库</a></li>
+<li>讲解test测试脚本的书写和保留及函数说明文档的书写</li>
+</ul>
+<h3 id="202349" class="headerLink">
+    <a href="#202349" class="header-mark"></a>2023.4.9</h3><ul>
+<li>在<code>.gitignore</code>新增了对部分开发环境下冗余文件的忽略</li>
+</ul>
+<h3 id="202347" class="headerLink">
+    <a href="#202347" class="header-mark"></a>2023.4.7</h3><ul>
+<li>新增 <code>fn2fm</code> 函数功能 <code>ns = fn2fm(s,form)</code>的使用文档</li>
+<li>新增 <code>fnder</code> 函数功能 <code>ds = fnder(s,order)</code>的使用文档</li>
+</ul>]]></description>
+</item><item>
+    <title>2020-2023 寒假社会实践经历汇总</title>
+    <link>https://blog.ralvines.top/shsj/</link>
+    <pubDate>Sun, 23 Jan 2022 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/shsj/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/11/05/piQYui6.jpg" referrerpolicy="no-referrer">
+            </div><h2 id="202307-寻访数学家" class="headerLink">
+    <a href="#202307-%e5%af%bb%e8%ae%bf%e6%95%b0%e5%ad%a6%e5%ae%b6" class="header-mark"></a>2023.07 寻访数学家</h2><h2 id="202302-食育护未来" class="headerLink">
+    <a href="#202302-%e9%a3%9f%e8%82%b2%e6%8a%a4%e6%9c%aa%e6%9d%a5" class="header-mark"></a>2023.02 食育护未来</h2><h3 id="活动计划" class="headerLink">
+    <a href="#%e6%b4%bb%e5%8a%a8%e8%ae%a1%e5%88%92" class="header-mark"></a>活动计划</h3><ul>
+<li>宣教 食育专题课
+<ul>
+<li>对接当地小学、发送课程邀请函和钉钉群二维码 (可向对接人预告后续访谈、问卷调查的合作) (无资源的同学等待队长和指导老师联系结果)</li>
+<li>分课程小组按主题制作宣教课程教案、PPT</li>
+<li>授课</li>
+<li>撰写新闻稿(1000字左右)、提交至宣传组负责人</li>
+</ul>
+</li>
+<li>访谈/采访
+<ul>
+<li>对当地小学的校长/食堂主管/食堂配餐员/食育教师等 一位相关人员进行有关学校营养工作等情况的访谈
+[备选]采访教育部/疾控中心学校卫生所的工作人员(党员)，结合“十四五规划”，了解当地小学食育工作情况</li>
+<li>整理访谈/采访素材，完成一份访谈报告/采访稿(1000
+字左右)</li>
+<li>提交至宣传组负责人</li>
+</ul>
+</li>
+<li>问卷调查
+<ul>
+<li>邀请小学生与其家长分别填写两份问卷，调查对接小学的 小学生饮食健康情况。</li>
+<li>儿童饮食量表(孩子)</li>
+<li>儿童家长膳食营养知识态度行为调查(家长)</li>
+</ul>
+</li>
+<li>小结
+<ul>
+<li>完成个人小结表和实践心得(1000 字左右)</li>
+<li>实践成果汇总、上传群文件</li>
+</ul>
+</li>
+</ul>
+<h2 id="202207-支教" class="headerLink">
+    <a href="#202207-%e6%94%af%e6%95%99" class="header-mark"></a>2022.07 支教</h2><h2 id="202202-文化寻访" class="headerLink">
+    <a href="#202202-%e6%96%87%e5%8c%96%e5%af%bb%e8%ae%bf" class="header-mark"></a>2022.02 文化寻访</h2><h3 id="背景" class="headerLink">
+    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h3><p>为发掘家乡传统文化，弘扬优良传统，增强文化自信，我们将进行以“寻觅故土风情，传述乡梓故事”为主题的社会实践活动。“千里不同风，百里不同俗”，不同地区有不c同的文化特色和历史底蕴，多姿多彩的文化共同构成了中华民族的文化底色。我们期待在这次活动中充分领略、发掘和弘扬家乡的风俗文化，同时为家乡文化“走出去”贡献出一份力量。</p>
+<h3 id="计划1" class="headerLink">
+    <a href="#%e8%ae%a1%e5%88%921" class="header-mark"></a>计划<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3><table>
+<thead>
+<tr>
+<th>活动主题</th>
+<th>具体内容</th>
+<th>呈现形式</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>探寻家乡方言</td>
+<td>方言调研</td>
+<td>实地或问卷调查方言传承情况；采访相关人士了解其历史特色。</td>
+<td>调研报告或采访稿视频</td>
+</tr>
+<tr>
+<td></td>
+<td>地域比较*</td>
+<td>用八地方言表达一组常用语并剪辑成视频或制作科普视频，公开发布。</td>
+<td></td>
+</tr>
+<tr>
+<td>探寻家乡历史</td>
+<td>博物馆或遗址参观</td>
+<td>实地参观博物馆展厅，探寻当地历史，以视频方式记录，辅以旁白或字幕介绍，公开发布。</td>
+<td>视频</td>
+</tr>
+<tr>
+<td>探寻家乡美食</td>
+<td>美食制作视频</td>
+<td>深入街巷，实地拍摄美食的制作过程，制作短视频。</td>
+<td>视频推文</td>
+</tr>
+<tr>
+<td>特色美食介绍*</td>
+<td>搜集当地几种代表性小吃的介绍与文化内涵。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>探寻家乡名人</td>
+<td>家乡历史名人*</td>
+<td>通过知网等网站以文献学习为手段探究家乡传统文化的起源、发展等各个方面；撰写分享心得。</td>
+<td>推文</td>
+</tr>
+<tr>
+<td>文艺作品中的家乡</td>
+<td>艺术鉴赏分享*</td>
+<td>观看并赏析与本地民俗有关的文化作品；记录后进行交流分享，汇总成一份包含海报、心得、推荐词的演示文稿。</td>
+<td>PPT</td>
+</tr>
+<tr>
+<td>寻访历史活化石</td>
+<td>文化古镇</td>
+<td>深入调查当地历史比较悠久的古村古镇，或是一条古街，了解历史，感受古镇的韵味，制成专题视频与推文。</td>
+<td>视频照片集</td>
+</tr>
+<tr>
+<td>探寻家乡艺术</td>
+<td>特色艺术形式*</td>
+<td>当地独特的艺术（如金华婺剧）。</td>
+<td>推文</td>
+</tr>
+</tbody>
+</table>
+<h3 id="日程2" class="headerLink">
+    <a href="#%e6%97%a5%e7%a8%8b2" class="header-mark"></a>日程<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3><table>
+<thead>
+<tr>
+<th>日期</th>
+<th>分工</th>
+<th>成果</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1/17</td>
+<td>各组</td>
+<td>搜集八地家乡基本资料</td>
+<td>[推文]家乡基本介绍<br>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组|瓯婺组</td>
+<td>家乡历史名人[仅搜集资料]（杭州宁波金华温州）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>博物馆或遗址参观<br>剪辑视频（黄岩温岭）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>丽水组|黄冈组</td>
+<td>当日汇总文案撰写<br>推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/18</td>
+<td>丽水组</td>
+<td>方言调研（丽水）</td>
+<td>[推文]方言专题<br>[调研报告]<br>[视频]地域比较视频</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组</td>
+<td>地域比较[策划常用语<br>收集各组录制素材]</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>台州组|甬杭组|瓯婺组</td>
+<td>当日汇总文案撰写机动<br>推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/19</td>
+<td>瓯婺组</td>
+<td>美食制作视频（温州金华）</td>
+<td>[推文]美食专题-1<br>[视频]美食制作视频</td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组|丽水组</td>
+<td>特色美食介绍（黄冈丽水）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组|台州组</td>
+<td>当日汇总文案撰写<br>实践中期简报撰写<br>推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/20</td>
+<td>台州组|黄冈组|丽水组</td>
+<td>家乡历史名人（黄岩温岭黄冈丽水）</td>
+<td>[推文]历史名人专题（整合1/17资料）<br>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>瓯婺组</td>
+<td>博物馆或遗址参观<br>剪辑视频（温州金华）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>当日汇总文案<br>撰写推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/21</td>
+<td>甬杭组</td>
+<td>美食制作视频（宁波杭州）</td>
+<td>[视频]美食制作视频<br>[推文]美食专题-2<br>[视频]博物馆专题</td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>特色美食介绍（黄岩温岭）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组|丽水组</td>
+<td>博物馆或遗址参观<br>剪辑视频（黄冈丽水）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>瓯婺组</td>
+<td>当日汇总文案撰写<br>推文排版</td>
+<td></td>
+</tr>
+<tr>
+<td>1/22</td>
+<td>瓯婺组</td>
+<td>特色艺术形式（温州金华）</td>
+<td>[推文]艺术专题（特色艺术与古镇）<br>[视频]古镇视频</td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>文化古镇（宁波杭州）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>黄冈组|丽水组|台州组</td>
+<td>当日汇总文案撰写<br>推文排版机动</td>
+<td></td>
+</tr>
+<tr>
+<td>1/23</td>
+<td>各组</td>
+<td>写一段心得用于总结推文</td>
+<td>[视频]博物馆专题<br>[PPT]艺术鉴赏<br>[推文]总结推文</td>
+</tr>
+<tr>
+<td></td>
+<td>甬杭组</td>
+<td>博物馆或遗址参观<br>剪辑视频（宁波杭州）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>台州组</td>
+<td>艺术鉴赏分享（黄岩温岭）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>丽水组|黄冈组|瓯婺组</td>
+<td>总结推文文案及实践简报<br>撰写推文排版<br>当日汇总文案撰写</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="预期成果形式" class="headerLink">
+    <a href="#%e9%a2%84%e6%9c%9f%e6%88%90%e6%9e%9c%e5%bd%a2%e5%bc%8f" class="header-mark"></a>预期成果形式</h3><p>各小组将会收集富有当地文化特色的产品、歌谣、文字图画以及与当地历史相关的内容；对外界进行一个小范围的宣传，这能够较大程度上地增强当地民众的本地自豪感，同时使本地文化得到更好的传播。</p>
+<p>此外，我们拟在集中展示家乡文化的同时，创建微信公众号、微博、哔哩哔哩等自媒体账号，定期更新相关推文，拍摄短视频或将活动的主体展示与花絮剪辑成一段时长适宜的视频，让更多的人可以了解家乡的传统文化，感受到我们传统文化的魅力；让更多的人可以了解属于我们自己的文化遗产，并为之骄傲。</p>
+<h3 id="总结报告分工" class="headerLink">
+    <a href="#%e6%80%bb%e7%bb%93%e6%8a%a5%e5%91%8a%e5%88%86%e5%b7%a5" class="header-mark"></a>总结报告分工</h3><ol>
+<li>摘要、关键词，最终排版（1人）</li>
+<li>基本概况：概述、人员分工分组情况、前期准备（1人）</li>
+<li>实践过程：</li>
+</ol>
+<ul>
+<li>以论述形式阐述本组这七天大致做了哪些工作</li>
+<li>阐明对该主题的总结成果，附上相应的图文资料，<strong>逻辑清晰，表达书面，结构完整</strong>。</li>
+<li>字数自定，其中引用的资料尽量注明来源，采访/网络资料请完整附于行文中间</li>
+</ul>
+<ol start="4">
+<li>实践结果：综合各地各主题实践资料，比较共性与个性，并简要阐明我们的呈现成果（视频/推文附代表性截图与链接）；总结（1人）</li>
+</ol>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>以*标注的是能够在线上直接完成的活动；“推文”指就该活动发布的专题推文。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>微博账号每日汇报当日活动及成果，由队长整合所有素材，表中不再列出。此外，队长每日需上传团队安全简报。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
+</item><item>
+    <title>最优运输与蒙日-安培方程</title>
+    <link>https://blog.ralvines.top/tran/</link>
+    <pubDate>Sat, 01 Jan 2022 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/tran/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/11/05/piQtwA1.jpg" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院（国际化课程）<br>
+🕙 2022-2023 秋冬（线上）<br>
+🧑‍🏫 Jiakun Liu（白圣,李玉婷）<br>
+📝 到课率+结课作业</div>
+        </div>
+    </div>
+<blockquote>
+<p>本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。</p>
+</blockquote>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li>Cedric Villani. 2003. Topics in Optimal Transportation. Graduate Studies in Mathematics 58, American Mathematical Society, Providence, Rhode Island.</li>
+<li>Villani, C., 2009. Optimal Transportation, Old and New, Grundlehren der Math. Wiss. 338. Springer-Verlag, Berlin.</li>
+<li>Figalli, A., 2017. The Monge-Ampere equation and its applications, Zurich Lectures in Advanced Mathematics. European Mathematical Society (EMS).</li>
+<li>Gilbarg, D. and Trudinger, N. S., 1983. Elliptic partial differential equations of second order. Springer-Verlag, Berlin.</li>
+</ul>
+<h2 id="大纲" class="headerLink">
+    <a href="#%e5%a4%a7%e7%ba%b2" class="header-mark"></a>大纲</h2><ul>
+<li><strong>CH0.</strong> 内容简介</li>
+<li><strong>CH1.</strong> Kantorovich对偶泛函</li>
+<li><strong>CH2.</strong> 最优运输的几何性质</li>
+<li><strong>CH3.</strong> Brenier的极化分解定理</li>
+<li><strong>CH4.</strong> Monge-Ampere方程</li>
+<li><strong>CH5.</strong> 严格凸与C1正则性</li>
+<li><strong>CH6.</strong> 自然边值条件与C1,alpha正则性</li>
+<li><strong>CH7.</strong> C2,alpha与高阶正则性</li>
+<li><strong>CH8.</strong> 整体正则性</li>
+</ul>
+<h2 id="课程论文" class="headerLink">
+    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><blockquote>
+<p>分别选取作业范围内的部分题目进行解答.</p>
+</blockquote>
+<h3 id="problem-1" class="headerLink">
+    <a href="#problem-1" class="header-mark"></a>Problem 1.</h3><blockquote>
+<p>Discuss the relationship between Kantorovich&rsquo;s problem:</p>
+<p>$$
+\inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C_k} (\gamma)=\int_{U\times V}c(s,y)d\gamma(x,y)
+$$</p>
+<p>and Monge&rsquo;sproblem:</p>
+<p>$$
+\inf\limits_{t_{\sharp}\mu=v}\mathscr{C_\text{M}}(t)=\int_{\mu}c(x,t(x)d\mu(x).
+$$</p>
+<p>Both two problems are related to the existence and uniqueness of the function $t$ and $\gamma$ given the cost function $c$.</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>First, we let $t$ be a measure preserving function, which satisfying that</p>
+<p>$$t_{\sharp} \mu=v, $$</p>
+<p>$$\int_U c(x,t(x))d\mu(x)=\inf\limits_{t_{\sharp}\mu=v}\mathscr{C}_M(t).$$</p>
+<p>From above, we now construct a corresponding function $\mu_t\in\Gamma(\mu \times v)$, where for $\forall E\subset U\times V$, we have</p>
+<p>$$\gamma_t(C):=\mu({x|(x,t(x))\in E}).$$</p>
+<p>It&rsquo;s easy to observe that for $\forall A\subset U$, by the measure language definition of the measure preserving mapping, we have</p>
+<p>$$\gamma_t(A\times V)=\mu({x|(x,t(x))\in A\times V})=\mu(A).$$</p>
+<p>Additionally, for $\forall B\subset V$, we have</p>
+<p>$$v(B)=\mu({x|(x,t(x))\in U\times B}),$$</p>
+<p>as</p>
+<p>$$t_{\sharp}\mu=v.$$</p>
+<p>Meanwhile</p>
+<p>$$\gamma_t(U\times B)=\mu({x|(x,t(x))\in U\times B})=v(B).$$</p>
+<p>Hence, for the constructed function $\gamma_t$, we know it is product on linear space. Then, by</p>
+<p>$$\int_{U\times V} c(x,y)d\gamma_t (x,y)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C}_k(\gamma),$$</p>
+<p>we get that</p>
+<p>$$\inf\limits_{t_{\sharp}\mu=v} \mathscr{C_\text{M}}(t)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)}\mathscr{C}_k(\gamma).$$</p>
+<p>Finally, as we know, the limitation of the Monge&rsquo;s problem is more strict, requiring that</p>
+<ol>
+<li>$t$ is a mapping of preserving measurability,</li>
+<li>$\gamma$ is just limited on linear space.</li>
+</ol>
+<p>Thus more freedom on the product space means more choices of function $\gamma$, thus there is going to have smaller total cost for Kantorovich&rsquo;s problem.</p>
+<h3 id="problem-2" class="headerLink">
+    <a href="#problem-2" class="header-mark"></a>Problem 2.</h3><blockquote>
+<p>Choose the Problem in subject: a mapping $T$ is a measure preserving ( $T_\sharp f=g$ ) iff $\forall h\in C(V), \int_V h(y)g(y)dy=\int_U h(T(x))f(x)dx.$</p>
+<p>(The definition of the measure preserving given by measure language and analysis language is equivalent.)</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>If $T$ is a mapping of preserving measurablity, then for $\forall E\subset V,$ always $\exists T^{-1}(E)\subset U$ s.t.</p>
+<p>$$\int_{T^{-1}(E)} f(x)dx=\int_E g(y)dy=\int_{T^{-1}(E)}g(Tx)|J|dx.$$</p>
+<p>where $J$ means the Jacobian $\displaystyle\frac{\partial y}{\partial x}$, i.e.</p>
+<p>$$f(x)=g(Tx)|J|, x\in T^{-1}(E)a.s..$$</p>
+<p>Let $E=V$, for $\forall$ continuous function $h$ over $V$, we have</p>
+<p>$$h(Tx)f(x)dx=h(Tx)g(Tx)|J|,x\in T^{-1}(V)a.s..$$</p>
+<p>Then, we can conclude that</p>
+<p>$$\int_U h(Tx)f(x)dx=\int_U h(Tx)g(Tx)|J|dx=\int_V h(y)g(y)dy.$$</p>
+<p>Additionally, we have assumpted that $\forall \in C(V),$ thus we have</p>
+<p>$$\int_V h(y)g(y)dy=\int_U h(T(x)f(x))dx.$$</p>
+<p>Now, for $\forall E\subset V$,  we let</p>
+<p>$$h(y)=\mathbb{I}{y\in E},y\in V,$$</p>
+<p>then we have</p>
+<p>$$\int_E g(y)dy=\int_{U\cap T^{-1(E)}}f(x)dx=\int_{T^{-1}(E)}f(x)dx.$$</p>
+<p>Therefore, we get</p>
+<p>$$T_\sharp f=g.$$</p>
+<h3 id="problem-3" class="headerLink">
+    <a href="#problem-3" class="header-mark"></a>Problem 3.</h3><blockquote>
+<p>Explain the background of Brenier polar factorise.</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>The problem of Monge has stayed with no solution until progress was made in the 1940s. Indeed, only with the work by Kantorovich, it was inserted into a suitable framework which gave the possibility to attack it and, later, to provide solutions and study them.</p>
+<p>Back to the 20 century, the Monge problem was asked, which is difficult to solve. after that, Kantoroich relaxes the optimal transfer problem into the optimal transmission solution, and instead of the Euclidean distance $|x-y|$ and more general measures and spaces, the problem was generalized with very general cost functions $c(x,y)$.</p>
+<p>Kantorovich use the idea of regarding the Monge problem as connected to linear programming, where the cost to be minimized becomes simply $\int_{X\times Y}c d\gamma$. Which means, this linear problem under linear constraints, is possible to prove existence of a solution. Then, by using techniques from convex optimization like duality, we could characterize the optimal solution.</p>
+<p>Now, there is some special cases, particularly if we let the cost $c(x,y)=|x-y|^2$, which is natural and has many application in physical models, for Bernier, who works to prove that the optimal $\gamma$ does not allow this splitting of masses and particles at $x$ are only sent to a unique destination $T(x)$, thus providing a solution to the original problem by Monge. Additionally, he proves a special form for the optimal map:</p>
+<p>For or a convex function $u$, the optimal $T$ is of the form $T(x)=\Delta u(x)$.</p>
+<p>Which makes a strong connection with the Monge-Ampère equation.</p>
+<p>$$|D^2u(x)|=\displaystyle\frac{f(x)}{g(\Delta u(x))}$$</p>
+<p>To the equation above, it is an degenerate, nonlinear, elliptic equation and is in the class of convex functions. Brenier uses result above to conclude the fact that matrices can be written as the product of a symmetric positive-definite matrix and an orthogonal one by prove that vector fields can be written as the composition of the gradient of a convex function and of a measure preserving map. It is the polar factorization theorem for vector maps, and the above narrative is the background to this theory.</p>]]></description>
 </item></channel>
 </rss>

@@ -73,6 +73,8 @@
 <li>美团</li>
 <li>网易</li>
 <li>百度</li>
+<li>京东</li>
+<li>滴滴</li>
 </ul>
 <h3 id="终端与智能制造" class="headerLink">
     <a href="#%e7%bb%88%e7%ab%af%e4%b8%8e%e6%99%ba%e8%83%bd%e5%88%b6%e9%80%a0" class="header-mark"></a>终端与智能制造</h3><ul>
@@ -95,14 +97,14 @@
 <ul>
 <li>帆软</li>
 </ul>
-<ol start="4">
+<ol start="3">
 <li><strong>国企/银行</strong></li>
 </ol>
 <ul>
 <li>工商银行</li>
 <li>国开行</li>
 </ul>
-<ol start="5">
+<ol start="4">
 <li><strong>新能源/汽车</strong></li>
 </ol>
 <ul>
@@ -130,6 +132,121 @@
 </ol>
 <ul>
 <li>数据分析</li>
+</ul>
+<h2 id="知识体系" class="headerLink">
+    <a href="#%e7%9f%a5%e8%af%86%e4%bd%93%e7%b3%bb" class="header-mark"></a>知识体系</h2><h3 id="开发类" class="headerLink">
+    <a href="#%e5%bc%80%e5%8f%91%e7%b1%bb" class="header-mark"></a>开发类</h3><ul>
+<li>操作系统</li>
+<li>Linux</li>
+<li>C++面向对象</li>
+<li>数据结构</li>
+<li>算法</li>
+</ul>
+<h3 id="产品类" class="headerLink">
+    <a href="#%e4%ba%a7%e5%93%81%e7%b1%bb" class="header-mark"></a>产品类</h3><ol>
+<li>工具</li>
+</ol>
+<ul>
+<li>Axure</li>
+<li>墨刀&amp;Figma</li>
+</ul>
+<ol start="2">
+<li>产品项目</li>
+</ol>
+<ul>
+<li>如何拆解需求</li>
+<li>工作流程和框架</li>
+<li>产品迭代</li>
+<li>模块之间的交互</li>
+<li>商业化</li>
+<li>使用场景分析</li>
+</ul>
+<ol start="3">
+<li>能力</li>
+</ol>
+<ul>
+<li>沟通 执行 领导</li>
+<li>判断 决策 影响</li>
+<li>产品思维</li>
+</ul>
+<ol start="4">
+<li>需求 生产 销售 协调</li>
+<li>技术方向的业务认知</li>
+</ol>
+<ul>
+<li>
+<p>云计算和云产品</p>
+</li>
+<li>
+<p>边缘计算</p>
+</li>
+<li>
+<p>网络协议和端口</p>
+</li>
+<li>
+<p>操作系统</p>
+</li>
+<li>
+<p>数据结构</p>
+</li>
+<li>
+<p>相关习题 <a href="https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799" target="_blank" rel="noopener noreferrer">1</a> <a href="https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629" target="_blank" rel="noopener noreferrer">2</a> <a href="https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&amp;pid=31369524&amp;testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86%26selectStatus%3D0&amp;testclass=%e4%ba%a7%e5%93%81%2F%e8%bf%90%e8%90%a5" target="_blank" rel="noopener noreferrer">3</a></p>
+</li>
+</ul>
+<h3 id="数据类" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e7%b1%bb" class="header-mark"></a>数据类</h3><h2 id="综合测评" class="headerLink">
+    <a href="#%e7%bb%bc%e5%90%88%e6%b5%8b%e8%af%84" class="header-mark"></a>综合测评</h2><h3 id="逻辑综合" class="headerLink">
+    <a href="#%e9%80%bb%e8%be%91%e7%bb%bc%e5%90%88" class="header-mark"></a>逻辑综合</h3><p>（美团非技术类综测）</p>
+<ol>
+<li>逻辑推理</li>
+</ol>
+<ul>
+<li>三图 看变换方式
+<ul>
+<li>翻转折叠 旋转 对应区块变换规则</li>
+<li>三图的某种图形数是前两者的和</li>
+<li>某种图形各行总数相同</li>
+</ul>
+</li>
+<li>宫格
+<ul>
+<li>各行图形数量 种类相同</li>
+<li>数字运算关系</li>
+</ul>
+</li>
+<li>序列
+<ul>
+<li>文字形同结构笔画</li>
+<li>数字看第三项和前两项关系</li>
+<li>两个之间的关系 等差等比</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>数字计算</li>
+</ol>
+<ul>
+<li>排列组合 方程 逻辑分类</li>
+<li>闰年 被4整除且不被100整除 或者 能被400整除</li>
+</ul>
+<ol start="3">
+<li>言语理解</li>
+</ol>
+<ul>
+<li>概括归纳 推理 表述判断
+<ul>
+<li>可以 可能 程度不同</li>
+</ul>
+</li>
+<li>词义辨析填空</li>
+<li>语病</li>
+<li>句子排序</li>
+</ul>
+<ol start="4">
+<li>资料分析</li>
+</ol>
+<ul>
+<li>同比 环比</li>
 </ul>]]></description>
 </item><item>
     <title>数据库与数据仓库 笔记</title>
@@ -159,22 +276,11 @@
 <li>大小倾斜：部分记录大小过大</li>
 </ul>
 <h2 id="实例尚硅谷-电商数仓1" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h2 id="sql23" class="headerLink">
-    <a href="#sql23" class="header-mark"></a>SQL<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2><h3 id="常见问题4" class="headerLink">
-    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%984" class="header-mark"></a>常见问题<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h3><div class="footnotes" role="doc-endnotes">
+    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
 <p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>SQL从入门到实战 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncn7s9I4IyCLgrrQCskdP7dRf</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>数据库（SQL）面试题，基础知识（超全面） @weihubeats <a href="https://blog.csdn.net/qq_42651904/article/details/83146345" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_42651904/article/details/83146345</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p>【SQL】SQL经典50题&amp;答案 @胖熊酱 <a href="https://zhuanlan.zhihu.com/p/67645448" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/67645448</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>

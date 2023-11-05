@@ -1,0 +1,551 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>量子信息与量子计算 - 暮瞻</title><meta name="Description" content="22-23 秋冬学期「量子信息与量子计算」课程学习笔记。"><meta property="og:title" content="量子信息与量子计算" />
+<meta property="og:description" content="22-23 秋冬学期「量子信息与量子计算」课程学习笔记。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.ralvines.top/quan/" /><meta property="og:image" content="https://z1.ax1x.com/2023/10/23/piAW5eH.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-09-01T20:20:40+08:00" />
+<meta property="article:modified_time" content="2022-09-01T20:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://z1.ax1x.com/2023/10/23/piAW5eH.png"/>
+
+<meta name="twitter:title" content="量子信息与量子计算"/>
+<meta name="twitter:description" content="22-23 秋冬学期「量子信息与量子计算」课程学习笔记。"/>
+<meta name="application-name" content="暮瞻">
+<meta name="apple-mobile-web-app-title" content="暮瞻">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/quan/" /><link rel="prev" href="https://blog.ralvines.top/ds/" /><link rel="next" href="https://blog.ralvines.top/yanan/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "量子信息与量子计算",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/blog.ralvines.top\/quan\/"
+        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  1315 ,
+        "url": "https:\/\/blog.ralvines.top\/quan\/","datePublished": "2022-09-01T20:20:40+08:00","dateModified": "2022-09-01T20:25:40+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"authors": [{
+                        "@type": "Person",
+                        "name": "Ralvine"                    
+                    }],"description": "22-23 秋冬学期「量子信息与量子计算」课程学习笔记。"
+    }
+    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        
+        <div class="header-title">
+            <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner">
+                
+                <div class="dropdown">
+                    <a href="/article/" 
+                        class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/cage/cage/" 
+                        class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="/time/time/" 
+                        class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                    </a>
+                    <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+                </div>
+                <a class="menu-item"
+                    href="/about/about/" >🏡 关于 
+                </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-desktop">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-desktop"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-desktop"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-desktop">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </span><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="暮瞻"><span class="header-title-pre">🌗</span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                <div class="search mobile" id="search-mobile">
+                    <input type="text"
+                        placeholder="搜索文章标题或内容..."
+                        id="search-input-mobile">
+                    <a href="#" onclick="return false;" class="search-button search-toggle" id="search-toggle-mobile"
+                        title="搜索">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <a href="#" onclick="return false;" class="search-button search-clear" id="search-clear-mobile"
+                        title="清空">
+                        <i class="fas fa-times-circle fa-fw"></i>
+                    </a>
+                    <span class="search-button search-loading" id="search-loading-mobile">
+                        <i class="fas fa-spinner fa-fw fa-spin"></i>
+                    </span>
+                </div>
+                <a href="#" onclick="return false;" class="search-cancel" id="search-cancel-mobile">
+                    取消
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="/article/" 
+                    class="menu-item menu-more dropbtn" title="" >🌳 归档 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/categories/" title="" >📁 分类 </a><a href="/tags/" title="" >🏷️ 标签 </a><a href="/series/" title="" >🔦 系列 </a><a href="/posts/" title="" >🧭 所有文章 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/cage/cage/" 
+                    class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 工具 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/document/" title="" >🎬 纪录片 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+            </div>
+            
+            <div class="dropdown">
+                <a href="/time/time/" 
+                    class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
+                </a>
+                <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+            </div>
+            <a class="menu-item"
+                href="/about/about/" >🏡 关于 
+            </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#课程论文">课程论文</a></li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">量子信息与量子计算</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/"><i class="far fa-list-alt fa-fw"></i>本科课程</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-09-01">2022-09-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2022-09-01">2022-09-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1315 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/quan/" class="leancloud_visitors" data-flag-title="量子信息与量子计算">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#课程论文">课程论文</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><div class="details admonition warning open">
+                <div class="details-summary admonition-title">
+                    <i class="icon fas fa-exclamation-triangle fa-fwwarning"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+                </div>
+                <div class="details-content">
+                    <div class="admonition-content">
+                        本文最后更新于 <span class="timeago" datetime="2022-09-01T20:25:40" title="September 1, 2022">2022-09-01</span>，文中内容可能已过时。</div>
+                </div>
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2023-2024 秋冬<br>
+🧑‍🏫 毕惟红<br>
+📝 50%读书报告，10%考勤，10%编程，30%两次展示</div>
+        </div>
+    </div>
+<p>!!! quote &quot;&quot;
+- 🎓 数学科学学院
+- 🕙 2022-2023 秋冬
+- 🧑‍🏫 武俊德
+- 📝 签到，作业，课程论文</p>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<li>讲义</li>
+</ul>
+<h2 id="课程论文" class="headerLink">
+    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><p>!!! abstract &ldquo;Decomposition of arbitrary unitary transformations in quantum computing&rdquo;</p>
+<pre><code>### Abstract
+
+In order to achieve universal quantum computing in the way of classical computers, this paper focuses on the method of decomposing any Unitary transformation under n qubits into the most basic Hadamard gate, phase shift gate and CNOT gate, so that based on the physical construction of these three gates, most computing situations can be generally realized. We first demonstrate the decomposability of single Qubit gates based on Hadamard gates and phase shift gates, and consider the fact that dual Qubits gates can be constructed by CNOT gates, further verify that the Unitary transform under arbitrary n qubits can be decomposed into single Qubit gates and double Qubits gates, which provides a basis for discussing the physical implementation of quantum computers.
+
+### Problem narrative
+
+#### Background
+
+We already know that in classical computing, all logical operations can be completed with only three operations, or and not, so as long as the physical construction of these three logic gates is realized, it lays the foundation for the implementation of general-purpose computers. Similarly, in quantum computing, for arbitrary quantum operations under n qubits, they are all Unitary variations due to the requirement of normalization, so the discussion of their universality can be equivalent to whether arbitrary unitary operations can be achieved by a combination of several elementary gates or approximated with arbitrary precision.
+
+#### Goal
+
+It is not an easy task to approximate the general unitary operation or find a set of quantum gates from the above propositions, so this paper is based on the electron spin quantum computing system with electron z-direction spin as the main measurement parameter, and takes the Hadamard gate, phase shift gate and CNOT gate as three basic gates, focusing on verifying the decomposition of any Unitary transform to the above three gates, so as to provide a basis for further discussion of general quantum computing.
+
+### Gate decomposition of single qubit
+
+#### Operational equivalence
+
+We already know that Qubit's Unitary variation can be expressed in terms of a Unitary matrix. 
+
+According to the knowledge of abstract algebra and complex functions, due to
+
+$$U=e^{i\phi}SO_3,$$
+
+i.e. $U\sim SO_3.$
+
+That is, we can use one $SO_3$ matrix to describe it, and then any operation in Qubit is essentially an isometric transformation, that is, the rotation of the Bloch ball.
+
+#### Hadamard gate
+
+Based on the preceding hypothesis, we can define the basis vector of a quantum computing system as
+
+$$|0\rangle_z=(1,0)^T,|1\rangle_z=(0,1)^T.$$
+
+Then define the Hadamard gate as
+
+$$H=\displaystyle\frac{1}{\sqrt{2}}
+\left[\begin{array}{cc}
+1&amp;1\\
+1&amp;-1\\
+\end{array}\right]$$
+
+Because of $H^2=I,$ the Hadamard gate is unitary.
+
+Since the given quantum computing system works with the spin of the electron as a parameter, it can be seen that the base vector of the spin is the eigenstate of the electron spin in all directions, and after passing through the Hadamard gate, the resulting transformation is
+
+$$|0\rangle_x\rightarrow|0\rangle_z,|1\rangle_x\rightarrow |1\rangle_z,$$
+
+$$|0\rangle_y\rightarrow-|1\rangle_y,|1\rangle_y\rightarrow -|0\rangle_y,$$
+
+$$|0\rangle_z\rightarrow|0\rangle_x,|1\rangle_z\rightarrow |1\rangle_x.$$
+
+Thus, the Hadamard gate is essentially a turn of the Bloch ball around $(\displaystyle\frac{1}{\sqrt{2}},0,\displaystyle\frac{1}{\sqrt{2}})$ where $\delta=\pi$.
+
+#### Phase shift gate
+
+Define the Phase shift gate as 
+
+$$R_z(\delta)=
+\left[\begin{array}{cc}
+1&amp;0\\
+0&amp;e^{i\delta}\\
+\end{array}\right]$$
+
+It is essentially a rotation of the Bloch ball around the z-axis at a counterclockwise angle of $\delta$.
+
+#### Geometric validation of decomposition
+
+When we use the Hadamard gate, we can change the rotation on the z-axis provided by the Phase shift gate to the rotation on the x-axis; Similarly, the y-axis can be moved to the x-axis position with a Phase shift gate, and then the Hadamard gate and the Phase shift gate can be used to obtain the rotation of the y-axis.
+
+Next, by following the inference process of the Euler angle, a single point on the Bloch sphere can be moved to any position on the sphere, and the rigid body transformation $SO_3$ of the entire Bloch sphere can be further described. It is proved that only the Hadamard gate and the phase shift gate can complete any operation on a single Qubit, that is, a single Qubit gate can be successfully constructed.
+
+### Gate decomposition of n qubits
+
+Since dual Qubits gates are controlled single qubits that can be constructed from CNOT gates, it is only necessary to verify that any Unitary transformation under n qubits can be decomposed into a combination of single Qubit gates and double Qubits gates.
+
+#### Construct a single controlled $C-U$ gate
+
+The core is that it has a control qubit, when controlling position 1, do the Unitary transformation $U$ for the operation bit, otherwise do not do the transformation.
+
+For a second-order unitary matrix acting on a single qubit
+
+$$U=\left[\begin{array}{cc}
+e^{i(\delta-\frac{\alpha}{2}-\frac{\beta}{2})}cos\frac{\theta}{2}&amp;-e^{i(\delta-\frac{\alpha}{2}+\frac{\beta}{2})}sin\frac{\theta}{2}\\
+e^{i(\delta+\frac{\alpha}{2}-\frac{\beta}{2})}sin\frac{\theta}{2}&amp;e^{i(\delta+\frac{\alpha}{2}+\frac{\beta}{2})}cos\frac{\theta}{2}\\
+\end{array}\right]$$
+
+by decomposition, we get
+
+$$U=\left[\begin{array}{cc}
+e^{i\delta}&amp;0\\
+0&amp;e^{i\delta}\\
+\end{array}\right]
+\left[\begin{array}{cc}
+e^{-i\frac{\alpha}{2}}&amp;0\\
+0&amp;e^{i\frac{\alpha}{2}}\\
+\end{array}\right]
+\left[\begin{array}{cc}
+cos\frac{\theta}{2}&amp;-sin\frac{\theta}{2}\\
+sin\frac{\theta}{2}&amp;cos\frac{\theta}{2}\\
+\end{array}\right]
+\left[\begin{array}{cc}
+e^{-i\frac{\beta}{2}}&amp;0\\
+0&amp;e^{i\frac{\beta}{2}}\\
+\end{array}\right]
+$$
+
+Note
+
+$$\Phi(\delta)=\left[\begin{array}{cc}
+e^{i\delta}&amp;0\\
+0&amp;e^{i\delta}\\
+\end{array}\right],
+R_z(\delta)=\left[\begin{array}{cc}
+e^{-i\frac{\delta}{2}}&amp;0\\
+0&amp;e^{i\frac{\delta}{2}}\\
+\end{array}\right],
+R_y(\delta)=\left[\begin{array}{cc}
+cos\frac{\delta}{2}&amp;-sin\frac{\delta}{2}\\
+sin\frac{\delta}{2}&amp;cos\frac{\delta}{2}\\
+\end{array}\right].$$
+
+and
+
+$$A=R_z(\alpha)R_y(\frac{\theta}{2}),B=R_y(-\frac{\theta}{2})R_z(-\frac{\alpha+\beta}{2}),C=R_z(\frac{\beta-\alpha}{2}).$$
+
+Then we know
+
+$$U=\Phi(\delta)A\sigma_x B\sigma_x C, I=ABC.$$
+
+\begin{figure}[h] 
+\centering
+\includegraphics[width=11cm]{fig1.png}
+\caption{Circuit diagram of $C-U$ gate} \label{fig1}
+\end{figure}
+
+From this, the $C-U$ gate can be constructed.
+
+#### Construct a multi-controlled $C^k-U$ gate
+
+Given $k\in \mathbb{N},k\ge2.$ Back to classical computers, we can construct Toffoli gates and use them to construct k-weight AND gates, similarly, here we need to construct a generality $C^2-U$ gate, and then we can further construct a multi-controlled $C^k-U$ gate to verify its feasibility.
+
+From algebraic knowledge, for any second-order unitary matrix $U$, after Jordan diagonalization and square, we can get the decomposition 
+
+$$U=V^2.$$
+
+Further, there is
+
+$$VV^{\dag}=I.$$
+
+\begin{figure}[h] 
+\centering
+\includegraphics[width=11cm]{fig2.png}
+\caption{Circuit diagram of $C^2-U$ gate} \label{fig2}
+\end{figure}
+
+So we get the $C^2-U$ gate that meets the requirements.
+
+#### General decomposition
+
+In order to extend the conclusion to any unitary transformation in n qubits, we need to verify that it can be implemented into two quantum states, that is, we only need to proof that
+
+$$U^{(2^n)}=\prod\limits_{i=1}^{2^n-1}\prod\limits_{j=0}^{i-1} V_{ij}.$$
+
+Since direct processing is difficult, we follow the process of proving odd and even arrangement in mathematics, swap quantum states one by one, and design the transformation gate shown in the figure, so that the exchange process is until the two quantum states to be transformed through the gate and then return to the original position in turn.
+
+\begin{figure}[h] 
+\centering
+\includegraphics[width=11cm]{fig3.png}
+\caption{Circuit diagram of swap gate} \label{fig3}
+\end{figure}
+
+Thus, we achieve the feasibility of the above operation, that is, the decomposition in the general case is also achievable.
+
+### Further discussion of universal quantum computing implementation
+
+The proposition studied in this paper ultimately serves the universality of quantum computing. In fact, when we construct the $C^k-U$ gate, it has been proved that quantum computing can achieve universal classical computing, and the conclusion extension of general decomposition can be better applied to quantum simulation and special quantum computing, so as to meet the completeness of the conclusion in the case of quantum operations under n qubits.
+
+The interesting thing about the above work is that we can feel the inheritance of quantum computing to many theoretical ideas in classical computing. In the course of the author's study this semester, the course has been deeply involved in classical computing, so when it is introduced into the theory of quantum computing, many works have extensive similarities in the core, compared to the calculation itself, how to better prepare quantum states and better use the physical achievements of quantum mechanics is a more profound proposition left to us by this discipline.
+</code></pre></div>
+
+        <div class="sponsor">
+        <div class="sponsor-avatar"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        srcset="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 1.5x, https://z1.ax1x.com/2023/10/23/piAdC7D.jpg 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg"
+        title="https://z1.ax1x.com/2023/10/23/piAdC7D.jpg" ></div>
+            <div class="donation">
+            <a href="https://blog.ralvines.top/praise/" class="donation-button" data-pjax-state>赞赏</a>
+            </div></div>
+
+
+<div class="related-container">
+    <div class="related-text">相关内容</div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/wxqy/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        title="22-23 秋冬学期「量子信息与量子计算」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/wxqy/">当代文学前沿问题研究</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/qianyan/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 秋冬学期「量子信息与量子计算」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/qianyan/">数学前沿专题讨论：遗传算法和统计学习方法</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/c-test/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 秋冬学期「量子信息与量子计算」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/c-test/">C&#43;&#43;笔试</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/css/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 秋冬学期「量子信息与量子计算」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/css/">CSS</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/c-interview/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 秋冬学期「量子信息与量子计算」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/c-interview/">C&#43;&#43;面向对象面试题总结</a>
+            </h2>
+        </div>
+    
+
+</div>
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-09-01</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/quan/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
+                    </span></div>
+            <div class="post-info-share">
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/quan/" data-title="量子信息与量子计算" data-hashtags="温铁军,经济,政治"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/quan/" data-hashtag="温铁军"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/quan/" data-title="量子信息与量子计算" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/quan/" data-title="量子信息与量子计算"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/quan/" data-title="量子信息与量子计算"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/quan/" data-title="量子信息与量子计算"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/quan/" data-title="量子信息与量子计算"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%B8%A9%E9%93%81%E5%86%9B/">温铁军</a>,&nbsp;<a href="/tags/%E7%BB%8F%E6%B5%8E/">经济</a>,&nbsp;<a href="/tags/%E6%94%BF%E6%B2%BB/">政治</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/ds/" class="prev" rel="prev" title="数据科学的数学基础"><i class="fas fa-angle-left fa-fw"></i>数据科学的数学基础</a>
+            <a href="/yanan/" class="next" rel="next" title="漫长的革命：延安往事">漫长的革命：延安往事<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">「明日巴陵道 秋山又几重」</div>
+                <div class="footer-line">
+                    <a href="https://blog.ralvines.top/tags/">文章标签</a> · <a href="https://blog.ralvines.top/about/board/">留言板</a> · <a href="https://blog.ralvines.top/about/friend/">友情链接</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2015 - 2023</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css" />
+<link rel='stylesheet' href='https://192960944.r.cdn36.com/chinesefonts2/packages/yzklct/dist/有字库龙藏体/result.css' /><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/extra.css" customAttribute>
+        <noscript><link rel="stylesheet" href="/extra.css" customAttribute></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"KEokTvqncSnkpSOc1tsOWa4M-gzGzoHsz","appKey":"IrISHvDjPwnvBj2sxGoiXkKG","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://keoktvqn.lc-cn-n1-shared.com","visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"desktop-header-typeit":"暮瞻","mobile-header-typeit":"暮瞻"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/valine/Valine.min.js" defer></script><script type="text/javascript" src="/js/valine.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>

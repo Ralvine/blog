@@ -45,7 +45,6 @@
 - 情感分析、客户分类
 - 图像识别
 
-
 [^1]: 垃圾邮件过滤：自动将电子邮件分为垃圾邮件和非垃圾邮件。<br>
 医学诊断：基于患者的症状数据来诊断疾病或预测病人的疾病风险。<br>
 金融风险评估：根据客户的财务和信用记录来评估客户的信用风险。<br>
@@ -118,9 +117,11 @@ k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型
 
 特殊情况：最近邻（k=1）
 
+![特征空间划分](https://z1.ax1x.com/2023/11/01/piuKE6K.png)
+
 [^7]: 指标函数 $I$: 满足条件时为1.<br>
 k 近邻法中，当训练集、距离度量(如欧氏距离)、k 值及分类决策规则(如多数表决)确定后，对于任何一个新的输入实例，它所属的类唯一地确定。这相当于根据上述要素将特征空间划分为一些子空间，确定子空间里的每个点所属的类。这一事实从最近邻算法中可以看得很清楚。<br>
-特征空间中，对每个训练实例点 2，距离该点比其他点更近的所有点组成一个区域，叫作单元(cell)。每个训练实例点拥有一个单元，所有训练实例点的单元构成对特征空间的一个划分。最近邻法将实例 ai的类 yi 作为其单元中所有点的类标记(classlabel)。这样，每个单元的实例点的类别是确定的。二维特征空间划分的一个例子。
+特征空间中，对每个训练实例点 2，距离该点比其他点更近的所有点组成一个区域，叫作单元(cell)。每个训练实例点拥有一个单元，所有训练实例点的单元构成对特征空间的一个划分。最近邻法将实例 ai的类 yi 作为其单元中所有点的类标记(classlabel)。这样，每个单元的实例点的类别是确定的。
 
 ### 模型要素
 
@@ -182,6 +183,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 3. 重复步骤，完成对所有点的预测分类
 
 #### Python实现
+
+![kNN算法流程可视化](https://z1.ax1x.com/2023/11/01/piuKkSx.png)
 
 ``` python
 import numpy as np
@@ -264,4 +267,108 @@ print(predictions)
 平衡树：使用中位数作为划分点可以保证树的相对平衡，避免出现极端情况下的不平衡树结构，从而使得搜索效率总体比较高，但未必最优。考虑一些离群点。
 
 
+![kd树的构造](https://z1.ax1x.com/2023/11/01/piuKif1.png)
+
+
 ##### 搜索
+
+![kd树的搜索](https://z1.ax1x.com/2023/11/01/piuKAl6.png)
+
+##### 算法
+
+[输入] 已构造的 kd 树，目标点 x;
+
+[输出] x 的 k 近邻。
+
+1. 在 kd 树中找出包含目标点 x 的叶结点：从根结点出发，递归地向下访问 kd 树。若目标点 x 当前维的坐标小于切分点的坐标，则移动到左子结点，否则移动到右子结点，直到子结点为叶结点为止。
+2. 构建“当前 k 近邻点集”，将该叶结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离。
+3. 递归地向上回退，在每个结点进行以下操作: 
+- 如果“当前 k 近邻点集”的元素数量 < k，则将该结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离; 
+- 如果“当前 k 近邻点集”的元素数量 = k，但该结点到目标点 x 的距离小于“当前 k 近邻点集”中最远 点到目标点 x 的距离，则将该结点插入“当前 k 近邻点集”，并删除原先的最远点。 
+- 检查另一子结点对应的区域是否与以目标点 x 为球心、以目标点 x 与“当前 k 近邻点集”中最远点的距离为半径的超球体相交。 如果相交，可能在另一个子结点对应的区域内存在距离目标点更近的点，移动到另一个子结点，接着，递归地进行 k 近邻搜索; 如果不相交，向上回退。
+4. 当回退到根结点时，搜索结束(若此时“当前 k 近邻点集”中的元素不足 k 个，则需要访问另一半树的结点)。 
+5. 最后的“当前 k 近邻点集”中的 k 个点即为 x 的 k 近邻点。 
+
+
+##### Python实现
+
+``` python
+class Node:
+    def __init__(self, data, left = None, right = None) -> None:
+        self.val = data
+        self.left = left
+        self.right = right
+    
+class KdTree:
+    def __init__(self, k) -> None:
+        self.k = k
+    
+    def create_Tree(self, dataset, depth):
+        if not dataset:
+            return None
+        mid_index = len(dataset) // 2
+        axis = depth % self.k
+        sort_dataset = sorted(dataset, key=(lambda x: x[axis]))
+        mid_data = sort_dataset[mid_index]
+        cur_node = Node(mid_data)
+        left_data = sort_dataset[:mid_index]
+        right_data = sort_dataset[mid_index+1:]
+        cur_node.left = self.create_Tree(left_data, depth + 1)
+        cur_node.right = self.create_Tree(right_data, depth + 1)
+        return cur_node
+    def search(self, tree, new_data):
+        self.near_point = None
+        self.near_val = None
+        def dfs(node, depth):
+            if not node:
+                return
+            axis = depth % self.k
+            if new_data[axis] < node.val[axis]:
+                dfs(node.left, depth + 1)
+            else:
+                dfs(node.right, depth + 1)
+            dist = self.distance(new_data, node.val)
+            if not self.near_val or dist < self.near_val:
+                self.near_val = dist
+                self.near_point = node.val
+
+            if abs(new_data[axis] - node.val[axis]) <= self.near_val:
+                if new_data[axis] < node.val[axis]:
+                    dfs(node.right, depth + 1) 
+                else:
+                    dfs(node.left, depth + 1)
+        dfs(tree, 0)
+        return self.near_point
+
+    def distance(self, point_1, point_2):
+        res = 0
+        for i in range(self.k):
+            res += (point_1[i]-point_2[i]) ** 2
+        return res ** 0.5
+data_set = [[2,3],[5,4],[9,6],[4,7],[8,1],[7,2]]
+new_data = [1,5]
+k = len(data_set[0])
+kd_tree = KdTree(k)
+our_tree = kd_tree.create_Tree(data_set, 0)
+predict = kd_tree.search(our_tree, new_data)
+print(predict)
+```
+
+#### 马氏距离
+
+由P.C. Mahalanobis提出；基于样本分布的一种距离测量。
+
+- 考虑特征之间的相关性
+- 对数据的缩放不敏感
+- 考虑协方差结构
+- 适用于异常值和噪声数据[^12]
+
+广泛用于分类和聚类分析。
+
+[^12]: 考虑特征之间的相关性：马氏距离能够考虑数据特征之间的相关性，而欧氏距离只考虑各个维度之间的直线距离。这意味着马氏距离在具有相关特征的数据集上能够提供更加准确的距离度量。<br>
+对数据的缩放不敏感：在某些情况下，数据的不同特征可能具有不同的度量单位或尺度。马氏距离能够对数据的缩放不敏感，因此可以更好地处理这种情况，而欧氏距离可能受到数据尺度的影响。<br>
+考虑协方差结构：马氏距离考虑了数据的协方差结构，因此可以更好地捕捉数据特征之间的线性关系。这使得马氏距离在处理多元正态分布数据时能够提供更加准确的距离度量。<br>
+适用于异常值和噪声数据：马氏距离能够对异常值和噪声数据具有更好的鲁棒性，因为它考虑了数据的协方差结构，可以减少这些异常值对距离度量的影响。
+
+
+

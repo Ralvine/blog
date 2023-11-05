@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>毕业 - 标签 - 暮瞻</title>
+        <link>https://blog.ralvines.top/tags/%E6%AF%95%E4%B8%9A/</link>
+        <description>毕业 - 标签 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
+            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E6%AF%95%E4%B8%9A/" rel="self" type="application/rss+xml" /><item>
+    <title>毕业设计</title>
+    <link>https://blog.ralvines.top/bishe/</link>
+    <pubDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/bishe/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" referrerpolicy="no-referrer">
+            </div><h2 id="选题" class="headerLink">
+    <a href="#%e9%80%89%e9%a2%98" class="header-mark"></a>选题</h2><ul>
+<li>三维点阵数据 语义识别 无人驾驶</li>
+<li>shape net</li>
+</ul>
+<h2 id="待办" class="headerLink">
+    <a href="#%e5%be%85%e5%8a%9e" class="header-mark"></a>待办：</h2><p>正式确认主题并进行初步工作
+程序性流程 开题</p>
+<p><a href="https://zhuanlan.zhihu.com/p/580137666" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/580137666</a>
+<a href="https://zhuanlan.zhihu.com/p/59865273" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/59865273</a>
+<a href="https://www.zhihu.com/question/308840909" target="_blank" rel="noopener noreferrer">https://www.zhihu.com/question/308840909</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/107977891" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/107977891</a>
+专栏：三维点云从理论到实践</p>]]></description>
+</item></channel>
+</rss>
