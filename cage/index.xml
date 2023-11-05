@@ -6,14 +6,12 @@
     <description>Recent content in Cages on 暮瞻</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-    <webMaster>ralvine@163.com (Ralvine)</webMaster>
     <lastBuildDate>Fri, 02 Aug 2019 11:04:49 +0800</lastBuildDate><atom:link href="https://blog.ralvines.top/cage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>⌨️ 产品</title>
       <link>https://blog.ralvines.top/cage/goods/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/cage/goods/</guid>
       <description>⚠️ 仅记录已购买或拥有的产品和高于四星的产品体验与评测。 💡 产品的定义包括各类终端软硬件设备与服务。 ⏰ 2023 MacBook Pro 13 (M1) MacBook Pro 16 (2019) 问界 M5 智驾版 Huawei Mate X5 iPhone 15</description>
     </item>
@@ -22,7 +20,7 @@
       <title>⚙️ 工具</title>
       <link>https://blog.ralvines.top/cage/tool/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/cage/tool/</guid>
       <description>💻 Mac 工具 iStat Menus Oh-My-Zsh Plugin: git, sublime, vscode, zsh-autosuggestions, zsh-syntax-highlighting Bartender Paste Alfred 🌋 素材库 图像 免费可商用的图片素材库（使用方便） 和wunderstock一样简洁（访问速度变快） 平面抽象的背景</description>
     </item>
@@ -31,7 +29,7 @@
       <title>🎬 纪录片</title>
       <link>https://blog.ralvines.top/cage/document/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/cage/document/</guid>
       <description>⚠️ 仅记录完整观看的纪录片和高于四星的其他作品。 ⏰ 2023 监视资本主义：智能陷阱，2023-03-21 1950他们正年轻，2022-10-10 ⏰ 早</description>
     </item>
@@ -40,7 +38,7 @@
       <title>🎹 音乐</title>
       <link>https://blog.ralvines.top/cage/music/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/cage/music/</guid>
       <description>⏰ 2023 💬 讨论区</description>
     </item>
@@ -49,7 +47,7 @@
       <title>📚 书籍</title>
       <link>https://blog.ralvines.top/cage/books/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/cage/books/</guid>
       <description>⚠️ 仅记录完整阅读的书籍和高于四星的略览书目。 ⏰ 2023 ⏰ 早期精选 💬 讨论区</description>
     </item>
@@ -58,7 +56,7 @@
       <title>📺 剧集</title>
       <link>https://blog.ralvines.top/cage/drama/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/cage/drama/</guid>
       <description>⚠️ 仅记录完整追剧剧集和高于四星的略览剧集、电视节目。 ⏰ 2023 潜伏历史/谍战 07-22 精讲 ★★★★★ 施工中... 漫长的季节犯罪/家庭 08-19 精讲 ★★★★★ 施工</description>
     </item>
@@ -67,7 +65,7 @@
       <title>🔖 便笺</title>
       <link>https://blog.ralvines.top/cage/cage/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/cage/cage/</guid>
       <description>以我观物 故物皆着我之色彩 📚 书籍 ⌨️ 产品 🎞️ 电影 🎹 音乐 📺 剧集 ⚙️ 工具 🎬 纪录片</description>
     </item>
@@ -76,7 +74,7 @@
       <title>🎞️ 电影</title>
       <link>https://blog.ralvines.top/cage/movies/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/cage/movies/</guid>
       <description>⚠️ 仅记录于影院观影影片和高于四星的日常观影影片。 ⏰ 2023 奥本海默历史/传记 09-06 影院·杭州 二刷 ★★★★★ 诺兰式多线叙事和震撼声效，麦卡锡时代国安名</description>
     </item>

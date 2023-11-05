@@ -3,12 +3,11 @@
         <title>笔记 - 分类 - 暮瞻</title>
         <link>https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/</link>
         <description>笔记 - 分类 - 暮瞻</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
     <title>数学前沿专题讨论</title>
     <link>https://blog.ralvines.top/qianyan/</link>
     <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
@@ -542,7 +541,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <title>IELTS 口语：9~12月话题准备</title>
     <link>https://blog.ralvines.top/ielts-spoken/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/ielts-spoken/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/ielts-spoken/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHjAI.png" referrerpolicy="no-referrer">
             </div><h2 id="part1" class="headerLink">
@@ -3636,7 +3635,7 @@ Whether it is difficult or easy to use And explain why it is useful</p>
     <title>SQL 强化</title>
     <link>https://blog.ralvines.top/sql/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sql/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sql/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
             </div><h2 id="mysql12" class="headerLink">
@@ -3678,7 +3677,7 @@ Whether it is difficult or easy to use And explain why it is useful</p>
     <title>不背单词：生词表</title>
     <link>https://blog.ralvines.top/vocab/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/vocab/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/vocab/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/05/piQBoIH.jpg" referrerpolicy="no-referrer">
             </div><h2 id="随手拼" class="headerLink">
@@ -4157,7 +4156,7 @@ provise</p>]]></description>
     <title>大数据理论与数据分析</title>
     <link>https://blog.ralvines.top/big-data/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/big-data/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/big-data/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piApGh6.jpg" referrerpolicy="no-referrer">
             </div><h2 id="大数据概念1" class="headerLink">
@@ -4608,7 +4607,7 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
     <title>数据仓库与治理</title>
     <link>https://blog.ralvines.top/data-warehouse/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
             </div><h2 id="数据仓库1" class="headerLink">
@@ -4644,7 +4643,7 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
     <title>CSS 强化</title>
     <link>https://blog.ralvines.top/blog-css/</link>
     <pubDate>Tue, 12 Sep 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/blog-css/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/blog-css/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
             </div><h2 id="css" class="headerLink">
@@ -4799,7 +4798,7 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
     <title>C&#43;&#43; 面向对象之面试与机考技巧</title>
     <link>https://blog.ralvines.top/c-interview/</link>
     <pubDate>Wed, 30 Aug 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/c-interview/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/c-interview/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
             </div><h2 id="笔试技巧" class="headerLink">
@@ -5025,7 +5024,7 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
     <title>高等代数学习与备考</title>
     <link>https://blog.ralvines.top/gdds/</link>
     <pubDate>Tue, 01 Aug 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gdds/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gdds/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/05/piQylSs.png" referrerpolicy="no-referrer">
             </div><h2 id="大纲" class="headerLink">
@@ -5262,7 +5261,7 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
     <title>数学分析学习与备考</title>
     <link>https://blog.ralvines.top/sxfx/</link>
     <pubDate>Tue, 01 Aug 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sxfx/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sxfx/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/05/piQy1ln.png" referrerpolicy="no-referrer">
             </div><h2 id="大纲" class="headerLink">

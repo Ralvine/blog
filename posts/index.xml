@@ -3,12 +3,11 @@
         <title>所有文章 - 暮瞻</title>
         <link>https://blog.ralvines.top/posts/</link>
         <description>所有文章 | 暮瞻</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-            <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/posts/" rel="self" type="application/rss+xml" /><item>
     <title>毕业设计</title>
     <link>https://blog.ralvines.top/bishe/</link>
     <pubDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/bishe/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/bishe/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" referrerpolicy="no-referrer">
             </div><h2 id="选题" class="headerLink">
@@ -28,7 +27,7 @@
     <title>GRE &amp; IELTS：备考实录</title>
     <link>https://blog.ralvines.top/gre-ielts/</link>
     <pubDate>Wed, 01 Nov 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gre-ielts/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/gre-ielts/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHLBd.png" referrerpolicy="no-referrer">
             </div><h2 id="雅思" class="headerLink">
@@ -321,7 +320,7 @@ Topic+First+Second+Finally insert some explains</li>
     <title>数学前沿专题讨论</title>
     <link>https://blog.ralvines.top/qianyan/</link>
     <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
@@ -855,7 +854,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <title>滴滴：大数据研发实习</title>
     <link>https://blog.ralvines.top/didi-data/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/didi-data/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/didi-data/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGdW6.png" referrerpolicy="no-referrer">
             </div><h2 id="岗位信息" class="headerLink">
@@ -1014,7 +1013,7 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
     <title>秋招：投递与面试复盘</title>
     <link>https://blog.ralvines.top/24-product/</link>
     <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/24-product/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/24-product/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/24/piEGcUs.png" referrerpolicy="no-referrer">
             </div><h2 id="投递实况" class="headerLink">
@@ -1258,7 +1257,7 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
     <title>IELTS 口语：9~12月话题准备</title>
     <link>https://blog.ralvines.top/ielts-spoken/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/ielts-spoken/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/ielts-spoken/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHjAI.png" referrerpolicy="no-referrer">
             </div><h2 id="part1" class="headerLink">
@@ -4352,7 +4351,7 @@ Whether it is difficult or easy to use And explain why it is useful</p>
     <title>SQL 强化</title>
     <link>https://blog.ralvines.top/sql/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sql/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sql/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
             </div><h2 id="mysql12" class="headerLink">
@@ -4394,7 +4393,7 @@ Whether it is difficult or easy to use And explain why it is useful</p>
     <title>不背单词：生词表</title>
     <link>https://blog.ralvines.top/vocab/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/vocab/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/vocab/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/05/piQBoIH.jpg" referrerpolicy="no-referrer">
             </div><h2 id="随手拼" class="headerLink">
@@ -4873,7 +4872,7 @@ provise</p>]]></description>
     <title>大数据理论与数据分析</title>
     <link>https://blog.ralvines.top/big-data/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/big-data/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/big-data/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piApGh6.jpg" referrerpolicy="no-referrer">
             </div><h2 id="大数据概念1" class="headerLink">
@@ -5324,7 +5323,7 @@ REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
     <title>数据仓库与治理</title>
     <link>https://blog.ralvines.top/data-warehouse/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
             </div><h2 id="数据仓库1" class="headerLink">

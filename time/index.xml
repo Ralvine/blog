@@ -6,14 +6,12 @@
     <description>Recent content in Times on 暮瞻</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <managingEditor>ralvine@163.com (Ralvine)</managingEditor>
-    <webMaster>ralvine@163.com (Ralvine)</webMaster>
     <lastBuildDate>Fri, 02 Aug 2019 11:04:49 +0800</lastBuildDate><atom:link href="https://blog.ralvines.top/time/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📦 项目</title>
       <link>https://blog.ralvines.top/time/project/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/time/project/</guid>
       <description>计算数学 基于用电可靠性的配电网规划模型 统筹电源用户类型和配电网络拓扑、适用于树形电网的线路规划模型，基于局部搜索、几何团簇构建目标连接网络并</description>
     </item>
@@ -22,7 +20,7 @@
       <title>🔦 技能</title>
       <link>https://blog.ralvines.top/time/skill/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/time/skill/</guid>
       <description></description>
     </item>
@@ -31,7 +29,7 @@
       <title>📸 摄影</title>
       <link>https://blog.ralvines.top/time/photo/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/time/photo/</guid>
       <description>长沙 2023-06 昆明 &amp;amp; 西双版纳，2023-07 武汉，2023-05 乌镇，2023-04 西藏，2022-07 上海，2021-05 西安，2020-07 新疆</description>
     </item>
@@ -40,7 +38,7 @@
       <title>🧭 拾迹</title>
       <link>https://blog.ralvines.top/time/time/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      <author>ralvine@163.com (Ralvine)</author>
+      
       <guid>https://blog.ralvines.top/time/time/</guid>
       <description>日月之行 若出其中 星汉灿烂 若出其里 🔦 技能 📸 摄影 📦 项目</description>
     </item>
