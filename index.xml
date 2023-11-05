@@ -5128,9 +5128,6 @@ Spark Streaming</li>
 <li>并行计算</li>
 <li>可视化</li>
 </ul>
-<p><figure><a class="lightgallery" href="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp" title="技术栈全貌图" data-thumbnail="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp">
-        
-    </a></figure></p>
 <h2 id="数据分析理论业务层" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e5%88%86%e6%9e%90%e7%90%86%e8%ae%ba%e4%b8%9a%e5%8a%a1%e5%b1%82" class="header-mark"></a>数据分析理论（业务层）</h2><ol>
 <li>观测</li>
@@ -5281,8 +5278,14 @@ Spark Streaming</li>
 <li>WEEKDAY(NOW())</li>
 </ul>
 <h4 id="替换" class="headerLink">
-    <a href="#%e6%9b%bf%e6%8d%a2" class="header-mark"></a>替换</h4><p>SUBSTITUTE(text, oldText, newText, [instanceNumber])
-REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
+    <a href="#%e6%9b%bf%e6%8d%a2" class="header-mark"></a>替换</h4><ul>
+<li>
+<p><code>SUBSTITUTE(text, oldText, newText, [instanceNumber])</code></p>
+</li>
+<li>
+<p><code>REPLACE(oldText, startNumber, NumberCharacters, newText)</code></p>
+</li>
+</ul>
 <h3 id="数据透视表8" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e9%80%8f%e8%a7%86%e8%a1%a88" class="header-mark"></a>数据透视表<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h3><h2 id="可视化tableau9" class="headerLink">
     <a href="#%e5%8f%af%e8%a7%86%e5%8c%96tableau9" class="header-mark"></a>可视化：Tableau<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></h2><h3 id="常见问题10" class="headerLink">

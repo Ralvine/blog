@@ -241,8 +241,6 @@ ODS $\rightarrow$ DW $\rightarrow$ DA
 - 并行计算
 - 可视化
 
-![技术栈全貌图](https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp)
-
 
 [^1]: 大数据基础 @知乎用户MuDbXQ https://zhuanlan.zhihu.com/p/84554633
 [^2]: 大数据(big data)：基础概念 @刘博 https://zhuanlan.zhihu.com/p/33619503
@@ -373,8 +371,9 @@ ODS $\rightarrow$ DW $\rightarrow$ DA
 - WEEKDAY(NOW())
 
 #### 替换
-SUBSTITUTE(text, oldText, newText, [instanceNumber])
-REPLACE(oldText, startNumber, NumberCharacters, newText)
+- `SUBSTITUTE(text, oldText, newText, [instanceNumber])`
+
+- `REPLACE(oldText, startNumber, NumberCharacters, newText)`
 
 ### 数据透视表[^8]
 
