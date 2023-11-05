@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
-    <title>C&#43;&#43;面向对象面试题总结 - 暮瞻</title><meta name="Description" content="不忘其所始，不求其所终；受而喜之，忘而复之。"><meta property="og:title" content="C&#43;&#43;面向对象面试题总结" />
+    <title>C&#43;&#43; 面向对象之面试与机考技巧 - 暮瞻</title><meta name="Description" content="不忘其所始，不求其所终；受而喜之，忘而复之。"><meta property="og:title" content="C&#43;&#43; 面向对象之面试与机考技巧" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.ralvines.top/c-interview/" /><meta property="og:image" content="https://z1.ax1x.com/2023/11/01/pinHqnH.png" /><meta property="article:section" content="posts" />
@@ -18,23 +18,23 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://z1.ax1x.com/2023/11/01/pinHqnH.png"/>
 
-<meta name="twitter:title" content="C&#43;&#43;面向对象面试题总结"/>
+<meta name="twitter:title" content="C&#43;&#43; 面向对象之面试与机考技巧"/>
 <meta name="twitter:description" content=""/>
 <meta name="application-name" content="暮瞻">
 <meta name="apple-mobile-web-app-title" content="暮瞻">
 
-<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/c-interview/" /><link rel="prev" href="https://blog.ralvines.top/zzjjx/" /><link rel="next" href="https://blog.ralvines.top/css/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/c-interview/" /><link rel="prev" href="https://blog.ralvines.top/gdds/" /><link rel="next" href="https://blog.ralvines.top/blog-css/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "C++面向对象面试题总结",
+        "headline": "C++ 面向对象之面试与机考技巧",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.ralvines.top\/c-interview\/"
-        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  3146 ,
+        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  3263 ,
         "url": "https:\/\/blog.ralvines.top\/c-interview\/","datePublished": "2023-08-30T20:20:40+08:00","dateModified": "2023-08-30T20:25:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"authors": [{
@@ -171,13 +171,18 @@
 </div><main class="main">
             <div class="container"><div class="toc" id="toc-auto">
         <h2 class="toc-title">目录</h2>
-        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents"></nav></div>
-    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">C&#43;&#43;面向对象面试题总结</h1><div class="post-meta">
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#笔试技巧">笔试技巧</a></li>
+    <li><a href="#经典面试题">经典面试题</a></li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">C&#43;&#43; 面向对象之面试与机考技巧</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
                 </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E8%AF%BE%E7%A8%8B-%E5%A4%A7%E5%9B%9B/"><i class="far fa-list-alt fa-fw"></i>课程-大四</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-30">2023-08-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-08-30">2023-08-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3146 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 7 分钟&nbsp;<span id="/c-interview/" class="leancloud_visitors" data-flag-title="C&#43;&#43;面向对象面试题总结">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-30">2023-08-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-08-30">2023-08-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 3263 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 7 分钟&nbsp;<span id="/c-interview/" class="leancloud_visitors" data-flag-title="C&#43;&#43; 面向对象之面试与机考技巧">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -185,8 +190,48 @@
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><ol>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#笔试技巧">笔试技巧</a></li>
+    <li><a href="#经典面试题">经典面试题</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="笔试技巧" class="headerLink">
+    <a href="#%e7%ac%94%e8%af%95%e6%8a%80%e5%b7%a7" class="header-mark"></a>笔试技巧</h2><ol>
+<li>输入输出</li>
+</ol>
+<ul>
+<li>带空格 getline</li>
+<li>字符串处理 string</li>
+<li>大小写转换
+<ul>
+<li>string: <code>&lt;algorithm&gt;</code> <code>transform(str.begin(),str.end(),str.begin(),::tolower);</code></li>
+<li>char: <code>-'a'+'A'</code></li>
+</ul>
+</li>
+<li>进制转换
+<ul>
+<li><code>bitset</code></li>
+<li>8(oct), 10(dec), 16(hex), 2(bitset(num))</li>
+</ul>
+</li>
+<li>取整 (int)直接去除小数点后的部分</li>
+</ul>
+<ol start="2">
+<li>排序 sort 默认升序 自定义规则</li>
+</ol>
+<ul>
+<li><code>functional greater&lt;Type&gt;</code></li>
+</ul>
+<ol start="3">
+<li>质数 因数分解</li>
+</ol>
+<ul>
+<li>时间复杂度 先判断n不是素数再进入计算循环</li>
+<li>分解到sqrt(n) 剩下的留n即可</li>
+</ul>
+<h2 id="经典面试题" class="headerLink">
+    <a href="#%e7%bb%8f%e5%85%b8%e9%9d%a2%e8%af%95%e9%a2%98" class="header-mark"></a>经典面试题</h2><ol>
 <li>new/delete和malloc/free的区别</li>
 </ol>
 <ul>
@@ -389,20 +434,6 @@
     <div class="related-text">相关内容</div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/wxqy/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        title="https://z1.ax1x.com/2023/10/23/piAW5eH.png" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/wxqy/">当代文学前沿问题研究</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
                 <a href="/qianyan/"><img
         
         loading="lazy"
@@ -412,12 +443,12 @@
         alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
         title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/qianyan/">数学前沿专题讨论：遗传算法和统计学习方法</a>
+                <a href="/qianyan/">数学前沿专题讨论</a>
             </h2>
         </div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/c-test/"><img
+                <a href="/blog-css/"><img
         
         loading="lazy"
         src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
@@ -426,35 +457,49 @@
         alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
         title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/c-test/">C&#43;&#43;笔试</a>
+                <a href="/blog-css/">CSS 强化</a>
             </h2>
         </div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/css/"><img
+                <a href="/zzjjxdl/"><img
         
         loading="lazy"
-        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        src="https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAGKJ0.png, https://z1.ax1x.com/2023/10/23/piAGKJ0.png 1.5x, https://z1.ax1x.com/2023/10/23/piAGKJ0.png 2x"
         sizes="auto"
-        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="200"   width="400" ></a>
+        alt="https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
+        title="https://z1.ax1x.com/2023/10/23/piAGKJ0.png" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/css/">CSS</a>
+                <a href="/zzjjxdl/">政治经济学导论</a>
             </h2>
         </div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/zzjjx/"><img
+                <a href="/fhfx/"><img
         
         loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piA8qxO.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piA8qxO.png, https://z1.ax1x.com/2023/10/23/piA8qxO.png 1.5x, https://z1.ax1x.com/2023/10/23/piA8qxO.png 2x"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
         sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piA8qxO.png"
-        title="https://z1.ax1x.com/2023/10/23/piA8qxO.png" height="200"   width="400" ></a>
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        title="https://z1.ax1x.com/2023/10/23/piAW5eH.png" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/zzjjx/">政治经济学</a>
+                <a href="/fhfx/">泛函分析</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/fbhs/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        title="https://z1.ax1x.com/2023/10/23/piAW5eH.png" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/fbhs/">复变函数</a>
             </h2>
         </div>
     
@@ -473,7 +518,7 @@
             <div class="post-info-md"><span><a class="link-to-mardown" href=/c-interview/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
                     </span></div>
             <div class="post-info-share">
-                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结" data-hashtags="温铁军,经济,政治"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/c-interview/" data-hashtag="温铁军"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43;面向对象面试题总结"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43; 面向对象之面试与机考技巧" data-hashtags="温铁军,经济,政治"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/c-interview/" data-hashtag="温铁军"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43; 面向对象之面试与机考技巧" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43; 面向对象之面试与机考技巧"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43; 面向对象之面试与机考技巧"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43; 面向对象之面试与机考技巧"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/c-interview/" data-title="C&#43;&#43; 面向对象之面试与机考技巧"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -485,8 +530,8 @@
         </section>
     </div>
 
-    <div class="post-nav"><a href="/zzjjx/" class="prev" rel="prev" title="政治经济学"><i class="fas fa-angle-left fa-fw"></i>政治经济学</a>
-            <a href="/css/" class="next" rel="next" title="CSS">CSS<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/gdds/" class="prev" rel="prev" title="高等代数学习与备考"><i class="fas fa-angle-left fa-fw"></i>高等代数学习与备考</a>
+            <a href="/blog-css/" class="next" rel="next" title="CSS 强化">CSS 强化<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.

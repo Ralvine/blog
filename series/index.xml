@@ -5,6 +5,13 @@
         <description>Series - 系列 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
             <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/" rel="self" type="application/rss+xml" /><item>
+    <title>象牙塔</title>
+    <link>https://blog.ralvines.top/series/%E8%B1%A1%E7%89%99%E5%A1%94/</link>
+    <pubDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</pubDate><author>
+        <name>Ralvine</name>
+    </author><guid>https://blog.ralvines.top/series/%E8%B1%A1%E7%89%99%E5%A1%94/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>自我成长</title>
     <link>https://blog.ralvines.top/series/%E8%87%AA%E6%88%91%E6%88%90%E9%95%BF/</link>
     <pubDate>Sat, 04 Nov 2023 13:20:40 &#43;0800</pubDate><author>
@@ -17,6 +24,13 @@
     <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
     </author><guid>https://blog.ralvines.top/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>打工人</title>
+    <link>https://blog.ralvines.top/series/%E6%89%93%E5%B7%A5%E4%BA%BA/</link>
+    <pubDate>Tue, 24 Oct 2023 13:20:40 &#43;0800</pubDate><author>
+        <name>Ralvine</name>
+    </author><guid>https://blog.ralvines.top/series/%E6%89%93%E5%B7%A5%E4%BA%BA/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>数据研发与分析</title>
@@ -59,20 +73,6 @@
     <pubDate>Tue, 26 Apr 2022 20:20:40 &#43;0800</pubDate><author>
         <name>Ralvine</name>
     </author><guid>https://blog.ralvines.top/series/%E9%9F%B3%E4%B9%90/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>文化研究</title>
-    <link>https://blog.ralvines.top/series/%E6%96%87%E5%8C%96%E7%A0%94%E7%A9%B6/</link>
-    <pubDate>Sat, 15 Feb 2020 20:20:40 &#43;0800</pubDate><author>
-        <name>Ralvine</name>
-    </author><guid>https://blog.ralvines.top/series/%E6%96%87%E5%8C%96%E7%A0%94%E7%A9%B6/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>人物志</title>
-    <link>https://blog.ralvines.top/series/%E4%BA%BA%E7%89%A9%E5%BF%97/</link>
-    <pubDate>Mon, 20 Feb 2017 20:20:40 &#43;0800</pubDate><author>
-        <name>Ralvine</name>
-    </author><guid>https://blog.ralvines.top/series/%E4%BA%BA%E7%89%A9%E5%BF%97/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -5,7 +5,7 @@
         <description>大数据 - 标签 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
             <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" rel="self" type="application/rss+xml" /><item>
-    <title>大数据理论基础 笔记</title>
+    <title>大数据理论与数据分析</title>
     <link>https://blog.ralvines.top/big-data/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/big-data/</guid>
@@ -265,34 +265,7 @@ Spark Streaming</li>
 <p><figure><a class="lightgallery" href="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp" title="技术栈全貌图" data-thumbnail="https://pic2.zhimg.com/80/v2-69c61bb5482a3d47ee3c134a0becf13d_1440w.webp">
         
     </a></figure></p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>大数据基础 @知乎用户MuDbXQ <a href="https://zhuanlan.zhihu.com/p/84554633" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/84554633</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>大数据(big data)：基础概念 @刘博 <a href="https://zhuanlan.zhihu.com/p/33619503" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/33619503</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>一文给小白讲清数据治理 @POINT小数点数据 <a href="https://zhuanlan.zhihu.com/p/388520475" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/388520475</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p>什么是数据仓库？它和数据库的区别是什么？看这一篇就够了 @麦聪软件首席架构 <a href="https://zhuanlan.zhihu.com/p/433495465" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/433495465</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:5">
-<p>【基础】大数据技术栈介绍 @法映 <a href="https://zhuanlan.zhihu.com/p/138352849" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/138352849</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
-</item><item>
-    <title>数据处理与分析 笔记</title>
-    <link>https://blog.ralvines.top/data-proceed/</link>
-    <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-proceed/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/24/piE1O8f.png" referrerpolicy="no-referrer">
-            </div><h2 id="数据分析理论业务层" class="headerLink">
+<h2 id="数据分析理论业务层" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e5%88%86%e6%9e%90%e7%90%86%e8%ae%ba%e4%b8%9a%e5%8a%a1%e5%b1%82" class="header-mark"></a>数据分析理论（业务层）</h2><ol>
 <li>观测</li>
 </ol>
@@ -385,8 +358,8 @@ Spark Streaming</li>
 </ol>
 <p>自动化：使用算法针对业务目标自动监测和优化。</p>
 <h2 id="数据预处理" class="headerLink">
-    <a href="#%e6%95%b0%e6%8d%ae%e9%a2%84%e5%a4%84%e7%90%86" class="header-mark"></a>数据预处理</h2><h3 id="缺失值1" class="headerLink">
-    <a href="#%e7%bc%ba%e5%a4%b1%e5%80%bc1" class="header-mark"></a>缺失值<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3><ol>
+    <a href="#%e6%95%b0%e6%8d%ae%e9%a2%84%e5%a4%84%e7%90%86" class="header-mark"></a>数据预处理</h2><h3 id="缺失值6" class="headerLink">
+    <a href="#%e7%bc%ba%e5%a4%b1%e5%80%bc6" class="header-mark"></a>缺失值<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></h3><ol>
 <li>直接删除指标：若缺失太多，直接删除指标，该变量作废；如果本身数据源数量很大，或缺失较少，且剔除缺失指标后，剩余数据的其他变量指标仍然在问题域内有效，也可保留该变量。</li>
 <li>替换类似值</li>
 </ol>
@@ -407,8 +380,8 @@ Spark Streaming</li>
 <li>单元格右上角红色三角形：链接到注释。</li>
 <li>冻结窗格：锁定行列，滚动页面时一直可见。</li>
 </ol>
-<h3 id="函数2" class="headerLink">
-    <a href="#%e5%87%bd%e6%95%b02" class="header-mark"></a>函数<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3><h4 id="计数" class="headerLink">
+<h3 id="函数7" class="headerLink">
+    <a href="#%e5%87%bd%e6%95%b07" class="header-mark"></a>函数<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></h3><h4 id="计数" class="headerLink">
     <a href="#%e8%ae%a1%e6%95%b0" class="header-mark"></a>计数</h4><ul>
 <li>COUNT</li>
 <li>COUNTA（包含逻辑值等）</li>
@@ -444,42 +417,43 @@ Spark Streaming</li>
 <h4 id="替换" class="headerLink">
     <a href="#%e6%9b%bf%e6%8d%a2" class="header-mark"></a>替换</h4><p>SUBSTITUTE(text, oldText, newText, [instanceNumber])
 REPLACE(oldText, startNumber, NumberCharacters, newText)</p>
-<h3 id="数据透视表3" class="headerLink">
-    <a href="#%e6%95%b0%e6%8d%ae%e9%80%8f%e8%a7%86%e8%a1%a83" class="header-mark"></a>数据透视表<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h3><div class="footnotes" role="doc-endnotes">
+<h3 id="数据透视表8" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e9%80%8f%e8%a7%86%e8%a1%a88" class="header-mark"></a>数据透视表<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h3><h2 id="可视化tableau9" class="headerLink">
+    <a href="#%e5%8f%af%e8%a7%86%e5%8c%96tableau9" class="header-mark"></a>可视化：Tableau<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></h2><h3 id="常见问题10" class="headerLink">
+    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%9810" class="header-mark"></a>常见问题<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h3><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>缺失值的处理（数学建模-数据预处理） @数学建模BOOM <a href="https://zhuanlan.zhihu.com/p/402497542" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/402497542</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>大数据基础 @知乎用户MuDbXQ <a href="https://zhuanlan.zhihu.com/p/84554633" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/84554633</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>Excel函数公式大全(图文详解) @真假斗士 <a href="https://zhuanlan.zhihu.com/p/436372294" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/436372294</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>大数据(big data)：基础概念 @刘博 <a href="https://zhuanlan.zhihu.com/p/33619503" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/33619503</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p>Excel基础操作 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>一文给小白讲清数据治理 @POINT小数点数据 <a href="https://zhuanlan.zhihu.com/p/388520475" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/388520475</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>什么是数据仓库？它和数据库的区别是什么？看这一篇就够了 @麦聪软件首席架构 <a href="https://zhuanlan.zhihu.com/p/433495465" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/433495465</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>【基础】大数据技术栈介绍 @法映 <a href="https://zhuanlan.zhihu.com/p/138352849" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/138352849</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>缺失值的处理（数学建模-数据预处理） @数学建模BOOM <a href="https://zhuanlan.zhihu.com/p/402497542" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/402497542</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Excel函数公式大全(图文详解) @真假斗士 <a href="https://zhuanlan.zhihu.com/p/436372294" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/436372294</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Excel基础操作 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Tableau数据可视化与仪表盘搭建 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Tableau常见面试题和答案合集：求职面试必备 <a href="https://www.lsbin.com/15371.html" target="_blank" rel="noopener noreferrer">https://www.lsbin.com/15371.html</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</div>
-]]></description>
-</item><item>
-    <title>数据可视化 笔记</title>
-    <link>https://blog.ralvines.top/data-view/</link>
-    <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-view/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/24/piEsjk6.png" referrerpolicy="no-referrer">
-            </div><h2 id="tableau1" class="headerLink">
-    <a href="#tableau1" class="header-mark"></a>Tableau<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="常见问题2" class="headerLink">
-    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%982" class="header-mark"></a>常见问题<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3><div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Tableau数据可视化与仪表盘搭建 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>Tableau常见面试题和答案合集：求职面试必备 <a href="https://www.lsbin.com/15371.html" target="_blank" rel="noopener noreferrer">https://www.lsbin.com/15371.html</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
-]]></description>
+</div>]]></description>
 </item></channel>
 </rss>

@@ -5,49 +5,10 @@
         <description>课程-大四 - 系列 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>ralvine@163.com (Ralvine)</managingEditor>
             <webMaster>ralvine@163.com (Ralvine)</webMaster><lastBuildDate>Tue, 12 Sep 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/%E8%AF%BE%E7%A8%8B-%E5%A4%A7%E5%9B%9B/" rel="self" type="application/rss+xml" /><item>
-    <title>C&#43;&#43;笔试</title>
-    <link>https://blog.ralvines.top/c-test/</link>
+    <title>CSS 强化</title>
+    <link>https://blog.ralvines.top/blog-css/</link>
     <pubDate>Tue, 12 Sep 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/c-test/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
-            </div><ul>
-<li>输入输出
-<ul>
-<li>带空格 getline</li>
-<li>字符串处理 string</li>
-<li>大小写转换
-<ul>
-<li>string: algorithm transform(str.begin(),str.end(),str.begin(),::tolower);</li>
-<li>char: -&lsquo;a&rsquo;+&lsquo;A&rsquo;</li>
-</ul>
-</li>
-<li>进制转换
-<ul>
-<li>bitset</li>
-<li>8(oct), 10(dec), 16(hex), 2(bitset(num))</li>
-</ul>
-</li>
-<li>取整 (int)直接去除小数点后的部分</li>
-</ul>
-</li>
-<li>排序 sort 默认升序 自定义规则
-<ul>
-<li>functional greater<Type></li>
-</ul>
-</li>
-<li>质数 因数分解
-<ul>
-<li>时间复杂度 先判断n不是素数再进入计算循环</li>
-<li>分解到sqrt(n) 剩下的留n即可</li>
-</ul>
-</li>
-</ul>]]></description>
-</item><item>
-    <title>CSS</title>
-    <link>https://blog.ralvines.top/css/</link>
-    <pubDate>Tue, 12 Sep 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/css/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/blog-css/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
             </div><h2 id="css" class="headerLink">
@@ -199,13 +160,48 @@
 </tbody>
 </table>]]></description>
 </item><item>
-    <title>C&#43;&#43;面向对象面试题总结</title>
+    <title>C&#43;&#43; 面向对象之面试与机考技巧</title>
     <link>https://blog.ralvines.top/c-interview/</link>
     <pubDate>Wed, 30 Aug 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about.md</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/c-interview/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
-            </div><ol>
+            </div><h2 id="笔试技巧" class="headerLink">
+    <a href="#%e7%ac%94%e8%af%95%e6%8a%80%e5%b7%a7" class="header-mark"></a>笔试技巧</h2><ol>
+<li>输入输出</li>
+</ol>
+<ul>
+<li>带空格 getline</li>
+<li>字符串处理 string</li>
+<li>大小写转换
+<ul>
+<li>string: <code>&lt;algorithm&gt;</code> <code>transform(str.begin(),str.end(),str.begin(),::tolower);</code></li>
+<li>char: <code>-'a'+'A'</code></li>
+</ul>
+</li>
+<li>进制转换
+<ul>
+<li><code>bitset</code></li>
+<li>8(oct), 10(dec), 16(hex), 2(bitset(num))</li>
+</ul>
+</li>
+<li>取整 (int)直接去除小数点后的部分</li>
+</ul>
+<ol start="2">
+<li>排序 sort 默认升序 自定义规则</li>
+</ol>
+<ul>
+<li><code>functional greater&lt;Type&gt;</code></li>
+</ul>
+<ol start="3">
+<li>质数 因数分解</li>
+</ol>
+<ul>
+<li>时间复杂度 先判断n不是素数再进入计算循环</li>
+<li>分解到sqrt(n) 剩下的留n即可</li>
+</ul>
+<h2 id="经典面试题" class="headerLink">
+    <a href="#%e7%bb%8f%e5%85%b8%e9%9d%a2%e8%af%95%e9%a2%98" class="header-mark"></a>经典面试题</h2><ol>
 <li>new/delete和malloc/free的区别</li>
 </ol>
 <ul>
