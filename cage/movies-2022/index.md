@@ -1,16 +1,14 @@
 # 🎞️ 电影
 
 
-{{< quote-center >}}
-⚠️ 仅记录于影院观影影片和高于四星的日常观影影片。
-{{< /quote-center >}}
-
 <div class="nav-tab">
+  <a href="../tool"><p class="not">< ⚙️ 收藏</p></a>&nbsp;&nbsp;
   <p class="bord">[</p>
   <a href="../movies"><p class="not">2023</p></a>&nbsp;
   <p class="now">2022</p>&nbsp;
   <a href="../movies-earler"><p class="not">更早</p></a>
-  <p class="bord">]</p>
+  <p class="bord">]</p>&nbsp;&nbsp;
+  <a href="../music"><p class="not">🎹 音乐 ></p></a>
 </div>
 
 <div class="culture-list" cover-src="" json-src="books.json">

@@ -1,12 +1,20 @@
 # 📺 剧集
 
 
-{{< quote-center >}}
-⚠️ 仅记录完整追剧剧集和高于四星的略览剧集、电视节目。
-{{< /quote-center >}}
+<div class="nav-tab">
+  <a href="../drama"><p class="not">< 📱 产品</p></a>&nbsp;&nbsp;
+  <p class="bord">[</p>
+  <p class="now">本科</p>&nbsp;
+  <a href="../drama-high"><p class="not">高中</p></a>&nbsp;
+  <a href="../drama-earler"><p class="not">更早</p></a>
+  <p class="bord">]</p>&nbsp;&nbsp;
+  <a href="../drama"><p class="not">< ⚙️ 收藏</p></a>
+</div>
 
-## ⏰ 2023
+<center><br><br>🔐<br>隐藏中</center>
 
+
+<!-- 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinltqU.jpg)"></div>
@@ -32,36 +40,13 @@
   </div>
 </div>
 
-- 东周列国·春秋篇，2023-01 
-- 狂飙，2023-01 
+- 东周列国·春秋篇，2023-01
+- 狂飙，2023-01
 - 三体，2023-01
-
-## ⏰ 2022
-
-- 开端，2022-01
+- 令人心动的 Offer 系列，2023-02
 - 极限挑战系列，2022-01
 - 守护解放西系列，2022-02,03
-- 令人心动的 Offer
-
-## ⏰ 早期精选
-
-- 成龙历险记
-- 隐秘的角落
-- 星游记
 - 巡回检察组
-- 人民的名义
-- 终结者外传 第二季
-- 终结者外传 第一季
-- 千谎百计 第三季
-- 千谎百计 第二季
-- 千谎百计 第一季
-- 说的就是你2
-- 何以笙箫默
 - 扫黑风暴
-- 密电风云
-- 非正式会谈 第一季
-- 流言终结者 第一季
+- 美国工厂 -->
 
----
-
-## 💬 讨论区

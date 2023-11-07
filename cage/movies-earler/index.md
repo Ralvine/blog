@@ -1,19 +1,21 @@
 # 🎞️ 电影
 
 
-{{< quote-center >}}
-⚠️ 仅记录于影院观影影片和高于四星的日常观影影片。
-{{< /quote-center >}}
-
 <div class="nav-tab">
+  <a href="../tool"><p class="not">< ⚙️ 收藏</p></a>&nbsp;&nbsp;
   <p class="bord">[</p>
   <a href="../movies"><p class="not">2023</p></a>&nbsp;
   <a href="../movies-2022"><p class="not">2022</p></a>&nbsp;
   <p class="now">更早</p>
-  <p class="bord">]</p>
+  <p class="bord">]</p>&nbsp;&nbsp;
+  <a href="../music"><p class="not">🎹 音乐 ></p></a>
 </div>
 
+<center><br><br>🔐<br>隐藏中</center>
+
+<!-- 
 - 蜘蛛侠：英雄无归
+- 罗长姐
 - 第六日
 - 功勋
 - **长津湖**
@@ -124,4 +126,4 @@
 - 奇谋妙计五福星
 - 一点就到家
 - 终结者2-3D：超时空战役
-- **阿凡达**
+- **阿凡达** -->

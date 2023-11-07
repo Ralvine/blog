@@ -1,6 +1,6 @@
 .nav-tab {
     // font-family: "glyph-correction","Amstelvar", 'Noto Sans SC', 'Songti SC', 'Charter', 'fantasy', 'Noto Serif SC', serif;
-    text-shadow: 0px 0px 5px rgba(255,255,255,0.5);
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.2);
     display: flex;
     display: flex;
     border-radius: 25px;
@@ -15,6 +15,9 @@
     .bord {
         color: #aaaaaa;
     }
+    [theme=dark] & {
+        box-shadow: 0 0px 30px rgba(255,255,255,0.03);
+    }
     .now {
         color: #333333;
         font-size: 1.3rem;
@@ -22,22 +25,12 @@
         // border-bottom: 1px solid #333333;
         // transition: transform 0.3s ease;
         margin: 0;
-    }
-    .now::before {
-        // transform: scaleX(1);
-        // border-top: 1px solid #333333;
-        background: #333333;
-        content: '';
-        position: absolute;
-        height: 1px;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        transform: scaleX(0);
-        transition: transform 0.2s ease-in-out;
-    }
-    .now:hover::before {
-        transform: scaleX(1);
+        [theme=dark] & {
+            color: #ffffff;
+        }
+        [theme=black] & {
+            color: #ffffff;
+        }
     }
     .not {
         font-size: 1rem;

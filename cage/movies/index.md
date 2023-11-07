@@ -1,16 +1,14 @@
 # 🎞️ 电影
 
 
-{{< quote-center >}}
-⚠️ 仅记录于影院观影影片和高于四星的日常观影影片。
-{{< /quote-center >}}
-
 <div class="nav-tab">
+  <a href="../tool"><p class="not">< ⚙️ 收藏</p></a>&nbsp;&nbsp;
   <p class="bord">[</p>
   <p class="now">2023</p>&nbsp;
   <a href="../movies-2022"><p class="not">2022</p></a>&nbsp;
   <a href="../movies-earler"><p class="not">更早</p></a>
-  <p class="bord">]</p>
+  <p class="bord">]</p>&nbsp;&nbsp;
+  <a href="../music"><p class="not">🎹 音乐 ></p></a>
 </div>
 
 <div class="culture-list" cover-src="" json-src="books.json">
@@ -290,3 +288,6 @@
     </div>
   </div>
 </div>
+
+- 监视资本主义：智能陷阱，2023-03-21
+- 1950他们正年轻，2022-10-10
