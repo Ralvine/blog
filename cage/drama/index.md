@@ -2,13 +2,12 @@
 
 
 <div class="nav-tab">
-  <a href="../drama"><p class="not">< 📱 产品</p></a>&nbsp;&nbsp;
   <p class="bord">[</p>
   <p class="now">本科</p>&nbsp;
   <a href="../drama-high"><p class="not">高中</p></a>&nbsp;
   <a href="../drama-earler"><p class="not">更早</p></a>
-  <p class="bord">]</p>&nbsp;&nbsp;
-  <a href="../drama"><p class="not">< ⚙️ 收藏</p></a>
+  <p class="bord">]</p>
+  
 </div>
 
 <center><br><br>🔐<br>隐藏中</center>

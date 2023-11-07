@@ -2,13 +2,11 @@
 
 
 <div class="nav-tab">
-  <a href="../tool"><p class="not">< ⚙️ 收藏</p></a>&nbsp;&nbsp;
   <p class="bord">[</p>
   <a href="../movies"><p class="not">2023</p></a>&nbsp;
   <a href="../movies-2022"><p class="not">2022</p></a>&nbsp;
   <p class="now">更早</p>
-  <p class="bord">]</p>&nbsp;&nbsp;
-  <a href="../music"><p class="not">🎹 音乐 ></p></a>
+  <p class="bord">]</p>
 </div>
 
 <center><br><br>🔐<br>隐藏中</center>

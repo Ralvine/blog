@@ -2,13 +2,11 @@
 
 
 <div class="nav-tab">
-  <a href="../tool"><p class="not">< ⚙️ 收藏</p></a>&nbsp;&nbsp;
   <p class="bord">[</p>
   <a href="../movies"><p class="not">2023</p></a>&nbsp;
   <p class="now">2022</p>&nbsp;
   <a href="../movies-earler"><p class="not">更早</p></a>
-  <p class="bord">]</p>&nbsp;&nbsp;
-  <a href="../music"><p class="not">🎹 音乐 ></p></a>
+  <p class="bord">]</p>
 </div>
 
 <div class="culture-list" cover-src="" json-src="books.json">
