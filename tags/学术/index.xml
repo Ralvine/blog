@@ -1,0 +1,122 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>学术 - 标签 - 暮瞻</title>
+        <link>https://blog.ralvines.top/tags/%E5%AD%A6%E6%9C%AF/</link>
+        <description>学术 - 标签 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 01 Jan 2022 13:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E5%AD%A6%E6%9C%AF/" rel="self" type="application/rss+xml" /><item>
+    <title>最优运输与蒙日-安培方程</title>
+    <link>https://blog.ralvines.top/tran/</link>
+    <pubDate>Sat, 01 Jan 2022 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/tran/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/11/05/piQtwA1.jpg" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院（国际化课程）<br>
+🕙 2022-2023 秋冬（线上）<br>
+🧑‍🏫 Jiakun Liu（白圣,李玉婷）<br>
+📝 到课率+结课作业</div>
+        </div>
+    </div>
+<blockquote>
+<p>本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。</p>
+</blockquote>
+<p><strong>参考资料：</strong></p>
+<ul>
+<li>Cedric Villani. 2003. Topics in Optimal Transportation. Graduate Studies in Mathematics 58, American Mathematical Society, Providence, Rhode Island.</li>
+<li>Villani, C., 2009. Optimal Transportation, Old and New, Grundlehren der Math. Wiss. 338. Springer-Verlag, Berlin.</li>
+<li>Figalli, A., 2017. The Monge-Ampere equation and its applications, Zurich Lectures in Advanced Mathematics. European Mathematical Society (EMS).</li>
+<li>Gilbarg, D. and Trudinger, N. S., 1983. Elliptic partial differential equations of second order. Springer-Verlag, Berlin.</li>
+</ul>
+<h2 id="大纲" class="headerLink">
+    <a href="#%e5%a4%a7%e7%ba%b2" class="header-mark"></a>大纲</h2><ul>
+<li><strong>CH0.</strong> 内容简介</li>
+<li><strong>CH1.</strong> Kantorovich对偶泛函</li>
+<li><strong>CH2.</strong> 最优运输的几何性质</li>
+<li><strong>CH3.</strong> Brenier的极化分解定理</li>
+<li><strong>CH4.</strong> Monge-Ampere方程</li>
+<li><strong>CH5.</strong> 严格凸与C1正则性</li>
+<li><strong>CH6.</strong> 自然边值条件与C1,alpha正则性</li>
+<li><strong>CH7.</strong> C2,alpha与高阶正则性</li>
+<li><strong>CH8.</strong> 整体正则性</li>
+</ul>
+<h2 id="课程论文" class="headerLink">
+    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><blockquote>
+<p>分别选取作业范围内的部分题目进行解答.</p>
+</blockquote>
+<h3 id="problem-1" class="headerLink">
+    <a href="#problem-1" class="header-mark"></a>Problem 1.</h3><blockquote>
+<p>Discuss the relationship between Kantorovich&rsquo;s problem:</p>
+<p>$$
+\inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C_k} (\gamma)=\int_{U\times V}c(s,y)d\gamma(x,y)
+$$</p>
+<p>and Monge&rsquo;sproblem:</p>
+<p>$$
+\inf\limits_{t_{\sharp}\mu=v}\mathscr{C_\text{M}}(t)=\int_{\mu}c(x,t(x)d\mu(x).
+$$</p>
+<p>Both two problems are related to the existence and uniqueness of the function $t$ and $\gamma$ given the cost function $c$.</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>First, we let $t$ be a measure preserving function, which satisfying that</p>
+<p>$$t_{\sharp} \mu=v, $$</p>
+<p>$$\int_U c(x,t(x))d\mu(x)=\inf\limits_{t_{\sharp}\mu=v}\mathscr{C}_M(t).$$</p>
+<p>From above, we now construct a corresponding function $\mu_t\in\Gamma(\mu \times v)$, where for $\forall E\subset U\times V$, we have</p>
+<p>$$\gamma_t(C):=\mu({x|(x,t(x))\in E}).$$</p>
+<p>It&rsquo;s easy to observe that for $\forall A\subset U$, by the measure language definition of the measure preserving mapping, we have</p>
+<p>$$\gamma_t(A\times V)=\mu({x|(x,t(x))\in A\times V})=\mu(A).$$</p>
+<p>Additionally, for $\forall B\subset V$, we have</p>
+<p>$$v(B)=\mu({x|(x,t(x))\in U\times B}),$$</p>
+<p>as</p>
+<p>$$t_{\sharp}\mu=v.$$</p>
+<p>Meanwhile</p>
+<p>$$\gamma_t(U\times B)=\mu({x|(x,t(x))\in U\times B})=v(B).$$</p>
+<p>Hence, for the constructed function $\gamma_t$, we know it is product on linear space. Then, by</p>
+<p>$$\int_{U\times V} c(x,y)d\gamma_t (x,y)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C}_k(\gamma),$$</p>
+<p>we get that</p>
+<p>$$\inf\limits_{t_{\sharp}\mu=v} \mathscr{C_\text{M}}(t)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)}\mathscr{C}_k(\gamma).$$</p>
+<p>Finally, as we know, the limitation of the Monge&rsquo;s problem is more strict, requiring that</p>
+<ol>
+<li>$t$ is a mapping of preserving measurability,</li>
+<li>$\gamma$ is just limited on linear space.</li>
+</ol>
+<p>Thus more freedom on the product space means more choices of function $\gamma$, thus there is going to have smaller total cost for Kantorovich&rsquo;s problem.</p>
+<h3 id="problem-2" class="headerLink">
+    <a href="#problem-2" class="header-mark"></a>Problem 2.</h3><blockquote>
+<p>Choose the Problem in subject: a mapping $T$ is a measure preserving ( $T_\sharp f=g$ ) iff $\forall h\in C(V), \int_V h(y)g(y)dy=\int_U h(T(x))f(x)dx.$</p>
+<p>(The definition of the measure preserving given by measure language and analysis language is equivalent.)</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>If $T$ is a mapping of preserving measurablity, then for $\forall E\subset V,$ always $\exists T^{-1}(E)\subset U$ s.t.</p>
+<p>$$\int_{T^{-1}(E)} f(x)dx=\int_E g(y)dy=\int_{T^{-1}(E)}g(Tx)|J|dx.$$</p>
+<p>where $J$ means the Jacobian $\displaystyle\frac{\partial y}{\partial x}$, i.e.</p>
+<p>$$f(x)=g(Tx)|J|, x\in T^{-1}(E)a.s..$$</p>
+<p>Let $E=V$, for $\forall$ continuous function $h$ over $V$, we have</p>
+<p>$$h(Tx)f(x)dx=h(Tx)g(Tx)|J|,x\in T^{-1}(V)a.s..$$</p>
+<p>Then, we can conclude that</p>
+<p>$$\int_U h(Tx)f(x)dx=\int_U h(Tx)g(Tx)|J|dx=\int_V h(y)g(y)dy.$$</p>
+<p>Additionally, we have assumpted that $\forall \in C(V),$ thus we have</p>
+<p>$$\int_V h(y)g(y)dy=\int_U h(T(x)f(x))dx.$$</p>
+<p>Now, for $\forall E\subset V$,  we let</p>
+<p>$$h(y)=\mathbb{I}{y\in E},y\in V,$$</p>
+<p>then we have</p>
+<p>$$\int_E g(y)dy=\int_{U\cap T^{-1(E)}}f(x)dx=\int_{T^{-1}(E)}f(x)dx.$$</p>
+<p>Therefore, we get</p>
+<p>$$T_\sharp f=g.$$</p>
+<h3 id="problem-3" class="headerLink">
+    <a href="#problem-3" class="header-mark"></a>Problem 3.</h3><blockquote>
+<p>Explain the background of Brenier polar factorise.</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>The problem of Monge has stayed with no solution until progress was made in the 1940s. Indeed, only with the work by Kantorovich, it was inserted into a suitable framework which gave the possibility to attack it and, later, to provide solutions and study them.</p>
+<p>Back to the 20 century, the Monge problem was asked, which is difficult to solve. after that, Kantoroich relaxes the optimal transfer problem into the optimal transmission solution, and instead of the Euclidean distance $|x-y|$ and more general measures and spaces, the problem was generalized with very general cost functions $c(x,y)$.</p>
+<p>Kantorovich use the idea of regarding the Monge problem as connected to linear programming, where the cost to be minimized becomes simply $\int_{X\times Y}c d\gamma$. Which means, this linear problem under linear constraints, is possible to prove existence of a solution. Then, by using techniques from convex optimization like duality, we could characterize the optimal solution.</p>
+<p>Now, there is some special cases, particularly if we let the cost $c(x,y)=|x-y|^2$, which is natural and has many application in physical models, for Bernier, who works to prove that the optimal $\gamma$ does not allow this splitting of masses and particles at $x$ are only sent to a unique destination $T(x)$, thus providing a solution to the original problem by Monge. Additionally, he proves a special form for the optimal map:</p>
+<p>For or a convex function $u$, the optimal $T$ is of the form $T(x)=\Delta u(x)$.</p>
+<p>Which makes a strong connection with the Monge-Ampère equation.</p>
+<p>$$|D^2u(x)|=\displaystyle\frac{f(x)}{g(\Delta u(x))}$$</p>
+<p>To the equation above, it is an degenerate, nonlinear, elliptic equation and is in the class of convex functions. Brenier uses result above to conclude the fact that matrices can be written as the product of a symmetric positive-definite matrix and an orthogonal one by prove that vector fields can be written as the composition of the gradient of a convex function and of a measure preserving map. It is the polar factorization theorem for vector maps, and the above narrative is the background to this theory.</p>]]></description>
+</item></channel>
+</rss>

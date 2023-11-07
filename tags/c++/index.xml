@@ -264,262 +264,6 @@
 </ol>
 </div>]]></description>
 </item><item>
-    <title>偏微分方程</title>
-    <link>https://blog.ralvines.top/pde/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pde/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 计算机科学与技术学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 许威威<br>
-📝 50%作业，50%期末</div>
-        </div>
-    </div>
-<p>!!! quote &quot;&quot;
-- 🎓 数学科学学院
-- 🕙 2021-2022 春夏
-- 🧑‍🏫 鲁汪涛
-- 📝 作业，小测，期末考试</p>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><h2 id="ch1-引言" class="headerLink">
-    <a href="#ch1-%e5%bc%95%e8%a8%80" class="header-mark"></a>Ch.1 引言</h2><h3 id="1-发展史" class="headerLink">
-    <a href="#1-%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>1. 发展史</h3><blockquote>
-<p>17 - 微积分 Newton &amp; Lebnitz</p>
-<p>18 - Euler &amp; Bernoulli &amp; Lagrange &amp; Laplace &amp; Poisson</p>
-<p>19 - pde应用 Fourier &amp; Green &amp; Cauchy &amp; Hadamard</p>
-<p>20 - 复杂理论</p>
-<p>21 - 计算机数值分析 &amp; 微分方程数值解</p>
-</blockquote>
-<h3 id="2-基本定义" class="headerLink">
-    <a href="#2-%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>2. 基本定义</h3><h4 id="21-概念" class="headerLink">
-    <a href="#21-%e6%a6%82%e5%bf%b5" class="header-mark"></a>2.1 概念</h4><ul>
-<li><strong>向量：</strong>$x=(x_1,x_2,\cdots,x_n)\in \mathbb{R}^n,x\in \Omega$ 开区域</li>
-<li><strong>函数：</strong>$u:\Omega\rightarrow\mathbb{R}$  偏导$\displaystyle\frac{\partial u}{\partial x_1}=\partial_{x_{1}}u=\partial_{1}u$</li>
-<li><strong>梯度：</strong>$grad/\nabla/Du=(\partial_{1}u,\partial_{2}u,\cdots,\partial_{n}u)$</li>
-<li><strong>散度：</strong>$\vec{F}=(F_1,F_2,\cdots,F_n),\Omega\rightarrow \mathbb{R}^n\Rightarrow div\vec{F}=\displaystyle\sum\limits_{i=1}^n\frac{\partial F_i}{\partial x_i}$</li>
-<li><strong>Hessian矩阵：</strong>$D^2u=\begin{pmatrix}\displaystyle\frac{\partial^2u}{\partial x_1^2}&amp;\displaystyle\frac{\partial^2 u}{\partial x_1x_2}&amp;\cdots&amp;\displaystyle\frac{\partial^2u}{\partial x_1x_n}\\vdots&amp;\vdots&amp;\ddots&amp;\vdots\\displaystyle\frac{\partial^2u}{\partial x_nx_1}&amp;\displaystyle\frac{\partial^2u}{\partial x_nx_2}&amp;\cdots&amp;\displaystyle\frac{\partial^2u}{\partial x_n^2}\end{pmatrix}$</li>
-<li><strong>Laplace算子：</strong> $\Delta u=tr(D^2u)$=$\displaystyle\sum\limits_{i=1}^n\frac{\partial ^2u}{\partial x_i^2}$=$div$($Du$)  散度的梯度</li>
-<li><strong>所有k阶偏导：</strong>$D^ku=\displaystyle\frac{\partial^ku}{\partial x_{i1}\partial x_{i2}\cdots\partial x_{ik}}\in\mathbb{R}^{n^k},n^k个$</li>
-</ul>
-<p>$|D^ku|=(\sum\limits_{i1=1}^n\sum\limits_{i2=1}^n\cdots\sum\limits_{ik=1}^n|\partial_{x1}\partial_{x2}\cdots\partial_{xk}u|)^{1/2}$</p>
-<ul>
-<li><strong>多重指标：</strong>$\alpha=(\alpha_1,\alpha_2,\cdots,\alpha_n), 阶|\alpha|=\alpha_1+\alpha_2+\cdots+\alpha_n$ 去重</li>
-</ul>
-<p>$D^\alpha u=\partial_{x1}^{\alpha1}\partial_{x1}^{\alpha2}\cdots\partial_{x1}^{\alpha n}\Rightarrow|D^ku|=(\sum\limits_{|\alpha|=k}|D^\alpha u|^2)^{1/2}$</p>
-<ul>
-<li><strong>偏微分方程：</strong></li>
-</ul>
-<p>$F(D^ku(x),D^{k-1}u(x),\cdots,Du(x),u(x),x)=0, x\in\Omega.$ k阶</p>
-<p>$\displaystyle\left{\begin{array}{l}
-F:\mathbb{R}^{n^k}\times\mathbb{R}^{n^{k-1}}\times\cdots\times\mathbb{R}^{n}\times\mathbb{R}\times\Omega\rightarrow\mathbb{R}.（已知）\
-u:\Omega\rightarrow\mathbb{R}.（未知）\
-\end{array}\right.$</p>
-<h4 id="22-线性空间" class="headerLink">
-    <a href="#22-%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>2.2 线性空间</h4><ul>
-<li>
-<p><strong>函数：</strong>$u\rightarrow C(\Omega), ||u||<em>{C(\Omega)}=\sup\limits</em>{x\in\Omega}|u(x)|.$</p>
-</li>
-<li>
-<p><strong>k次连续可微函数：</strong>$||u||<em>{C^k(\Omega)}=\sup\limits</em>{x\in\Omega}|u(x)|+\displaystyle\sum\limits_{|\alpha|=1}^2\sup\limits_{x\in\Omega}|D^\alpha u(x)|.$</p>
-</li>
-<li>
-<p><strong>支集：</strong>$spt\space u=\overline{{ x\in\Omega|u(x)\neq0}}.$所有满足$u(x)\neq0$点集在$\Omega$上的闭包</p>
-</li>
-<li>
-<p>$C_0^k$ 具有紧支集的函数类；$C^\infty(\Omega)=\bigcap\limits_{k=1}^\infty C^k(\Omega)$任意阶偏导存在且连续的函数类</p>
-</li>
-</ul>
-<h4 id="23-解的光滑性" class="headerLink">
-    <a href="#23-%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>2.3 解的光滑性</h4><p>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</p>
-<h4 id="24-分类" class="headerLink">
-    <a href="#24-%e5%88%86%e7%b1%bb" class="header-mark"></a>2.4 分类</h4><ul>
-<li>
-<p><strong>线性：</strong>$\displaystyle\sum\limits_{|\alpha|\leq k}a_{\alpha}(x)D^{\alpha}u=f(x)$</p>
-</li>
-<li>
-<p><strong>半线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}(x)D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
-</li>
-<li>
-<p><strong>拟线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}[D^{k-1}u(x),\cdots,Du(x),u(x),x]D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
-</li>
-<li>
-<p>**完全非线性：**非线性依赖$D^ku$</p>
-</li>
-</ul>
-<h3 id="3-实例" class="headerLink">
-    <a href="#3-%e5%ae%9e%e4%be%8b" class="header-mark"></a>3 实例</h3><ol>
-<li><strong>Laplace方程：</strong>$\Delta u=0$</li>
-<li><strong>特征值方程：</strong>$\Delta u+\lambda u=0$</li>
-<li><strong>热方程：</strong>$u_t-a^2\Delta u=0(a&gt;0)$</li>
-<li>&hellip;</li>
-</ol>
-<h3 id="4-椭圆型" class="headerLink">
-    <a href="#4-%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>4 椭圆型&amp;</h3><h3 id="5-适定性" class="headerLink">
-    <a href="#5-%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>5 适定性</h3><h4 id="51-定义" class="headerLink">
-    <a href="#51-%e5%ae%9a%e4%b9%89" class="header-mark"></a>5.1 定义</h4><ul>
-<li>
-<p>**定解问题：**PDE+条件</p>
-</li>
-<li>
-<p>**适定：**解存在、唯一、连续依赖已知函数</p>
-</li>
-<li>
-<p>**形式解：**对实际问题假设解的光滑性以求出表达式（先验估计）</p>
-</li>
-<li>
-<p>$\Omega$ - 开域、$\overline\Omega$ - 闭包、$\partial\Omega$ - 边界</p>
-<p>$\mathbb{R}_+^n={x=(x_1,\cdots,x_n)\in\mathbb{R}^n|x_n&gt;0}$ 上半空间</p>
-<p>$\mathbb{R}<em>+^1=\mathbb{R}</em>+,\space\mathbb{R}<em>+^{n+1}=\mathbb{R}</em>+^n\times\mathbb{R}_+$</p>
-</li>
-<li>
-<p><strong>闭球：</strong>$B(x,r),\space 体积\space\alpha(n)r^n=$</p>
-<p>…………………………</p>
-</li>
-</ul>
-<h4 id="52-定理" class="headerLink">
-    <a href="#52-%e5%ae%9a%e7%90%86" class="header-mark"></a>5.2 定理</h4><ul>
-<li>
-<p><strong>Green 公式：</strong></p>
-<p>…………………………</p>
-</li>
-</ul>
-<h2 id="ch2-位势方程" class="headerLink">
-    <a href="#ch2-%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch.2 位势方程</h2><h3 id="1-possion方程" class="headerLink">
-    <a href="#1-possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>1 Possion方程</h3><p>$-\Delta u=f(x)$</p>
-<h3 id="2-调和函数" class="headerLink">
-    <a href="#2-%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>2 调和函数</h3><p>$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$</p>
-<h2 id="ch3-热方程" class="headerLink">
-    <a href="#ch3-%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch.3 热方程</h2><h3 id="1-基本定义" class="headerLink">
-    <a href="#1-%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>1 基本定义</h3><h4 id="11-热方程" class="headerLink">
-    <a href="#11-%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>1.1 热方程</h4><ul>
-<li><strong>基本形式：</strong>$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t&gt;0$</li>
-<li><strong>推导</strong></li>
-<li>**反应扩散方程：**反应项、扩散项</li>
-</ul>
-<h4 id="12-概念" class="headerLink">
-    <a href="#12-%e6%a6%82%e5%bf%b5" class="header-mark"></a>1.2 概念</h4><ul>
-<li>
-<p><strong>定解问题：</strong></p>
-<ul>
-<li>
-<p><strong>定解条件</strong></p>
-<ul>
-<li>
-<p><strong>初始条件：</strong>$u(x,0)=\varphi (x)$</p>
-</li>
-<li>
-<p>**边值条件：**边界分布或外围介质影响（$x\in\partial\Omega,t\ge0$）</p>
-<p>$u(x,t)=g(x,t)$. $g=const$ 恒温</p>
-<p>$k\frac{\partial}{\partial\displaystyle\vec{n}}u(x,t)=g(x,t)$. $g\ge0$ 热量流入；$g\equiv0$ 绝热</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>偏微分方程</strong></p>
-</li>
-</ul>
-</li>
-<li>
-<p>**函数集：**所有$Q$内关于$x$二阶偏导连续，关于$t$一阶偏导连续函数</p>
-<p>$C^{2,1}(Q)={u\in C(Q)|u_t,u_{xi},u_{xixj}\in C(Q);i,j=1,\cdots,n}$</p>
-</li>
-<li>
-<p>**古典解：**热方程在上述集中的解</p>
-</li>
-<li>
-<p>$C^{1,0}(Q)$</p>
-</li>
-</ul>
-<h3 id="2-初值问题" class="headerLink">
-    <a href="#2-%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>2 初值问题</h3><h4 id="21-fourier" class="headerLink">
-    <a href="#21-fourier" class="header-mark"></a>2.1 Fourier</h4><ul>
-<li>
-<p><strong>Fourier 级数展开</strong></p>
-<p>$f(x)\in C^1(\mathbb{R}),\space\forall l&gt;0,\space x\in(-l,l)$</p>
-<p>$f(x)=\displaystyle\frac{a_0}{2}+\displaystyle\sum\limits_{k=1}^\infty \big (a_k\cos \displaystyle\frac{k\pi}{l}x+b_k\sin\displaystyle\frac{k\pi}{l}x\big )$</p>
-</li>
-<li>
-<p>**Fourier 积分：**级数极限</p>
-</li>
-</ul>
-<h4 id="22-一维热方程初值问题" class="headerLink">
-    <a href="#22-%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>2.2 一维热方程初值问题</h4><p>$$
-\displaystyle\left{\begin{array}{l}
-\displaystyle\frac{\partial{u}}{\partial t}-a^2\displaystyle\frac{\partial^2u}{\partial x^2}=f(x,t), &amp; (x,t)\in\mathbb{R}\times\mathbb{R}_+\
-u(x,0)=\varphi(x), &amp; x\in\mathbb
-{R}\
-\end{array}\right.
-$$</p>
-<p>!!! quote &quot;&quot;
-- 🎓 数学科学学院
-- 🕙 2022-2023 秋冬
-- 🧑‍🏫 孔德兴
-- 📝 作业，考试</p>
-<h2 id="参考-1" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83-1" class="header-mark"></a>参考</h2><ul>
-<li>《偏微分方程》孔德兴</li>
-</ul>
-<h2 id="ch1-绪论" class="headerLink">
-    <a href="#ch1-%e7%bb%aa%e8%ae%ba" class="header-mark"></a>Ch1. 绪论</h2><h2 id="ch2-一阶方程" class="headerLink">
-    <a href="#ch2-%e4%b8%80%e9%98%b6%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch2. 一阶方程</h2><ul>
-<li>线性方程</li>
-<li>拟线性方程</li>
-<li>偏微分方程组</li>
-</ul>
-<h2 id="ch3-双元二阶方程" class="headerLink">
-    <a href="#ch3-%e5%8f%8c%e5%85%83%e4%ba%8c%e9%98%b6%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch3. 双元二阶方程</h2><h2 id="ch4-波动方程" class="headerLink">
-    <a href="#ch4-%e6%b3%a2%e5%8a%a8%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch4. 波动方程</h2><ul>
-<li>一维
-<ul>
-<li>导出、定解条件</li>
-<li>柯西问题</li>
-<li>初边值问题
-<ul>
-<li>分离变量法</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>高维
-<ul>
-<li>球平均法</li>
-</ul>
-</li>
-<li>传播</li>
-<li>能量不等式</li>
-</ul>
-<h2 id="ch5-热传导方程" class="headerLink">
-    <a href="#ch5-%e7%83%ad%e4%bc%a0%e5%af%bc%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch5. 热传导方程</h2><ul>
-<li>导出、定解条件</li>
-<li>柯西问题
-<ul>
-<li>傅立叶变换法</li>
-</ul>
-</li>
-<li>初边值问题</li>
-<li>极值原理</li>
-</ul>
-<h2 id="ch6-laplace方程" class="headerLink">
-    <a href="#ch6-laplace%e6%96%b9%e7%a8%8b" class="header-mark"></a>Ch6. Laplace方程</h2><ul>
-<li>导出、定解条件</li>
-<li>变分法</li>
-<li>调和函数
-<ul>
-<li>格林公式</li>
-<li>极值原理</li>
-</ul>
-</li>
-<li>格林函数
--镜像法</li>
-<li>强极值原理</li>
-</ul>]]></description>
-</item><item>
     <title>微分方程数值解</title>
     <link>https://blog.ralvines.top/pdeszj/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
@@ -715,6 +459,99 @@ $$</p>
 <p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
 <p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>
 </blockquote>]]></description>
+</item><item>
+    <title>Matlab 曲线拟合工具箱的国产替代产品研发与应用</title>
+    <link>https://blog.ralvines.top/srtp/</link>
+    <pubDate>Wed, 01 Mar 2023 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/srtp/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piADxe0.png" referrerpolicy="no-referrer">
+            </div><h2 id="开发日志" class="headerLink">
+    <a href="#%e5%bc%80%e5%8f%91%e6%97%a5%e5%bf%97" class="header-mark"></a>开发日志</h2><h3 id="2023526" class="headerLink">
+    <a href="#2023526" class="header-mark"></a>2023.5.26</h3><ul>
+<li>在函数说明文档中提供了<code>spapi</code>的部分具体实现方式</li>
+</ul>
+<h3 id="2023523" class="headerLink">
+    <a href="#2023523" class="header-mark"></a>2023.5.23</h3><ul>
+<li>对部分函数进行了单增排列和参数检查上的功能优化</li>
+</ul>
+<h3 id="2023518-会议记录" class="headerLink">
+    <a href="#2023518-%e4%bc%9a%e8%ae%ae%e8%ae%b0%e5%bd%95" class="header-mark"></a>2023.5.18 会议记录</h3><ul>
+<li>
+<p><code>ba_obj</code> 中存放一个 <code>void *</code> 类型的指针，这种类型的指针可以被转化为任意类型的指针，用来指向其保存的数据的内存位置</p>
+<ul>
+<li>在构造 <code>ba_obj</code> 对象的时候传给其构造函数的指针尽量指向堆内存</li>
+<li>若要指向栈内存，对象的生命周期需要开发者自行维护。</li>
+<li>注：若使用栈内存构造一个 <code>ba_obj</code> 对象，在离开当前作用域之后该 <code>ba_obj</code> 对象仍被使用，则其内部指针指向的数据其实已经被释放，此时很可能会引发软件闪退问题</li>
+</ul>
+</li>
+<li>
+<p><code>ba_obj</code> 的设计初衷是用来保存和传递矩阵的，不要对 <code>ba_obj</code> 对象写下 <code>get&lt; int / double &gt;()</code></p>
+</li>
+<li>
+<p><code>ba_obj</code> 的构造函数的参数中的指针参数也应该指向堆内存</p>
+</li>
+<li>
+<p><code>ba_obj</code> 不需要指针参数的构造函数内部也是重新 <code>new</code> 了堆内存赋值给其保存的指针的</p>
+</li>
+<li>
+<p>软件中的 <code>int,double</code> 被视为 $1 \times 1$ 的 <code>int,double</code> 矩阵，不存在C++中独立的 <code>int,double</code></p>
+</li>
+<li>
+<p><code>baltam::structure</code> 中保存一个 <code>std::map&lt;std::string, ba_obj_ptr&gt;</code> 作为存储数据的数据结构</p>
+<ul>
+<li>其 <code>map</code> 的 <code>value</code> 是指向 <code>ba_obj</code> 的智能指针</li>
+<li>在给 <code>baltam::structure</code> 使用 <code>set_field(key,value_ptr)</code> 函数添加字段 <code>key</code> 的时候，数据指针<code>value_ptr</code> 应指向堆内存</li>
+</ul>
+</li>
+<li>
+<p>测试脚本的两个目的</p>
+<ul>
+<li>给不熟悉相关理论的用户一个快速上手的示例</li>
+<li>测试函数的功能</li>
+</ul>
+</li>
+<li>
+<p>对于错误输入的处理并不一定要与MATLAB相同，可以更多的考虑相关理论的背景，报错与否一个重要的考量是用户友好</p>
+</li>
+</ul>
+<h3 id="2023516" class="headerLink">
+    <a href="#2023516" class="header-mark"></a>2023.5.16</h3><ul>
+<li>改写并优化了<code>fnval</code>和<code>fnder</code>的测试脚本</li>
+</ul>
+<h3 id="2023513" class="headerLink">
+    <a href="#2023513" class="header-mark"></a>2023.5.13</h3><ul>
+<li>新增<code>spapi</code>函数说明</li>
+</ul>
+<h3 id="202359" class="headerLink">
+    <a href="#202359" class="header-mark"></a>2023.5.9</h3><ul>
+<li>新增测试 <code>test_fnval.m</code> 和 <code>test_fnder.m</code></li>
+</ul>
+<h3 id="2023424" class="headerLink">
+    <a href="#2023424" class="header-mark"></a>2023.4.24</h3><ul>
+<li>优化了函数说明文档，统一了表达方式和字体样式</li>
+<li>更正了<code>fnder</code>和<code>ppmak</code>文档中的错误表述</li>
+</ul>
+<h3 id="2023412-会议记录" class="headerLink">
+    <a href="#2023412-%e4%bc%9a%e8%ae%ae%e8%ae%b0%e5%bd%95" class="header-mark"></a>2023.4.12 会议记录</h3><ul>
+<li>介绍开发环境与插件的机制及开发规范，具体可见
+<a href="http://183.66.214.98:20005/numerical_computation/style_guide/-/wikis/C&#43;&#43;-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83" target="_blank" rel="noopener noreferrer">C++ 开发规范</a>
+<a href="https://www.bilibili.com/video/BV1SW4y1j71Y/?spm_id_from=333.999.0.0&amp;vd_source=ee756967a7f488a76fc48a6117203f55" target="_blank" rel="noopener noreferrer">mac操作系统使用安装北太天元</a></li>
+<li>内核的使用文档，具体可见 <code>spline/deps/core/share/doc/html</code></li>
+<li>报bug的方式：在gitlab中的议题中报</li>
+<li>介绍源码的调试方法，文档可见
+<a href="http://183.66.214.98:20005/numerical_computation/style_guide/-/wikis/CLion%E8%B0%83%E8%AF%95baltam%E4%BE%9D%E8%B5%96%E7%9A%84%E5%8A%A8%E6%80%81%E5%BA%93" target="_blank" rel="noopener noreferrer">CLion调试baltam依赖的动态库</a></li>
+<li>讲解test测试脚本的书写和保留及函数说明文档的书写</li>
+</ul>
+<h3 id="202349" class="headerLink">
+    <a href="#202349" class="header-mark"></a>2023.4.9</h3><ul>
+<li>在<code>.gitignore</code>新增了对部分开发环境下冗余文件的忽略</li>
+</ul>
+<h3 id="202347" class="headerLink">
+    <a href="#202347" class="header-mark"></a>2023.4.7</h3><ul>
+<li>新增 <code>fn2fm</code> 函数功能 <code>ns = fn2fm(s,form)</code>的使用文档</li>
+<li>新增 <code>fnder</code> 函数功能 <code>ds = fnder(s,order)</code>的使用文档</li>
+</ul>]]></description>
 </item><item>
     <title>数据结构与算法</title>
     <link>https://blog.ralvines.top/dsa/</link>

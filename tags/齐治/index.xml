@@ -1,0 +1,40 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>齐治 - 标签 - 暮瞻</title>
+        <link>https://blog.ralvines.top/tags/%E9%BD%90%E6%B2%BB/</link>
+        <description>齐治 - 标签 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E9%BD%90%E6%B2%BB/" rel="self" type="application/rss+xml" /><item>
+    <title>复变函数</title>
+    <link>https://blog.ralvines.top/fbhs/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/fbhs/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 齐治<br>
+📝 40%作业，60%期末</div>
+        </div>
+    </div>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<li>《Complex Analysis》, Stein.</li>
+<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=47986&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
+<li>复变函数华师版讲义 @陆俊</li>
+</ul>
+<h2 id="ch1-复分析预备知识" class="headerLink">
+    <a href="#ch1-%e5%a4%8d%e5%88%86%e6%9e%90%e9%a2%84%e5%a4%87%e7%9f%a5%e8%af%86" class="header-mark"></a>Ch1. 复分析预备知识</h2><h2 id="ch2-柯西定理及应用" class="headerLink">
+    <a href="#ch2-%e6%9f%af%e8%a5%bf%e5%ae%9a%e7%90%86%e5%8f%8a%e5%ba%94%e7%94%a8" class="header-mark"></a>Ch2. 柯西定理及应用</h2><h2 id="ch3-亚纯函数及对数" class="headerLink">
+    <a href="#ch3-%e4%ba%9a%e7%ba%af%e5%87%bd%e6%95%b0%e5%8f%8a%e5%af%b9%e6%95%b0" class="header-mark"></a>Ch3. 亚纯函数及对数</h2><h2 id="ch5-全函数" class="headerLink">
+    <a href="#ch5-%e5%85%a8%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch5. 全函数</h2><h2 id="ch7-留数定理" class="headerLink">
+    <a href="#ch7-%e7%95%99%e6%95%b0%e5%ae%9a%e7%90%86" class="header-mark"></a>Ch7. 留数定理*</h2><h2 id="ch8-椭圆函数" class="headerLink">
+    <a href="#ch8-%e6%a4%ad%e5%9c%86%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch8. 椭圆函数*</h2><h2 id="ch10-theta函数" class="headerLink">
+    <a href="#ch10-theta%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch10. $\Theta$函数*</h2><h2 id="华师版" class="headerLink">
+    <a href="#%e5%8d%8e%e5%b8%88%e7%89%88" class="header-mark"></a>华师版</h2>]]></description>
+</item></channel>
+</rss>
