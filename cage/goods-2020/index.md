@@ -11,14 +11,14 @@
   <p class="bord">]</p>
 </div>
 
-🔖 终端
+<h2>🔖 终端</h2>
 
 - iPhone 11 [购买]
 - AirPods Pro [购买]
 - iPad Air 3 [购买]
 - Mi 10 Pro [购买]
 
-🔖 App
+<h2>🔖 App</h2>
 
 - MarginNote
 - 钱迹

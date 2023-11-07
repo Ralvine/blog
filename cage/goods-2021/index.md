@@ -11,7 +11,7 @@
   <p class="bord">]</p>
 </div>
 
-🔖 终端
+<h2>🔖 终端</h2>
 
 - MacBook Pro 14 (2021) [购买]
 - Smart Keyboard Folio [购买]
@@ -23,7 +23,7 @@
 - iPhone 12 Pro [购买]
 - iPhone 11 官方硅胶保护壳 [购买]
 
-🔖 App
+<h2>🔖 App</h2>
 
 - 阅读记录
 - Goodnotes

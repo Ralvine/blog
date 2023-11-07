@@ -11,7 +11,7 @@
   <p class="bord">]</p>
 </div>
 
-🔖 终端
+<h2>🔖 终端</h2>
 
 - MacBook Pro 13 (M1)
 - MacBook Pro 16 (2019)
@@ -25,7 +25,7 @@
 - Sony WH-1000 XM4 [购买]
 - Logi Combo Touch Keyboard [购买]
 
-🔖 App
+<h2>🔖 App</h2>
 
 - 月亮山
 - 番茄to do

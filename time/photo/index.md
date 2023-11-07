@@ -1,6 +1,13 @@
 # 📸 摄影
 
 
+<div class="nav-tab">
+  <p class="bord">[</p>
+  <p class="now">本科</p>&nbsp;
+  <a href="../photo-earler"><p class="not">更早</p></a>
+  <p class="bord">]</p>
+</div>
+
 <div class="subpage-box">
   <div class="subpage-box-cover">
     <a href="./changsha" data-pjax-state="">
@@ -93,7 +100,5 @@
 - 西藏，2021-07
 - 未来科技城，2021-06
 - 上海，2021-05
-- 西安，2020-07
-- 新疆，2019-07
 
 <center><br><br>🔐<br>更多照片搬运中</center>

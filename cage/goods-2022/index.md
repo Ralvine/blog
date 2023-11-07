@@ -11,12 +11,12 @@
   <p class="bord">]</p>
 </div>
 
-🔖 终端
+<h2>🔖 终端</h2>
 
 - iPhone 13 Pro Max [购买]
 - Canon M6 Mark 2 [购买]
 
-🔖 App
+<h2>🔖 App</h2>
 
 - iCost
 - flomo

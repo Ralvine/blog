@@ -11,7 +11,7 @@
   <p class="bord">]</p>
 </div>
 
-🔖 终端
+<h2>🔖 终端</h2>
 
 - 魅蓝 Note [购买]
 - 魅族 Pro6 Plus [购买]
