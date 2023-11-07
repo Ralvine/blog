@@ -24,33 +24,33 @@
 <h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><ol>
 <li>浙大 计算数学</li>
-<li>研究生</li>
-</ol>
+<li>研究生
 <ul>
 <li>数字模拟 投影法求曲面面积</li>
 <li>随机数生成 数值代数 多元非线性方程组求解</li>
 </ul>
+</li>
+</ol>
 <p><strong>研究方向</strong></p>
 <ol>
-<li>图像处理</li>
-</ol>
+<li>图像处理
 <ul>
 <li>图像分割 图像识别</li>
 <li>图像加密 做的比较好</li>
 </ul>
-<ol start="2">
-<li>语义识别</li>
-</ol>
+</li>
+<li>语义识别
 <ul>
 <li>三维点式数据（无人驾驶、激光雷达）</li>
 </ul>
-<ol start="3">
-<li>社区发现</li>
-</ol>
+</li>
+<li>社区发现
 <ul>
 <li>复杂网络</li>
 <li>拟牛顿</li>
 </ul>
+</li>
+</ol>
 <h2 id="遗传算法" class="headerLink">
     <a href="#%e9%81%97%e4%bc%a0%e7%ae%97%e6%b3%95" class="header-mark"></a>遗传算法</h2><h2 id="统计学习方法" class="headerLink">
     <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h2 id="首次展示knn" class="headerLink">
@@ -184,21 +184,21 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
     <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h3><h4 id="预测流程" class="headerLink">
     <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
 <ol>
-<li>对未知类别的数据集中的每个点：</li>
-</ol>
+<li>对未知类别的数据集中的每个点：
 <ul>
 <li>计算已知类别数据集众多点与当前点之间的距离；</li>
 <li>按照距离递增次序排序。</li>
 </ul>
-<ol start="2">
-<li>选取与当前点距离最小的k个点：</li>
-</ol>
+</li>
+<li>选取与当前点距离最小的k个点：
 <ul>
 <li>选定前k个点所在类别的出现频率</li>
 <li>返回前k个点出现频率最高的类别作为当前点的预测分类</li>
 </ul>
 <ol start="3">
 <li>重复步骤，完成对所有点的预测分类</li>
+</ol>
+</li>
 </ol>
 <h4 id="python实现" class="headerLink">
     <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
@@ -270,13 +270,14 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
     <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h3><h4 id="主要挑战" class="headerLink">
     <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h4><ol>
 <li>前置处理：特征的选择</li>
-<li>模型</li>
-</ol>
+<li>模型
 <ul>
 <li>合适的度量函数</li>
 <li>合适的K值</li>
 <li>降低训练和预测的复杂度</li>
 </ul>
+</li>
+</ol>
 <h4 id="kd树" class="headerLink">
     <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h4><p>一种二叉树数据结构，用于优化搜索算法。</p>
 <p><strong>优势：</strong></p>
@@ -290,14 +291,13 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <h5 id="构造11" class="headerLink">
     <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><ol>
 <li>构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域。</li>
-<li>递归（生成子结点）：</li>
-</ol>
+<li>递归（生成子结点）：
 <ul>
 <li>选择坐标轴和切分点，确定一个超平面</li>
 <li>将当前超矩形区域切分为左右两个子区域</li>
 <li>直到子区域内没有实例时终止。</li>
 </ul>
-<ol start="3">
+</li>
 <li>实例保存在相应的结点上。</li>
 </ol>
 <p><strong>如何选择：</strong></p>
@@ -318,14 +318,13 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <ol>
 <li>在 kd 树中找出包含目标点 x 的叶结点：从根结点出发，递归地向下访问 kd 树。若目标点 x 当前维的坐标小于切分点的坐标，则移动到左子结点，否则移动到右子结点，直到子结点为叶结点为止。</li>
 <li>构建“当前 k 近邻点集”，将该叶结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离。</li>
-<li>递归地向上回退，在每个结点进行以下操作:</li>
-</ol>
+<li>递归地向上回退，在每个结点进行以下操作:
 <ul>
 <li>如果“当前 k 近邻点集”的元素数量 &lt; k，则将该结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离;</li>
 <li>如果“当前 k 近邻点集”的元素数量 = k，但该结点到目标点 x 的距离小于“当前 k 近邻点集”中最远 点到目标点 x 的距离，则将该结点插入“当前 k 近邻点集”，并删除原先的最远点。</li>
 <li>检查另一子结点对应的区域是否与以目标点 x 为球心、以目标点 x 与“当前 k 近邻点集”中最远点的距离为半径的超球体相交。 如果相交，可能在另一个子结点对应的区域内存在距离目标点更近的点，移动到另一个子结点，接着，递归地进行 k 近邻搜索; 如果不相交，向上回退。</li>
 </ul>
-<ol start="4">
+</li>
 <li>当回退到根结点时，搜索结束(若此时“当前 k 近邻点集”中的元素不足 k 个，则需要访问另一半树的结点)。</li>
 <li>最后的“当前 k 近邻点集”中的 k 个点即为 x 的 k 近邻点。</li>
 </ol>
@@ -701,8 +700,8 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
                 <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
             </div><h2 id="笔试技巧" class="headerLink">
     <a href="#%e7%ac%94%e8%af%95%e6%8a%80%e5%b7%a7" class="header-mark"></a>笔试技巧</h2><ol>
-<li>输入输出</li>
-</ol>
+<li>
+<p>输入输出</p>
 <ul>
 <li>带空格 getline</li>
 <li>字符串处理 string</li>
@@ -720,34 +719,32 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </li>
 <li>取整 (int)直接去除小数点后的部分</li>
 </ul>
-<ol start="2">
-<li>排序 sort 默认升序 自定义规则</li>
-</ol>
+</li>
+<li>
+<p>排序 sort 默认升序 自定义规则</p>
 <ul>
 <li><code>functional greater&lt;Type&gt;</code></li>
 </ul>
-<ol start="3">
-<li>质数 因数分解</li>
-</ol>
+</li>
+<li>
+<p>质数 因数分解</p>
 <ul>
 <li>时间复杂度 先判断n不是素数再进入计算循环</li>
 <li>分解到sqrt(n) 剩下的留n即可</li>
 </ul>
-<h2 id="经典面试题" class="headerLink">
-    <a href="#%e7%bb%8f%e5%85%b8%e9%9d%a2%e8%af%95%e9%a2%98" class="header-mark"></a>经典面试题</h2><ol>
-<li>new/delete和malloc/free的区别</li>
+</li>
 </ol>
-<ul>
+<h2 id="经典面试题" class="headerLink">
+    <a href="#%e7%bb%8f%e5%85%b8%e9%9d%a2%e8%af%95%e9%a2%98" class="header-mark"></a>经典面试题</h2><h3 id="newdelete和mallocfree的区别" class="headerLink">
+    <a href="#newdelete%e5%92%8cmallocfree%e7%9a%84%e5%8c%ba%e5%88%ab" class="header-mark"></a>new/delete和malloc/free的区别</h3><ul>
 <li>malloc/free是C/C++的库函数，需要stdlib.h；new/delete是C++的关键字；</li>
 <li>都可用于申请动态内存和释放内存，new/delete在对象创建的时候自动执行构造函数，对象消亡前自动执行析构函数，底层实现其实也是malloc/free</li>
 <li>new无需指定内存块的大小，编译器会根据类型信息自行计算；malloc需要显式地支持所需内存的大小</li>
 <li>new返回<strong>指定类型</strong>的指针，无需进行类型转换；malloc默认返回类型为<strong>void</strong>*，必须强行转换为实际类型的指针</li>
 <li>new内存分配失败时会抛出bad_alloc异常；malloc失败时返回NULL</li>
 </ul>
-<ol start="2">
-<li>malloc的底层实现</li>
-</ol>
-<p>Linux下：</p>
+<h3 id="malloc的底层实现" class="headerLink">
+    <a href="#malloc%e7%9a%84%e5%ba%95%e5%b1%82%e5%ae%9e%e7%8e%b0" class="header-mark"></a>malloc的底层实现</h3><p>Linux下：</p>
 <ul>
 <li>开辟空间小于128K时，通过<strong>brk()函数</strong>
 <ul>
@@ -764,19 +761,15 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </li>
 <li>以上只涉及虚拟内存的分配，直到进程第一次访问其地址时，才会通过缺页中断机制分配到物理页中</li>
 </ul>
-<ol start="3">
-<li>指针和引用的异同点；如何相互转换</li>
-</ol>
-<ul>
+<h3 id="指针和引用的异同点如何相互转换" class="headerLink">
+    <a href="#%e6%8c%87%e9%92%88%e5%92%8c%e5%bc%95%e7%94%a8%e7%9a%84%e5%bc%82%e5%90%8c%e7%82%b9%e5%a6%82%e4%bd%95%e7%9b%b8%e4%ba%92%e8%bd%ac%e6%8d%a2" class="header-mark"></a>指针和引用的异同点；如何相互转换</h3><ul>
 <li>本质：引用是别名，而指针是地址</li>
 <li>指针在运行时可以改变所指向的值，而引用一旦与某个对象绑定之后就不再改变(指向的地址不能改变，但指向的内容可以改变)</li>
 <li>指针变量在符号表上对应的地址值为<strong>指针变量的地址值</strong>，而引用在符号表上对应的地址值为<strong>引用对象的地址值</strong>；因此指针可以改变指向的对象，而引用的对象不能修改</li>
 <li>由于硬件通过地址访问内存位置，因此引用可以理解为一个常量指针，只能绑定到初始化它的对象上</li>
 </ul>
-<ol start="4">
-<li>struct、union的异同</li>
-</ol>
-<ul>
+<h3 id="structunion的异同" class="headerLink">
+    <a href="#structunion%e7%9a%84%e5%bc%82%e5%90%8c" class="header-mark"></a>struct、union的异同</h3><ul>
 <li>struct中每个变量依次存储；union中，每个变量都是从偏移地址零开始存储，同一时刻只有一个成员存储于该地址</li>
 <li>struct内存大小遵循<strong>结构对齐</strong>原则
 <ul>
@@ -787,15 +780,11 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </li>
 <li>union内存大小为其最大成员的整数倍</li>
 </ul>
-<ol start="5">
-<li>extern C的作用</li>
-</ol>
-<p>C++支持<strong>函数重载</strong>，即不同名字空间namespace的两个函数原型声明可以完全相同，或者两个函数同名但参数列表不同；g++编译器会对此进行<strong>name mangling</strong>，生成全局唯一的符号名称，使链接器可以准确识别</p>
+<h3 id="extern-c的作用" class="headerLink">
+    <a href="#extern-c%e7%9a%84%e4%bd%9c%e7%94%a8" class="header-mark"></a>extern C的作用</h3><p>C++支持<strong>函数重载</strong>，即不同名字空间namespace的两个函数原型声明可以完全相同，或者两个函数同名但参数列表不同；g++编译器会对此进行<strong>name mangling</strong>，生成全局唯一的符号名称，使链接器可以准确识别</p>
 <p>C语言不支持函数重载，即不允许同名符号，所以不需要这些工作，因此在C++代码中加入extern C，是为了<strong>链接规范</strong></p>
-<ol start="6">
-<li>memcpy()函数需要注意哪些问题</li>
-</ol>
-<ul>
+<h3 id="memcpy函数需要注意哪些问题" class="headerLink">
+    <a href="#memcpy%e5%87%bd%e6%95%b0%e9%9c%80%e8%a6%81%e6%b3%a8%e6%84%8f%e5%93%aa%e4%ba%9b%e9%97%ae%e9%a2%98" class="header-mark"></a>memcpy()函数需要注意哪些问题</h3><ul>
 <li>
 <p>函数原型声明void *memcpy(void *dest, void *src, unsigned int count);</p>
 </li>
@@ -812,19 +801,15 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <p>n * sizeof(type_name)的写法</p>
 </li>
 </ul>
-<ol start="7">
-<li>strcat、strncat、strcmp、strcpy函数</li>
-</ol>
-<ul>
+<h3 id="strcatstrncatstrcmpstrcpy函数" class="headerLink">
+    <a href="#strcatstrncatstrcmpstrcpy%e5%87%bd%e6%95%b0" class="header-mark"></a>strcat、strncat、strcmp、strcpy函数</h3><ul>
 <li>strcpy拷贝函数，不会判断拷贝大小，也没有任何安全检查，不会检查目的地址内存是否够用；</li>
 <li>strncpy拷贝函数，会计算复制字符串的大小，但没有检查目标的边界；</li>
 <li>strcmp比较函数，把src所指向的字符串与dest所指向的字符串进行比较，若dest与src的前n个字符相同，则返回0；若dest大于src，则返回大于0的值；若dest小于src，则返回小于0的值</li>
 <li>strcat功能是将两个char类型连接；strncat功能是在字符串的结尾追加n个字符</li>
 </ul>
-<ol start="8">
-<li>机器大小端问题</li>
-</ol>
-<p>大端指数据的<strong>高字节</strong>保存在内存的<strong>低地址</strong>中，数据的<strong>低字节</strong>保存在内存的<strong>高地址</strong>中；小端与此相反。</p>
+<h3 id="机器大小端问题" class="headerLink">
+    <a href="#%e6%9c%ba%e5%99%a8%e5%a4%a7%e5%b0%8f%e7%ab%af%e9%97%ae%e9%a2%98" class="header-mark"></a>机器大小端问题</h3><p>大端指数据的<strong>高字节</strong>保存在内存的<strong>低地址</strong>中，数据的<strong>低字节</strong>保存在内存的<strong>高地址</strong>中；小端与此相反。</p>
 <ul>
 <li>小端：强制转换数据不需要调整字节内容，1、2、4字节的存储方式一样</li>
 <li>大端：符号位的判定固定为第一个字节，很容易判断正负</li>
@@ -833,70 +818,54 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <ul>
 <li>union从低地址开始存，同一时间内只有一个成员占用内存；修改其中一个成员的值必然会影响另一个成员的值</li>
 </ul>
-<ol start="9">
-<li>static的用法（定义和用途）</li>
-</ol>
-<p>修饰</p>
+<h3 id="static的用法定义和用途" class="headerLink">
+    <a href="#static%e7%9a%84%e7%94%a8%e6%b3%95%e5%ae%9a%e4%b9%89%e5%92%8c%e7%94%a8%e9%80%94" class="header-mark"></a>static的用法（定义和用途）</h3><p>修饰</p>
 <ul>
 <li>局部变量：使其变为<strong>静态存储方式</strong>（静态数据区），函数执行完成之后不会被释放，而是继续保存在内存中；</li>
 <li>全局变量：使其只在本文件内部有效，其他文件不可链接或引用该变量；</li>
 <li>函数：静态函数，即函数只在本文件内部有效，对其他文件不可见；避免同名干扰，同时保护</li>
 </ul>
-<ol start="10">
-<li>const的用法（定义和用途）</li>
-</ol>
-<p>const起到<strong>强制保护</strong>的修饰作用，可以预防意外改动，提高程序的健壮性</p>
+<h3 id="const的用法定义和用途" class="headerLink">
+    <a href="#const%e7%9a%84%e7%94%a8%e6%b3%95%e5%ae%9a%e4%b9%89%e5%92%8c%e7%94%a8%e9%80%94" class="header-mark"></a>const的用法（定义和用途）</h3><p>const起到<strong>强制保护</strong>的修饰作用，可以预防意外改动，提高程序的健壮性</p>
 <ul>
 <li>const修饰常量：定义时就初始化，以后不能更改；</li>
 <li>const修饰形参：func(const int a); 该形参在函数里不能改变；</li>
 <li>const修饰类成员函数：const类成员函数不能改变成员变量的数值</li>
 </ul>
-<ol start="11">
-<li>const常量和define的区别（编译阶段、安全性、内存占用等）</li>
-</ol>
-<ul>
+<h3 id="const常量和define的区别编译阶段安全性内存占用等" class="headerLink">
+    <a href="#const%e5%b8%b8%e9%87%8f%e5%92%8cdefine%e7%9a%84%e5%8c%ba%e5%88%ab%e7%bc%96%e8%af%91%e9%98%b6%e6%ae%b5%e5%ae%89%e5%85%a8%e6%80%a7%e5%86%85%e5%ad%98%e5%8d%a0%e7%94%a8%e7%ad%89" class="header-mark"></a>const常量和define的区别（编译阶段、安全性、内存占用等）</h3><ul>
 <li>const定义的常量有类型名字，存放在内存的静态区域中，在编译时确定其值；</li>
 <li>define定义的常量是没有类型的一个<strong>立即数</strong>，编译器会在预处理阶段将程序中所有使用到该常量的地方进行<strong>拷贝替换</strong>；</li>
 <li>由于define的拷贝有很多份，故宏定义的内存占用要高得多</li>
 </ul>
-<ol start="12">
-<li>volatile的用法</li>
-</ol>
-<p>被定义为volatile的变量可能会被意想不到地改变，编译器不会对volatile变量有关的运算进行<strong>编译优化</strong>：每次使用该变量必须从内存地址中读取，而不是保存在寄存器中的备份</p>
+<h3 id="volatile的用法" class="headerLink">
+    <a href="#volatile%e7%9a%84%e7%94%a8%e6%b3%95" class="header-mark"></a>volatile的用法</h3><p>被定义为volatile的变量可能会被意想不到地改变，编译器不会对volatile变量有关的运算进行<strong>编译优化</strong>：每次使用该变量必须从内存地址中读取，而不是保存在寄存器中的备份</p>
 <p>用到volatile的几种情况</p>
 <ul>
 <li>并行设备的硬件寄存器（如状态寄存器）</li>
 <li>中断服务子程序会访问到的非自动变量</li>
 <li>多线程应用中被几个任务共享的变量</li>
 </ul>
-<ol start="13">
-<li>常量指针、指针常量、常量引用（没有引用常量）</li>
-</ol>
-<ul>
+<h3 id="常量指针指针常量常量引用没有引用常量" class="headerLink">
+    <a href="#%e5%b8%b8%e9%87%8f%e6%8c%87%e9%92%88%e6%8c%87%e9%92%88%e5%b8%b8%e9%87%8f%e5%b8%b8%e9%87%8f%e5%bc%95%e7%94%a8%e6%b2%a1%e6%9c%89%e5%bc%95%e7%94%a8%e5%b8%b8%e9%87%8f" class="header-mark"></a>常量指针、指针常量、常量引用（没有引用常量）</h3><ul>
 <li>常量指针即常量的指针，指针所指向的是个常量，可以被赋值为变量的地址，但是不能通过这个指针来修改</li>
 <li>指针常量本质是一个常量，指针所指向的值不可以改变，但指向的地址所对应的内容可以变化</li>
 </ul>
 <p>（具体参考问题17）</p>
-<ol start="14">
-<li>变量的作用域（全局变量和局部变量）</li>
-</ol>
-<ul>
+<h3 id="变量的作用域全局变量和局部变量" class="headerLink">
+    <a href="#%e5%8f%98%e9%87%8f%e7%9a%84%e4%bd%9c%e7%94%a8%e5%9f%9f%e5%85%a8%e5%b1%80%e5%8f%98%e9%87%8f%e5%92%8c%e5%b1%80%e9%83%a8%e5%8f%98%e9%87%8f" class="header-mark"></a>变量的作用域（全局变量和局部变量）</h3><ul>
 <li>全局变量：在所有函数体外部定义的，程序所在部分都可以使用，不受作用域的影响（生命期一直到程序的结束）</li>
 <li>局部变量：局限于作用域内，默认为auto关键字修饰，即进入作用域时自动生成，离开作用域时自动消失；</li>
 <li>局部变量可以和全局变量重名，在局部变量作用域范围内，全局变量失效，采用的是局部变量的值</li>
 </ul>
-<ol start="15">
-<li>sizeof和strlen</li>
-</ol>
-<ul>
+<h3 id="sizeof和strlen" class="headerLink">
+    <a href="#sizeof%e5%92%8cstrlen" class="header-mark"></a>sizeof和strlen</h3><ul>
 <li>sizeof是一个操作符或关键字，不是一个函数，而strlen是一个函数</li>
 <li>sizeof返回一个对象或类型所占的内存字节数，不会对其中的数据或指针做运算</li>
 <li>strlen返回一个字符串的长度，不包括&rsquo;/0'</li>
 </ul>
-<ol start="16">
-<li>sizeof(struct)和内存对齐</li>
-</ol>
-<p>内存对齐作用：</p>
+<h3 id="sizeofstruct和内存对齐" class="headerLink">
+    <a href="#sizeofstruct%e5%92%8c%e5%86%85%e5%ad%98%e5%af%b9%e9%bd%90" class="header-mark"></a>sizeof(struct)和内存对齐</h3><p>内存对齐作用：</p>
 <ul>
 <li>移植原因：某些硬件平台只能在某些特定地址处取特定类型的数据；</li>
 <li>性能原因：数据结构(尤其是栈)应尽可能在自然边界上对齐，未对齐内存需要做两次内存访问，对齐内存仅需要一次</li>
@@ -911,10 +880,8 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <ul>
 <li>union字节数必须是占用字节数最多的成员的字节数的倍数，而且需要能够容纳其他成员</li>
 </ul>
-<ol start="17">
-<li>char * const，const char *</li>
-</ol>
-<ul>
+<h3 id="char--constconst-char-" class="headerLink">
+    <a href="#char--constconst-char-" class="header-mark"></a>char * const，const char *</h3><ul>
 <li>const char <em>ptr指向字符常量的指针，ptr是一个char</em>类型的常量，所指向的内容不能修改；</li>
 <li>char * const ptr指向字符的指针常数，即const指针，不能修改ptr指针，但可以修改该指针指向的内容</li>
 </ul>]]></description>
@@ -2109,187 +2076,122 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 <li>讲义</li>
 </ul>
 <h2 id="课程论文" class="headerLink">
-    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><p>!!! abstract &ldquo;Decomposition of arbitrary unitary transformations in quantum computing&rdquo;</p>
-<pre><code>### Abstract
-
-In order to achieve universal quantum computing in the way of classical computers, this paper focuses on the method of decomposing any Unitary transformation under n qubits into the most basic Hadamard gate, phase shift gate and CNOT gate, so that based on the physical construction of these three gates, most computing situations can be generally realized. We first demonstrate the decomposability of single Qubit gates based on Hadamard gates and phase shift gates, and consider the fact that dual Qubits gates can be constructed by CNOT gates, further verify that the Unitary transform under arbitrary n qubits can be decomposed into single Qubit gates and double Qubits gates, which provides a basis for discussing the physical implementation of quantum computers.
-
-### Problem narrative
-
-#### Background
-
-We already know that in classical computing, all logical operations can be completed with only three operations, or and not, so as long as the physical construction of these three logic gates is realized, it lays the foundation for the implementation of general-purpose computers. Similarly, in quantum computing, for arbitrary quantum operations under n qubits, they are all Unitary variations due to the requirement of normalization, so the discussion of their universality can be equivalent to whether arbitrary unitary operations can be achieved by a combination of several elementary gates or approximated with arbitrary precision.
-
-#### Goal
-
-It is not an easy task to approximate the general unitary operation or find a set of quantum gates from the above propositions, so this paper is based on the electron spin quantum computing system with electron z-direction spin as the main measurement parameter, and takes the Hadamard gate, phase shift gate and CNOT gate as three basic gates, focusing on verifying the decomposition of any Unitary transform to the above three gates, so as to provide a basis for further discussion of general quantum computing.
-
-### Gate decomposition of single qubit
-
-#### Operational equivalence
-
-We already know that Qubit's Unitary variation can be expressed in terms of a Unitary matrix. 
-
-According to the knowledge of abstract algebra and complex functions, due to
-
-$$U=e^{i\phi}SO_3,$$
-
-i.e. $U\sim SO_3.$
-
-That is, we can use one $SO_3$ matrix to describe it, and then any operation in Qubit is essentially an isometric transformation, that is, the rotation of the Bloch ball.
-
-#### Hadamard gate
-
-Based on the preceding hypothesis, we can define the basis vector of a quantum computing system as
-
-$$|0\rangle_z=(1,0)^T,|1\rangle_z=(0,1)^T.$$
-
-Then define the Hadamard gate as
-
-$$H=\displaystyle\frac{1}{\sqrt{2}}
+    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><p><strong>Decomposition of arbitrary unitary transformations in quantum computing</strong></p>
+<h3 id="abstract" class="headerLink">
+    <a href="#abstract" class="header-mark"></a>Abstract</h3><p>In order to achieve universal quantum computing in the way of classical computers, this paper focuses on the method of decomposing any Unitary transformation under n qubits into the most basic Hadamard gate, phase shift gate and CNOT gate, so that based on the physical construction of these three gates, most computing situations can be generally realized. We first demonstrate the decomposability of single Qubit gates based on Hadamard gates and phase shift gates, and consider the fact that dual Qubits gates can be constructed by CNOT gates, further verify that the Unitary transform under arbitrary n qubits can be decomposed into single Qubit gates and double Qubits gates, which provides a basis for discussing the physical implementation of quantum computers.</p>
+<h3 id="problem-narrative" class="headerLink">
+    <a href="#problem-narrative" class="header-mark"></a>Problem narrative</h3><h4 id="background" class="headerLink">
+    <a href="#background" class="header-mark"></a>Background</h4><p>We already know that in classical computing, all logical operations can be completed with only three operations, or and not, so as long as the physical construction of these three logic gates is realized, it lays the foundation for the implementation of general-purpose computers. Similarly, in quantum computing, for arbitrary quantum operations under n qubits, they are all Unitary variations due to the requirement of normalization, so the discussion of their universality can be equivalent to whether arbitrary unitary operations can be achieved by a combination of several elementary gates or approximated with arbitrary precision.</p>
+<h4 id="goal" class="headerLink">
+    <a href="#goal" class="header-mark"></a>Goal</h4><p>It is not an easy task to approximate the general unitary operation or find a set of quantum gates from the above propositions, so this paper is based on the electron spin quantum computing system with electron z-direction spin as the main measurement parameter, and takes the Hadamard gate, phase shift gate and CNOT gate as three basic gates, focusing on verifying the decomposition of any Unitary transform to the above three gates, so as to provide a basis for further discussion of general quantum computing.</p>
+<h3 id="gate-decomposition-of-single-qubit" class="headerLink">
+    <a href="#gate-decomposition-of-single-qubit" class="header-mark"></a>Gate decomposition of single qubit</h3><h4 id="operational-equivalence" class="headerLink">
+    <a href="#operational-equivalence" class="header-mark"></a>Operational equivalence</h4><p>We already know that Qubit&rsquo;s Unitary variation can be expressed in terms of a Unitary matrix.</p>
+<p>According to the knowledge of abstract algebra and complex functions, due to</p>
+<p>$$U=e^{i\phi}SO_3,$$</p>
+<p>i.e. $U\sim SO_3.$</p>
+<p>That is, we can use one $SO_3$ matrix to describe it, and then any operation in Qubit is essentially an isometric transformation, that is, the rotation of the Bloch ball.</p>
+<h4 id="hadamard-gate" class="headerLink">
+    <a href="#hadamard-gate" class="header-mark"></a>Hadamard gate</h4><p>Based on the preceding hypothesis, we can define the basis vector of a quantum computing system as</p>
+<p>$$|0\rangle_z=(1,0)^T,|1\rangle_z=(0,1)^T.$$</p>
+<p>Then define the Hadamard gate as</p>
+<p>$$H=\displaystyle\frac{1}{\sqrt{2}}
 \left[\begin{array}{cc}
-1&amp;1\\
-1&amp;-1\\
-\end{array}\right]$$
-
-Because of $H^2=I,$ the Hadamard gate is unitary.
-
-Since the given quantum computing system works with the spin of the electron as a parameter, it can be seen that the base vector of the spin is the eigenstate of the electron spin in all directions, and after passing through the Hadamard gate, the resulting transformation is
-
-$$|0\rangle_x\rightarrow|0\rangle_z,|1\rangle_x\rightarrow |1\rangle_z,$$
-
-$$|0\rangle_y\rightarrow-|1\rangle_y,|1\rangle_y\rightarrow -|0\rangle_y,$$
-
-$$|0\rangle_z\rightarrow|0\rangle_x,|1\rangle_z\rightarrow |1\rangle_x.$$
-
-Thus, the Hadamard gate is essentially a turn of the Bloch ball around $(\displaystyle\frac{1}{\sqrt{2}},0,\displaystyle\frac{1}{\sqrt{2}})$ where $\delta=\pi$.
-
-#### Phase shift gate
-
-Define the Phase shift gate as 
-
-$$R_z(\delta)=
+1&amp;1\
+1&amp;-1\
+\end{array}\right]$$</p>
+<p>Because of $H^2=I,$ the Hadamard gate is unitary.</p>
+<p>Since the given quantum computing system works with the spin of the electron as a parameter, it can be seen that the base vector of the spin is the eigenstate of the electron spin in all directions, and after passing through the Hadamard gate, the resulting transformation is</p>
+<p>$$|0\rangle_x\rightarrow|0\rangle_z,|1\rangle_x\rightarrow |1\rangle_z,$$</p>
+<p>$$|0\rangle_y\rightarrow-|1\rangle_y,|1\rangle_y\rightarrow -|0\rangle_y,$$</p>
+<p>$$|0\rangle_z\rightarrow|0\rangle_x,|1\rangle_z\rightarrow |1\rangle_x.$$</p>
+<p>Thus, the Hadamard gate is essentially a turn of the Bloch ball around $(\displaystyle\frac{1}{\sqrt{2}},0,\displaystyle\frac{1}{\sqrt{2}})$ where $\delta=\pi$.</p>
+<h4 id="phase-shift-gate" class="headerLink">
+    <a href="#phase-shift-gate" class="header-mark"></a>Phase shift gate</h4><p>Define the Phase shift gate as</p>
+<p>$$R_z(\delta)=
 \left[\begin{array}{cc}
-1&amp;0\\
-0&amp;e^{i\delta}\\
-\end{array}\right]$$
-
-It is essentially a rotation of the Bloch ball around the z-axis at a counterclockwise angle of $\delta$.
-
-#### Geometric validation of decomposition
-
-When we use the Hadamard gate, we can change the rotation on the z-axis provided by the Phase shift gate to the rotation on the x-axis; Similarly, the y-axis can be moved to the x-axis position with a Phase shift gate, and then the Hadamard gate and the Phase shift gate can be used to obtain the rotation of the y-axis.
-
-Next, by following the inference process of the Euler angle, a single point on the Bloch sphere can be moved to any position on the sphere, and the rigid body transformation $SO_3$ of the entire Bloch sphere can be further described. It is proved that only the Hadamard gate and the phase shift gate can complete any operation on a single Qubit, that is, a single Qubit gate can be successfully constructed.
-
-### Gate decomposition of n qubits
-
-Since dual Qubits gates are controlled single qubits that can be constructed from CNOT gates, it is only necessary to verify that any Unitary transformation under n qubits can be decomposed into a combination of single Qubit gates and double Qubits gates.
-
-#### Construct a single controlled $C-U$ gate
-
-The core is that it has a control qubit, when controlling position 1, do the Unitary transformation $U$ for the operation bit, otherwise do not do the transformation.
-
-For a second-order unitary matrix acting on a single qubit
-
-$$U=\left[\begin{array}{cc}
-e^{i(\delta-\frac{\alpha}{2}-\frac{\beta}{2})}cos\frac{\theta}{2}&amp;-e^{i(\delta-\frac{\alpha}{2}+\frac{\beta}{2})}sin\frac{\theta}{2}\\
-e^{i(\delta+\frac{\alpha}{2}-\frac{\beta}{2})}sin\frac{\theta}{2}&amp;e^{i(\delta+\frac{\alpha}{2}+\frac{\beta}{2})}cos\frac{\theta}{2}\\
-\end{array}\right]$$
-
-by decomposition, we get
-
-$$U=\left[\begin{array}{cc}
-e^{i\delta}&amp;0\\
-0&amp;e^{i\delta}\\
+1&amp;0\
+0&amp;e^{i\delta}\
+\end{array}\right]$$</p>
+<p>It is essentially a rotation of the Bloch ball around the z-axis at a counterclockwise angle of $\delta$.</p>
+<h4 id="geometric-validation-of-decomposition" class="headerLink">
+    <a href="#geometric-validation-of-decomposition" class="header-mark"></a>Geometric validation of decomposition</h4><p>When we use the Hadamard gate, we can change the rotation on the z-axis provided by the Phase shift gate to the rotation on the x-axis; Similarly, the y-axis can be moved to the x-axis position with a Phase shift gate, and then the Hadamard gate and the Phase shift gate can be used to obtain the rotation of the y-axis.</p>
+<p>Next, by following the inference process of the Euler angle, a single point on the Bloch sphere can be moved to any position on the sphere, and the rigid body transformation $SO_3$ of the entire Bloch sphere can be further described. It is proved that only the Hadamard gate and the phase shift gate can complete any operation on a single Qubit, that is, a single Qubit gate can be successfully constructed.</p>
+<h3 id="gate-decomposition-of-n-qubits" class="headerLink">
+    <a href="#gate-decomposition-of-n-qubits" class="header-mark"></a>Gate decomposition of n qubits</h3><p>Since dual Qubits gates are controlled single qubits that can be constructed from CNOT gates, it is only necessary to verify that any Unitary transformation under n qubits can be decomposed into a combination of single Qubit gates and double Qubits gates.</p>
+<h4 id="construct-a-single-controlled-c-u-gate" class="headerLink">
+    <a href="#construct-a-single-controlled-c-u-gate" class="header-mark"></a>Construct a single controlled $C-U$ gate</h4><p>The core is that it has a control qubit, when controlling position 1, do the Unitary transformation $U$ for the operation bit, otherwise do not do the transformation.</p>
+<p>For a second-order unitary matrix acting on a single qubit</p>
+<p>$$U=\left[\begin{array}{cc}
+e^{i(\delta-\frac{\alpha}{2}-\frac{\beta}{2})}cos\frac{\theta}{2}&amp;-e^{i(\delta-\frac{\alpha}{2}+\frac{\beta}{2})}sin\frac{\theta}{2}\
+e^{i(\delta+\frac{\alpha}{2}-\frac{\beta}{2})}sin\frac{\theta}{2}&amp;e^{i(\delta+\frac{\alpha}{2}+\frac{\beta}{2})}cos\frac{\theta}{2}\
+\end{array}\right]$$</p>
+<p>by decomposition, we get</p>
+<p>$$U=\left[\begin{array}{cc}
+e^{i\delta}&amp;0\
+0&amp;e^{i\delta}\
 \end{array}\right]
 \left[\begin{array}{cc}
-e^{-i\frac{\alpha}{2}}&amp;0\\
-0&amp;e^{i\frac{\alpha}{2}}\\
+e^{-i\frac{\alpha}{2}}&amp;0\
+0&amp;e^{i\frac{\alpha}{2}}\
 \end{array}\right]
 \left[\begin{array}{cc}
-cos\frac{\theta}{2}&amp;-sin\frac{\theta}{2}\\
-sin\frac{\theta}{2}&amp;cos\frac{\theta}{2}\\
+cos\frac{\theta}{2}&amp;-sin\frac{\theta}{2}\
+sin\frac{\theta}{2}&amp;cos\frac{\theta}{2}\
 \end{array}\right]
 \left[\begin{array}{cc}
-e^{-i\frac{\beta}{2}}&amp;0\\
-0&amp;e^{i\frac{\beta}{2}}\\
+e^{-i\frac{\beta}{2}}&amp;0\
+0&amp;e^{i\frac{\beta}{2}}\
 \end{array}\right]
-$$
-
-Note
-
-$$\Phi(\delta)=\left[\begin{array}{cc}
-e^{i\delta}&amp;0\\
-0&amp;e^{i\delta}\\
+$$</p>
+<p>Note</p>
+<p>$$\Phi(\delta)=\left[\begin{array}{cc}
+e^{i\delta}&amp;0\
+0&amp;e^{i\delta}\
 \end{array}\right],
 R_z(\delta)=\left[\begin{array}{cc}
-e^{-i\frac{\delta}{2}}&amp;0\\
-0&amp;e^{i\frac{\delta}{2}}\\
+e^{-i\frac{\delta}{2}}&amp;0\
+0&amp;e^{i\frac{\delta}{2}}\
 \end{array}\right],
 R_y(\delta)=\left[\begin{array}{cc}
-cos\frac{\delta}{2}&amp;-sin\frac{\delta}{2}\\
-sin\frac{\delta}{2}&amp;cos\frac{\delta}{2}\\
-\end{array}\right].$$
-
-and
-
-$$A=R_z(\alpha)R_y(\frac{\theta}{2}),B=R_y(-\frac{\theta}{2})R_z(-\frac{\alpha+\beta}{2}),C=R_z(\frac{\beta-\alpha}{2}).$$
-
-Then we know
-
-$$U=\Phi(\delta)A\sigma_x B\sigma_x C, I=ABC.$$
-
-\begin{figure}[h] 
+cos\frac{\delta}{2}&amp;-sin\frac{\delta}{2}\
+sin\frac{\delta}{2}&amp;cos\frac{\delta}{2}\
+\end{array}\right].$$</p>
+<p>and</p>
+<p>$$A=R_z(\alpha)R_y(\frac{\theta}{2}),B=R_y(-\frac{\theta}{2})R_z(-\frac{\alpha+\beta}{2}),C=R_z(\frac{\beta-\alpha}{2}).$$</p>
+<p>Then we know</p>
+<p>$$U=\Phi(\delta)A\sigma_x B\sigma_x C, I=ABC.$$</p>
+<p>\begin{figure}[h]
 \centering
 \includegraphics[width=11cm]{fig1.png}
 \caption{Circuit diagram of $C-U$ gate} \label{fig1}
-\end{figure}
-
-From this, the $C-U$ gate can be constructed.
-
-#### Construct a multi-controlled $C^k-U$ gate
-
-Given $k\in \mathbb{N},k\ge2.$ Back to classical computers, we can construct Toffoli gates and use them to construct k-weight AND gates, similarly, here we need to construct a generality $C^2-U$ gate, and then we can further construct a multi-controlled $C^k-U$ gate to verify its feasibility.
-
-From algebraic knowledge, for any second-order unitary matrix $U$, after Jordan diagonalization and square, we can get the decomposition 
-
-$$U=V^2.$$
-
-Further, there is
-
-$$VV^{\dag}=I.$$
-
-\begin{figure}[h] 
+\end{figure}</p>
+<p>From this, the $C-U$ gate can be constructed.</p>
+<h4 id="construct-a-multi-controlled-ck-u-gate" class="headerLink">
+    <a href="#construct-a-multi-controlled-ck-u-gate" class="header-mark"></a>Construct a multi-controlled $C^k-U$ gate</h4><p>Given $k\in \mathbb{N},k\ge2.$ Back to classical computers, we can construct Toffoli gates and use them to construct k-weight AND gates, similarly, here we need to construct a generality $C^2-U$ gate, and then we can further construct a multi-controlled $C^k-U$ gate to verify its feasibility.</p>
+<p>From algebraic knowledge, for any second-order unitary matrix $U$, after Jordan diagonalization and square, we can get the decomposition</p>
+<p>$$U=V^2.$$</p>
+<p>Further, there is</p>
+<p>$$VV^{\dag}=I.$$</p>
+<p>\begin{figure}[h]
 \centering
 \includegraphics[width=11cm]{fig2.png}
 \caption{Circuit diagram of $C^2-U$ gate} \label{fig2}
-\end{figure}
-
-So we get the $C^2-U$ gate that meets the requirements.
-
-#### General decomposition
-
-In order to extend the conclusion to any unitary transformation in n qubits, we need to verify that it can be implemented into two quantum states, that is, we only need to proof that
-
-$$U^{(2^n)}=\prod\limits_{i=1}^{2^n-1}\prod\limits_{j=0}^{i-1} V_{ij}.$$
-
-Since direct processing is difficult, we follow the process of proving odd and even arrangement in mathematics, swap quantum states one by one, and design the transformation gate shown in the figure, so that the exchange process is until the two quantum states to be transformed through the gate and then return to the original position in turn.
-
-\begin{figure}[h] 
+\end{figure}</p>
+<p>So we get the $C^2-U$ gate that meets the requirements.</p>
+<h4 id="general-decomposition" class="headerLink">
+    <a href="#general-decomposition" class="header-mark"></a>General decomposition</h4><p>In order to extend the conclusion to any unitary transformation in n qubits, we need to verify that it can be implemented into two quantum states, that is, we only need to proof that</p>
+<p>$$U^{(2^n)}=\prod\limits_{i=1}^{2^n-1}\prod\limits_{j=0}^{i-1} V_{ij}.$$</p>
+<p>Since direct processing is difficult, we follow the process of proving odd and even arrangement in mathematics, swap quantum states one by one, and design the transformation gate shown in the figure, so that the exchange process is until the two quantum states to be transformed through the gate and then return to the original position in turn.</p>
+<p>\begin{figure}[h]
 \centering
 \includegraphics[width=11cm]{fig3.png}
 \caption{Circuit diagram of swap gate} \label{fig3}
-\end{figure}
-
-Thus, we achieve the feasibility of the above operation, that is, the decomposition in the general case is also achievable.
-
-### Further discussion of universal quantum computing implementation
-
-The proposition studied in this paper ultimately serves the universality of quantum computing. In fact, when we construct the $C^k-U$ gate, it has been proved that quantum computing can achieve universal classical computing, and the conclusion extension of general decomposition can be better applied to quantum simulation and special quantum computing, so as to meet the completeness of the conclusion in the case of quantum operations under n qubits.
-
-The interesting thing about the above work is that we can feel the inheritance of quantum computing to many theoretical ideas in classical computing. In the course of the author's study this semester, the course has been deeply involved in classical computing, so when it is introduced into the theory of quantum computing, many works have extensive similarities in the core, compared to the calculation itself, how to better prepare quantum states and better use the physical achievements of quantum mechanics is a more profound proposition left to us by this discipline.
-</code></pre>]]></description>
+\end{figure}</p>
+<p>Thus, we achieve the feasibility of the above operation, that is, the decomposition in the general case is also achievable.</p>
+<h3 id="further-discussion-of-universal-quantum-computing-implementation" class="headerLink">
+    <a href="#further-discussion-of-universal-quantum-computing-implementation" class="header-mark"></a>Further discussion of universal quantum computing implementation</h3><p>The proposition studied in this paper ultimately serves the universality of quantum computing. In fact, when we construct the $C^k-U$ gate, it has been proved that quantum computing can achieve universal classical computing, and the conclusion extension of general decomposition can be better applied to quantum simulation and special quantum computing, so as to meet the completeness of the conclusion in the case of quantum operations under n qubits.</p>
+<p>The interesting thing about the above work is that we can feel the inheritance of quantum computing to many theoretical ideas in classical computing. In the course of the author&rsquo;s study this semester, the course has been deeply involved in classical computing, so when it is introduced into the theory of quantum computing, many works have extensive similarities in the core, compared to the calculation itself, how to better prepare quantum states and better use the physical achievements of quantum mechanics is a more profound proposition left to us by this discipline.</p>]]></description>
 </item><item>
     <title>数据科学的数学基础</title>
     <link>https://blog.ralvines.top/ds/</link>

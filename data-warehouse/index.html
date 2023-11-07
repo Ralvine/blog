@@ -12,7 +12,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.ralvines.top/data-warehouse/" /><meta property="og:image" content="https://z1.ax1x.com/2023/10/23/piAtBlV.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-10-22T20:20:40+08:00" />
-<meta property="article:modified_time" content="2023-10-22T20:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
+<meta property="article:modified_time" content="2023-11-06T20:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
 
 
 <meta name="twitter:card" content="summary_large_image"/>
@@ -34,8 +34,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.ralvines.top\/data-warehouse\/"
-        },"genre": "posts","keywords": "产品经理, 数据开发, 数据库","wordcount":  130 ,
-        "url": "https:\/\/blog.ralvines.top\/data-warehouse\/","datePublished": "2023-10-22T20:20:40+08:00","dateModified": "2023-10-22T20:25:40+08:00","publisher": {
+        },"genre": "posts","keywords": "产品经理, 数据开发, 数据库","wordcount":  556 ,
+        "url": "https:\/\/blog.ralvines.top\/data-warehouse\/","datePublished": "2023-10-22T20:20:40+08:00","dateModified": "2023-11-06T20:25:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"authors": [{
                         "@type": "Person",
@@ -173,22 +173,29 @@
         <h2 class="toc-title">目录</h2>
         <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>
-    <li><a href="#数据仓库1">数据仓库</a>
+    <li><a href="#数仓建设规范3">数仓建设规范</a>
       <ul>
+        <li><a href="#架构原则">架构原则</a>
+          <ul>
+            <li><a href="#数仓分层">数仓分层</a></li>
+            <li><a href="#主题域划分">主题域划分</a></li>
+            <li><a href="#数据模型设计">数据模型设计</a></li>
+          </ul>
+        </li>
         <li><a href="#模型">模型</a></li>
         <li><a href="#数据倾斜">数据倾斜</a></li>
       </ul>
     </li>
     <li><a href="#hadoop">Hadoop</a></li>
-    <li><a href="#实例尚硅谷-电商数仓1">实例：尚硅谷-电商数仓</a></li>
+    <li><a href="#实例尚硅谷-电商数仓12">实例：尚硅谷-电商数仓</a></li>
   </ul>
 </nav></div>
     </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">数据仓库与治理</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
                 </span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-category"><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-series"><a href="/series/%E6%95%B0%E6%8D%AE%E7%A0%94%E5%8F%91%E4%B8%8E%E5%88%86%E6%9E%90/"><i class="far fa-list-alt fa-fw"></i>数据研发与分析</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 130 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/data-warehouse/" class="leancloud_visitors" data-flag-title="数据仓库与治理">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-11-06">2023-11-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 556 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/data-warehouse/" class="leancloud_visitors" data-flag-title="数据仓库与治理">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -198,29 +205,64 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#数据仓库1">数据仓库</a>
+    <li><a href="#数仓建设规范3">数仓建设规范</a>
       <ul>
+        <li><a href="#架构原则">架构原则</a>
+          <ul>
+            <li><a href="#数仓分层">数仓分层</a></li>
+            <li><a href="#主题域划分">主题域划分</a></li>
+            <li><a href="#数据模型设计">数据模型设计</a></li>
+          </ul>
+        </li>
         <li><a href="#模型">模型</a></li>
         <li><a href="#数据倾斜">数据倾斜</a></li>
       </ul>
     </li>
     <li><a href="#hadoop">Hadoop</a></li>
-    <li><a href="#实例尚硅谷-电商数仓1">实例：尚硅谷-电商数仓</a></li>
+    <li><a href="#实例尚硅谷-电商数仓12">实例：尚硅谷-电商数仓</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="数据仓库1" class="headerLink">
-    <a href="#%e6%95%b0%e6%8d%ae%e4%bb%93%e5%ba%931" class="header-mark"></a>数据仓库<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="模型" class="headerLink">
+            </div><div class="content" id="content"><h2 id="数仓建设规范3" class="headerLink">
+    <a href="#%e6%95%b0%e4%bb%93%e5%bb%ba%e8%ae%be%e8%a7%84%e8%8c%833" class="header-mark"></a>数仓建设规范<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="架构原则" class="headerLink">
+    <a href="#%e6%9e%b6%e6%9e%84%e5%8e%9f%e5%88%99" class="header-mark"></a>架构原则</h3><h4 id="数仓分层" class="headerLink">
+    <a href="#%e6%95%b0%e4%bb%93%e5%88%86%e5%b1%82" class="header-mark"></a>数仓分层</h4><ol>
+<li>ODS 源</li>
+<li>DW 明细 建模
+<ul>
+<li>DWD (Detail) 清理 规范化</li>
+<li>DWM (Middle) 聚合 中间表</li>
+<li>DWS (Service) 汇总 主题域服务数据 宽表（字段多）</li>
+</ul>
+</li>
+<li>DM 轻汇总</li>
+<li>APP 应用
+<ul>
+<li>数据产品 数据分析 报表</li>
+</ul>
+</li>
+<li>维表层
+<ul>
+<li>高基数：资料表 数据量大</li>
+<li>低基数：配置表</li>
+</ul>
+</li>
+</ol>
+<h4 id="主题域划分" class="headerLink">
+    <a href="#%e4%b8%bb%e9%a2%98%e5%9f%9f%e5%88%92%e5%88%86" class="header-mark"></a>主题域划分</h4><pre class="mermaid">graph LR;
+    A[系统A] --> B(业务过程A)
+    A[系统A] --> C(业务过程B)
+    A[系统A] --> D(业务过程C)
+    B --> E{主题域A}
+    C --> F{主题域A}
+    D --> G{主题域A}
+
+</pre>
+<p>数据域是指面向业务分析，将业务过程或者维度进行抽象的集合。其中，业务过程可以概括为一个个不可拆分的行为事件，在业务过程下，可以定义指标，维度是指度量的环境，如买家下单事件，买家是维度。为保障整个体系的生命力，数据域是需要抽象提炼，并且长期维护和更新的，但不轻易变动。在划分数据域时，既能涵盖当前所有的业务需求，又能在新业务进入时无影响地被包含进已有的数据域中和扩展新的数据域。</p>
+<h4 id="数据模型设计" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e6%a8%a1%e5%9e%8b%e8%ae%be%e8%ae%a1" class="header-mark"></a>数据模型设计</h4><p>普通全量表<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h3 id="模型" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b" class="header-mark"></a>模型</h3><ol>
-<li>星型模型：事实表+维度表
-<figure><a class="lightgallery" href="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp" title="星型模型" data-thumbnail="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp">
-        <img
-            
-            loading="lazy"
-            src="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp"
-            srcset="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp, https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp 1.5x, https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp 2x"
-            sizes="auto"
-            alt="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp">
-    </a></figure></li>
+<li>星型模型：事实表+维度表</li>
 </ol>
 <h3 id="数据倾斜" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e5%80%be%e6%96%9c" class="header-mark"></a>数据倾斜</h3><p>大量的数据集中到了一台或者几台机器上计算。</p>
@@ -235,12 +277,29 @@
 <li>大小倾斜：部分记录大小过大</li>
 </ul>
 <h2 id="hadoop" class="headerLink">
-    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓1" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><div class="footnotes" role="doc-endnotes">
+    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓12" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%9312" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>最强最全面的数仓建设规范指南 @五分钟学大数据 <a href="https://yuanmore.blog.csdn.net/article/details/121265222" target="_blank" rel="noopener noreferrer">https://yuanmore.blog.csdn.net/article/details/121265222</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>生命周期管理矩阵 <figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png" title="大数据之路" data-thumbnail="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png">
+        <img
+            
+            loading="lazy"
+            src="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png"
+            srcset="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png, https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png 1.5x, https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png 2x"
+            sizes="auto"
+            alt="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png">
+    </a></figure>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 <a href="https://zhuanlan.zhihu.com/p/647035072" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/647035072</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div></div>
@@ -325,7 +384,7 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2023-10-22</span>
+                <span>更新于 2023-11-06</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -367,7 +426,10 @@
             <i class="fas fa-comment fa-fw"></i>
         </a>
     </div><link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css" />
-<link rel='stylesheet' href='https://192960944.r.cdn36.com/chinesefonts2/packages/yzklct/dist/有字库龙藏体/result.css' /><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+<link rel='stylesheet' href='https://192960944.r.cdn36.com/chinesefonts2/packages/yzklct/dist/有字库龙藏体/result.css' /><script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: (window.theme === 'dark' ? 'dark' : 'default') });
+</script><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
         <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/extra.css" customAttribute>
         <noscript><link rel="stylesheet" href="/extra.css" customAttribute></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"KEokTvqncSnkpSOc1tsOWa4M-gzGzoHsz","appKey":"IrISHvDjPwnvBj2sxGoiXkKG","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@5.0.1/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://keoktvqn.lc-cn-n1-shared.com","visitor":true}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"desktop-header-typeit":"暮瞻","mobile-header-typeit":"暮瞻"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/valine/Valine.min.js" defer></script><script type="text/javascript" src="/js/valine.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>

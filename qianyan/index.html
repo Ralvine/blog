@@ -288,33 +288,33 @@
 <h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><ol>
 <li>浙大 计算数学</li>
-<li>研究生</li>
-</ol>
+<li>研究生
 <ul>
 <li>数字模拟 投影法求曲面面积</li>
 <li>随机数生成 数值代数 多元非线性方程组求解</li>
 </ul>
+</li>
+</ol>
 <p><strong>研究方向</strong></p>
 <ol>
-<li>图像处理</li>
-</ol>
+<li>图像处理
 <ul>
 <li>图像分割 图像识别</li>
 <li>图像加密 做的比较好</li>
 </ul>
-<ol start="2">
-<li>语义识别</li>
-</ol>
+</li>
+<li>语义识别
 <ul>
 <li>三维点式数据（无人驾驶、激光雷达）</li>
 </ul>
-<ol start="3">
-<li>社区发现</li>
-</ol>
+</li>
+<li>社区发现
 <ul>
 <li>复杂网络</li>
 <li>拟牛顿</li>
 </ul>
+</li>
+</ol>
 <h2 id="遗传算法" class="headerLink">
     <a href="#%e9%81%97%e4%bc%a0%e7%ae%97%e6%b3%95" class="header-mark"></a>遗传算法</h2><h2 id="统计学习方法" class="headerLink">
     <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h2 id="首次展示knn" class="headerLink">
@@ -454,21 +454,21 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
     <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h3><h4 id="预测流程" class="headerLink">
     <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
 <ol>
-<li>对未知类别的数据集中的每个点：</li>
-</ol>
+<li>对未知类别的数据集中的每个点：
 <ul>
 <li>计算已知类别数据集众多点与当前点之间的距离；</li>
 <li>按照距离递增次序排序。</li>
 </ul>
-<ol start="2">
-<li>选取与当前点距离最小的k个点：</li>
-</ol>
+</li>
+<li>选取与当前点距离最小的k个点：
 <ul>
 <li>选定前k个点所在类别的出现频率</li>
 <li>返回前k个点出现频率最高的类别作为当前点的预测分类</li>
 </ul>
 <ol start="3">
 <li>重复步骤，完成对所有点的预测分类</li>
+</ol>
+</li>
 </ol>
 <h4 id="python实现" class="headerLink">
     <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
@@ -546,13 +546,14 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
     <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h3><h4 id="主要挑战" class="headerLink">
     <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h4><ol>
 <li>前置处理：特征的选择</li>
-<li>模型</li>
-</ol>
+<li>模型
 <ul>
 <li>合适的度量函数</li>
 <li>合适的K值</li>
 <li>降低训练和预测的复杂度</li>
 </ul>
+</li>
+</ol>
 <h4 id="kd树" class="headerLink">
     <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h4><p>一种二叉树数据结构，用于优化搜索算法。</p>
 <p><strong>优势：</strong></p>
@@ -566,14 +567,13 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <h5 id="构造11" class="headerLink">
     <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><ol>
 <li>构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域。</li>
-<li>递归（生成子结点）：</li>
-</ol>
+<li>递归（生成子结点）：
 <ul>
 <li>选择坐标轴和切分点，确定一个超平面</li>
 <li>将当前超矩形区域切分为左右两个子区域</li>
 <li>直到子区域内没有实例时终止。</li>
 </ul>
-<ol start="3">
+</li>
 <li>实例保存在相应的结点上。</li>
 </ol>
 <p><strong>如何选择：</strong></p>
@@ -606,14 +606,13 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <ol>
 <li>在 kd 树中找出包含目标点 x 的叶结点：从根结点出发，递归地向下访问 kd 树。若目标点 x 当前维的坐标小于切分点的坐标，则移动到左子结点，否则移动到右子结点，直到子结点为叶结点为止。</li>
 <li>构建“当前 k 近邻点集”，将该叶结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离。</li>
-<li>递归地向上回退，在每个结点进行以下操作:</li>
-</ol>
+<li>递归地向上回退，在每个结点进行以下操作:
 <ul>
 <li>如果“当前 k 近邻点集”的元素数量 &lt; k，则将该结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离;</li>
 <li>如果“当前 k 近邻点集”的元素数量 = k，但该结点到目标点 x 的距离小于“当前 k 近邻点集”中最远 点到目标点 x 的距离，则将该结点插入“当前 k 近邻点集”，并删除原先的最远点。</li>
 <li>检查另一子结点对应的区域是否与以目标点 x 为球心、以目标点 x 与“当前 k 近邻点集”中最远点的距离为半径的超球体相交。 如果相交，可能在另一个子结点对应的区域内存在距离目标点更近的点，移动到另一个子结点，接着，递归地进行 k 近邻搜索; 如果不相交，向上回退。</li>
 </ul>
-<ol start="4">
+</li>
 <li>当回退到根结点时，搜索结束(若此时“当前 k 近邻点集”中的元素不足 k 个，则需要访问另一半树的结点)。</li>
 <li>最后的“当前 k 近邻点集”中的 k 个点即为 x 的 k 近邻点。</li>
 </ol>

@@ -73,12 +73,13 @@
 <li><a href="https://ralvine.github.io/blog/big-data/" target="_blank" rel="noopener noreferrer">大数据理论基础</a>和<a href="https://ralvine.github.io/blog/data-proceed/" target="_blank" rel="noopener noreferrer">数据分析理论</a>，对主要技术栈有所了解学习，其中对<a href="https://ralvine.github.io/blog/data-warehouse/#%e6%95%b0%e6%8d%ae%e5%80%be%e6%96%9c" target="_blank" rel="noopener noreferrer">数据仓库</a>中的各种操作和问题处理有所理解。</li>
 <li><a href="https://ralvine.github.io/blog/data-warehouse/#sql23" target="_blank" rel="noopener noreferrer">SQL</a>相关知识，包括对基本函数和操作的熟悉与相关题目的准备。</li>
 <li><a href="https://ralvine.github.io/blog/data-view/" target="_blank" rel="noopener noreferrer">数据可视化</a>，特别是 Tableau 等 BI 工具的熟悉。</li>
-<li>自我介绍准备。</li>
-</ol>
+<li>自我介绍准备。
 <ul>
 <li>梳理教育、学术科研、项目实践、竞赛和自身技术栈的经历。</li>
 <li>内容结构：背景、经历、匹配度与优势。特别是对该岗位所列要求的匹配和工作职责中各流程、环节所需技术和能力的匹配。</li>
 </ul>
+</li>
+</ol>
 <h2 id="附面经整理1" class="headerLink">
     <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%861" class="header-mark"></a>附：面经整理<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><blockquote>
 <p>实际所投岗位只有一次面试。</p>
@@ -149,8 +150,7 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
     <a href="#%e6%8a%a5%e5%88%b0" class="header-mark"></a>报到</h3><ol>
 <li>培训</li>
 <li>领取工卡</li>
-<li>签署材料</li>
-</ol>
+<li>签署材料
 <ul>
 <li>实习协议书</li>
 <li>保密和知识产权协议</li>
@@ -158,28 +158,25 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>第三方商业秘密协议</li>
 <li>入职登记表</li>
 </ul>
-<ol start="4">
+</li>
 <li>申领电脑</li>
 </ol>
 <h3 id="培训" class="headerLink">
     <a href="#%e5%9f%b9%e8%ae%ad" class="header-mark"></a>培训</h3><ol>
-<li>考勤</li>
-</ol>
+<li>考勤
 <ul>
 <li>周一至周五，八小时制，午餐一小时</li>
 <li>D-Chat App 定位签到签退</li>
 <li>周期从上月21日至本月20日</li>
 </ul>
-<ol start="2">
-<li>实习费</li>
-</ol>
+</li>
+<li>实习费
 <ul>
 <li>月底最后一个工作日发放上个周期实习薪资</li>
 <li>工资卡：招商银行</li>
 </ul>
-<ol start="3">
-<li>工具</li>
-</ol>
+</li>
+<li>工具
 <ul>
 <li>桔子堆</li>
 <li>邮箱</li>
@@ -188,13 +185,14 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>VPN</li>
 <li>食域</li>
 </ul>
-<ol start="4">
-<li>用餐</li>
-</ol>
+</li>
+<li>用餐
 <ul>
 <li>工作日16:30前下单</li>
 <li>送达时间为18:00左右</li>
 </ul>
+</li>
+</ol>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

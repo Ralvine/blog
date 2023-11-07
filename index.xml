@@ -78,14 +78,12 @@
 </ul>
 <p><strong>3 Parts</strong></p>
 <ol>
-<li>1 brief+2 mini topics(short)</li>
-</ol>
+<li>1 brief+2 mini topics(short)
 <ul>
 <li>Fluency</li>
 </ul>
-<ol start="2">
-<li>topic areas</li>
-</ol>
+</li>
+<li>topic areas
 <ul>
 <li>person
 <ul>
@@ -119,13 +117,14 @@
 </li>
 <li>Vocabulary</li>
 </ul>
-<ol start="3">
-<li>long detailed answers</li>
-</ol>
+</li>
+<li>long detailed answers
 <ul>
 <li>opinion+reason+example+(opposite)</li>
 <li>Structure</li>
 </ul>
+</li>
+</ol>
 <p><strong>theme words</strong></p>
 <ul>
 <li>Person: caring, kind, big-hearted, down-to-earth, easy-going, always there when you need him, someone who cheers me up, a magnetic personality, light up room</li>
@@ -146,22 +145,22 @@
 </li>
 <li>
 <p>4 sections</p>
-</li>
-</ul>
 <ol>
 <li>daily conversation</li>
 <li>speech non-academic topic</li>
 <li>two or three speakers conversation(education)</li>
 <li>one speaker speech(education)</li>
 </ol>
-<ul>
-<li>3 types</li>
-</ul>
+</li>
+<li>
+<p>3 types</p>
 <ol>
 <li>gap-fill</li>
 <li>multiple choice</li>
 <li>matching</li>
 </ol>
+</li>
+</ul>
 <p><strong>breaks</strong></p>
 <ul>
 <li>before each section</li>
@@ -185,32 +184,29 @@
 </ol>
 <p><strong>Types</strong></p>
 <ol>
-<li><strong>gap-fill</strong></li>
-</ol>
+<li><strong>gap-fill</strong>
 <ul>
 <li>words from passage/list/box</li>
 <li>label a diagram/table</li>
 </ul>
-<ol start="2">
+</li>
 <li>true/false/not given &amp; yes/no/not given</li>
 <li>multiple choice</li>
-<li>matching</li>
-</ol>
+<li>matching
 <ul>
 <li><strong>paragraph headings</strong></li>
 <li><strong>paragraph information</strong></li>
 <li>sentence endings</li>
 <li>other features eg <strong>names</strong></li>
 </ul>
-<ol start="5">
+</li>
 <li>short answer questions</li>
 </ol>
 <h3 id="作文" class="headerLink">
     <a href="#%e4%bd%9c%e6%96%87" class="header-mark"></a>作文</h3><h4 id="task1" class="headerLink">
     <a href="#task1" class="header-mark"></a>Task1</h4><ul>
 <li>Time</li>
-<li>Type</li>
-</ul>
+<li>Type
 <ol>
 <li>Line graph</li>
 <li>Bar chart</li>
@@ -218,58 +214,62 @@
 <li>Table</li>
 <li>Diagram - comparing</li>
 <li>Diagram - process</li>
+</ol>
+</li>
+<li>Struct
+<ol>
 <li>Skeleton</li>
 <li>Introduction</li>
 <li>Overview: 2+2</li>
 <li>Details</li>
 <li>Details</li>
 </ol>
+</li>
+</ul>
 <h4 id="task2" class="headerLink">
     <a href="#task2" class="header-mark"></a>Task2</h4><ul>
-<li>40min</li>
-</ul>
+<li>40min
 <ol>
 <li>10min plan</li>
 <li>5min introduction</li>
 <li>20min body</li>
 <li>5min conclusion</li>
 </ol>
-<ul>
+</li>
 <li>250 words</li>
-<li>Type</li>
-</ul>
+<li>Type
 <ol>
 <li>discussion</li>
 <li>opinion</li>
 <li>problem and solution</li>
 <li>two-part question</li>
 </ol>
-<ul>
-<li>Skeleton: 2+5x2+1</li>
-</ul>
+</li>
+<li>Skeleton: 2+5x2+1
 <ol>
-<li>introduction</li>
-</ol>
+<li>introduction
 <ul>
 <li>2 sentences</li>
 <li>30-40 words</li>
 </ul>
-<ol start="2">
-<li>main body</li>
-</ol>
+</li>
+<li>main body
 <ul>
 <li>2 paragraphs, each 5 sentences  90-100 words
 Topic+First+Second+Finally insert some explains</li>
 <li>firstly secondly finally - dis/advantages probelm/solutions</li>
 <li>idea explain example - one reason/idea/solution</li>
 </ul>
-<ol start="3">
-<li>conclusion</li>
-</ol>
+</li>
+<li>conclusion
 <ul>
 <li>never write an anything new</li>
 <li>1 sentence review/summary</li>
 <li>paraphrasing to show variety</li>
+</ul>
+</li>
+</ol>
+</li>
 </ul>
 <p><strong>词汇</strong></p>
 <ul>
@@ -339,33 +339,33 @@ Topic+First+Second+Finally insert some explains</li>
 <h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><ol>
 <li>浙大 计算数学</li>
-<li>研究生</li>
-</ol>
+<li>研究生
 <ul>
 <li>数字模拟 投影法求曲面面积</li>
 <li>随机数生成 数值代数 多元非线性方程组求解</li>
 </ul>
+</li>
+</ol>
 <p><strong>研究方向</strong></p>
 <ol>
-<li>图像处理</li>
-</ol>
+<li>图像处理
 <ul>
 <li>图像分割 图像识别</li>
 <li>图像加密 做的比较好</li>
 </ul>
-<ol start="2">
-<li>语义识别</li>
-</ol>
+</li>
+<li>语义识别
 <ul>
 <li>三维点式数据（无人驾驶、激光雷达）</li>
 </ul>
-<ol start="3">
-<li>社区发现</li>
-</ol>
+</li>
+<li>社区发现
 <ul>
 <li>复杂网络</li>
 <li>拟牛顿</li>
 </ul>
+</li>
+</ol>
 <h2 id="遗传算法" class="headerLink">
     <a href="#%e9%81%97%e4%bc%a0%e7%ae%97%e6%b3%95" class="header-mark"></a>遗传算法</h2><h2 id="统计学习方法" class="headerLink">
     <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h2 id="首次展示knn" class="headerLink">
@@ -499,21 +499,21 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
     <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h3><h4 id="预测流程" class="headerLink">
     <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
 <ol>
-<li>对未知类别的数据集中的每个点：</li>
-</ol>
+<li>对未知类别的数据集中的每个点：
 <ul>
 <li>计算已知类别数据集众多点与当前点之间的距离；</li>
 <li>按照距离递增次序排序。</li>
 </ul>
-<ol start="2">
-<li>选取与当前点距离最小的k个点：</li>
-</ol>
+</li>
+<li>选取与当前点距离最小的k个点：
 <ul>
 <li>选定前k个点所在类别的出现频率</li>
 <li>返回前k个点出现频率最高的类别作为当前点的预测分类</li>
 </ul>
 <ol start="3">
 <li>重复步骤，完成对所有点的预测分类</li>
+</ol>
+</li>
 </ol>
 <h4 id="python实现" class="headerLink">
     <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
@@ -585,13 +585,14 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
     <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h3><h4 id="主要挑战" class="headerLink">
     <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h4><ol>
 <li>前置处理：特征的选择</li>
-<li>模型</li>
-</ol>
+<li>模型
 <ul>
 <li>合适的度量函数</li>
 <li>合适的K值</li>
 <li>降低训练和预测的复杂度</li>
 </ul>
+</li>
+</ol>
 <h4 id="kd树" class="headerLink">
     <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h4><p>一种二叉树数据结构，用于优化搜索算法。</p>
 <p><strong>优势：</strong></p>
@@ -605,14 +606,13 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <h5 id="构造11" class="headerLink">
     <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><ol>
 <li>构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域。</li>
-<li>递归（生成子结点）：</li>
-</ol>
+<li>递归（生成子结点）：
 <ul>
 <li>选择坐标轴和切分点，确定一个超平面</li>
 <li>将当前超矩形区域切分为左右两个子区域</li>
 <li>直到子区域内没有实例时终止。</li>
 </ul>
-<ol start="3">
+</li>
 <li>实例保存在相应的结点上。</li>
 </ol>
 <p><strong>如何选择：</strong></p>
@@ -633,14 +633,13 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <ol>
 <li>在 kd 树中找出包含目标点 x 的叶结点：从根结点出发，递归地向下访问 kd 树。若目标点 x 当前维的坐标小于切分点的坐标，则移动到左子结点，否则移动到右子结点，直到子结点为叶结点为止。</li>
 <li>构建“当前 k 近邻点集”，将该叶结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离。</li>
-<li>递归地向上回退，在每个结点进行以下操作:</li>
-</ol>
+<li>递归地向上回退，在每个结点进行以下操作:
 <ul>
 <li>如果“当前 k 近邻点集”的元素数量 &lt; k，则将该结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离;</li>
 <li>如果“当前 k 近邻点集”的元素数量 = k，但该结点到目标点 x 的距离小于“当前 k 近邻点集”中最远 点到目标点 x 的距离，则将该结点插入“当前 k 近邻点集”，并删除原先的最远点。</li>
 <li>检查另一子结点对应的区域是否与以目标点 x 为球心、以目标点 x 与“当前 k 近邻点集”中最远点的距离为半径的超球体相交。 如果相交，可能在另一个子结点对应的区域内存在距离目标点更近的点，移动到另一个子结点，接着，递归地进行 k 近邻搜索; 如果不相交，向上回退。</li>
 </ul>
-<ol start="4">
+</li>
 <li>当回退到根结点时，搜索结束(若此时“当前 k 近邻点集”中的元素不足 k 个，则需要访问另一半树的结点)。</li>
 <li>最后的“当前 k 近邻点集”中的 k 个点即为 x 的 k 近邻点。</li>
 </ol>
@@ -922,12 +921,13 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <li><a href="https://ralvine.github.io/blog/big-data/" target="_blank" rel="noopener noreferrer">大数据理论基础</a>和<a href="https://ralvine.github.io/blog/data-proceed/" target="_blank" rel="noopener noreferrer">数据分析理论</a>，对主要技术栈有所了解学习，其中对<a href="https://ralvine.github.io/blog/data-warehouse/#%e6%95%b0%e6%8d%ae%e5%80%be%e6%96%9c" target="_blank" rel="noopener noreferrer">数据仓库</a>中的各种操作和问题处理有所理解。</li>
 <li><a href="https://ralvine.github.io/blog/data-warehouse/#sql23" target="_blank" rel="noopener noreferrer">SQL</a>相关知识，包括对基本函数和操作的熟悉与相关题目的准备。</li>
 <li><a href="https://ralvine.github.io/blog/data-view/" target="_blank" rel="noopener noreferrer">数据可视化</a>，特别是 Tableau 等 BI 工具的熟悉。</li>
-<li>自我介绍准备。</li>
-</ol>
+<li>自我介绍准备。
 <ul>
 <li>梳理教育、学术科研、项目实践、竞赛和自身技术栈的经历。</li>
 <li>内容结构：背景、经历、匹配度与优势。特别是对该岗位所列要求的匹配和工作职责中各流程、环节所需技术和能力的匹配。</li>
 </ul>
+</li>
+</ol>
 <h2 id="附面经整理1" class="headerLink">
     <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%861" class="header-mark"></a>附：面经整理<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><blockquote>
 <p>实际所投岗位只有一次面试。</p>
@@ -998,8 +998,7 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
     <a href="#%e6%8a%a5%e5%88%b0" class="header-mark"></a>报到</h3><ol>
 <li>培训</li>
 <li>领取工卡</li>
-<li>签署材料</li>
-</ol>
+<li>签署材料
 <ul>
 <li>实习协议书</li>
 <li>保密和知识产权协议</li>
@@ -1007,28 +1006,25 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>第三方商业秘密协议</li>
 <li>入职登记表</li>
 </ul>
-<ol start="4">
+</li>
 <li>申领电脑</li>
 </ol>
 <h3 id="培训" class="headerLink">
     <a href="#%e5%9f%b9%e8%ae%ad" class="header-mark"></a>培训</h3><ol>
-<li>考勤</li>
-</ol>
+<li>考勤
 <ul>
 <li>周一至周五，八小时制，午餐一小时</li>
 <li>D-Chat App 定位签到签退</li>
 <li>周期从上月21日至本月20日</li>
 </ul>
-<ol start="2">
-<li>实习费</li>
-</ol>
+</li>
+<li>实习费
 <ul>
 <li>月底最后一个工作日发放上个周期实习薪资</li>
 <li>工资卡：招商银行</li>
 </ul>
-<ol start="3">
-<li>工具</li>
-</ol>
+</li>
+<li>工具
 <ul>
 <li>桔子堆</li>
 <li>邮箱</li>
@@ -1037,13 +1033,14 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>VPN</li>
 <li>食域</li>
 </ul>
-<ol start="4">
-<li>用餐</li>
-</ol>
+</li>
+<li>用餐
 <ul>
 <li>工作日16:30前下单</li>
 <li>送达时间为18:00左右</li>
 </ul>
+</li>
+</ol>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -1110,16 +1107,16 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <h2 id="择企" class="headerLink">
     <a href="#%e6%8b%a9%e4%bc%81" class="header-mark"></a>择企</h2><h3 id="消费互联网" class="headerLink">
     <a href="#%e6%b6%88%e8%b4%b9%e4%ba%92%e8%81%94%e7%bd%91" class="header-mark"></a>消费互联网</h3><ol>
-<li>垄断型大厂</li>
-</ol>
+<li>
+<p>垄断型大厂</p>
 <ul>
 <li>腾讯</li>
 <li>阿里</li>
 <li>字节跳动</li>
 </ul>
-<ol start="2">
-<li>平台型大厂</li>
-</ol>
+</li>
+<li>
+<p>平台型大厂</p>
 <ul>
 <li>美团</li>
 <li>网易</li>
@@ -1127,6 +1124,8 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>京东</li>
 <li>滴滴</li>
 </ul>
+</li>
+</ol>
 <h3 id="终端与智能制造" class="headerLink">
     <a href="#%e7%bb%88%e7%ab%af%e4%b8%8e%e6%99%ba%e8%83%bd%e5%88%b6%e9%80%a0" class="header-mark"></a>终端与智能制造</h3><ul>
 <li>华为</li>
@@ -1137,40 +1136,42 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 <h3 id="产品领域独角兽或头部" class="headerLink">
     <a href="#%e4%ba%a7%e5%93%81%e9%a2%86%e5%9f%9f%e7%8b%ac%e8%a7%92%e5%85%bd%e6%88%96%e5%a4%b4%e9%83%a8" class="header-mark"></a>产品领域独角兽或头部</h3><ol>
-<li>影像</li>
-</ol>
+<li>
+<p>影像</p>
 <ul>
 <li>影石</li>
 </ul>
-<ol start="2">
-<li>BI产品</li>
-</ol>
+</li>
+<li>
+<p>BI产品</p>
 <ul>
 <li>帆软</li>
 </ul>
-<ol start="3">
-<li><strong>国企/银行</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>国企/银行</strong></p>
 <ul>
 <li>工商银行</li>
 <li>国开行</li>
 </ul>
-<ol start="4">
-<li><strong>新能源/汽车</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>新能源/汽车</strong></p>
 <ul>
 <li>比亚迪</li>
 </ul>
+</li>
+</ol>
 <h2 id="择岗" class="headerLink">
     <a href="#%e6%8b%a9%e5%b2%97" class="header-mark"></a>择岗</h2><ol>
-<li><strong>开发类（后端、算法）</strong></li>
-</ol>
+<li>
+<p><strong>开发类（后端、算法）</strong></p>
 <ul>
 <li>C++开发</li>
 </ul>
-<ol start="2">
-<li><strong>产品类（数据、商业）</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>产品类（数据、商业）</strong></p>
 <ul>
 <li>技术产品经理</li>
 <li>业务产品运营</li>
@@ -1178,32 +1179,31 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>数据产品经理</li>
 <li>管培</li>
 </ul>
-<ol start="3">
-<li><strong>数据类</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>数据类</strong></p>
 <ul>
 <li>数据分析</li>
 </ul>
+</li>
+</ol>
 <h2 id="知识体系" class="headerLink">
     <a href="#%e7%9f%a5%e8%af%86%e4%bd%93%e7%b3%bb" class="header-mark"></a>知识体系</h2><h3 id="开发类" class="headerLink">
-    <a href="#%e5%bc%80%e5%8f%91%e7%b1%bb" class="header-mark"></a>开发类</h3><ul>
-<li>操作系统</li>
-<li>Linux</li>
-<li>C++面向对象</li>
-<li>数据结构</li>
-<li>算法</li>
-</ul>
+    <a href="#%e5%bc%80%e5%8f%91%e7%b1%bb" class="header-mark"></a>开发类</h3><pre><code>- 操作系统
+- Linux
+- C++面向对象
+- 数据结构
+- 算法
+</code></pre>
 <h3 id="产品类" class="headerLink">
     <a href="#%e4%ba%a7%e5%93%81%e7%b1%bb" class="header-mark"></a>产品类</h3><ol>
-<li>工具</li>
-</ol>
+<li>工具
 <ul>
 <li>Axure</li>
 <li>墨刀&amp;Figma</li>
 </ul>
-<ol start="2">
-<li>产品项目</li>
-</ol>
+</li>
+<li>产品项目
 <ul>
 <li>如何拆解需求</li>
 <li>工作流程和框架</li>
@@ -1212,45 +1212,34 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>商业化</li>
 <li>使用场景分析</li>
 </ul>
-<ol start="3">
-<li>能力</li>
-</ol>
+</li>
+<li>能力
 <ul>
 <li>沟通 执行 领导</li>
 <li>判断 决策 影响</li>
 <li>产品思维</li>
 </ul>
-<ol start="4">
+</li>
 <li>需求 生产 销售 协调</li>
-<li>技术方向的业务认知</li>
+<li>技术方向的业务认知
+<ul>
+<li>云计算和云产品</li>
+<li>边缘计算</li>
+<li>网络协议和端口</li>
+<li>操作系统</li>
+<li>数据结构</li>
+</ul>
+</li>
 </ol>
 <ul>
-<li>
-<p>云计算和云产品</p>
-</li>
-<li>
-<p>边缘计算</p>
-</li>
-<li>
-<p>网络协议和端口</p>
-</li>
-<li>
-<p>操作系统</p>
-</li>
-<li>
-<p>数据结构</p>
-</li>
-<li>
-<p>相关习题 <a href="https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799" target="_blank" rel="noopener noreferrer">1</a> <a href="https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629" target="_blank" rel="noopener noreferrer">2</a> <a href="https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&amp;pid=31369524&amp;testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86%26selectStatus%3D0&amp;testclass=%e4%ba%a7%e5%93%81%2F%e8%bf%90%e8%90%a5" target="_blank" rel="noopener noreferrer">3</a></p>
-</li>
+<li>相关习题 <a href="https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799" target="_blank" rel="noopener noreferrer">1</a> <a href="https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629" target="_blank" rel="noopener noreferrer">2</a> <a href="https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&amp;pid=31369524&amp;testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86%26selectStatus%3D0&amp;testclass=%e4%ba%a7%e5%93%81%2F%e8%bf%90%e8%90%a5" target="_blank" rel="noopener noreferrer">3</a></li>
 </ul>
 <h3 id="数据类" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e7%b1%bb" class="header-mark"></a>数据类</h3><h2 id="综合测评" class="headerLink">
     <a href="#%e7%bb%bc%e5%90%88%e6%b5%8b%e8%af%84" class="header-mark"></a>综合测评</h2><h3 id="逻辑综合" class="headerLink">
     <a href="#%e9%80%bb%e8%be%91%e7%bb%bc%e5%90%88" class="header-mark"></a>逻辑综合</h3><p>（美团非技术类综测）</p>
 <ol>
-<li>逻辑推理</li>
-</ol>
+<li>逻辑推理
 <ul>
 <li>三图 看变换方式
 <ul>
@@ -1273,16 +1262,14 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 </li>
 </ul>
-<ol start="2">
-<li>数字计算</li>
-</ol>
+</li>
+<li>数字计算
 <ul>
 <li>排列组合 方程 逻辑分类</li>
 <li>闰年 被4整除且不被100整除 或者 能被400整除</li>
 </ul>
-<ol start="3">
-<li>言语理解</li>
-</ol>
+</li>
+<li>言语理解
 <ul>
 <li>概括归纳 推理 表述判断
 <ul>
@@ -1293,12 +1280,13 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>语病</li>
 <li>句子排序</li>
 </ul>
-<ol start="4">
-<li>资料分析</li>
-</ol>
+</li>
+<li>资料分析
 <ul>
 <li>同比 环比</li>
-</ul>]]></description>
+</ul>
+</li>
+</ol>]]></description>
 </item><item>
     <title>IELTS 口语：9~12月话题准备</title>
     <link>https://blog.ralvines.top/ielts-spoken/</link>
@@ -4400,13 +4388,14 @@ Whether it is difficult or easy to use And explain why it is useful</p>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sql/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
-            </div><h2 id="mysql12" class="headerLink">
-    <a href="#mysql12" class="header-mark"></a>MySQL<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><ul>
+            </div><h2 id="sql语法12" class="headerLink">
+    <a href="#sql%e8%af%ad%e6%b3%9512" class="header-mark"></a>SQL语法<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><h3 id="查询" class="headerLink">
+    <a href="#%e6%9f%a5%e8%af%a2" class="header-mark"></a>查询</h3><ul>
 <li>语法 select-from-where-group by-having-order by-limit</li>
 <li>运行 from-where-group by-having-order by-limit-select</li>
 </ul>
-<h3 id="基础语句" class="headerLink">
-    <a href="#%e5%9f%ba%e7%a1%80%e8%af%ad%e5%8f%a5" class="header-mark"></a>基础语句</h3><ol>
+<h4 id="基础语句" class="headerLink">
+    <a href="#%e5%9f%ba%e7%a1%80%e8%af%ad%e5%8f%a5" class="header-mark"></a>基础语句</h4><ol>
 <li>select &amp; from</li>
 </ol>
 <ul>
@@ -4477,8 +4466,8 @@ Whether it is difficult or easy to use And explain why it is useful</p>
 <ul>
 <li>对分组后数据进行筛选</li>
 </ul>
-<h3 id="主要函数" class="headerLink">
-    <a href="#%e4%b8%bb%e8%a6%81%e5%87%bd%e6%95%b0" class="header-mark"></a>主要函数</h3><ol>
+<h4 id="主要函数" class="headerLink">
+    <a href="#%e4%b8%bb%e8%a6%81%e5%87%bd%e6%95%b0" class="header-mark"></a>主要函数</h4><ol>
 <li><code>round(x,y)</code></li>
 </ol>
 <ul>
@@ -4545,14 +4534,14 @@ Whether it is difficult or easy to use And explain why it is useful</p>
 <ol start="11">
 <li><code>case expr when v1 then r1[when v2 then r2] ... [else rn] end</code></li>
 </ol>
-<h3 id="高级语句" class="headerLink">
-    <a href="#%e9%ab%98%e7%ba%a7%e8%af%ad%e5%8f%a5" class="header-mark"></a>高级语句</h3><ol>
+<h4 id="高级语句" class="headerLink">
+    <a href="#%e9%ab%98%e7%ba%a7%e8%af%ad%e5%8f%a5" class="header-mark"></a>高级语句</h4><ol>
 <li>窗口函数</li>
 </ol>
 <ul>
 <li><code>over([partition by 字段][order by 字段 asc/desc])</code></li>
 <li>排序窗口 <code>rank()over(), dense_rank()over(), row_number()over()</code></li>
-<li>偏移分析 <code>lag(字段名,偏移量[,默认值])over(), lead(字段名,偏移量[,默认值])over()</code></li>
+<li>偏移分析 <code>lag(字段名,偏移量[,默认值])over(), lead(字段名,偏移量[,默认值])over()</code> 往上/往下</li>
 </ul>
 <p><strong>例题</strong></p>
 <ul>
@@ -4560,18 +4549,167 @@ Whether it is difficult or easy to use And explain why it is useful</p>
 <li><a href="https://sglzoo.net/wiki/Window_LAG" target="_blank" rel="noopener noreferrer"><strong>covid每天新增人数</strong></a></li>
 </ul>
 <ol start="2">
-<li>
-<p>表连接</p>
+<li>表连接</li>
+</ol>
+<ul>
+<li><code>from 表1 inner/left/right join 表2 on 表1.字段 = 表2.字段</code></li>
+<li>内连接会筛掉没有连上的行</li>
+<li>左/右连接保留对应 (from) 表内所有数据</li>
+<li>重名时指定字段列所在表 <code>select game.id</code></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">select</span><span class="w"> </span><span class="k">distinct</span><span class="w"> </span><span class="n">t</span><span class="p">.</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">name</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">from</span><span class="w"> </span><span class="n">teacher</span><span class="w"> </span><span class="n">t</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">left</span><span class="w"> </span><span class="k">join</span><span class="w"> </span><span class="n">dept</span><span class="w"> </span><span class="n">d</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">on</span><span class="w"> </span><span class="n">d</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">t</span><span class="p">.</span><span class="n">dept</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>子查询</li>
+</ol>
+<ul>
+<li><code>()</code> 多层嵌套</li>
+<li>一般用于<code>from, where</code></li>
+</ul>
+<ol start="4">
+<li>组合查询</li>
+</ol>
+<ul>
+<li>union（施工中）</li>
+</ul>
+<h3 id="操作" class="headerLink">
+    <a href="#%e6%93%8d%e4%bd%9c" class="header-mark"></a>操作</h3><h4 id="表" class="headerLink">
+    <a href="#%e8%a1%a8" class="header-mark"></a>表</h4><ol>
+<li>创建</li>
+</ol>
+<ul>
+<li><code>create table 表名 (字段名 字段类型 约束)</code></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">create</span><span class="w"> </span><span class="k">table</span><span class="w"> </span><span class="n">student</span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">id</span><span class="w"> </span><span class="nb">integer</span><span class="w"> </span><span class="k">primary</span><span class="w"> </span><span class="k">key</span><span class="w"> </span><span class="n">autoincrement</span><span class="p">,</span><span class="w"> </span><span class="c1">--主键自增长
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">	</span><span class="n">name</span><span class="w"> </span><span class="nb">text</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="k">null</span><span class="p">,</span><span class="w"> </span><span class="c1">--非空
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">	</span><span class="n">age</span><span class="w"> </span><span class="nb">integer</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">email</span><span class="w"> </span><span class="nb">text</span><span class="w"> </span><span class="k">unique</span><span class="p">,</span><span class="w"> </span><span class="c1">--唯一
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">	</span><span class="k">check</span><span class="w"> </span><span class="p">(</span><span class="n">age</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>参见Access, Server, MySQL各自数据类型规范。</li>
+<li>约束
+<ul>
+<li>主键 <code>primary key</code> 非空唯一</li>
+<li>非空 <code>no null</code></li>
+<li>唯一 <code>unique</code></li>
+<li>主键自增长（int时） <code>autoincrement</code></li>
+<li>外键 <code>foreign key</code> 关联外表主键</li>
+<li><code>check</code> 限制列值范围</li>
+<li><code>default 默认值</code></li>
+</ul>
 </li>
-<li>
-<p>子查询</p>
-</li>
+</ul>
+<ol start="2">
+<li>更新
+<code>alter table 表名 [操作]</code></li>
+</ol>
+<ul>
+<li><code>add 列名 类型</code></li>
+<li><code>drop column 列名</code></li>
+<li><code>modify 列名 类型</code> 修改列类型</li>
+<li><code>chanage 列名 新列名 类型</code> 修改列名</li>
+<li><code>rename to 表名</code> 修改表名</li>
+</ul>
+<ol start="3">
+<li>查询</li>
+</ol>
+<ul>
+<li><code>show tables</code> 当前数据库下所有表名称</li>
+<li><code>desc 表名</code> 查询表详细信息</li>
+</ul>
+<ol start="4">
+<li>删除</li>
+</ol>
+<ul>
+<li><code>drop table</code></li>
+</ul>
+<h4 id="数据" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae" class="header-mark"></a>数据</h4><ol>
+<li>增</li>
+</ol>
+<ul>
+<li><code>insert into 表(列1,列2,...) values(值1,值2,...)</code></li>
+<li>省略列名给所有列添加数据</li>
+<li><code>insert into student(id,name,age) values(3,'guy',16)</code></li>
+</ul>
+<ol start="2">
+<li>删</li>
+</ol>
+<ul>
+<li><code>delete from 表 [where 条件]</code></li>
+<li>不加条件则删除表中所有数据</li>
+</ul>
+<ol start="3">
+<li>改</li>
+</ol>
+<ul>
+<li><code>update 表 set 列1=值1, 列2=值2, ... [where 条件]</code></li>
+<li><code>update scores set scores=scores+5 where scores&lt;=95</code></li>
+</ul>
+<h3 id="事务" class="headerLink">
+    <a href="#%e4%ba%8b%e5%8a%a1" class="header-mark"></a>事务</h3><ol>
+<li>SQL操作批处理：全部执行或不执行</li>
+<li>分类</li>
+</ol>
+<ul>
+<li>显式：用<code>begin transaction</code>指定</li>
+<li>隐式</li>
+<li>自动提交</li>
+</ul>
+<ol start="3">
+<li>使用</li>
+</ol>
+<ul>
+<li><code>begin</code> 设置起点</li>
+<li><code>commit</code> 永久化</li>
+<li><code>rollback</code> 遗忘</li>
+<li><code>save</code> 特定标记 部分回滚</li>
+</ul>
+<ol start="4">
+<li>判断</li>
+</ol>
+<h3 id="索引与视图7" class="headerLink">
+    <a href="#%e7%b4%a2%e5%bc%95%e4%b8%8e%e8%a7%86%e5%9b%be7" class="header-mark"></a>索引与视图<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h3><h3 id="触发器" class="headerLink">
+    <a href="#%e8%a7%a6%e5%8f%91%e5%99%a8" class="header-mark"></a>触发器</h3><h2 id="hive-sql5" class="headerLink">
+    <a href="#hive-sql5" class="header-mark"></a>Hive SQL<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2><h3 id="ddl" class="headerLink">
+    <a href="#ddl" class="header-mark"></a>DDL</h3><ul>
+<li>数据定义语句</li>
+</ul>
+<ol>
+<li>库操作</li>
+<li>表操作</li>
 </ol>
 <h2 id="spark-sql3" class="headerLink">
-    <a href="#spark-sql3" class="header-mark"></a>Spark SQL<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2><h2 id="pyspark4" class="headerLink">
-    <a href="#pyspark4" class="header-mark"></a>PySpark<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2><h2 id="hive-sql5" class="headerLink">
-    <a href="#hive-sql5" class="header-mark"></a>Hive SQL<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></h2><h3 id="常见问题6" class="headerLink">
-    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%986" class="header-mark"></a>常见问题<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></h3><div class="footnotes" role="doc-endnotes">
+    <a href="#spark-sql3" class="header-mark"></a>Spark SQL<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></h2><h2 id="pyspark4" class="headerLink">
+    <a href="#pyspark4" class="header-mark"></a>PySpark<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></h2><h3 id="常见问题6" class="headerLink">
+    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%986" class="header-mark"></a>常见问题<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></h3><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
@@ -4581,16 +4719,21 @@ Whether it is difficult or easy to use And explain why it is useful</p>
 <p>数据库（SQL）面试题，基础知识（超全面） @weihubeats <a href="https://blog.csdn.net/qq_42651904/article/details/83146345" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_42651904/article/details/83146345</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p>Spark SQL从入门到精通 @浪尖 <a href="https://zhuanlan.zhihu.com/p/45729547" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/45729547</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>数据分析师之——我的SQL自学之路 @意识成长 <a href="https://zhuanlan.zhihu.com/p/220172077" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/220172077</a> <figure><a class="lightgallery" href="https://pic3.zhimg.com/v2-1ac8dc043d5fc80916ddea5d6d97e376_r.jpg" title="MySQL大纲" data-thumbnail="https://pic3.zhimg.com/v2-1ac8dc043d5fc80916ddea5d6d97e376_r.jpg">
+        
+    </a></figure>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
-<p>3万字长文 PySpark入门级学习教程，框架思维 @小晨说数据 <a href="https://zhuanlan.zhihu.com/p/395431025" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/395431025</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>一文学完所有的Hive Sql（两万字最全详解） @五分钟学大数据 <a href="https://blog.csdn.net/helloHbulie/article/details/115376657" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/helloHbulie/article/details/115376657</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:5">
-<p>一文学完所有的Hive Sql（两万字最全详解） @五分钟学大数据 <a href="https://blog.csdn.net/helloHbulie/article/details/115376657" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/helloHbulie/article/details/115376657</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Spark SQL从入门到精通 @浪尖 <a href="https://zhuanlan.zhihu.com/p/45729547" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/45729547</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:6">
-<p>SQL经典50题&amp;答案 @胖熊酱 <a href="https://zhuanlan.zhihu.com/p/67645448" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/67645448</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>3万字长文 PySpark入门级学习教程，框架思维 @小晨说数据 <a href="https://zhuanlan.zhihu.com/p/395431025" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/395431025</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>SQL经典50题&amp;答案 @胖熊酱 <a href="https://zhuanlan.zhihu.com/p/67645448" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/67645448</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>
@@ -5534,13 +5677,47 @@ Spark Streaming</li>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
-            </div><h2 id="数据仓库1" class="headerLink">
-    <a href="#%e6%95%b0%e6%8d%ae%e4%bb%93%e5%ba%931" class="header-mark"></a>数据仓库<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="模型" class="headerLink">
+            </div><h2 id="数仓建设规范3" class="headerLink">
+    <a href="#%e6%95%b0%e4%bb%93%e5%bb%ba%e8%ae%be%e8%a7%84%e8%8c%833" class="header-mark"></a>数仓建设规范<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="架构原则" class="headerLink">
+    <a href="#%e6%9e%b6%e6%9e%84%e5%8e%9f%e5%88%99" class="header-mark"></a>架构原则</h3><h4 id="数仓分层" class="headerLink">
+    <a href="#%e6%95%b0%e4%bb%93%e5%88%86%e5%b1%82" class="header-mark"></a>数仓分层</h4><ol>
+<li>ODS 源</li>
+<li>DW 明细 建模
+<ul>
+<li>DWD (Detail) 清理 规范化</li>
+<li>DWM (Middle) 聚合 中间表</li>
+<li>DWS (Service) 汇总 主题域服务数据 宽表（字段多）</li>
+</ul>
+</li>
+<li>DM 轻汇总</li>
+<li>APP 应用
+<ul>
+<li>数据产品 数据分析 报表</li>
+</ul>
+</li>
+<li>维表层
+<ul>
+<li>高基数：资料表 数据量大</li>
+<li>低基数：配置表</li>
+</ul>
+</li>
+</ol>
+<h4 id="主题域划分" class="headerLink">
+    <a href="#%e4%b8%bb%e9%a2%98%e5%9f%9f%e5%88%92%e5%88%86" class="header-mark"></a>主题域划分</h4><pre class="mermaid">graph LR;
+    A[系统A] --> B(业务过程A)
+    A[系统A] --> C(业务过程B)
+    A[系统A] --> D(业务过程C)
+    B --> E{主题域A}
+    C --> F{主题域A}
+    D --> G{主题域A}
+
+</pre>
+<p>数据域是指面向业务分析，将业务过程或者维度进行抽象的集合。其中，业务过程可以概括为一个个不可拆分的行为事件，在业务过程下，可以定义指标，维度是指度量的环境，如买家下单事件，买家是维度。为保障整个体系的生命力，数据域是需要抽象提炼，并且长期维护和更新的，但不轻易变动。在划分数据域时，既能涵盖当前所有的业务需求，又能在新业务进入时无影响地被包含进已有的数据域中和扩展新的数据域。</p>
+<h4 id="数据模型设计" class="headerLink">
+    <a href="#%e6%95%b0%e6%8d%ae%e6%a8%a1%e5%9e%8b%e8%ae%be%e8%ae%a1" class="header-mark"></a>数据模型设计</h4><p>普通全量表<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h3 id="模型" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b" class="header-mark"></a>模型</h3><ol>
-<li>星型模型：事实表+维度表
-<figure><a class="lightgallery" href="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp" title="星型模型" data-thumbnail="https://pic1.zhimg.com/80/v2-3ab86050013d9381c1555482df933f58_1440w.webp">
-        
-    </a></figure></li>
+<li>星型模型：事实表+维度表</li>
 </ol>
 <h3 id="数据倾斜" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e5%80%be%e6%96%9c" class="header-mark"></a>数据倾斜</h3><p>大量的数据集中到了一台或者几台机器上计算。</p>
@@ -5555,12 +5732,23 @@ Spark Streaming</li>
 <li>大小倾斜：部分记录大小过大</li>
 </ul>
 <h2 id="hadoop" class="headerLink">
-    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓1" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><div class="footnotes" role="doc-endnotes">
+    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓12" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%9312" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>最强最全面的数仓建设规范指南 @五分钟学大数据 <a href="https://yuanmore.blog.csdn.net/article/details/121265222" target="_blank" rel="noopener noreferrer">https://yuanmore.blog.csdn.net/article/details/121265222</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>生命周期管理矩阵 <figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png" title="大数据之路" data-thumbnail="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png">
+        
+    </a></figure>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 <a href="https://zhuanlan.zhihu.com/p/647035072" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/647035072</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>

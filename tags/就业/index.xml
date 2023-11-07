@@ -58,16 +58,16 @@
 <h2 id="择企" class="headerLink">
     <a href="#%e6%8b%a9%e4%bc%81" class="header-mark"></a>择企</h2><h3 id="消费互联网" class="headerLink">
     <a href="#%e6%b6%88%e8%b4%b9%e4%ba%92%e8%81%94%e7%bd%91" class="header-mark"></a>消费互联网</h3><ol>
-<li>垄断型大厂</li>
-</ol>
+<li>
+<p>垄断型大厂</p>
 <ul>
 <li>腾讯</li>
 <li>阿里</li>
 <li>字节跳动</li>
 </ul>
-<ol start="2">
-<li>平台型大厂</li>
-</ol>
+</li>
+<li>
+<p>平台型大厂</p>
 <ul>
 <li>美团</li>
 <li>网易</li>
@@ -75,6 +75,8 @@
 <li>京东</li>
 <li>滴滴</li>
 </ul>
+</li>
+</ol>
 <h3 id="终端与智能制造" class="headerLink">
     <a href="#%e7%bb%88%e7%ab%af%e4%b8%8e%e6%99%ba%e8%83%bd%e5%88%b6%e9%80%a0" class="header-mark"></a>终端与智能制造</h3><ul>
 <li>华为</li>
@@ -85,40 +87,42 @@
 </ul>
 <h3 id="产品领域独角兽或头部" class="headerLink">
     <a href="#%e4%ba%a7%e5%93%81%e9%a2%86%e5%9f%9f%e7%8b%ac%e8%a7%92%e5%85%bd%e6%88%96%e5%a4%b4%e9%83%a8" class="header-mark"></a>产品领域独角兽或头部</h3><ol>
-<li>影像</li>
-</ol>
+<li>
+<p>影像</p>
 <ul>
 <li>影石</li>
 </ul>
-<ol start="2">
-<li>BI产品</li>
-</ol>
+</li>
+<li>
+<p>BI产品</p>
 <ul>
 <li>帆软</li>
 </ul>
-<ol start="3">
-<li><strong>国企/银行</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>国企/银行</strong></p>
 <ul>
 <li>工商银行</li>
 <li>国开行</li>
 </ul>
-<ol start="4">
-<li><strong>新能源/汽车</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>新能源/汽车</strong></p>
 <ul>
 <li>比亚迪</li>
 </ul>
+</li>
+</ol>
 <h2 id="择岗" class="headerLink">
     <a href="#%e6%8b%a9%e5%b2%97" class="header-mark"></a>择岗</h2><ol>
-<li><strong>开发类（后端、算法）</strong></li>
-</ol>
+<li>
+<p><strong>开发类（后端、算法）</strong></p>
 <ul>
 <li>C++开发</li>
 </ul>
-<ol start="2">
-<li><strong>产品类（数据、商业）</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>产品类（数据、商业）</strong></p>
 <ul>
 <li>技术产品经理</li>
 <li>业务产品运营</li>
@@ -126,32 +130,31 @@
 <li>数据产品经理</li>
 <li>管培</li>
 </ul>
-<ol start="3">
-<li><strong>数据类</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>数据类</strong></p>
 <ul>
 <li>数据分析</li>
 </ul>
+</li>
+</ol>
 <h2 id="知识体系" class="headerLink">
     <a href="#%e7%9f%a5%e8%af%86%e4%bd%93%e7%b3%bb" class="header-mark"></a>知识体系</h2><h3 id="开发类" class="headerLink">
-    <a href="#%e5%bc%80%e5%8f%91%e7%b1%bb" class="header-mark"></a>开发类</h3><ul>
-<li>操作系统</li>
-<li>Linux</li>
-<li>C++面向对象</li>
-<li>数据结构</li>
-<li>算法</li>
-</ul>
+    <a href="#%e5%bc%80%e5%8f%91%e7%b1%bb" class="header-mark"></a>开发类</h3><pre><code>- 操作系统
+- Linux
+- C++面向对象
+- 数据结构
+- 算法
+</code></pre>
 <h3 id="产品类" class="headerLink">
     <a href="#%e4%ba%a7%e5%93%81%e7%b1%bb" class="header-mark"></a>产品类</h3><ol>
-<li>工具</li>
-</ol>
+<li>工具
 <ul>
 <li>Axure</li>
 <li>墨刀&amp;Figma</li>
 </ul>
-<ol start="2">
-<li>产品项目</li>
-</ol>
+</li>
+<li>产品项目
 <ul>
 <li>如何拆解需求</li>
 <li>工作流程和框架</li>
@@ -160,45 +163,34 @@
 <li>商业化</li>
 <li>使用场景分析</li>
 </ul>
-<ol start="3">
-<li>能力</li>
-</ol>
+</li>
+<li>能力
 <ul>
 <li>沟通 执行 领导</li>
 <li>判断 决策 影响</li>
 <li>产品思维</li>
 </ul>
-<ol start="4">
+</li>
 <li>需求 生产 销售 协调</li>
-<li>技术方向的业务认知</li>
+<li>技术方向的业务认知
+<ul>
+<li>云计算和云产品</li>
+<li>边缘计算</li>
+<li>网络协议和端口</li>
+<li>操作系统</li>
+<li>数据结构</li>
+</ul>
+</li>
 </ol>
 <ul>
-<li>
-<p>云计算和云产品</p>
-</li>
-<li>
-<p>边缘计算</p>
-</li>
-<li>
-<p>网络协议和端口</p>
-</li>
-<li>
-<p>操作系统</p>
-</li>
-<li>
-<p>数据结构</p>
-</li>
-<li>
-<p>相关习题 <a href="https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799" target="_blank" rel="noopener noreferrer">1</a> <a href="https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629" target="_blank" rel="noopener noreferrer">2</a> <a href="https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&amp;pid=31369524&amp;testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86%26selectStatus%3D0&amp;testclass=%e4%ba%a7%e5%93%81%2F%e8%bf%90%e8%90%a5" target="_blank" rel="noopener noreferrer">3</a></p>
-</li>
+<li>相关习题 <a href="https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799" target="_blank" rel="noopener noreferrer">1</a> <a href="https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629" target="_blank" rel="noopener noreferrer">2</a> <a href="https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&amp;pid=31369524&amp;testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86%26selectStatus%3D0&amp;testclass=%e4%ba%a7%e5%93%81%2F%e8%bf%90%e8%90%a5" target="_blank" rel="noopener noreferrer">3</a></li>
 </ul>
 <h3 id="数据类" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e7%b1%bb" class="header-mark"></a>数据类</h3><h2 id="综合测评" class="headerLink">
     <a href="#%e7%bb%bc%e5%90%88%e6%b5%8b%e8%af%84" class="header-mark"></a>综合测评</h2><h3 id="逻辑综合" class="headerLink">
     <a href="#%e9%80%bb%e8%be%91%e7%bb%bc%e5%90%88" class="header-mark"></a>逻辑综合</h3><p>（美团非技术类综测）</p>
 <ol>
-<li>逻辑推理</li>
-</ol>
+<li>逻辑推理
 <ul>
 <li>三图 看变换方式
 <ul>
@@ -221,16 +213,14 @@
 </ul>
 </li>
 </ul>
-<ol start="2">
-<li>数字计算</li>
-</ol>
+</li>
+<li>数字计算
 <ul>
 <li>排列组合 方程 逻辑分类</li>
 <li>闰年 被4整除且不被100整除 或者 能被400整除</li>
 </ul>
-<ol start="3">
-<li>言语理解</li>
-</ol>
+</li>
+<li>言语理解
 <ul>
 <li>概括归纳 推理 表述判断
 <ul>
@@ -241,11 +231,12 @@
 <li>语病</li>
 <li>句子排序</li>
 </ul>
-<ol start="4">
-<li>资料分析</li>
-</ol>
+</li>
+<li>资料分析
 <ul>
 <li>同比 环比</li>
-</ul>]]></description>
+</ul>
+</li>
+</ol>]]></description>
 </item></channel>
 </rss>

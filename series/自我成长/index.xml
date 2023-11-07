@@ -76,14 +76,12 @@
 </ul>
 <p><strong>3 Parts</strong></p>
 <ol>
-<li>1 brief+2 mini topics(short)</li>
-</ol>
+<li>1 brief+2 mini topics(short)
 <ul>
 <li>Fluency</li>
 </ul>
-<ol start="2">
-<li>topic areas</li>
-</ol>
+</li>
+<li>topic areas
 <ul>
 <li>person
 <ul>
@@ -117,13 +115,14 @@
 </li>
 <li>Vocabulary</li>
 </ul>
-<ol start="3">
-<li>long detailed answers</li>
-</ol>
+</li>
+<li>long detailed answers
 <ul>
 <li>opinion+reason+example+(opposite)</li>
 <li>Structure</li>
 </ul>
+</li>
+</ol>
 <p><strong>theme words</strong></p>
 <ul>
 <li>Person: caring, kind, big-hearted, down-to-earth, easy-going, always there when you need him, someone who cheers me up, a magnetic personality, light up room</li>
@@ -144,22 +143,22 @@
 </li>
 <li>
 <p>4 sections</p>
-</li>
-</ul>
 <ol>
 <li>daily conversation</li>
 <li>speech non-academic topic</li>
 <li>two or three speakers conversation(education)</li>
 <li>one speaker speech(education)</li>
 </ol>
-<ul>
-<li>3 types</li>
-</ul>
+</li>
+<li>
+<p>3 types</p>
 <ol>
 <li>gap-fill</li>
 <li>multiple choice</li>
 <li>matching</li>
 </ol>
+</li>
+</ul>
 <p><strong>breaks</strong></p>
 <ul>
 <li>before each section</li>
@@ -183,32 +182,29 @@
 </ol>
 <p><strong>Types</strong></p>
 <ol>
-<li><strong>gap-fill</strong></li>
-</ol>
+<li><strong>gap-fill</strong>
 <ul>
 <li>words from passage/list/box</li>
 <li>label a diagram/table</li>
 </ul>
-<ol start="2">
+</li>
 <li>true/false/not given &amp; yes/no/not given</li>
 <li>multiple choice</li>
-<li>matching</li>
-</ol>
+<li>matching
 <ul>
 <li><strong>paragraph headings</strong></li>
 <li><strong>paragraph information</strong></li>
 <li>sentence endings</li>
 <li>other features eg <strong>names</strong></li>
 </ul>
-<ol start="5">
+</li>
 <li>short answer questions</li>
 </ol>
 <h3 id="作文" class="headerLink">
     <a href="#%e4%bd%9c%e6%96%87" class="header-mark"></a>作文</h3><h4 id="task1" class="headerLink">
     <a href="#task1" class="header-mark"></a>Task1</h4><ul>
 <li>Time</li>
-<li>Type</li>
-</ul>
+<li>Type
 <ol>
 <li>Line graph</li>
 <li>Bar chart</li>
@@ -216,58 +212,62 @@
 <li>Table</li>
 <li>Diagram - comparing</li>
 <li>Diagram - process</li>
+</ol>
+</li>
+<li>Struct
+<ol>
 <li>Skeleton</li>
 <li>Introduction</li>
 <li>Overview: 2+2</li>
 <li>Details</li>
 <li>Details</li>
 </ol>
+</li>
+</ul>
 <h4 id="task2" class="headerLink">
     <a href="#task2" class="header-mark"></a>Task2</h4><ul>
-<li>40min</li>
-</ul>
+<li>40min
 <ol>
 <li>10min plan</li>
 <li>5min introduction</li>
 <li>20min body</li>
 <li>5min conclusion</li>
 </ol>
-<ul>
+</li>
 <li>250 words</li>
-<li>Type</li>
-</ul>
+<li>Type
 <ol>
 <li>discussion</li>
 <li>opinion</li>
 <li>problem and solution</li>
 <li>two-part question</li>
 </ol>
-<ul>
-<li>Skeleton: 2+5x2+1</li>
-</ul>
+</li>
+<li>Skeleton: 2+5x2+1
 <ol>
-<li>introduction</li>
-</ol>
+<li>introduction
 <ul>
 <li>2 sentences</li>
 <li>30-40 words</li>
 </ul>
-<ol start="2">
-<li>main body</li>
-</ol>
+</li>
+<li>main body
 <ul>
 <li>2 paragraphs, each 5 sentences  90-100 words
 Topic+First+Second+Finally insert some explains</li>
 <li>firstly secondly finally - dis/advantages probelm/solutions</li>
 <li>idea explain example - one reason/idea/solution</li>
 </ul>
-<ol start="3">
-<li>conclusion</li>
-</ol>
+</li>
+<li>conclusion
 <ul>
 <li>never write an anything new</li>
 <li>1 sentence review/summary</li>
 <li>paraphrasing to show variety</li>
+</ul>
+</li>
+</ol>
+</li>
 </ul>
 <p><strong>词汇</strong></p>
 <ul>
@@ -386,12 +386,13 @@ Topic+First+Second+Finally insert some explains</li>
 <li><a href="https://ralvine.github.io/blog/big-data/" target="_blank" rel="noopener noreferrer">大数据理论基础</a>和<a href="https://ralvine.github.io/blog/data-proceed/" target="_blank" rel="noopener noreferrer">数据分析理论</a>，对主要技术栈有所了解学习，其中对<a href="https://ralvine.github.io/blog/data-warehouse/#%e6%95%b0%e6%8d%ae%e5%80%be%e6%96%9c" target="_blank" rel="noopener noreferrer">数据仓库</a>中的各种操作和问题处理有所理解。</li>
 <li><a href="https://ralvine.github.io/blog/data-warehouse/#sql23" target="_blank" rel="noopener noreferrer">SQL</a>相关知识，包括对基本函数和操作的熟悉与相关题目的准备。</li>
 <li><a href="https://ralvine.github.io/blog/data-view/" target="_blank" rel="noopener noreferrer">数据可视化</a>，特别是 Tableau 等 BI 工具的熟悉。</li>
-<li>自我介绍准备。</li>
-</ol>
+<li>自我介绍准备。
 <ul>
 <li>梳理教育、学术科研、项目实践、竞赛和自身技术栈的经历。</li>
 <li>内容结构：背景、经历、匹配度与优势。特别是对该岗位所列要求的匹配和工作职责中各流程、环节所需技术和能力的匹配。</li>
 </ul>
+</li>
+</ol>
 <h2 id="附面经整理1" class="headerLink">
     <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%861" class="header-mark"></a>附：面经整理<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><blockquote>
 <p>实际所投岗位只有一次面试。</p>
@@ -462,8 +463,7 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
     <a href="#%e6%8a%a5%e5%88%b0" class="header-mark"></a>报到</h3><ol>
 <li>培训</li>
 <li>领取工卡</li>
-<li>签署材料</li>
-</ol>
+<li>签署材料
 <ul>
 <li>实习协议书</li>
 <li>保密和知识产权协议</li>
@@ -471,28 +471,25 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>第三方商业秘密协议</li>
 <li>入职登记表</li>
 </ul>
-<ol start="4">
+</li>
 <li>申领电脑</li>
 </ol>
 <h3 id="培训" class="headerLink">
     <a href="#%e5%9f%b9%e8%ae%ad" class="header-mark"></a>培训</h3><ol>
-<li>考勤</li>
-</ol>
+<li>考勤
 <ul>
 <li>周一至周五，八小时制，午餐一小时</li>
 <li>D-Chat App 定位签到签退</li>
 <li>周期从上月21日至本月20日</li>
 </ul>
-<ol start="2">
-<li>实习费</li>
-</ol>
+</li>
+<li>实习费
 <ul>
 <li>月底最后一个工作日发放上个周期实习薪资</li>
 <li>工资卡：招商银行</li>
 </ul>
-<ol start="3">
-<li>工具</li>
-</ol>
+</li>
+<li>工具
 <ul>
 <li>桔子堆</li>
 <li>邮箱</li>
@@ -501,13 +498,14 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>VPN</li>
 <li>食域</li>
 </ul>
-<ol start="4">
-<li>用餐</li>
-</ol>
+</li>
+<li>用餐
 <ul>
 <li>工作日16:30前下单</li>
 <li>送达时间为18:00左右</li>
 </ul>
+</li>
+</ol>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -574,16 +572,16 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <h2 id="择企" class="headerLink">
     <a href="#%e6%8b%a9%e4%bc%81" class="header-mark"></a>择企</h2><h3 id="消费互联网" class="headerLink">
     <a href="#%e6%b6%88%e8%b4%b9%e4%ba%92%e8%81%94%e7%bd%91" class="header-mark"></a>消费互联网</h3><ol>
-<li>垄断型大厂</li>
-</ol>
+<li>
+<p>垄断型大厂</p>
 <ul>
 <li>腾讯</li>
 <li>阿里</li>
 <li>字节跳动</li>
 </ul>
-<ol start="2">
-<li>平台型大厂</li>
-</ol>
+</li>
+<li>
+<p>平台型大厂</p>
 <ul>
 <li>美团</li>
 <li>网易</li>
@@ -591,6 +589,8 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>京东</li>
 <li>滴滴</li>
 </ul>
+</li>
+</ol>
 <h3 id="终端与智能制造" class="headerLink">
     <a href="#%e7%bb%88%e7%ab%af%e4%b8%8e%e6%99%ba%e8%83%bd%e5%88%b6%e9%80%a0" class="header-mark"></a>终端与智能制造</h3><ul>
 <li>华为</li>
@@ -601,40 +601,42 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 <h3 id="产品领域独角兽或头部" class="headerLink">
     <a href="#%e4%ba%a7%e5%93%81%e9%a2%86%e5%9f%9f%e7%8b%ac%e8%a7%92%e5%85%bd%e6%88%96%e5%a4%b4%e9%83%a8" class="header-mark"></a>产品领域独角兽或头部</h3><ol>
-<li>影像</li>
-</ol>
+<li>
+<p>影像</p>
 <ul>
 <li>影石</li>
 </ul>
-<ol start="2">
-<li>BI产品</li>
-</ol>
+</li>
+<li>
+<p>BI产品</p>
 <ul>
 <li>帆软</li>
 </ul>
-<ol start="3">
-<li><strong>国企/银行</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>国企/银行</strong></p>
 <ul>
 <li>工商银行</li>
 <li>国开行</li>
 </ul>
-<ol start="4">
-<li><strong>新能源/汽车</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>新能源/汽车</strong></p>
 <ul>
 <li>比亚迪</li>
 </ul>
+</li>
+</ol>
 <h2 id="择岗" class="headerLink">
     <a href="#%e6%8b%a9%e5%b2%97" class="header-mark"></a>择岗</h2><ol>
-<li><strong>开发类（后端、算法）</strong></li>
-</ol>
+<li>
+<p><strong>开发类（后端、算法）</strong></p>
 <ul>
 <li>C++开发</li>
 </ul>
-<ol start="2">
-<li><strong>产品类（数据、商业）</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>产品类（数据、商业）</strong></p>
 <ul>
 <li>技术产品经理</li>
 <li>业务产品运营</li>
@@ -642,32 +644,31 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>数据产品经理</li>
 <li>管培</li>
 </ul>
-<ol start="3">
-<li><strong>数据类</strong></li>
-</ol>
+</li>
+<li>
+<p><strong>数据类</strong></p>
 <ul>
 <li>数据分析</li>
 </ul>
+</li>
+</ol>
 <h2 id="知识体系" class="headerLink">
     <a href="#%e7%9f%a5%e8%af%86%e4%bd%93%e7%b3%bb" class="header-mark"></a>知识体系</h2><h3 id="开发类" class="headerLink">
-    <a href="#%e5%bc%80%e5%8f%91%e7%b1%bb" class="header-mark"></a>开发类</h3><ul>
-<li>操作系统</li>
-<li>Linux</li>
-<li>C++面向对象</li>
-<li>数据结构</li>
-<li>算法</li>
-</ul>
+    <a href="#%e5%bc%80%e5%8f%91%e7%b1%bb" class="header-mark"></a>开发类</h3><pre><code>- 操作系统
+- Linux
+- C++面向对象
+- 数据结构
+- 算法
+</code></pre>
 <h3 id="产品类" class="headerLink">
     <a href="#%e4%ba%a7%e5%93%81%e7%b1%bb" class="header-mark"></a>产品类</h3><ol>
-<li>工具</li>
-</ol>
+<li>工具
 <ul>
 <li>Axure</li>
 <li>墨刀&amp;Figma</li>
 </ul>
-<ol start="2">
-<li>产品项目</li>
-</ol>
+</li>
+<li>产品项目
 <ul>
 <li>如何拆解需求</li>
 <li>工作流程和框架</li>
@@ -676,45 +677,34 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>商业化</li>
 <li>使用场景分析</li>
 </ul>
-<ol start="3">
-<li>能力</li>
-</ol>
+</li>
+<li>能力
 <ul>
 <li>沟通 执行 领导</li>
 <li>判断 决策 影响</li>
 <li>产品思维</li>
 </ul>
-<ol start="4">
+</li>
 <li>需求 生产 销售 协调</li>
-<li>技术方向的业务认知</li>
+<li>技术方向的业务认知
+<ul>
+<li>云计算和云产品</li>
+<li>边缘计算</li>
+<li>网络协议和端口</li>
+<li>操作系统</li>
+<li>数据结构</li>
+</ul>
+</li>
 </ol>
 <ul>
-<li>
-<p>云计算和云产品</p>
-</li>
-<li>
-<p>边缘计算</p>
-</li>
-<li>
-<p>网络协议和端口</p>
-</li>
-<li>
-<p>操作系统</p>
-</li>
-<li>
-<p>数据结构</p>
-</li>
-<li>
-<p>相关习题 <a href="https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799" target="_blank" rel="noopener noreferrer">1</a> <a href="https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629" target="_blank" rel="noopener noreferrer">2</a> <a href="https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&amp;pid=31369524&amp;testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86%26selectStatus%3D0&amp;testclass=%e4%ba%a7%e5%93%81%2F%e8%bf%90%e8%90%a5" target="_blank" rel="noopener noreferrer">3</a></p>
-</li>
+<li>相关习题 <a href="https://www.nowcoder.com/exam/test/72028415/submission?pid=6617799" target="_blank" rel="noopener noreferrer">1</a> <a href="https://www.nowcoder.com/exam/test/72028410/submission?pid=6706629" target="_blank" rel="noopener noreferrer">2</a> <a href="https://www.nowcoder.com/exam/test/72028443/submission?examPageSource=Company&amp;pid=31369524&amp;testCallback=https%3A%2F%2Fwww.nowcoder.com%2Fexam%2Fcompany%3FcurrentTab%3Drecommand%26jobId%3D104%26keyword%3D%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86%26selectStatus%3D0&amp;testclass=%e4%ba%a7%e5%93%81%2F%e8%bf%90%e8%90%a5" target="_blank" rel="noopener noreferrer">3</a></li>
 </ul>
 <h3 id="数据类" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e7%b1%bb" class="header-mark"></a>数据类</h3><h2 id="综合测评" class="headerLink">
     <a href="#%e7%bb%bc%e5%90%88%e6%b5%8b%e8%af%84" class="header-mark"></a>综合测评</h2><h3 id="逻辑综合" class="headerLink">
     <a href="#%e9%80%bb%e8%be%91%e7%bb%bc%e5%90%88" class="header-mark"></a>逻辑综合</h3><p>（美团非技术类综测）</p>
 <ol>
-<li>逻辑推理</li>
-</ol>
+<li>逻辑推理
 <ul>
 <li>三图 看变换方式
 <ul>
@@ -737,16 +727,14 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 </li>
 </ul>
-<ol start="2">
-<li>数字计算</li>
-</ol>
+</li>
+<li>数字计算
 <ul>
 <li>排列组合 方程 逻辑分类</li>
 <li>闰年 被4整除且不被100整除 或者 能被400整除</li>
 </ul>
-<ol start="3">
-<li>言语理解</li>
-</ol>
+</li>
+<li>言语理解
 <ul>
 <li>概括归纳 推理 表述判断
 <ul>
@@ -757,12 +745,13 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>语病</li>
 <li>句子排序</li>
 </ul>
-<ol start="4">
-<li>资料分析</li>
-</ol>
+</li>
+<li>资料分析
 <ul>
 <li>同比 环比</li>
-</ul>]]></description>
+</ul>
+</li>
+</ol>]]></description>
 </item><item>
     <title>IELTS 口语：9~12月话题准备</title>
     <link>https://blog.ralvines.top/ielts-spoken/</link>
@@ -4498,56 +4487,53 @@ provise</p>]]></description>
 <p><strong>香港</strong></p>
 <ol>
 <li>香港科技大学 广州<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
-<li>香港科技大学<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
-</ol>
+<li>香港科技大学<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>
 <ul>
 <li>YANGXIANG（不带博士，需要联系新的）</li>
 </ul>
-<ol start="3">
+</li>
 <li>香港大学<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
 <li>香港中文大学</li>
-<li>香港中文大学 深圳<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></li>
-</ol>
+<li>香港中文大学 深圳<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>
 <ul>
 <li>张炼</li>
 <li>王本友（待联系）</li>
 </ul>
-<ol start="6">
-<li>香港理工大学</li>
-</ol>
+</li>
+<li>香港理工大学
 <ul>
 <li>乔中华（暂无后续）</li>
 </ul>
-<ol start="7">
+</li>
 <li>香港理工大学 深圳</li>
 <li>香港浸会大学-北师大联合项目</li>
 </ol>
 <p><strong>新加坡</strong></p>
 <ol start="9">
-<li>新加坡国立大学<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></li>
-</ol>
+<li>新加坡国立大学<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>
 <ul>
 <li>（招生办暂无后续，暂无套磁）</li>
 </ul>
-<ol start="10">
-<li>南洋理工大学</li>
-</ol>
+</li>
+<li>南洋理工大学
 <ul>
 <li>夏克林（等GRE、雅思）</li>
 </ul>
+</li>
+</ol>
 <p><strong>备选</strong></p>
 <ol start="11">
-<li>新加坡管理大学</li>
-</ol>
+<li>新加坡管理大学
 <ul>
 <li>（等GRE）</li>
 </ul>
-<ol start="12">
-<li>奥本大学</li>
-</ol>
+</li>
+<li>奥本大学
 <ul>
 <li>（等GRE）</li>
 </ul>
+</li>
+</ol>
 <p><strong>排除</strong></p>
 <ul>
 <li>UCSD</li>
@@ -4955,18 +4941,18 @@ provise</p>]]></description>
             </div><h2 id="大纲" class="headerLink">
     <a href="#%e5%a4%a7%e7%ba%b2" class="header-mark"></a>大纲</h2><h3 id="书目" class="headerLink">
     <a href="#%e4%b9%a6%e7%9b%ae" class="header-mark"></a>书目</h3><ul>
-<li><i class="far fa-square fa-fw"></i> <strong>华师大 10.1-10.15</strong> 【每天两章，大纲整理，记忆定理，速过课后例题&amp;习题】</li>
-<li><i class="far fa-square fa-fw"></i> 史济怀 10.16-10.31</li>
-<li><i class="far fa-square fa-fw"></i> 裴礼文 11.1-11.15</li>
-<li><i class="far fa-square fa-fw"></i> 谢惠民 11.16-11.30</li>
+<li><i class="far fa-square fa-fw"></i> 华师大</li>
+<li><i class="far fa-square fa-fw"></i> 史济怀</li>
+<li><i class="far fa-square fa-fw"></i> 裴礼文</li>
+<li><i class="far fa-square fa-fw"></i> 谢惠民</li>
 <li><i class="far fa-square fa-fw"></i> 李杨
 <ul>
-<li><i class="far fa-square fa-fw"></i> <strong>每日一题 10.1-10.15</strong> 【每天六条】</li>
-<li><i class="far fa-square fa-fw"></i> 强化讲义 10.16-10.31</li>
-<li><i class="far fa-square fa-fw"></i> 重点 11.1-11.15</li>
+<li><i class="far fa-square fa-fw"></i> 每日一题</li>
+<li><i class="far fa-square fa-fw"></i> 强化讲义</li>
+<li><i class="far fa-square fa-fw"></i> 重点</li>
 </ul>
 </li>
-<li><i class="far fa-square fa-fw"></i> 真题 11.16-11.30</li>
+<li><i class="far fa-square fa-fw"></i> 真题</li>
 <li><i class="far fa-square fa-fw"></i> 方法及例题选讲</li>
 </ul>
 <h3 id="重点" class="headerLink">
