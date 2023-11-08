@@ -23,16 +23,17 @@
 <meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="images/logo.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://blog.ralvines.top/tags/%E4%B8%93%E4%B8%9A%E5%BF%85%E4%BF%AE%E8%AF%BE/" /><link rel="alternate" href="/tags/%E4%B8%93%E4%B8%9A%E5%BF%85%E4%BF%AE%E8%AF%BE/index.xml" type="application/rss+xml" title="暮瞻">
     <link rel="feed" href="/tags/%E4%B8%93%E4%B8%9A%E5%BF%85%E4%BF%AE%E8%AF%BE/index.xml" type="application/rss+xml" title="暮瞻"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
-        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 </head>
 
 <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
-        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
         if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
     </script>
     <div id="back-to-top"></div>
     <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
@@ -55,7 +56,7 @@
                     <a href="/cage/cage/" 
                         class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                     </a>
-                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
                 </div>
                 
                 <div class="dropdown">
@@ -128,7 +129,7 @@
                 <a href="/cage/cage/" 
                     class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                 </a>
-                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
             </div>
             
             <div class="dropdown">
@@ -151,6 +152,15 @@
     <div id="search-dropdown-mobile"></div>
 </div><main class="main">
             <div class="container"><div class="page archive"><h2 class="single-title animate__animated animate__pulse animate__faster"><i class="fas fa-tag fa-fw"></i>&nbsp;专业必修课</h2><h3 class="group-title">2023</h3><article class="archive-item">
+                            <a href="/pdeszj/" class="archive-item-link">微分方程数值解</a>
+                            <span class="archive-item-date">03-01</span>
+                        </article><article class="archive-item">
+                            <a href="/sbhs/" class="archive-item-link">实变函数</a>
+                            <span class="archive-item-date">03-01</span>
+                        </article><article class="archive-item">
+                            <a href="/pde/" class="archive-item-link">偏微分方程</a>
+                            <span class="archive-item-date">03-01</span>
+                        </article><article class="archive-item">
                             <a href="/fhfx/" class="archive-item-link">泛函分析</a>
                             <span class="archive-item-date">03-01</span>
                         </article><h3 class="group-title">2022</h3><article class="archive-item">

@@ -1,9 +1,7 @@
 # 🤝 友链
 
 
-## 🚪 传送门
-
-排名不分先后。
+<h2>🚪 传送门</h2>
 
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" bio="一个记录技术、阅读、生活的博客" >}}
 
@@ -46,7 +44,7 @@
 {{< friend name="哇子" url="http://blog.wazicode.top" avatar="" bio="" >}}
 
 
-## 👉 交换友链
+<h2>👉 交换友链</h2>
 
 欢迎交换友链~在下方留言你的：
 

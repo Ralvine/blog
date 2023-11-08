@@ -1,0 +1,198 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>张庆海 - 标签 - 暮瞻</title>
+        <link>https://blog.ralvines.top/tags/%E5%BC%A0%E5%BA%86%E6%B5%B7/</link>
+        <description>张庆海 - 标签 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E5%BC%A0%E5%BA%86%E6%B5%B7/" rel="self" type="application/rss+xml" /><item>
+    <title>微分方程数值解</title>
+    <link>https://blog.ralvines.top/pdeszj/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pdeszj/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 张庆海<br>
+📝 40%平时，60%期末</div>
+        </div>
+    </div>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<li>教材讲义</li>
+<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51564&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
+</ul>
+<h2 id="ch7-bvp-fd" class="headerLink">
+    <a href="#ch7-bvp-fd" class="header-mark"></a>(Ch7) BVP-FD</h2><blockquote>
+<p>P60-70 (11)</p>
+</blockquote>
+<ul>
+<li>有限差分离散化</li>
+<li>误差和一致性</li>
+<li>稳定性、收敛性
+<ul>
+<li>范数收敛</li>
+<li>Green函数
+<ul>
+<li>解决方案</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>其他边值条件</li>
+<li>二维
+<ul>
+<li>Kronecker乘积</li>
+<li>范数收敛性</li>
+</ul>
+</li>
+<li>不规则边界、收敛性</li>
+</ul>
+<h2 id="ch9-multigrid" class="headerLink">
+    <a href="#ch9-multigrid" class="header-mark"></a>(Ch9) Multigrid</h2><blockquote>
+<p>P80-87 (8)</p>
+</blockquote>
+<ul>
+<li>残差方程</li>
+<li>模型问题</li>
+<li>算法组成
+<ul>
+<li>傅立叶模式</li>
+<li>松弛</li>
+<li>限制、延拓</li>
+<li>双网格矫正</li>
+<li>多重网格cycles</li>
+</ul>
+</li>
+<li>收敛性分析
+<ul>
+<li>代数图</li>
+<li>FMG最优复杂度</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch11-ivp" class="headerLink">
+    <a href="#ch11-ivp" class="header-mark"></a>(Ch11) IVP</h2><blockquote>
+<p>P102-138 (37)</p>
+</blockquote>
+<ul>
+<li>数学基础
+<ul>
+<li>ODE</li>
+<li>算子范数</li>
+<li>矩阵指数</li>
+<li>Lipschitz连续条件</li>
+<li>解的唯一存在性</li>
+<li>well-posed 适定性</li>
+<li>常系数线性IVPs</li>
+</ul>
+</li>
+<li>数值方法
+<ul>
+<li>欧拉法</li>
+<li>前欧拉</li>
+<li>后欧拉</li>
+<li>梯形法</li>
+<li>leapfrog 中点法</li>
+<li>截断误差</li>
+<li>欧拉法的收敛性</li>
+<li>零/绝对稳定性</li>
+</ul>
+</li>
+<li>线性多步法
+<ul>
+<li>一致性、稳定性</li>
+<li>零稳定性</li>
+<li>线性差分方程</li>
+<li>收敛性</li>
+<li>绝对稳定性</li>
+</ul>
+</li>
+<li>刚性IVPs
+<ul>
+<li>刚度 stiffness</li>
+<li>A-稳定性</li>
+</ul>
+</li>
+<li>单步法
+<ul>
+<li>一致性、收敛性</li>
+<li>绝对稳定性</li>
+<li>A-稳定性、L-稳定性</li>
+</ul>
+</li>
+<li>龙格库塔法
+<ul>
+<li>显式法</li>
+<li>必要阶数条件</li>
+<li>隐式法</li>
+<li>Collocation 配点法</li>
+<li>实用误差估计、步长控制</li>
+<li>一致性、收敛性</li>
+<li>绝对稳定性</li>
+<li>I-稳定性、L-稳定性</li>
+<li>收缩性、B-稳定性</li>
+<li>代数稳定性</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch12-mol" class="headerLink">
+    <a href="#ch12-mol" class="header-mark"></a>(Ch12) MOL</h2><blockquote>
+<p>P140-155 (16)</p>
+</blockquote>
+<ul>
+<li>热方程
+<ul>
+<li>抛物、导出</li>
+<li>边值条件、精确解</li>
+<li>FTCS</li>
+<li>Crank-Nicolson</li>
+<li>精度、一致性</li>
+<li>绝对稳定性、Lax-Richtmyer稳定性</li>
+<li>收敛性</li>
+<li>离散最大值原理</li>
+<li>冯诺依曼稳定性</li>
+</ul>
+</li>
+<li>平流方程
+<ul>
+<li>经典MOL法
+<ul>
+<li>FTCS</li>
+<li>leapfrog</li>
+<li>Lax-Friedrichs</li>
+<li>Lax-Wendroff</li>
+<li>upwind</li>
+<li>Beam-Warming</li>
+</ul>
+</li>
+<li>CFL条件</li>
+<li>修正方程</li>
+<li>冯诺依曼分析</li>
+</ul>
+</li>
+</ul>
+<h2 id="作业" class="headerLink">
+    <a href="#%e4%bd%9c%e4%b8%9a" class="header-mark"></a>作业</h2><ul>
+<li>Homework01</li>
+<li>Homework02</li>
+<li>Homework03</li>
+<li>Homework04</li>
+<li>Homework05</li>
+<li>Project01</li>
+<li>Project02</li>
+<li>Project03</li>
+<li>Project04</li>
+</ul>
+<h2 id="前辈经验" class="headerLink">
+    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<p>lz这学期上了<strong>张庆海</strong>老师的微分方程数值解课程，个人认为这门课在数院是一门非常有特点的课，虽说比较硬核但确实能学到许多，于是开个帖写写课程体会（顺便安利一手） 1.理论与实践结合 数院的课大多以理论为导向，这门课是少有的几门理论与实践并重的课程之一。本学期这门课一共有两个编程大作业，都与课上学的算法密不可分。顺带提醒，先确保完全弄明白算法之后再动手coding，否则成吨的bug在等着你&hellip;</p>
+<p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
+<p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>
+</blockquote>]]></description>
+</item></channel>
+</rss>

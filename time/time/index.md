@@ -6,6 +6,14 @@
 星汉灿烂 若出其里
 {{< /quote-center >}}
 
+{{< align center "🌳" >}}
+
+{{< align center "这里蚀录个人的生活痕迹" >}}
+
+{{< align center "通过 📷摄影 追踪旅途精彩瞬间" >}}
+
+{{< align center "亦可见证技能树的加点进程" >}}
+
 <div class="subpage-box">
   <div class="subpage-box-cover">
     <a href="../skill" data-pjax-state="">

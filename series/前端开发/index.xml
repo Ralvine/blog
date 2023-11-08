@@ -1,0 +1,165 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>前端开发 - 系列 - 暮瞻</title>
+        <link>https://blog.ralvines.top/series/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
+        <description>前端开发 - 系列 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 12 Sep 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" rel="self" type="application/rss+xml" /><item>
+    <title>CSS 强化</title>
+    <link>https://blog.ralvines.top/blog-css/</link>
+    <pubDate>Tue, 12 Sep 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/blog-css/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
+            </div><h2 id="hexo" class="headerLink">
+    <a href="#hexo" class="header-mark"></a>Hexo</h2><h2 id="mkdocs" class="headerLink">
+    <a href="#mkdocs" class="header-mark"></a>Mkdocs</h2><h2 id="hugo--dolt" class="headerLink">
+    <a href="#hugo--dolt" class="header-mark"></a>Hugo &amp; Dolt</h2><h2 id="css" class="headerLink">
+    <a href="#css" class="header-mark"></a>CSS</h2><h3 id="与-html-的关系" class="headerLink">
+    <a href="#%e4%b8%8e-html-%e7%9a%84%e5%85%b3%e7%b3%bb" class="header-mark"></a>与 HTML 的关系</h3><ul>
+<li>内容与结构的分离</li>
+<li>在 HTML 上嵌入层叠样式表
+<ul>
+<li>外部引用 .css</li>
+<li>内部/局部使用<code>&lt;style&gt;</code>, <code>&lt;p style=&quot;&quot;&gt;</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="基本语法" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e8%af%ad%e6%b3%95" class="header-mark"></a>基本语法</h3><ul>
+<li>
+<p>属性内分隔符<code>,</code></p>
+</li>
+<li>
+<p>属性间分隔符<code>;</code></p>
+</li>
+<li>
+<p>允许叠加属性符 <code>ex: top right</code></p>
+</li>
+<li>
+<p><code>background</code><strong>背景</strong></p>
+<p><code>-color</code> 背景色</p>
+<p><code>-image: url(pic.file)</code> 背景图片</p>
+<p><code>-repeat: repeat/no-repeat</code> 重复性</p>
+<p><code>-position: center/right/top/100px 100px</code> 位置</p>
+<p><code>-attchment: scroll/fixed</code> 固定性</p>
+</li>
+<li>
+<p><strong>文本段落</strong></p>
+<ul>
+<li>
+<p>格式</p>
+<p><code>text-indent: -2em/10%/2in/2cm</code> 首行缩进</p>
+<p><code>padding: 2em </code> 悬挂缩进 即非首行的缩进</p>
+<p><code>line-height: normal/1.5</code> 行距 倍数</p>
+<p><code>text-align: left/right/center/justify</code> 对齐 (justify: 两端对齐)</p>
+<p><code>word-spacing: 10px</code> 空格大小</p>
+<p><code>letter-spacing: 10px</code> 字符间距</p>
+<p><code>text-transform: uppercase/lowcase/capitalize</code> 变形: 全大写/小写/首字母大写</p>
+<p><code>text-decoration: underline/overline/linethrough </code> 文本装饰</p>
+<p><code>white-space: normal/pre/wrap/no-wrap/pre-line</code> 空白符样式</p>
+<p><code>direction: ltr/rtl</code> 方向</p>
+</li>
+<li>
+<p><strong>字体</strong></p>
+<p><code>font-family: serif/sans-serif/nomospace</code></p>
+<p><code>font-style: italic/obique</code> 斜体/计算斜体</p>
+<p><code>font-variant: small-caps</code> 大写字母缩小</p>
+<p><code>font-weight: 400/bold</code> 字重</p>
+<p><code>font-size: 0.5em/10px</code></p>
+<p><code>text-shadow: 3px 5px 5px rgba(r,g,b,a)</code> 阴影: x, y, z 轴延伸值</p>
+<p><code>outline-color: redl; outline-style: solid/double; outline-width: 1</code> 轮廓</p>
+</li>
+<li>
+<p><strong>列表</strong></p>
+<p><code>&lt;ul style=&quot;list-style[keyword]: [keyword]&quot;&gt;</code></p>
+<p><code> -type: disc/circle/square</code></p>
+<p><code>-position: </code></p>
+</li>
+<li>
+<p>表格</p>
+</li>
+<li></li>
+</ul>
+</li>
+<li>
+<p>颜色</p>
+<p><code>transparent</code> 关键字 (透明)</p>
+<p><code>#ffffff</code> 十六进制</p>
+<p><code>rgb(255,255,0)</code> 十进制 (0~255)</p>
+<p><code>rgba(r,g,b,a)</code> a=alpha 透明度 (0~1)</p>
+</li>
+</ul>
+<h2 id="html-markdown-对照表" class="headerLink">
+    <a href="#html-markdown-%e5%af%b9%e7%85%a7%e8%a1%a8" class="header-mark"></a>HTML-MarkDown 对照表</h2><table>
+<thead>
+<tr>
+<th>描述</th>
+<th>markdown</th>
+<th>HTML TAG</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>标题</td>
+<td><code># 一级标题</code> <code>## 二级标题</code>…</td>
+<td>h1,h2…h6</td>
+</tr>
+<tr>
+<td>粗体</td>
+<td><code>**粗体**</code></td>
+<td>b , strong</td>
+</tr>
+<tr>
+<td>斜体</td>
+<td><code>*斜体*</code></td>
+<td>em, i</td>
+</tr>
+<tr>
+<td>分割线</td>
+<td><code>---</code></td>
+<td>hr</td>
+</tr>
+<tr>
+<td>无序列表</td>
+<td><code>* 1</code> <code>- 1</code> <code>+ 1</code></td>
+<td>ul</td>
+</tr>
+<tr>
+<td>有序列表</td>
+<td><code>1.</code></td>
+<td>ol</td>
+</tr>
+<tr>
+<td>引用</td>
+<td><code>&gt;</code></td>
+<td>blockquote</td>
+</tr>
+<tr>
+<td>超链接</td>
+<td><code>[url](url)</code></td>
+<td>a</td>
+</tr>
+<tr>
+<td>图片</td>
+<td><code>![img](imgUrl)</code></td>
+<td>img</td>
+</tr>
+<tr>
+<td>表格</td>
+<td>见下</td>
+<td>table</td>
+</tr>
+<tr>
+<td>代码段</td>
+<td>见下</td>
+<td>code</td>
+</tr>
+<tr>
+<td>段落</td>
+<td>无特殊表示</td>
+<td>p</td>
+</tr>
+</tbody>
+</table>]]></description>
+</item></channel>
+</rss>

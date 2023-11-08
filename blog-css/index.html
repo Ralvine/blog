@@ -34,7 +34,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.ralvines.top\/blog-css\/"
-        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  393 ,
+        },"genre": "posts","keywords": "css, html","wordcount":  398 ,
         "url": "https:\/\/blog.ralvines.top\/blog-css\/","datePublished": "2023-09-12T20:20:40+08:00","dateModified": "2023-09-12T20:25:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"authors": [{
@@ -42,16 +42,17 @@
                         "name": "Ralvine"                    
                     }],"description": ""
     }
-    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 </head>
 
 <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
-        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
         if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
     </script>
     <div id="back-to-top"></div>
     <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
@@ -74,7 +75,7 @@
                     <a href="/cage/cage/" 
                         class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                     </a>
-                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
                 </div>
                 
                 <div class="dropdown">
@@ -147,7 +148,7 @@
                 <a href="/cage/cage/" 
                     class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                 </a>
-                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
             </div>
             
             <div class="dropdown">
@@ -169,10 +170,28 @@
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div><main class="main">
-            <div class="container"><div class="toc" id="toc-auto">
+            <div class="container"><script>
+            (function(){
+                if("test"){
+                    if (prompt('请输入文章密码') != "test"){
+                        alert('密码错误！');
+                        if (history.length === 1) {
+                            window.opener = null;
+                            window.open('', '_self');
+                            window.close();
+                        } else {
+                            history.back();
+                        }
+                    }
+                }
+            })();
+        </script><div class="toc" id="toc-auto">
         <h2 class="toc-title">目录</h2>
         <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>
+    <li><a href="#hexo">Hexo</a></li>
+    <li><a href="#mkdocs">Mkdocs</a></li>
+    <li><a href="#hugo--dolt">Hugo &amp; Dolt</a></li>
     <li><a href="#css">CSS</a>
       <ul>
         <li><a href="#与-html-的关系">与 HTML 的关系</a></li>
@@ -185,8 +204,8 @@
     </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">CSS 强化</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
-                </span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-category"><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-series"><a href="/series/%E8%AF%BE%E7%A8%8B-%E5%A4%A7%E5%9B%9B/"><i class="far fa-list-alt fa-fw"></i>课程-大四</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-09-12">2023-09-12</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-09-12">2023-09-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 393 字&nbsp;
+                </span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-category"><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-series"><a href="/series/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"><i class="far fa-list-alt fa-fw"></i>前端开发</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-09-12">2023-09-12</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-09-12">2023-09-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 398 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/blog-css/" class="leancloud_visitors" data-flag-title="CSS 强化">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -197,6 +216,9 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
+    <li><a href="#hexo">Hexo</a></li>
+    <li><a href="#mkdocs">Mkdocs</a></li>
+    <li><a href="#hugo--dolt">Hugo &amp; Dolt</a></li>
     <li><a href="#css">CSS</a>
       <ul>
         <li><a href="#与-html-的关系">与 HTML 的关系</a></li>
@@ -206,7 +228,10 @@
     <li><a href="#html-markdown-对照表">HTML-MarkDown 对照表</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="css" class="headerLink">
+            </div><div class="content" id="content"><h2 id="hexo" class="headerLink">
+    <a href="#hexo" class="header-mark"></a>Hexo</h2><h2 id="mkdocs" class="headerLink">
+    <a href="#mkdocs" class="header-mark"></a>Mkdocs</h2><h2 id="hugo--dolt" class="headerLink">
+    <a href="#hugo--dolt" class="header-mark"></a>Hugo &amp; Dolt</h2><h2 id="css" class="headerLink">
     <a href="#css" class="header-mark"></a>CSS</h2><h3 id="与-html-的关系" class="headerLink">
     <a href="#%e4%b8%8e-html-%e7%9a%84%e5%85%b3%e7%b3%bb" class="header-mark"></a>与 HTML 的关系</h3><ul>
 <li>内容与结构的分离</li>
@@ -368,83 +393,6 @@
             <a href="https://blog.ralvines.top/praise/" class="donation-button" data-pjax-state>赞赏</a>
             </div></div>
 
-
-<div class="related-container">
-    <div class="related-text">相关内容</div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/qianyan/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/qianyan/">数学前沿专题讨论</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/c-interview/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        title="https://z1.ax1x.com/2023/11/01/pinHqnH.png" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/c-interview/">C&#43;&#43; 面向对象之面试与机考技巧</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/zzjjxdl/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piAGKJ0.png, https://z1.ax1x.com/2023/10/23/piAGKJ0.png 1.5x, https://z1.ax1x.com/2023/10/23/piAGKJ0.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
-        title="https://z1.ax1x.com/2023/10/23/piAGKJ0.png" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/zzjjxdl/">政治经济学导论</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/sbhs/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        title="https://z1.ax1x.com/2023/10/23/piAW5eH.png" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/sbhs/">实变函数</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/sjjm/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        title="https://z1.ax1x.com/2023/10/23/piAW5eH.png" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/sjjm/">数据建模与分析</a>
-            </h2>
-        </div>
-    
-
-</div>
-
 <div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -457,13 +405,13 @@
             <div class="post-info-md"><span><a class="link-to-mardown" href=/blog-css/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
                     </span></div>
             <div class="post-info-share">
-                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化" data-hashtags="温铁军,经济,政治"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/blog-css/" data-hashtag="温铁军"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化" data-hashtags="css,html"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/blog-css/" data-hashtag="css"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/blog-css/" data-title="CSS 强化"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%B8%A9%E9%93%81%E5%86%9B/">温铁军</a>,&nbsp;<a href="/tags/%E7%BB%8F%E6%B5%8E/">经济</a>,&nbsp;<a href="/tags/%E6%94%BF%E6%B2%BB/">政治</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/css/">css</a>,&nbsp;<a href="/tags/html/">html</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>

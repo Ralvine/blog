@@ -34,7 +34,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.ralvines.top\/qianyan\/"
-        },"genre": "posts","keywords": "温铁军, 经济, 政治","wordcount":  5659 ,
+        },"genre": "posts","keywords": "数学, 毕惟红","wordcount":  5659 ,
         "url": "https:\/\/blog.ralvines.top\/qianyan\/","datePublished": "2023-10-30T20:20:40+08:00","dateModified": "2023-10-30T20:25:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"authors": [{
@@ -42,16 +42,17 @@
                         "name": "Ralvine"                    
                     }],"description": "毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。"
     }
-    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 </head>
 
 <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
-        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
         if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
     </script>
     <div id="back-to-top"></div>
     <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
@@ -74,7 +75,7 @@
                     <a href="/cage/cage/" 
                         class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                     </a>
-                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
                 </div>
                 
                 <div class="dropdown">
@@ -147,7 +148,7 @@
                 <a href="/cage/cage/" 
                     class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                 </a>
-                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
             </div>
             
             <div class="dropdown">
@@ -173,7 +174,11 @@
         <h2 class="toc-title">目录</h2>
         <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>
-    <li><a href="#背景">背景</a></li>
+    <li><a href="#背景">背景</a>
+      <ul>
+        <li><a href="#研究方向">研究方向</a></li>
+      </ul>
+    </li>
     <li><a href="#遗传算法">遗传算法</a></li>
     <li><a href="#统计学习方法">统计学习方法</a></li>
     <li><a href="#首次展示knn">首次展示：kNN</a>
@@ -231,7 +236,11 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#背景">背景</a></li>
+    <li><a href="#背景">背景</a>
+      <ul>
+        <li><a href="#研究方向">研究方向</a></li>
+      </ul>
+    </li>
     <li><a href="#遗传算法">遗传算法</a></li>
     <li><a href="#统计学习方法">统计学习方法</a></li>
     <li><a href="#首次展示knn">首次展示：kNN</a>
@@ -295,8 +304,8 @@
 </ul>
 </li>
 </ol>
-<p><strong>研究方向</strong></p>
-<ol>
+<h3 id="研究方向" class="headerLink">
+    <a href="#%e7%a0%94%e7%a9%b6%e6%96%b9%e5%90%91" class="header-mark"></a>研究方向</h3><ol>
 <li>图像处理
 <ul>
 <li>图像分割 图像识别</li>
@@ -843,44 +852,44 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <div class="related-text">相关内容</div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/blog-css/"><img
+                <a href="/fhfx/"><img
         
         loading="lazy"
-        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
         sizes="auto"
-        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
         title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/blog-css/">CSS 强化</a>
+                <a href="/fhfx/">泛函分析</a>
             </h2>
         </div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/c-interview/"><img
+                <a href="/fbhs/"><img
         
         loading="lazy"
-        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
-        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
         sizes="auto"
-        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
         title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/c-interview/">C&#43;&#43; 面向对象之面试与机考技巧</a>
+                <a href="/fbhs/">复变函数</a>
             </h2>
         </div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/zzjjxdl/"><img
+                <a href="/pde/"><img
         
         loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piAGKJ0.png, https://z1.ax1x.com/2023/10/23/piAGKJ0.png 1.5x, https://z1.ax1x.com/2023/10/23/piAGKJ0.png 2x"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
         sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piAGKJ0.png"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
         title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/zzjjxdl/">政治经济学导论</a>
+                <a href="/pde/">偏微分方程</a>
             </h2>
         </div>
     <div class="related-item-container">
@@ -899,7 +908,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
         </div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/sjjm/"><img
+                <a href="/pdeszj/"><img
         
         loading="lazy"
         src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
@@ -908,7 +917,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
         alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
         title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/sjjm/">数据建模与分析</a>
+                <a href="/pdeszj/">微分方程数值解</a>
             </h2>
         </div>
     
@@ -927,13 +936,13 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
             <div class="post-info-md"><span><a class="link-to-mardown" href=/qianyan/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
                     </span></div>
             <div class="post-info-share">
-                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论" data-hashtags="温铁军,经济,政治"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/qianyan/" data-hashtag="温铁军"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论" data-hashtags="数学,毕惟红"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="https://blog.ralvines.top/qianyan/" data-hashtag="数学"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 百度" data-sharer="baidu" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="https://blog.ralvines.top/qianyan/" data-title="数学前沿专题讨论"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%B8%A9%E9%93%81%E5%86%9B/">温铁军</a>,&nbsp;<a href="/tags/%E7%BB%8F%E6%B5%8E/">经济</a>,&nbsp;<a href="/tags/%E6%94%BF%E6%B2%BB/">政治</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%95%B0%E5%AD%A6/">数学</a>,&nbsp;<a href="/tags/%E6%AF%95%E6%83%9F%E7%BA%A2/">毕惟红</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>

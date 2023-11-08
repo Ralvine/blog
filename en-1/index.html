@@ -34,7 +34,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.ralvines.top\/en-1\/"
-        },"genre": "posts","keywords": "口语, 雅思","wordcount":  459 ,
+        },"genre": "posts","keywords": "口语, 雅思","wordcount":  450 ,
         "url": "https:\/\/blog.ralvines.top\/en-1\/","datePublished": "2023-08-01T20:20:40+08:00","dateModified": "2023-10-22T20:25:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"authors": [{
@@ -42,16 +42,17 @@
                         "name": "Ralvine"                    
                     }],"description": ""
     }
-    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 </head>
 
 <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
-        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
         if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
     </script>
     <div id="back-to-top"></div>
     <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
@@ -74,7 +75,7 @@
                     <a href="/cage/cage/" 
                         class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                     </a>
-                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
                 </div>
                 
                 <div class="dropdown">
@@ -147,7 +148,7 @@
                 <a href="/cage/cage/" 
                     class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                 </a>
-                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
             </div>
             
             <div class="dropdown">
@@ -169,7 +170,22 @@
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div><main class="main">
-            <div class="container"><div class="toc" id="toc-auto">
+            <div class="container"><script>
+            (function(){
+                if("test"){
+                    if (prompt('请输入文章密码') != "test"){
+                        alert('密码错误！');
+                        if (history.length === 1) {
+                            window.opener = null;
+                            window.open('', '_self');
+                            window.close();
+                        } else {
+                            history.back();
+                        }
+                    }
+                }
+            })();
+        </script><div class="toc" id="toc-auto">
         <h2 class="toc-title">目录</h2>
         <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>
@@ -187,7 +203,7 @@
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
                 </span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-category"><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-series"><a href="/series/%E8%87%AA%E6%88%91%E6%88%90%E9%95%BF/"><i class="far fa-list-alt fa-fw"></i>自我成长</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-01">2023-08-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 459 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-08-01">2023-08-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 450 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/en-1/" class="leancloud_visitors" data-flag-title="英语（一）学习与备考">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -212,7 +228,7 @@
 <li>
 <p>词汇</p>
 <ul>
-<li><i class="far fa-square fa-fw"></i> <strong>基础单词 6000 复习学习-沉浸刷词-句库 10.1-10.15</strong> 【每天500词】</li>
+<li><i class="far fa-square fa-fw"></i> 基础单词 6000 复习学习-沉浸刷词-句库</li>
 <li><i class="far fa-square fa-fw"></i> 核心词 10.16-10.31
 <ul>
 <li><i class="far fa-square fa-fw"></i> 作文核心词&amp;话题词&amp;主题词</li>

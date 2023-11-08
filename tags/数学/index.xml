@@ -3,7 +3,540 @@
         <title>数学 - 标签 - 暮瞻</title>
         <link>https://blog.ralvines.top/tags/%E6%95%B0%E5%AD%A6/</link>
         <description>数学 - 标签 - 暮瞻</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E6%95%B0%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E6%95%B0%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+    <title>数学前沿专题讨论</title>
+    <link>https://blog.ralvines.top/qianyan/</link>
+    <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2023-2024 秋冬<br>
+🧑‍🏫 毕惟红<br>
+📝 50%读书报告，10%考勤，10%编程，30%两次展示</div>
+        </div>
+    </div>
+<h2 id="背景" class="headerLink">
+    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><ol>
+<li>浙大 计算数学</li>
+<li>研究生
+<ul>
+<li>数字模拟 投影法求曲面面积</li>
+<li>随机数生成 数值代数 多元非线性方程组求解</li>
+</ul>
+</li>
+</ol>
+<h3 id="研究方向" class="headerLink">
+    <a href="#%e7%a0%94%e7%a9%b6%e6%96%b9%e5%90%91" class="header-mark"></a>研究方向</h3><ol>
+<li>图像处理
+<ul>
+<li>图像分割 图像识别</li>
+<li>图像加密 做的比较好</li>
+</ul>
+</li>
+<li>语义识别
+<ul>
+<li>三维点式数据（无人驾驶、激光雷达）</li>
+</ul>
+</li>
+<li>社区发现
+<ul>
+<li>复杂网络</li>
+<li>拟牛顿</li>
+</ul>
+</li>
+</ol>
+<h2 id="遗传算法" class="headerLink">
+    <a href="#%e9%81%97%e4%bc%a0%e7%ae%97%e6%b3%95" class="header-mark"></a>遗传算法</h2><h2 id="统计学习方法" class="headerLink">
+    <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h2 id="首次展示knn" class="headerLink">
+    <a href="#%e9%a6%96%e6%ac%a1%e5%b1%95%e7%a4%baknn" class="header-mark"></a>首次展示：kNN</h2><h3 id="分类问题1" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3><ul>
+<li>
+<p>一种监督学习问题，旨在对数据分类</p>
+</li>
+<li>
+<p>将输入数据映射到预定义的类别或标签</p>
+</li>
+<li>
+<p>从已知的训练数据中学习一个分类模型，然后将该模型应用于新的、未知的数据，以预测其所属的类别</p>
+</li>
+<li>
+<p>垃圾邮件过滤、金融风险评估</p>
+</li>
+<li>
+<p>医学诊断、生物信息学</p>
+</li>
+<li>
+<p>情感分析、客户分类</p>
+</li>
+<li>
+<p>图像识别</p>
+</li>
+</ul>
+<h3 id="knn模型构建" class="headerLink">
+    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba" class="header-mark"></a>kNN模型构建</h3><h4 id="提出2" class="headerLink">
+    <a href="#%e6%8f%90%e5%87%ba2" class="header-mark"></a>提出<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h4><p>$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$
+$$y_i\in\mathcal{Y}={c_1,c_2,\cdots,c_K}$$
+$$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
+<ul>
+<li>
+<p>输入：特征向量（空间点）</p>
+</li>
+<li>
+<p>输出：类别（可以取多类）</p>
+</li>
+<li>
+<p>已标注的训练集</p>
+</li>
+<li>
+<p>预测：多数表决（“近朱者赤” ）</p>
+</li>
+<li>
+<p>不具有显式的学习过程</p>
+</li>
+</ul>
+<p><strong>适用范围</strong></p>
+<ul>
+<li>数值型和标称型<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
+</ul>
+<p><strong>优点</strong><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<ol>
+<li>直观、非参数化</li>
+<li>对异常值不敏感</li>
+<li>支持多类别</li>
+</ol>
+<p><strong>缺点</strong><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<ol>
+<li>时间复杂度高</li>
+<li>存储成本高</li>
+<li>“维度灾难”和数据不平衡</li>
+</ol>
+<h4 id="构建流程" class="headerLink">
+    <a href="#%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>构建流程</h4><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
+<ol>
+<li>在训练集 T 中找出与 x 最邻近的 k 个点，涵盖这 个点的 x 的邻域记作 $N_k(a)$</li>
+<li>在 $N_k(a)$ 中根据分类决策规则决定 x 的类别 y</li>
+</ol>
+<p><strong>基本要素</strong></p>
+<ol>
+<li>k 值选择</li>
+<li>距离度量</li>
+<li>决策规则</li>
+</ol>
+<p>特殊情况：最近邻（k=1）</p>
+<p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
+        
+    </a></figure></p>
+<h3 id="模型要素" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h3><h4 id="k-值选择" class="headerLink">
+    <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h4><table>
+<thead>
+<tr>
+<th>k值</th>
+<th>偏小</th>
+<th>偏大</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>近似误差</td>
+<td>减小</td>
+<td>增大</td>
+</tr>
+<tr>
+<td>估计误差</td>
+<td>增大</td>
+<td>减小</td>
+</tr>
+</tbody>
+</table>
+<p>交叉验证以提高泛化性能。<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
+<h4 id="距离度量9" class="headerLink">
+    <a href="#%e8%b7%9d%e7%a6%bb%e5%ba%a6%e9%87%8f9" class="header-mark"></a>距离度量<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h4><p>对于
+$$x_i=(x_i^{(1)}, x_i^{(2)}, \cdots, x_i^{(n)})$$</p>
+<ul>
+<li>$L_p$ 距离
+$$L_p(x_i,x_j)=(\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^p)^{1/p}$$</li>
+<li>欧氏距离
+$$L_2(x_i,x_j)=(\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^2)^{1/2}$$</li>
+<li>曼哈顿距离
+$$L_1(x_i,x_j)=\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|$$</li>
+<li>$L_\infty$ 距离
+$$L_\infty (x_i,x_j)=(\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$</li>
+</ul>
+<h4 id="决策规则" class="headerLink">
+    <a href="#%e5%86%b3%e7%ad%96%e8%a7%84%e5%88%99" class="header-mark"></a>决策规则</h4><p><strong>多数表决</strong>
+由输入实例的 k 个邻近的训练实例中的多数类决定输入实例的类。</p>
+<ul>
+<li>分类函数
+$$f:\mathbb{R}^n\rightarrow {c_1,c_2,\cdots,c_K}$$</li>
+<li>误分类概率
+$$P(Y\ne f(X))=1-P(Y=f(X))$$</li>
+<li>等价于风险经验最小化
+$$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</li>
+</ul>
+<h3 id="模型预测" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h3><h4 id="预测流程" class="headerLink">
+    <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
+<ol>
+<li>对未知类别的数据集中的每个点：
+<ul>
+<li>计算已知类别数据集众多点与当前点之间的距离；</li>
+<li>按照距离递增次序排序。</li>
+</ul>
+</li>
+<li>选取与当前点距离最小的k个点：
+<ul>
+<li>选定前k个点所在类别的出现频率</li>
+<li>返回前k个点出现频率最高的类别作为当前点的预测分类</li>
+</ul>
+<ol start="3">
+<li>重复步骤，完成对所有点的预测分类</li>
+</ol>
+</li>
+</ol>
+<h4 id="python实现" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
+        
+    </a></figure></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">KNN</span><span class="p">:</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">3</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">k</span> <span class="o">=</span> <span class="n">k</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span> <span class="o">=</span> <span class="n">X</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">y_train</span> <span class="o">=</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">euclidean_distance</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">x1</span> <span class="o">-</span> <span class="n">x2</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">y_pred</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">_predict</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">X</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">_predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">distances</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">euclidean_distance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">x_train</span><span class="p">)</span> <span class="k">for</span> <span class="n">x_train</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">k_indices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">distances</span><span class="p">)[:</span><span class="bp">self</span><span class="o">.</span><span class="n">k</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">k_nearest_labels</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">y_train</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">k_indices</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">most_common</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">k_nearest_labels</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">most_common</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 一个简单的例子：</span>
+</span></span><span class="line"><span class="cl"><span class="n">X_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">y_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">clf</span> <span class="o">=</span> <span class="n">KNN</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">predictions</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="改进" class="headerLink">
+    <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h3><h4 id="主要挑战" class="headerLink">
+    <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h4><ol>
+<li>前置处理：特征的选择</li>
+<li>模型
+<ul>
+<li>合适的度量函数</li>
+<li>合适的K值</li>
+<li>降低训练和预测的复杂度</li>
+</ul>
+</li>
+</ol>
+<h4 id="kd树" class="headerLink">
+    <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h4><p>一种二叉树数据结构，用于优化搜索算法。</p>
+<p><strong>优势：</strong></p>
+<ol>
+<li>降低搜索维度</li>
+<li>提高搜索效率</li>
+<li>更少的存储需求</li>
+<li>支持范围搜索</li>
+</ol>
+<p>可能因数据的特定分布而表现不佳。<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
+<h5 id="构造11" class="headerLink">
+    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><ol>
+<li>构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域。</li>
+<li>递归（生成子结点）：
+<ul>
+<li>选择坐标轴和切分点，确定一个超平面</li>
+<li>将当前超矩形区域切分为左右两个子区域</li>
+<li>直到子区域内没有实例时终止。</li>
+</ul>
+</li>
+<li>实例保存在相应的结点上。</li>
+</ol>
+<p><strong>如何选择：</strong></p>
+<ul>
+<li>空间切分参照：坐标轴</li>
+<li>切分点的选择：中位数</li>
+</ul>
+<p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
+        
+    </a></figure></p>
+<h5 id="搜索" class="headerLink">
+    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+        
+    </a></figure></p>
+<h5 id="算法" class="headerLink">
+    <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h5><p>[输入] 已构造的 kd 树，目标点 x;</p>
+<p>[输出] x 的 k 近邻。</p>
+<ol>
+<li>在 kd 树中找出包含目标点 x 的叶结点：从根结点出发，递归地向下访问 kd 树。若目标点 x 当前维的坐标小于切分点的坐标，则移动到左子结点，否则移动到右子结点，直到子结点为叶结点为止。</li>
+<li>构建“当前 k 近邻点集”，将该叶结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离。</li>
+<li>递归地向上回退，在每个结点进行以下操作:
+<ul>
+<li>如果“当前 k 近邻点集”的元素数量 &lt; k，则将该结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离;</li>
+<li>如果“当前 k 近邻点集”的元素数量 = k，但该结点到目标点 x 的距离小于“当前 k 近邻点集”中最远 点到目标点 x 的距离，则将该结点插入“当前 k 近邻点集”，并删除原先的最远点。</li>
+<li>检查另一子结点对应的区域是否与以目标点 x 为球心、以目标点 x 与“当前 k 近邻点集”中最远点的距离为半径的超球体相交。 如果相交，可能在另一个子结点对应的区域内存在距离目标点更近的点，移动到另一个子结点，接着，递归地进行 k 近邻搜索; 如果不相交，向上回退。</li>
+</ul>
+</li>
+<li>当回退到根结点时，搜索结束(若此时“当前 k 近邻点集”中的元素不足 k 个，则需要访问另一半树的结点)。</li>
+<li>最后的“当前 k 近邻点集”中的 k 个点即为 x 的 k 近邻点。</li>
+</ol>
+<h5 id="python实现-1" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0-1" class="header-mark"></a>Python实现</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">left</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">val</span> <span class="o">=</span> <span class="n">data</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">left</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">right</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">KdTree</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">k</span> <span class="o">=</span> <span class="n">k</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">create_Tree</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dataset</span><span class="p">,</span> <span class="n">depth</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">dataset</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">        <span class="n">mid_index</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">        <span class="n">axis</span> <span class="o">=</span> <span class="n">depth</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">k</span>
+</span></span><span class="line"><span class="cl">        <span class="n">sort_dataset</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="n">axis</span><span class="p">]))</span>
+</span></span><span class="line"><span class="cl">        <span class="n">mid_data</span> <span class="o">=</span> <span class="n">sort_dataset</span><span class="p">[</span><span class="n">mid_index</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cur_node</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="n">mid_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">left_data</span> <span class="o">=</span> <span class="n">sort_dataset</span><span class="p">[:</span><span class="n">mid_index</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">right_data</span> <span class="o">=</span> <span class="n">sort_dataset</span><span class="p">[</span><span class="n">mid_index</span><span class="o">+</span><span class="mi">1</span><span class="p">:]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cur_node</span><span class="o">.</span><span class="n">left</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_Tree</span><span class="p">(</span><span class="n">left_data</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cur_node</span><span class="o">.</span><span class="n">right</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_Tree</span><span class="p">(</span><span class="n">right_data</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">cur_node</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">search</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tree</span><span class="p">,</span> <span class="n">new_data</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">near_point</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">        <span class="k">def</span> <span class="nf">dfs</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">depth</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="ow">not</span> <span class="n">node</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span>
+</span></span><span class="line"><span class="cl">            <span class="n">axis</span> <span class="o">=</span> <span class="n">depth</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">k</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">new_data</span><span class="p">[</span><span class="n">axis</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span><span class="p">[</span><span class="n">axis</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">dfs</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">left</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">dfs</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">right</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">dist</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">distance</span><span class="p">(</span><span class="n">new_data</span><span class="p">,</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span> <span class="ow">or</span> <span class="n">dist</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span> <span class="o">=</span> <span class="n">dist</span>
+</span></span><span class="line"><span class="cl">                <span class="bp">self</span><span class="o">.</span><span class="n">near_point</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">new_data</span><span class="p">[</span><span class="n">axis</span><span class="p">]</span> <span class="o">-</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span><span class="p">[</span><span class="n">axis</span><span class="p">])</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">new_data</span><span class="p">[</span><span class="n">axis</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span><span class="p">[</span><span class="n">axis</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">dfs</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">right</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">                <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">dfs</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">left</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dfs</span><span class="p">(</span><span class="n">tree</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">near_point</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">distance</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">point_1</span><span class="p">,</span> <span class="n">point_2</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">k</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">res</span> <span class="o">+=</span> <span class="p">(</span><span class="n">point_1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="n">point_2</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">**</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">res</span> <span class="o">**</span> <span class="mf">0.5</span>
+</span></span><span class="line"><span class="cl"><span class="n">data_set</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">9</span><span class="p">,</span><span class="mi">6</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">8</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">2</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="n">new_data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">k</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_set</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="n">kd_tree</span> <span class="o">=</span> <span class="n">KdTree</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">our_tree</span> <span class="o">=</span> <span class="n">kd_tree</span><span class="o">.</span><span class="n">create_Tree</span><span class="p">(</span><span class="n">data_set</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">predict</span> <span class="o">=</span> <span class="n">kd_tree</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">our_tree</span><span class="p">,</span> <span class="n">new_data</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predict</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="马氏距离" class="headerLink">
+    <a href="#%e9%a9%ac%e6%b0%8f%e8%b7%9d%e7%a6%bb" class="header-mark"></a>马氏距离</h4><p>由P.C. Mahalanobis提出；基于样本分布的一种距离测量。</p>
+<ul>
+<li>考虑特征之间的相关性</li>
+<li>对数据的缩放不敏感</li>
+<li>考虑协方差结构</li>
+<li>适用于异常值和噪声数据<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></li>
+</ul>
+<p>广泛用于分类和聚类分析。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>垃圾邮件过滤：自动将电子邮件分为垃圾邮件和非垃圾邮件。<br>
+医学诊断：基于患者的症状数据来诊断疾病或预测病人的疾病风险。<br>
+金融风险评估：根据客户的财务和信用记录来评估客户的信用风险。<br>
+情感分析：根据文本数据中的情感内容对文本进行情感分类，如积极、消极或中性。<br>
+图像识别：对图像进行分类，例如识别数字、物体或人脸等。<br>
+生物信息学：基因序列分类，如预测蛋白质功能或基因表达模式。<br>
+客户分类：根据客户的行为和偏好将客户分成不同的市场细分。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>KNN算法于1948年由Cover和Hart提出。<br>
+存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每个数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。一般来说，只选择样本数据集中前k个最相似的数据。k一般不大于20，最后，选择k个中出现次数最多的分类，作为新数据的分类。<br>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>数值型数据是指具有数量意义的数据，可以进行数学运算和比较。这种数据通常表示为数字，例如年龄、温度、身高等。在机器学习中，数值型数据常用于回归分析和连续变量的预测。标称型数据则是指无序分类的数据，其中每个值代表一个类别而没有数量意义。标称型数据通常表示为符号或字符串，例如血型、性别、品种等。在机器学习中，标称型数据通常用于分类问题，其中算法需要将输入数据映射到预定义的类别或标签。<br>
+k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型数据，它可以基于数值之间的距离进行分类；对于标称型数据，它可以根据邻近样本的标签进行投票，并将测试样本分类为获得最多投票的类别。因此，kNN 算法对于这两种数据类型都有较好的适用性。<br>
+还有其他类型：<br>
+顺序型数据：顺序型数据是一种具有顺序或等级关系的数据类型，其中数据值之间存在某种顺序关系，但没有明确的数值差异。例如，学历等级（如小学、初中、高中、大学等）可以被视为顺序型数据。<br>
+时间序列数据：时间序列数据是按照时间顺序排列的数据集合，通常是在一系列连续时间点上收集的数据。例如，股票价格、天气数据、经济指标等都属于时间序列数据。<br>
+区间型数据：区间型数据是指数据值表示某个范围内的值，而不是特定的数值。这种数据类型通常用于表示测量的范围。例如，温度范围、年龄段等可以被视为区间型数据。<br>
+比率型数据：比率型数据是具有固定比例关系的数据类型，其中数据之间存在明确的比率关系。比率型数据具有绝对零点，可以进行比较和数学运算。例如，长度、重量、时间间隔等都属于比率型数据。<br>
+文本数据：文本数据是指以自然语言形式表示的数据，通常包含语句、段落或文档。处理文本数据通常需要使用自然语言处理技术来提取、转换和分析文本信息。<br>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>老师反馈：这里的表述并不严谨，模型需要通过交叉验证来确认参数 k&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>简单直观，非参数化：kNN 是一种非参数化方法，不对数据的分布做任何假设。因此，在处理复杂的数据集和未知的数据分布时，它通常具有很好的适应性。<br>
+对异常值鲁棒：kNN 对异常值比较鲁棒，因为它基于周围数据点的多数投票来确定分类，可以减少异常值对结果的影响。<br>
+适应多类别问题：kNN 能够很好地适应多类别分类问题，因为它可以通过投票的方式来确定一个实例所属的类别。<br>
+但是对高维数据的处理效率较低，需要大量的存储空间和计算时间；在数据不平衡或噪声较多的情况下，它可能会产生较差的分类结果。<br>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>计算成本高：kNN 算法需要计算每个测试点与所有训练点之间的距离，因此在处理大规模数据集时，计算成本会变得非常高。<br>
+存储成本高：除了计算成本高外，kNN 算法还需要存储整个训练集，这对于大规模数据集来说会占用大量的存储空间。<br>
+维度灾难：随着数据维度的增加，kNN 算法的性能可能会下降，因为在高维空间中，数据点之间的距离变得更加稀疏，导致算法的效率降低。<br>
+数据不平衡问题：在处理数据不平衡或噪声较多的数据集时，kNN 算法可能会受到数据分布的影响，从而导致分类性能下降。<br>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>近似误差是指模型用于近似真实关系的误差，通常表示模型与真实值之间的差异。<br>
+估计误差是指使用样本数据估计整体数据集特征时产生的误差。在 kNN 中，估计误差通常与样本的选择和样本的分布有关。<br>
+K值的减小：模型变得复杂，容易发生过拟合。相当于用较小的邻域中的训练实例进行预测，只有与输入实例较近的(相似的)训练实例才会对预测结果起作用，对噪声敏感，即预测结果会对近邻的实例点非常敏感。如果邻近的实例点恰巧是噪声，预测就会出错。换句话说，k 值的减小就意味着整体模型变得复杂，容易发生过拟合。<br>
+K值的增大：就意味着整体的模型变得简单.产生更平滑的决策边界，但可能会忽略数据的局部特征。这时与输入实例较远的(不相似的)训练实例也会对预测起作用，使预测发生错误。k 值的增大就意味着整体的模型变得简单。<br>
+k 值一般取一个比较小的数值。通常采用交叉验证法来选取最优的k 值。具体可以取部分训练集作为测试集，在不同取值条件下观察最优值。&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>特征空间中两个实例点的距离是两个实例点相似程度的反映。k 近邻模型的特征空间一般是 n 维实数向量空间 $R^n$，使用的距离是欧氏距离，但也可以是其他距离，如更一般的 $L_p$ 距离或 Minkowski 距离。&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>实现 k 近邻法时，主要考虑的问题是如何对训练数据进行快速 k 近邻搜索。这点在特征空间的维数大及训练数据容量大时尤其必要。k 近邻法最简单的实现方法是线性扫描。这时要计算输入实例与每一个训练实例的距离。当训练集很大时，计算非常耗时，这种方法是不可行的。为了提高k 近邻搜索的效率，可以考虑使用特殊的结构存储训练数据，以减少计算距离的次数。具体方法很多，下面介绍其中的 kd 树方法。<br>
+使用 kd 树相比直接计算方法的主要好处在于它可以有效地减少计算量。kd 树是一种二叉树数据结构，它可以用于优化搜索算法，特别是在高维空间中。<br>
+以下是 kd 树相对于直接计算方法的一些优势：<br>
+降低搜索维度：kd 树能够将搜索范围缩小到与搜索点最近的局部区域，从而避免不必要的计算。<br>
+提高搜索效率：在具有大量数据点的高维空间中，kd 树可以更快地定位最近邻居，因为它可以避免对所有数据点进行逐一比较。<br>
+更少的存储需求：相对于直接计算方法，kd 树通常需要更少的存储空间，因为它可以通过二叉树结构有效地组织数据。<br>
+支持范围搜索：除了最近邻搜索之外，kd 树还可以很容易地扩展到支持范围搜索，以查找在给定半径内的所有邻居。<br>
+尽管 kd 树具有这些优势，但它可能会因数据的特定分布而表现不佳。例如，在存在大量密集聚集数据点的区域，kd 树的性能可能会下降。因此，在实际应用中，应该根据数据集的特点选择合适的算法来进行近邻搜索。&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>kd 树是一种对 k 维空间中的实例点进行存储以便对其进行快速检索的树形数据结构。kd 树是二叉树，表示对 k 维空间的一个划分。构造 kd 树相当于不断地用垂直于坐标轴的超平面将k 维空间切分，构成一系列的飞 维超矩形区域。kd树的每个结点对应于一个k 维超矩形区域。<br>
+构造 kd 树的方法如下:构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域:通过下面的递归方法，不断地对 k 维空间进行切分，生成子结点。在超矩形区域(结点)上选择一个坐标轴和在此坐标轴上的一个切分点，确定一个超平面，这个超平面通过选定的切分点并垂直于选定的坐标轴，将当前超矩形区域切分为左右两个子区域（子结点）；这时，实例被分到两个子区域。这个过程直到子区域内没有实例时终止（终止时的结点为叶结点）。在此过程中，将实例保存在相应的结点上。<br>
+平衡树：使用中位数作为划分点可以保证树的相对平衡，避免出现极端情况下的不平衡树结构，从而使得搜索效率总体比较高，但未必最优。考虑一些离群点。&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>考虑特征之间的相关性：马氏距离能够考虑数据特征之间的相关性，而欧氏距离只考虑各个维度之间的直线距离。这意味着马氏距离在具有相关特征的数据集上能够提供更加准确的距离度量。<br>
+对数据的缩放不敏感：在某些情况下，数据的不同特征可能具有不同的度量单位或尺度。马氏距离能够对数据的缩放不敏感，因此可以更好地处理这种情况，而欧氏距离可能受到数据尺度的影响。<br>
+考虑协方差结构：马氏距离考虑了数据的协方差结构，因此可以更好地捕捉数据特征之间的线性关系。这使得马氏距离在处理多元正态分布数据时能够提供更加准确的距离度量。<br>
+适用于异常值和噪声数据：马氏距离能够对异常值和噪声数据具有更好的鲁棒性，因为它考虑了数据的协方差结构，可以减少这些异常值对距离度量的影响。&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></description>
+</item><item>
     <title>泛函分析</title>
     <link>https://blog.ralvines.top/fhfx/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
@@ -288,6 +821,821 @@
     <a href="#ch8-%e6%a4%ad%e5%9c%86%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch8. 椭圆函数*</h2><h2 id="ch10-theta函数" class="headerLink">
     <a href="#ch10-theta%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch10. $\Theta$函数*</h2><h2 id="华师版" class="headerLink">
     <a href="#%e5%8d%8e%e5%b8%88%e7%89%88" class="header-mark"></a>华师版</h2>]]></description>
+</item><item>
+    <title>偏微分方程</title>
+    <link>https://blog.ralvines.top/pde/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pde/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2021-2022 春夏，2022-2023 春夏<br>
+🧑‍🏫 鲁汪涛，孔德兴<br>
+📝 作业，（小测，）期末考试</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>绪论</li>
+<li>一阶方程
+<ul>
+<li>线性方程</li>
+<li>拟线性方程</li>
+<li>偏微分方程组</li>
+</ul>
+</li>
+<li>双元二阶方程</li>
+<li>波动方程
+<ul>
+<li>一维
+<ul>
+<li>导出、定解条件</li>
+<li>柯西问题</li>
+<li>初边值问题
+<ul>
+<li>分离变量法</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>高维
+<ul>
+<li>球平均法</li>
+</ul>
+</li>
+<li>传播</li>
+<li>能量不等式</li>
+</ul>
+</li>
+<li>热传导方程
+<ul>
+<li>导出、定解条件</li>
+<li>柯西问题
+<ul>
+<li>傅立叶变换法</li>
+</ul>
+</li>
+<li>初边值问题</li>
+<li>极值原理</li>
+</ul>
+</li>
+<li>Laplace方程
+<ul>
+<li>导出、定解条件</li>
+<li>变分法</li>
+<li>调和函数
+<ul>
+<li>格林公式</li>
+<li>极值原理</li>
+</ul>
+</li>
+<li>格林函数
+-镜像法</li>
+<li>强极值原理</li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+    </div>
+<h2 id="引言" class="headerLink">
+    <a href="#%e5%bc%95%e8%a8%80" class="header-mark"></a>引言</h2><h3 id="发展史" class="headerLink">
+    <a href="#%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>发展史</h3><blockquote>
+<p>17 - 微积分 Newton &amp; Lebnitz<br>
+18 - Euler &amp; Bernoulli &amp; Lagrange &amp; Laplace &amp; Poisson<br>
+19 - pde应用 Fourier &amp; Green &amp; Cauchy &amp; Hadamard<br>
+20 - 复杂理论<br>
+21 - 计算机数值分析 &amp; 微分方程数值解</p>
+</blockquote>
+<h3 id="基本定义" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>基本定义</h3><h4 id="概念" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h4><ul>
+<li>
+<p><strong>向量：</strong> 开区域 $$x=(x_1,x_2,\cdots,x_n)\in \mathbb{R}^n,x\in \Omega$$</p>
+</li>
+<li>
+<p><strong>函数：</strong>
+$$u:\Omega\rightarrow\mathbb{R}$$
+$$偏导\ \displaystyle\frac{\partial u}{\partial x_1}=\partial_{x_{1}}u=\partial_{1}u$$</p>
+</li>
+<li>
+<p><strong>梯度：</strong>$$grad/\nabla/Du=(\partial_{1}u,\partial_{2}u,\cdots,\partial_{n}u)$$</p>
+</li>
+<li>
+<p><strong>散度：</strong>$$\vec{F}=(F_1,F_2,\cdots,F_n),\Omega\rightarrow \mathbb{R}^n\Rightarrow div\vec{F}=\displaystyle\sum\limits_{i=1}^n\frac{\partial F_i}{\partial x_i}$$</p>
+</li>
+<li>
+<p><strong>Hessian矩阵：</strong> $$D^2u=\begin{pmatrix}\displaystyle\frac{\partial^2u}{\partial x_1^2}&\displaystyle\frac{\partial^2 u}{\partial x_1x_2}&\cdots&\displaystyle\frac{\partial^2u}{\partial x_1x_n}\\\vdots&\vdots&\ddots&\vdots\\\displaystyle\frac{\partial^2u}{\partial x_nx_1}&\displaystyle\frac{\partial^2u}{\partial x_nx_2}&\cdots&\displaystyle\frac{\partial^2u}{\partial x_n^2}\end{pmatrix}$$</p>
+</li>
+<li>
+<p><strong>Laplace算子：</strong> $$\Delta u=tr(D^2u)=\displaystyle\sum\limits_{i=1}^n\frac{\partial ^2u}{\partial x_i^2}=\text{div}(Du)\ 散度的梯度$$</p>
+</li>
+<li>
+<p><strong>所有k阶偏导：</strong>
+$$D^ku=\displaystyle\frac{\partial^ku}{\partial x_{i1}\partial x_{i2}\cdots\partial x_{ik}}\in\mathbb{R}^{n^k},\ n^k个$$
+$$|D^ku|=(\sum\limits_{i1=1}^n\sum\limits_{i2=1}^n\cdots\sum\limits_{ik=1}^n|\partial_{x1}\partial_{x2}\cdots\partial_{xk}u|)^{1/2}$$</p>
+</li>
+<li>
+<p><strong>多重指标：</strong>
+$$\alpha=(\alpha_1,\alpha_2,\cdots,\alpha_n),$$
+$$阶\ |\alpha|=\alpha_1+\alpha_2+\cdots+\alpha_n$$
+$$去重\ D^\alpha u=\partial_{x1}^{\alpha1}\partial_{x1}^{\alpha2}\cdots\partial_{x1}^{\alpha n}\Rightarrow|D^ku|=(\sum\limits_{|\alpha|=k}|D^\alpha u|^2)^{1/2}$$</p>
+</li>
+<li>
+<p><strong>偏微分方程：</strong>
+ 
+$$F(D^ku(x),D^{k-1}u(x),\cdots,Du(x),u(x),x)=0, x\in\Omega.\ k阶$$
+
+$$\left\{\begin{array}{l}
+F:\mathbb{R}^{n^k}\times\mathbb{R}^{n^{k-1}}\times\cdots\times\mathbb{R}^{n}\times\mathbb{R}\times\Omega\rightarrow\mathbb{R}.（已知）\\
+u:\Omega\rightarrow\mathbb{R}.（未知）\\
+\end{array}\right.$$
+</p>
+</li>
+</ul>
+<h4 id="线性空间" class="headerLink">
+    <a href="#%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>线性空间</h4><ul>
+<li>
+<p><strong>函数：</strong>
+ 
+$$u\rightarrow C(\Omega), ||u||_{C(\Omega)}=\sup\limits_{x\in\Omega} |u(x)|.$$
+</p>
+</li>
+<li>
+<p><strong>k次连续可微函数：</strong>
+ 
+$$ ||u||_{C^k(\Omega)}=\sup\limits_{x\in\Omega}|u(x)| + \displaystyle\sum\limits_{|\alpha|=1}^2 \sup\limits_{x\in\Omega}|D^\alpha u(x)| $$
+</p>
+</li>
+<li>
+<p><strong>支集：</strong>
+
+$$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
+
+所有满足$u(x)\neq0$点集在$\Omega$上的闭包</p>
+</li>
+<li>
+<p>$C_0^k$ 具有紧支集的函数</p>
+</li>
+<li>
+<p>$C^\infty(\Omega)=\bigcap\limits_{k=1}^\infty C^k(\Omega)$任意阶偏导存在且连续的函数类</p>
+</li>
+</ul>
+<h4 id="解的光滑性" class="headerLink">
+    <a href="#%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>解的光滑性</h4><center>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</center>
+<h4 id="分类" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb" class="header-mark"></a>分类</h4><ul>
+<li>
+<p><strong>线性：</strong>$\displaystyle\sum\limits_{|\alpha|\leq k}a_{\alpha}(x)D^{\alpha}u=f(x)$</p>
+</li>
+<li>
+<p><strong>半线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}(x)D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
+</li>
+<li>
+<p><strong>拟线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}[D^{k-1}u(x),\cdots,Du(x),u(x),x]D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
+</li>
+<li>
+<p>完全非线性：非线性依赖 $D^ku$</p>
+</li>
+</ul>
+<h3 id="实例" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h3><ol>
+<li><strong>Laplace方程：</strong>$\Delta u=0$</li>
+<li><strong>特征值方程：</strong>$\Delta u+\lambda u=0$</li>
+<li><strong>热方程：</strong>$u_t-a^2\Delta u=0(a&gt;0)$</li>
+<li>&hellip;</li>
+</ol>
+<h3 id="椭圆型" class="headerLink">
+    <a href="#%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>椭圆型&amp;</h3><h3 id="适定性" class="headerLink">
+    <a href="#%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>适定性</h3><h4 id="定义" class="headerLink">
+    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h4><ul>
+<li>
+<p>定解问题：PDE+条件</p>
+</li>
+<li>
+<p>适定：解存在、唯一、连续依赖已知函数</p>
+</li>
+<li>
+<p>形式解：对实际问题假设解的光滑性以求出表达式（先验估计）</p>
+</li>
+<li>
+<p>$\Omega$ - 开域、$\overline\Omega$ - 闭包、$\partial\Omega$ - 边界</p>
+<p> $\mathbb{R}_+^n=\{x=(x_1,\cdots,x_n)\in\mathbb{R}^n|x_n>0\}$ 上半空间 <br></p>
+ $\mathbb{R}_+^1=\mathbb{R}_+,\space\mathbb{R}_+^{n+1}=\mathbb{R}_+^n\times\mathbb{R}_+$ 
+</li>
+<li>
+<p><strong>闭球：</strong>$B(x,r),$ 体积 $\alpha(n)r^n$</p>
+</li>
+</ul>
+<h4 id="定理" class="headerLink">
+    <a href="#%e5%ae%9a%e7%90%86" class="header-mark"></a>定理</h4><ul>
+<li><strong>Green 公式</strong></li>
+</ul>
+<h2 id="位势方程" class="headerLink">
+    <a href="#%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>位势方程</h2><h3 id="possion方程" class="headerLink">
+    <a href="#possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>Possion方程</h3><p>$$-\Delta u=f(x)$$</p>
+<h3 id="调和函数" class="headerLink">
+    <a href="#%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>调和函数</h3><p>$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$$</p>
+<h2 id="热方程" class="headerLink">
+    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>热方程</h2><h3 id="基本定义-1" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89-1" class="header-mark"></a>基本定义</h3><h4 id="热方程-1" class="headerLink">
+    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b-1" class="header-mark"></a>热方程</h4><ul>
+<li><strong>基本形式：</strong>$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t&gt;0$</li>
+<li><strong>推导</strong></li>
+<li>反应扩散方程：反应项、扩散项</li>
+</ul>
+<h4 id="概念-1" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5-1" class="header-mark"></a>概念</h4><ul>
+<li>
+<p><strong>定解问题：</strong></p>
+<ul>
+<li>
+<p><strong>定解条件</strong></p>
+<ul>
+<li>
+<p><strong>初始条件：</strong>$u(x,0)=\varphi (x)$</p>
+</li>
+<li>
+<p><strong>边值条件：</strong> 边界分布或外围介质影响（$x\in\partial\Omega,t\ge0$）</p>
+<p>$u(x,t)=g(x,t)$. $g=\text{const}$ 恒温</p>
+<p>$k\frac{\partial}{\partial\displaystyle\vec{n}}u(x,t)=g(x,t)$. $g\ge0$ 热量流入；$g\equiv0$ 绝热</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>偏微分方程</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>函数集：</strong> 所有$Q$内关于$x$二阶偏导连续，关于$t$一阶偏导连续函数</p>
+ $C^{2,1}(Q)=\{u\in C(Q)|u_t, u_{xi},u_{xixj}\in C(Q);i,j=1,\cdots,n\}$ 
+</li>
+<li>
+<p><strong>古典解：</strong> 热方程在上述集中的解</p>
+</li>
+<li>
+<p>$C^{1,0}(Q)$</p>
+</li>
+</ul>
+<h3 id="初值问题" class="headerLink">
+    <a href="#%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>初值问题</h3><h4 id="fourier" class="headerLink">
+    <a href="#fourier" class="header-mark"></a>Fourier</h4><ul>
+<li>
+<p><strong>Fourier 级数展开</strong></p>
+<p>$f(x)\in C^1(\mathbb{R}),\space\forall l&gt;0,\space x\in(-l,l)$</p>
+<p>$f(x)=\displaystyle\frac{a_0}{2}+\displaystyle\sum\limits_{k=1}^\infty \big (a_k\cos \displaystyle\frac{k\pi}{l}x+b_k\sin\displaystyle\frac{k\pi}{l}x\big )$</p>
+</li>
+<li>
+<p><strong>Fourier 积分：</strong> 级数极限</p>
+</li>
+</ul>
+<h4 id="一维热方程初值问题" class="headerLink">
+    <a href="#%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>一维热方程初值问题</h4>
+$$
+\displaystyle\left\{\begin{array}{l}
+ \displaystyle\frac{\partial{u}}{\partial t}-a^2\displaystyle\frac{\partial^2u}{\partial x^2}=f(x,t), & (x,t)\in\mathbb{R}\times\mathbb{R}_+\\
+u(x,0)=\varphi(x), & x\in\mathbb
+{R}\\
+  \end{array}\right.
+$$]]></description>
+</item><item>
+    <title>实变函数</title>
+    <link>https://blog.ralvines.top/sbhs/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sbhs/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 贾厚玉<br>
+📝 20%小测，20%作业，60%期末</div>
+        </div>
+    </div>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<li>《实变函数》，周性伟</li>
+<li>PPT
+<ul>
+<li>Ch1.1</li>
+<li>Ch1.2</li>
+<li>Ch3</li>
+<li>Ch4</li>
+<li>Ch5</li>
+<li>Ch6</li>
+</ul>
+</li>
+<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51173&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
+<li><a href="https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&amp;vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">实变函数习题十讲</a></li>
+<li><a href="https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&amp;vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer"></a></li>
+</ul>
+<h2 id="集合" class="headerLink">
+    <a href="#%e9%9b%86%e5%90%88" class="header-mark"></a>集合</h2><ul>
+<li>三次完备化
+<ul>
+<li>有理数&amp;实数（极限封闭）</li>
+<li>黎曼几分&amp;勒贝格积分</li>
+<li>广义函数（Dirac）</li>
+</ul>
+</li>
+<li>集合运算
+<ul>
+<li>表示、集族</li>
+<li>幂集</li>
+<li>交、并、差、对称差、无穷、间断点集</li>
+<li>DeMorgan</li>
+</ul>
+</li>
+<li>集合序列、极限
+<ul>
+<li>单调集列</li>
+<li>上下限集、上下极限</li>
+<li>笛卡尔乘积、性质</li>
+</ul>
+</li>
+<li>映射
+<ul>
+<li>映射（单、满、逆）、像/原像（性质）、复合</li>
+</ul>
+</li>
+<li>特征函数</li>
+<li>集合等价、基数
+<ul>
+<li>集合对等</li>
+<li>基数（势）</li>
+<li>有限/可数集
+<ul>
+<li>[0,1]不可数</li>
+<li>A~A$\cup$B</li>
+</ul>
+</li>
+<li>连续统势
+<ul>
+<li>n元数列全体</li>
+<li>可数集子集全体</li>
+<li>至多可数直积全体</li>
+</ul>
+</li>
+<li>基数比较
+<ul>
+<li>$A_2\subset A_1\subset A_0,A_0$~$A_2\Rightarrow A_0$~$A_1$</li>
+<li>Banach分解、分离集</li>
+<li>Cantor-Bernstein定理（真子集对等）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>$\mathbb{R}^n$
+<ul>
+<li>笛卡尔乘积、加法、数乘、内积、模、距离</li>
+<li>性质（交换、柯西不等式、系数、三角不等式）</li>
+<li>邻域</li>
+<li>极限描述（距离、邻域、$\epsilon-N$、分量）</li>
+<li>点集
+<ul>
+<li>内点、内域</li>
+<li>外点、外域</li>
+<li>边界点</li>
+<li>聚点、导集</li>
+<li>闭包</li>
+<li>孤立点、孤立集</li>
+<li>离散集</li>
+<li>稠密集、无处稠密集、疏朗集</li>
+<li>开集、闭集</li>
+<li>自密集、完备集</li>
+</ul>
+</li>
+<li>一些性质、Bolzano-Weierstrass定理</li>
+<li>开集构造定理</li>
+<li>Cantor完备集
+<ul>
+<li>性质（无内点、连续统势c、稠子集、开区间长度和）</li>
+<li>Cantor函数</li>
+</ul>
+</li>
+<li>长方体（矩体）、方体</li>
+</ul>
+</li>
+<li>连续映射
+<ul>
+<li>距离函数、性质</li>
+<li>开覆盖、紧集
+<ul>
+<li>充要条件：有界闭集</li>
+</ul>
+</li>
+<li>连续延拓定理</li>
+<li>连续函数的集合特征</li>
+</ul>
+</li>
+</ul>
+<h2 id="l可测集" class="headerLink">
+    <a href="#l%e5%8f%af%e6%b5%8b%e9%9b%86" class="header-mark"></a>L可测集</h2><ul>
+<li>外测度
+<ul>
+<li>L覆盖（开区间、可有限）</li>
+<li>集合函数</li>
+<li>单点集（利用数列）</li>
+<li>非负、单调、次可数可加、平移不变</li>
+<li>区间</li>
+<li>$[0,1]$Cantor集</li>
+<li>$m^*_\delta (E)$</li>
+<li>不相交可加性、介值</li>
+</ul>
+</li>
+<li>可测集$\mathcal{M}$
+<ul>
+<li>卡氏条件</li>
+<li>充要条件</li>
+</ul>
+</li>
+<li>测度
+<ul>
+<li>零测集（单点、有理数、任意子集）、可测</li>
+<li>区间可测</li>
+<li>性质（空、交并差、可数交并、可数可加）</li>
+<li>单调可测集列</li>
+<li>平移不变性</li>
+<li>不可测集</li>
+<li>Borel集</li>
+<li>$G_\delta, F_\sigma$</li>
+<li>可测集构造（开/闭集逼近）、等价命题</li>
+<li>可测集特征</li>
+</ul>
+</li>
+<li>代数、$\sigma$代数
+<ul>
+<li>定义</li>
+<li>Borel可测、非Borel可测、关系</li>
+</ul>
+</li>
+<li>$\mathbb{R}^n$可测集
+<ul>
+<li>直积可测性问题</li>
+</ul>
+</li>
+</ul>
+<h2 id="可测函数" class="headerLink">
+    <a href="#%e5%8f%af%e6%b5%8b%e5%87%bd%e6%95%b0" class="header-mark"></a>可测函数</h2><ul>
+<li>定义
+<ul>
+<li>广义实数</li>
+<li>可测函数</li>
+<li>特征函数可测</li>
+<li>稠密和可测例</li>
+</ul>
+</li>
+<li>性质
+<ul>
+<li>运算</li>
+<li>几乎处处</li>
+<li>局部有界</li>
+</ul>
+</li>
+<li>连续函数逼近
+<ul>
+<li>简单函数</li>
+<li>支集</li>
+</ul>
+</li>
+<li>测度收敛
+<ul>
+<li>逐点收敛</li>
+<li>一致收敛</li>
+<li>几乎处处收敛
+<ul>
+<li>Egoroff</li>
+</ul>
+</li>
+<li>依测度收敛
+<ul>
+<li>依测度基本列</li>
+<li>Riesz</li>
+<li>Lusin、逆命题</li>
+</ul>
+</li>
+<li>连续扩张定理</li>
+<li>连续逼近、Frechet</li>
+</ul>
+</li>
+</ul>
+<h2 id="l积分" class="headerLink">
+    <a href="#l%e7%a7%af%e5%88%86" class="header-mark"></a>L积分</h2><ul>
+<li>非负简单函数
+<ul>
+<li>分划</li>
+<li>L积分、性质</li>
+</ul>
+</li>
+<li>非负可测函数
+<ul>
+<li>等价定义</li>
+<li>性质</li>
+<li>Chebyshev不等式</li>
+<li>几乎处处有限</li>
+<li>积分为0条件</li>
+<li>绝对连续性</li>
+<li>分布函数</li>
+<li>Levi（非负渐升列）</li>
+<li>逐项积分</li>
+<li>Fatou</li>
+</ul>
+</li>
+<li>一般可测函数
+<ul>
+<li>有界、控制函数</li>
+<li>性质</li>
+<li>绝对连续性</li>
+<li>LDCT</li>
+<li>有界收敛</li>
+<li>逐项积分</li>
+<li>分片积分</li>
+<li>含参</li>
+</ul>
+</li>
+<li>R积分与L积分
+<ul>
+<li>广义R</li>
+<li>重积分、累次积分</li>
+<li>Tonelli</li>
+<li>分布函数表达</li>
+</ul>
+</li>
+<li>Fubini</li>
+<li>可积与连续
+<ul>
+<li>卷积</li>
+</ul>
+</li>
+</ul>
+<h2 id="l微分" class="headerLink">
+    <a href="#l%e5%be%ae%e5%88%86" class="header-mark"></a>L微分</h2><ul>
+<li>单调可微
+<ul>
+<li>Vitali覆盖</li>
+<li>覆盖定理</li>
+<li>单调微分定理</li>
+<li>Dini微商</li>
+<li>单调可微性</li>
+<li>逐项微分</li>
+</ul>
+</li>
+<li>有界变差</li>
+<li>不定积分的微分</li>
+<li>绝对连续函数、微积分基本定理</li>
+<li>密度、全密点、近似连续点</li>
+</ul>
+<h2 id="lp空间" class="headerLink">
+    <a href="#lp%e7%a9%ba%e9%97%b4" class="header-mark"></a>$L^p$空间</h2><ul>
+<li>定义
+<ul>
+<li>本性有界（上界、上确界）</li>
+<li>$L^\infty$、$||\ ||_\infty$</li>
+<li>线性空间</li>
+</ul>
+</li>
+<li>Holder不等式
+<ul>
+<li>共轭指标</li>
+<li>Young不等式</li>
+</ul>
+</li>
+<li>Minkowski不等式</li>
+<li>完备距离空间</li>
+<li>极限
+<ul>
+<li>收敛列</li>
+<li>柯西基本列</li>
+<li>稠密、可分</li>
+</ul>
+</li>
+</ul>
+<h2 id="前辈经验" class="headerLink">
+    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<p>以下基于个人学习经历与其他情况写一些关于实变函数的学习建议（普适）零.实变函数是近代分析学的起点，起着“地基”的作用。首先明确两个问题，一是这门课所要研究的数学对象，二是为了研究这个数学对象我们引进了哪些数学工具。在数学分析中我们的研究对象是一个单独的函数，所使用的数学工具是微分、积分、极限。实变函数课提出了一个全新的观点：我们不再单独研究一个函数，而是把一些函数打包成一个集合，组成“函数空间”这样一个整体。我们的研究对象就是各种“函数空间”，所使用的工具是“<strong>测度”与“积分</strong>”。分析中的一个重要支柱是利用“函数空间”去解“各种偏微分方程”，这门课是分析学的一个重要基础</p>
+<p><strong>一.参考书：</strong></p>
+<p>1.学院用的教材是周性伟先生的教材（与同济大学相同），但习题较困难，建议配上周民强的实变函数论，尤其强调例题（大部分与教材中类似或重合）</p>
+<p>2.英文参考书：Folland（实分析教材，写的很好，但对初学者阅读难度较大）、Stein（主线清晰，但部分重要结论在习题中，正文直接引用）</p>
+<p><strong>二.这门课的核心内容是：</strong></p>
+<p>（1）测度论 （2）积分论 （3）利用测度与积分去研究函数空间（主要研究Lp空间与L2空间）</p>
+<p>注记1：教材会在最开始花笔墨讲解集合论的东西，引入集合论的原因是我们在这门课的学习中会遇到不可数集，进行不可数的运算，为了避免逻辑上的自相矛盾，我们需要引入选择公理。事实上如果你承认一些基本事实，那么即使不学这部分的内容也无伤大雅。但是对于一些有精神洁癖的同学，凡事都想刨根问底，那么跳过这部分直接学测度论可能就会有一些难受，但是，切记<strong>集合论不是这门课的重点！</strong></p>
+<p>注记2：一个很重要的观点：<strong>集合是特殊的函数，测度是特殊的积分</strong></p>
+<p>1.**测度：**如何测量一个集合的“度”，这个“度”是“长度”、“面积”、“体积”等概念的推广。教材是从欧式空间的Lebesgue测度讲起，它是欧式空间上最自然最canonical的测度，是最符合我们直觉的测度 它的构造测度的步骤是：“（长方体的）体积-&gt;（任意集合的）外测度/内测度-&gt;（Lebesgue可测集的）Lebesgue测度” 在对一个具体的空间定义好了什么是测度后，我们很自然地要考虑更加整体的性质，即把所有带有测度结构的空间放到一起研究。注意到可测函数的复合依然是可测函数，这是一个重要的性质，我们很多年后也许会忘记这门课具体内容，但应该会记得Littleword三原理。这是一种哲学上的观点：可测集差不多是开集，可测函数差不多是连续函数，依测度收敛差不多是一致收敛。如果我们用范畴的观点去看，Littleword三原理其实就是在比较拓扑范畴与测度范畴的关系。作为范畴中的对象，拓扑结构由开集刻画，测度结构由可测集刻画，Caratheodory定理描述了这两个结构的关系。作为范畴中的态射，拓扑范畴的态射是连续函数，测度范畴的态射是可测函数，Lusin定理描述了这两个态射的关系。这两个范畴中又都有极限结构，Egorov定理描述了这两种收敛的关系</p>
+<p>2.**.积分：**对比较特殊的欧式空间，我们会学习Lebesgue积分，它是数学分析中黎曼积分的推广。这里大家要理解：数学分析中学的黎曼积分有哪些不足，Lebesgue积分如何弥补了这些不足；黎曼积分中的许多定理如何推广到Lebesgue积分上去 如何从测度定义积分，是积分论要掌握的核心知识，集合对应于特征函数，所以我们可以定义特征函数的积分，再由sigma可加性，我们可以定义简单函数的积分，再利用Levi单调收敛定理，我们进而可以定义非负可测函数的积分，最后利用绝对值可积，我们定义可测函数的积分。值得注意的是，这不仅做到了“把测度的定义推广到积分的定义”，同时保留了很多良好的性质与定理</p>
+<p>3.<strong>Lebesgue积分VSRiemann积分：</strong> 一个自然的问题：黎曼积分中的一些定理和性质是不是在Lebesgue积分的框架下依然成立呢？我们在数学分析中学过以下四个理论：牛顿莱布尼兹定理、局部积分公式、中值定理、链式法则。在推广到Lebesgue积分论的过程中，最重要的一定要知道，我们是在什么框架下推广的！</p>
+<p>4.计算题 这门课的计算题大致有：计算Lebesgue积分、计算有界变差。计算Lebesgue积分的常见方法有换元法、局部积分公式、中值定理、单调收敛定理、Lebesgue控制收敛定理。计算有界变差的常见方法有导函数的黎曼积分、计数函数的积分。每种计算的每种方法都可以在书上找到课后习题，这部分的内容就是靠做题练的，<strong>没有捷径</strong>。</p>
+</blockquote>
+<h2 id="参考书目" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e4%b9%a6%e7%9b%ae" class="header-mark"></a>参考书目</h2><ul>
+<li>周性伟</li>
+<li>周民强</li>
+<li>郑维声、王声望</li>
+</ul>]]></description>
+</item><item>
+    <title>微分方程数值解</title>
+    <link>https://blog.ralvines.top/pdeszj/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pdeszj/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 张庆海<br>
+📝 40%平时，60%期末</div>
+        </div>
+    </div>
+<h2 id="参考" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<li>教材讲义</li>
+<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51564&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
+</ul>
+<h2 id="ch7-bvp-fd" class="headerLink">
+    <a href="#ch7-bvp-fd" class="header-mark"></a>(Ch7) BVP-FD</h2><blockquote>
+<p>P60-70 (11)</p>
+</blockquote>
+<ul>
+<li>有限差分离散化</li>
+<li>误差和一致性</li>
+<li>稳定性、收敛性
+<ul>
+<li>范数收敛</li>
+<li>Green函数
+<ul>
+<li>解决方案</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>其他边值条件</li>
+<li>二维
+<ul>
+<li>Kronecker乘积</li>
+<li>范数收敛性</li>
+</ul>
+</li>
+<li>不规则边界、收敛性</li>
+</ul>
+<h2 id="ch9-multigrid" class="headerLink">
+    <a href="#ch9-multigrid" class="header-mark"></a>(Ch9) Multigrid</h2><blockquote>
+<p>P80-87 (8)</p>
+</blockquote>
+<ul>
+<li>残差方程</li>
+<li>模型问题</li>
+<li>算法组成
+<ul>
+<li>傅立叶模式</li>
+<li>松弛</li>
+<li>限制、延拓</li>
+<li>双网格矫正</li>
+<li>多重网格cycles</li>
+</ul>
+</li>
+<li>收敛性分析
+<ul>
+<li>代数图</li>
+<li>FMG最优复杂度</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch11-ivp" class="headerLink">
+    <a href="#ch11-ivp" class="header-mark"></a>(Ch11) IVP</h2><blockquote>
+<p>P102-138 (37)</p>
+</blockquote>
+<ul>
+<li>数学基础
+<ul>
+<li>ODE</li>
+<li>算子范数</li>
+<li>矩阵指数</li>
+<li>Lipschitz连续条件</li>
+<li>解的唯一存在性</li>
+<li>well-posed 适定性</li>
+<li>常系数线性IVPs</li>
+</ul>
+</li>
+<li>数值方法
+<ul>
+<li>欧拉法</li>
+<li>前欧拉</li>
+<li>后欧拉</li>
+<li>梯形法</li>
+<li>leapfrog 中点法</li>
+<li>截断误差</li>
+<li>欧拉法的收敛性</li>
+<li>零/绝对稳定性</li>
+</ul>
+</li>
+<li>线性多步法
+<ul>
+<li>一致性、稳定性</li>
+<li>零稳定性</li>
+<li>线性差分方程</li>
+<li>收敛性</li>
+<li>绝对稳定性</li>
+</ul>
+</li>
+<li>刚性IVPs
+<ul>
+<li>刚度 stiffness</li>
+<li>A-稳定性</li>
+</ul>
+</li>
+<li>单步法
+<ul>
+<li>一致性、收敛性</li>
+<li>绝对稳定性</li>
+<li>A-稳定性、L-稳定性</li>
+</ul>
+</li>
+<li>龙格库塔法
+<ul>
+<li>显式法</li>
+<li>必要阶数条件</li>
+<li>隐式法</li>
+<li>Collocation 配点法</li>
+<li>实用误差估计、步长控制</li>
+<li>一致性、收敛性</li>
+<li>绝对稳定性</li>
+<li>I-稳定性、L-稳定性</li>
+<li>收缩性、B-稳定性</li>
+<li>代数稳定性</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch12-mol" class="headerLink">
+    <a href="#ch12-mol" class="header-mark"></a>(Ch12) MOL</h2><blockquote>
+<p>P140-155 (16)</p>
+</blockquote>
+<ul>
+<li>热方程
+<ul>
+<li>抛物、导出</li>
+<li>边值条件、精确解</li>
+<li>FTCS</li>
+<li>Crank-Nicolson</li>
+<li>精度、一致性</li>
+<li>绝对稳定性、Lax-Richtmyer稳定性</li>
+<li>收敛性</li>
+<li>离散最大值原理</li>
+<li>冯诺依曼稳定性</li>
+</ul>
+</li>
+<li>平流方程
+<ul>
+<li>经典MOL法
+<ul>
+<li>FTCS</li>
+<li>leapfrog</li>
+<li>Lax-Friedrichs</li>
+<li>Lax-Wendroff</li>
+<li>upwind</li>
+<li>Beam-Warming</li>
+</ul>
+</li>
+<li>CFL条件</li>
+<li>修正方程</li>
+<li>冯诺依曼分析</li>
+</ul>
+</li>
+</ul>
+<h2 id="作业" class="headerLink">
+    <a href="#%e4%bd%9c%e4%b8%9a" class="header-mark"></a>作业</h2><ul>
+<li>Homework01</li>
+<li>Homework02</li>
+<li>Homework03</li>
+<li>Homework04</li>
+<li>Homework05</li>
+<li>Project01</li>
+<li>Project02</li>
+<li>Project03</li>
+<li>Project04</li>
+</ul>
+<h2 id="前辈经验" class="headerLink">
+    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<p>lz这学期上了<strong>张庆海</strong>老师的微分方程数值解课程，个人认为这门课在数院是一门非常有特点的课，虽说比较硬核但确实能学到许多，于是开个帖写写课程体会（顺便安利一手） 1.理论与实践结合 数院的课大多以理论为导向，这门课是少有的几门理论与实践并重的课程之一。本学期这门课一共有两个编程大作业，都与课上学的算法密不可分。顺带提醒，先确保完全弄明白算法之后再动手coding，否则成吨的bug在等着你&hellip;</p>
+<p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
+<p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>
+</blockquote>]]></description>
 </item><item>
     <title>数据科学的数学基础</title>
     <link>https://blog.ralvines.top/ds/</link>

@@ -116,23 +116,6 @@
   <div class="media-music">
     <!-- <div class="media-meta"> -->
       <div class="media-meta-item-music intro"><font face="LXGW WenKai Screen">
-        {{< music "https://music.163.com/#/playlist?id=8847785903" >}}</font>
-      </div> 
-    <!-- </div> -->
-  </div>
-  <div class="media-music">
-    <div class="media-meta">
-      <div class="media-meta-item title"><a href="">鹿先森 🎧</a><span style="float:right;font-weight:400">摇滚</span></div>
-      <div class="media-meta-item">
-        <span class="author">摇滚</span>
-        <span class="star-score">★★★★★</span>
-      </div>
-      <div class="media-meta-item-music intro"><font face="LXGW WenKai Screen">施工中...</font></div> 
-    </div>
-  </div>
-  <div class="media-music">
-    <!-- <div class="media-meta"> -->
-      <div class="media-meta-item-music intro"><font face="LXGW WenKai Screen">
         {{< music "https://music.163.com/#/playlist?id=8848194806" >}}</font>
       </div> 
     <!-- </div> -->
@@ -147,6 +130,22 @@
       <div class="media-meta-item-music intro"><font face="LXGW WenKai Screen">施工中...</font></div> 
     </div>
   </div>
+<!--   <div class="media-music">
+      <div class="media-meta-item-music intro"><font face="LXGW WenKai Screen">
+        {{< music "https://music.163.com/#/playlist?id=8847785903" >}}</font>
+      </div> 
+  </div> -->
+<!--   <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pim7aNV.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">鹿先森<span style="float:right;font-weight:400">民谣</span></div>
+      <div class="media-meta-item">
+        <span class="author"></span>
+        <span class="star-score">★★★★★</span>
+      </div>
+      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+    </div>
+  </div> -->
 </div>
 
 <center><br><br>🔐<br>更多音乐搬运中</center>

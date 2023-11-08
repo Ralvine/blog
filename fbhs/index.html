@@ -42,16 +42,17 @@
                         "name": "Ralvine"                    
                     }],"description": "22-23 春夏学期「复变函数」课程学习笔记。"
     }
-    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 </head>
 
 <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
-        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
         if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
     </script>
     <div id="back-to-top"></div>
     <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
@@ -74,7 +75,7 @@
                     <a href="/cage/cage/" 
                         class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                     </a>
-                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
                 </div>
                 
                 <div class="dropdown">
@@ -147,7 +148,7 @@
                 <a href="/cage/cage/" 
                     class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                 </a>
-                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
             </div>
             
             <div class="dropdown">
@@ -263,6 +264,20 @@
     <div class="related-text">相关内容</div>
     <div class="related-item-container">
             <div class="related-image">
+                <a href="/qianyan/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        srcset="https://z1.ax1x.com/2023/11/01/pinHqnH.png, https://z1.ax1x.com/2023/11/01/pinHqnH.png 1.5x, https://z1.ax1x.com/2023/11/01/pinHqnH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/11/01/pinHqnH.png"
+        title="22-23 春夏学期「复变函数」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/qianyan/">数学前沿专题讨论</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
                 <a href="/fhfx/"><img
         
         loading="lazy"
@@ -277,7 +292,7 @@
         </div>
     <div class="related-item-container">
             <div class="related-image">
-                <a href="/ds/"><img
+                <a href="/pde/"><img
         
         loading="lazy"
         src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
@@ -286,7 +301,35 @@
         alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
         title="22-23 春夏学期「复变函数」课程学习笔记。" height="200"   width="400" ></a>
             </div><h2 class="related-title">
-                <a href="/ds/">数据科学的数学基础</a>
+                <a href="/pde/">偏微分方程</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/sbhs/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        title="22-23 春夏学期「复变函数」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/sbhs/">实变函数</a>
+            </h2>
+        </div>
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/pdeszj/"><img
+        
+        loading="lazy"
+        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
+        sizes="auto"
+        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
+        title="22-23 春夏学期「复变函数」课程学习笔记。" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/pdeszj/">微分方程数值解</a>
             </h2>
         </div>
     

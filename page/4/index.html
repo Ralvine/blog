@@ -30,16 +30,17 @@
         "@type": "WebSite",
         "url": "https:\/\/blog.ralvines.top\/","inLanguage": "zh-CN","description": "不忘其所始，不求其所终；受而喜之，忘而复之。","name": "暮瞻"
     }
-    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 </head>
 
 <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
-        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
         if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
     </script>
     <div id="back-to-top"></div>
     <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
@@ -62,7 +63,7 @@
                     <a href="/cage/cage/" 
                         class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                     </a>
-                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                    <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
                 </div>
                 
                 <div class="dropdown">
@@ -135,7 +136,7 @@
                 <a href="/cage/cage/" 
                     class="menu-item menu-more dropbtn" title="便笺" >🔖 便笺 
                 </a>
-                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/goods/" title="" >📱 产品 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
+                <div class="menu-more-content dropdown-content"><a href="/cage/books/" title="" >📚 书籍 </a><a href="/cage/drama/" title="" >📺 剧集 </a><a href="/cage/goods/" title="" >⌨️ 好物 </a><a href="/cage/tool/" title="" >⚙️ 收藏 </a><a href="/cage/movies/" title="" >🎞️ 电影 </a><a href="/cage/music/" title="" >🎹 音乐 </a></div>
             </div>
             
             <div class="dropdown">
@@ -340,11 +341,11 @@
         <a href="/wxqy/">当代文学前沿问题研究</a></center>
     </h1><div class="post-meta"><center>
         <span class="post-publish">
-                <i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-03-30">2021-03-30</time></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-category"><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-series"><a href="/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/"><i class="far fa-list-alt fa-fw"></i>本科课程</a></span></center>
+                <i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-03-30">2021-03-30</time></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-category"><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-series"><a href="/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/"><i class="far fa-list-alt fa-fw"></i>本科课程</a>&nbsp;<a href="/series/%E6%96%87%E5%8C%96%E7%A0%94%E7%A9%B6/"><i class="far fa-list-alt fa-fw"></i>文化研究</a></span></center>
     </div><div class="content"><center>20-21 春夏学期「当代文学前言问题研究」课程学习笔记。</center></div><div class="post-footer">
         
         <a href="/wxqy/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%B8%A9%E9%93%81%E5%86%9B/">温铁军</a>,&nbsp;<a href="/tags/%E7%BB%8F%E6%B5%8E/">经济</a>,&nbsp;<a href="/tags/%E6%94%BF%E6%B2%BB/">政治</a></div></div>
+                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%96%87%E5%AD%A6/">文学</a>,&nbsp;<a href="/tags/%E5%90%B4%E7%A7%80%E6%98%8E/">吴秀明</a>,&nbsp;<a href="/tags/%E9%99%88%E5%8A%9B%E5%90%9B/">陈力君</a>,&nbsp;<a href="/tags/%E9%80%9A%E8%AF%86%E8%AF%BE/">通识课</a></div></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
                         <a href="/">1</a>

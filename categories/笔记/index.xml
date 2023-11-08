@@ -31,8 +31,8 @@
 </ul>
 </li>
 </ol>
-<p><strong>研究方向</strong></p>
-<ol>
+<h3 id="研究方向" class="headerLink">
+    <a href="#%e7%a0%94%e7%a9%b6%e6%96%b9%e5%90%91" class="header-mark"></a>研究方向</h3><ol>
 <li>图像处理
 <ul>
 <li>图像分割 图像识别</li>
@@ -4775,38 +4775,26 @@ Spark Streaming</li>
 <p>严谨性：重复实验和控制变量。</p>
 <h3 id="业务应用" class="headerLink">
     <a href="#%e4%b8%9a%e5%8a%a1%e5%ba%94%e7%94%a8" class="header-mark"></a>业务应用</h3><ol>
-<li>明确目标，拆解指标
-法则：MECE（Mutually Exclusive Collectively Exhaustive）即无重复无遗漏</li>
+<li>明确目标，拆解指标</li>
 </ol>
-<p>方法：</p>
 <ul>
-<li>
-<p>流程拆解：按照时间流程顺序，如用户购买商品的全流程，漏斗分析法。</p>
+<li>法则：MECE（Mutually Exclusive Collectively Exhaustive）即无重复无遗漏</li>
+<li>方法：
+<ul>
+<li>流程拆解：按照时间流程顺序，如用户购买商品的全流程，漏斗分析法。</li>
+<li>二分拆解：变量属性分两类，如白天/黑夜。</li>
+<li>象限拆解：横纵坐标二维拆解。</li>
+<li>杜邦分析：ROE（净资产收益率）=销售净利率<em>资产周转率</em>权益乘数。</li>
+</ul>
 </li>
-<li>
-<p>二分拆解：变量属性分两类，如白天/黑夜。</p>
-</li>
-<li>
-<p>象限拆解：横纵坐标二维拆解。</p>
-</li>
-<li>
-<p>杜邦分析：ROE（净资产收益率）=销售净利率<em>资产周转率</em>权益乘数。</p>
-<p>模型：</p>
-</li>
-<li>
-<p>AARRR（Acquisition、Activation、Retention、Revenue、Refer）用户增长（获取、激活、存留、收益、推荐传播）。</p>
-</li>
-<li>
-<p>PEST：政治（Politics）、经济（Economic）、社会（Society）、技术（Technology）。</p>
-</li>
-<li>
-<p>RFM：根据客户活跃程度和交易金额贡献，进行客户价值细分。（近度-交易间隔，频度-交易次数，额度-金额）。</p>
-</li>
-<li>
-<p>SWOT：企业优势（strength）、劣势（weakness）、机会（opportunity）和威胁（threats）。</p>
-</li>
-<li>
-<p>5W1H：Who确定主题，Where进行数据集成，When时间段，What分析方法，Why原因，How (如何呈现结果</p>
+<li>模型：
+<ul>
+<li>AARRR（Acquisition、Activation、Retention、Revenue、Refer）用户增长（获取、激活、存留、收益、推荐传播）。</li>
+<li>PEST：政治（Politics）、经济（Economic）、社会（Society）、技术（Technology）。</li>
+<li>RFM：根据客户活跃程度和交易金额贡献，进行客户价值细分。（近度-交易间隔，频度-交易次数，额度-金额）。</li>
+<li>SWOT：企业优势（strength）、劣势（weakness）、机会（opportunity）和威胁（threats）。</li>
+<li>5W1H：Who确定主题，Where进行数据集成，When时间段，What分析方法，Why原因，How (如何呈现结果）</li>
+</ul>
 </li>
 </ul>
 <ol start="2">
@@ -5008,7 +4996,10 @@ Spark Streaming</li>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/blog-css/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
-            </div><h2 id="css" class="headerLink">
+            </div><h2 id="hexo" class="headerLink">
+    <a href="#hexo" class="header-mark"></a>Hexo</h2><h2 id="mkdocs" class="headerLink">
+    <a href="#mkdocs" class="header-mark"></a>Mkdocs</h2><h2 id="hugo--dolt" class="headerLink">
+    <a href="#hugo--dolt" class="header-mark"></a>Hugo &amp; Dolt</h2><h2 id="css" class="headerLink">
     <a href="#css" class="header-mark"></a>CSS</h2><h3 id="与-html-的关系" class="headerLink">
     <a href="#%e4%b8%8e-html-%e7%9a%84%e5%85%b3%e7%b3%bb" class="header-mark"></a>与 HTML 的关系</h3><ul>
 <li>内容与结构的分离</li>
