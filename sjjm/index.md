@@ -10,8 +10,7 @@
 📝 20%课后作业，15%读书报告，15%编程作业，50%期末考试
 {{< /admonition >}}
 
-## 参考
-
+{{< admonition note "课程材料" true >}}
 - PPT
     - Ch1. 机器学习概论
     - Ch2. 感知机
@@ -29,6 +28,7 @@
     - Ch19. 马尔可夫链蒙特卡罗法
 - 《统计学习方法（第二版）》，李航
 - [*智云课堂回放*](https://classroom.zju.edu.cn/coursedetail?course_id=51611&tenant_code=112)
+{{< /admonition >}}
 
 
 ## (Ch1) 机器学习概论
@@ -333,7 +333,9 @@
 - 大边距近邻分类的距离度量学习
 
 
-## 前辈经验
+## 参考资料
+
+### 前人经验
 
 > 期末考比较中规中矩，无小测。
 > 
@@ -353,7 +355,8 @@
 - https://www.cc98.org/topic/5116266
 
 
-## 参考书目
+### 书目
+
 - 《机器学习》，周志华，清华大学出版社，2016. 
 - 《The Elements of Statistical Learning》2nd edition, Trevor Hastie, Robert Tibshirani, and Jerome Friedman, Springer 2008. 
 - 《Pattern Recognition and Machine Learning》, Chris Bishop,  Springer 2006.

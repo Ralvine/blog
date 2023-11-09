@@ -129,9 +129,6 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <li>决策规则</li>
 </ol>
 <p>特殊情况：最近邻（k=1）</p>
-<p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
-        
-    </a></figure></p>
 <h3 id="模型要素" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h3><h4 id="k-值选择" class="headerLink">
     <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h4><table>
@@ -200,11 +197,26 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </ol>
 </li>
 </ol>
-<h4 id="python实现" class="headerLink">
-    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
+<table>
+<thead>
+<tr>
+<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
         
-    </a></figure></p>
-<div class="highlight"><div class="chroma">
+    </a></figure></th>
+<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
+        
+    </a></figure></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><center>kNN算法流程可视化</center></td>
+<td><center>特征空间划分</center></td>
+</tr>
+</tbody>
+</table>
+<h4 id="python实现" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -305,13 +317,25 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>空间切分参照：坐标轴</li>
 <li>切分点的选择：中位数</li>
 </ul>
-<p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
-        
-    </a></figure></p>
 <h5 id="搜索" class="headerLink">
-    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><table>
+<thead>
+<tr>
+<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
         
-    </a></figure></p>
+    </a></figure></th>
+<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+        
+    </a></figure></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><center>kd树的构造</center></td>
+<td><center>kd树的搜索</center></td>
+</tr>
+</tbody>
+</table>
 <h5 id="算法" class="headerLink">
     <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h5><p>[输入] 已构造的 kd 树，目标点 x;</p>
 <p>[输出] x 的 k 近邻。</p>

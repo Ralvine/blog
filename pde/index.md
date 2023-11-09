@@ -10,7 +10,7 @@
 📝 作业，（小测，）期末考试
 {{< /admonition >}}
 
-{{< admonition note "大纲" true >}}
+{{< admonition note "课程大纲" true >}}
 
 - 绪论
 - 一阶方程

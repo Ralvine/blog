@@ -1,4 +1,4 @@
-# 📸 摄影
+# 📸 光阑
 
 
 <div class="nav-tab">
@@ -38,7 +38,7 @@
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="" data-pjax-state="">
+    <a href="./wuhan" data-pjax-state="">
       <p class="image-caption">武汉</p>
       <p class="image-description">2023-05</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1Mzcj.jpg" data-loaded="true">

@@ -21,8 +21,12 @@
 📝 40%平时（两次问卷调查），60%论文</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>PPT（导论）
 <ul>
 <li>Lecture1</li>
@@ -35,6 +39,9 @@
 </li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=47818&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="lecture1" class="headerLink">
     <a href="#lecture1" class="header-mark"></a>Lecture1.</h2><blockquote>
 <p>夏一周</p>
@@ -207,7 +214,6 @@
 </blockquote>
 <h2 id="期末论文" class="headerLink">
     <a href="#%e6%9c%9f%e6%9c%ab%e8%ae%ba%e6%96%87" class="header-mark"></a>期末论文</h2><p><em>（课程约定）</em></p>
-<center>资本无序扩张的三十年</center>
 <p>这是资本无序扩张的第三十年，与泡沫般飞涨的资本主义繁荣神话相伴的是，工业化和市场化浪潮下生产资料的结构性错配在其让渡于资本权力的进程中精妙地编织起一套无处挣脱的生产方式和叙事体系，即便是矗立于社会金字塔尖的名义精英也潜意识地驯服于资本-消费符号构成的全景社会之内、安适于新贵族般的森严而坚实的壁龛之中。</p>
 <p>资本主义首要刻画的是附着于人性原始欲望的商品世界童话。在纸醉金迷的浪潮中，头脑聪明、精于算计的“精致利己主义”轻而易举地渗透了道德意识形态的高地，以财富导向的社会天梯的攀附者们，自发地戴上了旧时代残存的冠冕，在阶级的金字塔沿互相倾轧。在这个效率第一的时代，几乎没有人意识到自己身处于资本疯狂自我增殖的子宫之中，由其浇筑的雇佣制社会化再生产链路和附着于其间的劳动者和资本家，无非是燃料和傀儡的区别，所有人生来的目的便是幻想在资本浇筑的符号幻觉里叱咤风云，他们无一例外地在攫取财富和消费需求的周期里麻木地寻求物欲的安慰，劳作成了自我意识存续的手段本身。</p>
 <p>而在商品和消费为通用语言的符号社会里，无产阶级以打工人的身份被赋予了更广泛、更系统性的剥削定位，工人不仅仅作为生产环节的劳动资料被以工资的形式贴上价格标签自由出卖，同时也在货币符号的诱惑下成为劳动产物的需求端被更为精细地剖分为消费主义的二次收割对象。被褫夺了时间和生活的工薪阶层在博取他人认同和辨识的消费行为中无形地将反抗意识转换为心理层面异化了的满足感，财富和消费定义了新的身份价值标签，于是人们并不再孤立地居于物的使用价值作用范畴之中，而是以消费重新勾勒了社会地位与身份认同，在这里，剥削的原罪被巧妙地消弭，无产阶级在集体无意识中反而为资本主义生产―利润体系的高效运转和规模扩大贡献了正向反馈，成为其合法性的建筑师和辩经者。</p>
@@ -233,8 +239,12 @@
 📝 20%课后作业，15%读书报告，15%编程作业，50%期末考试</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>PPT
 <ul>
 <li>Ch1. 机器学习概论</li>
@@ -256,6 +266,9 @@
 <li>《统计学习方法（第二版）》，李航</li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51611&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="ch1-机器学习概论" class="headerLink">
     <a href="#ch1-%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0%e6%a6%82%e8%ae%ba" class="header-mark"></a>(Ch1) 机器学习概论</h2><blockquote>
 <p>春一周</p>
@@ -725,8 +738,9 @@
 <ul>
 <li>大边距近邻分类的距离度量学习</li>
 </ul>
-<h2 id="前辈经验" class="headerLink">
-    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
+    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
 <p>期末考比较中规中矩，无小测。</p>
 <p>上课就是讲《统计学习方法》中的几章，作业做书的课后题，没有代码作业。 不过去年很多人提建议说要增加代码训练和作业量，今年可能会有所改变</p>
 </blockquote>
@@ -743,8 +757,8 @@
 <li><a href="https://www.cc98.org/topic/5356728" target="_blank" rel="noopener noreferrer">https://www.cc98.org/topic/5356728</a></li>
 <li><a href="https://www.cc98.org/topic/5116266" target="_blank" rel="noopener noreferrer">https://www.cc98.org/topic/5116266</a></li>
 </ul>
-<h2 id="参考书目" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83%e4%b9%a6%e7%9b%ae" class="header-mark"></a>参考书目</h2><ul>
+<h3 id="书目" class="headerLink">
+    <a href="#%e4%b9%a6%e7%9b%ae" class="header-mark"></a>书目</h3><ul>
 <li>《机器学习》，周志华，清华大学出版社，2016.</li>
 <li>《The Elements of Statistical Learning》2nd edition, Trevor Hastie, Robert Tibshirani, and Jerome Friedman, Springer 2008.</li>
 <li>《Pattern Recognition and Machine Learning》, Chris Bishop,  Springer 2006.</li>
@@ -791,8 +805,8 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 <p>城乡融合是乡村振兴和城市化的耦合。通过城乡要素自由流动，引导三类产业深度融合，带动乡村产业振兴，规模工业和资本密集型的高新产业则为城市赋以更佳的效能，辅以城乡居民基本权益与服务均等化，乡村为产业资本集中的城市工业提供产能和劳动力过剩危机的“软着陆”蓄水池，城市则为乡村提供更强的三产流动性和工业品，从而实现城市的短期效率与乡村的长期公平的优势互补、共同繁荣。</p>
 <p style="text-align:right">（996字）</p>
 <h2 id="读书报告" class="headerLink">
-    <a href="#%e8%af%bb%e4%b9%a6%e6%8a%a5%e5%91%8a" class="header-mark"></a>读书报告</h2><p>现代化的代价</p>
-<p>——《八次危机》读书报告</p>
+    <a href="#%e8%af%bb%e4%b9%a6%e6%8a%a5%e5%91%8a" class="header-mark"></a>读书报告</h2><center><b>现代化的代价</b></center>
+<center><b>——《八次危机》读书报告</b></center>
 <blockquote>
 <p>“两个互不否定”的历史见证了中国经济举世瞩目的成就。那么，代价是什么呢？</p>
 </blockquote>
@@ -872,13 +886,19 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 📝 签到，作业，课程论文</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>讲义</li>
 </ul>
-<h2 id="课程论文" class="headerLink">
-    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><p><strong>Decomposition of arbitrary unitary transformations in quantum computing</strong></p>
-<h3 id="abstract" class="headerLink">
+</div>
+        </div>
+    </div>
+<h2 id="decomposition-of-arbitrary-unitary-transformations-in-quantum-computing" class="headerLink">
+    <a href="#decomposition-of-arbitrary-unitary-transformations-in-quantum-computing" class="header-mark"></a>Decomposition of arbitrary unitary transformations in quantum computing</h2><h3 id="abstract" class="headerLink">
     <a href="#abstract" class="header-mark"></a>Abstract</h3><p>In order to achieve universal quantum computing in the way of classical computers, this paper focuses on the method of decomposing any Unitary transformation under n qubits into the most basic Hadamard gate, phase shift gate and CNOT gate, so that based on the physical construction of these three gates, most computing situations can be generally realized. We first demonstrate the decomposability of single Qubit gates based on Hadamard gates and phase shift gates, and consider the fact that dual Qubits gates can be constructed by CNOT gates, further verify that the Unitary transform under arbitrary n qubits can be decomposed into single Qubit gates and double Qubits gates, which provides a basis for discussing the physical implementation of quantum computers.</p>
 <h3 id="problem-narrative" class="headerLink">
     <a href="#problem-narrative" class="header-mark"></a>Problem narrative</h3><h4 id="background" class="headerLink">
@@ -962,11 +982,11 @@ sin\frac{\delta}{2}&amp;cos\frac{\delta}{2}\
 <p>$$A=R_z(\alpha)R_y(\frac{\theta}{2}),B=R_y(-\frac{\theta}{2})R_z(-\frac{\alpha+\beta}{2}),C=R_z(\frac{\beta-\alpha}{2}).$$</p>
 <p>Then we know</p>
 <p>$$U=\Phi(\delta)A\sigma_x B\sigma_x C, I=ABC.$$</p>
-<p>\begin{figure}[h]
+<!-- \begin{figure}[h] 
 \centering
 \includegraphics[width=11cm]{fig1.png}
 \caption{Circuit diagram of $C-U$ gate} \label{fig1}
-\end{figure}</p>
+\end{figure} -->
 <p>From this, the $C-U$ gate can be constructed.</p>
 <h4 id="construct-a-multi-controlled-ck-u-gate" class="headerLink">
     <a href="#construct-a-multi-controlled-ck-u-gate" class="header-mark"></a>Construct a multi-controlled $C^k-U$ gate</h4><p>Given $k\in \mathbb{N},k\ge2.$ Back to classical computers, we can construct Toffoli gates and use them to construct k-weight AND gates, similarly, here we need to construct a generality $C^2-U$ gate, and then we can further construct a multi-controlled $C^k-U$ gate to verify its feasibility.</p>

@@ -127,7 +127,19 @@ on d.id = t.dept
 - 一般用于`from, where`
 
 4. 组合查询
-- union（施工中）
+- union 分隔两条或以上的`select`语句
+- 规则：每个查询必须包含相同列、表达式或聚集函数
+- 场景：对一张表执行多个查询并按一个查询返回数据，或在一个查询中从不同表返回数据
+```sql
+select column_name(s) from table1
+union
+select column_name(s) from table2;
+```
+- `union all` 允许重复数据
+
+#### 实例
+
+
 
 ### 操作
 
@@ -206,8 +218,6 @@ create table student(
 - 数据定义语句
 1. 库操作
 2. 表操作
-
-
 
 [^5]: 一文学完所有的Hive Sql（两万字最全详解） @五分钟学大数据 https://blog.csdn.net/helloHbulie/article/details/115376657
 

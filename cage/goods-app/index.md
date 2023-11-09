@@ -3,8 +3,8 @@
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <a href="../goods"><p class="not">终端</p></a>&nbsp;
-  <p class="now">App</p>
+  <a href="../goods"><p class="not">硬件</p></a>&nbsp;
+  <p class="now">软件</p>
   <p class="bord">]</p>
 </div>
 

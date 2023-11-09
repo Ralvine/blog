@@ -10,13 +10,11 @@
 📝 签到，作业，课程论文
 {{< /admonition >}}
 
-## 参考
-
+{{< admonition note "课程材料" true >}}
 - 讲义
+{{< /admonition >}}
 
-## 课程论文 
-
-**Decomposition of arbitrary unitary transformations in quantum computing**
+## Decomposition of arbitrary unitary transformations in quantum computing
 
 ### Abstract
 
@@ -148,11 +146,11 @@ Then we know
 
 $$U=\Phi(\delta)A\sigma_x B\sigma_x C, I=ABC.$$
 
-\begin{figure}[h] 
+<!-- \begin{figure}[h] 
 \centering
 \includegraphics[width=11cm]{fig1.png}
 \caption{Circuit diagram of $C-U$ gate} \label{fig1}
-\end{figure}
+\end{figure} -->
 
 From this, the $C-U$ gate can be constructed.
 

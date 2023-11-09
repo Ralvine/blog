@@ -10,11 +10,11 @@
 📝 40%作业，60%期末
 {{< /admonition >}}
 
-## 参考
-
+{{< admonition note "课程材料" true >}}
 - 《Complex Analysis》, Stein.
 - [智云课堂回放](https://classroom.zju.edu.cn/coursedetail?course_id=47986&tenant_code=112)
 - 复变函数华师版讲义 @陆俊
+{{< /admonition >}}
 
 
 ## Ch1. 复分析预备知识
@@ -31,4 +31,6 @@
 
 ## Ch10. $\Theta$函数*
 
-## 华师版
+## 参考资料
+
+- 华师版

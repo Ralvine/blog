@@ -21,11 +21,18 @@
 📝 40%平时，60%期末</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>教材讲义</li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51564&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="ch7-bvp-fd" class="headerLink">
     <a href="#ch7-bvp-fd" class="header-mark"></a>(Ch7) BVP-FD</h2><blockquote>
 <p>P60-70 (11)</p>
@@ -188,8 +195,9 @@
 <li>Project03</li>
 <li>Project04</li>
 </ul>
-<h2 id="前辈经验" class="headerLink">
-    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
+    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
 <p>lz这学期上了<strong>张庆海</strong>老师的微分方程数值解课程，个人认为这门课在数院是一门非常有特点的课，虽说比较硬核但确实能学到许多，于是开个帖写写课程体会（顺便安利一手） 1.理论与实践结合 数院的课大多以理论为导向，这门课是少有的几门理论与实践并重的课程之一。本学期这门课一共有两个编程大作业，都与课上学的算法密不可分。顺带提醒，先确保完全弄明白算法之后再动手coding，否则成吨的bug在等着你&hellip;</p>
 <p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
 <p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>

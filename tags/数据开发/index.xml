@@ -405,9 +405,27 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>组合查询</li>
 </ol>
 <ul>
-<li>union（施工中）</li>
+<li>union 分隔两条或以上的<code>select</code>语句</li>
+<li>规则：每个查询必须包含相同列、表达式或聚集函数</li>
+<li>场景：对一张表执行多个查询并按一个查询返回数据，或在一个查询中从不同表返回数据</li>
 </ul>
-<h3 id="操作" class="headerLink">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">select</span><span class="w"> </span><span class="k">column_name</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">table1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">union</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">select</span><span class="w"> </span><span class="k">column_name</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">table2</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>union all</code> 允许重复数据</li>
+</ul>
+<h4 id="实例" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h4><h3 id="操作" class="headerLink">
     <a href="#%e6%93%8d%e4%bd%9c" class="header-mark"></a>操作</h3><h4 id="表" class="headerLink">
     <a href="#%e8%a1%a8" class="header-mark"></a>表</h4><ol>
 <li>创建</li>
@@ -1040,11 +1058,19 @@ Spark Streaming</li>
     A[系统A] --> C(业务过程B)
     A[系统A] --> D(业务过程C)
     B --> E{主题域A}
-    C --> F{主题域A}
-    D --> G{主题域A}
+    C --> F{主题域B}
+    D --> G{主题域C}
 
 </pre>
-<p>数据域是指面向业务分析，将业务过程或者维度进行抽象的集合。其中，业务过程可以概括为一个个不可拆分的行为事件，在业务过程下，可以定义指标，维度是指度量的环境，如买家下单事件，买家是维度。为保障整个体系的生命力，数据域是需要抽象提炼，并且长期维护和更新的，但不轻易变动。在划分数据域时，既能涵盖当前所有的业务需求，又能在新业务进入时无影响地被包含进已有的数据域中和扩展新的数据域。</p>
+<ul>
+<li>数据域：面向业务分析，将业务过程或维度进行抽象的集合。
+<ul>
+<li>业务过程：不可拆分的行为事件，可以定义指标，如买家下单事件</li>
+<li>维度：度量环境，如买家是维度
+为保障整个体系的生命力，数据域是需要抽象提炼，并且长期维护和更新的，但不轻易变动。在划分数据域时，既能涵盖当前所有的业务需求，又能在新业务进入时无影响地被包含进已有的数据域中和扩展新的数据域。</li>
+</ul>
+</li>
+</ul>
 <h4 id="数据模型设计" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e6%a8%a1%e5%9e%8b%e8%ae%be%e8%ae%a1" class="header-mark"></a>数据模型设计</h4><p>普通全量表<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <h3 id="模型" class="headerLink">
@@ -1072,9 +1098,7 @@ Spark Streaming</li>
 <p>最强最全面的数仓建设规范指南 @五分钟学大数据 <a href="https://yuanmore.blog.csdn.net/article/details/121265222" target="_blank" rel="noopener noreferrer">https://yuanmore.blog.csdn.net/article/details/121265222</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>生命周期管理矩阵 <figure><a class="lightgallery" href="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png" title="大数据之路" data-thumbnail="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png">
-        
-    </a></figure>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>生命周期管理矩阵 <a href="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png" target="_blank" rel="noopener noreferrer">https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
 <p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>

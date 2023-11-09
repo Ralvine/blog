@@ -21,17 +21,35 @@
 📝 作业，项目作业，期末考试</div>
         </div>
     </div>
-<h2 id="大纲" class="headerLink">
-    <a href="#%e5%a4%a7%e7%ba%b2" class="header-mark"></a>大纲</h2><ul>
-<li><strong>CH3.</strong> 链表、栈和队列</li>
-<li><strong>CH4.</strong> 树</li>
-<li><strong>CH5.</strong> 哈希</li>
-<li><strong>CH6.</strong> 优先队列和堆</li>
-<li><strong>CH7.</strong> 分类</li>
-<li><strong>CH8.</strong> *</li>
-<li><strong>CH9.</strong> 图</li>
-<li><strong>Extra.</strong> 主定理</li>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>《Mathematical Foundations for Data Analysis》Jeff M. Phillips</li>
 </ul>
+</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>CH3. 链表、栈和队列</li>
+<li>CH4. 树</li>
+<li>CH5. 哈希</li>
+<li>CH6. 优先队列和堆</li>
+<li>CH7. 分类</li>
+<li>CH8. *</li>
+<li>CH9. 图</li>
+<li>Extra. 主定理</li>
+</ul>
+</div>
+        </div>
+    </div>
 <h2 id="c-基础知识" class="headerLink">
     <a href="#c-%e5%9f%ba%e7%a1%80%e7%9f%a5%e8%af%86" class="header-mark"></a>C++ 基础知识</h2><h3 id="动态内存与释放" class="headerLink">
     <a href="#%e5%8a%a8%e6%80%81%e5%86%85%e5%ad%98%e4%b8%8e%e9%87%8a%e6%94%be" class="header-mark"></a>动态内存与释放</h3><div class="highlight"><div class="chroma">

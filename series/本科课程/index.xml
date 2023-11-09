@@ -129,9 +129,6 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <li>决策规则</li>
 </ol>
 <p>特殊情况：最近邻（k=1）</p>
-<p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
-        
-    </a></figure></p>
 <h3 id="模型要素" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h3><h4 id="k-值选择" class="headerLink">
     <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h4><table>
@@ -200,11 +197,26 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </ol>
 </li>
 </ol>
-<h4 id="python实现" class="headerLink">
-    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
+<table>
+<thead>
+<tr>
+<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
         
-    </a></figure></p>
-<div class="highlight"><div class="chroma">
+    </a></figure></th>
+<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
+        
+    </a></figure></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><center>kNN算法流程可视化</center></td>
+<td><center>特征空间划分</center></td>
+</tr>
+</tbody>
+</table>
+<h4 id="python实现" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -305,13 +317,25 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>空间切分参照：坐标轴</li>
 <li>切分点的选择：中位数</li>
 </ul>
-<p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
-        
-    </a></figure></p>
 <h5 id="搜索" class="headerLink">
-    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><p><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><table>
+<thead>
+<tr>
+<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
         
-    </a></figure></p>
+    </a></figure></th>
+<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+        
+    </a></figure></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><center>kd树的构造</center></td>
+<td><center>kd树的搜索</center></td>
+</tr>
+</tbody>
+</table>
 <h5 id="算法" class="headerLink">
     <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h5><p>[输入] 已构造的 kd 树，目标点 x;</p>
 <p>[输出] x 的 k 近邻。</p>
@@ -554,8 +578,12 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 📝 40%平时（两次问卷调查），60%论文</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>PPT（导论）
 <ul>
 <li>Lecture1</li>
@@ -568,6 +596,9 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=47818&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="lecture1" class="headerLink">
     <a href="#lecture1" class="header-mark"></a>Lecture1.</h2><blockquote>
 <p>夏一周</p>
@@ -740,7 +771,6 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </blockquote>
 <h2 id="期末论文" class="headerLink">
     <a href="#%e6%9c%9f%e6%9c%ab%e8%ae%ba%e6%96%87" class="header-mark"></a>期末论文</h2><p><em>（课程约定）</em></p>
-<center>资本无序扩张的三十年</center>
 <p>这是资本无序扩张的第三十年，与泡沫般飞涨的资本主义繁荣神话相伴的是，工业化和市场化浪潮下生产资料的结构性错配在其让渡于资本权力的进程中精妙地编织起一套无处挣脱的生产方式和叙事体系，即便是矗立于社会金字塔尖的名义精英也潜意识地驯服于资本-消费符号构成的全景社会之内、安适于新贵族般的森严而坚实的壁龛之中。</p>
 <p>资本主义首要刻画的是附着于人性原始欲望的商品世界童话。在纸醉金迷的浪潮中，头脑聪明、精于算计的“精致利己主义”轻而易举地渗透了道德意识形态的高地，以财富导向的社会天梯的攀附者们，自发地戴上了旧时代残存的冠冕，在阶级的金字塔沿互相倾轧。在这个效率第一的时代，几乎没有人意识到自己身处于资本疯狂自我增殖的子宫之中，由其浇筑的雇佣制社会化再生产链路和附着于其间的劳动者和资本家，无非是燃料和傀儡的区别，所有人生来的目的便是幻想在资本浇筑的符号幻觉里叱咤风云，他们无一例外地在攫取财富和消费需求的周期里麻木地寻求物欲的安慰，劳作成了自我意识存续的手段本身。</p>
 <p>而在商品和消费为通用语言的符号社会里，无产阶级以打工人的身份被赋予了更广泛、更系统性的剥削定位，工人不仅仅作为生产环节的劳动资料被以工资的形式贴上价格标签自由出卖，同时也在货币符号的诱惑下成为劳动产物的需求端被更为精细地剖分为消费主义的二次收割对象。被褫夺了时间和生活的工薪阶层在博取他人认同和辨识的消费行为中无形地将反抗意识转换为心理层面异化了的满足感，财富和消费定义了新的身份价值标签，于是人们并不再孤立地居于物的使用价值作用范畴之中，而是以消费重新勾勒了社会地位与身份认同，在这里，剥削的原罪被巧妙地消弭，无产阶级在集体无意识中反而为资本主义生产―利润体系的高效运转和规模扩大贡献了正向反馈，成为其合法性的建筑师和辩经者。</p>
@@ -766,8 +796,12 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 📝 20%小测，20%作业，60%期末</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>《实变函数与泛函分析概要（第五版）》王声望，郑维行</li>
 <li>课程讲义
 <ul>
@@ -788,6 +822,9 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=48021&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="ch1-距离空间" class="headerLink">
     <a href="#ch1-%e8%b7%9d%e7%a6%bb%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch1. 距离空间</h2><ul>
 <li>
@@ -998,8 +1035,8 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ul>
 <h2 id="ch3-有界线性算子巴拿赫空间" class="headerLink">
     <a href="#ch3-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b7%b4%e6%8b%bf%e8%b5%ab%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch3. 有界线性算子：巴拿赫空间</h2><h2 id="ch4-有界线性算子希尔伯特空间" class="headerLink">
-    <a href="#ch4-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b8%8c%e5%b0%94%e4%bc%af%e7%89%b9%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch4. 有界线性算子：希尔伯特空间</h2><h2 id="前辈经验" class="headerLink">
-    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><p>小测：https://www.cc98.org/topic/5321722</p>]]></description>
+    <a href="#ch4-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b8%8c%e5%b0%94%e4%bc%af%e7%89%b9%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch4. 有界线性算子：希尔伯特空间</h2><h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><p>小测：https://www.cc98.org/topic/5321722</p>]]></description>
 </item><item>
     <title>复变函数</title>
     <link>https://blog.ralvines.top/fbhs/</link>
@@ -1018,12 +1055,19 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 📝 40%作业，60%期末</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>《Complex Analysis》, Stein.</li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=47986&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
 <li>复变函数华师版讲义 @陆俊</li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="ch1-复分析预备知识" class="headerLink">
     <a href="#ch1-%e5%a4%8d%e5%88%86%e6%9e%90%e9%a2%84%e5%a4%87%e7%9f%a5%e8%af%86" class="header-mark"></a>Ch1. 复分析预备知识</h2><h2 id="ch2-柯西定理及应用" class="headerLink">
     <a href="#ch2-%e6%9f%af%e8%a5%bf%e5%ae%9a%e7%90%86%e5%8f%8a%e5%ba%94%e7%94%a8" class="header-mark"></a>Ch2. 柯西定理及应用</h2><h2 id="ch3-亚纯函数及对数" class="headerLink">
@@ -1031,8 +1075,10 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <a href="#ch5-%e5%85%a8%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch5. 全函数</h2><h2 id="ch7-留数定理" class="headerLink">
     <a href="#ch7-%e7%95%99%e6%95%b0%e5%ae%9a%e7%90%86" class="header-mark"></a>Ch7. 留数定理*</h2><h2 id="ch8-椭圆函数" class="headerLink">
     <a href="#ch8-%e6%a4%ad%e5%9c%86%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch8. 椭圆函数*</h2><h2 id="ch10-theta函数" class="headerLink">
-    <a href="#ch10-theta%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch10. $\Theta$函数*</h2><h2 id="华师版" class="headerLink">
-    <a href="#%e5%8d%8e%e5%b8%88%e7%89%88" class="header-mark"></a>华师版</h2>]]></description>
+    <a href="#ch10-theta%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch10. $\Theta$函数*</h2><h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><ul>
+<li>华师版</li>
+</ul>]]></description>
 </item><item>
     <title>面向对象程序设计</title>
     <link>https://blog.ralvines.top/oop/</link>
@@ -1180,7 +1226,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     </div>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><ul>
@@ -1465,8 +1511,12 @@ $$]]></description>
 📝 20%小测，20%作业，60%期末</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>《实变函数》，周性伟</li>
 <li>PPT
 <ul>
@@ -1482,6 +1532,9 @@ $$]]></description>
 <li><a href="https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&amp;vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">实变函数习题十讲</a></li>
 <li><a href="https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&amp;vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer"></a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="集合" class="headerLink">
     <a href="#%e9%9b%86%e5%90%88" class="header-mark"></a>集合</h2><ul>
 <li>三次完备化
@@ -1763,8 +1816,9 @@ $$]]></description>
 </ul>
 </li>
 </ul>
-<h2 id="前辈经验" class="headerLink">
-    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
+    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
 <p>以下基于个人学习经历与其他情况写一些关于实变函数的学习建议（普适）零.实变函数是近代分析学的起点，起着“地基”的作用。首先明确两个问题，一是这门课所要研究的数学对象，二是为了研究这个数学对象我们引进了哪些数学工具。在数学分析中我们的研究对象是一个单独的函数，所使用的数学工具是微分、积分、极限。实变函数课提出了一个全新的观点：我们不再单独研究一个函数，而是把一些函数打包成一个集合，组成“函数空间”这样一个整体。我们的研究对象就是各种“函数空间”，所使用的工具是“<strong>测度”与“积分</strong>”。分析中的一个重要支柱是利用“函数空间”去解“各种偏微分方程”，这门课是分析学的一个重要基础</p>
 <p><strong>一.参考书：</strong></p>
 <p>1.学院用的教材是周性伟先生的教材（与同济大学相同），但习题较困难，建议配上周民强的实变函数论，尤其强调例题（大部分与教材中类似或重合）</p>
@@ -1778,8 +1832,8 @@ $$]]></description>
 <p>3.<strong>Lebesgue积分VSRiemann积分：</strong> 一个自然的问题：黎曼积分中的一些定理和性质是不是在Lebesgue积分的框架下依然成立呢？我们在数学分析中学过以下四个理论：牛顿莱布尼兹定理、局部积分公式、中值定理、链式法则。在推广到Lebesgue积分论的过程中，最重要的一定要知道，我们是在什么框架下推广的！</p>
 <p>4.计算题 这门课的计算题大致有：计算Lebesgue积分、计算有界变差。计算Lebesgue积分的常见方法有换元法、局部积分公式、中值定理、单调收敛定理、Lebesgue控制收敛定理。计算有界变差的常见方法有导函数的黎曼积分、计数函数的积分。每种计算的每种方法都可以在书上找到课后习题，这部分的内容就是靠做题练的，<strong>没有捷径</strong>。</p>
 </blockquote>
-<h2 id="参考书目" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83%e4%b9%a6%e7%9b%ae" class="header-mark"></a>参考书目</h2><ul>
+<h3 id="书目" class="headerLink">
+    <a href="#%e4%b9%a6%e7%9b%ae" class="header-mark"></a>书目</h3><ul>
 <li>周性伟</li>
 <li>周民强</li>
 <li>郑维声、王声望</li>
@@ -1802,8 +1856,12 @@ $$]]></description>
 📝 20%课后作业，15%读书报告，15%编程作业，50%期末考试</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>PPT
 <ul>
 <li>Ch1. 机器学习概论</li>
@@ -1825,6 +1883,9 @@ $$]]></description>
 <li>《统计学习方法（第二版）》，李航</li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51611&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="ch1-机器学习概论" class="headerLink">
     <a href="#ch1-%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0%e6%a6%82%e8%ae%ba" class="header-mark"></a>(Ch1) 机器学习概论</h2><blockquote>
 <p>春一周</p>
@@ -2294,8 +2355,9 @@ $$]]></description>
 <ul>
 <li>大边距近邻分类的距离度量学习</li>
 </ul>
-<h2 id="前辈经验" class="headerLink">
-    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
+    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
 <p>期末考比较中规中矩，无小测。</p>
 <p>上课就是讲《统计学习方法》中的几章，作业做书的课后题，没有代码作业。 不过去年很多人提建议说要增加代码训练和作业量，今年可能会有所改变</p>
 </blockquote>
@@ -2312,8 +2374,8 @@ $$]]></description>
 <li><a href="https://www.cc98.org/topic/5356728" target="_blank" rel="noopener noreferrer">https://www.cc98.org/topic/5356728</a></li>
 <li><a href="https://www.cc98.org/topic/5116266" target="_blank" rel="noopener noreferrer">https://www.cc98.org/topic/5116266</a></li>
 </ul>
-<h2 id="参考书目" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83%e4%b9%a6%e7%9b%ae" class="header-mark"></a>参考书目</h2><ul>
+<h3 id="书目" class="headerLink">
+    <a href="#%e4%b9%a6%e7%9b%ae" class="header-mark"></a>书目</h3><ul>
 <li>《机器学习》，周志华，清华大学出版社，2016.</li>
 <li>《The Elements of Statistical Learning》2nd edition, Trevor Hastie, Robert Tibshirani, and Jerome Friedman, Springer 2008.</li>
 <li>《Pattern Recognition and Machine Learning》, Chris Bishop,  Springer 2006.</li>
@@ -2338,11 +2400,18 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 📝 40%平时，60%期末</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>教材讲义</li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51564&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="ch7-bvp-fd" class="headerLink">
     <a href="#ch7-bvp-fd" class="header-mark"></a>(Ch7) BVP-FD</h2><blockquote>
 <p>P60-70 (11)</p>
@@ -2505,8 +2574,9 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 <li>Project03</li>
 <li>Project04</li>
 </ul>
-<h2 id="前辈经验" class="headerLink">
-    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
+    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
 <p>lz这学期上了<strong>张庆海</strong>老师的微分方程数值解课程，个人认为这门课在数院是一门非常有特点的课，虽说比较硬核但确实能学到许多，于是开个帖写写课程体会（顺便安利一手） 1.理论与实践结合 数院的课大多以理论为导向，这门课是少有的几门理论与实践并重的课程之一。本学期这门课一共有两个编程大作业，都与课上学的算法密不可分。顺带提醒，先确保完全弄明白算法之后再动手coding，否则成吨的bug在等着你&hellip;</p>
 <p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
 <p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>
@@ -2551,8 +2621,8 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 <p>城乡融合是乡村振兴和城市化的耦合。通过城乡要素自由流动，引导三类产业深度融合，带动乡村产业振兴，规模工业和资本密集型的高新产业则为城市赋以更佳的效能，辅以城乡居民基本权益与服务均等化，乡村为产业资本集中的城市工业提供产能和劳动力过剩危机的“软着陆”蓄水池，城市则为乡村提供更强的三产流动性和工业品，从而实现城市的短期效率与乡村的长期公平的优势互补、共同繁荣。</p>
 <p style="text-align:right">（996字）</p>
 <h2 id="读书报告" class="headerLink">
-    <a href="#%e8%af%bb%e4%b9%a6%e6%8a%a5%e5%91%8a" class="header-mark"></a>读书报告</h2><p>现代化的代价</p>
-<p>——《八次危机》读书报告</p>
+    <a href="#%e8%af%bb%e4%b9%a6%e6%8a%a5%e5%91%8a" class="header-mark"></a>读书报告</h2><center><b>现代化的代价</b></center>
+<center><b>——《八次危机》读书报告</b></center>
 <blockquote>
 <p>“两个互不否定”的历史见证了中国经济举世瞩目的成就。那么，代价是什么呢？</p>
 </blockquote>

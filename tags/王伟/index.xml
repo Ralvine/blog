@@ -21,8 +21,12 @@
 📝 20%小测，20%作业，60%期末</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>《实变函数与泛函分析概要（第五版）》王声望，郑维行</li>
 <li>课程讲义
 <ul>
@@ -43,6 +47,9 @@
 </li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=48021&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="ch1-距离空间" class="headerLink">
     <a href="#ch1-%e8%b7%9d%e7%a6%bb%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch1. 距离空间</h2><ul>
 <li>
@@ -253,7 +260,7 @@
 </ul>
 <h2 id="ch3-有界线性算子巴拿赫空间" class="headerLink">
     <a href="#ch3-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b7%b4%e6%8b%bf%e8%b5%ab%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch3. 有界线性算子：巴拿赫空间</h2><h2 id="ch4-有界线性算子希尔伯特空间" class="headerLink">
-    <a href="#ch4-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b8%8c%e5%b0%94%e4%bc%af%e7%89%b9%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch4. 有界线性算子：希尔伯特空间</h2><h2 id="前辈经验" class="headerLink">
-    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><p>小测：https://www.cc98.org/topic/5321722</p>]]></description>
+    <a href="#ch4-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b8%8c%e5%b0%94%e4%bc%af%e7%89%b9%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch4. 有界线性算子：希尔伯特空间</h2><h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><p>小测：https://www.cc98.org/topic/5321722</p>]]></description>
 </item></channel>
 </rss>

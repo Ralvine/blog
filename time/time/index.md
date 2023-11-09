@@ -25,7 +25,7 @@
   <div class="subpage-box-cover">
     <a href="../photo" data-pjax-state="">
       <p class="image-hyper">📸</p>
-      <p class="image-caption">摄影</p>
+      <p class="image-caption">光阑</p>
       <img alt="摄影" data-src="" src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" data-loaded="true">
     </a>
   </div>

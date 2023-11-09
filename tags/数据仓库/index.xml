@@ -204,9 +204,27 @@
 <li>组合查询</li>
 </ol>
 <ul>
-<li>union（施工中）</li>
+<li>union 分隔两条或以上的<code>select</code>语句</li>
+<li>规则：每个查询必须包含相同列、表达式或聚集函数</li>
+<li>场景：对一张表执行多个查询并按一个查询返回数据，或在一个查询中从不同表返回数据</li>
 </ul>
-<h3 id="操作" class="headerLink">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">select</span><span class="w"> </span><span class="k">column_name</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">table1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">union</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">select</span><span class="w"> </span><span class="k">column_name</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">table2</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>union all</code> 允许重复数据</li>
+</ul>
+<h4 id="实例" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h4><h3 id="操作" class="headerLink">
     <a href="#%e6%93%8d%e4%bd%9c" class="header-mark"></a>操作</h3><h4 id="表" class="headerLink">
     <a href="#%e8%a1%a8" class="header-mark"></a>表</h4><ol>
 <li>创建</li>

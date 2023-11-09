@@ -34,7 +34,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.ralvines.top\/pdeszj\/"
-        },"genre": "posts","keywords": "数学, 微分方程, 张庆海, 专业必修课","wordcount":  977 ,
+        },"genre": "posts","keywords": "数学, 微分方程, 张庆海, 专业必修课","wordcount":  983 ,
         "url": "https:\/\/blog.ralvines.top\/pdeszj\/","datePublished": "2023-03-01T20:20:40+08:00","dateModified": "2023-07-01T20:25:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"authors": [{
@@ -82,7 +82,7 @@
                     <a href="/time/time/" 
                         class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
                     </a>
-                    <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+                    <div class="menu-more-content dropdown-content"><a href="/time/photo/" title="" >📸 光阑 </a><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/project/" title="" >📦 项目 </a></div>
                 </div>
                 <a class="menu-item"
                     href="/about/about/" >🏡 关于 
@@ -155,7 +155,7 @@
                 <a href="/time/time/" 
                     class="menu-item menu-more dropbtn" title="" >🧭 拾迹 
                 </a>
-                <div class="menu-more-content dropdown-content"><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/photo/" title="" >📸 摄影 </a><a href="/time/project/" title="" >📦 项目 </a></div>
+                <div class="menu-more-content dropdown-content"><a href="/time/photo/" title="" >📸 光阑 </a><a href="/time/skill/" title="" >🔦 技能 </a><a href="/time/project/" title="" >📦 项目 </a></div>
             </div>
             <a class="menu-item"
                 href="/about/about/" >🏡 关于 
@@ -174,20 +174,23 @@
         <h2 class="toc-title">目录</h2>
         <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>
-    <li><a href="#参考">参考</a></li>
     <li><a href="#ch7-bvp-fd">(Ch7) BVP-FD</a></li>
     <li><a href="#ch9-multigrid">(Ch9) Multigrid</a></li>
     <li><a href="#ch11-ivp">(Ch11) IVP</a></li>
     <li><a href="#ch12-mol">(Ch12) MOL</a></li>
     <li><a href="#作业">作业</a></li>
-    <li><a href="#前辈经验">前辈经验</a></li>
+    <li><a href="#参考资料">参考资料</a>
+      <ul>
+        <li><a href="#前人经验">前人经验</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
     </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">微分方程数值解</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><span class='author'><i class="author fas fa-user-circle fa-fw"></i><span class='screen-reader-text'>  </span><a href='https://blog.ralvines.top/authors/ralvine'>Ralvine</a></span>
                 </span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-category"><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-series"><a href="/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/"><i class="far fa-list-alt fa-fw"></i>本科课程</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-01">2023-03-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-07-01">2023-07-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 977 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-01">2023-03-01</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-07-01">2023-07-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 983 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/pdeszj/" class="leancloud_visitors" data-flag-title="微分方程数值解">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -198,13 +201,16 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#参考">参考</a></li>
     <li><a href="#ch7-bvp-fd">(Ch7) BVP-FD</a></li>
     <li><a href="#ch9-multigrid">(Ch9) Multigrid</a></li>
     <li><a href="#ch11-ivp">(Ch11) IVP</a></li>
     <li><a href="#ch12-mol">(Ch12) MOL</a></li>
     <li><a href="#作业">作业</a></li>
-    <li><a href="#前辈经验">前辈经验</a></li>
+    <li><a href="#参考资料">参考资料</a>
+      <ul>
+        <li><a href="#前人经验">前人经验</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><div class="details admonition note open">
@@ -226,11 +232,18 @@
 📝 40%平时，60%期末</div>
         </div>
     </div>
-<h2 id="参考" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><ul>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li>教材讲义</li>
 <li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51564&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
 </ul>
+</div>
+        </div>
+    </div>
 <h2 id="ch7-bvp-fd" class="headerLink">
     <a href="#ch7-bvp-fd" class="header-mark"></a>(Ch7) BVP-FD</h2><blockquote>
 <p>P60-70 (11)</p>
@@ -393,8 +406,9 @@
 <li>Project03</li>
 <li>Project04</li>
 </ul>
-<h2 id="前辈经验" class="headerLink">
-    <a href="#%e5%89%8d%e8%be%88%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前辈经验</h2><blockquote>
+<h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
+    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
 <p>lz这学期上了<strong>张庆海</strong>老师的微分方程数值解课程，个人认为这门课在数院是一门非常有特点的课，虽说比较硬核但确实能学到许多，于是开个帖写写课程体会（顺便安利一手） 1.理论与实践结合 数院的课大多以理论为导向，这门课是少有的几门理论与实践并重的课程之一。本学期这门课一共有两个编程大作业，都与课上学的算法密不可分。顺带提醒，先确保完全弄明白算法之后再动手coding，否则成吨的bug在等着你&hellip;</p>
 <p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
 <p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>
