@@ -1,4 +1,4 @@
-# 🎞️ 电影
+# 🎞️ 影片
 
 
 <div class="nav-tab">
@@ -18,7 +18,7 @@
         <span class="author">09-06 影院·杭州 二刷</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">诺兰式多线叙事和震撼声效，麦卡锡时代国安名义政治挂帅、政客囿于算计，“威慑纪元”的道德负疚、共产主义思潮点到即止，仍落俗于个体良心发现和慷慨陈词。</font></div>
+      <div class="media-meta-item intro">诺兰式多线叙事和震撼声效，麦卡锡时代国安名义政治挂帅、政客囿于算计，“威慑纪元”的道德负疚、共产主义思潮点到即止，仍落俗于个体良心发现和慷慨陈词。</div>
     </div>
   </div>
   <div class="media">
@@ -29,18 +29,18 @@
         <span class="author">08-19 影院·杭州</span>
         <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">“缅北”元素和电信诈骗现实题材，脱不开情感线和“可恨者也有可怜处”的叙事束缚，剧情耦合带有宣教故事片的色彩。</font></div>
+      <div class="media-meta-item intro">“缅北”元素和电信诈骗现实题材，脱不开情感线和“可恨者也有可怜处”的叙事束缚，剧情耦合带有宣教故事片的色彩。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimb3es.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">大决战三部曲<span style="float:right;font-weight:400">历史/战争</span></div>
+      <div class="media-meta-item title">大决战 三部曲<span style="float:right;font-weight:400">历史/战争</span></div>
       <div class="media-meta-item">
         <span class="author">07-24 精讲</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">无法复制的历史战争片经典，比肩苏联的百万群演和部队参演，绝妙传神的选角和战争细节，展现五大书记的运筹帷幄、充满张力的文戏和人心向背的对比。</font></div>
+      <div class="media-meta-item intro">无法复制的历史战争片经典，比肩苏联的百万群演和部队参演，绝妙传神的选角和战争细节，展现五大书记的运筹帷幄、充满张力的文戏和人心向背的对比。</div>
     </div>
   </div>
   <div class="media">
@@ -51,7 +51,7 @@
         <span class="author">07-11 影院·台州</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">高适视角的大唐盛衰面面观，文人的情怀和悲剧内核衍生出建功立业和随遇而安的两种人生轨迹，文采的年少张扬与征伐的老来得志是一部厚重的史诗。</font></div>
+      <div class="media-meta-item intro">高适视角的大唐盛衰面面观，文人的情怀和悲剧内核衍生出建功立业和随遇而安的两种人生轨迹，文采的年少张扬与征伐的老来得志是一部厚重的史诗。</div>
     </div>
   </div>
   <div class="media">
@@ -62,7 +62,7 @@
         <span class="author">07-06 影院·杭州</span>
         <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">叙事稚嫩突兀，拳击题材版本的夺冠加摔跤吧爸爸，起承转合之间最亮眼的是微观视角下的小人物成长故事本身。</font></div>
+      <div class="media-meta-item intro">叙事稚嫩突兀，拳击题材版本的夺冠加摔跤吧爸爸，起承转合之间最亮眼的是微观视角下的小人物成长故事本身。</div>
     </div>
   </div>
   <div class="media">
@@ -73,7 +73,7 @@
         <span class="author">07-04 影院·杭州</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">标准的韩延式剧情，流行元素的张弛和着眼共鸣的情感内核，叙事依旧周转舒适、对观众情绪和期待的节奏把控十分熟练，尽管题材本身并不新鲜。</font></div>
+      <div class="media-meta-item intro">标准的韩延式剧情，流行元素的张弛和着眼共鸣的情感内核，叙事依旧周转舒适、对观众情绪和期待的节奏把控十分熟练，尽管题材本身并不新鲜。</div>
     </div>
   </div>
   <div class="media">
@@ -84,7 +84,7 @@
         <span class="author">06-04 线上</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">充满了蜘蛛侠早期经典的影子，比较新奇的画风配合收放自如的情节起伏推进，属于蜘蛛侠IP中的良作。</font></div>
+      <div class="media-meta-item intro">充满了蜘蛛侠早期经典的影子，比较新奇的画风配合收放自如的情节起伏推进，属于蜘蛛侠IP中的良作。</div>
     </div>
   </div>
   <div class="media">
@@ -95,7 +95,7 @@
         <span class="author">06-01 影院·长沙 重映</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">跨越时间的经典，朴素的和平主义和生态观嵌于对角色的饱满刻画之中，冷战气氛与温情内核的相互交织带来回味无穷的镜式观照和思考。</font></div>
+      <div class="media-meta-item intro">跨越时间的经典，朴素的和平主义和生态观嵌于对角色的饱满刻画之中，冷战气氛与温情内核的相互交织带来回味无穷的镜式观照和思考。</div>
     </div>
   </div>
   <div class="media">
@@ -106,7 +106,7 @@
         <span class="author">05-15 解说</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">科幻包裹下对于人性恐惧本质的挖掘，让停电和平行时空的简单意象在“未知”语境下恣意编织出如此精彩的剧情，但很难在观后有深刻的印象。</font></div>
+      <div class="media-meta-item intro">科幻包裹下对于人性恐惧本质的挖掘，让停电和平行时空的简单意象在“未知”语境下恣意编织出如此精彩的剧情，但很难在观后有深刻的印象。</div>
     </div>
   </div>
   <div class="media">
@@ -117,7 +117,7 @@
         <span class="author">05-12 精讲</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">原子弹工程里的隐形守护者，叙事和画面本身并不出彩，但对于精神理念的表达富有感染力，也是对人物塑造的恰然写照。</font></div>
+      <div class="media-meta-item intro">原子弹工程里的隐形守护者，叙事和画面本身并不出彩，但对于精神理念的表达富有感染力，也是对人物塑造的恰然写照。</div>
     </div>
   </div>
   <div class="media">
@@ -128,7 +128,7 @@
         <span class="author">05-12 影院·杭州</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -139,7 +139,7 @@
         <span class="author">05-03 线上</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -150,7 +150,7 @@
         <span class="author">05-03 线上</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -161,7 +161,7 @@
         <span class="author">04-30 线上</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -172,7 +172,7 @@
         <span class="author">04-30 线上</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -183,7 +183,7 @@
         <span class="author">04-27 线上</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -194,7 +194,7 @@
         <span class="author">04-26 线上 二刷</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -205,7 +205,7 @@
         <span class="author">04-14 小剧场·杭州</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -216,7 +216,7 @@
         <span class="author">04-09 影院·杭州 重映</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -227,7 +227,7 @@
         <span class="author">03-29 影院·杭州</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -238,7 +238,7 @@
         <span class="author">02-12 线上</span>
         <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -249,7 +249,7 @@
         <span class="author">01-25 影院·杭州 二刷</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -260,7 +260,7 @@
         <span class="author">01-23 线上</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -271,7 +271,7 @@
         <span class="author">01-23 影院·台州</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -282,10 +282,19 @@
         <span class="author">01-08 解说</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyYy8.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">监视资本主义：智能陷阱<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+      <div class="media-meta-item">
+        <span class="author">03-21 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
 </div>
 
-- 监视资本主义：智能陷阱，2023-03-21
-- 1950他们正年轻，2022-10-10

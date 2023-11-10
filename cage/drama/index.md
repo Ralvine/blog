@@ -23,7 +23,7 @@
         <span class="author">07-22 精讲</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
   <div class="media">
@@ -34,7 +34,7 @@
         <span class="author">08-19 精讲</span>
         <span class="star-score">★★★★★</span>
       </div>
-      <div class="media-meta-item intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item intro"></div>
     </div>
   </div>
 </div>

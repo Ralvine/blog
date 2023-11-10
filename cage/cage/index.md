@@ -24,15 +24,15 @@
   <div class="subpage-box-cover">
     <a href="../goods" data-pjax-state="">
       <p class="image-hyper">⌨️</p>
-      <p class="image-caption">好物</p>
+      <p class="image-caption">风物</p>
       <img alt="产品" data-src="" src="https://z1.ax1x.com/2023/10/30/pimsIXD.jpg" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
     <a href="../movies" data-pjax-state="">
       <p class="image-hyper">🎞️</p>
-      <p class="image-caption">电影</p>
-      <img alt="电影" data-src="" src="https://z1.ax1x.com/2023/10/30/pimsTne.png" data-loaded="true">
+      <p class="image-caption">影片</p>
+      <img alt="影片" data-src="" src="https://z1.ax1x.com/2023/10/30/pimsTne.png" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">

@@ -1,4 +1,4 @@
-# ⌨️ 好物
+# ⌨️ 风物
 
 
 <div class="nav-tab">
@@ -13,25 +13,25 @@
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(http://www.sigma-photo.com.cn/common/lenses/cas/product/contemporary/c_56_14/index/images/design-detail_image.jpg); background-size: 140px 70px;"></div>
+    <div class="media-cover-round" style="background-image:url(http://www.sigma-photo.com.cn/common/lenses/cas/product/contemporary/c_56_14/index/images/design-detail_image.jpg); background-size: 150px 70px;"></div>
     <div class="media-meta">
       <div class="media-meta-item title">Figma 56 F1.4 ef-m<span style="float:right;font-weight:400">影像器材</span></div>
       <div class="media-meta-item">
         <span class="author">¥2100 购于8月</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">唯一持有的定焦镜头，拥有高锐度和大光圈，非常适合拍摄人像。</div>
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP878/apple-watch-series8_2x.png); background-size: 80px 60px;)"></div>
+    <div class="media-cover-round" style="background-image:url(https://z1.ax1x.com/2023/11/10/pi3j7T0.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">Apple Watch Series 8<span style="float:right;font-weight:400">智能穿戴</span></div>
       <div class="media-meta-item">
         <span class="author">¥2349 购于5月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">统一于HealthKit，相对精准的生理监测，精致的工业设计，但续航缺陷决定其仍侧重装饰属性。</div>
     </div>
   </div>
   <div class="media-app">
@@ -42,7 +42,7 @@
         <span class="author">¥1791 购于3月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">吃灰外设，索尼加持的头戴式声场效果没话说，但连接不太方便、降噪也有耳压。</div>
     </div>
   </div>
   <div class="media-app">
@@ -53,70 +53,123 @@
         <span class="author">¥850 购于1月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">全面满足触控板、键盘背光和无极支架需求的保护壳，然而原价昂贵且厚重。</div>
     </div>
   </div>
+  <div class="media-app-3-prime">
+    <div class="media-meta-item title">MacBook Pro 13 (M1)<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">使用于11月</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">实习办公本，旧模具更精致但割手，不烫的 Touch Bar 体验不错，特别轻薄便携。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">MacBook Pro 16 (2019)<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">使用于10月 历时1周</span>
+      <span class="star-score">★★<span class="grey-star">☆☆☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">Intel MBP 特有的严重发热和卡顿，16英寸的工业设计也十分单调。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">问界 M5 智驾版<span style="float:right;font-weight:400">设备配件</span></div>
+    <div class="media-meta-item">
+      <span class="author">试驾于10月</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">车头保时捷既视感、杏色内饰、鸿蒙座舱体验极佳，驾驶友好，智驾车机都是独一档。</div>
+  </div><br>
+  <div class="media-app-3-prime">
+    <div class="media-meta-item title">Mi 14<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">体验于10月</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">Hyper OS 稳定了许多，动画略生硬，用料扎实的小屏直板旗舰，可以胜任主力机。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">Huawei Mate X5<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">体验于10月</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">迄今体验过最佳的折叠屏旗舰，生态适配良好，重量和耐用性都已足够完备。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">iPhone 15 Pro Max<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">体验于9月</span>
+      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">挤牙膏，C口窄边框和换钛合金后的正常重量都是亮点，若作为13系列是值得购入的。</div>
+  </div><br>
+  <div class="media-app-3-prime">
+    <div class="media-meta-item title">Huawei Mate 60 Pro<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">试驾于9月</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">经典圆环+全新拼接设计，实机质感一般，麒麟足以支撑日常，信号续航独一家。</div>
+  </div>
+  <div class="media-app-3">
+    <div class="media-meta-item title">Lumia 1020<span style="float:right;font-weight:400">移动终端</span></div>
+    <div class="media-meta-item">
+      <span class="author">体验于6月</span>
+      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+    </div>
+    <div class="media-meta-item-app intro">经典机型，「奥利奥」摄像头和氖光灯很亮眼，但单论用料和体验在当时也很一般。</div>
+  </div>
 </div>
-
-- MacBook Pro 13 (M1)
-- MacBook Pro 16 (2019)
-- 问界 M5 智驾版
-- 小米 14
-- Huawei Mate X5
-- iPhone 15 Pro Max
-- Huawei Mate 60 Pro
-- Lumia 1020
 
 <h2>🔖 2022</h2>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://www.apple.com.cn/v/airpods/shared/compare/d/images/compare/compare_airpods_pro__e9uzt0mzviem_large_2x.png); background-size: 90px 80px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://www.apple.com.cn/v/airpods/shared/compare/d/images/compare/compare_airpods_pro__e9uzt0mzviem_large_2x.png)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">AirPods Pro 2<span style="float:right;font-weight:400">耳机</span></div>
       <div class="media-meta-item">
         <span class="author">¥1899+299 购于?月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">升级幅度并不大，但在TWS领域空间音频、生态联动还是遥遥领先，续航提升感知明显。</div>
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://www.apple.com.cn/v/iphone/compare/ae/images/overview/compare_iphone13_pro_max_silver__d86ajrc5k30i_large_2x.jpg); background-size: 70px 90px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://z1.ax1x.com/2023/11/10/pi3jTwq.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">iPhone 13 Pro Max<span style="float:right;font-weight:400">移动终端</span></div>
       <div class="media-meta-item">
         <span class="author">¥8499 购于7月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">最稳定的主力机，除了重量和信号之外没有明显短板，续航长焦和高刷都是换机的重要因素。</div>
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://tse2-mm.cn.bing.net/th/id/OIP-C.Ncoz0AG6T83XUao1U7TF4wAAAA?pid=ImgDet&rs=1); background-size: 80px 80px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://www.bhphotovideo.com/images/images1000x1000/canon_9517b002_ef_m_55_200mm_f_4_5_6_3_is_1180778.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">Canon EF-M 55-200 STM<span style="float:right;font-weight:400">影像器材</span></div>
       <div class="media-meta-item">
         <span class="author">¥1799 购于7月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">性价比很高、适用场景广泛的长焦镜头，很适合拍建筑和远景，画质尚可，亮点是体积小和轻便。</div>
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://tse2-mm.cn.bing.net/th/id/OIP-C.Ncoz0AG6T83XUao1U7TF4wAAAA?pid=ImgDet&rs=1); background-size: 80px 80px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://tse2-mm.cn.bing.net/th/id/OIP-C.Ncoz0AG6T83XUao1U7TF4wAAAA?pid=ImgDet&rs=1)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">Canon M6 Mark 2<span style="float:right;font-weight:400">影像器材</span></div>
       <div class="media-meta-item">
         <span class="author">¥6018 购于7月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">使用时间最长的微单，没有光学取景器，核心优势仍是轻便和可接受的画质，佳能系表现稳定。</div>
     </div>
   </div>
 </div>
-
-- 华为 P40
 
 <h2>🔖 2021</h2>
 
@@ -127,9 +180,9 @@
       <div class="media-meta-item title">MacBook Pro 14 (M1 Pro)<span style="float:right;font-weight:400">移动终端</span></div>
       <div class="media-meta-item">
         <span class="author">¥13899 购于2021</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">迄今最喜欢的设备，尺寸恰好续航优异，Micro LCD 屏+高刷+HDMI+SD槽，完美符合需求。</div>
     </div>
   </div>
   <div class="media-app">
@@ -140,7 +193,7 @@
         <span class="author">¥600 购于8月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">适合新模具 iPad 的键盘，官方就是轻薄，角度比较单一，适合应急，键程还行，无背光灯，贵。</div>
     </div>
   </div>
   <div class="media-app">
@@ -151,7 +204,7 @@
         <span class="author">购于2021</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">比较喜欢这类亲肤材质的表带，还有三排透气孔设计，颜色一般。</div>
     </div>
   </div>
   <div class="media-app">
@@ -162,7 +215,18 @@
         <span class="author">购于2021</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">最适合入门用户的 Watch，去掉了锦上添花的功能，但和 S7 后续型号相比边框和质感太普通了。</div>
+    </div>
+  </div>
+  <div class="media-app">
+    <div class="media-cover-round" style="background-image:url(https://z1.ax1x.com/2023/11/10/pi3jomn.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">华为 P40<span style="float:right;font-weight:400">移动终端</span></div>
+      <div class="media-meta-item">
+        <span class="author">¥3699 购于9月</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item-app intro">非自用，机型小巧，系统体验比较一般，华为的旗舰标配阉割比较严重，适合作为备用机。</div>
     </div>
   </div>
   <div class="media-app">
@@ -173,7 +237,7 @@
         <span class="author">¥529 购于8月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">很苹果、很贵、很优雅、很不实用，刚好匹配不想带包出门的场景，不如换 Max 解决续航焦虑。</div>
     </div>
   </div>
   <div class="media-app">
@@ -184,18 +248,18 @@
         <span class="author">购于2021</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">最佳的应该是 2018 款，M1 发热严重续航雪崩，但高刷和二代笔很有吸引力，无可争议的一梯队。</div>
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP846/magsafe-battery-pack_2x.png); background-size: 60px 95px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://z1.ax1x.com/2023/11/10/pi3jfSg.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">Magsafe 无线充电器<span style="float:right;font-weight:400">设备配件</span></div>
       <div class="media-meta-item">
         <span class="author">¥189 购于8月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">又给苹果送钱了，好看，能用，不值得。带壳党对 Magsafe 配件间歇性嗤之以鼻。</div>
     </div>
   </div>
   <div class="media-app">
@@ -206,7 +270,7 @@
         <span class="author">¥54 购于8月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">比官方良心很多，卡片容纳量低，支架更实用，但也是点缀式的配件，“如无必要勿增实体”。</div>
     </div>
   </div>
   <div class="media-app">
@@ -217,46 +281,45 @@
         <span class="author">购于2021</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">第三方的橙色皮革和官方相差无几，太厚，更耐脏，会露金属边框。</div>
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://ts1.cn.mm.bing.net/th/id/R-C.6cf760dfaae114b8f4c325feb3824ab2?rik=IACSJ9xsZZyI2Q&riu=http%3a%2f%2fpimages1.tianjimedia.com%2fresources%2fwenda%2fattach%2f2010%2fyoqVZ0ug.jpg&ehk=30J81tqT%2fMTsDXxpama%2bgRYpBhrKJLatQwkFexf9Aus%3d&risl=&pid=ImgRaw&r=0); background-size: 120px 90px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://z1.ax1x.com/2023/11/10/pi3j4yj.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">iPhone 12 Pro<span style="float:right;font-weight:400">移动终端</span></div>
       <div class="media-meta-item">
         <span class="author">¥7999 购于6月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">经典小钢炮，续航信号已经到了影响正常使用的地步，长焦配小屏还是很有诱惑力。</div>
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWVX2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1590688585000); background-size: 95px 95px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://z1.ax1x.com/2023/11/10/pi3jhlQ.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">iPhone 11 官方硅胶保护壳<span style="float:right;font-weight:400">设备配件</span></div>
       <div class="media-meta-item">
         <span class="author">¥129+139 购于2月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">前后买了俩，贵有贵的道理，但用久了还是会掉涂层，如果原价入手比较亏。</div>
     </div>
   </div>
 </div>
-
 
 <h2>🔖 2020</h2>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://www.apple.com.cn/v/iphone/compare/ae/images/overview/compare_iphone11_green__fdy6pd8gaouy_large_2x.jpg); background-size: 77px 90px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://z1.ax1x.com/2023/11/10/pi3j5Os.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">iPhone 11<span style="float:right;font-weight:400">生活</span></div>
       <div class="media-meta-item">
         <span class="author">¥4399 购于10月</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -267,7 +330,7 @@
         <span class="author">¥1999+1050</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -278,7 +341,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -289,7 +352,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -300,7 +363,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
 </div>
@@ -318,7 +381,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -329,7 +392,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -340,18 +403,18 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://img.evolife.cn/2013-05/820693985f7e8440.jpg); background-size: 100px 80px;"></div>
+    <div class="media-cover-round" style="background-image:url(https://img.evolife.cn/2013-05/820693985f7e8440.jpg); background-size: 125px 90px;"></div>
     <div class="media-meta">
       <div class="media-meta-item title">Lumia 720<span style="float:right;font-weight:400">生活</span></div>
       <div class="media-meta-item">
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -362,7 +425,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -373,7 +436,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -384,7 +447,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
   <div class="media-app">
@@ -395,7 +458,7 @@
         <span class="author">iOS</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro"><font face="LXGW WenKai Screen">施工中...</font></div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
 </div>

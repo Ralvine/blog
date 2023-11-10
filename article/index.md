@@ -12,13 +12,12 @@
 
 {{< align center "部分经典内容亦置顶于此" >}}
 
-{{< align center "可通过子级分类查看不同类别的内容" >}}
+{{< align center "可通过子级 [📁分类](../categories) 查看不同类别的内容" >}}
 
-{{< align center "或以 🏷标签 或 🔦系列 形式阅览细分领域" >}}
-
+{{< align center "或以 [🏷标签](../tags) 或 [🔦系列](../series) 形式阅览细分领域" >}}
 
 <br>
-<h2><center>精选</center></h2>
+<h2><center><u>精选</center></h2></u>
 <div class="subpage-box">
   <div class="subpage-box-cover">
     <a href="../shsj/" data-pjax-state="">
@@ -59,7 +58,7 @@
 
 {{< align right "[更多 >>](../posts/)" >}}
 
-<h2><center>分类</center></h2>
+<h2><center><u>分类</center></h2></u>
 
 <div class="subpage-box">
   <div class="subpage-box-cover">
@@ -109,7 +108,7 @@
 {{< align right "[更多 >>](../categories/)" >}}
   
 
-<h2><center>系列</center></h2>
+<h2><center><u>系列</center></h2></u>
 
 <div class="subpage-box">
   <div class="subpage-box-cover">

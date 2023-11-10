@@ -1,7 +1,13 @@
 # 🤝 友链
 
 
-<h2>🚪 传送门</h2>
+<h2><center>🤝 <u>友人</u></center></h2>
+
+{{< friend name="Keldos!" url="https://blog.keldos.me/" avatar="https://blog.keldos.me/images/avatar.jpeg" bio="竟然是规划狗" >}}
+
+{{< friend name="Barney's Blog" url="https://hugo.bnblogs.cc" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" bio="All the truth is simple" >}}
+
+<h2><center>🚪 <u>传送门</u></center></h2>
 
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" bio="一个记录技术、阅读、生活的博客" >}}
 
@@ -25,8 +31,6 @@
 
 {{< friend name="追光使者" url="https://www.yyt.cool/" avatar="https://www.yyt.cool/wp-content/uploads/2021/11/1635818016-%E6%B5%81%E6%98%9Ficon.png" bio="即使身处黑暗，我仍追求光明" >}}
 
-{{< friend name="Barney's Blog" url="https://hugo.bnblogs.cc" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" bio="All the truth is simple" >}}
-
 {{< friend name="SaraKale’s blog" url="https://sarakale.top/blog" avatar="https://npm.elemecdn.com/sarakale-assets@v1/sarakale.jpg" bio="星轮流转，唯心不变…" >}}
 
 {{< friend name="晓雨杂记" url="https://lihaoyu.cn" avatar="https://blog-api.lihaoyu.cn/images/profile/avatar-128x.webp" bio="也许我们会分别，但我们将永远不会忘记彼此" >}}
@@ -41,10 +45,12 @@
 
 {{< friend name="荷戟独彷徨" url="https://guanqr.com/" avatar="https://cdn.jsdelivr.net/gh/guanqr/blog/static/icons/android-chrome-512x512.png" bio="爱光学，爱生活，爱创造" >}}
 
-{{< friend name="哇子" url="http://blog.wazicode.top" avatar="" bio="" >}}
+{{< friend name="哇子" url="http://blog.wazicode.top" avatar="http://image.wazicode.top/blog/202307060036148.png" bio="" >}}
+
+{{< friend name="wututuのblog" url="https://blog.wututu.cn/" avatar="https://file-up.beaa.cn/blog/icon.webp" bio="wututu的博客,各种干货分享的博客" >}}
 
 
-<h2>👉 交换友链</h2>
+<h2><center>👉 <u>交换友链</u></center></h2>
 
 欢迎交换友链~在下方留言你的：
 
