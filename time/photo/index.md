@@ -52,14 +52,14 @@
     </a>
   </div>
   <div class="subpage-box-cover-2">
-    <a href="" data-pjax-state="">
+    <a href="./liangzhu" data-pjax-state="">
       <p class="image-caption">良渚</p>
       <p class="image-description">2023-04</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1abbF.jpg" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover-2-left">
-    <a href="" data-pjax-state="">
+    <a href="./wuzhen" data-pjax-state="">
       <p class="image-caption">乌镇</p>
       <p class="image-description">2023-04</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1Mx3Q.jpg" data-loaded="true">
@@ -73,7 +73,7 @@
     </a>
   </div>
   <div class="subpage-box-cover-2">
-    <a href="" data-pjax-state="">
+    <a href="./gongchenqiao" data-pjax-state="">
       <p class="image-caption">拱宸桥</p>
       <p class="image-description">2023-03</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1MbHP.jpg" data-loaded="true">
@@ -87,14 +87,14 @@
     </a>
   </div>
   <div class="subpage-box-cover-2-left">
-    <a href="" data-pjax-state="">
+    <a href="./jiangbei" data-pjax-state="">
       <p class="image-caption">江北</p>
       <p class="image-description">2022-12</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/10/pi3jbkV.jpg" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="" data-pjax-state="">
+    <a href="./zhijiangxiaoqu" data-pjax-state="">
       <p class="image-caption">之江校区</p>
       <p class="image-description">2022-11</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1M7nI.jpg" data-loaded="true">
@@ -157,14 +157,14 @@
     </a>
   </div>
   <div class="subpage-box-cover-2-left">
-    <a href="" data-pjax-state="">
+    <a href="./kaihua" data-pjax-state="">
       <p class="image-caption">开化</p>
       <p class="image-description">2022-07</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1sUMR.jpg" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="" data-pjax-state="">
+    <a href="./chuanyu" data-pjax-state="">
       <p class="image-caption">川渝</p>
       <p class="image-description">2022-07</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1s3IU.jpg" data-loaded="true">

@@ -50,6 +50,35 @@
   </div>
 </div>
 
+<div class="group-picture">
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2ef3c458853aef8df312.webp" title="长沙" data-thumbnail="https://pic.imgdb.cn/item/654e2ef3c458853aef8df312.webp">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/654e2ef3c458853aef8df312.webp" sizes="auto" alt="长沙"></a>
+  </div>
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2ef4c458853aef8dfabd.webp" title="长沙" data-thumbnail="https://pic.imgdb.cn/item/654e2ef4c458853aef8dfabd.webp">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/654e2ef4c458853aef8dfabd.webp" sizes="auto" alt="长沙"></a>
+  </div>
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2effc458853aef8e2f1f.webp" title="长沙" data-thumbnail="https://pic.imgdb.cn/item/654e2effc458853aef8e2f1f.webp">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/654e2effc458853aef8e2f1f.webp" sizes="auto" alt="长沙"></a>
+  </div>
+</div>
+
+<div class="group-picture">
+  <div class="group-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2f02c458853aef8e39c0.webp" title="长沙" data-thumbnail="https://pic.imgdb.cn/item/654e2f02c458853aef8e39c0.webp">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f02c458853aef8e39c0.webp" sizes="auto" alt="长沙"></a>
+  </div>
+  <div class="group-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2f05c458853aef8e47f7.webp" title="长沙" data-thumbnail="https://pic.imgdb.cn/item/654e2f05c458853aef8e47f7.webp">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f05c458853aef8e47f7.webp" sizes="auto" alt="长沙"></a>
+  </div>
+</div>
+
+
+
+
 
 > <center>🔐<br>更多照片搬运中</center>
 
