@@ -1,0 +1,152 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>武俊德 - 标签 - 暮瞻</title>
+        <link>https://blog.ralvines.top/tags/%E6%AD%A6%E4%BF%8A%E5%BE%B7/</link>
+        <description>武俊德 - 标签 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Sep 2022 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E6%AD%A6%E4%BF%8A%E5%BE%B7/" rel="self" type="application/rss+xml" /><item>
+    <title>量子信息与量子计算</title>
+    <link>https://blog.ralvines.top/quan/</link>
+    <pubDate>Thu, 01 Sep 2022 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/quan/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2022-2023 秋冬<br>
+🧑‍🏫 武俊德<br>
+📝 签到，作业，课程论文</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>讲义</li>
+</ul>
+</div>
+        </div>
+    </div>
+<h2 id="decomposition-of-arbitrary-unitary-transformations-in-quantum-computing" class="headerLink">
+    <a href="#decomposition-of-arbitrary-unitary-transformations-in-quantum-computing" class="header-mark"></a>Decomposition of arbitrary unitary transformations in quantum computing</h2><h3 id="abstract" class="headerLink">
+    <a href="#abstract" class="header-mark"></a>Abstract</h3><p>In order to achieve universal quantum computing in the way of classical computers, this paper focuses on the method of decomposing any Unitary transformation under n qubits into the most basic Hadamard gate, phase shift gate and CNOT gate, so that based on the physical construction of these three gates, most computing situations can be generally realized. We first demonstrate the decomposability of single Qubit gates based on Hadamard gates and phase shift gates, and consider the fact that dual Qubits gates can be constructed by CNOT gates, further verify that the Unitary transform under arbitrary n qubits can be decomposed into single Qubit gates and double Qubits gates, which provides a basis for discussing the physical implementation of quantum computers.</p>
+<h3 id="problem-narrative" class="headerLink">
+    <a href="#problem-narrative" class="header-mark"></a>Problem narrative</h3><h4 id="background" class="headerLink">
+    <a href="#background" class="header-mark"></a>Background</h4><p>We already know that in classical computing, all logical operations can be completed with only three operations, or and not, so as long as the physical construction of these three logic gates is realized, it lays the foundation for the implementation of general-purpose computers. Similarly, in quantum computing, for arbitrary quantum operations under n qubits, they are all Unitary variations due to the requirement of normalization, so the discussion of their universality can be equivalent to whether arbitrary unitary operations can be achieved by a combination of several elementary gates or approximated with arbitrary precision.</p>
+<h4 id="goal" class="headerLink">
+    <a href="#goal" class="header-mark"></a>Goal</h4><p>It is not an easy task to approximate the general unitary operation or find a set of quantum gates from the above propositions, so this paper is based on the electron spin quantum computing system with electron z-direction spin as the main measurement parameter, and takes the Hadamard gate, phase shift gate and CNOT gate as three basic gates, focusing on verifying the decomposition of any Unitary transform to the above three gates, so as to provide a basis for further discussion of general quantum computing.</p>
+<h3 id="gate-decomposition-of-single-qubit" class="headerLink">
+    <a href="#gate-decomposition-of-single-qubit" class="header-mark"></a>Gate decomposition of single qubit</h3><h4 id="operational-equivalence" class="headerLink">
+    <a href="#operational-equivalence" class="header-mark"></a>Operational equivalence</h4><p>We already know that Qubit&rsquo;s Unitary variation can be expressed in terms of a Unitary matrix.</p>
+<p>According to the knowledge of abstract algebra and complex functions, due to</p>
+<p>$$U=e^{i\phi}SO_3,$$</p>
+<p>i.e. $U\sim SO_3.$</p>
+<p>That is, we can use one $SO_3$ matrix to describe it, and then any operation in Qubit is essentially an isometric transformation, that is, the rotation of the Bloch ball.</p>
+<h4 id="hadamard-gate" class="headerLink">
+    <a href="#hadamard-gate" class="header-mark"></a>Hadamard gate</h4><p>Based on the preceding hypothesis, we can define the basis vector of a quantum computing system as</p>
+<p>$$|0\rangle_z=(1,0)^T,|1\rangle_z=(0,1)^T.$$</p>
+<p>Then define the Hadamard gate as</p>
+<p>$$H=\displaystyle\frac{1}{\sqrt{2}}
+\left[\begin{array}{cc}
+1&amp;1\
+1&amp;-1\
+\end{array}\right]$$</p>
+<p>Because of $H^2=I,$ the Hadamard gate is unitary.</p>
+<p>Since the given quantum computing system works with the spin of the electron as a parameter, it can be seen that the base vector of the spin is the eigenstate of the electron spin in all directions, and after passing through the Hadamard gate, the resulting transformation is</p>
+<p>$$|0\rangle_x\rightarrow|0\rangle_z,|1\rangle_x\rightarrow |1\rangle_z,$$</p>
+<p>$$|0\rangle_y\rightarrow-|1\rangle_y,|1\rangle_y\rightarrow -|0\rangle_y,$$</p>
+<p>$$|0\rangle_z\rightarrow|0\rangle_x,|1\rangle_z\rightarrow |1\rangle_x.$$</p>
+<p>Thus, the Hadamard gate is essentially a turn of the Bloch ball around $(\displaystyle\frac{1}{\sqrt{2}},0,\displaystyle\frac{1}{\sqrt{2}})$ where $\delta=\pi$.</p>
+<h4 id="phase-shift-gate" class="headerLink">
+    <a href="#phase-shift-gate" class="header-mark"></a>Phase shift gate</h4><p>Define the Phase shift gate as</p>
+<p>$$R_z(\delta)=
+\left[\begin{array}{cc}
+1&amp;0\
+0&amp;e^{i\delta}\
+\end{array}\right]$$</p>
+<p>It is essentially a rotation of the Bloch ball around the z-axis at a counterclockwise angle of $\delta$.</p>
+<h4 id="geometric-validation-of-decomposition" class="headerLink">
+    <a href="#geometric-validation-of-decomposition" class="header-mark"></a>Geometric validation of decomposition</h4><p>When we use the Hadamard gate, we can change the rotation on the z-axis provided by the Phase shift gate to the rotation on the x-axis; Similarly, the y-axis can be moved to the x-axis position with a Phase shift gate, and then the Hadamard gate and the Phase shift gate can be used to obtain the rotation of the y-axis.</p>
+<p>Next, by following the inference process of the Euler angle, a single point on the Bloch sphere can be moved to any position on the sphere, and the rigid body transformation $SO_3$ of the entire Bloch sphere can be further described. It is proved that only the Hadamard gate and the phase shift gate can complete any operation on a single Qubit, that is, a single Qubit gate can be successfully constructed.</p>
+<h3 id="gate-decomposition-of-n-qubits" class="headerLink">
+    <a href="#gate-decomposition-of-n-qubits" class="header-mark"></a>Gate decomposition of n qubits</h3><p>Since dual Qubits gates are controlled single qubits that can be constructed from CNOT gates, it is only necessary to verify that any Unitary transformation under n qubits can be decomposed into a combination of single Qubit gates and double Qubits gates.</p>
+<h4 id="construct-a-single-controlled-c-u-gate" class="headerLink">
+    <a href="#construct-a-single-controlled-c-u-gate" class="header-mark"></a>Construct a single controlled $C-U$ gate</h4><p>The core is that it has a control qubit, when controlling position 1, do the Unitary transformation $U$ for the operation bit, otherwise do not do the transformation.</p>
+<p>For a second-order unitary matrix acting on a single qubit</p>
+<p>$$U=\left[\begin{array}{cc}
+e^{i(\delta-\frac{\alpha}{2}-\frac{\beta}{2})}cos\frac{\theta}{2}&amp;-e^{i(\delta-\frac{\alpha}{2}+\frac{\beta}{2})}sin\frac{\theta}{2}\
+e^{i(\delta+\frac{\alpha}{2}-\frac{\beta}{2})}sin\frac{\theta}{2}&amp;e^{i(\delta+\frac{\alpha}{2}+\frac{\beta}{2})}cos\frac{\theta}{2}\
+\end{array}\right]$$</p>
+<p>by decomposition, we get</p>
+<p>$$U=\left[\begin{array}{cc}
+e^{i\delta}&amp;0\
+0&amp;e^{i\delta}\
+\end{array}\right]
+\left[\begin{array}{cc}
+e^{-i\frac{\alpha}{2}}&amp;0\
+0&amp;e^{i\frac{\alpha}{2}}\
+\end{array}\right]
+\left[\begin{array}{cc}
+cos\frac{\theta}{2}&amp;-sin\frac{\theta}{2}\
+sin\frac{\theta}{2}&amp;cos\frac{\theta}{2}\
+\end{array}\right]
+\left[\begin{array}{cc}
+e^{-i\frac{\beta}{2}}&amp;0\
+0&amp;e^{i\frac{\beta}{2}}\
+\end{array}\right]
+$$</p>
+<p>Note</p>
+<p>$$\Phi(\delta)=\left[\begin{array}{cc}
+e^{i\delta}&amp;0\
+0&amp;e^{i\delta}\
+\end{array}\right],
+R_z(\delta)=\left[\begin{array}{cc}
+e^{-i\frac{\delta}{2}}&amp;0\
+0&amp;e^{i\frac{\delta}{2}}\
+\end{array}\right],
+R_y(\delta)=\left[\begin{array}{cc}
+cos\frac{\delta}{2}&amp;-sin\frac{\delta}{2}\
+sin\frac{\delta}{2}&amp;cos\frac{\delta}{2}\
+\end{array}\right].$$</p>
+<p>and</p>
+<p>$$A=R_z(\alpha)R_y(\frac{\theta}{2}),B=R_y(-\frac{\theta}{2})R_z(-\frac{\alpha+\beta}{2}),C=R_z(\frac{\beta-\alpha}{2}).$$</p>
+<p>Then we know</p>
+<p>$$U=\Phi(\delta)A\sigma_x B\sigma_x C, I=ABC.$$</p>
+<!-- \begin{figure}[h] 
+\centering
+\includegraphics[width=11cm]{fig1.png}
+\caption{Circuit diagram of $C-U$ gate} \label{fig1}
+\end{figure} -->
+<p>From this, the $C-U$ gate can be constructed.</p>
+<h4 id="construct-a-multi-controlled-ck-u-gate" class="headerLink">
+    <a href="#construct-a-multi-controlled-ck-u-gate" class="header-mark"></a>Construct a multi-controlled $C^k-U$ gate</h4><p>Given $k\in \mathbb{N},k\ge2.$ Back to classical computers, we can construct Toffoli gates and use them to construct k-weight AND gates, similarly, here we need to construct a generality $C^2-U$ gate, and then we can further construct a multi-controlled $C^k-U$ gate to verify its feasibility.</p>
+<p>From algebraic knowledge, for any second-order unitary matrix $U$, after Jordan diagonalization and square, we can get the decomposition</p>
+<p>$$U=V^2.$$</p>
+<p>Further, there is</p>
+<p>$$VV^{\dag}=I.$$</p>
+<p>\begin{figure}[h]
+\centering
+\includegraphics[width=11cm]{fig2.png}
+\caption{Circuit diagram of $C^2-U$ gate} \label{fig2}
+\end{figure}</p>
+<p>So we get the $C^2-U$ gate that meets the requirements.</p>
+<h4 id="general-decomposition" class="headerLink">
+    <a href="#general-decomposition" class="header-mark"></a>General decomposition</h4><p>In order to extend the conclusion to any unitary transformation in n qubits, we need to verify that it can be implemented into two quantum states, that is, we only need to proof that</p>
+<p>$$U^{(2^n)}=\prod\limits_{i=1}^{2^n-1}\prod\limits_{j=0}^{i-1} V_{ij}.$$</p>
+<p>Since direct processing is difficult, we follow the process of proving odd and even arrangement in mathematics, swap quantum states one by one, and design the transformation gate shown in the figure, so that the exchange process is until the two quantum states to be transformed through the gate and then return to the original position in turn.</p>
+<p>\begin{figure}[h]
+\centering
+\includegraphics[width=11cm]{fig3.png}
+\caption{Circuit diagram of swap gate} \label{fig3}
+\end{figure}</p>
+<p>Thus, we achieve the feasibility of the above operation, that is, the decomposition in the general case is also achievable.</p>
+<h3 id="further-discussion-of-universal-quantum-computing-implementation" class="headerLink">
+    <a href="#further-discussion-of-universal-quantum-computing-implementation" class="header-mark"></a>Further discussion of universal quantum computing implementation</h3><p>The proposition studied in this paper ultimately serves the universality of quantum computing. In fact, when we construct the $C^k-U$ gate, it has been proved that quantum computing can achieve universal classical computing, and the conclusion extension of general decomposition can be better applied to quantum simulation and special quantum computing, so as to meet the completeness of the conclusion in the case of quantum operations under n qubits.</p>
+<p>The interesting thing about the above work is that we can feel the inheritance of quantum computing to many theoretical ideas in classical computing. In the course of the author&rsquo;s study this semester, the course has been deeply involved in classical computing, so when it is introduced into the theory of quantum computing, many works have extensive similarities in the core, compared to the calculation itself, how to better prepare quantum states and better use the physical achievements of quantum mechanics is a more profound proposition left to us by this discipline.</p>]]></description>
+</item></channel>
+</rss>

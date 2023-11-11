@@ -55,6 +55,8 @@
 
 {{< friend name="一元-ONESRC" url="https://www.onesrc.cn" avatar="https://www.onesrc.cn/usr/uploads/images/favicon.png" bio="To be simple!" >}}
 
+{{< friend name="进击的学霸的博客" url="https://blog.jjdxb.top" avatar="https://qny.jjdxb.top/pikaqiu.png" bio="代码写出来是给人看的，附带能在机器上运行" >}}
+
 
 <center><br><p style="font-size: 2.5rem;">👉</p></center>
 

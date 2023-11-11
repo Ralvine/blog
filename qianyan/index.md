@@ -150,7 +150,7 @@ $$L_2(x_i,x_j)=(\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^2)^{1/2}$$
 - 曼哈顿距离
 $$L_1(x_i,x_j)=\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|$$
 - $L_\infty$ 距离
-$$L_\infty (x_i,x_j)=(\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$
+$$L_\infty (x_i,x_j)=\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$
 
 [^9]: 特征空间中两个实例点的距离是两个实例点相似程度的反映。k 近邻模型的特征空间一般是 n 维实数向量空间 $R^n$，使用的距离是欧氏距离，但也可以是其他距离，如更一般的 $L_p$ 距离或 Minkowski 距离。
 

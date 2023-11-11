@@ -895,6 +895,550 @@ $$]]></description>
 <li>郑维声、王声望</li>
 </ul>]]></description>
 </item><item>
+    <title>数据建模与分析</title>
+    <link>https://blog.ralvines.top/sjjm/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sjjm/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院<br>
+🕙 2022-2023 春夏<br>
+🧑‍🏫 郭正初<br>
+📝 20%课后作业，15%读书报告，15%编程作业，50%期末考试</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>PPT
+<ul>
+<li>Ch1. 机器学习概论</li>
+<li>Ch2. 感知机</li>
+<li>Ch3. k近邻</li>
+<li>Ch4. 朴素贝叶斯</li>
+<li>Ch5. 决策树</li>
+<li>Ch6. 逻辑斯蒂回归、最大熵模型</li>
+<li>Ch7. 支持向量机</li>
+<li>Ch8. AdaBoost</li>
+<li>Ch13. 无监督学习概论</li>
+<li>Ch14. 聚类方法</li>
+<li>谱聚类</li>
+<li>Ch15. 奇异值分解</li>
+<li>Ch16. 主成分分析</li>
+<li>Ch19. 马尔可夫链蒙特卡罗法</li>
+</ul>
+</li>
+<li>《统计学习方法（第二版）》，李航</li>
+<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51611&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
+</ul>
+</div>
+        </div>
+    </div>
+<h2 id="ch1-机器学习概论" class="headerLink">
+    <a href="#ch1-%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0%e6%a6%82%e8%ae%ba" class="header-mark"></a>(Ch1) 机器学习概论</h2><blockquote>
+<p>春一周</p>
+</blockquote>
+<ul>
+<li>人工智能
+<ul>
+<li>研究目的、内容、表现形式</li>
+<li>发展历程、现状</li>
+<li>顶刊、顶会</li>
+</ul>
+</li>
+<li>机器学习（统计学习理论）
+<ul>
+<li>定义（经验）</li>
+<li>顶刊、顶会</li>
+<li>应用：NLP、CV&hellip;</li>
+<li>区别联系
+<ul>
+<li>数据挖掘（噪声、仓储）</li>
+<li>模式识别</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>大数据
+<ul>
+<li>4&quot;V&quot;: 量大、类多、实时、密度低</li>
+</ul>
+</li>
+<li>深度学习（ML分支）
+<ul>
+<li>深度神经网络，假设空间</li>
+<li>特征学习</li>
+</ul>
+</li>
+<li>统计机器学习（数据预测与分析）
+<ul>
+<li>数据驱动</li>
+<li><strong>分类</strong>
+<ul>
+<li>监督/半监督/无监督/强化学习
+<ul>
+<li>数据标注，概率分布</li>
+<li>连续互动</li>
+</ul>
+</li>
+<li>概率/非，线性/非，参数/非</li>
+<li>条件概率分布/函数
+<ul>
+<li>参数维度</li>
+</ul>
+</li>
+<li>在线/批量/离线</li>
+<li>贝叶斯/核方法</li>
+</ul>
+</li>
+<li>三要素
+<ul>
+<li>模型（决策函数/条件概率/参数空间）</li>
+<li>策略（损失/风险函数，经验/结构风险最小化）</li>
+<li>算法（最优化问题）</li>
+</ul>
+</li>
+<li>模型评估和选择
+<ul>
+<li>训练误差、测试误差</li>
+<li>过拟合、欠拟合</li>
+<li>正则化、交叉验证</li>
+<li>泛化能力/误差（对未知数据）</li>
+<li>集中不等式</li>
+</ul>
+</li>
+<li>生成与判别模型
+<ul>
+<li>判别方法（直接学习决策函数/概率分布）</li>
+<li>生成方法（从联合概率分布到条件概率分布）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch2-感知机" class="headerLink">
+    <a href="#ch2-%e6%84%9f%e7%9f%a5%e6%9c%ba" class="header-mark"></a>(Ch2) 感知机</h2><blockquote>
+<p>春二周</p>
+</blockquote>
+<ul>
+<li>线性可分性</li>
+<li>点到超平面距离、损失函数</li>
+<li>随机梯度下降
+<ul>
+<li>学习率</li>
+<li>不唯一（初值、误分类点顺序）</li>
+<li><strong>收敛性证明</strong></li>
+</ul>
+</li>
+<li>对偶形式（优点）
+<ul>
+<li><strong>Gram 矩阵</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="ch3-k近邻" class="headerLink">
+    <a href="#ch3-k%e8%bf%91%e9%82%bb" class="header-mark"></a>(Ch3) k近邻</h2><blockquote>
+<p>春三周</p>
+</blockquote>
+<ul>
+<li>三要素：k，度量，决策规则</li>
+<li>优点、缺点（复杂度）</li>
+<li>选 k （误差最小、k小复杂过拟合）</li>
+<li>kd树（k维）
+<ul>
+<li>构造</li>
+<li>对kNN检索</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch4-朴素贝叶斯" class="headerLink">
+    <a href="#ch4-%e6%9c%b4%e7%b4%a0%e8%b4%9d%e5%8f%b6%e6%96%af" class="header-mark"></a>(Ch4) 朴素贝叶斯</h2><blockquote>
+<p>春四周</p>
+</blockquote>
+<ul>
+<li>样本空间、全概率公式</li>
+<li>期望风险最小化、后验概率最大化</li>
+<li>极大似然法
+<ul>
+<li>对数似然</li>
+<li>估计值/量</li>
+<li>朴素贝叶斯法的参数估计</li>
+</ul>
+</li>
+<li>贝叶斯估计（极大似然估计、拉普拉斯平滑）</li>
+<li></li>
+</ul>
+<h2 id="ch5-决策树" class="headerLink">
+    <a href="#ch5-%e5%86%b3%e7%ad%96%e6%a0%91" class="header-mark"></a>(Ch5) 决策树</h2><blockquote>
+<p>春五周</p>
+</blockquote>
+<ul>
+<li>分类和回归</li>
+<li>CLS</li>
+<li>ID3
+<ul>
+<li>熵、信息量</li>
+<li>条件熵、经验熵/条件熵</li>
+<li>信息增益、互信息</li>
+<li>计算信息增益、选择最优特征</li>
+</ul>
+</li>
+<li>C4.5（信息增益比）
+<ul>
+<li>连续属性：二元分割</li>
+</ul>
+</li>
+<li>剪枝
+<ul>
+<li>损失函数</li>
+</ul>
+</li>
+<li>CART
+<ul>
+<li>基尼指数</li>
+<li>回归树、分类树</li>
+<li><strong>剪枝</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="ch6-逻辑斯蒂回归最大熵模型" class="headerLink">
+    <a href="#ch6-%e9%80%bb%e8%be%91%e6%96%af%e8%92%82%e5%9b%9e%e5%bd%92%e6%9c%80%e5%a4%a7%e7%86%b5%e6%a8%a1%e5%9e%8b" class="header-mark"></a>(Ch6) 逻辑斯蒂回归、最大熵模型</h2><blockquote>
+<p>春六周</p>
+</blockquote>
+<ul>
+<li>Logistic分布
+<ul>
+<li>分布函数、密度函数</li>
+<li>Sigmoid、tanh</li>
+</ul>
+</li>
+<li>Logistic回归
+<ul>
+<li>二项</li>
+<li>似然函数</li>
+<li>多项</li>
+</ul>
+</li>
+<li>最大熵模型
+<ul>
+<li>学习</li>
+<li>极大似然估计</li>
+</ul>
+</li>
+<li>最优化
+<ul>
+<li>梯度下降</li>
+<li>牛顿、拟牛顿
+<ul>
+<li>黑塞矩阵</li>
+<li>正定矩阵（近似）</li>
+</ul>
+</li>
+<li>DFP</li>
+<li>BFGS</li>
+<li>Broyden</li>
+<li>改进迭代尺度</li>
+<li>梯度上升、随机梯度上升</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch7-支持向量机" class="headerLink">
+    <a href="#ch7-%e6%94%af%e6%8c%81%e5%90%91%e9%87%8f%e6%9c%ba" class="header-mark"></a>(Ch7) 支持向量机</h2><blockquote>
+<p>春七周</p>
+</blockquote>
+<ul>
+<li>线性可分、硬间隔最大化</li>
+<li>线性不可分、软间隔最大化</li>
+<li>非线性、核函数</li>
+<li>序列最小化优化算法</li>
+<li>误差分析</li>
+</ul>
+<h2 id="ch8-adaboost" class="headerLink">
+    <a href="#ch8-adaboost" class="header-mark"></a>(Ch8) AdaBoost</h2><blockquote>
+<p>春八周</p>
+</blockquote>
+<ul>
+<li>强可学习、弱可学习</li>
+<li>Boosting、AdaBoost
+<ul>
+<li>权重、系数</li>
+<li>误差分析</li>
+<li>前向分步算法</li>
+<li>提升树算法
+<ul>
+<li>回归问题</li>
+</ul>
+</li>
+<li>梯度提升算法</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch13-无监督学习概论" class="headerLink">
+    <a href="#ch13-%e6%97%a0%e7%9b%91%e7%9d%a3%e5%ad%a6%e4%b9%a0%e6%a6%82%e8%ae%ba" class="header-mark"></a>(Ch13) 无监督学习概论</h2><blockquote>
+<p>夏一周</p>
+</blockquote>
+<ul>
+<li>损失最小压缩
+<ul>
+<li>聚类：硬、软</li>
+<li>降维</li>
+</ul>
+</li>
+<li>概率模型
+<ul>
+<li>混合、概率图（有向、无向）</li>
+<li><strong>估计</strong></li>
+</ul>
+</li>
+<li>三要素：模型、策略、方法</li>
+<li>话题分析（LDA）</li>
+<li>图分析
+<ul>
+<li>PageRank 计算</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch14-聚类方法谱聚类" class="headerLink">
+    <a href="#ch14-%e8%81%9a%e7%b1%bb%e6%96%b9%e6%b3%95%e8%b0%b1%e8%81%9a%e7%b1%bb" class="header-mark"></a>(Ch14) 聚类方法、谱聚类</h2><blockquote>
+<p>夏二周，夏三周</p>
+</blockquote>
+<ul>
+<li>距离
+<ul>
+<li>Minkowski、欧式、曼哈顿、Chebyshev</li>
+<li>马氏、协方差矩阵、相关系数、夹角余弦</li>
+</ul>
+</li>
+<li>簇
+<ul>
+<li>各种定义</li>
+<li>特征划分：散布矩阵、协方差矩阵</li>
+<li>类间距离（连接）：最短（单）、最长（完全）、中心、平均</li>
+</ul>
+</li>
+<li>层次聚类
+<ul>
+<li>聚合、分裂</li>
+<li>合并规则、停止条件</li>
+</ul>
+</li>
+<li>k均值
+<ul>
+<li>欧氏距离、损失函数</li>
+<li>初始中心选取</li>
+<li>k的选取（平均直径不再增加）</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch15-奇异值分解" class="headerLink">
+    <a href="#ch15-%e5%a5%87%e5%bc%82%e5%80%bc%e5%88%86%e8%a7%a3" class="header-mark"></a>(Ch15) 奇异值分解</h2><blockquote>
+<p>夏四周</p>
+</blockquote>
+<ul>
+<li>特征分解/谱分解
+<ul>
+<li>特征向量、特征值、特征多项式</li>
+<li>方阵可对角化&amp;特征向量线性无关</li>
+<li>分解: Q, $\Lambda$</li>
+<li>实对称情形: 逆</li>
+</ul>
+</li>
+<li>定义
+<ul>
+<li>分解: U, V, $\Sigma$</li>
+<li>奇异值、左右奇异向量</li>
+<li>不唯一</li>
+<li>存在性、<strong>证明</strong>（从V到U的构造）</li>
+</ul>
+</li>
+<li>类型
+<ul>
+<li>完全分解</li>
+<li>紧凑分解（r，等秩）</li>
+<li>截断分解（k，实际）</li>
+</ul>
+</li>
+<li>性质
+<ul>
+<li>线性变换解释（分解：旋转、缩放、旋转）</li>
+<li>等价特征分解（V、U代表的特征向量）</li>
+<li>奇异向量构成的标准正交基（由正交性）</li>
+</ul>
+</li>
+<li>计算</li>
+<li>矩阵近似
+<ul>
+<li>F范数</li>
+<li>矩阵的F范数与其奇异值的关系</li>
+<li>平方损失下的最优近似、<strong>证明</strong></li>
+<li>外积展开式、最优近似矩阵的计算</li>
+</ul>
+</li>
+</ul>
+<h2 id="ch16-主成分分析" class="headerLink">
+    <a href="#ch16-%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90" class="header-mark"></a>(Ch16) 主成分分析</h2><blockquote>
+<p>夏五周</p>
+</blockquote>
+<ul>
+<li>数据分析、机器学习预处理</li>
+<li>思路
+<ul>
+<li>规范化：平均值0，方差1</li>
+<li>正交变换、线性相关转无关变量（主成分）</li>
+<li>方差和最大化的正交变换（椭圆长轴）</li>
+</ul>
+</li>
+<li>定义
+<ul>
+<li>均值向量$\mu$、协方差矩阵、</li>
+</ul>
+</li>
+<li>总体PCA</li>
+<li>样本PCA</li>
+</ul>
+<h2 id="ch19-马尔可夫链蒙特卡罗法" class="headerLink">
+    <a href="#ch19-%e9%a9%ac%e5%b0%94%e5%8f%af%e5%a4%ab%e9%93%be%e8%92%99%e7%89%b9%e5%8d%a1%e7%bd%97%e6%b3%95" class="header-mark"></a>(Ch19) 马尔可夫链蒙特卡罗法</h2><ul>
+<li>蒙特卡洛法
+<ul>
+<li>直接抽样</li>
+<li>接受-拒绝抽样（建议分布）</li>
+<li>期望/积分计算</li>
+</ul>
+</li>
+<li>马尔可夫链
+<ul>
+<li>时间齐次</li>
+<li>高阶</li>
+<li>转移概率矩阵、随机矩阵</li>
+<li>平稳分布（充要条件）</li>
+<li>连续状态、转移核</li>
+<li>性质
+<ul>
+<li>不可约</li>
+<li>非周期</li>
+<li>正常返</li>
+<li>唯一平稳分布（有限、无限）</li>
+<li>遍历定理</li>
+<li>可逆</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>马尔可夫链蒙特卡罗法
+<ul>
+<li>燃烧期</li>
+<li>步骤</li>
+</ul>
+</li>
+<li>Metropolis-Hastings
+<ul>
+<li>单分量</li>
+</ul>
+</li>
+<li>吉布斯抽样
+<ul>
+<li>抽样计算</li>
+</ul>
+</li>
+</ul>
+<h2 id="历年卷" class="headerLink">
+    <a href="#%e5%8e%86%e5%b9%b4%e5%8d%b7" class="header-mark"></a>历年卷</h2><h3 id="20-21-春夏" class="headerLink">
+    <a href="#20-21-%e6%98%a5%e5%a4%8f" class="header-mark"></a>20-21 春夏</h3><ul>
+<li>Kd树 书上例题 找最近邻</li>
+<li>熵H(p)的定义，证明H(p)在0到log(n)之间</li>
+<li>朴素贝叶斯 书上例题</li>
+<li>SVM含义以及与感知机的区别
+<ul>
+<li>推导出 SVM 的对偶问题</li>
+<li>如何通过对偶问题的解得到原问题的解</li>
+</ul>
+</li>
+<li>聚类 书上例题</li>
+<li>看图求马尔科夫链的转移概率矩阵和平稳分布</li>
+<li>奇异值分解存在性唯一性讨论，并给出分解过程</li>
+<li>给了一个矩阵，对其进行主成分分析</li>
+<li>决策树中的信息增益g(D,A)的用处
+<ul>
+<li>剪枝的意义</li>
+</ul>
+</li>
+<li>课程建议</li>
+</ul>
+<h3 id="21-22-春夏" class="headerLink">
+    <a href="#21-22-%e6%98%a5%e5%a4%8f" class="header-mark"></a>21-22 春夏</h3><ul>
+<li>简述决策树的一种特征选择准则的定义，说明准则对决策树的影响（大概是这个意思，考信息增益和基尼指数的定义）</li>
+<li>kd树构造
+<ul>
+<li>k近邻模型三要素是什么，k值选择需要注意什么（过拟合和误差）</li>
+<li>给定样本数据集，构造kd树</li>
+<li>按照构造的kd树求出实例点 （2，4.5）的最近邻</li>
+</ul>
+</li>
+<li>支持向量机：给定线性不可分支持向量机的学习问题
+<ul>
+<li>软间隔SVM含义</li>
+<li>写出对偶形式</li>
+<li>求支持向量（好像是，当时只复习了硬间隔，软间隔就摆了）</li>
+</ul>
+</li>
+<li>聚类问题：给定5个样本集合X，选定两个中心点，用k均值聚类算法 将X分成两类 （参考教材例题14.2）</li>
+<li>马尔可夫链 和 蒙特卡洛法
+<ul>
+<li>大致说明 E[f(x)] (概率分布函数为p(x) ) 的计算方法 （大数定理近似样本均值）</li>
+<li>给出一条马尔科夫链，求平稳分布（考的书上例题19.7）</li>
+</ul>
+</li>
+<li>主成分分析
+<ul>
+<li>给定一个m维度的随机变量，求出k个主成分（1&lt;= k &lt;=m)，并且证明</li>
+</ul>
+</li>
+<li>简述感知机，Adaboost，朴素贝叶斯法，logistic模型的学习策略和算法</li>
+<li>奇异值分解：矩阵数据忘了 给定一个2*3矩阵A，求A的奇异值分解和紧奇异值分解，并且说明奇异值分解的几何意义</li>
+</ul>
+<h2 id="论文精读" class="headerLink">
+    <a href="#%e8%ae%ba%e6%96%87%e7%b2%be%e8%af%bb" class="header-mark"></a>论文精读</h2><blockquote>
+<p>Distance metric learning for large margin nearest neighbor classification.pdf</p>
+</blockquote>
+<ul>
+<li>大边距近邻分类的距离度量学习</li>
+</ul>
+<h2 id="参考资料" class="headerLink">
+    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
+    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
+<p>期末考比较中规中矩，无小测。</p>
+<p>上课就是讲《统计学习方法》中的几章，作业做书的课后题，没有代码作业。 不过去年很多人提建议说要增加代码训练和作业量，今年可能会有所改变</p>
+</blockquote>
+<p>习题与代码参考：</p>
+<ul>
+<li>统计学习方法（第二版）习题解答 <a href="https://github.com/datawhalechina/statistical-learning-method-solutions-manual" target="_blank" rel="noopener noreferrer">https://github.com/datawhalechina/statistical-learning-method-solutions-manual</a></li>
+<li><a href="https://blog.csdn.net/qq_42911960/article/details/115255714" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_42911960/article/details/115255714</a></li>
+<li><a href="https://blog.csdn.net/qq_41562704/article/details/106540274" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_41562704/article/details/106540274</a></li>
+<li><a href="https://blog.csdn.net/wang_xinyu/article/details/111497444" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/wang_xinyu/article/details/111497444</a></li>
+<li><a href="https://blog.csdn.net/breeze_blows/article/details/85469944" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/breeze_blows/article/details/85469944</a></li>
+</ul>
+<p>回忆卷：</p>
+<ul>
+<li><a href="https://www.cc98.org/topic/5356728" target="_blank" rel="noopener noreferrer">https://www.cc98.org/topic/5356728</a></li>
+<li><a href="https://www.cc98.org/topic/5116266" target="_blank" rel="noopener noreferrer">https://www.cc98.org/topic/5116266</a></li>
+</ul>
+<h3 id="书目" class="headerLink">
+    <a href="#%e4%b9%a6%e7%9b%ae" class="header-mark"></a>书目</h3><ul>
+<li>《机器学习》，周志华，清华大学出版社，2016.</li>
+<li>《The Elements of Statistical Learning》2nd edition, Trevor Hastie, Robert Tibshirani, and Jerome Friedman, Springer 2008.</li>
+<li>《Pattern Recognition and Machine Learning》, Chris Bishop,  Springer 2006.</li>
+<li>《Learning Theory：An Approximation Theory Viewpoint》, Felipe
+Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
+</ul>]]></description>
+</item><item>
     <title>微分方程数值解</title>
     <link>https://blog.ralvines.top/pdeszj/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>

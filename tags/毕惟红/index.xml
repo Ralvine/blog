@@ -164,7 +164,7 @@ $$L_2(x_i,x_j)=(\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^2)^{1/2}$$</li>
 <li>曼哈顿距离
 $$L_1(x_i,x_j)=\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|$$</li>
 <li>$L_\infty$ 距离
-$$L_\infty (x_i,x_j)=(\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$</li>
+$$L_\infty (x_i,x_j)=\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$</li>
 </ul>
 <h4 id="决策规则" class="headerLink">
     <a href="#%e5%86%b3%e7%ad%96%e8%a7%84%e5%88%99" class="header-mark"></a>决策规则</h4><p><strong>多数表决</strong>
