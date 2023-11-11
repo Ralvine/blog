@@ -2,17 +2,18 @@
 
 
 {{< quote-center >}}
-日月之行 若出其中<br>
-星汉灿烂 若出其里
-{{< /quote-center >}}
 
-{{< align center "🌳" >}}
+<center><p style="font-size: 1.75rem;">🧭</p></center>
 
 {{< align center "这里蚀录个人的生活痕迹" >}}
 
 {{< align center "通过 [📷光阑](../photo) 追踪旅途精彩瞬间" >}}
 
 {{< align center "亦可见证技能树的加点进程" >}}
+
+{{< /quote-center >}}
+
+
 
 <div class="subpage-box">
   <div class="subpage-box-cover">

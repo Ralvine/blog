@@ -2,15 +2,16 @@
 
 
 {{< quote-center >}}
-以我观物<br>
-故物皆着我之色彩
-{{< /quote-center >}}
 
-{{< align center "🔖" >}}
+<center><p style="font-size: 1.75rem;">🔖</p></center>
 
 {{< align center "这里用于日常的琐碎收集" >}}
 
 {{< align center "一切有趣的事物均存放于此" >}}
+
+{{< /quote-center >}}
+
+
 
 <div class="subpage-box">
 

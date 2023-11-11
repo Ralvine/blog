@@ -2,11 +2,8 @@
 
 
 {{< quote-center >}}
-埋骨何须桑梓地<br>
-人生无处不青山
-{{< /quote-center >}}
 
-{{< align center "🌳" >}}
+<center><p style="font-size: 1.75rem;">🌳</p></center>
 
 {{< align center "这里归档博客所有文章" >}}
 
@@ -16,9 +13,24 @@
 
 {{< align center "或以 [🏷标签](../tags) 或 [🔦系列](../series) 形式阅览细分领域" >}}
 
-<br>
-<h2><center><u>精选</center></h2></u>
+{{< /quote-center >}}
+
+
 <div class="subpage-box">
+  <div class="subpage-box-cover-2">
+    <a href="../posts/" data-pjax-state="">
+      <p class="image-caption">所有文章</p>
+      <p class="image-description">2015-2023</p>
+      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
+    </a>
+  </div>
+  <div class="subpage-box-cover-2-left">
+    <a href="../categories/" data-pjax-state="">
+      <p class="image-caption">所有分类</p>
+      <p class="image-description">📁</p>
+      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
+    </a>
+  </div>
   <div class="subpage-box-cover">
     <a href="../shsj/" data-pjax-state="">
       <p class="image-caption">社会实践</p>
@@ -48,19 +60,36 @@
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="../left-history/" data-pjax-state="">
-      <p class="image-caption">形态思潮</p>
-      <p class="image-description">新左派和民族主义</p>
-      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/10/23/piAN891.png" data-loaded="true">
+    <a href="../big-data/" data-pjax-state="">
+      <p class="image-caption">数据治理</p>
+      <p class="image-description">理论与分析</p>
+      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/10/23/piApGh6.jpg" data-loaded="true">
+    </a>
+  </div>
+  <div class="subpage-box-cover">
+    <a href="../lcx/" data-pjax-state="">
+      <p class="image-caption">刘慈欣</p>
+      <p class="image-description">科幻短篇选摘</p>
+      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piMvzND.png" data-loaded="true">
     </a>
   </div>
 </div>
 
-{{< align right "[更多 >>](../posts/)" >}}
-
-<h2><center><u>分类</center></h2></u>
-
 <div class="subpage-box">
+  <div class="subpage-box-cover">
+    <a href="../cage/cage" data-pjax-state="">
+      <p class="image-hyper">🔖</p>
+      <p class="image-caption">便笺</p>
+      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1MLAf.jpg" data-loaded="true">
+    </a>
+  </div>
+  <div class="subpage-box-cover">
+    <a href="../time/time" data-pjax-state="">
+      <p class="image-hyper">🧭</p>
+      <p class="image-caption">拾迹</p>
+      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1sas1.jpg" data-loaded="true">
+    </a>
+  </div>
   <div class="subpage-box-cover">
     <a href="../categories/回溯" data-pjax-state="">
       <p class="image-hyper">⏳</p>
@@ -89,28 +118,24 @@
       <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/04/piMLqwF.png" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover">
-    <a href="../cage/cage" data-pjax-state="">
-      <p class="image-hyper">🔖</p>
-      <p class="image-caption">便笺</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/07/pi1MLAf.jpg" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../time/time" data-pjax-state="">
-      <p class="image-hyper">🧭</p>
-      <p class="image-caption">拾迹</p>
-      <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1sas1.jpg" data-loaded="true">
-    </a>
-  </div>
 </div>
 
-{{< align right "[更多 >>](../categories/)" >}}
-  
-
-<h2><center><u>系列</center></h2></u>
 
 <div class="subpage-box">
+  <div class="subpage-box-cover-2">
+    <a href="../series/" data-pjax-state="">
+      <p class="image-caption">所有系列</p>
+      <p class="image-description">🔦</p>
+      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
+    </a>
+  </div>
+  <div class="subpage-box-cover-2-left">
+    <a href="../tags/" data-pjax-state="">
+      <p class="image-caption">所有标签</p>
+      <p class="image-description">🏷</p>
+      <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
+    </a>
+  </div>
   <div class="subpage-box-cover">
     <a href="../series/本科课程/" data-pjax-state="">
       <p class="image-caption">本科课程</p>
@@ -160,8 +185,4 @@
     </a>
   </div>
 </div>
-
-{{< align right "[更多 >>](../series/)" >}}
-
-
 
