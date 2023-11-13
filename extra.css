@@ -1,3 +1,107 @@
+/*动画效果*/
+@-webkit-keyframes fadeIn {
+    0% {
+    opacity: 0; /*初始状态 透明度为0*/
+    }
+    20%{
+        opacity: .2;
+    }
+    50% {
+        opacity: .5; /*中间状态 透明度为0.5*/
+    }
+    70%{
+        opacity: .7;
+    }
+    100% {
+        opacity: 1; /*结尾状态 透明度为1*/
+    }
+}
+
+.little-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+.little-box #a {
+}
+.little-box #b {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    top:25px;
+    background: rgb(255,252,250);
+    [theme=dark] & {
+        background: rgb(50,50,50);
+    }
+    [theme=black] & {
+        background: rgb(0,0,0);
+    }
+    border: 1px solid #aaaaaa;
+    transition: opacity 0.3s ease;
+    padding: 6px;
+    z-index: 9999;
+}
+.little-box #a:hover #b {
+    -webkit-animation-name: fadeIn; /*动画名称*/
+    -webkit-animation-duration: 0.4s; /*动画持续时间*/
+    -webkit-animation-iteration-count: 1; /*动画次数*/
+    -webkit-animation-delay: 0s; /*延迟时间*/
+    display: block;
+}
+
+.little-box-cover {
+    margin: 2px;
+    height: 45px;
+    @media only screen and (max-width: 1800px) {
+        flex: 0 0 30%;
+    }
+    @media only screen and (max-width: 700px) {
+        flex: 0 0 45%;
+    }
+    display:flex;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    background-color: #ffffff;
+    [theme=dark] & {
+        background: rgb(50,50,50);
+    }
+    [theme=black] & {
+        background: rgb(0,0,0);
+    }
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.little-box-cover .image-description {
+    position: relative; 
+    margin: 0 auto 0;
+    display: flex;
+    font-size: .9em;
+    color: #000000;
+    [theme=dark] & {
+        color: #bbbbbb;
+    }
+    [theme=black] & {
+        color: #ffffff;
+    }
+}
+
+.little-box-cover .image-description a {
+    color: #000000;
+    [theme=dark] & {
+        color: #bbbbbb;
+    }
+    [theme=black] & {
+        color: #ffffff;
+    }
+}
+
+
+
 
 .group-picture {
     display: flex;
