@@ -11,4 +11,11 @@
   <p class="bord">]</p>
 </div>
 
+<div class="little-box">
+  <div class="little-box-cover">
+    <span class="image-description"><b>傅里叶变换</b>&nbsp;
+      <a href="https://www.bilibili.com/video/BV1L34y1o7gu" target="_blank">可视化</a>
+    </span>
+  </div>
+</div>
 

@@ -286,7 +286,7 @@
     </div>
   </div>
   <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyYy8.jpg)"></div>
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/12/piGQy6g.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">监视资本主义：智能陷阱<span style="float:right;font-weight:400">喜剧/爱情</span></div>
       <div class="media-meta-item">

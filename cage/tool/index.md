@@ -11,28 +11,64 @@
   <p class="bord">]</p>
 </div>
 
-<h2>🔖 实用工具</h2>
+<center><br><p style="font-size: 2.5rem;">🔖</p></center>
 
-- iStat Menus
-- Oh-My-Zsh
-  - Plugin: git, sublime, vscode, zsh-autosuggestions, zsh-syntax-highlighting
-- Bartender
-- Paste
-- Alfred
-- iShot Pro
+<h3><center>- <u>工具</u> -</center></h3>
 
-<h2>🔖 效率应用</h2>
+<div class="little-box">
+  <div class="little-box-cover">
+    <span class="image-description"><b>iStat Menus</b></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description" id="a"><b>Oh-My-Zsh</b>&nbsp;
+      配置
+      <div id="b">
+        <ul>
+          <li>git</li>
+          <li>sublime</li>
+          <li>vscode</li>
+          <li>autosuggestions</li>
+          <li>syntax-highlighting</li>
+        </ul>
+      </div>
+    </span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>Bartender</b></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>Paste</b></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>Alfred</b></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>iShot Pro</b></span>
+  </div>
+</div>
 
-- [Obsidian](https://www.bilibili.com/video/BV18a411r7mt)
-- [科研 FigureBest](https://www.bilibili.com/video/BV1xA411c7Cv)
-- [Notion](https://www.bilibili.com/video/BV1aV411v7te)
-- [模板](https://www.bilibili.com/video/BV1aa4y1a7Gi)
-- [DataBase](https://www.bilibili.com/video/BV1YJ411T7aB)
-- [可视化](https://www.bilibili.com/video/BV1L34y1o7gu)
-- [eCharts](https://echarts.apache.org/examples/zh/index.html#chart-type-pie) 在线绘图并获得JSON代码
 
-<h2>🔖 设备技巧</h2>
-
-- [任务管理器可控](https://www.bilibili.com/video/BV1Ns411R7Yz)
-- [Mac-Fn键](https://www.bilibili.com/video/BV1HU4y1K7Ax)
-
+<div class="little-box">
+  <div class="little-box-cover">
+    <span class="image-description"><b>Obsidian</b>&nbsp;
+      <a href="https://www.bilibili.com/video/BV18a411r7mt" target="_blank">教程</a>
+    </span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>FigureBest</b>&nbsp;
+      <a href="https://www.bilibili.com/video/BV1xA411c7Cv" target="_blank">教程</a>
+    </span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>Notion</b>&nbsp;
+      <a href="https://www.bilibili.com/video/BV1aV411v7te" target="_blank">介绍</a>&nbsp;
+      <a href="https://www.bilibili.com/video/BV1aa4y1a7Gi" target="_blank">模板</a>&nbsp;
+      <a href="https://www.bilibili.com/video/BV1YJ411T7aB" target="_blank">仪表盘</a>
+    </span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><b>eCharts</b>&nbsp;
+      <a href="https://echarts.apache.org/examples/zh/index.html#chart-type-pie" target="_blank">在线</a>
+    </span>
+  </div>
+</div>
