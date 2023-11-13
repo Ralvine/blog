@@ -5690,7 +5690,7 @@ Spark Streaming</li>
 </li>
 <li>特殊函数
 <ul>
-<li>取整符号$<i class="far fa-check-square fa-fw"></i> $ 注意负数 和x的关系</li>
+<li>取整符号$[x]$ 注意负数 和x的关系</li>
 <li>最值的绝对值表达</li>
 </ul>
 </li>
@@ -5863,7 +5863,7 @@ Spark Streaming</li>
 <li>补充
 <ul>
 <li>完全平方数 自身相乘 互质</li>
-<li>取整 <i class="far fa-square fa-fw"></i> </li>
+<li>取整 [ ]</li>
 </ul>
 </li>
 <li>题型
