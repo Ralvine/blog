@@ -143,14 +143,14 @@
     </a>
   </div>
   <div class="subpage-box-cover-2">
-    <a href="" data-pjax-state="">
+    <a href="./fangte" data-pjax-state="">
       <p class="image-caption">台州方特</p>
       <p class="image-description">2022-08</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1sas1.jpg" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover-2">
-    <a href="" data-pjax-state="">
+    <a href="./shitang" data-pjax-state="">
       <p class="image-caption">石塘</p>
       <p class="image-description">2022-08</p>
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1sYRJ.jpg" data-loaded="true">
