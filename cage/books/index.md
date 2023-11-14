@@ -64,7 +64,7 @@
     <div class="media-meta">
       <div class="media-meta-item title">你在逃避什么<span style="float:right;font-weight:400">类型施工中</span></div>
       <div class="media-meta-item">
-        <span class="author">作者施工中</span>
+        <span class="author">乔恩·弗雷德里克森</span>
         <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
       </div>
       <div class="media-meta-item intro">施工中...</div>
@@ -75,7 +75,7 @@
     <div class="media-meta">
       <div class="media-meta-item title">硅谷之火<span style="float:right;font-weight:400">类型施工中</span></div>
       <div class="media-meta-item">
-        <span class="author">作者施工中</span>
+        <span class="author">迈克尔·斯韦因 / 保罗·弗赖伯格</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item intro">施工中...</div>

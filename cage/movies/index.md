@@ -231,6 +231,17 @@
     </div>
   </div>
   <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/12/piGQy6g.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">监视资本主义：智能陷阱<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+      <div class="media-meta-item">
+        <span class="author">03-21 线上</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"></div>
+    </div>
+  </div>
+  <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinytOS.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">普罗旺斯的夏天<span style="float:right;font-weight:400">家庭/喜剧</span></div>
@@ -280,17 +291,6 @@
       <div class="media-meta-item title">超时空宠爱<span style="float:right;font-weight:400">喜剧/爱情</span></div>
       <div class="media-meta-item">
         <span class="author">01-08 解说</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item intro"></div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/12/piGQy6g.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">监视资本主义：智能陷阱<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-      <div class="media-meta-item">
-        <span class="author">03-21 线上</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item intro"></div>
