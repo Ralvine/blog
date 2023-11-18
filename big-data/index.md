@@ -132,7 +132,7 @@
 ### 工具
 
 ![数据治理的工具结构](https://pic4.zhimg.com/80/v2-5102010cb038e90a7b86f308b78ddb7b_1440w.webp)
-<center>▲ 数据治理的工具结构</center>
+<p class="img-desc">▲ 数据治理的工具结构</p>
 
 **基础支撑**：同步和存储
 1. 容器：提供治理动作的空间。
@@ -167,7 +167,7 @@
 ### 结构
 
 ![数据仓库的分层架构](https://pic3.zhimg.com/80/v2-9a8b8352571c3e7d18c031f8c5d8caee_1440w.webp)
-<center>▲ 数据仓库的分层架构</center>
+<p class="img-desc">▲ 数据仓库的分层架构</p>
 
 ODS $\rightarrow$ DW $\rightarrow$ DA
 - 源数据：短周期、操作性，历史数据只读。
@@ -198,7 +198,7 @@ ODS $\rightarrow$ DW $\rightarrow$ DA
 ## 技术栈[^5]
 
 ![大数据技术栈](http://dbaplus.cn/uploadfile/2018/0508/20180508060539882.jpg)
-<center>▲ 大数据技术栈</center>
+<p class="img-desc">▲ 大数据技术栈</p>
 
 ### 采集与预处理
 
