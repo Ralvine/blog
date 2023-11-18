@@ -18,6 +18,38 @@
 }
 
 .tabtag {
+/*    padding: 5px;
+    border-radius: 20px;
+    width: 10%;
+    text-align: center;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);*/
+    display: inline-block;
+    position: relative;
+    line-height: 1.4em;
+    z-index: 0;
+    transition: all .25s ease;
+    color: inherit;
+    padding: 0 3px;
+}
+
+.tabtag:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    transition: all .25s ease;
+    background-color: rgba(142, 174, 107, 0.3);
+}
+
+.tabtag:hover::after {
+    height: 100%;
+}
+
+/*.tabtag {
     width: 13%;
     text-align: center;
     border: 1.5px solid rgb(200,220,254);
@@ -31,7 +63,7 @@
     background-color: rgb(145,84,246);
     border: 1.5px solid rgb(145,84,246);
     color: rgb(255,255,255);
-}
+}*/
 
 .little-box {
     display: flex;

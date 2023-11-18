@@ -11,9 +11,7 @@
   <p class="bord">]</p>
 </div>
 
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>工具</u> -</center></h3>
+<center><p class="tabtag">工具</p></center>
 
 <div class="little-box">
   <div class="little-box-cover">
