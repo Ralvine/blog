@@ -8,10 +8,7 @@
   <p class="bord">]</p>
 </div>
 
-
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>2023</u> -</center></h3>
+<center><p class="tabtag">2023</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -124,9 +121,7 @@
   </div>
 </div>
 
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>2022</u> -</center></h3>
+<center><p class="tabtag">2022</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -175,9 +170,7 @@
   </div>
 </div>
 
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>2021</u> -</center></h3>
+<center><p class="tabtag">2021</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -314,9 +307,7 @@
   </div>
 </div>
 
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>2020</u> -</center></h3>
+<center><p class="tabtag">2020</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -376,10 +367,7 @@
   </div>
 </div>
 
-
-<center><br><p style="font-size: 2.5rem;">🔖</p></center>
-
-<h3><center>- <u>更早</u> -</center></h3>
+<center><p class="tabtag">更早</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
