@@ -105,7 +105,6 @@
   </div>
 </div>
 
-
 <div class="subpage-box">
   <div class="subpage-box-cover-2">
     <a href="../series/" data-pjax-state="">
@@ -121,6 +120,9 @@
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQlJZ6.png" data-loaded="true">
     </a>
   </div>
+</div>
+
+<div class="subpage-box">
   <div class="subpage-box-cover">
     <a href="../series/本科课程/" data-pjax-state="">
       <p class="image-caption">本科课程</p>
