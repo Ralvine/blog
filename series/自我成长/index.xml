@@ -9701,302 +9701,119 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>新增 <code>fnder</code> 函数功能 <code>ds = fnder(s,order)</code>的使用文档</li>
 </ul>]]></description>
 </item><item>
-    <title>寒假社会实践：2020~2023</title>
-    <link>https://blog.ralvines.top/shsj/</link>
-    <pubDate>Sun, 23 Jan 2022 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/shsj/</guid>
+    <title>最优运输与蒙日-安培方程</title>
+    <link>https://blog.ralvines.top/tran/</link>
+    <pubDate>Sat, 01 Jan 2022 13:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/tran/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/11/05/piQYui6.jpg" referrerpolicy="no-referrer">
-            </div><h2 id="202307-寻访数学家" class="headerLink">
-    <a href="#202307-%e5%af%bb%e8%ae%bf%e6%95%b0%e5%ad%a6%e5%ae%b6" class="header-mark"></a>2023.07 寻访数学家</h2><h2 id="202302-食育护未来" class="headerLink">
-    <a href="#202302-%e9%a3%9f%e8%82%b2%e6%8a%a4%e6%9c%aa%e6%9d%a5" class="header-mark"></a>2023.02 食育护未来</h2><h3 id="活动计划" class="headerLink">
-    <a href="#%e6%b4%bb%e5%8a%a8%e8%ae%a1%e5%88%92" class="header-mark"></a>活动计划</h3><ul>
-<li>宣教 食育专题课
+                <img src="https://z1.ax1x.com/2023/11/05/piQtwA1.jpg" referrerpolicy="no-referrer">
+            </div><div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">🎓 数学科学学院（国际化课程）<br>
+🕙 2022-2023 秋冬（线上）<br>
+🧑‍🏫 Jiakun Liu（白圣,李玉婷）<br>
+📝 到课率+结课作业</div>
+        </div>
+    </div>
+<blockquote>
+<p>本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。</p>
+</blockquote>
+<p><strong>参考资料：</strong></p>
 <ul>
-<li>对接当地小学、发送课程邀请函和钉钉群二维码 (可向对接人预告后续访谈、问卷调查的合作) (无资源的同学等待队长和指导老师联系结果)</li>
-<li>分课程小组按主题制作宣教课程教案、PPT</li>
-<li>授课</li>
-<li>撰写新闻稿(1000字左右)、提交至宣传组负责人</li>
+<li>Cedric Villani. 2003. Topics in Optimal Transportation. Graduate Studies in Mathematics 58, American Mathematical Society, Providence, Rhode Island.</li>
+<li>Villani, C., 2009. Optimal Transportation, Old and New, Grundlehren der Math. Wiss. 338. Springer-Verlag, Berlin.</li>
+<li>Figalli, A., 2017. The Monge-Ampere equation and its applications, Zurich Lectures in Advanced Mathematics. European Mathematical Society (EMS).</li>
+<li>Gilbarg, D. and Trudinger, N. S., 1983. Elliptic partial differential equations of second order. Springer-Verlag, Berlin.</li>
 </ul>
-</li>
-<li>访谈/采访
-<ul>
-<li>对当地小学的校长/食堂主管/食堂配餐员/食育教师等 一位相关人员进行有关学校营养工作等情况的访谈
-[备选]采访教育部/疾控中心学校卫生所的工作人员(党员)，结合“十四五规划”，了解当地小学食育工作情况</li>
-<li>整理访谈/采访素材，完成一份访谈报告/采访稿(1000
-字左右)</li>
-<li>提交至宣传组负责人</li>
+<h2 id="大纲" class="headerLink">
+    <a href="#%e5%a4%a7%e7%ba%b2" class="header-mark"></a>大纲</h2><ul>
+<li><strong>CH0.</strong> 内容简介</li>
+<li><strong>CH1.</strong> Kantorovich对偶泛函</li>
+<li><strong>CH2.</strong> 最优运输的几何性质</li>
+<li><strong>CH3.</strong> Brenier的极化分解定理</li>
+<li><strong>CH4.</strong> Monge-Ampere方程</li>
+<li><strong>CH5.</strong> 严格凸与C1正则性</li>
+<li><strong>CH6.</strong> 自然边值条件与C1,alpha正则性</li>
+<li><strong>CH7.</strong> C2,alpha与高阶正则性</li>
+<li><strong>CH8.</strong> 整体正则性</li>
 </ul>
-</li>
-<li>问卷调查
-<ul>
-<li>邀请小学生与其家长分别填写两份问卷，调查对接小学的 小学生饮食健康情况。</li>
-<li>儿童饮食量表(孩子)</li>
-<li>儿童家长膳食营养知识态度行为调查(家长)</li>
-</ul>
-</li>
-<li>小结
-<ul>
-<li>完成个人小结表和实践心得(1000 字左右)</li>
-<li>实践成果汇总、上传群文件</li>
-</ul>
-</li>
-</ul>
-<h2 id="202207-支教" class="headerLink">
-    <a href="#202207-%e6%94%af%e6%95%99" class="header-mark"></a>2022.07 支教</h2><h2 id="202202-文化寻访" class="headerLink">
-    <a href="#202202-%e6%96%87%e5%8c%96%e5%af%bb%e8%ae%bf" class="header-mark"></a>2022.02 文化寻访</h2><h3 id="背景" class="headerLink">
-    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h3><p>为发掘家乡传统文化，弘扬优良传统，增强文化自信，我们将进行以“寻觅故土风情，传述乡梓故事”为主题的社会实践活动。“千里不同风，百里不同俗”，不同地区有不c同的文化特色和历史底蕴，多姿多彩的文化共同构成了中华民族的文化底色。我们期待在这次活动中充分领略、发掘和弘扬家乡的风俗文化，同时为家乡文化“走出去”贡献出一份力量。</p>
-<h3 id="计划1" class="headerLink">
-    <a href="#%e8%ae%a1%e5%88%921" class="header-mark"></a>计划<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3><table>
-<thead>
-<tr>
-<th>活动主题</th>
-<th>具体内容</th>
-<th>呈现形式</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>探寻家乡方言</td>
-<td>方言调研</td>
-<td>实地或问卷调查方言传承情况；采访相关人士了解其历史特色。</td>
-<td>调研报告或采访稿视频</td>
-</tr>
-<tr>
-<td></td>
-<td>地域比较*</td>
-<td>用八地方言表达一组常用语并剪辑成视频或制作科普视频，公开发布。</td>
-<td></td>
-</tr>
-<tr>
-<td>探寻家乡历史</td>
-<td>博物馆或遗址参观</td>
-<td>实地参观博物馆展厅，探寻当地历史，以视频方式记录，辅以旁白或字幕介绍，公开发布。</td>
-<td>视频</td>
-</tr>
-<tr>
-<td>探寻家乡美食</td>
-<td>美食制作视频</td>
-<td>深入街巷，实地拍摄美食的制作过程，制作短视频。</td>
-<td>视频推文</td>
-</tr>
-<tr>
-<td>特色美食介绍*</td>
-<td>搜集当地几种代表性小吃的介绍与文化内涵。</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>探寻家乡名人</td>
-<td>家乡历史名人*</td>
-<td>通过知网等网站以文献学习为手段探究家乡传统文化的起源、发展等各个方面；撰写分享心得。</td>
-<td>推文</td>
-</tr>
-<tr>
-<td>文艺作品中的家乡</td>
-<td>艺术鉴赏分享*</td>
-<td>观看并赏析与本地民俗有关的文化作品；记录后进行交流分享，汇总成一份包含海报、心得、推荐词的演示文稿。</td>
-<td>PPT</td>
-</tr>
-<tr>
-<td>寻访历史活化石</td>
-<td>文化古镇</td>
-<td>深入调查当地历史比较悠久的古村古镇，或是一条古街，了解历史，感受古镇的韵味，制成专题视频与推文。</td>
-<td>视频照片集</td>
-</tr>
-<tr>
-<td>探寻家乡艺术</td>
-<td>特色艺术形式*</td>
-<td>当地独特的艺术（如金华婺剧）。</td>
-<td>推文</td>
-</tr>
-</tbody>
-</table>
-<h3 id="日程2" class="headerLink">
-    <a href="#%e6%97%a5%e7%a8%8b2" class="header-mark"></a>日程<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3><table>
-<thead>
-<tr>
-<th>日期</th>
-<th>分工</th>
-<th>成果</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1/17</td>
-<td>各组</td>
-<td>搜集八地家乡基本资料</td>
-<td>[推文]家乡基本介绍<br>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组|瓯婺组</td>
-<td>家乡历史名人[仅搜集资料]（杭州宁波金华温州）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>博物馆或遗址参观<br>剪辑视频（黄岩温岭）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>丽水组|黄冈组</td>
-<td>当日汇总文案撰写<br>推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/18</td>
-<td>丽水组</td>
-<td>方言调研（丽水）</td>
-<td>[推文]方言专题<br>[调研报告]<br>[视频]地域比较视频</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组</td>
-<td>地域比较[策划常用语<br>收集各组录制素材]</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>台州组|甬杭组|瓯婺组</td>
-<td>当日汇总文案撰写机动<br>推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/19</td>
-<td>瓯婺组</td>
-<td>美食制作视频（温州金华）</td>
-<td>[推文]美食专题-1<br>[视频]美食制作视频</td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组|丽水组</td>
-<td>特色美食介绍（黄冈丽水）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组|台州组</td>
-<td>当日汇总文案撰写<br>实践中期简报撰写<br>推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/20</td>
-<td>台州组|黄冈组|丽水组</td>
-<td>家乡历史名人（黄岩温岭黄冈丽水）</td>
-<td>[推文]历史名人专题（整合1/17资料）<br>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>瓯婺组</td>
-<td>博物馆或遗址参观<br>剪辑视频（温州金华）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>当日汇总文案<br>撰写推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/21</td>
-<td>甬杭组</td>
-<td>美食制作视频（宁波杭州）</td>
-<td>[视频]美食制作视频<br>[推文]美食专题-2<br>[视频]博物馆专题</td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>特色美食介绍（黄岩温岭）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组|丽水组</td>
-<td>博物馆或遗址参观<br>剪辑视频（黄冈丽水）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>瓯婺组</td>
-<td>当日汇总文案撰写<br>推文排版</td>
-<td></td>
-</tr>
-<tr>
-<td>1/22</td>
-<td>瓯婺组</td>
-<td>特色艺术形式（温州金华）</td>
-<td>[推文]艺术专题（特色艺术与古镇）<br>[视频]古镇视频</td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>文化古镇（宁波杭州）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>黄冈组|丽水组|台州组</td>
-<td>当日汇总文案撰写<br>推文排版机动</td>
-<td></td>
-</tr>
-<tr>
-<td>1/23</td>
-<td>各组</td>
-<td>写一段心得用于总结推文</td>
-<td>[视频]博物馆专题<br>[PPT]艺术鉴赏<br>[推文]总结推文</td>
-</tr>
-<tr>
-<td></td>
-<td>甬杭组</td>
-<td>博物馆或遗址参观<br>剪辑视频（宁波杭州）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>台州组</td>
-<td>艺术鉴赏分享（黄岩温岭）</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>丽水组|黄冈组|瓯婺组</td>
-<td>总结推文文案及实践简报<br>撰写推文排版<br>当日汇总文案撰写</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="预期成果形式" class="headerLink">
-    <a href="#%e9%a2%84%e6%9c%9f%e6%88%90%e6%9e%9c%e5%bd%a2%e5%bc%8f" class="header-mark"></a>预期成果形式</h3><p>各小组将会收集富有当地文化特色的产品、歌谣、文字图画以及与当地历史相关的内容；对外界进行一个小范围的宣传，这能够较大程度上地增强当地民众的本地自豪感，同时使本地文化得到更好的传播。</p>
-<p>此外，我们拟在集中展示家乡文化的同时，创建微信公众号、微博、哔哩哔哩等自媒体账号，定期更新相关推文，拍摄短视频或将活动的主体展示与花絮剪辑成一段时长适宜的视频，让更多的人可以了解家乡的传统文化，感受到我们传统文化的魅力；让更多的人可以了解属于我们自己的文化遗产，并为之骄傲。</p>
-<h3 id="总结报告分工" class="headerLink">
-    <a href="#%e6%80%bb%e7%bb%93%e6%8a%a5%e5%91%8a%e5%88%86%e5%b7%a5" class="header-mark"></a>总结报告分工</h3><ol>
-<li>摘要、关键词，最终排版（1人）</li>
-<li>基本概况：概述、人员分工分组情况、前期准备（1人）</li>
-<li>实践过程：</li>
-</ol>
-<ul>
-<li>以论述形式阐述本组这七天大致做了哪些工作</li>
-<li>阐明对该主题的总结成果，附上相应的图文资料，<strong>逻辑清晰，表达书面，结构完整</strong>。</li>
-<li>字数自定，其中引用的资料尽量注明来源，采访/网络资料请完整附于行文中间</li>
-</ul>
-<ol start="4">
-<li>实践结果：综合各地各主题实践资料，比较共性与个性，并简要阐明我们的呈现成果（视频/推文附代表性截图与链接）；总结（1人）</li>
-</ol>
-<div class="footnotes" role="doc-endnotes">
-<hr>
+<h2 id="课程论文" class="headerLink">
+    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><blockquote>
+<p>分别选取作业范围内的部分题目进行解答.</p>
+</blockquote>
+<h3 id="problem-1" class="headerLink">
+    <a href="#problem-1" class="header-mark"></a>Problem 1.</h3><blockquote>
+<p>Discuss the relationship between Kantorovich&rsquo;s problem:</p>
+<p>$$
+\inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C_k} (\gamma)=\int_{U\times V}c(s,y)d\gamma(x,y)
+$$</p>
+<p>and Monge&rsquo;sproblem:</p>
+<p>$$
+\inf\limits_{t_{\sharp}\mu=v}\mathscr{C_\text{M}}(t)=\int_{\mu}c(x,t(x)d\mu(x).
+$$</p>
+<p>Both two problems are related to the existence and uniqueness of the function $t$ and $\gamma$ given the cost function $c$.</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>First, we let $t$ be a measure preserving function, which satisfying that</p>
+<p>$$t_{\sharp} \mu=v, $$</p>
+<p>$$\int_U c(x,t(x))d\mu(x)=\inf\limits_{t_{\sharp}\mu=v}\mathscr{C}_M(t).$$</p>
+<p>From above, we now construct a corresponding function $\mu_t\in\Gamma(\mu \times v)$, where for $\forall E\subset U\times V$, we have</p>
+<p>$$\gamma_t(C):=\mu({x|(x,t(x))\in E}).$$</p>
+<p>It&rsquo;s easy to observe that for $\forall A\subset U$, by the measure language definition of the measure preserving mapping, we have</p>
+<p>$$\gamma_t(A\times V)=\mu({x|(x,t(x))\in A\times V})=\mu(A).$$</p>
+<p>Additionally, for $\forall B\subset V$, we have</p>
+<p>$$v(B)=\mu({x|(x,t(x))\in U\times B}),$$</p>
+<p>as</p>
+<p>$$t_{\sharp}\mu=v.$$</p>
+<p>Meanwhile</p>
+<p>$$\gamma_t(U\times B)=\mu({x|(x,t(x))\in U\times B})=v(B).$$</p>
+<p>Hence, for the constructed function $\gamma_t$, we know it is product on linear space. Then, by</p>
+<p>$$\int_{U\times V} c(x,y)d\gamma_t (x,y)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C}_k(\gamma),$$</p>
+<p>we get that</p>
+<p>$$\inf\limits_{t_{\sharp}\mu=v} \mathscr{C_\text{M}}(t)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)}\mathscr{C}_k(\gamma).$$</p>
+<p>Finally, as we know, the limitation of the Monge&rsquo;s problem is more strict, requiring that</p>
 <ol>
-<li id="fn:1">
-<p>以*标注的是能够在线上直接完成的活动；“推文”指就该活动发布的专题推文。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>微博账号每日汇报当日活动及成果，由队长整合所有素材，表中不再列出。此外，队长每日需上传团队安全简报。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
+<li>$t$ is a mapping of preserving measurability,</li>
+<li>$\gamma$ is just limited on linear space.</li>
 </ol>
-</div>]]></description>
+<p>Thus more freedom on the product space means more choices of function $\gamma$, thus there is going to have smaller total cost for Kantorovich&rsquo;s problem.</p>
+<h3 id="problem-2" class="headerLink">
+    <a href="#problem-2" class="header-mark"></a>Problem 2.</h3><blockquote>
+<p>Choose the Problem in subject: a mapping $T$ is a measure preserving ( $T_\sharp f=g$ ) iff $\forall h\in C(V), \int_V h(y)g(y)dy=\int_U h(T(x))f(x)dx.$</p>
+<p>(The definition of the measure preserving given by measure language and analysis language is equivalent.)</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>If $T$ is a mapping of preserving measurablity, then for $\forall E\subset V,$ always $\exists T^{-1}(E)\subset U$ s.t.</p>
+<p>$$\int_{T^{-1}(E)} f(x)dx=\int_E g(y)dy=\int_{T^{-1}(E)}g(Tx)|J|dx.$$</p>
+<p>where $J$ means the Jacobian $\displaystyle\frac{\partial y}{\partial x}$, i.e.</p>
+<p>$$f(x)=g(Tx)|J|, x\in T^{-1}(E)a.s..$$</p>
+<p>Let $E=V$, for $\forall$ continuous function $h$ over $V$, we have</p>
+<p>$$h(Tx)f(x)dx=h(Tx)g(Tx)|J|,x\in T^{-1}(V)a.s..$$</p>
+<p>Then, we can conclude that</p>
+<p>$$\int_U h(Tx)f(x)dx=\int_U h(Tx)g(Tx)|J|dx=\int_V h(y)g(y)dy.$$</p>
+<p>Additionally, we have assumpted that $\forall \in C(V),$ thus we have</p>
+<p>$$\int_V h(y)g(y)dy=\int_U h(T(x)f(x))dx.$$</p>
+<p>Now, for $\forall E\subset V$,  we let</p>
+<p>$$h(y)=\mathbb{I}{y\in E},y\in V,$$</p>
+<p>then we have</p>
+<p>$$\int_E g(y)dy=\int_{U\cap T^{-1(E)}}f(x)dx=\int_{T^{-1}(E)}f(x)dx.$$</p>
+<p>Therefore, we get</p>
+<p>$$T_\sharp f=g.$$</p>
+<h3 id="problem-3" class="headerLink">
+    <a href="#problem-3" class="header-mark"></a>Problem 3.</h3><blockquote>
+<p>Explain the background of Brenier polar factorise.</p>
+</blockquote>
+<p><strong>Answer.</strong></p>
+<p>The problem of Monge has stayed with no solution until progress was made in the 1940s. Indeed, only with the work by Kantorovich, it was inserted into a suitable framework which gave the possibility to attack it and, later, to provide solutions and study them.</p>
+<p>Back to the 20 century, the Monge problem was asked, which is difficult to solve. after that, Kantoroich relaxes the optimal transfer problem into the optimal transmission solution, and instead of the Euclidean distance $|x-y|$ and more general measures and spaces, the problem was generalized with very general cost functions $c(x,y)$.</p>
+<p>Kantorovich use the idea of regarding the Monge problem as connected to linear programming, where the cost to be minimized becomes simply $\int_{X\times Y}c d\gamma$. Which means, this linear problem under linear constraints, is possible to prove existence of a solution. Then, by using techniques from convex optimization like duality, we could characterize the optimal solution.</p>
+<p>Now, there is some special cases, particularly if we let the cost $c(x,y)=|x-y|^2$, which is natural and has many application in physical models, for Bernier, who works to prove that the optimal $\gamma$ does not allow this splitting of masses and particles at $x$ are only sent to a unique destination $T(x)$, thus providing a solution to the original problem by Monge. Additionally, he proves a special form for the optimal map:</p>
+<p>For or a convex function $u$, the optimal $T$ is of the form $T(x)=\Delta u(x)$.</p>
+<p>Which makes a strong connection with the Monge-Ampère equation.</p>
+<p>$$|D^2u(x)|=\displaystyle\frac{f(x)}{g(\Delta u(x))}$$</p>
+<p>To the equation above, it is an degenerate, nonlinear, elliptic equation and is in the class of convex functions. Brenier uses result above to conclude the fact that matrices can be written as the product of a symmetric positive-definite matrix and an orthogonal one by prove that vector fields can be written as the composition of the gradient of a convex function and of a measure preserving map. It is the polar factorization theorem for vector maps, and the above narrative is the background to this theory.</p>]]></description>
 </item></channel>
 </rss>

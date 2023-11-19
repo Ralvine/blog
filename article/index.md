@@ -43,43 +43,43 @@
 <center><p class="tabtag">精选</p></center>
 
 <div class="subpage-box">
-  <div class="subpage-box-cover">
-    <a href="../shsj/" data-pjax-state="">
+<!--   <div class="subpage-box-cover">
+    <a href="../shehuishijian/" data-pjax-state="">
       <p class="image-caption">社会实践</p>
       <p class="image-description">2020-2023</p>
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/05/piQYui6.jpg" data-loaded="true">
     </a>
-  </div>
-  <div class="subpage-box-cover">
+  </div> -->
+<!--   <div class="subpage-box-cover">
     <a href="../wanghuning/" data-pjax-state="">
       <p class="image-caption">王沪宁</p>
       <p class="image-description">政治的人生</p>
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/10/23/piA3TgS.png" data-loaded="true">
     </a>
-  </div>
+  </div> -->
   <div class="subpage-box-cover">
-    <a href="../dsa/" data-pjax-state="">
+    <a href="../shujujiegou/" data-pjax-state="">
       <p class="image-caption">数据结构</p>
       <p class="image-description">C++</p>
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover">
-    <a href="../rule-system/" data-pjax-state="">
+<!--   <div class="subpage-box-cover">
+    <a href="../xuanjuminzhu/" data-pjax-state="">
       <p class="image-caption">话语转轨</p>
       <p class="image-description">精英与选举民主</p>
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piQnslq.jpg" data-loaded="true">
     </a>
-  </div>
+  </div> -->
   <div class="subpage-box-cover">
-    <a href="../big-data/" data-pjax-state="">
+    <a href="../dashuju/" data-pjax-state="">
       <p class="image-caption">数据治理</p>
       <p class="image-description">理论与分析</p>
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/10/23/piApGh6.jpg" data-loaded="true">
     </a>
   </div>
   <div class="subpage-box-cover">
-    <a href="../lcx/" data-pjax-state="">
+    <a href="../liucixin/" data-pjax-state="">
       <p class="image-caption">刘慈欣</p>
       <p class="image-description">科幻短篇选摘</p>
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/11/04/piMvzND.png" data-loaded="true">
