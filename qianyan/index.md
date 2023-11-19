@@ -115,6 +115,11 @@ k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型
 2. 距离度量
 3. 决策规则
 
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
+<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKE6K.png" width="50%" alt="特征空间划分"></a>
+
+<p class="img-desc" style="text-align: center">▲ 特征空间划分。</p>
+
 特殊情况：最近邻（k=1）
 
 [^7]: 指标函数 $I$: 满足条件时为1.<br>
@@ -172,17 +177,18 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 
 首先引入最简单的思路：线性扫描的方法。
 
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
+<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKkSx.png" width="50%" alt="kNN算法流程可视化"></a>
+
+<p class="img-desc" style="text-align: center">▲ kNN算法流程可视化。</p>
+
 1. 对未知类别的数据集中的每个点：
     - 计算已知类别数据集众多点与当前点之间的距离；
     - 按照距离递增次序排序。
 2. 选取与当前点距离最小的k个点：
     - 选定前k个点所在类别的出现频率
     - 返回前k个点出现频率最高的类别作为当前点的预测分类
-    3. 重复步骤，完成对所有点的预测分类
-
-|![kNN算法流程可视化](https://z1.ax1x.com/2023/11/01/piuKkSx.png)|![特征空间划分](https://z1.ax1x.com/2023/11/01/piuKE6K.png)|
-|---|---|
-|<center>kNN算法流程可视化</center>|<center>特征空间划分</center>|
+3. 重复步骤，完成对所有点的预测分类
 
 
 #### Python实现
@@ -252,6 +258,11 @@ print(predictions)
 
 ##### 构造[^11]
 
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
+<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKif1.png" width="50%" alt="kd树的构造"></a>
+
+<p class="img-desc" style="text-align: center">▲ kd树的构造。</p>
+
 1. 构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域。
 2. 递归（生成子结点）：
     - 选择坐标轴和切分点，确定一个超平面
@@ -270,9 +281,10 @@ print(predictions)
 
 ##### 搜索
 
-|![kd树的构造](https://z1.ax1x.com/2023/11/01/piuKif1.png)|![kd树的搜索](https://z1.ax1x.com/2023/11/01/piuKAl6.png)|
-|---|---|
-|<center>kd树的构造</center>|<center>kd树的搜索</center>|
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKAl6.png" width="50%" alt="kd树的搜索"></a>
+
+<p class="img-desc" style="text-align: center">▲ kd树的搜索。</p>
 
 
 ##### 算法

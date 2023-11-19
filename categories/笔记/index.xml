@@ -128,6 +128,9 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <li>距离度量</li>
 <li>决策规则</li>
 </ol>
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
+</a>
+<p class="img-desc" style="text-align: center">▲ 特征空间划分。</p>
 <p>特殊情况：最近邻（k=1）</p>
 <h3 id="模型要素" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h3><h4 id="k-值选择" class="headerLink">
@@ -180,6 +183,9 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <h3 id="模型预测" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h3><h4 id="预测流程" class="headerLink">
     <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
+</a>
+<p class="img-desc" style="text-align: center">▲ kNN算法流程可视化。</p>
 <ol>
 <li>对未知类别的数据集中的每个点：
 <ul>
@@ -192,29 +198,9 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>选定前k个点所在类别的出现频率</li>
 <li>返回前k个点出现频率最高的类别作为当前点的预测分类</li>
 </ul>
-<ol start="3">
+</li>
 <li>重复步骤，完成对所有点的预测分类</li>
 </ol>
-</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
-        
-    </a></figure></th>
-<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
-        
-    </a></figure></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><center>kNN算法流程可视化</center></td>
-<td><center>特征空间划分</center></td>
-</tr>
-</tbody>
-</table>
 <h4 id="python实现" class="headerLink">
     <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -301,7 +287,10 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </ol>
 <p>可能因数据的特定分布而表现不佳。<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
 <h5 id="构造11" class="headerLink">
-    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><ol>
+    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
+</a>
+<p class="img-desc" style="text-align: center">▲ kd树的构造。</p>
+<ol>
 <li>构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域。</li>
 <li>递归（生成子结点）：
 <ul>
@@ -318,24 +307,9 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>切分点的选择：中位数</li>
 </ul>
 <h5 id="搜索" class="headerLink">
-    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><table>
-<thead>
-<tr>
-<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
-        
-    </a></figure></th>
-<th><figure><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
-        
-    </a></figure></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><center>kd树的构造</center></td>
-<td><center>kd树的搜索</center></td>
-</tr>
-</tbody>
-</table>
+    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+</a>
+<p class="img-desc" style="text-align: center">▲ kd树的搜索。</p>
 <h5 id="算法" class="headerLink">
     <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h5><p>[输入] 已构造的 kd 树，目标点 x;</p>
 <p>[输出] x 的 k 近邻。</p>
