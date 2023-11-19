@@ -21,7 +21,7 @@
 
 <center><p class="tabtag">📝 我</p></center>
 
-<center>您还可以访问本站的<p class="tabtag">🤝 <a href="../friend/">友链</a></p>或对我提供一点<p class="tabtag">☕️ <a href="../praise/">支持</a></p>！</center>
+<center>您还可以访问<p class="tabtag">🤝 <a href="../friend/">友链</a></p>或<p class="tabtag">☕️ <a href="../praise/">支持</a>一下</p>！</center>
 
 <!-- <h3>📝 我</h3>
 
