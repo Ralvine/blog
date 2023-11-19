@@ -1,17 +1,13 @@
 # 
 
 
-<center><br><p style="font-size: 2.5rem;">🤝</p></center>
-
-<h3><center>- <u>友人</u> -</center></h3>
+<center><p class="tabtag">🤝 友人</p></center>
 
 {{< friend name="Keldos!" url="https://blog.keldos.me/" avatar="https://blog.keldos.me/images/avatar.jpeg" bio="学城乡规划学的" >}}
 
 {{< friend name="Barney's Blog" url="https://hugo.bnblogs.cc" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" bio="All the truth is simple" >}}
 
-<center><br><p style="font-size: 2.5rem;">🚪</p></center>
-
-<h3><center>- <u>传送门</u> -</center></h3>
+<center><p class="tabtag">🚪 传送门</p></center>
 
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" bio="一个记录技术、阅读、生活的博客" >}}
 
@@ -57,7 +53,5 @@
 
 {{< friend name="进击的学霸的博客" url="https://blog.jjdxb.top" avatar="https://qny.jjdxb.top/pikaqiu.png" bio="代码写出来是给人看的，附带能在机器上运行" >}}
 
-<h2>👉 交换</h2>
-
-<center>欢迎交换友链~</center><br>
+<center><p class="tabtag">👉 交换友链</p></center>
 

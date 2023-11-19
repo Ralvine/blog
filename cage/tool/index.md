@@ -2,6 +2,11 @@
 
 
 <div class="nav-tab">
+  <a href="../../cages"><p class="not">拾迹</p></a>
+  <p class="now">/&nbsp;收藏</p>
+</div>
+
+<div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">效率</p>&nbsp;
   <a href="../tool-art"><p class="not">艺术</p></a>&nbsp;
@@ -10,6 +15,8 @@
   <a href="../tool-social"><p class="not">社会</p></a>
   <p class="bord">]</p>
 </div>
+
+---
 
 <center><p class="tabtag">工具</p></center>
 

@@ -8,13 +8,15 @@
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <p class="now">本科</p>&nbsp;
-  <a href="../books-high"><p class="not">高中</p></a>&nbsp;
-  <a href="../books-earler"><p class="not">更早</p></a>
+  <p class="now">图书</p>&nbsp;
+  <a href="../books-kanwu"><p class="not">刊物</p></a>&nbsp;
+  <a href="../books-wenxian"><p class="not">文献</p></a>
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">图书</p></center>
+---
+
+<center><p class="tabtag">本科</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media">
@@ -449,112 +451,262 @@
   </div>
 </div>
 
-<center><p class="tabtag">教材</p></center>
+<center><p class="tabtag">高中</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
-  <div class="media-3-prime">
-    <div class="media-meta-item title">实变函数<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">周性伟</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gL38.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">他改变了中国：江泽民传<span style="float:right;font-weight:400">传记</span></div>
+      <div class="media-meta-item">
+        <span class="author">罗伯特·劳伦斯·库恩</span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+      </div>
+      <div class="media-meta-item intro">施工中...</div>
     </div>
-    <div class="media-meta-item intro">施工中...</div>
   </div>
-  <div class="media-3">
-    <div class="media-meta-item title">实变函数与泛函分析概要<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">王声望</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gXjg.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">邓小平时代<span style="float:right;font-weight:400">传记</span></div>
+      <div class="media-meta-item">
+        <span class="author">傅高义</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro">施工中...</div>
     </div>
-    <div class="media-meta-item intro">施工中...</div>
   </div>
-  <div class="media-3">
-    <div class="media-meta-item title">经济学原理<span style="float:right;font-weight:400">经济</span></div>
-    <div class="media-meta-item">
-      <span class="author">曼昆</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi82K4x.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">自由在高处<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item">
+        <span class="author">熊培云</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro">施工中...</div>
     </div>
-    <div class="media-meta-item intro">施工中...</div>
   </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">高等代数<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">谢启鸿</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/12/piGQs1S.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">人类简史<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item">
+        <span class="author">尤瓦尔·赫拉利</span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+      </div>
+      <div class="media-meta-item intro">施工中...</div>
     </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">Complex Analysis<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">Stein</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">概率论<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">林正炎</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">高等代数<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">丘维声</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">常微分方程<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">方道元</span>
-      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">偏微分方程<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">孔德兴</span>
-      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">偏微分方程<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">周蜀林</span>
-      <span class="star-score">★★<span class="grey-star">☆☆☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">数学建模算法与程序<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">司守奎</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">统计学习方法<span style="float:right;font-weight:400">数学</span></div>
-    <div class="media-meta-item">
-      <span class="author">李航</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">经济法理论与实务<span style="float:right;font-weight:400">法律</span></div>
-    <div class="media-meta-item">
-      <span class="author">周黎明</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
   </div>
 </div>
 
+<div class="culture-list" cover-src="" json-src="books.json">
+  <div class="media-3-prime">
+    <div class="media-meta-item title">食罪者<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">宇尘</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">毛泽东选集<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">毛泽东</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">乔布斯传<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">中国历代政治得失<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">国史概要<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">品中国文人<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">乌合之众<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">娱乐至死<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">道德情操论<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">国富论<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">哈利波特<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">身份的焦虑<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">毛泽东年谱<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">那不勒斯四部曲<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">文化苦旅<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">木心全集<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">资本论<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">围城<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">边城<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">政治学通识<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">政治哲学<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">果壳中的宇宙<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">时间简史<span style="float:right;font-weight:400">类型施工中</span></div>
+    <div class="media-meta-item">
+      <span class="author">作者施工中</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+</div>
+
+<!-- 
+
+<h2>读完</h2>
+
+- 俗世奇人
+- 消失在醒来后
+- 七天
+- 格列佛游记
+- 爱的教育
+- 平凡的世界
+- 昆虫记
+- 钢铁是怎样炼成的
+- 海底两万里
+- 窗边的小豆豆
+- 安徒生童话
+- 格林童话
+- 笑猫日记 系列
+- 小王子
+- 大鱼之道
+- 草房子
+- 十月
+- 皮皮鲁 魔鬼训练营
+- 冒险小虎队 系列 -->

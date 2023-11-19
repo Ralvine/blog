@@ -1,6 +1,19 @@
 # 🏫
 
 
+<div class="nav-tab">
+  <a href="../../cages"><p class="not">拾迹</p></a>
+  <p class="now">/&nbsp;课程</p>
+</div>
+
+<div class="nav-tab">
+  <p class="bord">[</p>
+  <p class="now">本科</p>
+  <p class="bord">]</p>
+</div>
+
+---
+
 <center><p class="tabtag">20-21</p></center>
 
 <div class="little-box">

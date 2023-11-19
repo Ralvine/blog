@@ -5,6 +5,8 @@
   <p class="now">归档</p>
 </div>
 
+---
+
 <center><p class="tabtag">概览</p></center>
 
 <div class="subpage-box">
@@ -89,7 +91,7 @@
 
 <div class="subpage-box">
   <div class="subpage-box-cover-2">
-    <a href="../time/time" data-pjax-state="">
+    <a href="../cages" data-pjax-state="">
       <p class="image-hyper">🧭</p>
       <p class="image-caption">拾迹</p>
       <img alt="笔记" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1sas1.jpg" data-loaded="true">

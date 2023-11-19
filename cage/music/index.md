@@ -2,6 +2,11 @@
 
 
 <div class="nav-tab">
+  <a href="../../cages"><p class="not">拾迹</p></a>
+  <p class="now">/&nbsp;音乐</p>
+</div>
+
+<div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">华语</p>&nbsp;
   <a href="../music-en"><p class="not">英语</p></a>&nbsp;
@@ -10,6 +15,7 @@
   <p class="bord">]</p>
 </div>
 
+---
 
 
 <div class="culture-list" cover-src="" json-src="books.json">
