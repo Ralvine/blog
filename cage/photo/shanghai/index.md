@@ -1,5 +1,11 @@
-# 🏝️ 上海
+# 🏝️
 
+
+<div class="nav-tab">
+  <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
+  <a href="../"><p class="not">光影</p></a>
+  <p class="now">/&nbsp;上海</p>
+</div>
 
 <div class="group-picture">
   <div class="group1-picture-cover">
@@ -8,4 +14,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 外滩。</p>
 
+---
+
+<p class="img-desc" style="text-align: left; margin-top: -20px;">与 @lhr</p>

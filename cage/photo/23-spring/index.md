@@ -1,5 +1,11 @@
-# 🏝️ 西区春景
+# 🏝️
 
+
+<div class="nav-tab">
+  <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
+  <a href="../"><p class="not">光影</p></a>
+  <p class="now">/&nbsp;西区春景</p>
+</div>
 
 {{< quote-center >}}
 人面不知何处去，<br>
@@ -17,12 +23,16 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 主图的两侧，牌坊与钟塔。</p>
+
 <div class="group-picture">
   <div class="group1-picture-cover">
     <a class="lightgallery" href="https://z1.ax1x.com/2023/11/10/pi3oFMV.jpg" title="西区，北教附近的试验田。" data-thumbnail="https://z1.ax1x.com/2023/11/10/pi3oFMV.jpg">
     <img loading="lazy" src="https://z1.ax1x.com/2023/11/10/pi3oFMV.jpg" sizes="auto" alt="西区，北教附近的试验田。"></a>
   </div>
 </div>
+
+<p class="img-desc" style="text-align: center">▲ 北教旁的试验田。</p>
 
 <div class="group-picture">
   <div class="group3-picture-cover">
@@ -39,6 +49,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 春日的意象。</p>
+
 <div class="group-picture">
   <div class="group-picture-cover">
     <a class="lightgallery" href="https://z1.ax1x.com/2023/11/10/pi3okrT.jpg" title="小剧场前的路上，人来人往。" data-thumbnail="https://z1.ax1x.com/2023/11/10/pi3okrT.jpg">
@@ -49,6 +61,8 @@
     <img loading="lazy" src="https://z1.ax1x.com/2023/11/10/pi3oAqU.jpg" sizes="auto" alt="冒绿的枝头，崭新的探头。"></a>
   </div>
 </div>
+
+<p class="img-desc" style="text-align: center">▲ 新枝新人，接班残余的冷意。</p>
 
 <div class="group-picture">
   <div class="group3-picture-cover">
@@ -76,9 +90,41 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 大讲堂前的暮色。</p>
+
+<div class="group-picture">
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d4e3.jpg" title="“当心落水”。" data-thumbnail="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d4e3.jpg">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d4e3.jpg" sizes="auto" alt="“当心落水”。"></a>
+  </div>
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3f8c458853aeffa9d20.jpg" title="银泉公寓。" data-thumbnail="https://pic.imgdb.cn/item/6559a3f8c458853aeffa9d20.jpg">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3f8c458853aeffa9d20.jpg" sizes="auto" alt="银泉公寓。"></a>
+  </div>
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d67a.jpg" title="银泉外景。" data-thumbnail="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d67a.jpg">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d67a.jpg" sizes="auto" alt="银泉外景。"></a>
+  </div>
+</div>
+
+<div class="group-picture">
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3bdc458853aeff9cc3d.jpg" title="银泉北侧。" data-thumbnail="https://pic.imgdb.cn/item/6559a3bdc458853aeff9cc3d.jpg">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3bdc458853aeff9cc3d.jpg" sizes="auto" alt="银泉北侧。"></a>
+  </div>
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3bec458853aeff9ce6c.jpg" title="翠柏外景。" data-thumbnail="https://pic.imgdb.cn/item/6559a3bec458853aeff9ce6c.jpg">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3bec458853aeff9ce6c.jpg" sizes="auto" alt="翠柏外景。"></a>
+  </div>
+  <div class="group3-picture-cover">
+    <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3bec458853aeff9d07e.jpg" title="北区主路。" data-thumbnail="https://pic.imgdb.cn/item/6559a3bec458853aeff9d07e.jpg">
+    <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3bec458853aeff9d07e.jpg" sizes="auto" alt="北区主路。"></a>
+  </div>
+</div>
 
 
+<p class="img-desc" style="text-align: center">▲ 银泉信步。</p>
 
+---
 
-> <center>🔐<br>更多照片搬运中</center>
-
+<p class="img-desc" style="text-align: left; margin-top: -20px;">与 @wzq @ywm @xl</p>

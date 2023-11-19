@@ -1,5 +1,11 @@
-# 🏝️ 武汉
+# 🏝️
 
+
+<div class="nav-tab">
+  <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
+  <a href="../"><p class="not">光影</p></a>
+  <p class="now">/&nbsp;武汉</p>
+</div>
 
 {{< quote-center >}}
 昔人已乘黄鹤去，<br>
@@ -22,6 +28,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 车水马龙中藏着近代的痕迹，革命中的教员起起伏伏。</p>
+
 <div class="group-picture">
   <div class="group-picture-cover">
     <a class="lightgallery" href="https://z1.ax1x.com/2023/11/09/pi3cvEq.jpg" title="户部巷口。" data-thumbnail="https://z1.ax1x.com/2023/11/09/pi3cvEq.jpg">
@@ -32,6 +40,8 @@
     <img loading="lazy" src="https://z1.ax1x.com/2023/11/09/pi3gFKJ.jpg" sizes="auto" alt="黄鹤楼旁，货铁鱼贯。"></a>
   </div>
 </div>
+
+<p class="img-desc" style="text-align: center">▲ 走走停停。</p>
 
 <div class="group-picture">
   <div class="group3-picture-cover">
@@ -48,4 +58,9 @@
   </div>
 </div>
 
-> <center>🔐<br>更多照片搬运中</center>
+<p class="img-desc" style="text-align: center">▲ 昔日已乘黄鹤去。</p>
+
+---
+
+<p class="img-desc" style="text-align: left; margin-top: -20px;">与 @ljw @lwt @lyl</p>
+

@@ -1,5 +1,11 @@
-# 🏝️ 开化
+# 🏝️
 
+
+<div class="nav-tab">
+  <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
+  <a href="../"><p class="not">光影</p></a>
+  <p class="now">/&nbsp;开化</p>
+</div>
 
 <div class="group-picture">
   <div class="group-picture-cover">
@@ -12,6 +18,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 周边小径，摄与@包老师。</p>
+
 <div class="group-picture">
   <div class="group-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/655338e3c458853aefd5c3d1.jpg" title="教室。" data-thumbnail="https://pic.imgdb.cn/item/655338e3c458853aefd5c3d1.jpg">
@@ -23,4 +31,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 傍晚时分。</p>
 
+---
+
+<p class="img-desc" style="text-align: left; margin-top: -20px;">与 @红会暑期支教团</p>

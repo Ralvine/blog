@@ -1,5 +1,11 @@
-# 🏝️ 长沙
+# 🏝️
 
+
+<div class="nav-tab">
+  <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
+  <a href="../"><p class="not">光影</p></a>
+  <p class="now">/&nbsp;长沙</p>
+</div>
 
 {{< quote-center >}}
 独立寒秋，湘江北去，橘子洲头。<br>
@@ -21,6 +27,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 橘子洲与太平街。</p>
+
 <!-- <center><b>橘子洲外景</b></center> -->
 
 <div class="group-picture">
@@ -29,6 +37,8 @@
     <img loading="lazy" src="https://z1.ax1x.com/2023/11/09/pi3yMvj.jpg" sizes="auto" alt="杜甫江阁。"></a>
   </div>
 </div>
+
+<p class="img-desc" style="text-align: center">▲ 杜甫江阁。</p>
 
 <div class="group-picture">
   <div class="group-picture-cover">
@@ -41,6 +51,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 历史传承。</p>
+
 <div class="group-picture">
   <div class="group1-picture-cover">
     <a class="lightgallery" href="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg" title="长沙站前，一个月的车票们。" data-thumbnail="https://z1.ax1x.com/2023/10/29/pie5xDx.jpg">
@@ -48,9 +60,8 @@
   </div>
 </div>
 
-> <center>🔐<br>更多照片搬运中</center>
+<p class="img-desc" style="text-align: center">▲ 月度行迹。</p>
 
+---
 
-
-
-
+<p class="img-desc" style="text-align: left; margin-top: -20px;">与 @mt</p>

@@ -8,14 +8,13 @@
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <p class="now">足旅</p>&nbsp;
-  <a href="../photo-act"><p class="not">活动</p></a>
+  <p class="now">旅途</p>
   <p class="bord">]</p>
 </div>
 
 ---
 
-<center><p class="tabtag">本科</p></center>
+<center><p class="tabtag">23-24</p></center>
 
 <div class="subpage-box">
   <div class="subpage-box-cover-2-left">
@@ -32,6 +31,11 @@
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1avCR.jpg" data-loaded="true">
     </a>
   </div>
+</div>
+
+<center><p class="tabtag">22-23 学年</p></center>
+
+<div class="subpage-box">
   <div class="subpage-box-cover-2">
     <a href="./yunnan" data-pjax-state="">
       <p class="image-caption">云南</p>
@@ -144,6 +148,11 @@
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1aIg0.jpg" data-loaded="true">
     </a>
   </div>
+</div>
+
+<center><p class="tabtag">21-22 学年</p></center>
+
+<div class="subpage-box">
   <div class="subpage-box-cover-2-left">
     <a href="" data-pjax-state="">
       <p class="image-caption">天台</p>
@@ -228,6 +237,11 @@
       <img alt="阅读" data-src="" src="https://z1.ax1x.com/2023/11/08/pi1TRZF.jpg" data-loaded="true">
     </a>
   </div>
+</div>
+
+<center><p class="tabtag">20-21 学年</p></center>
+
+<div class="subpage-box">
   <div class="subpage-box-cover-2">
     <a href="" data-pjax-state="">
       <p class="image-caption">西藏</p>

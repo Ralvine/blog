@@ -1,5 +1,11 @@
-# 🏝️ 云南
+# 🏝️
 
+
+<div class="nav-tab">
+  <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
+  <a href="../"><p class="not">光影</p></a>
+  <p class="now">/&nbsp;云南</p>
+</div>
 
 {{< quote-center >}}
 苍山月隐浮云绕，<br>
@@ -17,6 +23,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 逃离尘嚣。</p>
+
 <div class="group-picture">
   <div class="group3-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/654e1b51c458853aef42b639.jpg" title="版纳热带雨林。" data-thumbnail="https://pic.imgdb.cn/item/654e1b51c458853aef42b639.jpg">
@@ -31,6 +39,8 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/654e1b52c458853aef42b74a.jpg" sizes="auto" alt="版纳野象谷。"></a>
   </div>
 </div>
+
+<p class="img-desc" style="text-align: center">▲ 名为热带的情绪。</p>
 
 <div class="group-picture">
   <div class="group-picture-cover">
@@ -50,6 +60,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 半步半歇。</p>
+
 <div class="group-picture">
   <div class="group-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/654e1c0dc458853aef45c4ae.jpg" title="长沙" data-thumbnail="https://pic.imgdb.cn/item/654e1c0dc458853aef45c4ae.jpg">
@@ -61,8 +73,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 昆明。</p>
 
+---
 
-
-
-
+<p class="img-desc" style="text-align: left; margin-top: -20px;">与 @sww</p>

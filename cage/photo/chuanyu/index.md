@@ -1,5 +1,11 @@
-# 🏝️ 川渝
+# 🏝️
 
+
+<div class="nav-tab">
+  <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
+  <a href="../"><p class="not">光影</p></a>
+  <p class="now">/&nbsp;川渝</p>
+</div>
 
 <div class="group-picture">
   <div class="group-picture-cover">
@@ -19,6 +25,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 重庆的地标们。</p>
+
 <div class="group-picture">
   <div class="group-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2f89c458853aef90e2ce.webp" title="峨眉山日出。" data-thumbnail="https://pic.imgdb.cn/item/654e2f89c458853aef90e2ce.webp">
@@ -29,6 +37,8 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f94c458853aef911920.webp" sizes="auto" alt="青城山，茂林覆径。"></a>
   </div>
 </div>
+
+<p class="img-desc" style="text-align: center">▲ 蜀地山川。</p>
 
 <div class="group-picture">
   <div class="group1-picture-cover">
@@ -48,3 +58,8 @@
   </div>
 </div>
 
+<p class="img-desc" style="text-align: center">▲ 在途中。</p>
+
+---
+
+<p class="img-desc" style="text-align: left; margin-top: -20px;">与 @hy @xz @xzy @cjm</p>
