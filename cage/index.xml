@@ -8,16 +8,7 @@
     <language>zh-CN</language>
     <lastBuildDate>Fri, 02 Aug 2019 11:04:49 +0800</lastBuildDate><atom:link href="https://blog.ralvines.top/cage/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://blog.ralvines.top/cage/cage/</link>
-      <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
-      
-      <guid>https://blog.ralvines.top/cage/cage/</guid>
-      <description>📚 书籍 ⌨️ 风物 🎞️ 影片 🎹 音乐 📺 剧集 ⚙️ 收藏 📸 光影 📦 项目 🔦 技能</description>
-    </item>
-    
-    <item>
-      <title>⌨️ 风物</title>
+      <title>⌨️</title>
       <link>https://blog.ralvines.top/cage/goods-app/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -26,7 +17,7 @@
     </item>
     
     <item>
-      <title>⌨️ 风物</title>
+      <title>⌨️</title>
       <link>https://blog.ralvines.top/cage/goods/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -35,7 +26,7 @@
     </item>
     
     <item>
-      <title>⚙️ 收藏</title>
+      <title>⚙️</title>
       <link>https://blog.ralvines.top/cage/tool-art/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -44,7 +35,7 @@
     </item>
     
     <item>
-      <title>⚙️ 收藏</title>
+      <title>⚙️</title>
       <link>https://blog.ralvines.top/cage/tool-dev/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -53,7 +44,7 @@
     </item>
     
     <item>
-      <title>⚙️ 收藏</title>
+      <title>⚙️</title>
       <link>https://blog.ralvines.top/cage/tool-sci/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -62,7 +53,7 @@
     </item>
     
     <item>
-      <title>⚙️ 收藏</title>
+      <title>⚙️</title>
       <link>https://blog.ralvines.top/cage/tool-social/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -71,7 +62,7 @@
     </item>
     
     <item>
-      <title>⚙️ 收藏</title>
+      <title>⚙️</title>
       <link>https://blog.ralvines.top/cage/tool/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -80,7 +71,7 @@
     </item>
     
     <item>
-      <title>🎹 音乐</title>
+      <title>🎹</title>
       <link>https://blog.ralvines.top/cage/music-en/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -89,7 +80,7 @@
     </item>
     
     <item>
-      <title>🎹 音乐</title>
+      <title>🎹</title>
       <link>https://blog.ralvines.top/cage/music-light/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -98,7 +89,7 @@
     </item>
     
     <item>
-      <title>🎹 音乐</title>
+      <title>🎹</title>
       <link>https://blog.ralvines.top/cage/music-other/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -107,7 +98,7 @@
     </item>
     
     <item>
-      <title>🎹 音乐</title>
+      <title>🎹</title>
       <link>https://blog.ralvines.top/cage/music/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -116,34 +107,43 @@
     </item>
     
     <item>
-      <title>📚 书籍</title>
+      <title>🏫</title>
+      <link>https://blog.ralvines.top/cage/course/</link>
+      <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
+      
+      <guid>https://blog.ralvines.top/cage/course/</guid>
+      <description>20-21 数学分析 I 高等代数 I 几何学</description>
+    </item>
+    
+    <item>
+      <title>📚</title>
       <link>https://blog.ralvines.top/cage/books-earler/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
       <guid>https://blog.ralvines.top/cage/books-earler/</guid>
-      <description>[ 本科 &amp;nbsp; 高中 &amp;nbsp; 更早 ] 🔐 隐藏中</description>
+      <description>拾迹 /&amp;nbsp;书籍 [ 本科 &amp;nbsp; 高中 &amp;nbsp; 更早 ] 🔐 隐藏中</description>
     </item>
     
     <item>
-      <title>📚 书籍</title>
+      <title>📚</title>
       <link>https://blog.ralvines.top/cage/books-high/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
       <guid>https://blog.ralvines.top/cage/books-high/</guid>
-      <description>[ 本科 &amp;nbsp; 高中 &amp;nbsp; 更早 ] - 阅读 - 他改变了中国：江泽民传传记 罗伯特·劳伦斯·库恩 ★★★★★ 施工中... 邓小平时代传记 傅高义 ★★★★☆ 施工中... 自</description>
+      <description>拾迹 /&amp;nbsp;书籍 [ 本科 &amp;nbsp; 高中 &amp;nbsp; 更早 ] 图书 他改变了中国：江泽民传传记 罗伯特·劳伦斯·库恩 ★★★★★ 施工中... 邓小平时代传记 傅高义 ★★★</description>
     </item>
     
     <item>
-      <title>📚 书籍</title>
+      <title>📚</title>
       <link>https://blog.ralvines.top/cage/books/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
       <guid>https://blog.ralvines.top/cage/books/</guid>
-      <description>[ 本科 &amp;nbsp; 高中 &amp;nbsp; 更早 ] - 阅读 - 郑渊洁长篇小说选集类型施工中 郑渊洁 智齿&amp;病菌集中营&amp;金拇指 ★★★★★ 施工中... 政治的人生类型施工中 王沪宁 ★★★</description>
+      <description>拾迹 /&amp;nbsp;书籍 [ 本科 &amp;nbsp; 高中 &amp;nbsp; 更早 ] 图书 郑渊洁长篇小说选集类型施工中 郑渊洁 智齿&amp;病菌集中营&amp;金拇指 ★★★★★ 施工中... 政治的人生类型</description>
     </item>
     
     <item>
-      <title>📦 项目</title>
+      <title>📦</title>
       <link>https://blog.ralvines.top/cage/project/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -152,7 +152,7 @@
     </item>
     
     <item>
-      <title>📺 剧集</title>
+      <title>📺</title>
       <link>https://blog.ralvines.top/cage/drama-earler/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -161,7 +161,7 @@
     </item>
     
     <item>
-      <title>📺 剧集</title>
+      <title>📺</title>
       <link>https://blog.ralvines.top/cage/drama-high/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -170,7 +170,7 @@
     </item>
     
     <item>
-      <title>📺 剧集</title>
+      <title>📺</title>
       <link>https://blog.ralvines.top/cage/drama/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -179,7 +179,7 @@
     </item>
     
     <item>
-      <title>🔦 技能</title>
+      <title>🔦</title>
       <link>https://blog.ralvines.top/cage/skill/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -188,7 +188,7 @@
     </item>
     
     <item>
-      <title>🎞️ 影片</title>
+      <title>🎞️</title>
       <link>https://blog.ralvines.top/cage/movies-2022/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -197,7 +197,7 @@
     </item>
     
     <item>
-      <title>🎞️ 影片</title>
+      <title>🎞️</title>
       <link>https://blog.ralvines.top/cage/movies-earler/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -206,7 +206,7 @@
     </item>
     
     <item>
-      <title>🎞️ 影片</title>
+      <title>🎞️</title>
       <link>https://blog.ralvines.top/cage/movies/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -368,7 +368,7 @@
     </item>
     
     <item>
-      <title>📸 光影</title>
+      <title>📸</title>
       <link>https://blog.ralvines.top/cage/photo-earler/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
@@ -377,7 +377,7 @@
     </item>
     
     <item>
-      <title>📸 光影</title>
+      <title>📸</title>
       <link>https://blog.ralvines.top/cage/photo/</link>
       <pubDate>Fri, 02 Aug 2019 11:04:49 +0800</pubDate>
       
