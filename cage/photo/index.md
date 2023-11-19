@@ -6,13 +6,13 @@
   <p class="now">/&nbsp;光影</p>
 </div>
 
+---
+
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">旅途</p>
   <p class="bord">]</p>
 </div>
-
----
 
 <center><p class="tabtag">23-24</p></center>
 

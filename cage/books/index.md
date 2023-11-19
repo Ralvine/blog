@@ -6,6 +6,8 @@
   <p class="now">/&nbsp;书籍</p>
 </div>
 
+---
+
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">图书</p>&nbsp;
@@ -14,7 +16,6 @@
   <p class="bord">]</p>
 </div>
 
----
 
 <center><p class="tabtag">本科</p></center>
 
@@ -22,100 +23,100 @@
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gfje.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">郑渊洁长篇小说选集<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">郑渊洁长篇小说选集<span style="float:right;font-weight:400">文学/童话</span></div>
       <div class="media-meta-item">
-        <span class="author">郑渊洁 智齿&病菌集中营&金拇指</span>
+        <span class="author">郑渊洁</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">《智齿》&《病菌集中营》&《金拇指》，非常经典的郑渊洁风格童话，荒诞的不仅是叙事，也是内核。另辟蹊径式的逻辑阐释的是对人性、社会的独到见解。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86a5V.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">政治的人生<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title"><a href="https://blog.ralvines.top/wanghuning/">政治的人生</a><span style="float:right;font-weight:400">类型施工中</span></div>
       <div class="media-meta-item">
         <span class="author">王沪宁</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">一位学者、领导人的青年日记，从中可以一瞥其对国家前途的朴素使命感、理性的工作狂形象和精准的社会洞察，当代中国的政治结构之演变很大程度上是这本日记背后思想的延伸。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86wCT.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">八次危机<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">八次危机<span style="float:right;font-weight:400">社科/经济</span></div>
       <div class="media-meta-item">
         <span class="author">温铁军</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">乡建学者的集大成之作，从政治经济学视角消解了宏大叙事对于历史的形而上学的一面，对上山下乡、文化革命等前三十年的现代化历程和重要节点作出了独到而合理的解释。精髓在于那句”代价是什么“。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86UU0.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">苦难辉煌<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">苦难辉煌<span style="float:right;font-weight:400">文学/纪实</span></div>
       <div class="media-meta-item">
         <span class="author">金一南</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">从非学术视角来说，是一部革命史的佳作，破解了宏大叙事的上帝视角，细致描述了动乱中此消彼长的政治斗争、从教员到全党的艰难探索和贯穿历史的趣味照应。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86Ybn.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">你在逃避什么<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">你在逃避什么<span style="float:right;font-weight:400">社科/心理</span></div>
       <div class="media-meta-item">
         <span class="author">乔恩·弗雷德里克森</span>
         <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">中规中矩的心理学作品，探讨了逃避心理的内在机制和实例，对于人们自身难以捕捉的防御意识和规避行为作了比较丰富的梳理，有一定的参考价值。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86NEq.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">硅谷之火<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">硅谷之火<span style="float:right;font-weight:400">文学/纪实</span></div>
       <div class="media-meta-item">
         <span class="author">迈克尔·斯韦因 / 保罗·弗赖伯格</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">一部互联网发展的史诗，一个日新月异的时代。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86JDs.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">刘慈欣短篇科幻小说合集<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title"><a href="https://blog.ralvines.top/lcx/">刘慈欣短篇科幻小说合集</a><span style="float:right;font-weight:400">文学/科幻</span></div>
       <div class="media-meta-item">
-        <span class="author">作者施工中</span>
+        <span class="author">刘慈欣</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">大刘的短篇合集，有许多《三体》的思想雏形，具有宇宙与文明尺度的宏大视角、对物理前沿与世界本原的哲学式幻想等种种共性，叙事也比较精彩。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86Guj.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">西行漫记<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">西行漫记<span style="float:right;font-weight:400">文学/纪实</span></div>
       <div class="media-meta-item">
-        <span class="author">作者施工中</span>
+        <span class="author">埃德加·斯诺</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">每一篇章都可以算作独家且精彩的报道，对延安环境和诸位伟人的刻画十分生动，写出了黑夜中的星火之感，窑洞里的航母、平等的联欢和极其前瞻的社会构想，是无可复制的经典。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8608U.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">长夜难明<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">长夜难明<span style="float:right;font-weight:400">文学/悬疑</span></div>
       <div class="media-meta-item">
-        <span class="author">作者施工中</span>
+        <span class="author">紫金陈</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">曲折压抑、跌宕起伏的犯罪题材作品，很有时代感和沉浸感，延续了紫金陈的风格，以漫长的时间尺度展现个体在无边黑暗中的挣扎。结尾与周永康案的照应是亮点。</div>
     </div>
   </div>
 </div>

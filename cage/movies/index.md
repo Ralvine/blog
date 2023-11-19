@@ -6,6 +6,8 @@
   <p class="now">/&nbsp;影视</p>
 </div>
 
+---
+
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">影片</p>&nbsp;
@@ -13,8 +15,6 @@
   <a href="../movies-drama"><p class="not">剧集</p></a>
   <p class="bord">]</p>
 </div>
-
----
 
 <center><p class="tabtag">2023</p></center>
 

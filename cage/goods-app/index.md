@@ -6,14 +6,14 @@
   <p class="now">/&nbsp;风物</p>
 </div>
 
+---
+
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../goods"><p class="not">硬件</p></a>&nbsp;
   <p class="now">软件</p>
   <p class="bord">]</p>
 </div>
-
----
 
 <center><p class="tabtag">2023</p></center>
 

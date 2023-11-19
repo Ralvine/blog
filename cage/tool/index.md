@@ -6,6 +6,8 @@
   <p class="now">/&nbsp;收藏</p>
 </div>
 
+---
+
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">效率</p>&nbsp;
@@ -15,8 +17,6 @@
   <a href="../tool-social"><p class="not">社会</p></a>
   <p class="bord">]</p>
 </div>
-
----
 
 <center><p class="tabtag">工具</p></center>
 

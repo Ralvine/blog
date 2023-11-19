@@ -6,6 +6,8 @@
   <p class="now">/&nbsp;影视</p>
 </div>
 
+---
+
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../movies"><p class="not">影片</p></a>&nbsp;
@@ -13,8 +15,6 @@
   <p class="now">剧集</p>
   <p class="bord">]</p>
 </div>
-
----
 
 <center><br><br>🔐<br>隐藏中</center>
 

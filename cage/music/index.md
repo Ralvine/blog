@@ -6,6 +6,8 @@
   <p class="now">/&nbsp;音乐</p>
 </div>
 
+---
+
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">华语</p>&nbsp;
@@ -14,8 +16,6 @@
   <a href="../music-other"><p class="not">小语种</p></a>
   <p class="bord">]</p>
 </div>
-
----
 
 
 <div class="culture-list" cover-src="" json-src="books.json">

@@ -6,6 +6,8 @@
   <p class="now">/&nbsp;书籍</p>
 </div>
 
+---
+
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../books"><p class="not">图书</p></a>&nbsp;
@@ -13,8 +15,6 @@
   <p class="now">文献</p>
   <p class="bord">]</p>
 </div>
-
----
 
 <center><p class="tabtag">教材</p></center>
 
