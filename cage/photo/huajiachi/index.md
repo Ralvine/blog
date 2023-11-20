@@ -7,6 +7,8 @@
   <p class="now">/&nbsp;华家池</p>
 </div>
 
+---
+
 {{< quote-center >}}
 池花春映日，<br>
 窗竹夜鸣秋。

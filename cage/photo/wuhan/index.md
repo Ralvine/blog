@@ -7,6 +7,8 @@
   <p class="now">/&nbsp;武汉</p>
 </div>
 
+---
+
 {{< quote-center >}}
 昔人已乘黄鹤去，<br>
 此地空余黄鹤楼。

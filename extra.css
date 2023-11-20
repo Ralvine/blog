@@ -80,8 +80,9 @@
 .little-box #b {
     display: none;
     position: absolute;
+    text-align: left;
     border-radius: 10px;
-    top:25px;
+    bottom:1.1rem;
     background: rgb(255,252,250);
     [theme=dark] & {
         background: rgb(50,50,50);
@@ -104,7 +105,7 @@
 
 .little-box-cover {
     margin: 2px;
-    height: 45px;
+    height: 60px;
     @media only screen and (max-width: 1800px) {
         flex: 0 0 30%;
     }
@@ -113,7 +114,7 @@
     }
     display:flex;
     transition: transform 0.3s ease;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #ffffff;
     [theme=dark] & {
         background: rgb(50,50,50);
@@ -126,11 +127,15 @@
 }
 
 .little-box-cover .image-description {
-    position: relative; 
+    position: relative;
     margin: 0 auto 0;
-    display: flex;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
     font-size: .9em;
     color: #000000;
+    text-align: center;
+    line-height: 1.2rem;
     [theme=dark] & {
         color: #bbbbbb;
     }
@@ -141,6 +146,23 @@
 
 .little-box-cover .image-description a {
     color: #000000;
+    text-decoration: underline;
+    display: inline-block;
+    text-decoration-color: rgba(142, 174, 107, 0.3);
+    text-decoration-thickness: 3px;
+    transition: transform 0.2s ease-in-out;
+    [theme=dark] & {
+        color: #bbbbbb;
+    }
+    [theme=black] & {
+        color: #ffffff;
+    }
+}
+
+.little-box-cover .image-description a:hover {
+    font-weight: 800;
+    color: #000000;
+    transform: scale(1.1);
     [theme=dark] & {
         color: #bbbbbb;
     }
@@ -268,9 +290,6 @@
     line-height: 1;
     .bord {
         color: #aaaaaa;
-    }
-    [theme=dark] & {
-        box-shadow: 0 0px 30px rgba(255,255,255,0.03);
     }
     .now {
         color: #333333;

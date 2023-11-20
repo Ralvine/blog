@@ -18,7 +18,7 @@
 
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b>数学前沿专题讨论</b></span>
+    <span class="image-description"><b><a href="./qianyan/">数学前沿专题讨论</a></b></span>
   </div>
 </div>
 

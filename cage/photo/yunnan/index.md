@@ -7,6 +7,8 @@
   <p class="now">/&nbsp;云南</p>
 </div>
 
+---
+
 {{< quote-center >}}
 苍山月隐浮云绕，<br>
 洱海风清碧浪涟。

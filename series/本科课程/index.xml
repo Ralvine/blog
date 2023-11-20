@@ -4,58 +4,14 @@
         <link>https://blog.ralvines.top/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/</link>
         <description>本科课程 - 系列 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
-    <title>数学前沿专题讨论</title>
+    <title>分类问题中的 k 近邻法</title>
     <link>https://blog.ralvines.top/qianyan/</link>
     <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/11/01/pinHqnH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2023-2024 秋冬<br>
-🧑‍🏫 毕惟红<br>
-📝 50%读书报告，10%考勤，10%编程，30%两次展示</div>
-        </div>
-    </div>
-<h2 id="背景" class="headerLink">
-    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><ol>
-<li>浙大 计算数学</li>
-<li>研究生
-<ul>
-<li>数字模拟 投影法求曲面面积</li>
-<li>随机数生成 数值代数 多元非线性方程组求解</li>
-</ul>
-</li>
-</ol>
-<h3 id="研究方向" class="headerLink">
-    <a href="#%e7%a0%94%e7%a9%b6%e6%96%b9%e5%90%91" class="header-mark"></a>研究方向</h3><ol>
-<li>图像处理
-<ul>
-<li>图像分割 图像识别</li>
-<li>图像加密 做的比较好</li>
-</ul>
-</li>
-<li>语义识别
-<ul>
-<li>三维点式数据（无人驾驶、激光雷达）</li>
-</ul>
-</li>
-<li>社区发现
-<ul>
-<li>复杂网络</li>
-<li>拟牛顿</li>
-</ul>
-</li>
-</ol>
-<h2 id="遗传算法" class="headerLink">
-    <a href="#%e9%81%97%e4%bc%a0%e7%ae%97%e6%b3%95" class="header-mark"></a>遗传算法</h2><h2 id="统计学习方法" class="headerLink">
-    <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h2 id="首次展示knn" class="headerLink">
-    <a href="#%e9%a6%96%e6%ac%a1%e5%b1%95%e7%a4%baknn" class="header-mark"></a>首次展示：kNN</h2><h3 id="分类问题1" class="headerLink">
-    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3><ul>
+                <img src="https://z1.ax1x.com/2023/11/01/piuKE6K.png" referrerpolicy="no-referrer">
+            </div><h2 id="分类问题1" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><ul>
 <li>
 <p>一种监督学习问题，旨在对数据分类</p>
 </li>
@@ -78,9 +34,9 @@
 <p>图像识别</p>
 </li>
 </ul>
-<h3 id="knn模型构建" class="headerLink">
-    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba" class="header-mark"></a>kNN模型构建</h3><h4 id="提出2" class="headerLink">
-    <a href="#%e6%8f%90%e5%87%ba2" class="header-mark"></a>提出<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h4><p>$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$
+<h2 id="knn模型构建" class="headerLink">
+    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba" class="header-mark"></a>kNN模型构建</h2><h3 id="提出2" class="headerLink">
+    <a href="#%e6%8f%90%e5%87%ba2" class="header-mark"></a>提出<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3><p>$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$
 $$y_i\in\mathcal{Y}={c_1,c_2,\cdots,c_K}$$
 $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <ul>
@@ -116,8 +72,8 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <li>存储成本高</li>
 <li>“维度灾难”和数据不平衡</li>
 </ol>
-<h4 id="构建流程" class="headerLink">
-    <a href="#%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>构建流程</h4><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
+<h3 id="构建流程" class="headerLink">
+    <a href="#%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>构建流程</h3><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
 <ol>
 <li>在训练集 T 中找出与 x 最邻近的 k 个点，涵盖这 个点的 x 的邻域记作 $N_k(a)$</li>
 <li>在 $N_k(a)$ 中根据分类决策规则决定 x 的类别 y</li>
@@ -132,9 +88,9 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 </a>
 <p class="img-desc" style="text-align: center">▲ 特征空间划分。</p>
 <p>特殊情况：最近邻（k=1）</p>
-<h3 id="模型要素" class="headerLink">
-    <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h3><h4 id="k-值选择" class="headerLink">
-    <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h4><table>
+<h2 id="模型要素" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h2><h3 id="k-值选择" class="headerLink">
+    <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h3><table>
 <thead>
 <tr>
 <th>k值</th>
@@ -156,8 +112,8 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 </tbody>
 </table>
 <p>交叉验证以提高泛化性能。<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
-<h4 id="距离度量9" class="headerLink">
-    <a href="#%e8%b7%9d%e7%a6%bb%e5%ba%a6%e9%87%8f9" class="header-mark"></a>距离度量<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h4><p>对于
+<h3 id="距离度量9" class="headerLink">
+    <a href="#%e8%b7%9d%e7%a6%bb%e5%ba%a6%e9%87%8f9" class="header-mark"></a>距离度量<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h3><p>对于
 $$x_i=(x_i^{(1)}, x_i^{(2)}, \cdots, x_i^{(n)})$$</p>
 <ul>
 <li>$L_p$ 距离
@@ -169,8 +125,8 @@ $$L_1(x_i,x_j)=\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|$$</li>
 <li>$L_\infty$ 距离
 $$L_\infty (x_i,x_j)=\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$</li>
 </ul>
-<h4 id="决策规则" class="headerLink">
-    <a href="#%e5%86%b3%e7%ad%96%e8%a7%84%e5%88%99" class="header-mark"></a>决策规则</h4><p><strong>多数表决</strong>
+<h3 id="决策规则" class="headerLink">
+    <a href="#%e5%86%b3%e7%ad%96%e8%a7%84%e5%88%99" class="header-mark"></a>决策规则</h3><p><strong>多数表决</strong>
 由输入实例的 k 个邻近的训练实例中的多数类决定输入实例的类。</p>
 <ul>
 <li>分类函数
@@ -180,9 +136,9 @@ $$P(Y\ne f(X))=1-P(Y=f(X))$$</li>
 <li>等价于风险经验最小化
 $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</li>
 </ul>
-<h3 id="模型预测" class="headerLink">
-    <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h3><h4 id="预测流程" class="headerLink">
-    <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
+<h2 id="模型预测" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h2><h3 id="预测流程" class="headerLink">
+    <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h3><p>首先引入最简单的思路：线性扫描的方法。</p>
 <a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
 </a>
 <p class="img-desc" style="text-align: center">▲ kNN算法流程可视化。</p>
@@ -201,8 +157,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </li>
 <li>重复步骤，完成对所有点的预测分类</li>
 </ol>
-<h4 id="python实现" class="headerLink">
-    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
+<h3 id="python实现" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -254,7 +210,7 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </span></span><span class="line"><span class="cl">        <span class="n">k_nearest_labels</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">y_train</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">k_indices</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">        <span class="n">most_common</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">k_nearest_labels</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">most_common</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># 一个简单的例子：</span>
+</span></span><span class="line"><span class="cl"> <span class="n">一个简单的例子</span><span class="err">：</span>
 </span></span><span class="line"><span class="cl"><span class="n">X_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
 </span></span><span class="line"><span class="cl"><span class="n">y_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
 </span></span><span class="line"><span class="cl"><span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
@@ -264,9 +220,9 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="改进" class="headerLink">
-    <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h3><h4 id="主要挑战" class="headerLink">
-    <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h4><ol>
+</div><h2 id="改进" class="headerLink">
+    <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h2><h3 id="主要挑战" class="headerLink">
+    <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h3><ol>
 <li>前置处理：特征的选择</li>
 <li>模型
 <ul>
@@ -276,8 +232,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </ul>
 </li>
 </ol>
-<h4 id="kd树" class="headerLink">
-    <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h4><p>一种二叉树数据结构，用于优化搜索算法。</p>
+<h3 id="kd树" class="headerLink">
+    <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h3><p>一种二叉树数据结构，用于优化搜索算法。</p>
 <p><strong>优势：</strong></p>
 <ol>
 <li>降低搜索维度</li>
@@ -286,8 +242,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>支持范围搜索</li>
 </ol>
 <p>可能因数据的特定分布而表现不佳。<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
-<h5 id="构造11" class="headerLink">
-    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
+<h4 id="构造11" class="headerLink">
+    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
 </a>
 <p class="img-desc" style="text-align: center">▲ kd树的构造。</p>
 <ol>
@@ -306,12 +262,12 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>空间切分参照：坐标轴</li>
 <li>切分点的选择：中位数</li>
 </ul>
-<h5 id="搜索" class="headerLink">
-    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+<h4 id="搜索" class="headerLink">
+    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
 </a>
 <p class="img-desc" style="text-align: center">▲ kd树的搜索。</p>
-<h5 id="算法" class="headerLink">
-    <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h5><p>[输入] 已构造的 kd 树，目标点 x;</p>
+<h4 id="算法" class="headerLink">
+    <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h4><p>[输入] 已构造的 kd 树，目标点 x;</p>
 <p>[输出] x 的 k 近邻。</p>
 <ol>
 <li>在 kd 树中找出包含目标点 x 的叶结点：从根结点出发，递归地向下访问 kd 树。若目标点 x 当前维的坐标小于切分点的坐标，则移动到左子结点，否则移动到右子结点，直到子结点为叶结点为止。</li>
@@ -326,8 +282,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>当回退到根结点时，搜索结束(若此时“当前 k 近邻点集”中的元素不足 k 个，则需要访问另一半树的结点)。</li>
 <li>最后的“当前 k 近邻点集”中的 k 个点即为 x 的 k 近邻点。</li>
 </ol>
-<h5 id="python实现-1" class="headerLink">
-    <a href="#python%e5%ae%9e%e7%8e%b0-1" class="header-mark"></a>Python实现</h5><div class="highlight"><div class="chroma">
+<h4 id="python实现-1" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0-1" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -451,8 +407,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predict</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h4 id="马氏距离" class="headerLink">
-    <a href="#%e9%a9%ac%e6%b0%8f%e8%b7%9d%e7%a6%bb" class="header-mark"></a>马氏距离</h4><p>由P.C. Mahalanobis提出；基于样本分布的一种距离测量。</p>
+</div><h3 id="马氏距离" class="headerLink">
+    <a href="#%e9%a9%ac%e6%b0%8f%e8%b7%9d%e7%a6%bb" class="header-mark"></a>马氏距离</h3><p>由P.C. Mahalanobis提出；基于样本分布的一种距离测量。</p>
 <ul>
 <li>考虑特征之间的相关性</li>
 <li>对数据的缩放不敏感</li>
@@ -474,7 +430,7 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </li>
 <li id="fn:2">
 <p>KNN算法于1948年由Cover和Hart提出。<br>
-存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每个数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。一般来说，只选择样本数据集中前k个最相似的数据。k一般不大于20，最后，选择k个中出现次数最多的分类，作为新数据的分类。<br>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每个数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。一般来说，只选择样本数据集中前k个最相似的数据。k一般不大于20，最后，选择k个中出现次数最多的分类，作为新数据的分类。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
 <p>数值型数据是指具有数量意义的数据，可以进行数学运算和比较。这种数据通常表示为数字，例如年龄、温度、身高等。在机器学习中，数值型数据常用于回归分析和连续变量的预测。标称型数据则是指无序分类的数据，其中每个值代表一个类别而没有数量意义。标称型数据通常表示为符号或字符串，例如血型、性别、品种等。在机器学习中，标称型数据通常用于分类问题，其中算法需要将输入数据映射到预定义的类别或标签。<br>
@@ -484,7 +440,7 @@ k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型
 时间序列数据：时间序列数据是按照时间顺序排列的数据集合，通常是在一系列连续时间点上收集的数据。例如，股票价格、天气数据、经济指标等都属于时间序列数据。<br>
 区间型数据：区间型数据是指数据值表示某个范围内的值，而不是特定的数值。这种数据类型通常用于表示测量的范围。例如，温度范围、年龄段等可以被视为区间型数据。<br>
 比率型数据：比率型数据是具有固定比例关系的数据类型，其中数据之间存在明确的比率关系。比率型数据具有绝对零点，可以进行比较和数学运算。例如，长度、重量、时间间隔等都属于比率型数据。<br>
-文本数据：文本数据是指以自然语言形式表示的数据，通常包含语句、段落或文档。处理文本数据通常需要使用自然语言处理技术来提取、转换和分析文本信息。<br>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+文本数据：文本数据是指以自然语言形式表示的数据，通常包含语句、段落或文档。处理文本数据通常需要使用自然语言处理技术来提取、转换和分析文本信息。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
 <p>老师反馈：这里的表述并不严谨，模型需要通过交叉验证来确认参数 k&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
@@ -493,13 +449,13 @@ k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型
 <p>简单直观，非参数化：kNN 是一种非参数化方法，不对数据的分布做任何假设。因此，在处理复杂的数据集和未知的数据分布时，它通常具有很好的适应性。<br>
 对异常值鲁棒：kNN 对异常值比较鲁棒，因为它基于周围数据点的多数投票来确定分类，可以减少异常值对结果的影响。<br>
 适应多类别问题：kNN 能够很好地适应多类别分类问题，因为它可以通过投票的方式来确定一个实例所属的类别。<br>
-但是对高维数据的处理效率较低，需要大量的存储空间和计算时间；在数据不平衡或噪声较多的情况下，它可能会产生较差的分类结果。<br>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+但是对高维数据的处理效率较低，需要大量的存储空间和计算时间；在数据不平衡或噪声较多的情况下，它可能会产生较差的分类结果。&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:6">
 <p>计算成本高：kNN 算法需要计算每个测试点与所有训练点之间的距离，因此在处理大规模数据集时，计算成本会变得非常高。<br>
 存储成本高：除了计算成本高外，kNN 算法还需要存储整个训练集，这对于大规模数据集来说会占用大量的存储空间。<br>
 维度灾难：随着数据维度的增加，kNN 算法的性能可能会下降，因为在高维空间中，数据点之间的距离变得更加稀疏，导致算法的效率降低。<br>
-数据不平衡问题：在处理数据不平衡或噪声较多的数据集时，kNN 算法可能会受到数据分布的影响，从而导致分类性能下降。<br>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+数据不平衡问题：在处理数据不平衡或噪声较多的数据集时，kNN 算法可能会受到数据分布的影响，从而导致分类性能下降。&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:7">
 <p>近似误差是指模型用于近似真实关系的误差，通常表示模型与真实值之间的差异。<br>
@@ -542,6 +498,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGKJ0.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -551,8 +508,10 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 🧑‍🏫 俞彬<br>
 📝 40%平时（两次问卷调查），60%论文</div>
         </div>
+        
     </div>
 <div class="details admonition note open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -572,6 +531,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ul>
 </div>
         </div>
+        
     </div>
 <h2 id="lecture1" class="headerLink">
     <a href="#lecture1" class="header-mark"></a>Lecture1.</h2><blockquote>
@@ -760,6 +720,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -769,8 +730,10 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 🧑‍🏫 王伟<br>
 📝 20%小测，20%作业，60%期末</div>
         </div>
+        
     </div>
 <div class="details admonition note open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -798,6 +761,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ul>
 </div>
         </div>
+        
     </div>
 <h2 id="ch1-距离空间" class="headerLink">
     <a href="#ch1-%e8%b7%9d%e7%a6%bb%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch1. 距离空间</h2><ul>
@@ -1019,6 +983,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1028,8 +993,10 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 🧑‍🏫 齐治<br>
 📝 40%作业，60%期末</div>
         </div>
+        
     </div>
 <div class="details admonition note open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1041,6 +1008,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ul>
 </div>
         </div>
+        
     </div>
 <h2 id="ch1-复分析预备知识" class="headerLink">
     <a href="#ch1-%e5%a4%8d%e5%88%86%e6%9e%90%e9%a2%84%e5%a4%87%e7%9f%a5%e8%af%86" class="header-mark"></a>Ch1. 复分析预备知识</h2><h2 id="ch2-柯西定理及应用" class="headerLink">
@@ -1061,6 +1029,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAWIwd.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1070,6 +1039,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 🧑‍🏫 许威威<br>
 📝 50%作业，50%期末</div>
         </div>
+        
     </div>
 <h2 id="介绍1" class="headerLink">
     <a href="#%e4%bb%8b%e7%bb%8d1" class="header-mark"></a>介绍<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><p>Buzzwords</p>
@@ -1188,6 +1158,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1197,8 +1168,10 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 🧑‍🏫 鲁汪涛，孔德兴<br>
 📝 作业，（小测，）期末考试</div>
         </div>
+        
     </div>
 <div class="details admonition note open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1265,6 +1238,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ul>
 </div>
         </div>
+        
     </div>
 <h2 id="引言" class="headerLink">
     <a href="#%e5%bc%95%e8%a8%80" class="header-mark"></a>引言</h2><h3 id="发展史" class="headerLink">
@@ -1475,6 +1449,7 @@ $$]]></description>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1484,8 +1459,10 @@ $$]]></description>
 🧑‍🏫 贾厚玉<br>
 📝 20%小测，20%作业，60%期末</div>
         </div>
+        
     </div>
 <div class="details admonition note open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1508,6 +1485,7 @@ $$]]></description>
 </ul>
 </div>
         </div>
+        
     </div>
 <h2 id="集合" class="headerLink">
     <a href="#%e9%9b%86%e5%90%88" class="header-mark"></a>集合</h2><ul>
@@ -1820,6 +1798,7 @@ $$]]></description>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1829,8 +1808,10 @@ $$]]></description>
 🧑‍🏫 郭正初<br>
 📝 20%课后作业，15%读书报告，15%编程作业，50%期末考试</div>
         </div>
+        
     </div>
 <div class="details admonition note open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1859,6 +1840,7 @@ $$]]></description>
 </ul>
 </div>
         </div>
+        
     </div>
 <h2 id="ch1-机器学习概论" class="headerLink">
     <a href="#ch1-%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0%e6%a6%82%e8%ae%ba" class="header-mark"></a>(Ch1) 机器学习概论</h2><blockquote>
@@ -2364,6 +2346,7 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -2373,8 +2356,10 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 🧑‍🏫 张庆海<br>
 📝 40%平时，60%期末</div>
         </div>
+        
     </div>
 <div class="details admonition note open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -2385,6 +2370,7 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 </ul>
 </div>
         </div>
+        
     </div>
 <h2 id="ch7-bvp-fd" class="headerLink">
     <a href="#ch7-bvp-fd" class="header-mark"></a>(Ch7) BVP-FD</h2><blockquote>
@@ -2564,12 +2550,14 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
                 <img src="https://z1.ax1x.com/2023/10/23/piA8qxO.png" referrerpolicy="no-referrer">
             </div><h2 id="思考题-1" class="headerLink">
     <a href="#%e6%80%9d%e8%80%83%e9%a2%98-1" class="header-mark"></a>思考题 1</h2><div class="details admonition tip open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-lightbulb fa-fw"></i>选题<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">制度创新与中国式现代化。</div>
         </div>
+        
     </div>
 <p>从卸下旧社会三座大山到迈向现代化强国建设新征程，中国在站起来、富起来、强起来的历史脉络中找到了一条自主适定、以制度创新一以贯之的独特现代化道路，以思想理念引领，并从其战略与战术中分别派生完备架构与动态规制的实践，宣告了历史终结论和西方单线路径依赖史观的破产。</p>
 <p>战略上<strong>知行交互</strong>。始终以理论指引实践，实事求是，统筹人文地理、阶层产业等规模和结构的特有国情，在社会主义原则下顺应先进生产力方向，通过顶层设计明晰目标，把握民族复兴国家富强的总体方向，规范了现代化的中心任务、原则和本质要求。此外，以实践导向反馈理论创新，在改革试验和制度化积累的循环中，逐渐建构起从粗放到集约、创新协调绿色开放共享的现代化发展模式，服务于最广大人民根本利益，在各个阶段锚定顺应现实规律的着力点。</p>
@@ -2580,12 +2568,14 @@ Cucker and Ding-Xuan Zhou, Cambridge Univesity Press, 2007.</li>
 <p style="text-align:right">（984字）</p>
 <h2 id="思考题-26" class="headerLink">
     <a href="#%e6%80%9d%e8%80%83%e9%a2%98-26" class="header-mark"></a>思考题 2<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><div class="details admonition tip open">
+        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-lightbulb fa-fw"></i>选题<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">从劳动分工和异化劳动等视角，探究“大国大城”论与“美丽乡村”论之间的辩证统一关系。</div>
         </div>
+        
     </div>
 <p>“大国大城”论与“美丽乡村”论映射出了社会经济发展之于二元的城市和乡村取向模式的路径差异。前者渴望通过规模扩张与分工细化获得更优效率收益，后者考量劳动异化和剩余价值，指出乡村百业兴旺模式以效率代价兼顾劳动者的公平。</p>
 <p>发展大城市和乡村振兴在形式上<strong>存在对立</strong>。城市化意味着生产资料的集中化，人才积聚、资本汇集建构起庞大规模且高度分工协作的产业网络。然而，在市场决定资源配置和私有制资本普遍存在的当代，社会生产过程是产生使用价值的劳动过程和派生剩余价值的价值增殖过程的统一，劳动创造价值，但剩余价值往往被占据支配地位者褫夺。高度社会分工下，规模且系统的工作被分解为简单的流程，个体沦为重复工作的机器，而生产的社会化和所有制的私有进一步割裂了劳动者与它的劳动成果，后者被货币化统一衡量、以商品形式在市场上高速流通，个体的价值被矮化为一套单一维度标准体系下的投入与产出过程，劳动者变为可被交易的生产要素。分工严重阻碍了人的自由全面发展，作为集体的城市得到了更高的收益，但作为个体的劳动者却缺省了应有的公平。</p>

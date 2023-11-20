@@ -7,6 +7,8 @@
   <p class="now">/&nbsp;西区春景</p>
 </div>
 
+---
+
 {{< quote-center >}}
 人面不知何处去，<br>
 桃花依旧笑春风。

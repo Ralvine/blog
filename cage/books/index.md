@@ -11,7 +11,7 @@
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">图书</p>&nbsp;
-  <a href="../books-kanwu"><p class="not">刊物</p></a>&nbsp;
+  <a href="../books-kanwu"><p class="not">媒体</p></a>&nbsp;
   <a href="../books-wenxian"><p class="not">文献</p></a>
   <p class="bord">]</p>
 </div>

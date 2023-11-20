@@ -7,19 +7,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
-    <title>数学前沿专题讨论 - 暮瞻</title><meta name="Description" content="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。"><meta property="og:title" content="数学前沿专题讨论" />
-<meta property="og:description" content="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" />
+    <title>分类问题中的 k 近邻法 - 暮瞻</title><meta name="Description" content="kNN算法是一种基于特征向量空间的分类和回归算法，通过测量不同特征值之间的距离来进行预测。"><meta property="og:title" content="分类问题中的 k 近邻法" />
+<meta property="og:description" content="kNN算法是一种基于特征向量空间的分类和回归算法，通过测量不同特征值之间的距离来进行预测。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.ralvines.top/qianyan/" /><meta property="og:image" content="https://z1.ax1x.com/2023/11/01/pinHqnH.png" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://blog.ralvines.top/qianyan/" /><meta property="og:image" content="https://blog.ralvines.top/images/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-10-30T20:20:40+08:00" />
 <meta property="article:modified_time" content="2023-10-30T20:25:40+08:00" /><meta property="og:site_name" content="暮瞻" />
 
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://z1.ax1x.com/2023/11/01/pinHqnH.png"/>
+<meta name="twitter:image" content="https://blog.ralvines.top/images/logo.png"/>
 
-<meta name="twitter:title" content="数学前沿专题讨论"/>
-<meta name="twitter:description" content="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。"/>
+<meta name="twitter:title" content="分类问题中的 k 近邻法"/>
+<meta name="twitter:description" content="kNN算法是一种基于特征向量空间的分类和回归算法，通过测量不同特征值之间的距离来进行预测。"/>
 <meta name="application-name" content="暮瞻">
 <meta name="apple-mobile-web-app-title" content="暮瞻">
 
@@ -29,18 +29,18 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "数学前沿专题讨论",
+        "headline": "分类问题中的 k 近邻法",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blog.ralvines.top\/qianyan\/"
-        },"genre": "posts","keywords": "数学, 毕惟红","wordcount":  5695 ,
+        },"genre": "posts","keywords": "统计学习方法","wordcount":  5612 ,
         "url": "https:\/\/blog.ralvines.top\/qianyan\/","datePublished": "2023-10-30T20:20:40+08:00","dateModified": "2023-10-30T20:25:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"authors": [{
                         "@type": "Person",
                         "name": "Ralvine"                    
-                    }],"description": "毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。"
+                    }],"description": "kNN算法是一种基于特征向量空间的分类和回归算法，通过测量不同特征值之间的距离来进行预测。"
     }
     </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 </head>
@@ -244,59 +244,48 @@
 </aside><div class="toc" id="toc-auto">
         <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
   <ul>
-    <li><a href="#背景">背景</a>
+    <li><a href="#分类问题1">分类问题</a></li>
+    <li><a href="#knn模型构建">kNN模型构建</a>
       <ul>
-        <li><a href="#研究方向">研究方向</a></li>
+        <li><a href="#提出2">提出</a></li>
+        <li><a href="#构建流程">构建流程</a></li>
       </ul>
     </li>
-    <li><a href="#遗传算法">遗传算法</a></li>
-    <li><a href="#统计学习方法">统计学习方法</a></li>
-    <li><a href="#首次展示knn">首次展示：kNN</a>
+    <li><a href="#模型要素">模型要素</a>
       <ul>
-        <li><a href="#分类问题1">分类问题</a></li>
-        <li><a href="#knn模型构建">kNN模型构建</a>
+        <li><a href="#k-值选择">k 值选择</a></li>
+        <li><a href="#距离度量9">距离度量</a></li>
+        <li><a href="#决策规则">决策规则</a></li>
+      </ul>
+    </li>
+    <li><a href="#模型预测">模型预测</a>
+      <ul>
+        <li><a href="#预测流程">预测流程</a></li>
+        <li><a href="#python实现">Python实现</a></li>
+      </ul>
+    </li>
+    <li><a href="#改进">改进</a>
+      <ul>
+        <li><a href="#主要挑战">主要挑战</a></li>
+        <li><a href="#kd树">kd树</a>
           <ul>
-            <li><a href="#提出2">提出</a></li>
-            <li><a href="#构建流程">构建流程</a></li>
+            <li><a href="#构造11">构造</a></li>
+            <li><a href="#搜索">搜索</a></li>
+            <li><a href="#算法">算法</a></li>
+            <li><a href="#python实现-1">Python实现</a></li>
           </ul>
         </li>
-        <li><a href="#模型要素">模型要素</a>
-          <ul>
-            <li><a href="#k-值选择">k 值选择</a></li>
-            <li><a href="#距离度量9">距离度量</a></li>
-            <li><a href="#决策规则">决策规则</a></li>
-          </ul>
-        </li>
-        <li><a href="#模型预测">模型预测</a>
-          <ul>
-            <li><a href="#预测流程">预测流程</a></li>
-            <li><a href="#python实现">Python实现</a></li>
-          </ul>
-        </li>
-        <li><a href="#改进">改进</a>
-          <ul>
-            <li><a href="#主要挑战">主要挑战</a></li>
-            <li><a href="#kd树">kd树</a>
-              <ul>
-                <li><a href="#构造11">构造</a></li>
-                <li><a href="#搜索">搜索</a></li>
-                <li><a href="#算法">算法</a></li>
-                <li><a href="#python实现-1">Python实现</a></li>
-              </ul>
-            </li>
-            <li><a href="#马氏距离">马氏距离</a></li>
-          </ul>
-        </li>
+        <li><a href="#马氏距离">马氏距离</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">数学前沿专题讨论</h1><div class="post-meta">
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">分类问题中的 k 近邻法</h1><div class="post-meta">
             <div class="post-meta-line">
                 
                <span class="post-category"><a href="/categories/%E7%AC%94%E8%AE%B0/"><i class="far fa-folder fa-fw"></i>笔记</a></span>&nbsp;<span class="post-category"></span>&nbsp;<span class="post-series"><a href="/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/"><i class="far fa-list-alt fa-fw"></i>本科课程</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;5695 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;12 分钟&nbsp;<span id="/qianyan/" class="leancloud_visitors" data-flag-title="数学前沿专题讨论">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;5612 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;12 分钟&nbsp;<span id="/qianyan/" class="leancloud_visitors" data-flag-title="分类问题中的 k 近邻法">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -306,99 +295,44 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#背景">背景</a>
+    <li><a href="#分类问题1">分类问题</a></li>
+    <li><a href="#knn模型构建">kNN模型构建</a>
       <ul>
-        <li><a href="#研究方向">研究方向</a></li>
+        <li><a href="#提出2">提出</a></li>
+        <li><a href="#构建流程">构建流程</a></li>
       </ul>
     </li>
-    <li><a href="#遗传算法">遗传算法</a></li>
-    <li><a href="#统计学习方法">统计学习方法</a></li>
-    <li><a href="#首次展示knn">首次展示：kNN</a>
+    <li><a href="#模型要素">模型要素</a>
       <ul>
-        <li><a href="#分类问题1">分类问题</a></li>
-        <li><a href="#knn模型构建">kNN模型构建</a>
+        <li><a href="#k-值选择">k 值选择</a></li>
+        <li><a href="#距离度量9">距离度量</a></li>
+        <li><a href="#决策规则">决策规则</a></li>
+      </ul>
+    </li>
+    <li><a href="#模型预测">模型预测</a>
+      <ul>
+        <li><a href="#预测流程">预测流程</a></li>
+        <li><a href="#python实现">Python实现</a></li>
+      </ul>
+    </li>
+    <li><a href="#改进">改进</a>
+      <ul>
+        <li><a href="#主要挑战">主要挑战</a></li>
+        <li><a href="#kd树">kd树</a>
           <ul>
-            <li><a href="#提出2">提出</a></li>
-            <li><a href="#构建流程">构建流程</a></li>
+            <li><a href="#构造11">构造</a></li>
+            <li><a href="#搜索">搜索</a></li>
+            <li><a href="#算法">算法</a></li>
+            <li><a href="#python实现-1">Python实现</a></li>
           </ul>
         </li>
-        <li><a href="#模型要素">模型要素</a>
-          <ul>
-            <li><a href="#k-值选择">k 值选择</a></li>
-            <li><a href="#距离度量9">距离度量</a></li>
-            <li><a href="#决策规则">决策规则</a></li>
-          </ul>
-        </li>
-        <li><a href="#模型预测">模型预测</a>
-          <ul>
-            <li><a href="#预测流程">预测流程</a></li>
-            <li><a href="#python实现">Python实现</a></li>
-          </ul>
-        </li>
-        <li><a href="#改进">改进</a>
-          <ul>
-            <li><a href="#主要挑战">主要挑战</a></li>
-            <li><a href="#kd树">kd树</a>
-              <ul>
-                <li><a href="#构造11">构造</a></li>
-                <li><a href="#搜索">搜索</a></li>
-                <li><a href="#算法">算法</a></li>
-                <li><a href="#python实现-1">Python实现</a></li>
-              </ul>
-            </li>
-            <li><a href="#马氏距离">马氏距离</a></li>
-          </ul>
-        </li>
+        <li><a href="#马氏距离">马氏距离</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2023-2024 秋冬<br>
-🧑‍🏫 毕惟红<br>
-📝 50%读书报告，10%考勤，10%编程，30%两次展示</div>
-        </div>
-    </div>
-<h2 id="背景" class="headerLink">
-    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><ol>
-<li>浙大 计算数学</li>
-<li>研究生
-<ul>
-<li>数字模拟 投影法求曲面面积</li>
-<li>随机数生成 数值代数 多元非线性方程组求解</li>
-</ul>
-</li>
-</ol>
-<h3 id="研究方向" class="headerLink">
-    <a href="#%e7%a0%94%e7%a9%b6%e6%96%b9%e5%90%91" class="header-mark"></a>研究方向</h3><ol>
-<li>图像处理
-<ul>
-<li>图像分割 图像识别</li>
-<li>图像加密 做的比较好</li>
-</ul>
-</li>
-<li>语义识别
-<ul>
-<li>三维点式数据（无人驾驶、激光雷达）</li>
-</ul>
-</li>
-<li>社区发现
-<ul>
-<li>复杂网络</li>
-<li>拟牛顿</li>
-</ul>
-</li>
-</ol>
-<h2 id="遗传算法" class="headerLink">
-    <a href="#%e9%81%97%e4%bc%a0%e7%ae%97%e6%b3%95" class="header-mark"></a>遗传算法</h2><h2 id="统计学习方法" class="headerLink">
-    <a href="#%e7%bb%9f%e8%ae%a1%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95" class="header-mark"></a>统计学习方法</h2><h2 id="首次展示knn" class="headerLink">
-    <a href="#%e9%a6%96%e6%ac%a1%e5%b1%95%e7%a4%baknn" class="header-mark"></a>首次展示：kNN</h2><h3 id="分类问题1" class="headerLink">
-    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3><ul>
+            </div><div class="content" id="content"><h2 id="分类问题1" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><ul>
 <li>
 <p>一种监督学习问题，旨在对数据分类</p>
 </li>
@@ -421,9 +355,9 @@
 <p>图像识别</p>
 </li>
 </ul>
-<h3 id="knn模型构建" class="headerLink">
-    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba" class="header-mark"></a>kNN模型构建</h3><h4 id="提出2" class="headerLink">
-    <a href="#%e6%8f%90%e5%87%ba2" class="header-mark"></a>提出<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h4><p>$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$
+<h2 id="knn模型构建" class="headerLink">
+    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba" class="header-mark"></a>kNN模型构建</h2><h3 id="提出2" class="headerLink">
+    <a href="#%e6%8f%90%e5%87%ba2" class="header-mark"></a>提出<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3><p>$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$
 $$y_i\in\mathcal{Y}={c_1,c_2,\cdots,c_K}$$
 $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <ul>
@@ -459,8 +393,8 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <li>存储成本高</li>
 <li>“维度灾难”和数据不平衡</li>
 </ol>
-<h4 id="构建流程" class="headerLink">
-    <a href="#%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>构建流程</h4><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
+<h3 id="构建流程" class="headerLink">
+    <a href="#%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>构建流程</h3><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
 <ol>
 <li>在训练集 T 中找出与 x 最邻近的 k 个点，涵盖这 个点的 x 的邻域记作 $N_k(a)$</li>
 <li>在 $N_k(a)$ 中根据分类决策规则决定 x 的类别 y</li>
@@ -475,9 +409,9 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKE6K.png" width="50%" alt="特征空间划分"></a>
 <p class="img-desc" style="text-align: center">▲ 特征空间划分。</p>
 <p>特殊情况：最近邻（k=1）</p>
-<h3 id="模型要素" class="headerLink">
-    <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h3><h4 id="k-值选择" class="headerLink">
-    <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h4><table>
+<h2 id="模型要素" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h2><h3 id="k-值选择" class="headerLink">
+    <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h3><table>
 <thead>
 <tr>
 <th>k值</th>
@@ -499,8 +433,8 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 </tbody>
 </table>
 <p>交叉验证以提高泛化性能。<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
-<h4 id="距离度量9" class="headerLink">
-    <a href="#%e8%b7%9d%e7%a6%bb%e5%ba%a6%e9%87%8f9" class="header-mark"></a>距离度量<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h4><p>对于
+<h3 id="距离度量9" class="headerLink">
+    <a href="#%e8%b7%9d%e7%a6%bb%e5%ba%a6%e9%87%8f9" class="header-mark"></a>距离度量<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h3><p>对于
 $$x_i=(x_i^{(1)}, x_i^{(2)}, \cdots, x_i^{(n)})$$</p>
 <ul>
 <li>$L_p$ 距离
@@ -512,8 +446,8 @@ $$L_1(x_i,x_j)=\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|$$</li>
 <li>$L_\infty$ 距离
 $$L_\infty (x_i,x_j)=\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$</li>
 </ul>
-<h4 id="决策规则" class="headerLink">
-    <a href="#%e5%86%b3%e7%ad%96%e8%a7%84%e5%88%99" class="header-mark"></a>决策规则</h4><p><strong>多数表决</strong>
+<h3 id="决策规则" class="headerLink">
+    <a href="#%e5%86%b3%e7%ad%96%e8%a7%84%e5%88%99" class="header-mark"></a>决策规则</h3><p><strong>多数表决</strong>
 由输入实例的 k 个邻近的训练实例中的多数类决定输入实例的类。</p>
 <ul>
 <li>分类函数
@@ -523,9 +457,9 @@ $$P(Y\ne f(X))=1-P(Y=f(X))$$</li>
 <li>等价于风险经验最小化
 $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</li>
 </ul>
-<h3 id="模型预测" class="headerLink">
-    <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h3><h4 id="预测流程" class="headerLink">
-    <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h4><p>首先引入最简单的思路：线性扫描的方法。</p>
+<h2 id="模型预测" class="headerLink">
+    <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h2><h3 id="预测流程" class="headerLink">
+    <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h3><p>首先引入最简单的思路：线性扫描的方法。</p>
 <a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
 <img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKkSx.png" width="50%" alt="kNN算法流程可视化"></a>
 <p class="img-desc" style="text-align: center">▲ kNN算法流程可视化。</p>
@@ -544,8 +478,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </li>
 <li>重复步骤，完成对所有点的预测分类</li>
 </ol>
-<h4 id="python实现" class="headerLink">
-    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
+<h3 id="python实现" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -597,7 +531,7 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </span></span><span class="line"><span class="cl">        <span class="n">k_nearest_labels</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">y_train</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">k_indices</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">        <span class="n">most_common</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">k_nearest_labels</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">most_common</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># 一个简单的例子：</span>
+</span></span><span class="line"><span class="cl"> <span class="n">一个简单的例子</span><span class="err">：</span>
 </span></span><span class="line"><span class="cl"><span class="n">X_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
 </span></span><span class="line"><span class="cl"><span class="n">y_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
 </span></span><span class="line"><span class="cl"><span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
@@ -607,9 +541,9 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="改进" class="headerLink">
-    <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h3><h4 id="主要挑战" class="headerLink">
-    <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h4><ol>
+</div><h2 id="改进" class="headerLink">
+    <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h2><h3 id="主要挑战" class="headerLink">
+    <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h3><ol>
 <li>前置处理：特征的选择</li>
 <li>模型
 <ul>
@@ -619,8 +553,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </ul>
 </li>
 </ol>
-<h4 id="kd树" class="headerLink">
-    <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h4><p>一种二叉树数据结构，用于优化搜索算法。</p>
+<h3 id="kd树" class="headerLink">
+    <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h3><p>一种二叉树数据结构，用于优化搜索算法。</p>
 <p><strong>优势：</strong></p>
 <ol>
 <li>降低搜索维度</li>
@@ -629,8 +563,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>支持范围搜索</li>
 </ol>
 <p>可能因数据的特定分布而表现不佳。<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
-<h5 id="构造11" class="headerLink">
-    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h5><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
+<h4 id="构造11" class="headerLink">
+    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
 <img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKif1.png" width="50%" alt="kd树的构造"></a>
 <p class="img-desc" style="text-align: center">▲ kd树的构造。</p>
 <ol>
@@ -649,12 +583,12 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>空间切分参照：坐标轴</li>
 <li>切分点的选择：中位数</li>
 </ul>
-<h5 id="搜索" class="headerLink">
-    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h5><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+<h4 id="搜索" class="headerLink">
+    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
 <img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKAl6.png" width="50%" alt="kd树的搜索"></a>
 <p class="img-desc" style="text-align: center">▲ kd树的搜索。</p>
-<h5 id="算法" class="headerLink">
-    <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h5><p>[输入] 已构造的 kd 树，目标点 x;</p>
+<h4 id="算法" class="headerLink">
+    <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h4><p>[输入] 已构造的 kd 树，目标点 x;</p>
 <p>[输出] x 的 k 近邻。</p>
 <ol>
 <li>在 kd 树中找出包含目标点 x 的叶结点：从根结点出发，递归地向下访问 kd 树。若目标点 x 当前维的坐标小于切分点的坐标，则移动到左子结点，否则移动到右子结点，直到子结点为叶结点为止。</li>
@@ -669,8 +603,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>当回退到根结点时，搜索结束(若此时“当前 k 近邻点集”中的元素不足 k 个，则需要访问另一半树的结点)。</li>
 <li>最后的“当前 k 近邻点集”中的 k 个点即为 x 的 k 近邻点。</li>
 </ol>
-<h5 id="python实现-1" class="headerLink">
-    <a href="#python%e5%ae%9e%e7%8e%b0-1" class="header-mark"></a>Python实现</h5><div class="highlight"><div class="chroma">
+<h4 id="python实现-1" class="headerLink">
+    <a href="#python%e5%ae%9e%e7%8e%b0-1" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -794,8 +728,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predict</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h4 id="马氏距离" class="headerLink">
-    <a href="#%e9%a9%ac%e6%b0%8f%e8%b7%9d%e7%a6%bb" class="header-mark"></a>马氏距离</h4><p>由P.C. Mahalanobis提出；基于样本分布的一种距离测量。</p>
+</div><h3 id="马氏距离" class="headerLink">
+    <a href="#%e9%a9%ac%e6%b0%8f%e8%b7%9d%e7%a6%bb" class="header-mark"></a>马氏距离</h3><p>由P.C. Mahalanobis提出；基于样本分布的一种距离测量。</p>
 <ul>
 <li>考虑特征之间的相关性</li>
 <li>对数据的缩放不敏感</li>
@@ -817,7 +751,7 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </li>
 <li id="fn:2">
 <p>KNN算法于1948年由Cover和Hart提出。<br>
-存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每个数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。一般来说，只选择样本数据集中前k个最相似的数据。k一般不大于20，最后，选择k个中出现次数最多的分类，作为新数据的分类。<br>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每个数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。一般来说，只选择样本数据集中前k个最相似的数据。k一般不大于20，最后，选择k个中出现次数最多的分类，作为新数据的分类。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
 <p>数值型数据是指具有数量意义的数据，可以进行数学运算和比较。这种数据通常表示为数字，例如年龄、温度、身高等。在机器学习中，数值型数据常用于回归分析和连续变量的预测。标称型数据则是指无序分类的数据，其中每个值代表一个类别而没有数量意义。标称型数据通常表示为符号或字符串，例如血型、性别、品种等。在机器学习中，标称型数据通常用于分类问题，其中算法需要将输入数据映射到预定义的类别或标签。<br>
@@ -827,7 +761,7 @@ k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型
 时间序列数据：时间序列数据是按照时间顺序排列的数据集合，通常是在一系列连续时间点上收集的数据。例如，股票价格、天气数据、经济指标等都属于时间序列数据。<br>
 区间型数据：区间型数据是指数据值表示某个范围内的值，而不是特定的数值。这种数据类型通常用于表示测量的范围。例如，温度范围、年龄段等可以被视为区间型数据。<br>
 比率型数据：比率型数据是具有固定比例关系的数据类型，其中数据之间存在明确的比率关系。比率型数据具有绝对零点，可以进行比较和数学运算。例如，长度、重量、时间间隔等都属于比率型数据。<br>
-文本数据：文本数据是指以自然语言形式表示的数据，通常包含语句、段落或文档。处理文本数据通常需要使用自然语言处理技术来提取、转换和分析文本信息。<br>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+文本数据：文本数据是指以自然语言形式表示的数据，通常包含语句、段落或文档。处理文本数据通常需要使用自然语言处理技术来提取、转换和分析文本信息。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
 <p>老师反馈：这里的表述并不严谨，模型需要通过交叉验证来确认参数 k&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
@@ -836,13 +770,13 @@ k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型
 <p>简单直观，非参数化：kNN 是一种非参数化方法，不对数据的分布做任何假设。因此，在处理复杂的数据集和未知的数据分布时，它通常具有很好的适应性。<br>
 对异常值鲁棒：kNN 对异常值比较鲁棒，因为它基于周围数据点的多数投票来确定分类，可以减少异常值对结果的影响。<br>
 适应多类别问题：kNN 能够很好地适应多类别分类问题，因为它可以通过投票的方式来确定一个实例所属的类别。<br>
-但是对高维数据的处理效率较低，需要大量的存储空间和计算时间；在数据不平衡或噪声较多的情况下，它可能会产生较差的分类结果。<br>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+但是对高维数据的处理效率较低，需要大量的存储空间和计算时间；在数据不平衡或噪声较多的情况下，它可能会产生较差的分类结果。&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:6">
 <p>计算成本高：kNN 算法需要计算每个测试点与所有训练点之间的距离，因此在处理大规模数据集时，计算成本会变得非常高。<br>
 存储成本高：除了计算成本高外，kNN 算法还需要存储整个训练集，这对于大规模数据集来说会占用大量的存储空间。<br>
 维度灾难：随着数据维度的增加，kNN 算法的性能可能会下降，因为在高维空间中，数据点之间的距离变得更加稀疏，导致算法的效率降低。<br>
-数据不平衡问题：在处理数据不平衡或噪声较多的数据集时，kNN 算法可能会受到数据分布的影响，从而导致分类性能下降。<br>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+数据不平衡问题：在处理数据不平衡或噪声较多的数据集时，kNN 算法可能会受到数据分布的影响，从而导致分类性能下降。&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:7">
 <p>近似误差是指模型用于近似真实关系的误差，通常表示模型与真实值之间的差异。<br>
@@ -892,7 +826,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
             </div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
 
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%95%B0%E5%AD%A6/">数学</a>,&nbsp;<a href="/tags/%E6%AF%95%E6%83%9F%E7%BA%A2/">毕惟红</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/">统计学习方法</a></section>
 
 
         <div class="post-info-line">
@@ -908,83 +842,6 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
             <a href="/gre-ielts/" class="next" rel="next" title="GRE &amp; IELTS：备考实录">GRE &amp; IELTS：备考实录<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 
-
-
-<div class="related-container">
-    <div class="related-text">相关内容</div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/gdds/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/11/05/piQylSs.png"
-        srcset="https://z1.ax1x.com/2023/11/05/piQylSs.png, https://z1.ax1x.com/2023/11/05/piQylSs.png 1.5x, https://z1.ax1x.com/2023/11/05/piQylSs.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/11/05/piQylSs.png"
-        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/gdds/">高等代数学习与备考</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/sxfx/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/11/05/piQy1ln.png"
-        srcset="https://z1.ax1x.com/2023/11/05/piQy1ln.png, https://z1.ax1x.com/2023/11/05/piQy1ln.png 1.5x, https://z1.ax1x.com/2023/11/05/piQy1ln.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/11/05/piQy1ln.png"
-        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/sxfx/">数学分析学习与备考</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/fhfx/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/fhfx/">泛函分析</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/fbhs/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/fbhs/">复变函数</a>
-            </h2>
-        </div>
-    <div class="related-item-container">
-            <div class="related-image">
-                <a href="/sjjm/"><img
-        
-        loading="lazy"
-        src="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        srcset="https://z1.ax1x.com/2023/10/23/piAW5eH.png, https://z1.ax1x.com/2023/10/23/piAW5eH.png 1.5x, https://z1.ax1x.com/2023/10/23/piAW5eH.png 2x"
-        sizes="auto"
-        alt="https://z1.ax1x.com/2023/10/23/piAW5eH.png"
-        title="毕老师恰巧也是我的毕业设计导师，第一次课程上所介绍的研究背景与方向恰好同自己的兴趣领域特别匹配。" height="200"   width="400" ></a>
-            </div><h2 class="related-title">
-                <a href="/sjjm/">数据建模与分析</a>
-            </h2>
-        </div>
-    
-
-</div>
 
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
@@ -1023,7 +880,11 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script type="module">
+import jdrouetAppleColorEmoji from 'https://cdn.jsdelivr.net/npm/jdrouet-apple-color-emoji@1.0.0/+esm'
+</script><div class="assets"><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
         <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/extra.css" customAttribute>
         <noscript><link rel="stylesheet" href="/extra.css" customAttribute></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"KEokTvqncSnkpSOc1tsOWa4M-gzGzoHsz","appKey":"IrISHvDjPwnvBj2sxGoiXkKG","avatar":"monsterid","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-apple@5.0.1/img/apple/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":true,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"在此输入你的评论（使用Gravatar或QQ邮箱可以匹配对应的社交头像）...","recordIP":true,"serverURLs":"https://keoktvqn.lc-cn-n1-shared.com","visitor":true}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true}};</script><script type="text/javascript" src="/lib/valine/Valine.min.js" defer></script><script type="text/javascript" src="/js/valine.min.js" defer></script><script type="text/javascript" src="/lib/tablesort/tablesort.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>

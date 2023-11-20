@@ -1,9 +1,9 @@
-# ⚙️
+# 探索
 
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;收藏</p>
+  <p class="now">/&nbsp;🔦</p>
 </div>
 
 ---

@@ -7,6 +7,8 @@
   <p class="now">/&nbsp;新疆</p>
 </div>
 
+---
+
 <div class="group-picture">
   <div class="group-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/65533893c458853aefd5135f.jpg" title="昆虫。" data-thumbnail="https://pic.imgdb.cn/item/65533893c458853aefd5135f.jpg">
