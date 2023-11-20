@@ -55,5 +55,6 @@
 
 <center><p class="tabtag">👉 交换友链</p></center>
 
-点击<p class="tabtag"><a href="https://wj.qq.com/s2/13631849/44ac/">这里</p></a>以申请收录、更改或删除您的站点。
+<center>点击<p class="tabtag"><a href="https://wj.qq.com/s2/13631849/44ac/">这里</p></a>以申请收录、更改或删除您的站点。</center>
+
 
