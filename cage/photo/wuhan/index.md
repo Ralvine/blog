@@ -11,18 +11,26 @@
 
 {{< admonition question "湖北省·武汉市" true false >}}
 ☁️ 昔人已乘黄鹤去，此地空余黄鹤楼。<br>
-🕙 2023.04.29-05.01<br>
+🕙 2023.04.27-04.30<br>
 📝 假期旅行<br>
 🔗 [火车开往破晓——武汉小记](../../../wuhan)
 {{< /admonition >}}
 
 {{< admonition tip "行程" true false >}}
-- **04.29** 
-- **04.30** 
-- **05.01** 
+- **04.27** 杭州-汉口站-光谷步行街
+- **04.28** 湖北省博物馆-武汉大学-东湖-万松园
+- **04.29** 昙华林-粮道街-司门口-黄鹤楼-长江大桥-江汉路
+- **04.30** 南湖环线-杭州
 {{< /admonition >}}
 
-{{< admonition success "图集" true false >}}
+{{< admonition success "时刻" true false >}}
+🏛️ 曾侯乙编钟演出<br>
+🏫 武汉大学<br>
+🥗 热干面<br>
+🏞️ 光谷轨道交通沿线
+{{< /admonition >}}
+
+{{< admonition info "图集" true false >}}
 <div class="group-picture">
     <div class="group3-picture-cover">
       <a class="lightgallery" href="https://pic.imgdb.cn/item/655c9426c458853aefc572c8.jpg" title="傍晚匆匆收拾好行李，与朋友徜卧于夕照的火车里。" data-thumbnail="https://pic.imgdb.cn/item/655c9426c458853aefc572c8.jpg">
