@@ -3,7 +3,7 @@
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;影视</p>
+  <p class="now">/</p><p class="now">影视</p>
 </div>
 
 ---
@@ -11,7 +11,7 @@
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">影片</p>&nbsp;
-  <a href="../movies-docum"><p class="not">纪录片</p></a>&nbsp;
+  <a href="../movies-docum"><p class="not">视频</p></a>&nbsp;
   <a href="../movies-drama"><p class="not">剧集</p></a>
   <p class="bord">]</p>
 </div>
@@ -247,7 +247,7 @@
         <span class="author">03-21 线上</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro"></div>
+      <div class="media-meta-item intro">互联网时代的资本主义，用户成为了商品。如果一个东西不是工具，它会在你身上有所求，引诱你，操纵你，想从你身上获利。</div>
     </div>
   </div>
   <div class="media">

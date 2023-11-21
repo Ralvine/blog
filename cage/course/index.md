@@ -3,7 +3,7 @@
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;课程</p>
+  <p class="now">/</p><p class="now">课程</p>
 </div>
 
 ---
@@ -35,7 +35,7 @@
     <span class="image-description"><b>微分方程数值解</b></span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description"><b>数据建模与分析</b></span>
+    <span class="image-description"><b><a href="./shujujianmo/">数据建模与分析</a></b></span>
   </div>
    <div class="little-box-cover">
     <span class="image-description"><b>泛函分析</b></span>

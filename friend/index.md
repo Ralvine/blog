@@ -1,5 +1,12 @@
-# 
+# 🏡
 
+
+<div class="nav-tab">
+  <a href="../../about"><p class="not">关于</p></a>
+  <p class="now">/</p><p class="now">友链</p>
+</div>
+
+---
 
 <center><p class="tabtag">🤝 友人</p></center>
 

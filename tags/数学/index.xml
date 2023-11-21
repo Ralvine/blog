@@ -1211,7 +1211,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
-        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1221,10 +1220,12 @@
 🧑‍🏫 王伟<br>
 📝 20%小测，20%作业，60%期末</div>
         </div>
-        
     </div>
-<div class="details admonition note open">
-        
+
+    
+
+
+    <div class="details admonition note open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1252,8 +1253,9 @@
 </ul>
 </div>
         </div>
-        
     </div>
+
+    
 <h2 id="ch1-距离空间" class="headerLink">
     <a href="#ch1-%e8%b7%9d%e7%a6%bb%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch1. 距离空间</h2><ul>
 <li>
@@ -1474,7 +1476,6 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
-        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1484,10 +1485,12 @@
 🧑‍🏫 齐治<br>
 📝 40%作业，60%期末</div>
         </div>
-        
     </div>
-<div class="details admonition note open">
-        
+
+    
+
+
+    <div class="details admonition note open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1499,8 +1502,9 @@
 </ul>
 </div>
         </div>
-        
     </div>
+
+    
 <h2 id="ch1-复分析预备知识" class="headerLink">
     <a href="#ch1-%e5%a4%8d%e5%88%86%e6%9e%90%e9%a2%84%e5%a4%87%e7%9f%a5%e8%af%86" class="header-mark"></a>Ch1. 复分析预备知识</h2><h2 id="ch2-柯西定理及应用" class="headerLink">
     <a href="#ch2-%e6%9f%af%e8%a5%bf%e5%ae%9a%e7%90%86%e5%8f%8a%e5%ba%94%e7%94%a8" class="header-mark"></a>Ch2. 柯西定理及应用</h2><h2 id="ch3-亚纯函数及对数" class="headerLink">

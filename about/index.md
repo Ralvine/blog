@@ -21,7 +21,9 @@
 
 <p class="img-desc" style="text-align: center">▲ 站点拓扑图（已过时）</p>
 
-<center><p class="tabtag">📝 我</p></center>
+<center>如有兴趣，可以查看本站的更新📅日志</center>
+
+<center><p class="tabtag">📝 <a href="../log/">我</a></p></center>
 
 <center>您还可以访问<p class="tabtag">🤝 <a href="../friend/">友链</a></p>或<p class="tabtag">☕️ <a href="../praise/">支持一下</p></a>！</center>
 

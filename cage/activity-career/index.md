@@ -3,7 +3,7 @@
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;实践</p>
+  <p class="now">/</p><p class="now">实践</p>
 </div>
 
 ---

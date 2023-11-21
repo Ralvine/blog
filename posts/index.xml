@@ -1414,8 +1414,9 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
     <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%861" class="header-mark"></a>附：面经整理<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><blockquote>
 <p>实际所投岗位只有一次面试。</p>
 </blockquote>
-<div class="details admonition quote open">
-        
+
+
+    <div class="details admonition quote open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>面试经验整理<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1469,8 +1470,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 </div>
         </div>
-        
     </div>
+
+    
 <h2 id="入职" class="headerLink">
     <a href="#%e5%85%a5%e8%81%8c" class="header-mark"></a>入职</h2><h3 id="offer" class="headerLink">
     <a href="#offer" class="header-mark"></a>Offer</h3><h3 id="入职准备" class="headerLink">

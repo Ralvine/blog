@@ -32,7 +32,7 @@
   <div class="subpage-box-cover">
     <a href="../cage/books" data-pjax-state="">
       <p class="image-hyper">📚</p>
-      <p class="image-caption">书籍</p>
+      <p class="image-caption">阅览</p>
       <img alt="书籍" data-src="" src="https://z1.ax1x.com/2023/10/24/piEyqgg.png" data-loaded="true">
     </a>
   </div>

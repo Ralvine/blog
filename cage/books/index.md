@@ -3,15 +3,15 @@
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/&nbsp;书籍</p>
+  <p class="now">/</p><p class="now">阅览</p>
 </div>
 
 ---
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <p class="now">图书</p>&nbsp;
-  <a href="../books-kanwu"><p class="not">媒体</p></a>&nbsp;
+  <p class="now">书籍</p>&nbsp;
+  <a href="../books-kanwu"><p class="not">图文</p></a>&nbsp;
   <a href="../books-wenxian"><p class="not">文献</p></a>
   <p class="bord">]</p>
 </div>

@@ -4,7 +4,7 @@
 <div class="nav-tab">
   <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
   <a href="../"><p class="not">课程</p></a>
-  <p class="now">/&nbsp;数学前沿专题讨论</p>
+  <p class="now">/</p><p class="now">数学前沿专题讨论</p>
 </div>
 
 ---

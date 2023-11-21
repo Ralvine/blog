@@ -4,7 +4,7 @@
 <div class="nav-tab">
   <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
   <a href="../"><p class="not">光影</p></a>
-  <p class="now">/&nbsp;华家池</p>
+  <p class="now">/</p><p class="now">华家池</p>
 </div>
 
 ---

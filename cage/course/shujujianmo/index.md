@@ -4,7 +4,7 @@
 <div class="nav-tab">
   <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
   <a href="../"><p class="not">课程</p></a>
-  <p class="now">/&nbsp;数据建模与分析</p>
+  <p class="now">/</p><p class="now">数据建模与分析</p>
 </div>
 
 ---
@@ -110,9 +110,9 @@ Cucker and Ding-Xuan Zhou] *Cambridge Univesity Press*<br>
 {{< /admonition >}}
 
 {{< admonition info "作业" true false >}}
-🗞️ 统计学习课后部分习题
-🗞️ 论文精读：Distance metric learning for large margin nearest neighbor classification
-🗞️ 编程
+🗞️ 统计学习课后部分习题<br>
+🗞️ 论文精读：Distance metric learning for large margin nearest neighbor classification<br>
+🗞️ 编程：邮政手写数字识别
 {{< /admonition >}}
 
 <!--

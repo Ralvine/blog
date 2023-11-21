@@ -927,8 +927,9 @@ Topic+First+Second+Finally insert some explains</li>
     <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%861" class="header-mark"></a>附：面经整理<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2><blockquote>
 <p>实际所投岗位只有一次面试。</p>
 </blockquote>
-<div class="details admonition quote open">
-        
+
+
+    <div class="details admonition quote open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>面试经验整理<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -982,8 +983,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 </div>
         </div>
-        
     </div>
+
+    
 <h2 id="入职" class="headerLink">
     <a href="#%e5%85%a5%e8%81%8c" class="header-mark"></a>入职</h2><h3 id="offer" class="headerLink">
     <a href="#offer" class="header-mark"></a>Offer</h3><h3 id="入职准备" class="headerLink">
@@ -1428,8 +1430,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 <li>职业规划和对华为、行业的理解</li>
 </ol>
 <h2 id="附面经整理" class="headerLink">
-    <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%86" class="header-mark"></a>附：面经整理</h2><div class="details admonition quote open">
-        
+    <a href="#%e9%99%84%e9%9d%a2%e7%bb%8f%e6%95%b4%e7%90%86" class="header-mark"></a>附：面经整理</h2>
+
+    <div class="details admonition quote open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>面试经验整理<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1499,7 +1502,6 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 </div>
         </div>
-        
     </div>]]></description>
 </item><item>
     <title>PHD：申请实录</title>
@@ -1509,7 +1511,6 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/pinHOHA.png" referrerpolicy="no-referrer">
             </div><div class="details admonition tip open">
-        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-lightbulb fa-fw"></i>时下重点<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -1522,8 +1523,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>
 </div>
         </div>
-        
     </div>
+
+    
 <h2 id="意向与套磁" class="headerLink">
     <a href="#%e6%84%8f%e5%90%91%e4%b8%8e%e5%a5%97%e7%a3%81" class="header-mark"></a>意向与套磁</h2><ul>
 <li>理学院</li>
@@ -9495,9 +9497,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 </ul>]]></description>
 </item><item>
     <title>四月随想：与时舒卷</title>
-    <link>https://blog.ralvines.top/23-april/</link>
+    <link>https://blog.ralvines.top/siyue/</link>
     <pubDate>Sat, 22 Apr 2023 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/23-april/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/siyue/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/03/piM2X0P.jpg" referrerpolicy="no-referrer">
             </div><h2 id="状态驱动" class="headerLink">
@@ -9714,7 +9716,6 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/05/piQtwA1.jpg" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
-        
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
@@ -9724,8 +9725,9 @@ hashMap底层具体怎么写的，hash解决冲突是采用链表吗？</li>
 🧑‍🏫 Jiakun Liu（白圣,李玉婷）<br>
 📝 到课率+结课作业</div>
         </div>
-        
     </div>
+
+    
 <blockquote>
 <p>本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。</p>
 </blockquote>
