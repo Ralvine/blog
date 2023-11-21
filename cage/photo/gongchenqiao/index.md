@@ -19,7 +19,6 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f2bc458853aef8f0614.webp" sizes="auto" alt="途访伞博。"></a>
   </div>
 </div>
-
 <div class="group-picture">
   <div class="group3-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2f30c458853aef8f2205.webp" title="河畔路牌。" data-thumbnail="https://pic.imgdb.cn/item/654e2f30c458853aef8f2205.webp">
@@ -34,9 +33,6 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f43c458853aef8f7f96.webp" sizes="auto" alt="河的彼岸。"></a>
   </div>
 </div>
-
-<p class="img-desc" style="text-align: center">▲ 小河直街。</p>
-
 <div class="group-picture">
   <div class="group1-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2f5dc458853aef900c5e.webp" title="粉霞圆日。" data-thumbnail="https://pic.imgdb.cn/item/654e2f5dc458853aef900c5e.webp">
@@ -54,8 +50,6 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f52c458853aef8fd043.webp" sizes="auto" alt="杭城暮影。"></a>
   </div>
 </div>
-
-<p class="img-desc" style="text-align: center">▲ 杭城暮影。</p>
 
 ---
 

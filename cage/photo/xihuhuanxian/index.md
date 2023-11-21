@@ -9,11 +9,21 @@
 
 ---
 
-{{< quote-center >}}
-池上碧苔三四点，<br>
-叶底黄鹂一两声。
-{{< /quote-center >}}
+{{< admonition question "杭州市·西湖区" true false >}}
+☁️ 池上碧苔三四点，叶底黄鹂一两声。<br>
+🕙 2023.**08.29**<br>
+📝 骑行<br>
+{{< /admonition >}}
 
+{{< admonition tip "行程" true false >}}
+- **08.29** 704工程-龙井路-十五奎巷
+{{< /admonition >}}
+
+{{< admonition success "时刻" true false >}}
+🏛️ 704工程
+{{< /admonition >}}
+
+{{< admonition info "图集" true false >}}
 <div class="group-picture">
   <div class="group-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/654e1da1c458853aef4ae3ca.jpg" title="茶博沿线。" data-thumbnail="https://pic.imgdb.cn/item/654e1da1c458853aef4ae3ca.jpg">
@@ -24,5 +34,4 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/654e1da1c458853aef4ae30a.jpg" sizes="auto" alt="望仙阁。"></a>
   </div>
 </div>
-
-<p class="img-desc" style="text-align: center">▲ 小道。</p>
+{{< /admonition >}}

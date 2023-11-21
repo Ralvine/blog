@@ -20,8 +20,8 @@
 📓 统计学习方法(第2版) [李航]<br>
 📑 PPT(+谱聚类)<br>
 💻 [智云课堂](https://classroom.zju.edu.cn/coursedetail?course_id=51611&tenant_code=112)<br>
-🗞️ 习题解答 [GitHub](https://github.com/datawhalechina/statistical-learning-method-solutions-manual), CSDN:[1](https://blog.csdn.net/qq_42911960/article/details/115255714),[2](https://blog.csdn.net/qq_41562704/article/details/106540274),[3](https://blog.csdn.net/wang_xinyu/article/details/111497444),[4](https://blog.csdn.net/breeze_blows/article/details/85469944)<br>
-🗞️ 回忆卷 [21-22 春夏](https://www.cc98.org/topic/5356728), [20-21 春夏](https://www.cc98.org/topic/5116266)<br>
+🗞️ 习题解答 [GitHub](https://github.com/datawhalechina/statistical-learning-method-solutions-manual)，CSDN [1](https://blog.csdn.net/qq_42911960/article/details/115255714) [2](https://blog.csdn.net/qq_41562704/article/details/106540274) [3](https://blog.csdn.net/wang_xinyu/article/details/111497444) [4](https://blog.csdn.net/breeze_blows/article/details/85469944)<br>
+🗞️ 回忆卷 [21-22 春夏](https://www.cc98.org/topic/5356728)，[20-21 春夏](https://www.cc98.org/topic/5116266)<br>
 📓 机器学习 [周志华] *清华大学出版社*<br>
 📓 The Elements of Statistical Learning(2nd edition) [Trevor Hastie, Robert Tibshirani, and Jerome Friedman]<br>
 📓 Pattern Recognition and Machine Learning [Chris Bishop]<br>

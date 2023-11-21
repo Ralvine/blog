@@ -19,17 +19,12 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/655338b2c458853aefd5598e.jpg" sizes="auto" alt="演出。"></a>
   </div>
 </div>
-
-<p class="img-desc" style="text-align: center">▲ 第一视角。</p>
-
 <div class="group-picture">
   <div class="group1-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/655338c2c458853aefd57f55.jpg" title="摩天轮。" data-thumbnail="https://pic.imgdb.cn/item/655338c2c458853aefd57f55.jpg">
     <img loading="lazy" src="https://pic.imgdb.cn/item/655338c2c458853aefd57f55.jpg" sizes="auto" alt="摩天轮。"></a>
   </div>
 </div>
-
-<p class="img-desc" style="text-align: center">▲ 摩天轮。</p>
 
 ---
 
