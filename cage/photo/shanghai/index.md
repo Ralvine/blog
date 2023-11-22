@@ -20,13 +20,6 @@
 - **05.04** 新天地-一大会址-杭州
 {{< /admonition >}}
 
-{{< admonition success "时刻" true false >}}
-🏛️ 曾侯乙编钟演出<br>
-🏫 武汉大学<br>
-🥗 热干面<br>
-🏞️ 光谷轨道交通沿线
-{{< /admonition >}}
-
 {{< admonition info "图集" true false >}}
 <div class="group-picture">
   <div class="group1-picture-cover">
