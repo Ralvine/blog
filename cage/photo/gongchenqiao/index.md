@@ -9,6 +9,21 @@
 
 ---
 
+{{< admonition question "台州市" true false >}}
+🕙 2023.**02.25**<br>
+📝 旅行
+{{< /admonition >}}
+
+{{< admonition tip "行程" true false >}}
+- **02.25** 拱宸桥-小河直街-西湖-武林广场
+{{< /admonition >}}
+
+{{< admonition success "时刻" true false >}}
+🏞️ 拱宸桥<br>
+🏞️ 小河直街
+{{< /admonition >}}
+
+{{< admonition info "图集" true false >}}
 <div class="group-picture">
   <div class="group-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2f24c458853aef8ee2a6.webp" title="缓步小河直街。" data-thumbnail="https://pic.imgdb.cn/item/654e2f24c458853aef8ee2a6.webp">
@@ -50,7 +65,8 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f52c458853aef8fd043.webp" sizes="auto" alt="杭城暮影。"></a>
   </div>
 </div>
+{{< /admonition >}}
 
 ---
 
-<p class="img-desc" style="text-align: left; margin-top: -20px;">与 @nsy @ljw</p>
+<p class="img-desc" style="text-align: left; margin-top: -20px;">👪 @nsy @ljw</p>

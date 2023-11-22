@@ -11,8 +11,7 @@
 
 {{< admonition question "嘉兴市·乌镇" true false >}}
 🕙 2023.**04.04-04.05**<br>
-📝 短途旅行<br>
-🔗 [火车开往破晓——武汉小记](../../../wuhan)
+📝 短途旅行
 {{< /admonition >}}
 
 {{< admonition tip "行程" true false >}}

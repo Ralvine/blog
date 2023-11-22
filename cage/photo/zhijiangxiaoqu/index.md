@@ -9,17 +9,17 @@
 
 ---
 
-{{< admonition question "衢州市·开化wait" true false >}}
-🕙 2023.**07.18-07.31**<br> wait
-📝 社会实践<br>
+{{< admonition question "浙江大学·之江校区" true false >}}
+🕙 2022.**11.19**<br>
+📝 徒步
 {{< /admonition >}}
 
 {{< admonition tip "行程" true false >}}
-- **07.18** wait
+- **11.19** 之江校区-法喜寺
 {{< /admonition >}}
 
 {{< admonition success "时刻" true false >}}
-🏫 之江校区
+🏫 之江校区<br>
 🏛️ 法喜寺
 {{< /admonition >}}
 

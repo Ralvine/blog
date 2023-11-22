@@ -12,16 +12,16 @@
 {{< admonition question "台州市·温岭市" true false >}}
 ☁️ 昔人已乘黄鹤去，此地空余黄鹤楼。<br>
 🕙 2022.**08.25**<br>
-📝 自驾游<br>
+📝 自驾游
 {{< /admonition >}}
 
 {{< admonition tip "行程" true false >}}
-- **08.25** 黄岩-温岭石塘-黄椒岛-黄岩
+- 2022.**08.25** 黄岩-温岭石塘-黄椒岛-黄岩
 {{< /admonition >}}
 
 {{< admonition success "时刻" true false >}}
 🏘️ 石塘小镇与沙滩<br>
-🏞️ 黄椒岛<br>
+🏞️ 黄椒岛
 {{< /admonition >}}
 
 {{< admonition info "图集" true false >}}
@@ -42,7 +42,6 @@
   </div>
 </div>
 {{< /admonition >}}
-
 
 ---
 

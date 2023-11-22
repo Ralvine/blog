@@ -11,8 +11,7 @@
 
 {{< admonition question "新疆维吾尔族自治区" true false >}}
 🕙 2019.**07.09-07.17**<br>
-📝 旅行<br>
-🔗 [火车开往破晓——武汉小记](../../../wuhan)
+📝 旅行
 {{< /admonition >}}
 
 {{< admonition tip "行程" true false >}}
@@ -30,7 +29,7 @@
 {{< admonition success "时刻" true false >}}
 🏞️ 草原与雪山<br>
 🐴 骑马<br>
-🥗 西域美食<br>
+🥗 西域美食
 {{< /admonition >}}
 
 {{< admonition info "图集" true false >}}
