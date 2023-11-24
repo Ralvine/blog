@@ -4,109 +4,23 @@
         <link>https://blog.ralvines.top/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</link>
         <description>微分方程 - 标签 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
-    <title>偏微分方程</title>
+    <title>偏微分方程绪论</title>
     <link>https://blog.ralvines.top/pde/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pde/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2021-2022 春夏，2022-2023 春夏<br>
-🧑‍🏫 鲁汪涛，孔德兴<br>
-📝 作业，（小测，）期末考试</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>绪论</li>
-<li>一阶方程
-<ul>
-<li>线性方程</li>
-<li>拟线性方程</li>
-<li>偏微分方程组</li>
-</ul>
-</li>
-<li>双元二阶方程</li>
-<li>波动方程
-<ul>
-<li>一维
-<ul>
-<li>导出、定解条件</li>
-<li>柯西问题</li>
-<li>初边值问题
-<ul>
-<li>分离变量法</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>高维
-<ul>
-<li>球平均法</li>
-</ul>
-</li>
-<li>传播</li>
-<li>能量不等式</li>
-</ul>
-</li>
-<li>热传导方程
-<ul>
-<li>导出、定解条件</li>
-<li>柯西问题
-<ul>
-<li>傅立叶变换法</li>
-</ul>
-</li>
-<li>初边值问题</li>
-<li>极值原理</li>
-</ul>
-</li>
-<li>Laplace方程
-<ul>
-<li>导出、定解条件</li>
-<li>变分法</li>
-<li>调和函数
-<ul>
-<li>格林公式</li>
-<li>极值原理</li>
-</ul>
-</li>
-<li>格林函数
--镜像法</li>
-<li>强极值原理</li>
-</ul>
-</li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="引言" class="headerLink">
-    <a href="#%e5%bc%95%e8%a8%80" class="header-mark"></a>引言</h2><h3 id="发展史" class="headerLink">
-    <a href="#%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>发展史</h3><blockquote>
+            </div><h2 id="发展史" class="headerLink">
+    <a href="#%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>发展史</h2><blockquote>
 <p>17 - 微积分 Newton &amp; Lebnitz<br>
 18 - Euler &amp; Bernoulli &amp; Lagrange &amp; Laplace &amp; Poisson<br>
 19 - pde应用 Fourier &amp; Green &amp; Cauchy &amp; Hadamard<br>
 20 - 复杂理论<br>
 21 - 计算机数值分析 &amp; 微分方程数值解</p>
 </blockquote>
-<h3 id="基本定义" class="headerLink">
-    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>基本定义</h3><h4 id="概念" class="headerLink">
-    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h4><ul>
+<h2 id="基本定义" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>基本定义</h2><h3 id="概念" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h3><ul>
 <li>
 <p><strong>向量：</strong> 开区域 $$x=(x_1,x_2,\cdots,x_n)\in \mathbb{R}^n,x\in \Omega$$</p>
 </li>
@@ -150,8 +64,8 @@ u:\Omega\rightarrow\mathbb{R}.（未知）\\
 </p>
 </li>
 </ul>
-<h4 id="线性空间" class="headerLink">
-    <a href="#%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>线性空间</h4><ul>
+<h3 id="线性空间" class="headerLink">
+    <a href="#%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>线性空间</h3><ul>
 <li>
 <p><strong>函数：</strong>
  
@@ -178,10 +92,10 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p>$C^\infty(\Omega)=\bigcap\limits_{k=1}^\infty C^k(\Omega)$任意阶偏导存在且连续的函数类</p>
 </li>
 </ul>
-<h4 id="解的光滑性" class="headerLink">
-    <a href="#%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>解的光滑性</h4><center>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</center>
-<h4 id="分类" class="headerLink">
-    <a href="#%e5%88%86%e7%b1%bb" class="header-mark"></a>分类</h4><ul>
+<h3 id="解的光滑性" class="headerLink">
+    <a href="#%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>解的光滑性</h3><center>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</center>
+<h3 id="分类" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb" class="header-mark"></a>分类</h3><ul>
 <li>
 <p><strong>线性：</strong>$\displaystyle\sum\limits_{|\alpha|\leq k}a_{\alpha}(x)D^{\alpha}u=f(x)$</p>
 </li>
@@ -195,17 +109,17 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p>完全非线性：非线性依赖 $D^ku$</p>
 </li>
 </ul>
-<h3 id="实例" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h3><ol>
+<h2 id="实例" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h2><ol>
 <li><strong>Laplace方程：</strong>$\Delta u=0$</li>
 <li><strong>特征值方程：</strong>$\Delta u+\lambda u=0$</li>
 <li><strong>热方程：</strong>$u_t-a^2\Delta u=0(a&gt;0)$</li>
 <li>&hellip;</li>
 </ol>
-<h3 id="椭圆型" class="headerLink">
-    <a href="#%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>椭圆型&amp;</h3><h3 id="适定性" class="headerLink">
-    <a href="#%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>适定性</h3><h4 id="定义" class="headerLink">
-    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h4><ul>
+<h2 id="椭圆型" class="headerLink">
+    <a href="#%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>椭圆型&amp;</h2><h2 id="适定性" class="headerLink">
+    <a href="#%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>适定性</h2><h3 id="定义" class="headerLink">
+    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h3><ul>
 <li>
 <p>定解问题：PDE+条件</p>
 </li>
@@ -224,25 +138,25 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p><strong>闭球：</strong>$B(x,r),$ 体积 $\alpha(n)r^n$</p>
 </li>
 </ul>
-<h4 id="定理" class="headerLink">
-    <a href="#%e5%ae%9a%e7%90%86" class="header-mark"></a>定理</h4><ul>
+<h3 id="定理" class="headerLink">
+    <a href="#%e5%ae%9a%e7%90%86" class="header-mark"></a>定理</h3><ul>
 <li><strong>Green 公式</strong></li>
 </ul>
-<h2 id="位势方程" class="headerLink">
-    <a href="#%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>位势方程</h2><h3 id="possion方程" class="headerLink">
-    <a href="#possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>Possion方程</h3><p>$$-\Delta u=f(x)$$</p>
-<h3 id="调和函数" class="headerLink">
-    <a href="#%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>调和函数</h3><p>$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$$</p>
-<h2 id="热方程" class="headerLink">
-    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>热方程</h2><h3 id="基本定义-1" class="headerLink">
-    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89-1" class="header-mark"></a>基本定义</h3><h4 id="热方程-1" class="headerLink">
-    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b-1" class="header-mark"></a>热方程</h4><ul>
+<h1 id="位势方程" class="headerLink">
+    <a href="#%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>位势方程</h1><h2 id="possion方程" class="headerLink">
+    <a href="#possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>Possion方程</h2><p>$$-\Delta u=f(x)$$</p>
+<h2 id="调和函数" class="headerLink">
+    <a href="#%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>调和函数</h2><p>$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$$</p>
+<h1 id="热方程" class="headerLink">
+    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>热方程</h1><h2 id="基本定义-1" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89-1" class="header-mark"></a>基本定义</h2><h3 id="热方程-1" class="headerLink">
+    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b-1" class="header-mark"></a>热方程</h3><ul>
 <li><strong>基本形式：</strong>$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t&gt;0$</li>
 <li><strong>推导</strong></li>
 <li>反应扩散方程：反应项、扩散项</li>
 </ul>
-<h4 id="概念-1" class="headerLink">
-    <a href="#%e6%a6%82%e5%bf%b5-1" class="header-mark"></a>概念</h4><ul>
+<h3 id="概念-1" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5-1" class="header-mark"></a>概念</h3><ul>
 <li>
 <p><strong>定解问题：</strong></p>
 <ul>
@@ -275,9 +189,9 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p>$C^{1,0}(Q)$</p>
 </li>
 </ul>
-<h3 id="初值问题" class="headerLink">
-    <a href="#%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>初值问题</h3><h4 id="fourier" class="headerLink">
-    <a href="#fourier" class="header-mark"></a>Fourier</h4><ul>
+<h2 id="初值问题" class="headerLink">
+    <a href="#%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>初值问题</h2><h3 id="fourier" class="headerLink">
+    <a href="#fourier" class="header-mark"></a>Fourier</h3><ul>
 <li>
 <p><strong>Fourier 级数展开</strong></p>
 <p>$f(x)\in C^1(\mathbb{R}),\space\forall l&gt;0,\space x\in(-l,l)$</p>
@@ -287,8 +201,8 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p><strong>Fourier 积分：</strong> 级数极限</p>
 </li>
 </ul>
-<h4 id="一维热方程初值问题" class="headerLink">
-    <a href="#%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>一维热方程初值问题</h4>
+<h3 id="一维热方程初值问题" class="headerLink">
+    <a href="#%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>一维热方程初值问题</h3>
 $$
 \displaystyle\left\{\begin{array}{l}
  \displaystyle\frac{\partial{u}}{\partial t}-a^2\displaystyle\frac{\partial^2u}{\partial x^2}=f(x,t), & (x,t)\in\mathbb{R}\times\mathbb{R}_+\\
@@ -296,327 +210,5 @@ u(x,0)=\varphi(x), & x\in\mathbb
 {R}\\
   \end{array}\right.
 $$]]></description>
-</item><item>
-    <title>微分方程数值解</title>
-    <link>https://blog.ralvines.top/pdeszj/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pdeszj/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 张庆海<br>
-📝 40%平时，60%期末</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>教材讲义</li>
-<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51564&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="ch7-bvp-fd" class="headerLink">
-    <a href="#ch7-bvp-fd" class="header-mark"></a>(Ch7) BVP-FD</h2><blockquote>
-<p>P60-70 (11)</p>
-</blockquote>
-<ul>
-<li>有限差分离散化</li>
-<li>误差和一致性</li>
-<li>稳定性、收敛性
-<ul>
-<li>范数收敛</li>
-<li>Green函数
-<ul>
-<li>解决方案</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>其他边值条件</li>
-<li>二维
-<ul>
-<li>Kronecker乘积</li>
-<li>范数收敛性</li>
-</ul>
-</li>
-<li>不规则边界、收敛性</li>
-</ul>
-<h2 id="ch9-multigrid" class="headerLink">
-    <a href="#ch9-multigrid" class="header-mark"></a>(Ch9) Multigrid</h2><blockquote>
-<p>P80-87 (8)</p>
-</blockquote>
-<ul>
-<li>残差方程</li>
-<li>模型问题</li>
-<li>算法组成
-<ul>
-<li>傅立叶模式</li>
-<li>松弛</li>
-<li>限制、延拓</li>
-<li>双网格矫正</li>
-<li>多重网格cycles</li>
-</ul>
-</li>
-<li>收敛性分析
-<ul>
-<li>代数图</li>
-<li>FMG最优复杂度</li>
-</ul>
-</li>
-</ul>
-<h2 id="ch11-ivp" class="headerLink">
-    <a href="#ch11-ivp" class="header-mark"></a>(Ch11) IVP</h2><blockquote>
-<p>P102-138 (37)</p>
-</blockquote>
-<ul>
-<li>数学基础
-<ul>
-<li>ODE</li>
-<li>算子范数</li>
-<li>矩阵指数</li>
-<li>Lipschitz连续条件</li>
-<li>解的唯一存在性</li>
-<li>well-posed 适定性</li>
-<li>常系数线性IVPs</li>
-</ul>
-</li>
-<li>数值方法
-<ul>
-<li>欧拉法</li>
-<li>前欧拉</li>
-<li>后欧拉</li>
-<li>梯形法</li>
-<li>leapfrog 中点法</li>
-<li>截断误差</li>
-<li>欧拉法的收敛性</li>
-<li>零/绝对稳定性</li>
-</ul>
-</li>
-<li>线性多步法
-<ul>
-<li>一致性、稳定性</li>
-<li>零稳定性</li>
-<li>线性差分方程</li>
-<li>收敛性</li>
-<li>绝对稳定性</li>
-</ul>
-</li>
-<li>刚性IVPs
-<ul>
-<li>刚度 stiffness</li>
-<li>A-稳定性</li>
-</ul>
-</li>
-<li>单步法
-<ul>
-<li>一致性、收敛性</li>
-<li>绝对稳定性</li>
-<li>A-稳定性、L-稳定性</li>
-</ul>
-</li>
-<li>龙格库塔法
-<ul>
-<li>显式法</li>
-<li>必要阶数条件</li>
-<li>隐式法</li>
-<li>Collocation 配点法</li>
-<li>实用误差估计、步长控制</li>
-<li>一致性、收敛性</li>
-<li>绝对稳定性</li>
-<li>I-稳定性、L-稳定性</li>
-<li>收缩性、B-稳定性</li>
-<li>代数稳定性</li>
-</ul>
-</li>
-</ul>
-<h2 id="ch12-mol" class="headerLink">
-    <a href="#ch12-mol" class="header-mark"></a>(Ch12) MOL</h2><blockquote>
-<p>P140-155 (16)</p>
-</blockquote>
-<ul>
-<li>热方程
-<ul>
-<li>抛物、导出</li>
-<li>边值条件、精确解</li>
-<li>FTCS</li>
-<li>Crank-Nicolson</li>
-<li>精度、一致性</li>
-<li>绝对稳定性、Lax-Richtmyer稳定性</li>
-<li>收敛性</li>
-<li>离散最大值原理</li>
-<li>冯诺依曼稳定性</li>
-</ul>
-</li>
-<li>平流方程
-<ul>
-<li>经典MOL法
-<ul>
-<li>FTCS</li>
-<li>leapfrog</li>
-<li>Lax-Friedrichs</li>
-<li>Lax-Wendroff</li>
-<li>upwind</li>
-<li>Beam-Warming</li>
-</ul>
-</li>
-<li>CFL条件</li>
-<li>修正方程</li>
-<li>冯诺依曼分析</li>
-</ul>
-</li>
-</ul>
-<h2 id="作业" class="headerLink">
-    <a href="#%e4%bd%9c%e4%b8%9a" class="header-mark"></a>作业</h2><ul>
-<li>Homework01</li>
-<li>Homework02</li>
-<li>Homework03</li>
-<li>Homework04</li>
-<li>Homework05</li>
-<li>Project01</li>
-<li>Project02</li>
-<li>Project03</li>
-<li>Project04</li>
-</ul>
-<h2 id="参考资料" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
-    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
-<p>lz这学期上了<strong>张庆海</strong>老师的微分方程数值解课程，个人认为这门课在数院是一门非常有特点的课，虽说比较硬核但确实能学到许多，于是开个帖写写课程体会（顺便安利一手） 1.理论与实践结合 数院的课大多以理论为导向，这门课是少有的几门理论与实践并重的课程之一。本学期这门课一共有两个编程大作业，都与课上学的算法密不可分。顺带提醒，先确保完全弄明白算法之后再动手coding，否则成吨的bug在等着你&hellip;</p>
-<p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
-<p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>
-</blockquote>]]></description>
-</item><item>
-    <title>最优运输与蒙日-安培方程</title>
-    <link>https://blog.ralvines.top/tran/</link>
-    <pubDate>Sat, 01 Jan 2022 13:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/tran/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/11/05/piQtwA1.jpg" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院（国际化课程）<br>
-🕙 2022-2023 秋冬（线上）<br>
-🧑‍🏫 Jiakun Liu（白圣,李玉婷）<br>
-📝 到课率+结课作业</div>
-        </div>
-    </div>
-
-    
-<blockquote>
-<p>本课程旨在简要介绍最优运输问题以及它在其他领域中的应用。包括最优运输映射的存在唯一性和正则性，蒙日-安培方程的正则性理论。</p>
-</blockquote>
-<p><strong>参考资料：</strong></p>
-<ul>
-<li>Cedric Villani. 2003. Topics in Optimal Transportation. Graduate Studies in Mathematics 58, American Mathematical Society, Providence, Rhode Island.</li>
-<li>Villani, C., 2009. Optimal Transportation, Old and New, Grundlehren der Math. Wiss. 338. Springer-Verlag, Berlin.</li>
-<li>Figalli, A., 2017. The Monge-Ampere equation and its applications, Zurich Lectures in Advanced Mathematics. European Mathematical Society (EMS).</li>
-<li>Gilbarg, D. and Trudinger, N. S., 1983. Elliptic partial differential equations of second order. Springer-Verlag, Berlin.</li>
-</ul>
-<h2 id="大纲" class="headerLink">
-    <a href="#%e5%a4%a7%e7%ba%b2" class="header-mark"></a>大纲</h2><ul>
-<li><strong>CH0.</strong> 内容简介</li>
-<li><strong>CH1.</strong> Kantorovich对偶泛函</li>
-<li><strong>CH2.</strong> 最优运输的几何性质</li>
-<li><strong>CH3.</strong> Brenier的极化分解定理</li>
-<li><strong>CH4.</strong> Monge-Ampere方程</li>
-<li><strong>CH5.</strong> 严格凸与C1正则性</li>
-<li><strong>CH6.</strong> 自然边值条件与C1,alpha正则性</li>
-<li><strong>CH7.</strong> C2,alpha与高阶正则性</li>
-<li><strong>CH8.</strong> 整体正则性</li>
-</ul>
-<h2 id="课程论文" class="headerLink">
-    <a href="#%e8%af%be%e7%a8%8b%e8%ae%ba%e6%96%87" class="header-mark"></a>课程论文</h2><blockquote>
-<p>分别选取作业范围内的部分题目进行解答.</p>
-</blockquote>
-<h3 id="problem-1" class="headerLink">
-    <a href="#problem-1" class="header-mark"></a>Problem 1.</h3><blockquote>
-<p>Discuss the relationship between Kantorovich&rsquo;s problem:</p>
-<p>$$
-\inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C_k} (\gamma)=\int_{U\times V}c(s,y)d\gamma(x,y)
-$$</p>
-<p>and Monge&rsquo;sproblem:</p>
-<p>$$
-\inf\limits_{t_{\sharp}\mu=v}\mathscr{C_\text{M}}(t)=\int_{\mu}c(x,t(x)d\mu(x).
-$$</p>
-<p>Both two problems are related to the existence and uniqueness of the function $t$ and $\gamma$ given the cost function $c$.</p>
-</blockquote>
-<p><strong>Answer.</strong></p>
-<p>First, we let $t$ be a measure preserving function, which satisfying that</p>
-<p>$$t_{\sharp} \mu=v, $$</p>
-<p>$$\int_U c(x,t(x))d\mu(x)=\inf\limits_{t_{\sharp}\mu=v}\mathscr{C}_M(t).$$</p>
-<p>From above, we now construct a corresponding function $\mu_t\in\Gamma(\mu \times v)$, where for $\forall E\subset U\times V$, we have</p>
-<p>$$\gamma_t(C):=\mu({x|(x,t(x))\in E}).$$</p>
-<p>It&rsquo;s easy to observe that for $\forall A\subset U$, by the measure language definition of the measure preserving mapping, we have</p>
-<p>$$\gamma_t(A\times V)=\mu({x|(x,t(x))\in A\times V})=\mu(A).$$</p>
-<p>Additionally, for $\forall B\subset V$, we have</p>
-<p>$$v(B)=\mu({x|(x,t(x))\in U\times B}),$$</p>
-<p>as</p>
-<p>$$t_{\sharp}\mu=v.$$</p>
-<p>Meanwhile</p>
-<p>$$\gamma_t(U\times B)=\mu({x|(x,t(x))\in U\times B})=v(B).$$</p>
-<p>Hence, for the constructed function $\gamma_t$, we know it is product on linear space. Then, by</p>
-<p>$$\int_{U\times V} c(x,y)d\gamma_t (x,y)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)} \mathscr{C}_k(\gamma),$$</p>
-<p>we get that</p>
-<p>$$\inf\limits_{t_{\sharp}\mu=v} \mathscr{C_\text{M}}(t)\ge \inf\limits_{\gamma\in\Gamma(\mu\times v)}\mathscr{C}_k(\gamma).$$</p>
-<p>Finally, as we know, the limitation of the Monge&rsquo;s problem is more strict, requiring that</p>
-<ol>
-<li>$t$ is a mapping of preserving measurability,</li>
-<li>$\gamma$ is just limited on linear space.</li>
-</ol>
-<p>Thus more freedom on the product space means more choices of function $\gamma$, thus there is going to have smaller total cost for Kantorovich&rsquo;s problem.</p>
-<h3 id="problem-2" class="headerLink">
-    <a href="#problem-2" class="header-mark"></a>Problem 2.</h3><blockquote>
-<p>Choose the Problem in subject: a mapping $T$ is a measure preserving ( $T_\sharp f=g$ ) iff $\forall h\in C(V), \int_V h(y)g(y)dy=\int_U h(T(x))f(x)dx.$</p>
-<p>(The definition of the measure preserving given by measure language and analysis language is equivalent.)</p>
-</blockquote>
-<p><strong>Answer.</strong></p>
-<p>If $T$ is a mapping of preserving measurablity, then for $\forall E\subset V,$ always $\exists T^{-1}(E)\subset U$ s.t.</p>
-<p>$$\int_{T^{-1}(E)} f(x)dx=\int_E g(y)dy=\int_{T^{-1}(E)}g(Tx)|J|dx.$$</p>
-<p>where $J$ means the Jacobian $\displaystyle\frac{\partial y}{\partial x}$, i.e.</p>
-<p>$$f(x)=g(Tx)|J|, x\in T^{-1}(E)a.s..$$</p>
-<p>Let $E=V$, for $\forall$ continuous function $h$ over $V$, we have</p>
-<p>$$h(Tx)f(x)dx=h(Tx)g(Tx)|J|,x\in T^{-1}(V)a.s..$$</p>
-<p>Then, we can conclude that</p>
-<p>$$\int_U h(Tx)f(x)dx=\int_U h(Tx)g(Tx)|J|dx=\int_V h(y)g(y)dy.$$</p>
-<p>Additionally, we have assumpted that $\forall \in C(V),$ thus we have</p>
-<p>$$\int_V h(y)g(y)dy=\int_U h(T(x)f(x))dx.$$</p>
-<p>Now, for $\forall E\subset V$,  we let</p>
-<p>$$h(y)=\mathbb{I}{y\in E},y\in V,$$</p>
-<p>then we have</p>
-<p>$$\int_E g(y)dy=\int_{U\cap T^{-1(E)}}f(x)dx=\int_{T^{-1}(E)}f(x)dx.$$</p>
-<p>Therefore, we get</p>
-<p>$$T_\sharp f=g.$$</p>
-<h3 id="problem-3" class="headerLink">
-    <a href="#problem-3" class="header-mark"></a>Problem 3.</h3><blockquote>
-<p>Explain the background of Brenier polar factorise.</p>
-</blockquote>
-<p><strong>Answer.</strong></p>
-<p>The problem of Monge has stayed with no solution until progress was made in the 1940s. Indeed, only with the work by Kantorovich, it was inserted into a suitable framework which gave the possibility to attack it and, later, to provide solutions and study them.</p>
-<p>Back to the 20 century, the Monge problem was asked, which is difficult to solve. after that, Kantoroich relaxes the optimal transfer problem into the optimal transmission solution, and instead of the Euclidean distance $|x-y|$ and more general measures and spaces, the problem was generalized with very general cost functions $c(x,y)$.</p>
-<p>Kantorovich use the idea of regarding the Monge problem as connected to linear programming, where the cost to be minimized becomes simply $\int_{X\times Y}c d\gamma$. Which means, this linear problem under linear constraints, is possible to prove existence of a solution. Then, by using techniques from convex optimization like duality, we could characterize the optimal solution.</p>
-<p>Now, there is some special cases, particularly if we let the cost $c(x,y)=|x-y|^2$, which is natural and has many application in physical models, for Bernier, who works to prove that the optimal $\gamma$ does not allow this splitting of masses and particles at $x$ are only sent to a unique destination $T(x)$, thus providing a solution to the original problem by Monge. Additionally, he proves a special form for the optimal map:</p>
-<p>For or a convex function $u$, the optimal $T$ is of the form $T(x)=\Delta u(x)$.</p>
-<p>Which makes a strong connection with the Monge-Ampère equation.</p>
-<p>$$|D^2u(x)|=\displaystyle\frac{f(x)}{g(\Delta u(x))}$$</p>
-<p>To the equation above, it is an degenerate, nonlinear, elliptic equation and is in the class of convex functions. Brenier uses result above to conclude the fact that matrices can be written as the product of a symmetric positive-definite matrix and an orthogonal one by prove that vector fields can be written as the composition of the gradient of a convex function and of a measure preserving map. It is the polar factorization theorem for vector maps, and the above narrative is the background to this theory.</p>]]></description>
 </item></channel>
 </rss>

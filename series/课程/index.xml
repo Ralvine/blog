@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>孔德兴 - 标签 - 暮瞻</title>
-        <link>https://blog.ralvines.top/tags/%E5%AD%94%E5%BE%B7%E5%85%B4/</link>
-        <description>孔德兴 - 标签 - 暮瞻</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E5%AD%94%E5%BE%B7%E5%85%B4/" rel="self" type="application/rss+xml" /><item>
+        <title>课程 - 系列 - 暮瞻</title>
+        <link>https://blog.ralvines.top/series/%E8%AF%BE%E7%A8%8B/</link>
+        <description>课程 - 系列 - 暮瞻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/%E8%AF%BE%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
     <title>偏微分方程绪论</title>
     <link>https://blog.ralvines.top/pde/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>

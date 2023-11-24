@@ -4,109 +4,23 @@
         <link>https://blog.ralvines.top/tags/%E9%B2%81%E6%B1%AA%E6%B6%9B/</link>
         <description>鲁汪涛 - 标签 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E9%B2%81%E6%B1%AA%E6%B6%9B/" rel="self" type="application/rss+xml" /><item>
-    <title>偏微分方程</title>
+    <title>偏微分方程绪论</title>
     <link>https://blog.ralvines.top/pde/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pde/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2021-2022 春夏，2022-2023 春夏<br>
-🧑‍🏫 鲁汪涛，孔德兴<br>
-📝 作业，（小测，）期末考试</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>绪论</li>
-<li>一阶方程
-<ul>
-<li>线性方程</li>
-<li>拟线性方程</li>
-<li>偏微分方程组</li>
-</ul>
-</li>
-<li>双元二阶方程</li>
-<li>波动方程
-<ul>
-<li>一维
-<ul>
-<li>导出、定解条件</li>
-<li>柯西问题</li>
-<li>初边值问题
-<ul>
-<li>分离变量法</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>高维
-<ul>
-<li>球平均法</li>
-</ul>
-</li>
-<li>传播</li>
-<li>能量不等式</li>
-</ul>
-</li>
-<li>热传导方程
-<ul>
-<li>导出、定解条件</li>
-<li>柯西问题
-<ul>
-<li>傅立叶变换法</li>
-</ul>
-</li>
-<li>初边值问题</li>
-<li>极值原理</li>
-</ul>
-</li>
-<li>Laplace方程
-<ul>
-<li>导出、定解条件</li>
-<li>变分法</li>
-<li>调和函数
-<ul>
-<li>格林公式</li>
-<li>极值原理</li>
-</ul>
-</li>
-<li>格林函数
--镜像法</li>
-<li>强极值原理</li>
-</ul>
-</li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="引言" class="headerLink">
-    <a href="#%e5%bc%95%e8%a8%80" class="header-mark"></a>引言</h2><h3 id="发展史" class="headerLink">
-    <a href="#%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>发展史</h3><blockquote>
+            </div><h2 id="发展史" class="headerLink">
+    <a href="#%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>发展史</h2><blockquote>
 <p>17 - 微积分 Newton &amp; Lebnitz<br>
 18 - Euler &amp; Bernoulli &amp; Lagrange &amp; Laplace &amp; Poisson<br>
 19 - pde应用 Fourier &amp; Green &amp; Cauchy &amp; Hadamard<br>
 20 - 复杂理论<br>
 21 - 计算机数值分析 &amp; 微分方程数值解</p>
 </blockquote>
-<h3 id="基本定义" class="headerLink">
-    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>基本定义</h3><h4 id="概念" class="headerLink">
-    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h4><ul>
+<h2 id="基本定义" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>基本定义</h2><h3 id="概念" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h3><ul>
 <li>
 <p><strong>向量：</strong> 开区域 $$x=(x_1,x_2,\cdots,x_n)\in \mathbb{R}^n,x\in \Omega$$</p>
 </li>
@@ -150,8 +64,8 @@ u:\Omega\rightarrow\mathbb{R}.（未知）\\
 </p>
 </li>
 </ul>
-<h4 id="线性空间" class="headerLink">
-    <a href="#%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>线性空间</h4><ul>
+<h3 id="线性空间" class="headerLink">
+    <a href="#%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>线性空间</h3><ul>
 <li>
 <p><strong>函数：</strong>
  
@@ -178,10 +92,10 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p>$C^\infty(\Omega)=\bigcap\limits_{k=1}^\infty C^k(\Omega)$任意阶偏导存在且连续的函数类</p>
 </li>
 </ul>
-<h4 id="解的光滑性" class="headerLink">
-    <a href="#%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>解的光滑性</h4><center>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</center>
-<h4 id="分类" class="headerLink">
-    <a href="#%e5%88%86%e7%b1%bb" class="header-mark"></a>分类</h4><ul>
+<h3 id="解的光滑性" class="headerLink">
+    <a href="#%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>解的光滑性</h3><center>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</center>
+<h3 id="分类" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb" class="header-mark"></a>分类</h3><ul>
 <li>
 <p><strong>线性：</strong>$\displaystyle\sum\limits_{|\alpha|\leq k}a_{\alpha}(x)D^{\alpha}u=f(x)$</p>
 </li>
@@ -195,17 +109,17 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p>完全非线性：非线性依赖 $D^ku$</p>
 </li>
 </ul>
-<h3 id="实例" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h3><ol>
+<h2 id="实例" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h2><ol>
 <li><strong>Laplace方程：</strong>$\Delta u=0$</li>
 <li><strong>特征值方程：</strong>$\Delta u+\lambda u=0$</li>
 <li><strong>热方程：</strong>$u_t-a^2\Delta u=0(a&gt;0)$</li>
 <li>&hellip;</li>
 </ol>
-<h3 id="椭圆型" class="headerLink">
-    <a href="#%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>椭圆型&amp;</h3><h3 id="适定性" class="headerLink">
-    <a href="#%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>适定性</h3><h4 id="定义" class="headerLink">
-    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h4><ul>
+<h2 id="椭圆型" class="headerLink">
+    <a href="#%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>椭圆型&amp;</h2><h2 id="适定性" class="headerLink">
+    <a href="#%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>适定性</h2><h3 id="定义" class="headerLink">
+    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h3><ul>
 <li>
 <p>定解问题：PDE+条件</p>
 </li>
@@ -224,25 +138,25 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p><strong>闭球：</strong>$B(x,r),$ 体积 $\alpha(n)r^n$</p>
 </li>
 </ul>
-<h4 id="定理" class="headerLink">
-    <a href="#%e5%ae%9a%e7%90%86" class="header-mark"></a>定理</h4><ul>
+<h3 id="定理" class="headerLink">
+    <a href="#%e5%ae%9a%e7%90%86" class="header-mark"></a>定理</h3><ul>
 <li><strong>Green 公式</strong></li>
 </ul>
-<h2 id="位势方程" class="headerLink">
-    <a href="#%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>位势方程</h2><h3 id="possion方程" class="headerLink">
-    <a href="#possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>Possion方程</h3><p>$$-\Delta u=f(x)$$</p>
-<h3 id="调和函数" class="headerLink">
-    <a href="#%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>调和函数</h3><p>$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$$</p>
-<h2 id="热方程" class="headerLink">
-    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>热方程</h2><h3 id="基本定义-1" class="headerLink">
-    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89-1" class="header-mark"></a>基本定义</h3><h4 id="热方程-1" class="headerLink">
-    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b-1" class="header-mark"></a>热方程</h4><ul>
+<h1 id="位势方程" class="headerLink">
+    <a href="#%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>位势方程</h1><h2 id="possion方程" class="headerLink">
+    <a href="#possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>Possion方程</h2><p>$$-\Delta u=f(x)$$</p>
+<h2 id="调和函数" class="headerLink">
+    <a href="#%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>调和函数</h2><p>$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$$</p>
+<h1 id="热方程" class="headerLink">
+    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>热方程</h1><h2 id="基本定义-1" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89-1" class="header-mark"></a>基本定义</h2><h3 id="热方程-1" class="headerLink">
+    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b-1" class="header-mark"></a>热方程</h3><ul>
 <li><strong>基本形式：</strong>$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t&gt;0$</li>
 <li><strong>推导</strong></li>
 <li>反应扩散方程：反应项、扩散项</li>
 </ul>
-<h4 id="概念-1" class="headerLink">
-    <a href="#%e6%a6%82%e5%bf%b5-1" class="header-mark"></a>概念</h4><ul>
+<h3 id="概念-1" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5-1" class="header-mark"></a>概念</h3><ul>
 <li>
 <p><strong>定解问题：</strong></p>
 <ul>
@@ -275,9 +189,9 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p>$C^{1,0}(Q)$</p>
 </li>
 </ul>
-<h3 id="初值问题" class="headerLink">
-    <a href="#%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>初值问题</h3><h4 id="fourier" class="headerLink">
-    <a href="#fourier" class="header-mark"></a>Fourier</h4><ul>
+<h2 id="初值问题" class="headerLink">
+    <a href="#%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>初值问题</h2><h3 id="fourier" class="headerLink">
+    <a href="#fourier" class="header-mark"></a>Fourier</h3><ul>
 <li>
 <p><strong>Fourier 级数展开</strong></p>
 <p>$f(x)\in C^1(\mathbb{R}),\space\forall l&gt;0,\space x\in(-l,l)$</p>
@@ -287,8 +201,8 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <p><strong>Fourier 积分：</strong> 级数极限</p>
 </li>
 </ul>
-<h4 id="一维热方程初值问题" class="headerLink">
-    <a href="#%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>一维热方程初值问题</h4>
+<h3 id="一维热方程初值问题" class="headerLink">
+    <a href="#%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>一维热方程初值问题</h3>
 $$
 \displaystyle\left\{\begin{array}{l}
  \displaystyle\frac{\partial{u}}{\partial t}-a^2\displaystyle\frac{\partial^2u}{\partial x^2}=f(x,t), & (x,t)\in\mathbb{R}\times\mathbb{R}_+\\

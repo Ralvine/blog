@@ -1,54 +1,10 @@
-# 偏微分方程
+# 偏微分方程绪论
 
 
 <!--more-->
 
-{{< admonition quote "课程信息" true >}}
-🎓 数学科学学院<br>
-🕙 2021-2022 春夏，2022-2023 春夏<br>
-🧑‍🏫 鲁汪涛，孔德兴<br>
-📝 作业，（小测，）期末考试
-{{< /admonition >}}
 
-{{< admonition note "课程大纲" true >}}
-
-- 绪论
-- 一阶方程
-  - 线性方程
-  - 拟线性方程
-  - 偏微分方程组
-- 双元二阶方程
-- 波动方程
-  - 一维
-      - 导出、定解条件
-      - 柯西问题
-      - 初边值问题
-          - 分离变量法
-  - 高维
-      - 球平均法
-  - 传播
-  - 能量不等式
-- 热传导方程
-  - 导出、定解条件
-  - 柯西问题
-      - 傅立叶变换法
-  - 初边值问题
-  - 极值原理
-- Laplace方程
-  - 导出、定解条件
-  - 变分法
-  - 调和函数
-      - 格林公式
-      - 极值原理
-  - 格林函数
-      -镜像法
-  - 强极值原理
-
-{{< /admonition >}}
-
-## 引言
-
-### 发展史
+## 发展史
 
 > 17 - 微积分 Newton & Lebnitz<br>
 > 18 - Euler & Bernoulli & Lagrange & Laplace & Poisson<br>
@@ -56,9 +12,9 @@
 > 20 - 复杂理论<br>
 > 21 - 计算机数值分析 & 微分方程数值解
 
-### 基本定义
+## 基本定义
 
-#### 概念
+### 概念
 
 - **向量：** 开区域 $$x=(x_1,x_2,\cdots,x_n)\in \mathbb{R}^n,x\in \Omega$$
 - **函数：**
@@ -87,7 +43,7 @@ u:\Omega\rightarrow\mathbb{R}.（未知）\\
 \end{array}\right.$$
 {{< /math >}}
 
-#### 线性空间
+### 线性空间
 
 - **函数：**
 {{< math >}} 
@@ -107,11 +63,11 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 - $C_0^k$ 具有紧支集的函数
 - $C^\infty(\Omega)=\bigcap\limits_{k=1}^\infty C^k(\Omega)$任意阶偏导存在且连续的函数类
 
-#### 解的光滑性
+### 解的光滑性
 
 <center>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</center>
 
-#### 分类
+### 分类
 
 - **线性：**$\displaystyle\sum\limits_{|\alpha|\leq k}a_{\alpha}(x)D^{\alpha}u=f(x)$
 - **半线性：**$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}(x)D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$
@@ -119,18 +75,18 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 
 - 完全非线性：非线性依赖 $D^ku$
 
-### 实例
+## 实例
 
 1. **Laplace方程：**$\Delta u=0$
 2. **特征值方程：**$\Delta u+\lambda u=0$
 3. **热方程：**$u_t-a^2\Delta u=0(a>0)$
 4. ...
 
-### 椭圆型&
+## 椭圆型&
 
-### 适定性
+## 适定性
 
-#### 定义
+### 定义
 
 - 定解问题：PDE+条件
 
@@ -147,31 +103,31 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 - **闭球：**$B(x,r),$ 体积 $\alpha(n)r^n$
 
 
-#### 定理
+### 定理
 
 - **Green 公式**
 
-## 位势方程
+# 位势方程
 
-### Possion方程
+## Possion方程
 
 $$-\Delta u=f(x)$$
 
-### 调和函数
+## 调和函数
 
 $$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x)\, \mathrm{d}x$$
 
-## 热方程
+# 热方程
 
-### 基本定义
+## 基本定义
 
-#### 热方程
+### 热方程
 
 - **基本形式：**$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t>0$
 - **推导**
 - 反应扩散方程：反应项、扩散项
 
-#### 概念
+### 概念
 
 - **定解问题：**
 
@@ -195,9 +151,9 @@ $$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x)\, \mathrm{d}x$$
 
 - $C^{1,0}(Q)$
 
-### 初值问题
+## 初值问题
 
-#### Fourier
+### Fourier
 
 - **Fourier 级数展开**
 
@@ -207,7 +163,7 @@ $$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x)\, \mathrm{d}x$$
 
 - **Fourier 积分：** 级数极限
 
-#### 一维热方程初值问题
+### 一维热方程初值问题
 
 {{< math >}}
 $$

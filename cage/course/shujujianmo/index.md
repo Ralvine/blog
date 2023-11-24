@@ -26,7 +26,7 @@
 📓 The Elements of Statistical Learning(2nd edition) [Trevor Hastie, Robert Tibshirani, and Jerome Friedman]<br>
 📓 Pattern Recognition and Machine Learning [Chris Bishop]<br>
 📓 Learning Theory：An Approximation Theory Viewpoint [Felipe
-Cucker and Ding-Xuan Zhou] *Cambridge Univesity Press*<br>
+Cucker and Ding-Xuan Zhou] *Cambridge Univesity Press*
 {{< /admonition >}}
 
 {{< admonition success "教学大纲" true false >}}
@@ -110,7 +110,7 @@ Cucker and Ding-Xuan Zhou] *Cambridge Univesity Press*<br>
 {{< /admonition >}}
 
 {{< admonition info "作业" true false >}}
-🗞️ 统计学习课后部分习题<br>
+🗞️ 课本部分习题<br>
 🗞️ 论文精读：Distance metric learning for large margin nearest neighbor classification<br>
 🗞️ 编程：邮政手写数字识别
 {{< /admonition >}}
