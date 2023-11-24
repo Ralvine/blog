@@ -715,319 +715,6 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <p>由是，觉醒意识开始从体力无产者蔓延至脑力无产者，许多被忽视已久的概念和思想得以重新审视。当资本高速发展可以些许惠及他们的时候，他们抛弃了这些概念；当资本无法容纳生产力进步所带来的群体诉求时，这些概念又在他们脑海中回归了。于是，无产阶级重新开始用“资本家”称呼企业家，用“剥削”描述雇佣；资本集团则深感不安，渴望再一次用其垄断的话术要求人们相信今天所遭受的生活困苦应当归咎于奋斗和劳动不够。但受到剥削的群体意识俨然在客观现实中导向了资本的掠夺本质，也唤起了拒绝为无序扩张的资本服务、为一小撮垄断资产阶级的“特权”卖命的抗争思潮，而后者正是在资本主义的叙事掩饰下，通过利润和税金等形式无偿地占有工人创造的大量财富，贪婪地榨取劳动人民的血汗。</p>
 <p>这是资本无序扩张的第三十年，也是云谲波诡、山雨欲来的一年。资本的无序扩张正将历史唯物主义同广大的无产阶级重新耦合，敏锐的人们正向更先进的生产力和生产关系睁眼望去。</p>]]></description>
 </item><item>
-    <title>泛函分析</title>
-    <link>https://blog.ralvines.top/fhfx/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/fhfx/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 王伟<br>
-📝 20%小测，20%作业，60%期末</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>《实变函数与泛函分析概要（第五版）》王声望，郑维行</li>
-<li>课程讲义
-<ul>
-<li>Ch1.1</li>
-<li>Ch1.2</li>
-<li>Ch2.1</li>
-<li>Ch2.2</li>
-<li>Ch3.1</li>
-<li>Ch3.2</li>
-</ul>
-</li>
-<li>泛函分析笔记 @Reichtum</li>
-<li>课后习题讲解 @Reichtum
-<ul>
-<li><a href="https://zhuanlan.zhihu.com/p/486354129" target="_blank" rel="noopener noreferrer">度量空间</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/524355026" target="_blank" rel="noopener noreferrer">Banach&amp;Hilbert</a></li>
-</ul>
-</li>
-<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=48021&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="ch1-距离空间" class="headerLink">
-    <a href="#ch1-%e8%b7%9d%e7%a6%bb%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch1. 距离空间</h2><ul>
-<li>
-<p>定义</p>
-<ul>
-<li>距离公理：非负、对称、三角不等式</li>
-<li>非空即可定义、不唯一</li>
-<li>离散距离空间</li>
-<li>$\mathbb{R}^n$
-<ul>
-<li>欧氏距离、复数域</li>
-<li><strong>柯西不等式</strong></li>
-<li>max定义</li>
-</ul>
-</li>
-<li>连续函数空间$C[a,b]$</li>
-<li>$l^p$
-<ul>
-<li>元素：无限数列、级数绝对收敛</li>
-<li>距离定义
-<ul>
-<li>Holder不等式</li>
-<li><strong>Minkowski不等式</strong>、证明</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>$l^\infty$</li>
-<li>$L^p(F)$
-<ul>
-<li>可测集F</li>
-<li>距离定义
-<ul>
-<li>Holder不等式</li>
-<li>Minkowski不等式</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>$L^\infty$
-<ul>
-<li>本性有界</li>
-<li>本性有界可测、几乎处处相等看作同元素</li>
-<li>距离定义$essinf_F$</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>收敛</p>
-<ul>
-<li>点列收敛
-<ul>
-<li>性质：极限唯一、有界</li>
-<li>子列收敛</li>
-</ul>
-</li>
-<li>欧式空间$\mathbb{R}^n$的收敛（如何证）
-<ul>
-<li>点列收敛、坐标收敛</li>
-</ul>
-</li>
-<li>$C[a,b]$ 的收敛
-<ul>
-<li>按照距离导出收敛</li>
-<li>某距离收敛等价函数列一致收敛</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>点集</p>
-<ul>
-<li>开球、闭球</li>
-<li>开集、闭包、闭集</li>
-<li>内点、内部</li>
-<li>聚点、导集、孤立点</li>
-<li>稠密性</li>
-<li>可分性
-<ul>
-<li>$L^\infty[a,b]$</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>连续映射</p>
-<ul>
-<li>连续性等价条件</li>
-<li>归结原则、集合描述</li>
-<li>同胚、等距</li>
-</ul>
-</li>
-<li>
-<p>完备性</p>
-<ul>
-<li>柯西基本列</li>
-<li>完备性
-<ul>
-<li>三条定理</li>
-<li>$C[a,b]$、$l^p$、$L^\infty(F)$ 完备</li>
-<li>$S$ 三角不等式及<strong>完备性证明</strong></li>
-</ul>
-</li>
-<li>完备化
-<ul>
-<li>完备扩展定理</li>
-<li>$C[a,b]\rightarrow L^2[a,b]$</li>
-<li>$P\rightarrow C[a,b]$</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>稀疏集</p>
-<ul>
-<li>与球的的充要条件</li>
-</ul>
-</li>
-<li>
-<p>闭球套定理、第一/二类型集</p>
-</li>
-<li>
-<p>$l_0^p$</p>
-<ul>
-<li>子空间、不完备、稠密</li>
-</ul>
-</li>
-<li>
-<p>$S$、$s$、$P$</p>
-</li>
-<li>
-<p>准紧集、紧集、全有界集</p>
-<ul>
-<li>$\epsilon-$ 网</li>
-<li>相互关系</li>
-<li>紧集套</li>
-<li>开覆盖</li>
-<li>有限交</li>
-<li>连续映射</li>
-</ul>
-</li>
-<li>
-<p>不动点定理、压缩映射</p>
-</li>
-<li>
-<p><strong>重点梳理</strong></p>
-<ul>
-<li>常见度量空间，及其距离、收敛、可分性、准紧条件
-<ul>
-<li>$\mathbb{R}^n$ （所有分量收敛）</li>
-<li>$C[a,b]$（一致收敛）、$C^k[a,b]$、$C^\infty [a,b]$</li>
-<li>$l^p$、$l^\infty$（不可分）</li>
-<li>$L^p$、$L^\infty$（不可分）</li>
-<li>$S$（测度收敛）、$s$（按坐标收敛）</li>
-</ul>
-</li>
-<li>重要证明
-<ul>
-<li>Cauchy、Holder、Minkowski、Young</li>
-</ul>
-</li>
-<li>各类点集、球、稠密、可分</li>
-<li>基本列、收敛、完备</li>
-<li>连续映射</li>
-<li>不动点、压缩映射</li>
-</ul>
-</li>
-</ul>
-<h2 id="ch2-巴拿赫空间希尔伯特空间" class="headerLink">
-    <a href="#ch2-%e5%b7%b4%e6%8b%bf%e8%b5%ab%e7%a9%ba%e9%97%b4%e5%b8%8c%e5%b0%94%e4%bc%af%e7%89%b9%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch2. 巴拿赫空间、希尔伯特空间</h2><ul>
-<li>赋范线性空间
-<ul>
-<li>距离空间、范数/强收敛</li>
-<li>Banach</li>
-<li>商空间</li>
-<li>直和</li>
-</ul>
-</li>
-<li>内积空间
-<ul>
-<li>导出范数
-<ul>
-<li>Schwarz不等式、极化恒等式</li>
-<li>平行四边形公式</li>
-</ul>
-</li>
-<li>$l^2,L^2$</li>
-<li>正交、正交补、推广勾股</li>
-<li>规范正交系
-<ul>
-<li>Bessel</li>
-<li>完备、完全</li>
-<li>Schmidt正交化</li>
-<li>最佳逼近</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Hilbert
-<ul>
-<li>凸集、正交分解</li>
-<li>E.S.Fischer</li>
-<li>Parseval</li>
-<li>可分同构</li>
-</ul>
-</li>
-</ul>
-<h2 id="ch3-有界线性算子巴拿赫空间" class="headerLink">
-    <a href="#ch3-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b7%b4%e6%8b%bf%e8%b5%ab%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch3. 有界线性算子：巴拿赫空间</h2><h2 id="ch4-有界线性算子希尔伯特空间" class="headerLink">
-    <a href="#ch4-%e6%9c%89%e7%95%8c%e7%ba%bf%e6%80%a7%e7%ae%97%e5%ad%90%e5%b8%8c%e5%b0%94%e4%bc%af%e7%89%b9%e7%a9%ba%e9%97%b4" class="header-mark"></a>Ch4. 有界线性算子：希尔伯特空间</h2><h2 id="参考资料" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><p>小测：https://www.cc98.org/topic/5321722</p>]]></description>
-</item><item>
-    <title>复变函数</title>
-    <link>https://blog.ralvines.top/fbhs/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/fbhs/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 齐治<br>
-📝 40%作业，60%期末</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>《Complex Analysis》, Stein.</li>
-<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=47986&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
-<li>复变函数华师版讲义 @陆俊</li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="ch1-复分析预备知识" class="headerLink">
-    <a href="#ch1-%e5%a4%8d%e5%88%86%e6%9e%90%e9%a2%84%e5%a4%87%e7%9f%a5%e8%af%86" class="header-mark"></a>Ch1. 复分析预备知识</h2><h2 id="ch2-柯西定理及应用" class="headerLink">
-    <a href="#ch2-%e6%9f%af%e8%a5%bf%e5%ae%9a%e7%90%86%e5%8f%8a%e5%ba%94%e7%94%a8" class="header-mark"></a>Ch2. 柯西定理及应用</h2><h2 id="ch3-亚纯函数及对数" class="headerLink">
-    <a href="#ch3-%e4%ba%9a%e7%ba%af%e5%87%bd%e6%95%b0%e5%8f%8a%e5%af%b9%e6%95%b0" class="header-mark"></a>Ch3. 亚纯函数及对数</h2><h2 id="ch5-全函数" class="headerLink">
-    <a href="#ch5-%e5%85%a8%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch5. 全函数</h2><h2 id="ch7-留数定理" class="headerLink">
-    <a href="#ch7-%e7%95%99%e6%95%b0%e5%ae%9a%e7%90%86" class="header-mark"></a>Ch7. 留数定理*</h2><h2 id="ch8-椭圆函数" class="headerLink">
-    <a href="#ch8-%e6%a4%ad%e5%9c%86%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch8. 椭圆函数*</h2><h2 id="ch10-theta函数" class="headerLink">
-    <a href="#ch10-theta%e5%87%bd%e6%95%b0" class="header-mark"></a>Ch10. $\Theta$函数*</h2><h2 id="参考资料" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><ul>
-<li>华师版</li>
-</ul>]]></description>
-</item><item>
     <title>面向对象程序设计</title>
     <link>https://blog.ralvines.top/oop/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
@@ -1157,855 +844,6 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ol>
 </div>]]></description>
 </item><item>
-    <title>偏微分方程</title>
-    <link>https://blog.ralvines.top/pde/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pde/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2021-2022 春夏，2022-2023 春夏<br>
-🧑‍🏫 鲁汪涛，孔德兴<br>
-📝 作业，（小测，）期末考试</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>绪论</li>
-<li>一阶方程
-<ul>
-<li>线性方程</li>
-<li>拟线性方程</li>
-<li>偏微分方程组</li>
-</ul>
-</li>
-<li>双元二阶方程</li>
-<li>波动方程
-<ul>
-<li>一维
-<ul>
-<li>导出、定解条件</li>
-<li>柯西问题</li>
-<li>初边值问题
-<ul>
-<li>分离变量法</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>高维
-<ul>
-<li>球平均法</li>
-</ul>
-</li>
-<li>传播</li>
-<li>能量不等式</li>
-</ul>
-</li>
-<li>热传导方程
-<ul>
-<li>导出、定解条件</li>
-<li>柯西问题
-<ul>
-<li>傅立叶变换法</li>
-</ul>
-</li>
-<li>初边值问题</li>
-<li>极值原理</li>
-</ul>
-</li>
-<li>Laplace方程
-<ul>
-<li>导出、定解条件</li>
-<li>变分法</li>
-<li>调和函数
-<ul>
-<li>格林公式</li>
-<li>极值原理</li>
-</ul>
-</li>
-<li>格林函数
--镜像法</li>
-<li>强极值原理</li>
-</ul>
-</li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="引言" class="headerLink">
-    <a href="#%e5%bc%95%e8%a8%80" class="header-mark"></a>引言</h2><h3 id="发展史" class="headerLink">
-    <a href="#%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>发展史</h3><blockquote>
-<p>17 - 微积分 Newton &amp; Lebnitz<br>
-18 - Euler &amp; Bernoulli &amp; Lagrange &amp; Laplace &amp; Poisson<br>
-19 - pde应用 Fourier &amp; Green &amp; Cauchy &amp; Hadamard<br>
-20 - 复杂理论<br>
-21 - 计算机数值分析 &amp; 微分方程数值解</p>
-</blockquote>
-<h3 id="基本定义" class="headerLink">
-    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>基本定义</h3><h4 id="概念" class="headerLink">
-    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h4><ul>
-<li>
-<p><strong>向量：</strong> 开区域 $$x=(x_1,x_2,\cdots,x_n)\in \mathbb{R}^n,x\in \Omega$$</p>
-</li>
-<li>
-<p><strong>函数：</strong>
-$$u:\Omega\rightarrow\mathbb{R}$$
-$$偏导\ \displaystyle\frac{\partial u}{\partial x_1}=\partial_{x_{1}}u=\partial_{1}u$$</p>
-</li>
-<li>
-<p><strong>梯度：</strong>$$grad/\nabla/Du=(\partial_{1}u,\partial_{2}u,\cdots,\partial_{n}u)$$</p>
-</li>
-<li>
-<p><strong>散度：</strong>$$\vec{F}=(F_1,F_2,\cdots,F_n),\Omega\rightarrow \mathbb{R}^n\Rightarrow div\vec{F}=\displaystyle\sum\limits_{i=1}^n\frac{\partial F_i}{\partial x_i}$$</p>
-</li>
-<li>
-<p><strong>Hessian矩阵：</strong> $$D^2u=\begin{pmatrix}\displaystyle\frac{\partial^2u}{\partial x_1^2}&\displaystyle\frac{\partial^2 u}{\partial x_1x_2}&\cdots&\displaystyle\frac{\partial^2u}{\partial x_1x_n}\\\vdots&\vdots&\ddots&\vdots\\\displaystyle\frac{\partial^2u}{\partial x_nx_1}&\displaystyle\frac{\partial^2u}{\partial x_nx_2}&\cdots&\displaystyle\frac{\partial^2u}{\partial x_n^2}\end{pmatrix}$$</p>
-</li>
-<li>
-<p><strong>Laplace算子：</strong> $$\Delta u=tr(D^2u)=\displaystyle\sum\limits_{i=1}^n\frac{\partial ^2u}{\partial x_i^2}=\text{div}(Du)\ 散度的梯度$$</p>
-</li>
-<li>
-<p><strong>所有k阶偏导：</strong>
-$$D^ku=\displaystyle\frac{\partial^ku}{\partial x_{i1}\partial x_{i2}\cdots\partial x_{ik}}\in\mathbb{R}^{n^k},\ n^k个$$
-$$|D^ku|=(\sum\limits_{i1=1}^n\sum\limits_{i2=1}^n\cdots\sum\limits_{ik=1}^n|\partial_{x1}\partial_{x2}\cdots\partial_{xk}u|)^{1/2}$$</p>
-</li>
-<li>
-<p><strong>多重指标：</strong>
-$$\alpha=(\alpha_1,\alpha_2,\cdots,\alpha_n),$$
-$$阶\ |\alpha|=\alpha_1+\alpha_2+\cdots+\alpha_n$$
-$$去重\ D^\alpha u=\partial_{x1}^{\alpha1}\partial_{x1}^{\alpha2}\cdots\partial_{x1}^{\alpha n}\Rightarrow|D^ku|=(\sum\limits_{|\alpha|=k}|D^\alpha u|^2)^{1/2}$$</p>
-</li>
-<li>
-<p><strong>偏微分方程：</strong>
- 
-$$F(D^ku(x),D^{k-1}u(x),\cdots,Du(x),u(x),x)=0, x\in\Omega.\ k阶$$
-
-$$\left\{\begin{array}{l}
-F:\mathbb{R}^{n^k}\times\mathbb{R}^{n^{k-1}}\times\cdots\times\mathbb{R}^{n}\times\mathbb{R}\times\Omega\rightarrow\mathbb{R}.（已知）\\
-u:\Omega\rightarrow\mathbb{R}.（未知）\\
-\end{array}\right.$$
-</p>
-</li>
-</ul>
-<h4 id="线性空间" class="headerLink">
-    <a href="#%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>线性空间</h4><ul>
-<li>
-<p><strong>函数：</strong>
- 
-$$u\rightarrow C(\Omega), ||u||_{C(\Omega)}=\sup\limits_{x\in\Omega} |u(x)|.$$
-</p>
-</li>
-<li>
-<p><strong>k次连续可微函数：</strong>
- 
-$$ ||u||_{C^k(\Omega)}=\sup\limits_{x\in\Omega}|u(x)| + \displaystyle\sum\limits_{|\alpha|=1}^2 \sup\limits_{x\in\Omega}|D^\alpha u(x)| $$
-</p>
-</li>
-<li>
-<p><strong>支集：</strong>
-
-$$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
-
-所有满足$u(x)\neq0$点集在$\Omega$上的闭包</p>
-</li>
-<li>
-<p>$C_0^k$ 具有紧支集的函数</p>
-</li>
-<li>
-<p>$C^\infty(\Omega)=\bigcap\limits_{k=1}^\infty C^k(\Omega)$任意阶偏导存在且连续的函数类</p>
-</li>
-</ul>
-<h4 id="解的光滑性" class="headerLink">
-    <a href="#%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>解的光滑性</h4><center>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</center>
-<h4 id="分类" class="headerLink">
-    <a href="#%e5%88%86%e7%b1%bb" class="header-mark"></a>分类</h4><ul>
-<li>
-<p><strong>线性：</strong>$\displaystyle\sum\limits_{|\alpha|\leq k}a_{\alpha}(x)D^{\alpha}u=f(x)$</p>
-</li>
-<li>
-<p><strong>半线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}(x)D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
-</li>
-<li>
-<p><strong>拟线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}[D^{k-1}u(x),\cdots,Du(x),u(x),x]D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
-</li>
-<li>
-<p>完全非线性：非线性依赖 $D^ku$</p>
-</li>
-</ul>
-<h3 id="实例" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h3><ol>
-<li><strong>Laplace方程：</strong>$\Delta u=0$</li>
-<li><strong>特征值方程：</strong>$\Delta u+\lambda u=0$</li>
-<li><strong>热方程：</strong>$u_t-a^2\Delta u=0(a&gt;0)$</li>
-<li>&hellip;</li>
-</ol>
-<h3 id="椭圆型" class="headerLink">
-    <a href="#%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>椭圆型&amp;</h3><h3 id="适定性" class="headerLink">
-    <a href="#%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>适定性</h3><h4 id="定义" class="headerLink">
-    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h4><ul>
-<li>
-<p>定解问题：PDE+条件</p>
-</li>
-<li>
-<p>适定：解存在、唯一、连续依赖已知函数</p>
-</li>
-<li>
-<p>形式解：对实际问题假设解的光滑性以求出表达式（先验估计）</p>
-</li>
-<li>
-<p>$\Omega$ - 开域、$\overline\Omega$ - 闭包、$\partial\Omega$ - 边界</p>
-<p> $\mathbb{R}_+^n=\{x=(x_1,\cdots,x_n)\in\mathbb{R}^n|x_n>0\}$ 上半空间 <br></p>
- $\mathbb{R}_+^1=\mathbb{R}_+,\space\mathbb{R}_+^{n+1}=\mathbb{R}_+^n\times\mathbb{R}_+$ 
-</li>
-<li>
-<p><strong>闭球：</strong>$B(x,r),$ 体积 $\alpha(n)r^n$</p>
-</li>
-</ul>
-<h4 id="定理" class="headerLink">
-    <a href="#%e5%ae%9a%e7%90%86" class="header-mark"></a>定理</h4><ul>
-<li><strong>Green 公式</strong></li>
-</ul>
-<h2 id="位势方程" class="headerLink">
-    <a href="#%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>位势方程</h2><h3 id="possion方程" class="headerLink">
-    <a href="#possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>Possion方程</h3><p>$$-\Delta u=f(x)$$</p>
-<h3 id="调和函数" class="headerLink">
-    <a href="#%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>调和函数</h3><p>$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$$</p>
-<h2 id="热方程" class="headerLink">
-    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>热方程</h2><h3 id="基本定义-1" class="headerLink">
-    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89-1" class="header-mark"></a>基本定义</h3><h4 id="热方程-1" class="headerLink">
-    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b-1" class="header-mark"></a>热方程</h4><ul>
-<li><strong>基本形式：</strong>$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t&gt;0$</li>
-<li><strong>推导</strong></li>
-<li>反应扩散方程：反应项、扩散项</li>
-</ul>
-<h4 id="概念-1" class="headerLink">
-    <a href="#%e6%a6%82%e5%bf%b5-1" class="header-mark"></a>概念</h4><ul>
-<li>
-<p><strong>定解问题：</strong></p>
-<ul>
-<li>
-<p><strong>定解条件</strong></p>
-<ul>
-<li>
-<p><strong>初始条件：</strong>$u(x,0)=\varphi (x)$</p>
-</li>
-<li>
-<p><strong>边值条件：</strong> 边界分布或外围介质影响（$x\in\partial\Omega,t\ge0$）</p>
-<p>$u(x,t)=g(x,t)$. $g=\text{const}$ 恒温</p>
-<p>$k\frac{\partial}{\partial\displaystyle\vec{n}}u(x,t)=g(x,t)$. $g\ge0$ 热量流入；$g\equiv0$ 绝热</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>偏微分方程</strong></p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>函数集：</strong> 所有$Q$内关于$x$二阶偏导连续，关于$t$一阶偏导连续函数</p>
- $C^{2,1}(Q)=\{u\in C(Q)|u_t, u_{xi},u_{xixj}\in C(Q);i,j=1,\cdots,n\}$ 
-</li>
-<li>
-<p><strong>古典解：</strong> 热方程在上述集中的解</p>
-</li>
-<li>
-<p>$C^{1,0}(Q)$</p>
-</li>
-</ul>
-<h3 id="初值问题" class="headerLink">
-    <a href="#%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>初值问题</h3><h4 id="fourier" class="headerLink">
-    <a href="#fourier" class="header-mark"></a>Fourier</h4><ul>
-<li>
-<p><strong>Fourier 级数展开</strong></p>
-<p>$f(x)\in C^1(\mathbb{R}),\space\forall l&gt;0,\space x\in(-l,l)$</p>
-<p>$f(x)=\displaystyle\frac{a_0}{2}+\displaystyle\sum\limits_{k=1}^\infty \big (a_k\cos \displaystyle\frac{k\pi}{l}x+b_k\sin\displaystyle\frac{k\pi}{l}x\big )$</p>
-</li>
-<li>
-<p><strong>Fourier 积分：</strong> 级数极限</p>
-</li>
-</ul>
-<h4 id="一维热方程初值问题" class="headerLink">
-    <a href="#%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>一维热方程初值问题</h4>
-$$
-\displaystyle\left\{\begin{array}{l}
- \displaystyle\frac{\partial{u}}{\partial t}-a^2\displaystyle\frac{\partial^2u}{\partial x^2}=f(x,t), & (x,t)\in\mathbb{R}\times\mathbb{R}_+\\
-u(x,0)=\varphi(x), & x\in\mathbb
-{R}\\
-  \end{array}\right.
-$$]]></description>
-</item><item>
-    <title>实变函数</title>
-    <link>https://blog.ralvines.top/sbhs/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sbhs/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 贾厚玉<br>
-📝 20%小测，20%作业，60%期末</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>《实变函数》，周性伟</li>
-<li>PPT
-<ul>
-<li>Ch1.1</li>
-<li>Ch1.2</li>
-<li>Ch3</li>
-<li>Ch4</li>
-<li>Ch5</li>
-<li>Ch6</li>
-</ul>
-</li>
-<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51173&amp;tenant_code=112" target="_blank" rel="noopener noreferrer"><em>智云课堂回放</em></a></li>
-<li><a href="https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&amp;vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">实变函数习题十讲</a></li>
-<li><a href="https://www.bilibili.com/video/BV1MX4y1w7fm/?spm_id_from=333.788&amp;vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer"></a></li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="集合" class="headerLink">
-    <a href="#%e9%9b%86%e5%90%88" class="header-mark"></a>集合</h2><ul>
-<li>三次完备化
-<ul>
-<li>有理数&amp;实数（极限封闭）</li>
-<li>黎曼几分&amp;勒贝格积分</li>
-<li>广义函数（Dirac）</li>
-</ul>
-</li>
-<li>集合运算
-<ul>
-<li>表示、集族</li>
-<li>幂集</li>
-<li>交、并、差、对称差、无穷、间断点集</li>
-<li>DeMorgan</li>
-</ul>
-</li>
-<li>集合序列、极限
-<ul>
-<li>单调集列</li>
-<li>上下限集、上下极限</li>
-<li>笛卡尔乘积、性质</li>
-</ul>
-</li>
-<li>映射
-<ul>
-<li>映射（单、满、逆）、像/原像（性质）、复合</li>
-</ul>
-</li>
-<li>特征函数</li>
-<li>集合等价、基数
-<ul>
-<li>集合对等</li>
-<li>基数（势）</li>
-<li>有限/可数集
-<ul>
-<li>[0,1]不可数</li>
-<li>A~A$\cup$B</li>
-</ul>
-</li>
-<li>连续统势
-<ul>
-<li>n元数列全体</li>
-<li>可数集子集全体</li>
-<li>至多可数直积全体</li>
-</ul>
-</li>
-<li>基数比较
-<ul>
-<li>$A_2\subset A_1\subset A_0,A_0$~$A_2\Rightarrow A_0$~$A_1$</li>
-<li>Banach分解、分离集</li>
-<li>Cantor-Bernstein定理（真子集对等）</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>$\mathbb{R}^n$
-<ul>
-<li>笛卡尔乘积、加法、数乘、内积、模、距离</li>
-<li>性质（交换、柯西不等式、系数、三角不等式）</li>
-<li>邻域</li>
-<li>极限描述（距离、邻域、$\epsilon-N$、分量）</li>
-<li>点集
-<ul>
-<li>内点、内域</li>
-<li>外点、外域</li>
-<li>边界点</li>
-<li>聚点、导集</li>
-<li>闭包</li>
-<li>孤立点、孤立集</li>
-<li>离散集</li>
-<li>稠密集、无处稠密集、疏朗集</li>
-<li>开集、闭集</li>
-<li>自密集、完备集</li>
-</ul>
-</li>
-<li>一些性质、Bolzano-Weierstrass定理</li>
-<li>开集构造定理</li>
-<li>Cantor完备集
-<ul>
-<li>性质（无内点、连续统势c、稠子集、开区间长度和）</li>
-<li>Cantor函数</li>
-</ul>
-</li>
-<li>长方体（矩体）、方体</li>
-</ul>
-</li>
-<li>连续映射
-<ul>
-<li>距离函数、性质</li>
-<li>开覆盖、紧集
-<ul>
-<li>充要条件：有界闭集</li>
-</ul>
-</li>
-<li>连续延拓定理</li>
-<li>连续函数的集合特征</li>
-</ul>
-</li>
-</ul>
-<h2 id="l可测集" class="headerLink">
-    <a href="#l%e5%8f%af%e6%b5%8b%e9%9b%86" class="header-mark"></a>L可测集</h2><ul>
-<li>外测度
-<ul>
-<li>L覆盖（开区间、可有限）</li>
-<li>集合函数</li>
-<li>单点集（利用数列）</li>
-<li>非负、单调、次可数可加、平移不变</li>
-<li>区间</li>
-<li>$[0,1]$Cantor集</li>
-<li>$m^*_\delta (E)$</li>
-<li>不相交可加性、介值</li>
-</ul>
-</li>
-<li>可测集$\mathcal{M}$
-<ul>
-<li>卡氏条件</li>
-<li>充要条件</li>
-</ul>
-</li>
-<li>测度
-<ul>
-<li>零测集（单点、有理数、任意子集）、可测</li>
-<li>区间可测</li>
-<li>性质（空、交并差、可数交并、可数可加）</li>
-<li>单调可测集列</li>
-<li>平移不变性</li>
-<li>不可测集</li>
-<li>Borel集</li>
-<li>$G_\delta, F_\sigma$</li>
-<li>可测集构造（开/闭集逼近）、等价命题</li>
-<li>可测集特征</li>
-</ul>
-</li>
-<li>代数、$\sigma$代数
-<ul>
-<li>定义</li>
-<li>Borel可测、非Borel可测、关系</li>
-</ul>
-</li>
-<li>$\mathbb{R}^n$可测集
-<ul>
-<li>直积可测性问题</li>
-</ul>
-</li>
-</ul>
-<h2 id="可测函数" class="headerLink">
-    <a href="#%e5%8f%af%e6%b5%8b%e5%87%bd%e6%95%b0" class="header-mark"></a>可测函数</h2><ul>
-<li>定义
-<ul>
-<li>广义实数</li>
-<li>可测函数</li>
-<li>特征函数可测</li>
-<li>稠密和可测例</li>
-</ul>
-</li>
-<li>性质
-<ul>
-<li>运算</li>
-<li>几乎处处</li>
-<li>局部有界</li>
-</ul>
-</li>
-<li>连续函数逼近
-<ul>
-<li>简单函数</li>
-<li>支集</li>
-</ul>
-</li>
-<li>测度收敛
-<ul>
-<li>逐点收敛</li>
-<li>一致收敛</li>
-<li>几乎处处收敛
-<ul>
-<li>Egoroff</li>
-</ul>
-</li>
-<li>依测度收敛
-<ul>
-<li>依测度基本列</li>
-<li>Riesz</li>
-<li>Lusin、逆命题</li>
-</ul>
-</li>
-<li>连续扩张定理</li>
-<li>连续逼近、Frechet</li>
-</ul>
-</li>
-</ul>
-<h2 id="l积分" class="headerLink">
-    <a href="#l%e7%a7%af%e5%88%86" class="header-mark"></a>L积分</h2><ul>
-<li>非负简单函数
-<ul>
-<li>分划</li>
-<li>L积分、性质</li>
-</ul>
-</li>
-<li>非负可测函数
-<ul>
-<li>等价定义</li>
-<li>性质</li>
-<li>Chebyshev不等式</li>
-<li>几乎处处有限</li>
-<li>积分为0条件</li>
-<li>绝对连续性</li>
-<li>分布函数</li>
-<li>Levi（非负渐升列）</li>
-<li>逐项积分</li>
-<li>Fatou</li>
-</ul>
-</li>
-<li>一般可测函数
-<ul>
-<li>有界、控制函数</li>
-<li>性质</li>
-<li>绝对连续性</li>
-<li>LDCT</li>
-<li>有界收敛</li>
-<li>逐项积分</li>
-<li>分片积分</li>
-<li>含参</li>
-</ul>
-</li>
-<li>R积分与L积分
-<ul>
-<li>广义R</li>
-<li>重积分、累次积分</li>
-<li>Tonelli</li>
-<li>分布函数表达</li>
-</ul>
-</li>
-<li>Fubini</li>
-<li>可积与连续
-<ul>
-<li>卷积</li>
-</ul>
-</li>
-</ul>
-<h2 id="l微分" class="headerLink">
-    <a href="#l%e5%be%ae%e5%88%86" class="header-mark"></a>L微分</h2><ul>
-<li>单调可微
-<ul>
-<li>Vitali覆盖</li>
-<li>覆盖定理</li>
-<li>单调微分定理</li>
-<li>Dini微商</li>
-<li>单调可微性</li>
-<li>逐项微分</li>
-</ul>
-</li>
-<li>有界变差</li>
-<li>不定积分的微分</li>
-<li>绝对连续函数、微积分基本定理</li>
-<li>密度、全密点、近似连续点</li>
-</ul>
-<h2 id="lp空间" class="headerLink">
-    <a href="#lp%e7%a9%ba%e9%97%b4" class="header-mark"></a>$L^p$空间</h2><ul>
-<li>定义
-<ul>
-<li>本性有界（上界、上确界）</li>
-<li>$L^\infty$、$||\ ||_\infty$</li>
-<li>线性空间</li>
-</ul>
-</li>
-<li>Holder不等式
-<ul>
-<li>共轭指标</li>
-<li>Young不等式</li>
-</ul>
-</li>
-<li>Minkowski不等式</li>
-<li>完备距离空间</li>
-<li>极限
-<ul>
-<li>收敛列</li>
-<li>柯西基本列</li>
-<li>稠密、可分</li>
-</ul>
-</li>
-</ul>
-<h2 id="参考资料" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
-    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
-<p>以下基于个人学习经历与其他情况写一些关于实变函数的学习建议（普适）零.实变函数是近代分析学的起点，起着“地基”的作用。首先明确两个问题，一是这门课所要研究的数学对象，二是为了研究这个数学对象我们引进了哪些数学工具。在数学分析中我们的研究对象是一个单独的函数，所使用的数学工具是微分、积分、极限。实变函数课提出了一个全新的观点：我们不再单独研究一个函数，而是把一些函数打包成一个集合，组成“函数空间”这样一个整体。我们的研究对象就是各种“函数空间”，所使用的工具是“<strong>测度”与“积分</strong>”。分析中的一个重要支柱是利用“函数空间”去解“各种偏微分方程”，这门课是分析学的一个重要基础</p>
-<p><strong>一.参考书：</strong></p>
-<p>1.学院用的教材是周性伟先生的教材（与同济大学相同），但习题较困难，建议配上周民强的实变函数论，尤其强调例题（大部分与教材中类似或重合）</p>
-<p>2.英文参考书：Folland（实分析教材，写的很好，但对初学者阅读难度较大）、Stein（主线清晰，但部分重要结论在习题中，正文直接引用）</p>
-<p><strong>二.这门课的核心内容是：</strong></p>
-<p>（1）测度论 （2）积分论 （3）利用测度与积分去研究函数空间（主要研究Lp空间与L2空间）</p>
-<p>注记1：教材会在最开始花笔墨讲解集合论的东西，引入集合论的原因是我们在这门课的学习中会遇到不可数集，进行不可数的运算，为了避免逻辑上的自相矛盾，我们需要引入选择公理。事实上如果你承认一些基本事实，那么即使不学这部分的内容也无伤大雅。但是对于一些有精神洁癖的同学，凡事都想刨根问底，那么跳过这部分直接学测度论可能就会有一些难受，但是，切记<strong>集合论不是这门课的重点！</strong></p>
-<p>注记2：一个很重要的观点：<strong>集合是特殊的函数，测度是特殊的积分</strong></p>
-<p>1.**测度：**如何测量一个集合的“度”，这个“度”是“长度”、“面积”、“体积”等概念的推广。教材是从欧式空间的Lebesgue测度讲起，它是欧式空间上最自然最canonical的测度，是最符合我们直觉的测度 它的构造测度的步骤是：“（长方体的）体积-&gt;（任意集合的）外测度/内测度-&gt;（Lebesgue可测集的）Lebesgue测度” 在对一个具体的空间定义好了什么是测度后，我们很自然地要考虑更加整体的性质，即把所有带有测度结构的空间放到一起研究。注意到可测函数的复合依然是可测函数，这是一个重要的性质，我们很多年后也许会忘记这门课具体内容，但应该会记得Littleword三原理。这是一种哲学上的观点：可测集差不多是开集，可测函数差不多是连续函数，依测度收敛差不多是一致收敛。如果我们用范畴的观点去看，Littleword三原理其实就是在比较拓扑范畴与测度范畴的关系。作为范畴中的对象，拓扑结构由开集刻画，测度结构由可测集刻画，Caratheodory定理描述了这两个结构的关系。作为范畴中的态射，拓扑范畴的态射是连续函数，测度范畴的态射是可测函数，Lusin定理描述了这两个态射的关系。这两个范畴中又都有极限结构，Egorov定理描述了这两种收敛的关系</p>
-<p>2.**.积分：**对比较特殊的欧式空间，我们会学习Lebesgue积分，它是数学分析中黎曼积分的推广。这里大家要理解：数学分析中学的黎曼积分有哪些不足，Lebesgue积分如何弥补了这些不足；黎曼积分中的许多定理如何推广到Lebesgue积分上去 如何从测度定义积分，是积分论要掌握的核心知识，集合对应于特征函数，所以我们可以定义特征函数的积分，再由sigma可加性，我们可以定义简单函数的积分，再利用Levi单调收敛定理，我们进而可以定义非负可测函数的积分，最后利用绝对值可积，我们定义可测函数的积分。值得注意的是，这不仅做到了“把测度的定义推广到积分的定义”，同时保留了很多良好的性质与定理</p>
-<p>3.<strong>Lebesgue积分VSRiemann积分：</strong> 一个自然的问题：黎曼积分中的一些定理和性质是不是在Lebesgue积分的框架下依然成立呢？我们在数学分析中学过以下四个理论：牛顿莱布尼兹定理、局部积分公式、中值定理、链式法则。在推广到Lebesgue积分论的过程中，最重要的一定要知道，我们是在什么框架下推广的！</p>
-<p>4.计算题 这门课的计算题大致有：计算Lebesgue积分、计算有界变差。计算Lebesgue积分的常见方法有换元法、局部积分公式、中值定理、单调收敛定理、Lebesgue控制收敛定理。计算有界变差的常见方法有导函数的黎曼积分、计数函数的积分。每种计算的每种方法都可以在书上找到课后习题，这部分的内容就是靠做题练的，<strong>没有捷径</strong>。</p>
-</blockquote>
-<h3 id="书目" class="headerLink">
-    <a href="#%e4%b9%a6%e7%9b%ae" class="header-mark"></a>书目</h3><ul>
-<li>周性伟</li>
-<li>周民强</li>
-<li>郑维声、王声望</li>
-</ul>]]></description>
-</item><item>
-    <title>微分方程数值解</title>
-    <link>https://blog.ralvines.top/pdeszj/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pdeszj/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 张庆海<br>
-📝 40%平时，60%期末</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>教材讲义</li>
-<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=51564&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="ch7-bvp-fd" class="headerLink">
-    <a href="#ch7-bvp-fd" class="header-mark"></a>(Ch7) BVP-FD</h2><blockquote>
-<p>P60-70 (11)</p>
-</blockquote>
-<ul>
-<li>有限差分离散化</li>
-<li>误差和一致性</li>
-<li>稳定性、收敛性
-<ul>
-<li>范数收敛</li>
-<li>Green函数
-<ul>
-<li>解决方案</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>其他边值条件</li>
-<li>二维
-<ul>
-<li>Kronecker乘积</li>
-<li>范数收敛性</li>
-</ul>
-</li>
-<li>不规则边界、收敛性</li>
-</ul>
-<h2 id="ch9-multigrid" class="headerLink">
-    <a href="#ch9-multigrid" class="header-mark"></a>(Ch9) Multigrid</h2><blockquote>
-<p>P80-87 (8)</p>
-</blockquote>
-<ul>
-<li>残差方程</li>
-<li>模型问题</li>
-<li>算法组成
-<ul>
-<li>傅立叶模式</li>
-<li>松弛</li>
-<li>限制、延拓</li>
-<li>双网格矫正</li>
-<li>多重网格cycles</li>
-</ul>
-</li>
-<li>收敛性分析
-<ul>
-<li>代数图</li>
-<li>FMG最优复杂度</li>
-</ul>
-</li>
-</ul>
-<h2 id="ch11-ivp" class="headerLink">
-    <a href="#ch11-ivp" class="header-mark"></a>(Ch11) IVP</h2><blockquote>
-<p>P102-138 (37)</p>
-</blockquote>
-<ul>
-<li>数学基础
-<ul>
-<li>ODE</li>
-<li>算子范数</li>
-<li>矩阵指数</li>
-<li>Lipschitz连续条件</li>
-<li>解的唯一存在性</li>
-<li>well-posed 适定性</li>
-<li>常系数线性IVPs</li>
-</ul>
-</li>
-<li>数值方法
-<ul>
-<li>欧拉法</li>
-<li>前欧拉</li>
-<li>后欧拉</li>
-<li>梯形法</li>
-<li>leapfrog 中点法</li>
-<li>截断误差</li>
-<li>欧拉法的收敛性</li>
-<li>零/绝对稳定性</li>
-</ul>
-</li>
-<li>线性多步法
-<ul>
-<li>一致性、稳定性</li>
-<li>零稳定性</li>
-<li>线性差分方程</li>
-<li>收敛性</li>
-<li>绝对稳定性</li>
-</ul>
-</li>
-<li>刚性IVPs
-<ul>
-<li>刚度 stiffness</li>
-<li>A-稳定性</li>
-</ul>
-</li>
-<li>单步法
-<ul>
-<li>一致性、收敛性</li>
-<li>绝对稳定性</li>
-<li>A-稳定性、L-稳定性</li>
-</ul>
-</li>
-<li>龙格库塔法
-<ul>
-<li>显式法</li>
-<li>必要阶数条件</li>
-<li>隐式法</li>
-<li>Collocation 配点法</li>
-<li>实用误差估计、步长控制</li>
-<li>一致性、收敛性</li>
-<li>绝对稳定性</li>
-<li>I-稳定性、L-稳定性</li>
-<li>收缩性、B-稳定性</li>
-<li>代数稳定性</li>
-</ul>
-</li>
-</ul>
-<h2 id="ch12-mol" class="headerLink">
-    <a href="#ch12-mol" class="header-mark"></a>(Ch12) MOL</h2><blockquote>
-<p>P140-155 (16)</p>
-</blockquote>
-<ul>
-<li>热方程
-<ul>
-<li>抛物、导出</li>
-<li>边值条件、精确解</li>
-<li>FTCS</li>
-<li>Crank-Nicolson</li>
-<li>精度、一致性</li>
-<li>绝对稳定性、Lax-Richtmyer稳定性</li>
-<li>收敛性</li>
-<li>离散最大值原理</li>
-<li>冯诺依曼稳定性</li>
-</ul>
-</li>
-<li>平流方程
-<ul>
-<li>经典MOL法
-<ul>
-<li>FTCS</li>
-<li>leapfrog</li>
-<li>Lax-Friedrichs</li>
-<li>Lax-Wendroff</li>
-<li>upwind</li>
-<li>Beam-Warming</li>
-</ul>
-</li>
-<li>CFL条件</li>
-<li>修正方程</li>
-<li>冯诺依曼分析</li>
-</ul>
-</li>
-</ul>
-<h2 id="作业" class="headerLink">
-    <a href="#%e4%bd%9c%e4%b8%9a" class="header-mark"></a>作业</h2><ul>
-<li>Homework01</li>
-<li>Homework02</li>
-<li>Homework03</li>
-<li>Homework04</li>
-<li>Homework05</li>
-<li>Project01</li>
-<li>Project02</li>
-<li>Project03</li>
-<li>Project04</li>
-</ul>
-<h2 id="参考资料" class="headerLink">
-    <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><h3 id="前人经验" class="headerLink">
-    <a href="#%e5%89%8d%e4%ba%ba%e7%bb%8f%e9%aa%8c" class="header-mark"></a>前人经验</h3><blockquote>
-<p>lz这学期上了<strong>张庆海</strong>老师的微分方程数值解课程，个人认为这门课在数院是一门非常有特点的课，虽说比较硬核但确实能学到许多，于是开个帖写写课程体会（顺便安利一手） 1.理论与实践结合 数院的课大多以理论为导向，这门课是少有的几门理论与实践并重的课程之一。本学期这门课一共有两个编程大作业，都与课上学的算法密不可分。顺带提醒，先确保完全弄明白算法之后再动手coding，否则成吨的bug在等着你&hellip;</p>
-<p>2.注重推证过程 毕竟是数院的课&hellip;数值解的理论基础总是要考虑清楚。 理论推导主要以“一致性+稳定性=收敛”为主线，讨论了各种数值算法的表现，并且以此为依据，明确了这些算法各自的应用范围。 建议期末考之前多刷讲义，确保足够熟悉讲义上的结论与证明&hellip;期末的题量根本就做不完，lz最后做了的题都只有80分不到</p>
-<p>这课的主要内容有： ode数值求解 线性pde数值求解的有限差分法 多重网格迭代求解线性方程组 有限体积算法（没考&hellip;我也没咋听明白&hellip;） 这课应该会在春夏学期开设，欢迎感兴趣的同学选修～</p>
-</blockquote>]]></description>
-</item><item>
     <title>政治经济学</title>
     <link>https://blog.ralvines.top/zzjjx/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
@@ -2117,10 +955,786 @@ $$]]></description>
 </ol>
 </div>]]></description>
 </item><item>
-    <title>量子信息与量子计算</title>
-    <link>https://blog.ralvines.top/quan/</link>
-    <pubDate>Thu, 01 Sep 2022 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/quan/</guid>
+    <title>数据结构与算法</title>
+    <link>https://blog.ralvines.top/shujujiegou/</link>
+    <pubDate>Wed, 01 Sep 2021 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/shujujiegou/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><h2 id="c-基础知识" class="headerLink">
+    <a href="#c-%e5%9f%ba%e7%a1%80%e7%9f%a5%e8%af%86" class="header-mark"></a>C++ 基础知识</h2><h3 id="动态内存与释放" class="headerLink">
+    <a href="#%e5%8a%a8%e6%80%81%e5%86%85%e5%ad%98%e4%b8%8e%e9%87%8a%e6%94%be" class="header-mark"></a>动态内存与释放</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">char</span><span class="o">*</span> <span class="n">name</span><span class="p">;</span> <span class="k">delete</span> <span class="p">[]</span> <span class="n">name</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Birds</span><span class="p">()</span> <span class="p">{</span><span class="n">name</span><span class="o">=</span><span class="k">new</span> <span class="kt">char</span><span class="p">[</span><span class="mi">256</span><span class="p">]}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>利用指针实现动态内存分配。同值对象指向相同address</p>
+<p>Shell命令查看内存泄漏状况<code>valgrind filename</code></p>
+<p>释放内存：及时delete变量。由于为指针，要防止指向新地址时原内存未被释放。</p>
+<h3 id="template" class="headerLink">
+    <a href="#template" class="header-mark"></a>template</h3><p>编译时自动填充typename
+在类外撰写类成员函数时需要添加
+可指定T的具体类型</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="k">template</span><span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="n">Array</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;::</span><span class="n">FunctionName</span><span class="p">(</span><span class="k">const</span> <span class="n">Array</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="n">_obj</span><span class="p">)</span> <span class="p">{}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="关键字修饰符" class="headerLink">
+    <a href="#%e5%85%b3%e9%94%ae%e5%ad%97%e4%bf%ae%e9%a5%b0%e7%ac%a6" class="header-mark"></a>关键字修饰符</h3><h4 id="const" class="headerLink">
+    <a href="#const" class="header-mark"></a>const</h4><p>对成员函数：修饰非静态数据，只读化。应尽可能将该成员函数声明为const 成员函数，除非成员函数需要修改数据成员。const可访问非常量数据，反之不可。指针数据可以被const 函数修改。
+<code>Class:: func() const {}</code></p>
+<p>对形参：指针传递，禁止修改指针指向地址内存数据；值传递不需要const保护。</p>
+<p><code>void copyMemory(const T* _s,T* _d,int _n);</code></p>
+<h4 id="static" class="headerLink">
+    <a href="#static" class="header-mark"></a>static</h4><p>静态变量，延长生命周期又相较全局变量保留了一定的访问范围。需要一个数据对象为整个类而非某个对象服务,同时又力求不破坏类的封装性,即要求此成员隐藏在类的内部时使用。</p>
+<h4 id="this" class="headerLink">
+    <a href="#this" class="header-mark"></a>*this</h4><p>指向obj自身的指针</p>
+<h4 id="explicit-显式转换" class="headerLink">
+    <a href="#explicit-%e6%98%be%e5%bc%8f%e8%bd%ac%e6%8d%a2" class="header-mark"></a>explicit 显式转换</h4><p><code>explicit</code> 对单参数构造函数限制隐式转换
+防止编译器进行类型等方式的强制转换。</p>
+<h3 id="宏定义" class="headerLink">
+    <a href="#%e5%ae%8f%e5%ae%9a%e4%b9%89" class="header-mark"></a>宏定义</h3><p>用于简化重复语句<code>#define TEMP template&lt;typename T&gt;</code></p>
+<p>编译处理</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#ifndef xxx
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define xxx
+</span></span></span><span class="line"><span class="cl"><span class="cp">#else
+</span></span></span><span class="line"><span class="cl"><span class="cp">#endif
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="传递-引用" class="headerLink">
+    <a href="#%e4%bc%a0%e9%80%92-%e5%bc%95%e7%94%a8" class="header-mark"></a>传递 引用</h3><h4 id="形参的值传递-指针传递-引用传递" class="headerLink">
+    <a href="#%e5%bd%a2%e5%8f%82%e7%9a%84%e5%80%bc%e4%bc%a0%e9%80%92-%e6%8c%87%e9%92%88%e4%bc%a0%e9%80%92-%e5%bc%95%e7%94%a8%e4%bc%a0%e9%80%92" class="header-mark"></a>形参的值传递 指针传递 引用传递</h4><p>默认为值传递，开辟新函数，储存实参数据；指针实质存在一层中介地址，引用传递直接对传入对象进行修改；</p>
+<p><code>*&amp;obj</code> 适用于struct对象，对其属性变量进行修改</p>
+<ol>
+<li><code>T* a</code> ： 传递实参指针地址，及最终指向数据地址，但可以利用*a修改地址内存数据</li>
+<li><code>T&amp; a</code> ：左值引用，实参的别名</li>
+</ol>
+<h4 id="左值-右值引用" class="headerLink">
+    <a href="#%e5%b7%a6%e5%80%bc-%e5%8f%b3%e5%80%bc%e5%bc%95%e7%94%a8" class="header-mark"></a>左值 右值引用</h4><p>右值引用 <code>&amp;&amp;</code> ：防止传递给形参 <code>T&amp; a</code> 的是常量（此时函数无法修改a）</p>
+<p><strong>看能不能对表达式取地址，如果能，则为左值，否则为右值</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">int</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="o">&amp;</span><span class="n">d</span> <span class="o">=</span> <span class="n">c</span><span class="p">;</span> <span class="c1">// error.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="o">&amp;&amp;</span><span class="n">d</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>约定</strong> rhs：引用；lhs：赋值</p>
+<h3 id="stdmove" class="headerLink">
+    <a href="#stdmove" class="header-mark"></a>std::move</h3><p>强制将左值转换为右值引用，如 <code>push_back</code> 避免开辟新内存</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">AvlNode</span><span class="p">(</span><span class="k">const</span> <span class="n">Comparable</span> <span class="o">&amp;</span> <span class="n">ele</span><span class="p">,</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">lt</span><span class="p">,</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">rt</span><span class="p">,</span> <span class="kt">int</span> <span class="n">h</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span><span class="o">:</span> <span class="n">element</span><span class="p">{</span><span class="n">ele</span><span class="p">},</span> <span class="n">left</span><span class="p">{</span><span class="n">lt</span><span class="p">},</span> <span class="n">right</span><span class="p">{</span><span class="n">rt</span><span class="p">},</span> <span class="n">height</span><span class="p">{</span><span class="n">h</span><span class="p">}</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl"><span class="n">AvlNode</span><span class="p">(</span><span class="n">Comparable</span> <span class="o">&amp;&amp;</span> <span class="n">ele</span><span class="p">,</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">lt</span><span class="p">,</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">rt</span><span class="p">,</span> <span class="kt">int</span> <span class="n">h</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span><span class="o">:</span> <span class="n">element</span><span class="p">{</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">ele</span><span class="p">)},</span> <span class="n">left</span><span class="p">{</span><span class="n">lt</span><span class="p">},</span> <span class="n">right</span><span class="p">{</span><span class="n">rt</span><span class="p">},</span> <span class="n">height</span><span class="p">{</span><span class="n">h</span><span class="p">}</span> <span class="p">{}</span> <span class="c1">//参数无地址，临时ele=参数
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="class--struct-封装" class="headerLink">
+    <a href="#class--struct-%e5%b0%81%e8%a3%85" class="header-mark"></a>Class &amp; Struct 封装</h3><p>外部只提供相应功能的接口，不允许直接对底层对象进行修改。</p>
+<h4 id="复制构造函数" class="headerLink">
+    <a href="#%e5%a4%8d%e5%88%b6%e6%9e%84%e9%80%a0%e5%87%bd%e6%95%b0" class="header-mark"></a>复制构造函数</h4><p>将b中成员属性复制到c： <code>Birds c(b);</code>
+类中处理：定义拷贝函数；否则：缺省。
+需要开辟新的动态内存</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">Birds</span><span class="p">(</span><span class="n">Birds</span> <span class="n">_obj</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="n">name</span><span class="o">=</span><span class="k">new</span> <span class="kt">char</span> <span class="p">[</span><span class="mi">256</span><span class="p">];</span> 
+</span></span><span class="line"><span class="cl"><span class="n">for循环迭代载入name</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">_obj</span><span class="p">.</span><span class="n">name</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="函数化" class="headerLink">
+    <a href="#%e5%87%bd%e6%95%b0%e5%8c%96" class="header-mark"></a>函数化</h4><p>如复制构造函数中的copyMemory，便于多核并行运算。</p>
+<h4 id="struct-定义传入参数" class="headerLink">
+    <a href="#struct-%e5%ae%9a%e4%b9%89%e4%bc%a0%e5%85%a5%e5%8f%82%e6%95%b0" class="header-mark"></a>struct 定义传入参数</h4><p>使得struct能够直接在定义时传入相应参数</p>
+<p><code>BinaryNode(const Comparable&amp; theElement, BinaryNode *lt, BinaryNode *rt): element(theElement),left(lt),right(rt) {}</code></p>
+<h4 id="operator-重载运算符" class="headerLink">
+    <a href="#operator-%e9%87%8d%e8%bd%bd%e8%bf%90%e7%ae%97%e7%ac%a6" class="header-mark"></a>Operator 重载运算符</h4><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">const Array&amp; operator=(const Array&amp; _obj)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="注释" class="headerLink">
+    <a href="#%e6%b3%a8%e9%87%8a" class="header-mark"></a>注释</h3><p>doxymacs/doxygen格式的注释：
+可以通过命令提取所有相应注释以html方式直观显示。</p>
+<h3 id="standard-template-library" class="headerLink">
+    <a href="#standard-template-library" class="header-mark"></a>Standard Template Library</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// get random number.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">srand</span><span class="p">((</span><span class="kt">unsigned</span><span class="p">)</span><span class="n">time</span><span class="p">(</span><span class="k">nullptr</span><span class="p">));</span> <span class="c1">// 随机种子
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="o">=</span><span class="n">rand</span><span class="p">()</span><span class="o">%</span><span class="mi">10</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;algorithm&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="n">abs</span><span class="p">();</span><span class="n">min</span><span class="p">();</span><span class="n">max</span><span class="p">();</span><span class="n">swap</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;cmath&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="n">sqrt</span><span class="p">();</span><span class="n">sin</span><span class="p">();</span><span class="n">cos</span><span class="p">();</span><span class="n">tan</span><span class="p">();</span><span class="n">pow</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;ctime&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="n">clock_t</span> <span class="n">start</span> <span class="o">=</span> <span class="n">clock</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="复杂度" class="headerLink">
+    <a href="#%e5%a4%8d%e6%9d%82%e5%ba%a6" class="header-mark"></a>复杂度</h2><h3 id="big-o" class="headerLink">
+    <a href="#big-o" class="header-mark"></a>big O</h3><p>$1000N=O(N^2); (logN)^k=O(N);$</p>
+<p>$1 &lt; logN &lt; N &lt; NlogN &lt; N^2$</p>
+<h3 id="时间复杂度" class="headerLink">
+    <a href="#%e6%97%b6%e9%97%b4%e5%a4%8d%e6%9d%82%e5%ba%a6" class="header-mark"></a>时间复杂度</h3><ul>
+<li>for循环｜内语句*迭代次数；嵌套循环</li>
+<li>顺序语句｜求和，取Max；判定语句</li>
+<li>NlogN|最大子序列问题 一次N遍历&amp;一次二分查找</li>
+<li>logN｜二分搜索，欧几里得</li>
+</ul>
+<h2 id="主定理" class="headerLink">
+    <a href="#%e4%b8%bb%e5%ae%9a%e7%90%86" class="header-mark"></a>主定理</h2><p><strong>归纳法证明：</strong></p>
+<p>（例）</p>
+<p><strong>一般性证明：</strong></p>
+<p>构造树，$\text{depth}=log(b,n)，\text{widget}=a^{(log(b,n))}=n^{(log(b,a))}$</p>
+
+
+    <div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>实例：二分查找<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>$T(n) = T(n/2) + O(1)$</p>
+<p>$T(n/2) = T(n/4) + O(1)$</p>
+<p>$&hellip;$</p>
+<p>$T(2) = T(1) + O(1)$</p>
+<p>$T(1) = O(1)$</p>
+<p>$a=1,b=2,k=0$ 代入得 $O(logN)$;</p>
+</div>
+        </div>
+    </div>
+
+    
+<p>另可直接证，由于为$1/2,1/4&hellip;1/n$, 尾项$2^k$项为$n$，故共$logn$项，$$T(n)=logn\times o(1)=logn$$</p>
+<h2 id="vector--list--stack--queues" class="headerLink">
+    <a href="#vector--list--stack--queues" class="header-mark"></a>Vector &amp; List &amp; Stack &amp; Queues</h2><h3 id="iterator" class="headerLink">
+    <a href="#iterator" class="header-mark"></a>iterator</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">iterator</span> <span class="n">a</span><span class="o">=</span><span class="n">A</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">i</span> <span class="o">=</span> <span class="n">find</span><span class="p">(</span><span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="mi">1</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="vector--list" class="headerLink">
+    <a href="#vector--list" class="header-mark"></a>Vector &amp; List</h3><ul>
+<li>Array | 经典数组</li>
+<li>Vector | 批量分配内存的数组，空间不够时再申请新的内存；模板化<code>&lt;T&gt;</code>；允许拷贝赋值</li>
+<li>List | 链表 Single/Double-Linked-List <strong>双链表</strong> 表头、尾、哨兵结点</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span> <span class="c1">//10个初值为1的元素
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">(</span><span class="n">b</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="n">b</span><span class="p">.</span><span class="n">begin</span><span class="o">+</span><span class="mi">3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//共有
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span><span class="n">a</span><span class="p">.</span><span class="n">empty</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">front</span><span class="p">();</span><span class="n">a</span><span class="p">.</span><span class="n">back</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span><span class="c1">//现有元素数目调整,多删少补,未给定参数2则随机
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Vector
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span><span class="n">a</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">pop_back</span><span class="p">();</span><span class="n">a</span><span class="p">.</span><span class="n">swap</span><span class="p">(</span><span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span><span class="c1">//容量
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// List
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">.</span><span class="n">push_front</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">single_val</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">remove_if</span><span class="p">(</span><span class="n">condition</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">unique</span><span class="p">();</span><span class="c1">//去重
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>Access</th>
+<th>Insert</th>
+<th>Delete</th>
+<th>Search</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array/Vector</td>
+<td>1</td>
+<td>n</td>
+<td>n</td>
+<td>n</td>
+</tr>
+<tr>
+<td>Single-linked-List</td>
+<td>n</td>
+<td>1</td>
+<td>1</td>
+<td>n</td>
+</tr>
+<tr>
+<td>Double-linked-List</td>
+<td>n</td>
+<td>1</td>
+<td>1</td>
+<td>n</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stack--queue" class="headerLink">
+    <a href="#stack--queue" class="header-mark"></a>Stack &amp; Queue</h3><p><code>pop() push() size() swap() empty();</code></p>
+<ul>
+<li>Stack: LIFO <code>top();</code></li>
+<li>Queue: FIFO <code>front() back();</code></li>
+</ul>
+<h4 id="stack-计算器" class="headerLink">
+    <a href="#stack-%e8%ae%a1%e7%ae%97%e5%99%a8" class="header-mark"></a>Stack 计算器</h4><ul>
+<li>前缀/后缀。</li>
+<li><strong>中缀转后缀：</strong><code>A+B*(C-D)-E/F</code>转为<code>ABCD−∗+EF/−</code></li>
+</ul>
+<p>优先级设置 <code>‘*’ = ‘/’ &gt; ‘+’ = ‘-’ &gt;</code></p>
+<ul>
+<li>style1: <code>‘(’</code> 优先级最高，如直接读入；推入操作符时不弹</li>
+<li>style2: <code>‘(’</code> 优先级最低，强制直接读入</li>
+<li>数字直接放到[输出列]，右括号直接弹到左括号止；</li>
+<li>操作符：栈弹出直到遇到比自己优先级低的操作符再入栈。</li>
+<li>计算：顺序读取，数字入栈，符号弹出两数字运算，结果入栈。</li>
+</ul>
+<h2 id="树" class="headerLink">
+    <a href="#%e6%a0%91" class="header-mark"></a>树</h2><p>Binary Tree 二叉树平均深度 $O(\sqrt{N})$ ，表达式树应用；</p>
+<h3 id="二叉搜索树" class="headerLink">
+    <a href="#%e4%ba%8c%e5%8f%89%e6%90%9c%e7%b4%a2%e6%a0%91" class="header-mark"></a>二叉搜索树</h3><p>左小右大；平均深度 $O(logN)$ ，最坏深度 $O(N-1)$.</p>
+<h4 id="构建" class="headerLink">
+    <a href="#%e6%9e%84%e5%bb%ba" class="header-mark"></a>构建</h4><ul>
+<li><code>contains</code>｜<code>findMin(Max)</code>｜<code>insert</code>｜<code>～</code></li>
+<li><code>makeEmpty</code> 递归</li>
+<li><code>copy</code> | clone，递归 <code>return new node</code>;</li>
+<li>重载运算符：<code>this!=&amp;rhs</code> 则 <code>makeEmpty</code> 再 <code>clone rhs.root</code> ，最终 <code>return *this</code></li>
+<li><code>remove</code> | <code>(*&amp;t)t</code> 为结点地址；空, <code>return</code>; <code>t&lt;&gt;x</code> 判断; <code>t=x</code>.</li>
+<li>双子: <code>t-&gt;ele=findmax(t-&gt;right)-&gt;ele</code> , <code>remove(t-&gt;ele;t-&gt;right); // 右子找min代入t,删除该min</code></li>
+<li>单子/无子: <code>T*oldNode=t</code> ,另引入的参数 <code>t=t-&gt;left/right</code> 相当于改结点地址为 t 左/右子，再删 <code>oldNode</code> 即删了原结点.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// findmin: 递归或while 注意空树直接返回nullptr
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">BinaryNode</span> <span class="o">*</span> <span class="nf">findMin</span><span class="p">(</span> <span class="n">BinaryNode</span> <span class="o">*</span><span class="n">t</span> <span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">t</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">nullptr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">findMin</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// insert
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mf">1.</span><span class="k">if</span> <span class="n">t</span><span class="o">==</span><span class="k">nullptr</span><span class="o">:</span><span class="k">new</span> <span class="n">node</span><span class="p">{</span><span class="n">x</span><span class="p">,</span><span class="k">nullptr</span><span class="p">,</span><span class="k">nullptr</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="mf">2.</span><span class="k">else</span> <span class="n">compare</span> <span class="n">x</span><span class="p">,</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">ele</span><span class="p">,</span><span class="err">递归</span>
+</span></span><span class="line"><span class="cl"><span class="mf">3.</span><span class="n">balance</span> <span class="n">and</span> <span class="n">update</span> <span class="n">the</span> <span class="n">height</span><span class="p">(</span><span class="n">max</span><span class="p">(</span><span class="n">subtree</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">).</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="关于-struct-构造" class="headerLink">
+    <a href="#%e5%85%b3%e4%ba%8e-struct-%e6%9e%84%e9%80%a0" class="header-mark"></a>关于 struct 构造</h4><ul>
+<li><code>BinaryNode</code> 置于 private；针对 <code>struct</code> 的操作也位于 private 部分</li>
+<li>外部操作 $\rightarrow$ public函数 $\rightarrow$ private函数</li>
+</ul>
+<h4 id="关于-function-参数" class="headerLink">
+    <a href="#%e5%85%b3%e4%ba%8e-function-%e5%8f%82%e6%95%b0" class="header-mark"></a>关于 function 参数</h4><p>对 <code>Struct BinaryNode</code>，由于其 <code>element</code> 为变量，<code>left/right</code> 为指针，fuction 引用时应采用 <code>BinaryNode * &amp; t</code> ，引用 Node 地址。</p>
+<h4 id="时间分析" class="headerLink">
+    <a href="#%e6%97%b6%e9%97%b4%e5%88%86%e6%9e%90" class="header-mark"></a>时间分析</h4><ul>
+<li>
+<p>内部路径长｜所有结点的深度和</p>
+</li>
+<li>
+<p>递推关系、秩，(average) $$D(N)=D(i)+D(N-i-1)+N-1 \Rightarrow O(NlogN)$$</p>
+</li>
+<li>
+<p>任意结点预期深度 $logN$</p>
+</li>
+<li>
+<p>交替 <code>insert/remove</code> $O(N^2)$ ，期望深度 $O(\sqrt{N})$</p>
+</li>
+</ul>
+<h3 id="balance-树" class="headerLink">
+    <a href="#balance-%e6%a0%91" class="header-mark"></a>Balance 树</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">/// Height 处理
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Binary Tree
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">height</span><span class="p">(</span> <span class="n">BinaryNode</span> <span class="o">*</span><span class="n">t</span> <span class="p">)</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">t</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">max</span><span class="p">(</span><span class="n">height</span><span class="p">(</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">),</span> <span class="n">height</span><span class="p">(</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// AVL Tree: Struct AvlNode has added the val &#39;height&#39;.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">height</span><span class="p">(</span> <span class="n">AvlNode</span> <span class="o">*</span><span class="n">t</span> <span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">t</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="o">?</span> <span class="o">-</span><span class="mi">1</span> <span class="o">:</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">height</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="avl-树" class="headerLink">
+    <a href="#avl-%e6%a0%91" class="header-mark"></a>AVL 树</h4><p>每个结点的左子树和右子树高度最多差1（空树为-1）</p>
+<p><strong>Rotation的具体实现</strong></p>
+<table>
+<thead>
+<tr>
+<th>插入方式</th>
+<th>描述</th>
+<th>旋转方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LL</td>
+<td>在a的<strong>左子树</strong>根节点的<strong>左子树</strong>上插入节点而破坏平衡</td>
+<td>右旋转</td>
+</tr>
+<tr>
+<td>RR</td>
+<td>在a的<strong>右子树</strong>根节点的<strong>右子树</strong>上插入节点而破坏平衡</td>
+<td>左旋转</td>
+</tr>
+<tr>
+<td>LR</td>
+<td>在a的<strong>左子树</strong>根节点的<strong>右子树</strong>上插入节点而破坏平衡</td>
+<td>先左旋后右旋</td>
+</tr>
+<tr>
+<td>RL</td>
+<td>在a的<strong>右子树</strong>根节点的<strong>左子树</strong>上插入节点而破坏平衡</td>
+<td>先右旋后左旋</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// insert. 伪代码
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">x</span><span class="o">&lt;</span><span class="n">t</span><span class="o">-&gt;</span><span class="nl">ele</span><span class="p">:</span><span class="err">左插入，</span><span class="n">insert</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">),</span><span class="err">此时判定</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="n">balance</span> <span class="nl">condition</span><span class="p">:</span><span class="n">height</span> <span class="n">of</span> <span class="n">left</span><span class="o">-</span><span class="n">right</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">then</span> <span class="k">if</span> <span class="n">x</span><span class="o">&lt;</span><span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="o">-&gt;</span><span class="n">ele</span> <span class="err">即</span><span class="n">LL</span><span class="err">，对</span><span class="n">t调用右旋</span> <span class="c1">// 其余同理
+</span></span></span><span class="line"><span class="cl"><span class="c1">// right rotation. (for LL-insert style)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="n">rotateWithLeftChild</span><span class="p">(</span> <span class="n">AvlNode</span> <span class="o">*</span> <span class="o">&amp;</span> <span class="n">k2</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">AvlNode</span> <span class="o">*</span><span class="n">k1</span> <span class="o">=</span> <span class="n">k2</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">k2</span><span class="o">-&gt;</span><span class="n">left</span> <span class="o">=</span> <span class="n">k1</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">k1</span><span class="o">-&gt;</span><span class="n">right</span> <span class="o">=</span> <span class="n">k2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// after rotation , update the height.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">k2</span><span class="o">-&gt;</span><span class="n">height</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">k2</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">),</span> <span class="n">height</span><span class="p">(</span> <span class="n">k2</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">k1</span><span class="o">-&gt;</span><span class="n">height</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">k1</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">),</span> <span class="n">k2</span><span class="o">-&gt;</span><span class="n">height</span> <span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">k2</span> <span class="o">=</span> <span class="n">k1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// LR-insert.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">void</span> <span class="nf">doubleWithLeftChild</span><span class="p">(</span> <span class="n">AvlNode</span> <span class="o">*</span> <span class="o">&amp;</span> <span class="n">k3</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">rotateWithRightChild</span><span class="p">(</span> <span class="n">k3</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">rotateWithLeftChild</span><span class="p">(</span> <span class="n">k3</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>时间复杂度分析</strong></p>
+<ul>
+<li>计算高度O(logN)；</li>
+<li>保证查询O(logN)避免Binary Tree最坏的N；</li>
+<li>但由于旋转存在，操作效率低，特别是remove时可能需要一直旋转到根；</li>
+<li>额外封装，繁琐。</li>
+</ul>
+<p><em>另一种写法：独立的balance操作</em></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// at the end of each insert or remove operation, you need to do &#34;balance(t)&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">static</span> <span class="k">const</span> <span class="kt">int</span> <span class="n">ALLOWED_IMBALANCE</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">balance</span><span class="p">(</span> <span class="n">AvlNode</span> <span class="o">*</span> <span class="o">&amp;</span> <span class="n">t</span> <span class="p">)</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">t</span> <span class="o">==</span> <span class="k">nullptr</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">)</span> <span class="o">-</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="o">&gt;</span> <span class="n">ALLOWED_IMBALANCE</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">)</span> <span class="o">&gt;=</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">      <span class="n">rotateWithLeftChild</span><span class="p">(</span> <span class="n">t</span> <span class="p">);</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">else</span> 
+</span></span><span class="line"><span class="cl">      <span class="n">doubleWithLeftChild</span><span class="p">(</span> <span class="n">t</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">if</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="o">-</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">)</span> <span class="o">&gt;</span> <span class="n">ALLOWED_IMBALANCE</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="o">&gt;=</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">)</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">      <span class="n">rotateWithRightChild</span><span class="p">(</span> <span class="n">t</span> <span class="p">);</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">else</span>
+</span></span><span class="line"><span class="cl">      <span class="n">doubleWithRightChild</span><span class="p">(</span> <span class="n">t</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="n">t</span><span class="o">-&gt;</span><span class="n">height</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span> <span class="p">),</span> <span class="n">height</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span> <span class="p">)</span> <span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="splay-树" class="headerLink">
+    <a href="#splay-%e6%a0%91" class="header-mark"></a>Splay 树*</h4><p>保证从空树开始任意连续M次操作最多花费 $O(MlogN)$ 的时间</p>
+<h3 id="traversals" class="headerLink">
+    <a href="#traversals" class="header-mark"></a>Traversals</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// 前序
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">文件路径展开</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 中序 O(N)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">if</span><span class="p">(</span> <span class="n">t</span> <span class="o">!=</span> <span class="k">nullptr</span> <span class="p">)</span> <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">printTree</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">,</span> <span class="n">out</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">out</span> <span class="o">&lt;&lt;</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">element</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">printTree</span><span class="p">(</span> <span class="n">t</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">,</span> <span class="n">out</span> <span class="p">);</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 后序 O(N)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">高度计算</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 层序
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">using</span> <span class="o">&lt;</span><span class="n">queue</span><span class="o">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="b-树" class="headerLink">
+    <a href="#b-%e6%a0%91" class="header-mark"></a>B 树*</h3><h3 id="sets--maps" class="headerLink">
+    <a href="#sets--maps" class="header-mark"></a>Sets &amp; Maps</h3><ul>
+<li>Sets｜排序、去重</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="c1">//logN
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">a</span><span class="p">.</span><span class="n">erase</span><span class="p">(</span><span class="n">val</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">swap</span><span class="p">(</span><span class="n">b</span><span class="p">);</span><span class="n">a</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Maps｜key-value(&gt;=1)</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">map</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">map</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;::</span><span class="n">iterator</span> <span class="n">b</span><span class="p">;</span> <span class="c1">// key:b-&gt;first; value:b-&gt;second....
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="哈希" class="headerLink">
+    <a href="#%e5%93%88%e5%b8%8c" class="header-mark"></a>哈希</h2><ul>
+<li>散列表</li>
+<li><code>insert</code> / <code>search</code> / <code>delete</code></li>
+<li>average:O(1)</li>
+<li>Key -&gt; Table</li>
+<li>素数</li>
+<li>TableSize</li>
+<li>collision</li>
+</ul>
+<h3 id="分析" class="headerLink">
+    <a href="#%e5%88%86%e6%9e%90" class="header-mark"></a>分析</h3><p><strong>负数补偿？</strong></p>
+<ul>
+<li>value&lt;0，then+tableSize</li>
+</ul>
+<p><strong>均匀分配键：</strong></p>
+<ul>
+<li>单元数目有限，键数实际上无穷</li>
+<li>习惯：0～tableSize-1</li>
+<li>装填因子</li>
+<li>分离链接法（缺点：内存分配耗时）</li>
+<li>除了链表，也可用二叉树/新散列表</li>
+</ul>
+<h3 id="开放寻址法" class="headerLink">
+    <a href="#%e5%bc%80%e6%94%be%e5%af%bb%e5%9d%80%e6%b3%95" class="header-mark"></a>开放寻址法</h3><ul>
+<li>
+<p>冲突解决函数，$\lambda&lt;0.5$ 聚集效应, $f(i)$ 为冲突点与探查点的距离</p>
+</li>
+<li>
+<p>线性探测: $f(i)=i$ ；一次聚集-占据单元形成区块</p>
+</li>
+<li>
+<p>平方探测: $f(i)=i^2$ 二次聚集</p>
+<p><em>保证表的大小是素数，否则表被填满一半就找不到空单元了</em></p>
+</li>
+<li>
+<p>双散列:f(i)=i*hash(x),结果不可以为0；example，hash(x)=R-(xmodR)</p>
+</li>
+</ul>
+<h3 id="再散列" class="headerLink">
+    <a href="#%e5%86%8d%e6%95%a3%e5%88%97" class="header-mark"></a>再散列</h3><ul>
+<li>$O(N)$</li>
+<li>一半/插满的策略</li>
+<li>途中策略：某一装填因子</li>
+</ul>
+<h3 id="可扩散列" class="headerLink">
+    <a href="#%e5%8f%af%e6%89%a9%e6%95%a3%e5%88%97" class="header-mark"></a>可扩散列*</h3><h2 id="priority-queues--heaps" class="headerLink">
+    <a href="#priority-queues--heaps" class="header-mark"></a>Priority Queues &amp; Heaps</h2><h3 id="二叉堆" class="headerLink">
+    <a href="#%e4%ba%8c%e5%8f%89%e5%a0%86" class="header-mark"></a>二叉堆</h3><ul>
+<li>完全二叉树</li>
+<li>最小堆、最大堆</li>
+<li>数组存储 $i,2i,2i+1$</li>
+<li>查找 $O(N)$</li>
+<li>堆序性质</li>
+</ul>
+<p><strong>为何选用Heap？</strong></p>
+<ul>
+<li>Min/Max: $O(1)$</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">insert</span><span class="p">(</span> <span class="k">const</span> <span class="n">Comparable</span> <span class="o">&amp;</span> <span class="n">x</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// check size.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">if</span><span class="p">(</span> <span class="n">currentSize</span> <span class="o">==</span> <span class="n">array</span><span class="p">.</span><span class="n">size</span><span class="p">(</span> <span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="p">)</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">array</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span> <span class="n">array</span><span class="p">.</span><span class="n">size</span><span class="p">(</span> <span class="p">)</span> <span class="o">*</span> <span class="mi">2</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Percolate up 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">hole</span> <span class="o">=</span> <span class="o">++</span><span class="n">currentSize</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Comparable</span> <span class="n">copy</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">array</span><span class="p">[</span> <span class="mi">0</span> <span class="p">]</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span> <span class="n">copy</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span><span class="p">(</span> <span class="p">;</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">array</span><span class="p">[</span> <span class="n">hole</span> <span class="o">/</span> <span class="mi">2</span> <span class="p">];</span> <span class="n">hole</span> <span class="o">/=</span> <span class="mi">2</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">array</span><span class="p">[</span> <span class="n">hole</span> <span class="p">]</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span> <span class="n">array</span><span class="p">[</span> <span class="n">hole</span> <span class="o">/</span> <span class="mi">2</span> <span class="p">]</span> <span class="p">);</span> <span class="c1">// 规避大量交换
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="n">array</span><span class="p">[</span> <span class="n">hole</span> <span class="p">]</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span> <span class="n">array</span><span class="p">[</span> <span class="mi">0</span> <span class="p">]</span> <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="applications-of-priority-queues" class="headerLink">
+    <a href="#applications-of-priority-queues" class="header-mark"></a>Applications of Priority Queues</h3><h2 id="排序" class="headerLink">
+    <a href="#%e6%8e%92%e5%ba%8f" class="header-mark"></a>排序</h2><h3 id="插入排序" class="headerLink">
+    <a href="#%e6%8f%92%e5%85%a5%e6%8e%92%e5%ba%8f" class="header-mark"></a>插入排序</h3><h3 id="快排" class="headerLink">
+    <a href="#%e5%bf%ab%e6%8e%92" class="header-mark"></a>快排</h3><h4 id="pivot策略" class="headerLink">
+    <a href="#pivot%e7%ad%96%e7%95%a5" class="header-mark"></a>Pivot策略</h4><p><strong>最好/坏可能性</strong></p>
+<ul>
+<li>随机选择待排序序列中的一个数字作为划分字问题的标准，划分是否平均影响算法复杂度</li>
+<li>每次问题规模减半，$a=2，b=2，d=1$</li>
+<li>复杂度为 $n^2 log(n)$</li>
+<li>最差情况下，复杂度为 $O(n^2)$</li>
+</ul>
+<h4 id="选择的线性期望时间算法" class="headerLink">
+    <a href="#%e9%80%89%e6%8b%a9%e7%9a%84%e7%ba%bf%e6%80%a7%e6%9c%9f%e6%9c%9b%e6%97%b6%e9%97%b4%e7%ae%97%e6%b3%95" class="header-mark"></a>选择的线性期望时间算法</h4><h3 id="线性时间排序-bucket-sort-and-radix-sort-复杂度分析" class="headerLink">
+    <a href="#%e7%ba%bf%e6%80%a7%e6%97%b6%e9%97%b4%e6%8e%92%e5%ba%8f-bucket-sort-and-radix-sort-%e5%a4%8d%e6%9d%82%e5%ba%a6%e5%88%86%e6%9e%90" class="header-mark"></a>线性时间排序: Bucket Sort and Radix Sort 复杂度分析</h3><h3 id="计基数排序非比较算法" class="headerLink">
+    <a href="#%e8%ae%a1%e5%9f%ba%e6%95%b0%e6%8e%92%e5%ba%8f%e9%9d%9e%e6%af%94%e8%be%83%e7%ae%97%e6%b3%95" class="header-mark"></a>计（基）数排序——非比较算法</h3><ul>
+<li>对于待排序的整数序列，从最低位到最高位每次按照相应的位排序一次</li>
+<li>每次递归问题规模变为原来的1/10，但需要求解10个子问题，额外运算为 $O(n)$ 的，$a=10，b=10，d=1$</li>
+<li>复杂度为 $n^1 log(n) = nlog(n)$ ，近似为 $O(kN)$ ，k为整数的位数</li>
+</ul>
+<h3 id="归并排序堆排序" class="headerLink">
+    <a href="#%e5%bd%92%e5%b9%b6%e6%8e%92%e5%ba%8f%e5%a0%86%e6%8e%92%e5%ba%8f" class="header-mark"></a>归并排序/堆排序</h3><p>归并排序</p>
+<ul>
+<li>数据列均分为两部分，分别排序，之后以 $O(n)$ 的复杂度进行合并，空间复杂度 $O(n)$</li>
+<li>每次问题规模减半，$a=2，b=2，d=1$</li>
+<li>复杂度为 $nlog(n)$</li>
+</ul>
+<h2 id="图论" class="headerLink">
+    <a href="#%e5%9b%be%e8%ae%ba" class="header-mark"></a>图论</h2><ul>
+<li>G[graph] -&gt; V[vertex]</li>
+<li>E[edge(arc)], path</li>
+<li>digraph 有向</li>
+<li>Weight&amp;cost 权/值</li>
+<li>Adjacent 邻接</li>
+<li>cycle 回路：满足 $w1=wN$ , length&gt;=1</li>
+<li>loop 环：回到自身，length=0</li>
+<li>Simple path 简单路径</li>
+<li>强/弱连通、基础图/完全图</li>
+</ul>
+<h3 id="表示" class="headerLink">
+    <a href="#%e8%a1%a8%e7%a4%ba" class="header-mark"></a>表示</h3><ul>
+<li>Adjacent Matrix：dense <code>A[u][v]</code></li>
+<li>Adjacent List：sparse $O(|E|+|V|) $</li>
+</ul>
+<h3 id="拓扑排序" class="headerLink">
+    <a href="#%e6%8b%93%e6%89%91%e6%8e%92%e5%ba%8f" class="header-mark"></a>拓扑排序</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">-&gt; delete v1, neighbors indegree-1 
+</span></span><span class="line"><span class="cl">-&gt; find indegree=0 v2
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>$O(V^2)$ using <code>&lt;Queue&gt;</code></li>
+</ul>
+<h3 id="dijkstras" class="headerLink">
+    <a href="#dijkstras" class="header-mark"></a>Dijkstras</h3><h3 id="最坏可能" class="headerLink">
+    <a href="#%e6%9c%80%e5%9d%8f%e5%8f%af%e8%83%bd" class="header-mark"></a>最坏可能</h3><h3 id="可对负边权使用的算法" class="headerLink">
+    <a href="#%e5%8f%af%e5%af%b9%e8%b4%9f%e8%be%b9%e6%9d%83%e4%bd%bf%e7%94%a8%e7%9a%84%e7%ae%97%e6%b3%95" class="header-mark"></a>可对负边权使用的算法</h3><h3 id="最小生成树" class="headerLink">
+    <a href="#%e6%9c%80%e5%b0%8f%e7%94%9f%e6%88%90%e6%a0%91" class="header-mark"></a>最小生成树</h3><ul>
+<li>如何扩张？（Ch10）</li>
+</ul>
+<h3 id="深度优先-广度优先" class="headerLink">
+    <a href="#%e6%b7%b1%e5%ba%a6%e4%bc%98%e5%85%88-%e5%b9%bf%e5%ba%a6%e4%bc%98%e5%85%88" class="header-mark"></a>深度优先 广度优先</h3><h2 id="算法设计补充" class="headerLink">
+    <a href="#%e7%ae%97%e6%b3%95%e8%ae%be%e8%ae%a1%e8%a1%a5%e5%85%85" class="header-mark"></a>算法设计补充</h2><h3 id="贪心算法" class="headerLink">
+    <a href="#%e8%b4%aa%e5%bf%83%e7%ae%97%e6%b3%95" class="header-mark"></a>贪心算法</h3><ul>
+<li>ch10.1 分析复杂度</li>
+</ul>
+<h3 id="分治算法-divide-and-conquer" class="headerLink">
+    <a href="#%e5%88%86%e6%b2%bb%e7%ae%97%e6%b3%95-divide-and-conquer" class="header-mark"></a>分治算法 Divide-and-Conquer</h3><ul>
+<li>分而治之，递归</li>
+</ul>
+<h3 id="dynamic-programming" class="headerLink">
+    <a href="#dynamic-programming" class="header-mark"></a>Dynamic Programming</h3><ul>
+<li>ch10.3 与d-c的比较（自底向上&amp;自顶向下）</li>
+</ul>
+<h3 id="回溯法" class="headerLink">
+    <a href="#%e5%9b%9e%e6%ba%af%e6%b3%95" class="header-mark"></a>回溯法</h3>]]></description>
+</item><item>
+    <title>当代文学前沿问题研究</title>
+    <link>https://blog.ralvines.top/wxqy/</link>
+    <pubDate>Tue, 30 Mar 2021 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/wxqy/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><div class="details admonition quote open">
@@ -2128,10 +1742,10 @@ $$]]></description>
             <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2022-2023 秋冬<br>
-🧑‍🏫 武俊德<br>
-📝 签到，作业，课程论文</div>
+            <div class="admonition-content">🎓 人文学院<br>
+🕙 2020-2021 春夏<br>
+🧑‍🏫 吴秀明，陈力君<br>
+📝 签到，讨论课发言，展示，期末考试</div>
         </div>
     </div>
 
@@ -2140,132 +1754,208 @@ $$]]></description>
 
     <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>课程大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><ul>
-<li>讲义</li>
+<li>CH1. 导论及背景介绍</li>
+<li>CH2. 《青春之歌》解读</li>
+<li>CH3. 金庸武侠小说及其定位</li>
+<li>CH4. 金庸武侠小说思想艺术特点</li>
+<li>CH5. 影片《新龙门客栈》</li>
+<li>CH6. “后金庸”时代的武侠小说</li>
+<li>CH7. 诺贝尔文学奖与中国当代文学</li>
+<li>CH8. 纪实文学热与领袖传记文学</li>
+<li>CH9. “80后”文学创作（一）</li>
+<li>CH10. “80后”文学创作（二）</li>
 </ul>
 </div>
         </div>
     </div>
 
     
-<h2 id="decomposition-of-arbitrary-unitary-transformations-in-quantum-computing" class="headerLink">
-    <a href="#decomposition-of-arbitrary-unitary-transformations-in-quantum-computing" class="header-mark"></a>Decomposition of arbitrary unitary transformations in quantum computing</h2><h3 id="abstract" class="headerLink">
-    <a href="#abstract" class="header-mark"></a>Abstract</h3><p>In order to achieve universal quantum computing in the way of classical computers, this paper focuses on the method of decomposing any Unitary transformation under n qubits into the most basic Hadamard gate, phase shift gate and CNOT gate, so that based on the physical construction of these three gates, most computing situations can be generally realized. We first demonstrate the decomposability of single Qubit gates based on Hadamard gates and phase shift gates, and consider the fact that dual Qubits gates can be constructed by CNOT gates, further verify that the Unitary transform under arbitrary n qubits can be decomposed into single Qubit gates and double Qubits gates, which provides a basis for discussing the physical implementation of quantum computers.</p>
-<h3 id="problem-narrative" class="headerLink">
-    <a href="#problem-narrative" class="header-mark"></a>Problem narrative</h3><h4 id="background" class="headerLink">
-    <a href="#background" class="header-mark"></a>Background</h4><p>We already know that in classical computing, all logical operations can be completed with only three operations, or and not, so as long as the physical construction of these three logic gates is realized, it lays the foundation for the implementation of general-purpose computers. Similarly, in quantum computing, for arbitrary quantum operations under n qubits, they are all Unitary variations due to the requirement of normalization, so the discussion of their universality can be equivalent to whether arbitrary unitary operations can be achieved by a combination of several elementary gates or approximated with arbitrary precision.</p>
-<h4 id="goal" class="headerLink">
-    <a href="#goal" class="header-mark"></a>Goal</h4><p>It is not an easy task to approximate the general unitary operation or find a set of quantum gates from the above propositions, so this paper is based on the electron spin quantum computing system with electron z-direction spin as the main measurement parameter, and takes the Hadamard gate, phase shift gate and CNOT gate as three basic gates, focusing on verifying the decomposition of any Unitary transform to the above three gates, so as to provide a basis for further discussion of general quantum computing.</p>
-<h3 id="gate-decomposition-of-single-qubit" class="headerLink">
-    <a href="#gate-decomposition-of-single-qubit" class="header-mark"></a>Gate decomposition of single qubit</h3><h4 id="operational-equivalence" class="headerLink">
-    <a href="#operational-equivalence" class="header-mark"></a>Operational equivalence</h4><p>We already know that Qubit&rsquo;s Unitary variation can be expressed in terms of a Unitary matrix.</p>
-<p>According to the knowledge of abstract algebra and complex functions, due to</p>
-<p>$$U=e^{i\phi}SO_3,$$</p>
-<p>i.e. $U\sim SO_3.$</p>
-<p>That is, we can use one $SO_3$ matrix to describe it, and then any operation in Qubit is essentially an isometric transformation, that is, the rotation of the Bloch ball.</p>
-<h4 id="hadamard-gate" class="headerLink">
-    <a href="#hadamard-gate" class="header-mark"></a>Hadamard gate</h4><p>Based on the preceding hypothesis, we can define the basis vector of a quantum computing system as</p>
-<p>$$|0\rangle_z=(1,0)^T,|1\rangle_z=(0,1)^T.$$</p>
-<p>Then define the Hadamard gate as</p>
-<p>$$H=\displaystyle\frac{1}{\sqrt{2}}
-\left[\begin{array}{cc}
-1&amp;1\
-1&amp;-1\
-\end{array}\right]$$</p>
-<p>Because of $H^2=I,$ the Hadamard gate is unitary.</p>
-<p>Since the given quantum computing system works with the spin of the electron as a parameter, it can be seen that the base vector of the spin is the eigenstate of the electron spin in all directions, and after passing through the Hadamard gate, the resulting transformation is</p>
-<p>$$|0\rangle_x\rightarrow|0\rangle_z,|1\rangle_x\rightarrow |1\rangle_z,$$</p>
-<p>$$|0\rangle_y\rightarrow-|1\rangle_y,|1\rangle_y\rightarrow -|0\rangle_y,$$</p>
-<p>$$|0\rangle_z\rightarrow|0\rangle_x,|1\rangle_z\rightarrow |1\rangle_x.$$</p>
-<p>Thus, the Hadamard gate is essentially a turn of the Bloch ball around $(\displaystyle\frac{1}{\sqrt{2}},0,\displaystyle\frac{1}{\sqrt{2}})$ where $\delta=\pi$.</p>
-<h4 id="phase-shift-gate" class="headerLink">
-    <a href="#phase-shift-gate" class="header-mark"></a>Phase shift gate</h4><p>Define the Phase shift gate as</p>
-<p>$$R_z(\delta)=
-\left[\begin{array}{cc}
-1&amp;0\
-0&amp;e^{i\delta}\
-\end{array}\right]$$</p>
-<p>It is essentially a rotation of the Bloch ball around the z-axis at a counterclockwise angle of $\delta$.</p>
-<h4 id="geometric-validation-of-decomposition" class="headerLink">
-    <a href="#geometric-validation-of-decomposition" class="header-mark"></a>Geometric validation of decomposition</h4><p>When we use the Hadamard gate, we can change the rotation on the z-axis provided by the Phase shift gate to the rotation on the x-axis; Similarly, the y-axis can be moved to the x-axis position with a Phase shift gate, and then the Hadamard gate and the Phase shift gate can be used to obtain the rotation of the y-axis.</p>
-<p>Next, by following the inference process of the Euler angle, a single point on the Bloch sphere can be moved to any position on the sphere, and the rigid body transformation $SO_3$ of the entire Bloch sphere can be further described. It is proved that only the Hadamard gate and the phase shift gate can complete any operation on a single Qubit, that is, a single Qubit gate can be successfully constructed.</p>
-<h3 id="gate-decomposition-of-n-qubits" class="headerLink">
-    <a href="#gate-decomposition-of-n-qubits" class="header-mark"></a>Gate decomposition of n qubits</h3><p>Since dual Qubits gates are controlled single qubits that can be constructed from CNOT gates, it is only necessary to verify that any Unitary transformation under n qubits can be decomposed into a combination of single Qubit gates and double Qubits gates.</p>
-<h4 id="construct-a-single-controlled-c-u-gate" class="headerLink">
-    <a href="#construct-a-single-controlled-c-u-gate" class="header-mark"></a>Construct a single controlled $C-U$ gate</h4><p>The core is that it has a control qubit, when controlling position 1, do the Unitary transformation $U$ for the operation bit, otherwise do not do the transformation.</p>
-<p>For a second-order unitary matrix acting on a single qubit</p>
-<p>$$U=\left[\begin{array}{cc}
-e^{i(\delta-\frac{\alpha}{2}-\frac{\beta}{2})}cos\frac{\theta}{2}&amp;-e^{i(\delta-\frac{\alpha}{2}+\frac{\beta}{2})}sin\frac{\theta}{2}\
-e^{i(\delta+\frac{\alpha}{2}-\frac{\beta}{2})}sin\frac{\theta}{2}&amp;e^{i(\delta+\frac{\alpha}{2}+\frac{\beta}{2})}cos\frac{\theta}{2}\
-\end{array}\right]$$</p>
-<p>by decomposition, we get</p>
-<p>$$U=\left[\begin{array}{cc}
-e^{i\delta}&amp;0\
-0&amp;e^{i\delta}\
-\end{array}\right]
-\left[\begin{array}{cc}
-e^{-i\frac{\alpha}{2}}&amp;0\
-0&amp;e^{i\frac{\alpha}{2}}\
-\end{array}\right]
-\left[\begin{array}{cc}
-cos\frac{\theta}{2}&amp;-sin\frac{\theta}{2}\
-sin\frac{\theta}{2}&amp;cos\frac{\theta}{2}\
-\end{array}\right]
-\left[\begin{array}{cc}
-e^{-i\frac{\beta}{2}}&amp;0\
-0&amp;e^{i\frac{\beta}{2}}\
-\end{array}\right]
-$$</p>
-<p>Note</p>
-<p>$$\Phi(\delta)=\left[\begin{array}{cc}
-e^{i\delta}&amp;0\
-0&amp;e^{i\delta}\
-\end{array}\right],
-R_z(\delta)=\left[\begin{array}{cc}
-e^{-i\frac{\delta}{2}}&amp;0\
-0&amp;e^{i\frac{\delta}{2}}\
-\end{array}\right],
-R_y(\delta)=\left[\begin{array}{cc}
-cos\frac{\delta}{2}&amp;-sin\frac{\delta}{2}\
-sin\frac{\delta}{2}&amp;cos\frac{\delta}{2}\
-\end{array}\right].$$</p>
-<p>and</p>
-<p>$$A=R_z(\alpha)R_y(\frac{\theta}{2}),B=R_y(-\frac{\theta}{2})R_z(-\frac{\alpha+\beta}{2}),C=R_z(\frac{\beta-\alpha}{2}).$$</p>
-<p>Then we know</p>
-<p>$$U=\Phi(\delta)A\sigma_x B\sigma_x C, I=ABC.$$</p>
-<!-- \begin{figure}[h] 
-\centering
-\includegraphics[width=11cm]{fig1.png}
-\caption{Circuit diagram of $C-U$ gate} \label{fig1}
-\end{figure} -->
-<p>From this, the $C-U$ gate can be constructed.</p>
-<h4 id="construct-a-multi-controlled-ck-u-gate" class="headerLink">
-    <a href="#construct-a-multi-controlled-ck-u-gate" class="header-mark"></a>Construct a multi-controlled $C^k-U$ gate</h4><p>Given $k\in \mathbb{N},k\ge2.$ Back to classical computers, we can construct Toffoli gates and use them to construct k-weight AND gates, similarly, here we need to construct a generality $C^2-U$ gate, and then we can further construct a multi-controlled $C^k-U$ gate to verify its feasibility.</p>
-<p>From algebraic knowledge, for any second-order unitary matrix $U$, after Jordan diagonalization and square, we can get the decomposition</p>
-<p>$$U=V^2.$$</p>
-<p>Further, there is</p>
-<p>$$VV^{\dag}=I.$$</p>
-<p>\begin{figure}[h]
-\centering
-\includegraphics[width=11cm]{fig2.png}
-\caption{Circuit diagram of $C^2-U$ gate} \label{fig2}
-\end{figure}</p>
-<p>So we get the $C^2-U$ gate that meets the requirements.</p>
-<h4 id="general-decomposition" class="headerLink">
-    <a href="#general-decomposition" class="header-mark"></a>General decomposition</h4><p>In order to extend the conclusion to any unitary transformation in n qubits, we need to verify that it can be implemented into two quantum states, that is, we only need to proof that</p>
-<p>$$U^{(2^n)}=\prod\limits_{i=1}^{2^n-1}\prod\limits_{j=0}^{i-1} V_{ij}.$$</p>
-<p>Since direct processing is difficult, we follow the process of proving odd and even arrangement in mathematics, swap quantum states one by one, and design the transformation gate shown in the figure, so that the exchange process is until the two quantum states to be transformed through the gate and then return to the original position in turn.</p>
-<p>\begin{figure}[h]
-\centering
-\includegraphics[width=11cm]{fig3.png}
-\caption{Circuit diagram of swap gate} \label{fig3}
-\end{figure}</p>
-<p>Thus, we achieve the feasibility of the above operation, that is, the decomposition in the general case is also achievable.</p>
-<h3 id="further-discussion-of-universal-quantum-computing-implementation" class="headerLink">
-    <a href="#further-discussion-of-universal-quantum-computing-implementation" class="header-mark"></a>Further discussion of universal quantum computing implementation</h3><p>The proposition studied in this paper ultimately serves the universality of quantum computing. In fact, when we construct the $C^k-U$ gate, it has been proved that quantum computing can achieve universal classical computing, and the conclusion extension of general decomposition can be better applied to quantum simulation and special quantum computing, so as to meet the completeness of the conclusion in the case of quantum operations under n qubits.</p>
-<p>The interesting thing about the above work is that we can feel the inheritance of quantum computing to many theoretical ideas in classical computing. In the course of the author&rsquo;s study this semester, the course has been deeply involved in classical computing, so when it is introduced into the theory of quantum computing, many works have extensive similarities in the core, compared to the calculation itself, how to better prepare quantum states and better use the physical achievements of quantum mechanics is a more profound proposition left to us by this discipline.</p>]]></description>
+<h2 id="名词解释" class="headerLink">
+    <a href="#%e5%90%8d%e8%af%8d%e8%a7%a3%e9%87%8a" class="header-mark"></a>名词解释</h2><ul>
+<li>
+<p>三红一创，青山保林：指的是对新中国十七年小说的坚持政治艺术统一的高度概括，也是十七年红色经典小说的高度集中。毛泽东文艺思想《在延安文艺座谈会上的讲话》在1949年后逐渐成为指导全国文学艺术工作的唯一正确的文艺思想。这时期的文艺路线是：文学为政治服务，文学为工农兵服务。文学别无选择的充当了生活教科书的任务。</p>
+</li>
+<li>
+<p>范式：范式从本质上讲是一种理论体系、理论框架。在该体系框架之内的该范式的理论、法则、定律都被人们普遍接受。</p>
+</li>
+<li>
+<p>撰论：金庸社论？</p>
+</li>
+<li>
+<p>超验：超出一切可能的经验之上，超越时间、空间等存在形式，不能用因果、属性、存在、不存在等范畴进行思考的东西。强调直觉，超越感觉理性。</p>
+</li>
+<li>
+<p>暴力美学：暴力美学主要是在感官上，使暴力以美学的方式呈现，诗意的画面，甚至幻想中的镜头来表现人性暴力面和暴力行为。观赏者本身往往惊叹于艺术化的表现形式，无法对内容产生具体的不舒适感。</p>
+</li>
+<li>
+<p>伟人生活化模式、政治人格化模式、社会心理化模式。</p>
+</li>
+<li>
+<p>社会学意义的80后：家庭结构、伦理观念、经济结构、人与物关系、当代中国历史和技术环境的变化。</p>
+</li>
+<li>
+<p>80后作家：(2010年前80后作家群概念扩展而来) 指1980年后出生的一些作家写手，互联网写作环境对他们影响深刻，创作初期主要以同龄人为阅读对象。萌芽作家和非萌芽作家。体制外写作和第二渠道发行。娱乐原则和交换原则下的大众传媒的扩张。</p>
+</li>
+<li>
+<p>第二渠道：二渠道是指除主渠道(传统国营书店如新华书店等)以外的其他发行渠道，主要是民营的图书批发和零售通道。还有“特殊渠道”指网上书店、系统发行等新兴发行渠道。</p>
+</li>
+<li>
+<p>唯理性教学模式：将充满人性之美和生活趣味的语文变成机械枯燥的应试训练。“唯理性教学模式”纵横贯穿于语文教学领域。这种模式崇尚抽象、概括、提炼、崇尚逻辑思维能力，却忽略情感、意志和审美情趣的介入；重视将一切语文知识加以解构和量化，却忽略了从文本和人本的整体角度高屋建瓴地培养学生的语文能力；重视语文学科的互补性。</p>
+</li>
+<li>
+<p>50后到90后：建构大历史，解构，生活，虚拟，无视社会-自我，群体-小我，大众-私我，世界-亲我。</p>
+</li>
+<li>
+<p>80后风格：现代生活，速度生活，都市风情、酒吧咖啡商场职场等文化、国际化视角、叛逆与自我立场。</p>
+</li>
+<li>
+<p>耽美文学：耽美一词最早是出现在日本近代文学中，为反对“自然主义”文学而呈现的另一种文学写作风格。有“耽美派”，它的最初本意是反对以暴露人性的丑恶面为主的自然主义，并想找出官能美、陶醉其中追求文学的意义。引申为代指一切美形的男性，以及男性与男性之间不涉及繁殖的恋爱感情，最后更发展为同性恋漫画的代称之一。</p>
+</li>
+<li>
+<p>同人小说：指的是利用原有的漫画、动画、小说、影视作品中的人物角色、故事情节或背景设定等元素进行的二次创作小说。同人小说一般是以网络小说为载体，近年来，伴随体育人物、娱乐人物、政治人物等社会人物的高密集度曝光，同人小说中的真人同人小说也逐渐兴起。</p>
+</li>
+<li>
+<p>韩寒：创作原则现实主义、文学反映人生的传统文学观念、讽喻，批判、叛逆、个性化表达，社会游荡者流浪者傻傻的同行者纯情女友人物形象，松散离奇骑士情结滑稽人生经历，反讽夸大双关荒诞。</p>
+</li>
+<li>
+<p>80后电影：青春成长题材，情感与成长阵痛，独立电影影像表达，梦幻暴力场面，较强的影响语言把握运用能力。</p>
+</li>
+<li>
+<p>生态文学：关于生态问题的文学，具有生态维度的文学，反思和批判生态思想和观念表达，基于当下和现实生态状况的文学作品，具有生态标准或尺度的文学创作和批评。揭示问题，试图摆脱危机。</p>
+</li>
+<li>
+<p>生态危机：整体而非局部的生态系统出现问题，被破坏。人类文明历史是一部人类与自然的关系史</p>
+</li>
+<li>
+<p>人类中心主义：又译“人类中心论”，是以人类为事物的中心的学说。同其他文化观念一样，人类中心主义的观念也具有历史发展的连续性和间断性，这一概念曾在三个意义上使用人类中心主义总是作为一种价值和价值尺度而被采用的，把人类的利益作为价值原点和道德评价的依据，有且只有人类才是价值判断的主体。</p>
+</li>
+<li>
+<p>土地伦理：土地伦理是环境伦理的视角之一，是由奥尔多·利奥波德在他的《沙乡年鉴》一书中首次倡导的。其中他写道，需要一种“新的伦理”，“一种处理人与土地，以及人与在土地上生长的动物和植物之间的伦理观”。在他那个时代，美国林业局的主流观念从创立者吉福德·平肖开始，就是追求经济利益的和功利主义的，而利奥波德则主张一种“生态学”的态度(这个词由芝加哥大学的亨利·钱德勒·考尔斯于20世纪初在对印地安那沙丘的研究中提出，利奥波德是该术语最早的推广者之一)。资源保护主义在更偏向人类中心主义的资源管理范式中获得了它的首要地位，而与此同时，利奥波德的著作和启发与约翰·缪尔一起引发了环境主义的发展。</p>
+</li>
+<li>
+<p>生态文学价值取向：否定强权、人类中心主义重构人和自然关系，同情关怀弱势种群探寻非人类种群精神世界，坚持开放评判姿态倡导土地伦理以孩童或他者视角，强调人类责任探寻生态危机原因预测世界未来。</p>
+</li>
+<li>
+<p>景别：景别是指由于在焦距一定时，摄影机与被摄体的距离不同，而造成被摄体在摄影机录像器中所呈现出的范围大小的区别。景别的划分，一般可分为五种，由近至远分别为特写(指人体肩部以上)、近景(指人体胸部以上)、中景(指人体膝部以上)、全景(人体的全部和周围部分环境)、远景(被摄体所处环境)。</p>
+</li>
+<li>
+<p>镜头语言：镜头语言就是用镜头像语言一样去表达我们的意思，我们通常可经由摄影机所拍摄出来的画面看出拍摄者的意图，因为可从它拍摄的主题及画面的变化，去感受拍摄者透过镜头所要表达的内容。</p>
+</li>
+<li>
+<p>女性意识与南方文化：江南经济发展带来新的时尚，经济发展带来坊刻文化繁荣，文字图画共存产生新欣赏口味满足情感需求</p>
+</li>
+<li>
+<p>女性作家群：闺塾师，妇女诗社。</p>
+</li>
+<li>
+<p>女性文学规模形成：情趣化和美感合理运用冲破科场文化限制，产生新文类新空间。至此成为被拘囿和局限了空间和观念的充满通融和争执的存在。</p>
+</li>
+<li>
+<p>传统女性文学：零星存在的才女创作，文以载道成为中国文学核心价值，教育资源性别倾斜。特点：女性只能通过男性角色完成心愿才能展示，女性意识表现不能超越社会价值观念，女性意识只能委婉曲折地得以传达传统和新女性文学的审美表达、文类、视角区别：国事政事到家事情事，优美与壮美，亚文类诗-词，史传-小说。</p>
+</li>
+<li>
+<p>亚文类：从属于&hellip;&hellip;</p>
+</li>
+<li>
+<p>科场：科举场所·五四女性文学：批家庭家族文化反抗父权表达爱情个人反抗夫权，女教师学生形象，如萧红、丁玲、白薇。</p>
+</li>
+<li>
+<p>三四十年代女性文学：彼时女性普遍生存现实的书写、生命意识和精神世界的探索，如丁玲、萧红、张爱玲</p>
+</li>
+</ul>
+<h2 id="讨论课发言" class="headerLink">
+    <a href="#%e8%ae%a8%e8%ae%ba%e8%af%be%e5%8f%91%e8%a8%80" class="header-mark"></a>讨论课发言</h2><h3 id="3月11日---时代与经典的关系" class="headerLink">
+    <a href="#3%e6%9c%8811%e6%97%a5---%e6%97%b6%e4%bb%a3%e4%b8%8e%e7%bb%8f%e5%85%b8%e7%9a%84%e5%85%b3%e7%b3%bb" class="header-mark"></a>3月11日 - 时代与经典的关系</h3><p>作为裹挟于时代浪潮之中的个体，我们很难不受到一定时期社会经济基础、主流意识形态及生活方式的影响，也自然难以超脱于一定的历史桎梏。</p>
+<p>譬如春秋战国时期松散的权力结构和相对适足的经济基础营造出一段思想多元的历史浪潮，诸子百家各自收揽大批追随者。而在秦代之后的君主专制中央集权时期，帝王及其朝廷所采取的治理模式很大程度上影响到社会的主流思潮，因而，生前郁郁不得志的孔子也难以预料到罢黜百家后的中原王朝将在千年的历史长河中将儒家经典奉为圭臬。</p>
+<p>诗歌、书法形式的变革亦如是，而伴随着市井文化和较为稳定社会环境下的新兴商贸体系的形成、社会生活的日益丰富和各阶层群体利益的复杂化，明清文人又将主流视角从曾经强调主观情调与高洁理想的抒情范式转向了更多强调矛盾与故事性的长篇小说与戏曲。</p>
+<p>而对于《青春之歌》来说，我认为它的现实意义在于其以爱情主线展现出时代变迁中的社会主流意识形态演化脉络及沉浮其中的小人物的精神蜕变，而前者恰恰属于对青春主题所作出的极富那个年代历史语境下的价值解构。</p>
+<p>如前所述，随着时代的变革，传统社会形态和价值取向的消解，自然优先作用于文艺创作的土壤。建国前期，传统氏族结构的崩溃和产缘纽带的建构加速歧化社会群体生活理念之于以高级知识分子代表的精英与广泛的劳动大众的落差。而五四以降，特别是以左翼革命为主线的元叙事成为中国社会意识形态的中流砥柱之后，民国早期以引入、吸收、传播乃至照搬西方启蒙思想的文人群体与“农村包围城市”的无产阶级觉醒产生了精英与平民视角的对立。在新民主主义革命者在天安门城楼宣布胜利的历史帷幕之下，主流话语体系自然如毛泽东文艺思想所展现——强调“人民性”与“革命性”，对“高高在上”教化愚昧无知大众的旧知识分子群体赋予了批判和改造的内在使命，而这恰恰寓于彼时文学作品的内核之中。正如林道静爱情主线下的身份转变，从资产阶级知识分子到无产阶级革命者，从同余永泽相处时之于革命较为纯粹的浪漫主义和理想主义到最后彻底脱离旧体系束缚、成为更为独立坚毅的女性共产主义战士，极具彼时时代特征的宏大思想理念作为政治隐喻内化于情感叙事之中，对于当代的我们理解这一历史阶段具有生动的意义。</p>
+<h3 id="3月18日---金庸小说的意义与影响" class="headerLink">
+    <a href="#3%e6%9c%8818%e6%97%a5---%e9%87%91%e5%ba%b8%e5%b0%8f%e8%af%b4%e7%9a%84%e6%84%8f%e4%b9%89%e4%b8%8e%e5%bd%b1%e5%93%8d" class="header-mark"></a>3月18日 - 金庸小说的意义与影响</h3><p>金庸的武侠作品在我们这一代人的青年时段中似乎正在悄然式微，相较文学本身，留给我们的更多的往往是电视上《射雕英雄传》《天龙八部》的浮光掠影。因此，当我们提到金庸武侠小说的影响时，必然绕不开它和它贯穿的整个文学时代给现在的我们留下了什么。
+首先，金庸的武侠小说开启了此类文学作品的全新范式。在当今许多新兴网络文学作品中，那些英雄、玄幻色彩背后，往往蕴含着金庸时代武侠小说的叙事风格和情节架构。古代传统社会的背景下，具有现代主义特征的爱情、仁善元素包裹着其特有的畅快淋漓之词藻，将打斗场面描绘得无比生动。阅读时，我能感受到它与读者偌大想象空间的完美契合。
+其次，金庸的武侠小说影响了一代人，特别是在世界观的形成层面。“侠之大者，为国为民。”相较于《水浒》等古代经典小说，金庸文学作品更突出救死扶伤、保家卫国、同情弱者的人文关怀，这与他创作时的时代背景是密不可分的。它不仅仅强调传统的忠义兄弟情，更展现了人性的复杂一面。即便是江湖英雄，也有脆弱的一面；如此仗义的侠客，也总有种种缺点和软肋。而善恶亦不是纯粹的二元对立，大量“圆形人物”的塑造往往透露出老庄辩证哲学的转化思想。正所谓“有人的地方就有江湖”，金庸作品似乎善于解构正义与邪恶对立背后的复杂利益因素，在人情世故中将丰富的感性成分融入于前者。</p>
+<h3 id="5月27日---80后文学的时代风格" class="headerLink">
+    <a href="#5%e6%9c%8827%e6%97%a5---80%e5%90%8e%e6%96%87%e5%ad%a6%e7%9a%84%e6%97%b6%e4%bb%a3%e9%a3%8e%e6%a0%bc" class="header-mark"></a>5月27日 - 80后文学的时代风格</h3><p>或许因为代际差异，个人对80后作家的文学作品并不是很熟悉。就80后文学作品的风格、选材及作者审美诉求的变化，正如此前数周大家所呈现和讨论，“计划生育”、改革开放、外来文化冲击、互联网萌芽、去政治化等等要素建构了这一代人的集体意识形态。这一点也在伤痕文学中有所体现。</p>
+<p>80后作家们的视角更趋向“小我”，在各种新鲜事物或文化的强烈冲击之下，80后有一种置于承前启后时代的独特孤独感，一方面受到社会传统领域的束缚牵制，另一方面到处孕育着多元的机会。我想这注定是彷徨、探索着的一代，具体来说，《上海公园》中同学聚会上大量对白的表达所呼应的悲伤、压抑的意象，正是这一代人冲动而迷茫的缩影。那些旧日同窗有的谈吐中时刻夹杂着外语，眼神里显现出无尽的却又有些幼稚的渴望与追求感；有的弹奏吉他，沉醉于自我的表达，也奋力于谋求出路……总而言之，是对宏大叙事的回避，是对小我情态的捕捉，贯穿其中、处处可见的则是都市、西方文化与懵懂青年的朦胧交错。</p>
+<h3 id="6月10日---生态文学叙事" class="headerLink">
+    <a href="#6%e6%9c%8810%e6%97%a5---%e7%94%9f%e6%80%81%e6%96%87%e5%ad%a6%e5%8f%99%e4%ba%8b" class="header-mark"></a>6月10日 - 生态文学叙事</h3><p>冷峻而真实的场景建构、人性与生命脆弱性的呈现似乎是《可可西里》代表的这一类生态影片的叙事共性。在生命的禁区，善恶界限愈发模糊、道德伦理与法律秩序渐隐，刘栋和日泰的突然死亡深刻地揭示了人类在自然面前的渺小，而日泰不得不卖皮子与马占林复杂的人物形象体现着上述生存遇到威胁的情境下现实之于个体的矛盾。在某种意义上说，在当下人与自然的和谐共生本质上仍然是人类基于自身主观利益的诉求，当自然反噬人类的侵略行为或是人类惊觉自然资源的稀缺性时，其才展现出可悲的保护意识；人类的理性往往屈从于求生的基础本能，这是一种妥协与无奈，也振聋发聩地促使我们去反思，我们究竟需要追求一种怎样的同自然生态的交互反馈。</p>
+<p>课后随想：本次讨论课的主题是生态文学，并比较分析了《狼图腾》和《怀念狼》两部作品。命题的核心如老师在周二课上提出，生态文学是“退步的文学”，是人类文学发展进程中的一次“回眸”。要理解生态文学，自然需要聚焦于其意识产生的基础，即人类发展中“进步的模式”同“文明的模式”之间存在的必然的矛盾及人改造、征服自然过程中受到反噬从而产生的问题。而从文学角度讲，生态文学所要反思的本质上是社会生态、精神生态的问题，探讨人类自身在相应认知上存在的问题。由此而言，生态文学无疑是对客观现实的一种进步反映，也是人类在工业化浪潮下环保意识、天人合一意识的觉醒。然而，这一时期的生态文学又有一种人类生活模式的保守化倾向，毕竟在工业化对自然显著的、触目惊心的破坏现实之中，文学创作者们又难以找到一条清晰的解决路径，从而容易陷入到“返璞归真”的思维陷阱之中。无论如何，发展的问题恐怕只能用发展解决，我认为人类应当顺应生产力发展的方向，通过科技的进步为人与自然和谐共生提供强力的正反馈。</p>
+<h3 id="6月17日---文艺作品中的女性角色" class="headerLink">
+    <a href="#6%e6%9c%8817%e6%97%a5---%e6%96%87%e8%89%ba%e4%bd%9c%e5%93%81%e4%b8%ad%e7%9a%84%e5%a5%b3%e6%80%a7%e8%a7%92%e8%89%b2" class="header-mark"></a>6月17日 - 文艺作品中的女性角色</h3><p>倾向于认为这是一个伪命题。</p>
+<p>当代对女性群体的关注与女性这一群体概念的强化本身是平权主义的分支，也就是消除传统桎梏尚未完全解体的性别歧视与刻板印象。然而，刚才当我们谈论这些性别标签下的群体特质时，却恰恰是在潜移默化地在制造刻板印象。</p>
+<p>但是它为什么存在？课堂上有同学提到的铁娘子撒切尔夫人，这一套“强硬”形象难道就是男性固有的特质吗？我更相信这是一种文化惯性的结果，是传统男性主导地位导致的。比如过去的领导人绝大部分都是男性，既有文质彬彬儒雅随和者、也有政治强人、强硬做派者，凡此种种，其实本质上是群体的历史记忆让在过去占有主导地位的男性垄断了绝大部分特质的标签。</p>
+<p>而对于所谓的性别视角下作家的思维特质，我认为这其实属于个体化的范畴，而非由性别因素所决定。譬如同为男性作家，木心和刘慈欣拥有着迥然不同的创作风格与叙事模式。这些实质上是作者在职业、文化氛围、生活环境、宗教、思维模式乃至意识形态上的差别，而思维模式等要素本身很少受到性别本身的影响。
+值得一提的是，从生物学上说，男女之间的基因演化最终是趋同的，男性与女性不同基因对其认知与行为模式差异的影响远远小于外在环境等因素。</p>
+<p>个人认为，当代女权主义中的反抗精神仿佛是一种“弱势者的群体皈依，抱团取暖”的表现，这自然有一定的道理，然而也不能忽视事实上掌握话语权的核心并非性别。如当代西方普遍的种族问题，往往掩盖了根本的阶级矛盾；又比如80后的标签，是这一代人在改革开放浪潮、独生子女政策等集体记忆和社会背景下交互下的产物，而不能简单归咎于在80年代出生这一基本定义。</p>
+<p>至于性别话语权的垄断确实存在，但在当代更多地是表现在刻板印象之中，比如所谓的男性阳刚女性阴柔，以及女性生理特质带来的部分劣势之中，比如由于生育、产假、体力问题导致的女性在职场中的弱势地位，不过不要忽视此种差异是双向的，正如随着社会发展，尽管简单的体力工作男性占据了主体优势，却也有一些专属于女性的职业存在。</p>
+<p>课上谈论女性悲剧形象时，就有不少同学指出去除性别标签后，悲剧的形象仍然有着共性。而女性文学中普遍提到的封建社会下如翠翠独守闺房与祥林嫂式的悲剧，前者是女性在生活上的依附现实，后者则是生产上的性别依附。</p>
+<p>总体来说，此种话语权的不匹配在现代社会下是在不断消解的。我比较认同平权问题用辩证唯物主义那套理论框架来阐释，当代妇女解放与女性意识的觉醒本身就是在后工业化时代，社会生产关系中的性别差异被机器的运用所逐渐抹平，女性大规模参与到现代生产活动之中的结果。</p>
+<p>男女的差异事实上主要仍然体现在基因等生理要素之上，当代很多性别不平等现象相较封建时代已经得到了很大的进步，相反，很多问题是文化惯性、历史遗留，这在生产力落后的农村和欠发达地区仍有呈现。我们知道即便是在原始社会也存在着母系社会，所谓的父权社会很大程度上是战争频繁的农耕时代男性由于生理上具有的体力优势的社会经济基础所衍生出的一套伦理体系。而这些差异已经被证明是能够随着科技进步而式微的，因此，对于“女性的悲剧结局能否避免”这一论题，我相信这将随着时代的发展获得肯定的答案。</p>]]></description>
+</item><item>
+    <title>史纲：解构苦难，建构辉煌</title>
+    <link>https://blog.ralvines.top/sg/</link>
+    <pubDate>Sun, 10 Jan 2021 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sg/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAfKt1.png" referrerpolicy="no-referrer">
+            </div><h2 id="旨归" class="headerLink">
+    <a href="#%e6%97%a8%e5%bd%92" class="header-mark"></a>旨归</h2><h3 id="叙事结构" class="headerLink">
+    <a href="#%e5%8f%99%e4%ba%8b%e7%bb%93%e6%9e%84" class="header-mark"></a>叙事结构</h3><p>作为国防大学教授金一南少将的代表作之一，《苦难辉煌》以生动的笔调叙写了20世纪前半叶动荡中国的革命史诗。“中国革命从来不是一场被看好的革命，中国共产党也从来不是一个被看好的政党。”各个政治派别的激荡抗争之中，中国共产党以其艰苦卓绝的成长历程为主线所勾勒出的浓重笔墨，交融着一大代表的不同命运、张国焘与毛泽东的分分合合、共产国际掣肘下的独立觉醒……无情的历史画卷是无数革命志士的鲜活点缀：有的人无名而终，有的人中道易辙。然而不论如何，厚重的历史尘埃掩盖不住的是周恩来、毛泽东等早期领导人的绝妙史话，求索纷繁崛起道路中的壮阔史歌。</p>
+<h3 id="内核金一南少将与他的革命史观" class="headerLink">
+    <a href="#%e5%86%85%e6%a0%b8%e9%87%91%e4%b8%80%e5%8d%97%e5%b0%91%e5%b0%86%e4%b8%8e%e4%bb%96%e7%9a%84%e9%9d%a9%e5%91%bd%e5%8f%b2%e8%a7%82" class="header-mark"></a>内核：金一南少将与他的革命史观</h3><p>初读《苦难辉煌》便缘于金一南教授在海口市委演讲的公开视频，无论是从宏观视角对中共革命史的重新解构，还是着眼于微观层面的生动历史细节，我已然在历史的薄纱之后同一群虽遥不可及却理想崇高且运筹帷幄的先烈产生了思想的共鸣，也逐步地借此突破抽象的政治名词体味事实给予的、一个先锋队政党如何成长壮大并有效执政拥有数千年历史与庞大地理体量的文明型国家的答案——</p>
+<p>马克思、恩格斯共同建构的哲学与政治经济学理论及其后来者在实践中探索出的革命道路，生动地在中国大地特别是中国共产党的革命活动中表现出的群众路线、统战方针、党指挥的富有理想且作风民主纪律严明的人民军队、毛泽东同志为代表的领导集体的军事战略智慧，以及无数仁人志士的苦难奋斗……这便是《苦难辉煌》的精神旨归，亦可能是中国革命必然前途命题的最优解。</p>
+<h2 id="细节" class="headerLink">
+    <a href="#%e7%bb%86%e8%8a%82" class="header-mark"></a>细节</h2><h3 id="一群信仰者的韧性" class="headerLink">
+    <a href="#%e4%b8%80%e7%be%a4%e4%bf%a1%e4%bb%b0%e8%80%85%e7%9a%84%e9%9f%a7%e6%80%a7" class="header-mark"></a>一群信仰者的韧性</h3><p>韧性是共产党人的名片，并贯穿于近代民主主义革命史始终。诚然，建党之初的先行者们有如陈公博、李达、李汉俊等人数年内便脱党，或如刘仁静、张国焘等人被党开除，能够历经锤炼直达新中国成立的却是寥寥无几。“历史命运蜕变为个人命运，众生便只有在周易八卦面前诚惶诚恐。”建立之初的中国共产党在那个每天都有无数松散的政治组织或军事派系起起落落的年代似乎并不显眼，甚至连发起者都难以预料她的前程。她诞生于凄风苦雨，在乱世的客观环境与统治者苛政的制约下，信仰恰恰成为了弥足珍贵的事物。如周恩来同志感慨，“敌人可以在三五分钟内消灭我们的领袖，我们却无法在三五年内将他们造就出来”。正是在这样残酷而冷峻的时代氛围之中，选择这个政党意味着向危险且不确定的未来宣战，而他们的唯一武器便是从日本、俄国传来的星星点点的崭新理论；也正是在此种历程之间，共产党人从先行的觉醒者们蜕变为信仰坚毅、意志坚韧的阶级斗士。</p>
+<p>分散的地理分布与统一集中的精神内核塑造了共产党极其团结的韧性。先进的思想即革命的火种，无论是“砍头不要紧，只要主义真”慷慨赴死的英勇烈士，还是一趟一趟为上海党中央运送黄金物资的苏区根据地，星罗棋布的组织在广袤的群众中吸纳同志，在最现代化的城市联合先进知识分子阶层源源不断地翻译印刷革命的理论。漫长的斗争征程，更是在意见的分野、路线的分歧中愈发成熟。从工人暴动到真正拿起枪杆子进行武装斗争，从租界的地下活动到扎根于贫困落后的边区山区，毛泽东所开辟的“武装斗争、农村包围城市”之路以其同中国现实的紧密契合成为了革命历程的鲜明主线。</p>
+<p>不可计数的无名英雄们亦是红色政权韧性品质的具象展现。蒋介石步步紧逼的围剿催生出了朱德等一批青史留名的将领。陈毅将军后来回忆道：“朱总司令在最黑暗的日子里，在群众情绪低到零度、灰色丧气的时候，指出了光明的前途，增加了群众的革命信念。这是总司令的伟大。”而在隐蔽战线，以李克农为代表的无名英雄们深刻诠释了何为谍报高手，他们出生入死，每日同恐惧与压抑打交道早已不值得诉说，高尚的理想与精妙的战术甚至永远得不到普罗大众的一滴热泪。的确，多如牛毛的赴死者之中有人经受不住严刑拷打，可涌现出的大多数至死忠于敌人看来虚无缥缈的远大理想的坚毅灵魂，放眼整个世界千百年来，本身就是最大的奇迹，这无疑是应当永恒铭记的。</p>
+<h3 id="历史转折中的长征" class="headerLink">
+    <a href="#%e5%8e%86%e5%8f%b2%e8%bd%ac%e6%8a%98%e4%b8%ad%e7%9a%84%e9%95%bf%e5%be%81" class="header-mark"></a>历史转折中的长征</h3><p>长征并非红军的本意，“长征”一词本身甚至出自蒋介石之口，并被用于形容追截红军的国军士兵。然而，正是这场起源于反围剿失败、旷日持久的“战略转移”，让中共从危难之中谋生存跨越性地居于赢得独立、解放全国的新坐标。</p>
+<p>一方面，长征塑造了毛泽东、周恩来等一批执政精英。长征前夕，国民党中统协调清除了中共上海某地下组织，瘫痪其电报系统，使得长征前期党无法同苏联取得直接联系。而正是在长征期间，曾短暂失去权力的毛泽东同志在遵义会议的历史节点上取得了领导地位，纠正了顶着中共中央和红军负责人头衔的博古、李德以及共产国际的许多错误指示，并带领着麾下的红四军取得节节胜利。也无怪乎金一南教授如此评价：“一部电台竟使历史突然间改变了走向，这是一九三四年的博古、李德、毛泽东，以及在上海忙于搜查的国民党秘密警察们，谁都不曾想到的。”然而质变分割历史，变革总是寓于长期的斗争积累之中。中央苏区中央局早已多次对共产国际的指示表达反对，许多党内同志亦对其代言人博古等人不满甚久，正是长征的契机，使得量变促成了质变。与之类似，张国焘的“另立中央”也在长征实践中终结，中国共产党实现了新生。</p>
+<p>另一方面，长征更加速了中共的成熟，为其走向全国性胜利奠定了不可磨灭的基础。根据埃德加·斯诺的调查，红军成员以农民青年为主，他们惊人的忠诚度体现在伤亡率50%的情况下仍然保持战斗力，而一般军队在伤亡率超过5%时就会溃散。长征的苦难恰恰铸就了红军的辉煌，毛泽东、周恩来、彭德怀等人的智慧才能于此更为凸显，中国共产党的韧性也于此更加深远地奠基。</p>
+<h2 id="感悟" class="headerLink">
+    <a href="#%e6%84%9f%e6%82%9f" class="header-mark"></a>感悟</h2><h3 id="红色政权何以存在" class="headerLink">
+    <a href="#%e7%ba%a2%e8%89%b2%e6%94%bf%e6%9d%83%e4%bd%95%e4%bb%a5%e5%ad%98%e5%9c%a8" class="header-mark"></a>红色政权何以存在</h3><p>从南湖红船上不起眼的寥寥数人到夺得新民主主义革命伟大胜利，这支红色政权如何屹立中国政治舞台中央并领导着她实现民族复兴、国家崛起的宏大目标、迈向社会主义、共产主义的理想征程？事实上，国民党一大召开伊始，中共就展现出其卓越超凡的组织能力，这无疑是一个政党组织壮大的首要因素。彼时，这一刚刚成立三年的政党便已开始为前方的探索者提供自身的政治智慧了。</p>
+<p>作为党的三大法宝之一，武装斗争始终是革命的第一要义。如马克思所言，“批判的武器永远代替不了武器的批判”，若要在军阀割据的黑暗世代摧毁旧社会的腐朽大厦，作为硬实力的军事要素必然置于一个革命组织奠基性的位置。这也是中国共产党在工人暴动受到残酷镇压的教训中逐步总结而来的。而历史永远无法忘记的更是那些斗争锤炼中的巨人们——“彭德怀是一团火，一团从里烧到外，随时准备摧枯拉朽的烈火；林彪则是一潭水，一潭深不可测却含而不露的静水”，鞠躬尽瘁的周总理在革命期间展现出令人惊叹的情报工作才能，改革开放的总设计师邓小平也曾千里跃进大别山……群雄闪耀背后，教员的话更是振聋发聩：“革命不是请客吃饭……革命是暴动，是一个阶级推翻另一个阶级的暴烈行动。”</p>
+<p>此外，群众路线指引下的中共正确地找到了自身的历史站位，即代表无产阶级，之于中国大地特别是包括农民、工人在内的广大底层劳动者的利益，向新旧交织的地主、军阀与官僚资本家等统治者宣战，并顺应时势变化笼络部分知识分子阶层与民族资产阶级，代表中华民族的整体利益向日本侵略者及其他西方列强殖民者宣战。“每一次轰轰烈烈的大革命都是对历史的颠倒，也是一次对人们原本位置的颠倒”，鲜明的阶级立场给予了红军战士最为明晰的目标，也阐释了“谁是我们敌人，谁是我们的朋友”这一革命的首要问题。</p>
+<p>严明的纪律、民主的作风则共同构成了中共扎根华夏广袤大地的充分条件。无论是解放前硝烟弥漫的战场还是在天安门城楼宣布“中国人民从此站立起来了”之后的建设时期，人民军队都保持着其不变的子弟兵底色。书中提及，红军的“三大纪律、八项注意”与“不拿群众一针一线”的优良作风令群众印象深刻，红军进驻农村时，许多农民还会自发地组成委员会为他们提供帮助，年轻的人们则对参加这支充满了理想与民主、平等氛围的军队十分踊跃。此外，红军在苏区的分地政策也切实地反映了她的性质与宗旨。而民主的作风在那个封建礼教尚未褪去、军阀体系下等级日趋森严的时代更显得珍贵且富有吸引力。党内民主的发扬使得军队上下级之间的传统隔阂被有效地瓦解了，在组织之内，没有人可以颐指气使，也没有人可以如许多国民党军阀们一般利欲熏心、尊卑显著。从上到下不讳言的批评与自我批评，框架清晰的党内选举制度，以及规章面前人人平等的纪律处分体系，显著地提升了这支庞大队伍的凝聚力和战斗力。战士们洞察着的不仅是此刻的局势，更是一个尚未到达的理想社会、一个具象的赶跑侵略者和旧统治者的奋斗目标。</p>
+<h3 id="唯物的笔调" class="headerLink">
+    <a href="#%e5%94%af%e7%89%a9%e7%9a%84%e7%ac%94%e8%b0%83" class="header-mark"></a>唯物的笔调</h3><p>“历史的奥妙，在于它可以包括无穷无尽的假设。历史的冷峻，又在于它总把假设永远置于假设。”详尽的叙事笔调事无巨细地展现出20世纪上半叶的种种细节，巧妙地铺陈也使得作者的观点态度含蓄内敛，即他希望通过客观事实的组合引导读者于此抽离出辩证的判断。徜徉其中，方才知道，周恩来同志曾“人生中唯一一次拍桌子”与张国焘据理力争，国共第一次合作中，在当代被中共推崇为革命先行者的孙中山也多次设计限制共产党的壮大，军事战略的伟人毛泽东同志亦在遵义会议后经历过多次败仗的挫折，博古与其背后的共产国际提名李德在很大意义上出于对打压中国本土的党员精英的政治考量；更为重要的是，即便是苏联也曾更为支持国民党却又极力控制中国共产党以致后者的成员从“苏共中国党支部”的调侃转变为长征路上对前者政策的强烈反对……</p>
+<p>“从来就没有什么救世主，也不靠神仙皇帝；要创造人类的幸福，全靠我们自己。”一幕幕苦难与辉煌及其内在逻辑联系正是对历史唯物主义的最好印证。高山仰止指向的那群无论多么光芒万丈、高瞻远瞩的英雄们，亦是最广大人民群众的重要一员。人无完人，历史也绝非精心设计的完美剧本。“一个政党、一个社团独立与否，并不在起领导人的主观意念如何，而在于是否具备客观条件。”由是，在共产国际指派的决策者的次次错误之后，秋收起义、农村根据地应运而生；在对苏联不切实际指示的不满情绪不断积累之后，毛泽东代表的本土战略家们在长征中逐一登上舞台中央。</p>
+<h3 id="成大事者" class="headerLink">
+    <a href="#%e6%88%90%e5%a4%a7%e4%ba%8b%e8%80%85" class="header-mark"></a>成大事者</h3><p>“苦难来源于物质的困境和探寻的艰难，辉煌则来源于精神的强大和追求的实践。”《苦难辉煌》所刻画的众多历史人物在浩浩汤汤的时代大潮中烙下鲜明的印迹。</p>
+<p>新中国的缔造者——毛泽东同志在长征中的重要作用在作者的笔下得到了充分的展现。他不仅写下了《星星之火，可以燎原》《论持久战》等旷世巨著，更作为最高指挥者，在一次次的胜负交叠中灵活应变。他不避讳错误，虽然在遵义会议后的头两次战斗中遭受失败，也曾被彭德怀、林彪等前线指挥员异议，可这仍旧无法掩盖他的军事才能和辩证思维，特别是运用机动的战术迅速弥补了先前的漏洞，带领全军在四渡赤水中夺得胜利。</p>
+<p>与之相较，那些半途而废之流如此黯淡。我们确然无法苛责每一位沉浮于历史长河的小人物拥有如此完美的成就，可他们老泪纵横、悔恨不已的结局也警示着当代渴望实现理想的人们如何避免埋没于平凡的大多数中。龚楚，从工农运动、井冈山到红军长征，原本较高的资历与优秀的军事本领让他一度有望载入史册，然而他最终沦为了助纣为虐的叛徒。</p>
+<p>如若那些失败者能够预见未来的结局，便能摇身一变成为英雄的一员吗？在我看来，答案显然是否定的。真正的成大事者不拘泥于成功道途上的每一次选择，恰恰相反，是他们自身的内在品质成就了他们的伟业。缺乏坚定信仰、坚毅意志、正义立场或是优秀才能的前者，只会如蒋介石般在彻底的失败后不甘地在日记中埋怨、在对历史的假设中沉沦。</p>
+<h3 id="遗憾" class="headerLink">
+    <a href="#%e9%81%97%e6%86%be" class="header-mark"></a>遗憾</h3><p>《苦难辉煌》毕竟并非严肃的学术研究报告，在尝试表现尺度如此宏大的历史叙事中不免存在一些不足之处，特别是一些史实尚不全面或带有误导性。譬如，对肃反事件语焉不详，强调了内部的叛徒问题却避开了权力的纷争；又或是尽管并无学术考据上的定论，仍暗示中山舰事件是蒋介石所为。而对长征后期红军的分裂与部署过程虽有较大篇幅却仍显简略，难以搭建出完整的逻辑链条。当然，这只是此版存在的瑕疵之处，而《苦难辉煌》一书正是在不断地修订再版中吸收读者的建议、指正或是新的近代史研究成果。</p>
+<h2 id="结语" class="headerLink">
+    <a href="#%e7%bb%93%e8%af%ad" class="header-mark"></a>结语</h2><p>时至今日，为什么我们仍然需要《苦难辉煌》？</p>
+<p>叱咤风云的人物纷纷消失之后，历史便成为一笔巨大的遗产，完整无损地留给了我们。可并不是每个人都能“以短暂的生命辉映漫长的历史”，历史是兴衰，也是命运。
+因而，如今身为后人的我们复鉴历史，须知解构苦难，才能建构辉煌。当筚路蓝缕的红军战士使光鲜体面的党国将领都不得不为之气折，他们历历在目的艰难险阻便散发出应有的光辉。与此同时，有太多太多的英雄在胜利的前夜倒下，他们无法触及的永恒目标，则是后辈最值得承续的伟大事业。</p>
+<p>最后，正如金一南先生感慨，机缘、时运、窍门从来不属于这个事业，只有依靠不屈不挠的坚韧、义无反顾的坚强、前仆后继的牺牲，我们才能在从革命、建设到改革的漫长征程中披荆斩棘，铸就辉煌。愿共勉！</p>]]></description>
+</item><item>
+    <title>理解马克思：工人、工会与资本家</title>
+    <link>https://blog.ralvines.top/marx/</link>
+    <pubDate>Sun, 01 Nov 2020 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/marx/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/24/piEyqgg.png" referrerpolicy="no-referrer">
+            </div><h2 id="美国工厂效率与福利中被忽视的阶级内因" class="headerLink">
+    <a href="#%e7%be%8e%e5%9b%bd%e5%b7%a5%e5%8e%82%e6%95%88%e7%8e%87%e4%b8%8e%e7%a6%8f%e5%88%a9%e4%b8%ad%e8%a2%ab%e5%bf%bd%e8%a7%86%e7%9a%84%e9%98%b6%e7%ba%a7%e5%86%85%e5%9b%a0" class="header-mark"></a>《美国工厂》效率与福利中被忽视的阶级内因</h2><p>“866票反对，444票支持。”这是《美国工厂》摄影镜头下、2017年11月夜晚的福耀美国工厂，其董事长曹德旺与其他管理层人员正为他们所面对的汽车工会支持下的工会动议投票之胜利庆幸。在这场糅合了中美企业文化乃至劳资集团异质价值观冲撞的对决背后，不仅是美国传统制造业外移与机械化智能化趋势下工人阶级所面临的一般胁迫所致，更不应忽视的是正如马克思数百年前所解构的资本主义生产方式下，相对缺席的阶级革命所塑造的具有利益集团性质的美式工会、新自由主义主导下劳资关系纠纷解决的独特机制与其不相称的全球分工格局所占地位，上述被掩盖的三者却恰恰是当代以市场经济为主导的国家资本主义或自由资本主义国家的共性矛盾，即笼统概括工会本身的异化、资本对效率的失衡掌控与工人被机器不断挤占的价值地位中总和的阶级矛盾。而福耀集团内的斗争不过是两种异质体系共有的阶级性局限的集中表现，工会动议的否决亦是现行架构下的无奈产物，没有一方可以宣称自己的真正胜利，尽管它从某种意义上为去传统、无人化的新兴经济基础提供了前所未有的生产方式或仅仅是企业管理模式的微小探索。</p>
+<p>人们通过一定的生产关系生产出商品，而生产关系本身也由人们所产出。物质生产率或曰生产力正是这一关系的决定性基础。由是，一瞥纪录片中展现的中美所谓劳资关系及企业文化差异，实质是两种不同经济模式的外现。坐拥高附加值产业并傲居制造链顶端的美利坚合众国，在劳工与企业主的长期斡旋中派生出一套庞大而职业化的工会集团，而这反过来契合了工人们觉醒的福利与平等意识。然而，前者作为资产阶级与无产阶级达成妥协的调和手段，将美国工人们的权利意识局限于更好地待遇而非不合理的生产关系本身。这恰恰瓦解了工人们的同盟心理，于是，年轻工人们担心被解雇而不愿投赞成票、许多工人为管理层的临时涨薪政策而放弃组建工会的斗争等消极化的群体现象便不足为奇。从无产阶级的斗争角度而言，这部影片无疑以冷峻的视角揭露了当代劳资价值极其不对称关系下工人们的艰难处境，即便是工会文化异常强盛的拥趸者们，也不得不屈服于无人制造和低端制造业逃逸背景下的价值弱化现实。</p>
+<p>然而，影片所展现的工会本身，也正如前述不足以称为阶级斗争的切实工具。显然，分工、信用等资产阶级生产关系并非永恒或固定，无论从宏观视角审视美国置于全球分工体系下向高端制造业的角色转变、脱实向虚的经济结构，还是从美国“温和的左翼”与保守派妥协下的具有美国特色的劳资关系委员会及工会制度入手，工人们事实上只能够面临被绑架的极化选项——跟随工会孕育的利益集团或是中国资本家。投票前夕抱怨着“工会只会留下那些懒惰无能的工人”的反对者们，与担心被工会接管后丧失自主管理权的福耀美国高层们惊奇地达成了一致的诉求，因而人们不得不重新审视表观架构下的真实生产关系。正如前文所言，工会实质成为了工人们的寄生者，对他们（包括游说者）而言，工人们不过是一种能以温和方式分一杯羹、实质却依然是剥夺所谓剩余价值的异己阶级。由是，真正令当代工人阶级感到恐惧甚至并未意识到的弊病便显而易见了，当更加高端的精密机械乃至可能大范围代替人类的自动化设备投入时，就像片尾管理者们漫不经心谈及的“准备用机器换掉那几个人”那样，工人们面对的只有双向的转型逼迫，进退维谷的选择不可避免地构成了新的矛盾，即他们逐渐成为“没落的一代”，甚至将成为无足轻重的、所在阶级的边缘者。</p>
+<p>《美国工厂》揭示的也许并不只是中美两国不同劳资文化之间的矛盾及磨合过程。正如资产阶级的制度和封建制度一样由其内生的对抗因素构成，这部影片真实的表现了生产力仍在革新的今天，传统工人岌岌可危的地位、旧劳资关系和工会制度面临的必然对抗冲突在生产关系应运变革的内在规律作用下，正经历一种全新的磨合与调整过程。牢固掌控着员工管理权的福耀美国工厂在可预见的将来难以解决糟糕的生产环境，事实上，自动化技术的发展反倒为其提供了代替乃至消灭人工的新思路，在这条道路上，工人们的话语权进一步被削弱了；而工会的失败并非工人自身的失败，也是这一群实质上在阻碍先进生产力发展的、明显带有利益集团性质的效率蚕食者们的即将到来的失败。而对福耀企业来说，它自始至终没有摆脱市场竞争下的效率约束，在传统无产阶级逐步让位的当下，他所代表的垄断资产阶级们内部的进一步分化可能所要塑造的只是一种更难以寻求共赢方案的未来。而在遥远的大洋彼岸，一批辛劳的工人可能正在走着从自身成本上涨到价值没落的类同道路。</p>
+<h2 id="论资本" class="headerLink">
+    <a href="#%e8%ae%ba%e8%b5%84%e6%9c%ac" class="header-mark"></a>论“资本”</h2><p>“商品流通是资本的起点。”正如马克思在《资本论》中所言，资本是商品经济社会的自然派生物，同时又在漫长的物品贸易进程中将自身属性赋予原本以买入为价值导向的货币，由是，商品交易行为在其大规模的流通中发生了本质的改变——货币不再仅仅充当物品交换的传统媒介，而是在交易运动中自发地扮演其内生之利润的产出载体。</p>
+<p>非等价交换的现实使得商品交易之中普遍存在着剩余价值，愈发复杂的经济关系使得每一个体频繁地进行着买者与卖者的身份交换，因而在商品本身价值并未发生实质性改变的前提下，其价格表现出普遍的偏差。然而，商品的流通本身总体上无法实现价值的增殖,交易运动的承担着们并非琳琅满目商品的使用价值的直接受众，恰恰相反，这一群体悄然地被活动本身抽象为资本的忠实执行工具，由是，“资本家”——将抽象财富作为经济活动唯一动机的身份被他所使用的工具孕育出来。从一方面说，资本家是资本化的货币的人格化外现；另一方面，货币在属性跃迁中实现了价值增殖的外生工具化过程。</p>
+<p>在上述过程中，资本的生息使得商品、货币的流通循环为其本身构建了正反馈演化的“大动脉”。物与商品的简单接触在货币的普遍介入后使得后者羽化为资本的流通形式，由是产生了价值锚定上的固然矛盾。挣脱了物品使用价值的单一锚定对象，资本的增殖必然依托新的能够创造价值的环节或对象以完成自身的不断扩张，而劳动力恰恰是其最佳的选择。俾众周知，工业革命与其早期萌发的西欧国家曾发生的圈地运动等历史事件正不可阻挡地为欧洲这一天然地贸易社会创造出大量的剩余劳动力，而后者在消耗以支付生活资料成本为基础的工资收入后，凭借劳动技能、体力等产出的溢出价值表现出资本本身的生产过程。然而，货币的主要持有群体与真正创造劳动产品的工人们的沟壑却在这一过程中愈发显著。</p>
+<p>马克思认为，商品的价值量本身取决于社会必要劳动时间。商品价值区别于使用价值，在于其被引入于包含货币流通的贸易环节中需要实现卖出这一“惊险的跳跃”，然而庞大经济系统内部的竞争迫使生产者们首先着眼于个体劳动效率的提升。在同等生产水平之下，劳动对象的工作时间在不断的内卷中肆意增长；与此同时，逐步提升的生产效率也反过来压缩着社会必要的劳动时间。在这一矛盾、持续的运动中，剩余价值的体量暴露地更加无疑——产品价值的产出对于生产资料和劳动力投入的差值更多地进入那些投入货币的资本家手中。</p>
+<p>值得注意的是，尽管资本天然的扩张属性与劳动过程中剩余价值的产出具有共生的一面，然而，鉴于资本的不同组成部分在其价值增殖过程中的职能差异性，我们不能简单地将社会生产中对劳动者的剥削现象归咎于资本本身。一方面，资本本质是社会经济关系的具象化体现，与去等价化一体两面的不仅是货物贸易的价值量扩张，更是社会总体生产力的不断增长。资本的预先投入为技术迭代创造了必要条件，其过程中的成本预支付与其风险不可分割。另一方面，不变资本和可变资本的职能差别也为持有者们提供了压榨的温床。资本加速了劳动者的异化，他们在愈发精密而复杂的社会生产中被牢牢嵌固，成为工业“齿轮”中无法挣脱的一环。较于原料与工具成本，工人们在经济活动中、在某种意义上被抹去了作为一个生活着的人具有的普遍属性，取而代之的是技能水平、体力、智力等依附于生产力的要素。剩余价值诱导着资本家们以竭尽剩余劳动的方式实现价值的最大化，作为被压迫着的前者显然对此无能为力，因为他们的生活资料早已经被归结为后者持有成本的一部分了。</p>
+<p>总而言之，资本天然是价值增殖在商品流通中的映射。自它诞生的第一天起，它便与金钱、欲望密不可分。它萌发于广泛的货币载体的贸易进程中，在社会生产和消费的闭环中锚定于劳动者这一特殊的角色。尽管资本的诞生与商品经济、社会生产力的发展无不关系，但显然无法将其作为后者发展进步的必然产物和标志。从早期血淋淋的原始积累到人的劳动异化，资本只是助推着社会统治形式的变迁。它以一种更为高效而精妙的方式实现了少数统治者——在这个时代它们被冠以资本家的称号——对广大劳动工人的深层剥削。它以财富的障叶扩充了社会生产的收益群体，同时却也在事实上不断拉大阶级差异。一言概之，它是价值增殖的兴奋剂，同时也将自身价值消解了旧社会劳动的原始意义，在蛋糕难以持续做大的当下，它愈发暴露出如同封建时代般人吃人的本质。</p>]]></description>
 </item></channel>
 </rss>

@@ -5,6 +5,10 @@
 
 ## 启程
 
+五一前夕，一个念头在脑海中迸发：之前走过东西南北的不同省份，却唯独忘记了华中这片土地。于是，这趟行程就此展开。
+
+先前对武汉的了解还只是停留在疫情初期的报道和「下一站，茶山刘」的寥寥几句歌词，黄鹤楼和它经久不衰的诗篇确有让人一探究竟的兴趣，但更令我心生向往的还是荆楚大地的当代景观，它似乎没有沿海的繁华或是川渝的喧嚣，而恰恰是这种内敛的城市印象构成了其近代风云变幻的厚重历史篇章的一道浓雾。
+
 <div class="double-picture">
   <div class="double-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/655c9426c458853aefc572c8.jpg" title="傍晚匆匆收拾好行李，与朋友徜卧于夕照的火车里。" data-thumbnail="https://pic.imgdb.cn/item/655c9426c458853aefc572c8.jpg">
@@ -47,6 +51,28 @@
 <p class="img-desc" style="text-align: center">▲ 错过美术馆，但邂逅省博。为曾侯乙时代多元的钟瑟所震撼。</span></p>
 
 ## 珞珈
+
+{{< quote-center >}}
+时间 像武汉六月的大雨，<br>
+一瞬间 淋湿了四个四季，<br>
+仿佛 一切都还在原地，<br>
+谈笑间 却多了分离。<br>
+终于这一天来临 我们要各奔东西，<br>
+那么这一餐 去桥楼还是新开的店，<br>
+伤感的话不用说 忧愁的泪不用流，<br>
+请往前走 不要回头。<br>
+...<br>
+岁月催促人长大，<br>
+匆忙的脚步早已停不下，<br>
+还没说完的话，<br>
+就算了吧。<br>
+总有些遗憾要学会放下，<br>
+前路不需太重的行囊，<br>
+和过去和解吧。<br>
+我会像永远不变的时光，<br>
+一如既往  哪怕从此离开了家乡。<br>
+——下一站，茶山刘
+{{< /quote-center >}}
 
 <div class="trible-picture">
   	<div class="trible-picture-cover">
@@ -97,28 +123,6 @@
 <img loading="lazy" src="https://pic.imgdb.cn/item/655c9935c458853aefd69a01.png" size="auto" alt="过滤耸立高楼，于是共鸣出凭栏远眺的快意。"></a>
 
 <p class="img-desc" style="text-align: center">▲ 过滤耸立高楼，于是共鸣出凭栏远眺的快意。</span></p>
-
-{{< quote-center >}}
-时间 像武汉六月的大雨，<br>
-一瞬间 淋湿了四个四季，<br>
-仿佛 一切都还在原地，<br>
-谈笑间 却多了分离。<br>
-终于这一天来临 我们要各奔东西，<br>
-那么这一餐 去桥楼还是新开的店，<br>
-伤感的话不用说 忧愁的泪不用流，<br>
-请往前走 不要回头。<br>
-...<br>
-岁月催促人长大，<br>
-匆忙的脚步早已停不下，<br>
-还没说完的话，<br>
-就算了吧。<br>
-总有些遗憾要学会放下，<br>
-前路不需太重的行囊，<br>
-和过去和解吧。<br>
-我会像永远不变的时光，<br>
-一如既往  哪怕从此离开了家乡。<br>
-——下一站，茶山刘
-{{< /quote-center >}}
 
 <div class="trible-picture">
   	<div class="trible-picture-cover">

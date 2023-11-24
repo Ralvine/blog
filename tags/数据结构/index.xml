@@ -5,62 +5,12 @@
         <description>数据结构 - 标签 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 01 Sep 2021 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="self" type="application/rss+xml" /><item>
     <title>数据结构与算法</title>
-    <link>https://blog.ralvines.top/dsa/</link>
+    <link>https://blog.ralvines.top/shujujiegou/</link>
     <pubDate>Wed, 01 Sep 2021 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/dsa/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/shujujiegou/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 数学科学学院<br>
-🕙 2021-2022 秋冬<br>
-🧑‍🏫 王何宇<br>
-📝 作业，项目作业，期末考试</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>《Mathematical Foundations for Data Analysis》Jeff M. Phillips</li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程大纲<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>CH3. 链表、栈和队列</li>
-<li>CH4. 树</li>
-<li>CH5. 哈希</li>
-<li>CH6. 优先队列和堆</li>
-<li>CH7. 分类</li>
-<li>CH8. *</li>
-<li>CH9. 图</li>
-<li>Extra. 主定理</li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="c-基础知识" class="headerLink">
+            </div><h2 id="c-基础知识" class="headerLink">
     <a href="#c-%e5%9f%ba%e7%a1%80%e7%9f%a5%e8%af%86" class="header-mark"></a>C++ 基础知识</h2><h3 id="动态内存与释放" class="headerLink">
     <a href="#%e5%8a%a8%e6%80%81%e5%86%85%e5%ad%98%e4%b8%8e%e9%87%8a%e6%94%be" class="header-mark"></a>动态内存与释放</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
