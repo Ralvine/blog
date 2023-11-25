@@ -67,7 +67,7 @@
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86Ybn.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">你在逃避什么<span style="float:right;font-weight:400">社科/心理</span></div>
+      <div class="media-meta-item title"><a href="https://blog.ralvines.top/taobi/">你在逃避什么</a><span style="float:right;font-weight:400">社科/心理</span></div>
       <div class="media-meta-item">
         <span class="author">乔恩·弗雷德里克森</span>
         <span class="star-score">★★★<span class="grey-star">☆☆</span></span>

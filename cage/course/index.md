@@ -32,13 +32,13 @@
 
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b>微分方程数值解</b></span>
+    <span class="image-description"><b><a href="./pdeszj/">微分方程数值解</a></b></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description"><b><a href="./shujujianmo/">数据建模与分析</a></b></span>
   </div>
    <div class="little-box-cover">
-    <span class="image-description"><b>泛函分析</b></span>
+    <span class="image-description"><b><a href="./fanhan/">泛函分析</a></b></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">复变函数</span>
@@ -100,10 +100,10 @@
 
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b>实变函数</b></span>
+    <span class="image-description"><b><a href="./shibian/">实变函数</a></b></span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description"><b>偏微分方程</b></span>
+    <span class="image-description"><b><a href="./pde/">偏微分方程</a></b></span>
   </div>
    <div class="little-box-cover">
     <span class="image-description"><b>数值代数</b></span>
