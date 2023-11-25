@@ -3,711 +3,14 @@
         <title>本科课程 - 系列 - 暮瞻</title>
         <link>https://blog.ralvines.top/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/</link>
         <description>本科课程 - 系列 - 暮瞻</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
-    <title>分类问题中的 k 近邻法</title>
-    <link>https://blog.ralvines.top/qianyan/</link>
-    <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/11/01/piuKE6K.png" referrerpolicy="no-referrer">
-            </div><h2 id="分类问题1" class="headerLink">
-    <a href="#%e5%88%86%e7%b1%bb%e9%97%ae%e9%a2%981" class="header-mark"></a>分类问题<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><ul>
-<li>
-<p>一种监督学习问题，旨在对数据分类</p>
-</li>
-<li>
-<p>将输入数据映射到预定义的类别或标签</p>
-</li>
-<li>
-<p>从已知的训练数据中学习一个分类模型，然后将该模型应用于新的、未知的数据，以预测其所属的类别</p>
-</li>
-<li>
-<p>垃圾邮件过滤、金融风险评估</p>
-</li>
-<li>
-<p>医学诊断、生物信息学</p>
-</li>
-<li>
-<p>情感分析、客户分类</p>
-</li>
-<li>
-<p>图像识别</p>
-</li>
-</ul>
-<h2 id="knn模型构建" class="headerLink">
-    <a href="#knn%e6%a8%a1%e5%9e%8b%e6%9e%84%e5%bb%ba" class="header-mark"></a>kNN模型构建</h2><h3 id="提出2" class="headerLink">
-    <a href="#%e6%8f%90%e5%87%ba2" class="header-mark"></a>提出<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3><p>$$T={(x_1,y_1),(x_2,y_2),\cdots,(x_N,y_N)}$$
-$$y_i\in\mathcal{Y}={c_1,c_2,\cdots,c_K}$$
-$$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
-<ul>
-<li>
-<p>输入：特征向量（空间点）</p>
-</li>
-<li>
-<p>输出：类别（可以取多类）</p>
-</li>
-<li>
-<p>已标注的训练集</p>
-</li>
-<li>
-<p>预测：多数表决（“近朱者赤” ）</p>
-</li>
-<li>
-<p>不具有显式的学习过程</p>
-</li>
-</ul>
-<p><strong>适用范围</strong></p>
-<ul>
-<li>数值型和标称型<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
-</ul>
-<p><strong>优点</strong><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
-<ol>
-<li>直观、非参数化</li>
-<li>对异常值不敏感</li>
-<li>支持多类别</li>
-</ol>
-<p><strong>缺点</strong><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
-<ol>
-<li>时间复杂度高</li>
-<li>存储成本高</li>
-<li>“维度灾难”和数据不平衡</li>
-</ol>
-<h3 id="构建流程" class="headerLink">
-    <a href="#%e6%9e%84%e5%bb%ba%e6%b5%81%e7%a8%8b" class="header-mark"></a>构建流程</h3><p>给定距离度量，k值与决策规则 [输入训练集T]</p>
-<ol>
-<li>在训练集 T 中找出与 x 最邻近的 k 个点，涵盖这 个点的 x 的邻域记作 $N_k(a)$</li>
-<li>在 $N_k(a)$ 中根据分类决策规则决定 x 的类别 y</li>
-</ol>
-<p><strong>基本要素</strong></p>
-<ol>
-<li>k 值选择</li>
-<li>距离度量</li>
-<li>决策规则</li>
-</ol>
-<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
-</a>
-<p class="img-desc" style="text-align: center">▲ 特征空间划分。</p>
-<p>特殊情况：最近邻（k=1）</p>
-<h2 id="模型要素" class="headerLink">
-    <a href="#%e6%a8%a1%e5%9e%8b%e8%a6%81%e7%b4%a0" class="header-mark"></a>模型要素</h2><h3 id="k-值选择" class="headerLink">
-    <a href="#k-%e5%80%bc%e9%80%89%e6%8b%a9" class="header-mark"></a>k 值选择</h3><table>
-<thead>
-<tr>
-<th>k值</th>
-<th>偏小</th>
-<th>偏大</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>近似误差</td>
-<td>减小</td>
-<td>增大</td>
-</tr>
-<tr>
-<td>估计误差</td>
-<td>增大</td>
-<td>减小</td>
-</tr>
-</tbody>
-</table>
-<p>交叉验证以提高泛化性能。<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></p>
-<h3 id="距离度量9" class="headerLink">
-    <a href="#%e8%b7%9d%e7%a6%bb%e5%ba%a6%e9%87%8f9" class="header-mark"></a>距离度量<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h3><p>对于
-$$x_i=(x_i^{(1)}, x_i^{(2)}, \cdots, x_i^{(n)})$$</p>
-<ul>
-<li>$L_p$ 距离
-$$L_p(x_i,x_j)=(\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^p)^{1/p}$$</li>
-<li>欧氏距离
-$$L_2(x_i,x_j)=(\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|^2)^{1/2}$$</li>
-<li>曼哈顿距离
-$$L_1(x_i,x_j)=\sum\limits_{l=1}^n |x_i^{(l)}-x_j^{(l)}|$$</li>
-<li>$L_\infty$ 距离
-$$L_\infty (x_i,x_j)=\max\limits_l |x_i^{(l)}-x_j^{(l)}|$$</li>
-</ul>
-<h3 id="决策规则" class="headerLink">
-    <a href="#%e5%86%b3%e7%ad%96%e8%a7%84%e5%88%99" class="header-mark"></a>决策规则</h3><p><strong>多数表决</strong>
-由输入实例的 k 个邻近的训练实例中的多数类决定输入实例的类。</p>
-<ul>
-<li>分类函数
-$$f:\mathbb{R}^n\rightarrow {c_1,c_2,\cdots,c_K}$$</li>
-<li>误分类概率
-$$P(Y\ne f(X))=1-P(Y=f(X))$$</li>
-<li>等价于风险经验最小化
-$$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</li>
-</ul>
-<h2 id="模型预测" class="headerLink">
-    <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h2><h3 id="预测流程" class="headerLink">
-    <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h3><p>首先引入最简单的思路：线性扫描的方法。</p>
-<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
-</a>
-<p class="img-desc" style="text-align: center">▲ kNN算法流程可视化。</p>
-<ol>
-<li>对未知类别的数据集中的每个点：
-<ul>
-<li>计算已知类别数据集众多点与当前点之间的距离；</li>
-<li>按照距离递增次序排序。</li>
-</ul>
-</li>
-<li>选取与当前点距离最小的k个点：
-<ul>
-<li>选定前k个点所在类别的出现频率</li>
-<li>返回前k个点出现频率最高的类别作为当前点的预测分类</li>
-</ul>
-</li>
-<li>重复步骤，完成对所有点的预测分类</li>
-</ol>
-<h3 id="python实现" class="headerLink">
-    <a href="#python%e5%ae%9e%e7%8e%b0" class="header-mark"></a>Python实现</h3><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">KNN</span><span class="p">:</span> 
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">3</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">k</span> <span class="o">=</span> <span class="n">k</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span> <span class="o">=</span> <span class="n">X</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">y_train</span> <span class="o">=</span> <span class="n">y</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">euclidean_distance</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">((</span><span class="n">x1</span> <span class="o">-</span> <span class="n">x2</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="n">y_pred</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">_predict</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">X</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">_predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="n">distances</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">euclidean_distance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">x_train</span><span class="p">)</span> <span class="k">for</span> <span class="n">x_train</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">k_indices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">distances</span><span class="p">)[:</span><span class="bp">self</span><span class="o">.</span><span class="n">k</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">k_nearest_labels</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">y_train</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">k_indices</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">most_common</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">k_nearest_labels</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">most_common</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"> <span class="n">一个简单的例子</span><span class="err">：</span>
-</span></span><span class="line"><span class="cl"><span class="n">X_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span>
-</span></span><span class="line"><span class="cl"><span class="n">y_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
-</span></span><span class="line"><span class="cl"><span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span>
-</span></span><span class="line"><span class="cl"><span class="n">clf</span> <span class="o">=</span> <span class="n">KNN</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">predictions</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="改进" class="headerLink">
-    <a href="#%e6%94%b9%e8%bf%9b" class="header-mark"></a>改进</h2><h3 id="主要挑战" class="headerLink">
-    <a href="#%e4%b8%bb%e8%a6%81%e6%8c%91%e6%88%98" class="header-mark"></a>主要挑战</h3><ol>
-<li>前置处理：特征的选择</li>
-<li>模型
-<ul>
-<li>合适的度量函数</li>
-<li>合适的K值</li>
-<li>降低训练和预测的复杂度</li>
-</ul>
-</li>
-</ol>
-<h3 id="kd树" class="headerLink">
-    <a href="#kd%e6%a0%91" class="header-mark"></a>kd树</h3><p>一种二叉树数据结构，用于优化搜索算法。</p>
-<p><strong>优势：</strong></p>
-<ol>
-<li>降低搜索维度</li>
-<li>提高搜索效率</li>
-<li>更少的存储需求</li>
-<li>支持范围搜索</li>
-</ol>
-<p>可能因数据的特定分布而表现不佳。<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
-<h4 id="构造11" class="headerLink">
-    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
-</a>
-<p class="img-desc" style="text-align: center">▲ kd树的构造。</p>
-<ol>
-<li>构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域。</li>
-<li>递归（生成子结点）：
-<ul>
-<li>选择坐标轴和切分点，确定一个超平面</li>
-<li>将当前超矩形区域切分为左右两个子区域</li>
-<li>直到子区域内没有实例时终止。</li>
-</ul>
-</li>
-<li>实例保存在相应的结点上。</li>
-</ol>
-<p><strong>如何选择：</strong></p>
-<ul>
-<li>空间切分参照：坐标轴</li>
-<li>切分点的选择：中位数</li>
-</ul>
-<h4 id="搜索" class="headerLink">
-    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
-</a>
-<p class="img-desc" style="text-align: center">▲ kd树的搜索。</p>
-<h4 id="算法" class="headerLink">
-    <a href="#%e7%ae%97%e6%b3%95" class="header-mark"></a>算法</h4><p>[输入] 已构造的 kd 树，目标点 x;</p>
-<p>[输出] x 的 k 近邻。</p>
-<ol>
-<li>在 kd 树中找出包含目标点 x 的叶结点：从根结点出发，递归地向下访问 kd 树。若目标点 x 当前维的坐标小于切分点的坐标，则移动到左子结点，否则移动到右子结点，直到子结点为叶结点为止。</li>
-<li>构建“当前 k 近邻点集”，将该叶结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离。</li>
-<li>递归地向上回退，在每个结点进行以下操作:
-<ul>
-<li>如果“当前 k 近邻点集”的元素数量 &lt; k，则将该结点插入“当前 k 近邻点集”，并计算该结点到目标点 x 的距离;</li>
-<li>如果“当前 k 近邻点集”的元素数量 = k，但该结点到目标点 x 的距离小于“当前 k 近邻点集”中最远 点到目标点 x 的距离，则将该结点插入“当前 k 近邻点集”，并删除原先的最远点。</li>
-<li>检查另一子结点对应的区域是否与以目标点 x 为球心、以目标点 x 与“当前 k 近邻点集”中最远点的距离为半径的超球体相交。 如果相交，可能在另一个子结点对应的区域内存在距离目标点更近的点，移动到另一个子结点，接着，递归地进行 k 近邻搜索; 如果不相交，向上回退。</li>
-</ul>
-</li>
-<li>当回退到根结点时，搜索结束(若此时“当前 k 近邻点集”中的元素不足 k 个，则需要访问另一半树的结点)。</li>
-<li>最后的“当前 k 近邻点集”中的 k 个点即为 x 的 k 近邻点。</li>
-</ol>
-<h4 id="python实现-1" class="headerLink">
-    <a href="#python%e5%ae%9e%e7%8e%b0-1" class="header-mark"></a>Python实现</h4><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
-</span><span class="lnt">59
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Node</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">left</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">val</span> <span class="o">=</span> <span class="n">data</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">left</span> <span class="o">=</span> <span class="n">left</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">right</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">KdTree</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">k</span> <span class="o">=</span> <span class="n">k</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">create_Tree</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dataset</span><span class="p">,</span> <span class="n">depth</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">dataset</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">None</span>
-</span></span><span class="line"><span class="cl">        <span class="n">mid_index</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl">        <span class="n">axis</span> <span class="o">=</span> <span class="n">depth</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">k</span>
-</span></span><span class="line"><span class="cl">        <span class="n">sort_dataset</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="n">axis</span><span class="p">]))</span>
-</span></span><span class="line"><span class="cl">        <span class="n">mid_data</span> <span class="o">=</span> <span class="n">sort_dataset</span><span class="p">[</span><span class="n">mid_index</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cur_node</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="n">mid_data</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">left_data</span> <span class="o">=</span> <span class="n">sort_dataset</span><span class="p">[:</span><span class="n">mid_index</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">right_data</span> <span class="o">=</span> <span class="n">sort_dataset</span><span class="p">[</span><span class="n">mid_index</span><span class="o">+</span><span class="mi">1</span><span class="p">:]</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cur_node</span><span class="o">.</span><span class="n">left</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_Tree</span><span class="p">(</span><span class="n">left_data</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cur_node</span><span class="o">.</span><span class="n">right</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_Tree</span><span class="p">(</span><span class="n">right_data</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">cur_node</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">search</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tree</span><span class="p">,</span> <span class="n">new_data</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">near_point</span> <span class="o">=</span> <span class="kc">None</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span> <span class="o">=</span> <span class="kc">None</span>
-</span></span><span class="line"><span class="cl">        <span class="k">def</span> <span class="nf">dfs</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">depth</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="ow">not</span> <span class="n">node</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="k">return</span>
-</span></span><span class="line"><span class="cl">            <span class="n">axis</span> <span class="o">=</span> <span class="n">depth</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">k</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">new_data</span><span class="p">[</span><span class="n">axis</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span><span class="p">[</span><span class="n">axis</span><span class="p">]:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">dfs</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">left</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">dfs</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">right</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="n">dist</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">distance</span><span class="p">(</span><span class="n">new_data</span><span class="p">,</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span> <span class="ow">or</span> <span class="n">dist</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span> <span class="o">=</span> <span class="n">dist</span>
-</span></span><span class="line"><span class="cl">                <span class="bp">self</span><span class="o">.</span><span class="n">near_point</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">new_data</span><span class="p">[</span><span class="n">axis</span><span class="p">]</span> <span class="o">-</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span><span class="p">[</span><span class="n">axis</span><span class="p">])</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">near_val</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">new_data</span><span class="p">[</span><span class="n">axis</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">node</span><span class="o">.</span><span class="n">val</span><span class="p">[</span><span class="n">axis</span><span class="p">]:</span>
-</span></span><span class="line"><span class="cl">                    <span class="n">dfs</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">right</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> 
-</span></span><span class="line"><span class="cl">                <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                    <span class="n">dfs</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">left</span><span class="p">,</span> <span class="n">depth</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">dfs</span><span class="p">(</span><span class="n">tree</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">near_point</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">distance</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">point_1</span><span class="p">,</span> <span class="n">point_2</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">k</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="n">res</span> <span class="o">+=</span> <span class="p">(</span><span class="n">point_1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="n">point_2</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">**</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">res</span> <span class="o">**</span> <span class="mf">0.5</span>
-</span></span><span class="line"><span class="cl"><span class="n">data_set</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">9</span><span class="p">,</span><span class="mi">6</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">7</span><span class="p">],[</span><span class="mi">8</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">7</span><span class="p">,</span><span class="mi">2</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="n">new_data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="n">k</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_set</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</span></span><span class="line"><span class="cl"><span class="n">kd_tree</span> <span class="o">=</span> <span class="n">KdTree</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">our_tree</span> <span class="o">=</span> <span class="n">kd_tree</span><span class="o">.</span><span class="n">create_Tree</span><span class="p">(</span><span class="n">data_set</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">predict</span> <span class="o">=</span> <span class="n">kd_tree</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">our_tree</span><span class="p">,</span> <span class="n">new_data</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">predict</span><span class="p">)</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="马氏距离" class="headerLink">
-    <a href="#%e9%a9%ac%e6%b0%8f%e8%b7%9d%e7%a6%bb" class="header-mark"></a>马氏距离</h3><p>由P.C. Mahalanobis提出；基于样本分布的一种距离测量。</p>
-<ul>
-<li>考虑特征之间的相关性</li>
-<li>对数据的缩放不敏感</li>
-<li>考虑协方差结构</li>
-<li>适用于异常值和噪声数据<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></li>
-</ul>
-<p>广泛用于分类和聚类分析。</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>垃圾邮件过滤：自动将电子邮件分为垃圾邮件和非垃圾邮件。<br>
-医学诊断：基于患者的症状数据来诊断疾病或预测病人的疾病风险。<br>
-金融风险评估：根据客户的财务和信用记录来评估客户的信用风险。<br>
-情感分析：根据文本数据中的情感内容对文本进行情感分类，如积极、消极或中性。<br>
-图像识别：对图像进行分类，例如识别数字、物体或人脸等。<br>
-生物信息学：基因序列分类，如预测蛋白质功能或基因表达模式。<br>
-客户分类：根据客户的行为和偏好将客户分成不同的市场细分。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>KNN算法于1948年由Cover和Hart提出。<br>
-存在一个样本数据集合，也称作训练样本集，并且样本集中每个数据都存在标签，即我们知道样本集中每个数据与所属分类的对应关系。输入没有标签的新数据后，将新数据的每个特征与样本集中数据对应的特征进行比较，然后算法提取样本集中特征最相似数据（最近邻）的分类标签。一般来说，只选择样本数据集中前k个最相似的数据。k一般不大于20，最后，选择k个中出现次数最多的分类，作为新数据的分类。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>数值型数据是指具有数量意义的数据，可以进行数学运算和比较。这种数据通常表示为数字，例如年龄、温度、身高等。在机器学习中，数值型数据常用于回归分析和连续变量的预测。标称型数据则是指无序分类的数据，其中每个值代表一个类别而没有数量意义。标称型数据通常表示为符号或字符串，例如血型、性别、品种等。在机器学习中，标称型数据通常用于分类问题，其中算法需要将输入数据映射到预定义的类别或标签。<br>
-k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型数据，它可以基于数值之间的距离进行分类；对于标称型数据，它可以根据邻近样本的标签进行投票，并将测试样本分类为获得最多投票的类别。因此，kNN 算法对于这两种数据类型都有较好的适用性。<br>
-还有其他类型：<br>
-顺序型数据：顺序型数据是一种具有顺序或等级关系的数据类型，其中数据值之间存在某种顺序关系，但没有明确的数值差异。例如，学历等级（如小学、初中、高中、大学等）可以被视为顺序型数据。<br>
-时间序列数据：时间序列数据是按照时间顺序排列的数据集合，通常是在一系列连续时间点上收集的数据。例如，股票价格、天气数据、经济指标等都属于时间序列数据。<br>
-区间型数据：区间型数据是指数据值表示某个范围内的值，而不是特定的数值。这种数据类型通常用于表示测量的范围。例如，温度范围、年龄段等可以被视为区间型数据。<br>
-比率型数据：比率型数据是具有固定比例关系的数据类型，其中数据之间存在明确的比率关系。比率型数据具有绝对零点，可以进行比较和数学运算。例如，长度、重量、时间间隔等都属于比率型数据。<br>
-文本数据：文本数据是指以自然语言形式表示的数据，通常包含语句、段落或文档。处理文本数据通常需要使用自然语言处理技术来提取、转换和分析文本信息。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p>老师反馈：这里的表述并不严谨，模型需要通过交叉验证来确认参数 k&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:5">
-<p>简单直观，非参数化：kNN 是一种非参数化方法，不对数据的分布做任何假设。因此，在处理复杂的数据集和未知的数据分布时，它通常具有很好的适应性。<br>
-对异常值鲁棒：kNN 对异常值比较鲁棒，因为它基于周围数据点的多数投票来确定分类，可以减少异常值对结果的影响。<br>
-适应多类别问题：kNN 能够很好地适应多类别分类问题，因为它可以通过投票的方式来确定一个实例所属的类别。<br>
-但是对高维数据的处理效率较低，需要大量的存储空间和计算时间；在数据不平衡或噪声较多的情况下，它可能会产生较差的分类结果。&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:6">
-<p>计算成本高：kNN 算法需要计算每个测试点与所有训练点之间的距离，因此在处理大规模数据集时，计算成本会变得非常高。<br>
-存储成本高：除了计算成本高外，kNN 算法还需要存储整个训练集，这对于大规模数据集来说会占用大量的存储空间。<br>
-维度灾难：随着数据维度的增加，kNN 算法的性能可能会下降，因为在高维空间中，数据点之间的距离变得更加稀疏，导致算法的效率降低。<br>
-数据不平衡问题：在处理数据不平衡或噪声较多的数据集时，kNN 算法可能会受到数据分布的影响，从而导致分类性能下降。&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:7">
-<p>近似误差是指模型用于近似真实关系的误差，通常表示模型与真实值之间的差异。<br>
-估计误差是指使用样本数据估计整体数据集特征时产生的误差。在 kNN 中，估计误差通常与样本的选择和样本的分布有关。<br>
-K值的减小：模型变得复杂，容易发生过拟合。相当于用较小的邻域中的训练实例进行预测，只有与输入实例较近的(相似的)训练实例才会对预测结果起作用，对噪声敏感，即预测结果会对近邻的实例点非常敏感。如果邻近的实例点恰巧是噪声，预测就会出错。换句话说，k 值的减小就意味着整体模型变得复杂，容易发生过拟合。<br>
-K值的增大：就意味着整体的模型变得简单.产生更平滑的决策边界，但可能会忽略数据的局部特征。这时与输入实例较远的(不相似的)训练实例也会对预测起作用，使预测发生错误。k 值的增大就意味着整体的模型变得简单。<br>
-k 值一般取一个比较小的数值。通常采用交叉验证法来选取最优的k 值。具体可以取部分训练集作为测试集，在不同取值条件下观察最优值。&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:8">
-<p>特征空间中两个实例点的距离是两个实例点相似程度的反映。k 近邻模型的特征空间一般是 n 维实数向量空间 $R^n$，使用的距离是欧氏距离，但也可以是其他距离，如更一般的 $L_p$ 距离或 Minkowski 距离。&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:9">
-<p>实现 k 近邻法时，主要考虑的问题是如何对训练数据进行快速 k 近邻搜索。这点在特征空间的维数大及训练数据容量大时尤其必要。k 近邻法最简单的实现方法是线性扫描。这时要计算输入实例与每一个训练实例的距离。当训练集很大时，计算非常耗时，这种方法是不可行的。为了提高k 近邻搜索的效率，可以考虑使用特殊的结构存储训练数据，以减少计算距离的次数。具体方法很多，下面介绍其中的 kd 树方法。<br>
-使用 kd 树相比直接计算方法的主要好处在于它可以有效地减少计算量。kd 树是一种二叉树数据结构，它可以用于优化搜索算法，特别是在高维空间中。<br>
-以下是 kd 树相对于直接计算方法的一些优势：<br>
-降低搜索维度：kd 树能够将搜索范围缩小到与搜索点最近的局部区域，从而避免不必要的计算。<br>
-提高搜索效率：在具有大量数据点的高维空间中，kd 树可以更快地定位最近邻居，因为它可以避免对所有数据点进行逐一比较。<br>
-更少的存储需求：相对于直接计算方法，kd 树通常需要更少的存储空间，因为它可以通过二叉树结构有效地组织数据。<br>
-支持范围搜索：除了最近邻搜索之外，kd 树还可以很容易地扩展到支持范围搜索，以查找在给定半径内的所有邻居。<br>
-尽管 kd 树具有这些优势，但它可能会因数据的特定分布而表现不佳。例如，在存在大量密集聚集数据点的区域，kd 树的性能可能会下降。因此，在实际应用中，应该根据数据集的特点选择合适的算法来进行近邻搜索。&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:10">
-<p>kd 树是一种对 k 维空间中的实例点进行存储以便对其进行快速检索的树形数据结构。kd 树是二叉树，表示对 k 维空间的一个划分。构造 kd 树相当于不断地用垂直于坐标轴的超平面将k 维空间切分，构成一系列的飞 维超矩形区域。kd树的每个结点对应于一个k 维超矩形区域。<br>
-构造 kd 树的方法如下:构造根结点，使根结点对应于 k 维空间中包含所有实例点的超矩形区域:通过下面的递归方法，不断地对 k 维空间进行切分，生成子结点。在超矩形区域(结点)上选择一个坐标轴和在此坐标轴上的一个切分点，确定一个超平面，这个超平面通过选定的切分点并垂直于选定的坐标轴，将当前超矩形区域切分为左右两个子区域（子结点）；这时，实例被分到两个子区域。这个过程直到子区域内没有实例时终止（终止时的结点为叶结点）。在此过程中，将实例保存在相应的结点上。<br>
-平衡树：使用中位数作为划分点可以保证树的相对平衡，避免出现极端情况下的不平衡树结构，从而使得搜索效率总体比较高，但未必最优。考虑一些离群点。&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:11">
-<p>考虑特征之间的相关性：马氏距离能够考虑数据特征之间的相关性，而欧氏距离只考虑各个维度之间的直线距离。这意味着马氏距离在具有相关特征的数据集上能够提供更加准确的距离度量。<br>
-对数据的缩放不敏感：在某些情况下，数据的不同特征可能具有不同的度量单位或尺度。马氏距离能够对数据的缩放不敏感，因此可以更好地处理这种情况，而欧氏距离可能受到数据尺度的影响。<br>
-考虑协方差结构：马氏距离考虑了数据的协方差结构，因此可以更好地捕捉数据特征之间的线性关系。这使得马氏距离在处理多元正态分布数据时能够提供更加准确的距离度量。<br>
-适用于异常值和噪声数据：马氏距离能够对异常值和噪声数据具有更好的鲁棒性，因为它考虑了数据的协方差结构，可以减少这些异常值对距离度量的影响。&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
-</item><item>
-    <title>政治经济学导论</title>
-    <link>https://blog.ralvines.top/zzjjxdl/</link>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 29 Apr 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/series/%E6%9C%AC%E7%A7%91%E8%AF%BE%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>符号权力的三十年</title>
+    <link>https://blog.ralvines.top/capital/</link>
     <pubDate>Sat, 29 Apr 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/zzjjxdl/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/capital/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGKJ0.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 经济学院<br>
-🕙 2022-2023 夏<br>
-🧑‍🏫 俞彬<br>
-📝 40%平时（两次问卷调查），60%论文</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>PPT（导论）
-<ul>
-<li>Lecture1</li>
-<li>Lecture2</li>
-<li>Lecture3</li>
-<li>Lecture4</li>
-<li>Lecture5</li>
-<li>Lecture6</li>
-</ul>
-</li>
-<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=47818&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="lecture1" class="headerLink">
-    <a href="#lecture1" class="header-mark"></a>Lecture1.</h2><blockquote>
-<p>夏一周</p>
-</blockquote>
-<ul>
-<li>客观/主观价值论（信用、劳动）</li>
-<li>货币
-<ul>
-<li>明朝货币（农业、税收）</li>
-<li>俄乌战争、汇率（资源）</li>
-<li>美元（资产、国债，农产品、石油、高新制造）</li>
-<li>长征、抗币（与盐、农产品的锚定）</li>
-<li>国民党法币（铸币税）</li>
-<li>人民币国际化（工业门类）</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture2" class="headerLink">
-    <a href="#lecture2" class="header-mark"></a>Lecture2.</h2><blockquote>
-<p>夏三周（引用政治经济学春二周的内容，基本一致）</p>
-</blockquote>
-<ul>
-<li>货币
-<ul>
-<li>螃蟹战略、石油美元，结算系统 SWIFT -&gt; 中国</li>
-<li>数字人民币（DCEP） 1.0 -&gt; 2.0（移动支付）-&gt; 3.0，DC、EP</li>
-<li>大明宝钞、民国法币/金圆券、美元/港币（联系汇率制）、人民币，锚定资产 &lt;-&gt; 负债</li>
-<li>货币：农业（耕地红线）、制造业（完整工业体系）、资产（清洁能源）、文明</li>
-<li>核心：劳动价值论、历史唯物主义</li>
-</ul>
-</li>
-<li>阶级和生产关系的变革
-<ul>
-<li>商鞅变法：废井田（王有） -&gt; 私有、买卖</li>
-<li>江南豪强 -&gt; 科举 -&gt; 资本文官（户部官员不让浙江人担任、万里国本之争）</li>
-<li>明朝
-<ul>
-<li>土地兼并：对农民生产资料的剥夺</li>
-<li>三大阶级、民众鼓噪
-<ul>
-<li>封建官僚、资本官僚、民众</li>
-<li>《显微镜的大明》</li>
-</ul>
-</li>
-<li>失败：资产阶级的软弱性</li>
-</ul>
-</li>
-<li>国富论关于三大阶级论述
-<ul>
-<li>地主、工资生活的阶级、靠利润生活的阶级</li>
-</ul>
-</li>
-<li>资本主义生产关系出现的两个条件
-<ul>
-<li>失去生产资料、人身自由</li>
-<li>少数人的货币积累</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>价值和资本
-<ul>
-<li>特殊商品：劳动力，必要劳动时间和剩余劳动时间</li>
-<li>价值与剩余价值（两种形式：绝对/相对）</li>
-<li>不变资本与可变资本，资本（完成价值增殖的钱）</li>
-<li>资本主义制度的工资本质（计时/计件，后者剥削更隐蔽）</li>
-<li>高强度长时间工作和高工资的因果关系</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture3" class="headerLink">
-    <a href="#lecture3" class="header-mark"></a>Lecture3.</h2><blockquote>
-<p>夏四周</p>
-</blockquote>
-<ul>
-<li>中国资本主义黄金时代
-<ul>
-<li>买办</li>
-<li>资产阶级的矛盾诉求</li>
-<li>自由资本主义到垄断资本主义</li>
-</ul>
-</li>
-<li>剩余价值学说
-<ul>
-<li>商品化的劳动力：价值和使用价值</li>
-<li>资本主义生产过程：劳动+价值增殖</li>
-<li>流通领域的劳动力和商品买卖和非流通领域的价值增殖（剥削）</li>
-<li>企业亏本：私人劳动转换为社会劳动</li>
-<li>私有化和苏联解体</li>
-<li>两种形式：绝对、相对</li>
-<li>工资本质和形式：计时、计件</li>
-</ul>
-</li>
-<li>一些实例
-<ul>
-<li>湖畔大学和滴滴打车</li>
-<li>流量的政治经济学解释
-<ul>
-<li>消费主义</li>
-<li>标签化和群体割裂</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture4" class="headerLink">
-    <a href="#lecture4" class="header-mark"></a>Lecture4.</h2><blockquote>
-<p>夏五周</p>
-</blockquote>
-<ul>
-<li>历史虚无主义、解构</li>
-<li>剩余价值、利润转化
-<ul>
-<li>不变资本、可变资本</li>
-<li>平均利润率</li>
-<li>价值、价格转化</li>
-</ul>
-</li>
-<li>产业资本、商业资本</li>
-<li>借贷资本、银行资本
-<ul>
-<li>三家私有银行</li>
-</ul>
-</li>
-<li>股份制、“资本民主化”
-<ul>
-<li>股民不是资产阶级</li>
-<li>白领、自由职业、微企业</li>
-<li>大企业对中小企业的剥削</li>
-</ul>
-</li>
-<li>生产关系与上层建筑
-<ul>
-<li>日本财阀</li>
-<li>特朗普、资本全球主义和经济民族主义</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture5" class="headerLink">
-    <a href="#lecture5" class="header-mark"></a>Lecture5.</h2><blockquote>
-<p>夏六周</p>
-</blockquote>
-<ul>
-<li>资本主义再生产
-<ul>
-<li>资本积累</li>
-<li>二十年代美国</li>
-</ul>
-</li>
-<li>两极分化、二八定律</li>
-<li>平台、监视资本主义
-<ul>
-<li>数据监管</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture6" class="headerLink">
-    <a href="#lecture6" class="header-mark"></a>Lecture6.</h2><blockquote>
-<p>夏七周</p>
-</blockquote>
-<ul>
-<li>人工智能时代的私有制剥削</li>
-<li>费米悖论、人类的未来</li>
-<li>周期性金融危机</li>
-<li>发达资本主义国家的全国掠夺和剥削</li>
-</ul>
-<h2 id="lecture7" class="headerLink">
-    <a href="#lecture7" class="header-mark"></a>Lecture7.</h2><blockquote>
-<p>夏八周</p>
-</blockquote>
-<h2 id="期末论文" class="headerLink">
-    <a href="#%e6%9c%9f%e6%9c%ab%e8%ae%ba%e6%96%87" class="header-mark"></a>期末论文</h2><p><em>（课程约定）</em></p>
-<p>这是资本无序扩张的第三十年，与泡沫般飞涨的资本主义繁荣神话相伴的是，工业化和市场化浪潮下生产资料的结构性错配在其让渡于资本权力的进程中精妙地编织起一套无处挣脱的生产方式和叙事体系，即便是矗立于社会金字塔尖的名义精英也潜意识地驯服于资本-消费符号构成的全景社会之内、安适于新贵族般的森严而坚实的壁龛之中。</p>
+            </div><p>这是资本无序扩张的第三十年，与泡沫般飞涨的资本主义繁荣神话相伴的是，工业化和市场化浪潮下生产资料的结构性错配在其让渡于资本权力的进程中精妙地编织起一套无处挣脱的生产方式和叙事体系，即便是矗立于社会金字塔尖的名义精英也潜意识地驯服于资本-消费符号构成的全景社会之内、安适于新贵族般的森严而坚实的壁龛之中。</p>
 <p>资本主义首要刻画的是附着于人性原始欲望的商品世界童话。在纸醉金迷的浪潮中，头脑聪明、精于算计的“精致利己主义”轻而易举地渗透了道德意识形态的高地，以财富导向的社会天梯的攀附者们，自发地戴上了旧时代残存的冠冕，在阶级的金字塔沿互相倾轧。在这个效率第一的时代，几乎没有人意识到自己身处于资本疯狂自我增殖的子宫之中，由其浇筑的雇佣制社会化再生产链路和附着于其间的劳动者和资本家，无非是燃料和傀儡的区别，所有人生来的目的便是幻想在资本浇筑的符号幻觉里叱咤风云，他们无一例外地在攫取财富和消费需求的周期里麻木地寻求物欲的安慰，劳作成了自我意识存续的手段本身。</p>
 <p>而在商品和消费为通用语言的符号社会里，无产阶级以打工人的身份被赋予了更广泛、更系统性的剥削定位，工人不仅仅作为生产环节的劳动资料被以工资的形式贴上价格标签自由出卖，同时也在货币符号的诱惑下成为劳动产物的需求端被更为精细地剖分为消费主义的二次收割对象。被褫夺了时间和生活的工薪阶层在博取他人认同和辨识的消费行为中无形地将反抗意识转换为心理层面异化了的满足感，财富和消费定义了新的身份价值标签，于是人们并不再孤立地居于物的使用价值作用范畴之中，而是以消费重新勾勒了社会地位与身份认同，在这里，剥削的原罪被巧妙地消弭，无产阶级在集体无意识中反而为资本主义生产―利润体系的高效运转和规模扩大贡献了正向反馈，成为其合法性的建筑师和辩经者。</p>
 <p>随着资本扩张悄然僭越了将它释放出来的设计师们所划定的效率范畴，文化意识形态和政治结构便在这套全球化的资本主义生产体系下显得势单力薄，在私有财产神圣不可侵犯的神话里，富人与穷人间事实上如猿猴与人类般地经历了二次自然选择，塑造了从生活方式到价值观的社会隔离，于是从小镇成长起来的新兴精英阶层渐渐失去了和底层共情的意愿，剥削不再是可耻的，福报和奋斗的措辞从老大哥修正主义批判的辞典里焕发新生，一面是劳动消费负债三重枷锁嵌入焦虑和麻木的普遍神色，群众推动历史的史观则被英雄和个体的抽象叙事缓缓取代，另一面是资本的提线木偶将贪婪的目光投射于涵盖了政治权力和舆论场的一切尚未触及的领域，不遗余力地把社会斗争形式分解为多元且离散的要素，被身份标签细化瓦解的无产者则只能不平等地收获可怜的施舍。一批高级打工人陷入归化小资产阶级的自我实现预言之中，另一批人则陷入理论荒芜的桎梏，或是在新自由主义的幻想中极化，或是在宏大叙事中将泛左翼与民族主义联姻。</p>
@@ -715,185 +18,14 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <p>由是，觉醒意识开始从体力无产者蔓延至脑力无产者，许多被忽视已久的概念和思想得以重新审视。当资本高速发展可以些许惠及他们的时候，他们抛弃了这些概念；当资本无法容纳生产力进步所带来的群体诉求时，这些概念又在他们脑海中回归了。于是，无产阶级重新开始用“资本家”称呼企业家，用“剥削”描述雇佣；资本集团则深感不安，渴望再一次用其垄断的话术要求人们相信今天所遭受的生活困苦应当归咎于奋斗和劳动不够。但受到剥削的群体意识俨然在客观现实中导向了资本的掠夺本质，也唤起了拒绝为无序扩张的资本服务、为一小撮垄断资产阶级的“特权”卖命的抗争思潮，而后者正是在资本主义的叙事掩饰下，通过利润和税金等形式无偿地占有工人创造的大量财富，贪婪地榨取劳动人民的血汗。</p>
 <p>这是资本无序扩张的第三十年，也是云谲波诡、山雨欲来的一年。资本的无序扩张正将历史唯物主义同广大的无产阶级重新耦合，敏锐的人们正向更先进的生产力和生产关系睁眼望去。</p>]]></description>
 </item><item>
-    <title>面向对象程序设计</title>
-    <link>https://blog.ralvines.top/oop/</link>
-    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/oop/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAWIwd.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 计算机科学与技术学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 许威威<br>
-📝 50%作业，50%期末</div>
-        </div>
-    </div>
-
-    
-<h2 id="介绍1" class="headerLink">
-    <a href="#%e4%bb%8b%e7%bb%8d1" class="header-mark"></a>介绍<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><p>Buzzwords</p>
-<ul>
-<li>继承</li>
-<li>cohesion 凝聚</li>
-<li>coupling 耦合</li>
-<li>overriding</li>
-<li>interface 接口</li>
-<li>polymorphic 多态
-<ul>
-<li>polymorphic method calls</li>
-</ul>
-</li>
-<li>matator methods</li>
-<li>Encapsulation 封装</li>
-</ul>
-<p>C的优缺点&amp;C++新特性</p>
-<h2 id="引用" class="headerLink">
-    <a href="#%e5%bc%95%e7%94%a8" class="header-mark"></a>引用</h2><p>函数swap操作形参无法交换外部变量，C用指针，C++引入引用。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">n</span><span class="o">=</span><span class="mi">4</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span><span class="o">&amp;</span> <span class="n">SetValue</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">SetValue</span><span class="p">()</span><span class="o">=</span><span class="mi">40</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">n</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="c1">// Output: 40.
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="常量" class="headerLink">
-    <a href="#%e5%b8%b8%e9%87%8f" class="header-mark"></a>常量</h2><p>区别define，有类型检查。</p>
-<p>常量指针，不允许通过指针修改目标内容，但可以改变指向对象。</p>
-<p>在函数形参中使用，防止形参被修改</p>
-<p>常量成员函数：不应修改其所作用的对象（除了静态成员变量）</p>
-<p>常量对象 <code>const Sample o;</code> 不可修改对象，但是可以执行其中的常量成员函数。</p>
-<p>成员函数名字参数相同，有无const的区别属于重载关系。（实例对象是否常量决定了调用哪个成员函数）</p>
-<p>常引用：对象作函数参数，为了避免复制构造函数降低效率，直接用引用，而为了防止实参跟着变，采用常引用。</p>
-<h2 id="动态内存分配" class="headerLink">
-    <a href="#%e5%8a%a8%e6%80%81%e5%86%85%e5%ad%98%e5%88%86%e9%85%8d" class="header-mark"></a>动态内存分配</h2><p>分配变量：<code>int* P; P=new T;</code></p>
-<p>T是任意类型名，相当于开辟了sizeof(T)的空间，P是指向它起始地址的指针，即T*.</p>
-<p>释放：只能delete一次，对数组应为<code>delete [] p;</code></p>
-<p>不delete就不会释放！</p>
-<h2 id="内联函数重载和缺省参数" class="headerLink">
-    <a href="#%e5%86%85%e8%81%94%e5%87%bd%e6%95%b0%e9%87%8d%e8%bd%bd%e5%92%8c%e7%bc%ba%e7%9c%81%e5%8f%82%e6%95%b0" class="header-mark"></a>内联函数、重载和缺省参数</h2><p>函数调用存在开销，调用本身耗时，内联函数在编译时直接插入函数内操作本身，但程序体积会变大。</p>
-<p><code>inline int func(parameter) {}</code></p>
-<p>函数名字相同但参数个数或类型不同，叫做重载。使函数命名简单，编译器自动判断调用哪个函数。二义性，调用函数的参数匹配不上。</p>
-<p>缺省参数，最右边连续若干个参数可有缺省值。</p>
-<p><code>void func(int x1, int x2=2, int x3=3) {}</code></p>
-<h2 id="类和对象" class="headerLink">
-    <a href="#%e7%b1%bb%e5%92%8c%e5%af%b9%e8%b1%a1" class="header-mark"></a>类和对象</h2><p>C语言：结构化程序设计，程序=数据结构+算法，但函数和操作的数据结构没有直接联系，规模增大后难以理解、扩充、查错。</p>
-<p>C++：面向对象程序</p>
-<p>指针方式：<code>ClassName* p= &amp;AClassObject</code>，用 - &gt; 指向其成员变量或函数。</p>
-<p>引用方式：<code>ClassName&amp; p= AClassObject</code> 同时跟着变。</p>
-<p>私有成员：缺省=private，同Class其他对象的私有成员也可访问。</p>
-<p>成员函数也可重载、参数缺省。</p>
-<h2 id="构造函数" class="headerLink">
-    <a href="#%e6%9e%84%e9%80%a0%e5%87%bd%e6%95%b0" class="header-mark"></a>构造函数</h2><p>一个类可以有多个构造函数。</p>
-<p>对象数组，注意动态分配时没定义就不初始化。</p>
-<p>复制构造函数，参数必须引用<code>X::X(X&amp; x)</code>；起作用：直接<code>Complex c2(c1)</code>，或者函数参数或返回值含有该类对象；但是对象间赋值不会调用复制构造函数。</p>
-<p>常量引用参数：减少开销，确保实参值不变时使用。</p>
-<p>类型转换构造函数：只含一个参数。</p>
-<p>析构函数：有对象数组情况下，程序结束时每个元素都会调用析构函数；临时对象和形参对象消亡都会调用。</p>
-<p>局部对象：<code>{ 生命周期 }</code>，静态对象static：函数结束时不消亡。</p>
-<p>不同编译器输出有所差别，有的做了优化，赋值可以不用再临时生成被复制的对象。</p>
-<h2 id="this指针" class="headerLink">
-    <a href="#this%e6%8c%87%e9%92%88" class="header-mark"></a>this指针</h2><p>C++编译先翻译成C时，Class变为Struct，因此需要多一个this指针指向函数作用的对象。因此可以返回对象自身。</p>
-<p>静态成员函数则不可使用this指针，因为其不具体作用于某个对象。</p>
-<h2 id="静态成员变量" class="headerLink">
-    <a href="#%e9%9d%99%e6%80%81%e6%88%90%e5%91%98%e5%8f%98%e9%87%8f" class="header-mark"></a>静态成员变量</h2><p>静态成员为所有对象共享，总共就一份。sizeof()计算对象时不会计算其static成员变量。</p>
-<p>访问方式。需要在定义类的文件中单独进行声明或初始化！</p>
-<p>静态成员<strong>函数</strong>还可以直接通过整个类进行调用。</p>
-<p>本质是全局变量，只是放在类中。例：方体类的实例总数。</p>
-<p>⬆️缺陷，若实例对象是复制构造生成的，Total会有遗漏，特别是临时对象消亡时还会调用析构函数，因此需要单独写一个复制构造函数。</p>
-<p>静态成员<strong>函数</strong>不能调用非静态的成员变量或函数。</p>
-<h2 id="成员对象和封闭类" class="headerLink">
-    <a href="#%e6%88%90%e5%91%98%e5%af%b9%e8%b1%a1%e5%92%8c%e5%b0%81%e9%97%ad%e7%b1%bb" class="header-mark"></a>成员对象和封闭类</h2><p>Class中有成员变量为其他Class类型，即称其为成员对象。例如Class Car下有成员变量Engine，属于Engine类。</p>
-<p>初始化列表：构造函数后直接赋值。</p>
-<p>先执行封闭类下所有对象成员构造函数，再执行封闭类构造函数；析构时顺序相反。</p>
-<h2 id="友元" class="headerLink">
-    <a href="#%e5%8f%8b%e5%85%83" class="header-mark"></a>友元</h2><p>友元类，关系不能传递和继承。</p>
-<h2 id="运算符重载" class="headerLink">
-    <a href="#%e8%bf%90%e7%ae%97%e7%ac%a6%e9%87%8d%e8%bd%bd" class="header-mark"></a>运算符重载</h2><p>根据参数数目决定重载为成员函数或普通函数</p>
-<p>赋值运算符的重载：以string为例，需要防止指向同一块内存。</p>
-<p>此时返回对象需要引用，如<code>String&amp;</code>：应当保留运算符原本特性，使得允许a=b=c和(a=b)=c.</p>
-<p>还需要防止s=s.</p>
-<p>还需要为其写单独的复制构造函数。</p>
-<p>若声明时直接赋值，属于调用构造函数。</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>智云课堂回放 <a href="https://classroom.zju.edu.cn/coursedetail?course_id=50910&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">https://classroom.zju.edu.cn/coursedetail?course_id=50910&tenant_code=112</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
-</item><item>
-    <title>政治经济学</title>
+    <title>现代化的代价</title>
     <link>https://blog.ralvines.top/zzjjx/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/zzjjx/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piA8qxO.png" referrerpolicy="no-referrer">
-            </div><h2 id="思考题-1" class="headerLink">
-    <a href="#%e6%80%9d%e8%80%83%e9%a2%98-1" class="header-mark"></a>思考题 1</h2>
-
-    <div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>选题<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">制度创新与中国式现代化。</div>
-        </div>
-    </div>
-
-    
-<p>从卸下旧社会三座大山到迈向现代化强国建设新征程，中国在站起来、富起来、强起来的历史脉络中找到了一条自主适定、以制度创新一以贯之的独特现代化道路，以思想理念引领，并从其战略与战术中分别派生完备架构与动态规制的实践，宣告了历史终结论和西方单线路径依赖史观的破产。</p>
-<p>战略上<strong>知行交互</strong>。始终以理论指引实践，实事求是，统筹人文地理、阶层产业等规模和结构的特有国情，在社会主义原则下顺应先进生产力方向，通过顶层设计明晰目标，把握民族复兴国家富强的总体方向，规范了现代化的中心任务、原则和本质要求。此外，以实践导向反馈理论创新，在改革试验和制度化积累的循环中，逐渐建构起从粗放到集约、创新协调绿色开放共享的现代化发展模式，服务于最广大人民根本利益，在各个阶段锚定顺应现实规律的着力点。</p>
-<p>战术上<strong>要素协同</strong>。完善各领域联系，将现代化贯穿于五位一体布局之中，让生产方式的广义主体相适配，注重有效市场和有为政府、城市群拓与乡村振兴、执政党和政府、公有经济与私有资本等要素的权衡和配合，在执政党总揽全局、协调各方的宏观尺度下，以政府报告、五年规划等常态规划推动策略创新，如在节奏快、容错强的领域引入社会资本，合理使用金融工具在适度的贫富差距下分配各主体在生产中的地位，以共同富裕和国际竞争旨归推动结构性改革，拉动制造产业等供给端升级，带动需求端的扩张，统筹国内循环和同国际双循环的协同发展。</p>
-<p>空间上，<strong>架构完备</strong>是根本。中国式现代化有效发挥一切积极因素，实践探索和制度化相得益彰，打通了规划、执行、监督的链路。既覆盖农业工业服务业三大产业和政府企业两大主体，统筹地区、城乡、收入差异，又践行全过程人民民主和协商民主，团结各阶层有序参与建设，使生产力和生产关系、经济基础和上层建筑的基本矛盾在战略战术的迭代中更加系统完备。同上述规划环节的科学民主性对偶，地区试点和举国体制的交织、央地人事财各类权力的分工，则构成了中国式现代化高效执行力和创新力的根基。</p>
-<p>时间上，<strong>规策动态</strong>是保障。从韬光养晦到奋发有为、双轨制到市场决定资源配置、从自立自主到融入国际，从以农哺工到乡村振兴，在大时代的振荡中，中国式现代化下的内政外交、政治经济方方面面都围绕着主要矛盾和国际情势，抓住机遇，保持历史主动，因势而动、顺势而为，不断推进方针与制度的革新，打破路径依赖，换道超车，审视未来。</p>
-<p>总之，中国式现代化是社会主义性质、具有中国特色的现代化，摒弃了西方物质与资本导向、两极分化、对外扩张的老路，科学而富有活力。</p>
-<p style="text-align:right">（984字）</p>
-<h2 id="思考题-26" class="headerLink">
-    <a href="#%e6%80%9d%e8%80%83%e9%a2%98-26" class="header-mark"></a>思考题 2<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
-
-    <div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>选题<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">从劳动分工和异化劳动等视角，探究“大国大城”论与“美丽乡村”论之间的辩证统一关系。</div>
-        </div>
-    </div>
-
-    
-<p>“大国大城”论与“美丽乡村”论映射出了社会经济发展之于二元的城市和乡村取向模式的路径差异。前者渴望通过规模扩张与分工细化获得更优效率收益，后者考量劳动异化和剩余价值，指出乡村百业兴旺模式以效率代价兼顾劳动者的公平。</p>
-<p>发展大城市和乡村振兴在形式上<strong>存在对立</strong>。城市化意味着生产资料的集中化，人才积聚、资本汇集建构起庞大规模且高度分工协作的产业网络。然而，在市场决定资源配置和私有制资本普遍存在的当代，社会生产过程是产生使用价值的劳动过程和派生剩余价值的价值增殖过程的统一，劳动创造价值，但剩余价值往往被占据支配地位者褫夺。高度社会分工下，规模且系统的工作被分解为简单的流程，个体沦为重复工作的机器，而生产的社会化和所有制的私有进一步割裂了劳动者与它的劳动成果，后者被货币化统一衡量、以商品形式在市场上高速流通，个体的价值被矮化为一套单一维度标准体系下的投入与产出过程，劳动者变为可被交易的生产要素。分工严重阻碍了人的自由全面发展，作为集体的城市得到了更高的收益，但作为个体的劳动者却缺省了应有的公平。</p>
-<p>作为多体系统的乡村是我国粮食安全和国民经济发展的压舱石。以农业为基础的乡村百业虽然参与同城市的商品流通和社会化生产，但因其自然条件和所有制结构表征出相对独立的样态。相对分散的土地、资本和人口使农民大多自有生产要素和居住空间，从农林牧副渔五业并举到旅游等新兴产业的蓬勃交融并不改变乡村分散生产模式和农民为自己打工的生产关系，但这种颇具自给自足小农经济色彩的低分工模式也不可避免的牺牲了一定的效率。</p>
-<p>两种路径的执理内核在于对于社会发展中效率与公平、短期与长期效益的分歧。现代化建设应当统筹兼顾做大蛋糕和分好蛋糕，国家经济社会的发展也离不开时间尺度下的利弊权衡。</p>
-<p>发展大城市和乡村振兴在现代化进程中又是<strong>统一</strong>的。城乡区别本质上是经济基础即生产力和生产关系上的差异，表现为形式上的二元和载体的内生一致性。形式上，城乡具有相对独立的产业经济体系，然而同时，它们又是置于全国经济格局下相互联系的地域主体。</p>
-<p>城乡融合是乡村振兴和城市化的耦合。通过城乡要素自由流动，引导三类产业深度融合，带动乡村产业振兴，规模工业和资本密集型的高新产业则为城市赋以更佳的效能，辅以城乡居民基本权益与服务均等化，乡村为产业资本集中的城市工业提供产能和劳动力过剩危机的“软着陆”蓄水池，城市则为乡村提供更强的三产流动性和工业品，从而实现城市的短期效率与乡村的长期公平的优势互补、共同繁荣。</p>
-<p style="text-align:right">（996字）</p>
-<h2 id="读书报告" class="headerLink">
-    <a href="#%e8%af%bb%e4%b9%a6%e6%8a%a5%e5%91%8a" class="header-mark"></a>读书报告</h2><center><b>现代化的代价</b></center>
-<center><b>——《八次危机》读书报告</b></center>
-<blockquote>
+            </div><h2 id="现代化的代价" class="headerLink">
+    <a href="#%e7%8e%b0%e4%bb%a3%e5%8c%96%e7%9a%84%e4%bb%a3%e4%bb%b7" class="header-mark"></a>现代化的代价</h2><blockquote>
 <p>“两个互不否定”的历史见证了中国经济举世瞩目的成就。那么，代价是什么呢？</p>
 </blockquote>
 <p>作为在“三农”领域深耕多年的乡建派学者，温铁军教授的《八次危机》一书深刻阐释了新中国经济社会发展的辉煌成果背后，所经历的八次“经济危机”，同时探讨了乡村对缓冲共和国工业化进程中多次危机的重要贡献。本书还剖析了宏观微观双重视角下的中国式现代化历程，提出了成本转嫁论，即城乡二元结构体制下的“三农”承载着城市资本危机的“软着陆”代价。</p>
@@ -904,13 +36,13 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <p>回望当下，随着对外开放的进一步深入和金融资本同经济社会更深层的嵌合，为了防范化解重大危机，实现可持续发展，解决好“三农”问题成为时代的新命题。新世纪以来，资本相较于产业不断过剩，旧的经济发展主义向更为绿色、科学的精细化模式转变。进入免除了农业税的“后税费时代”，农业人口结构的老龄化所引发的劳动力稀缺危机弱化了农村的社会调节功能，如何以生态文明建设引领农村新型工业化和城镇化，将山水资源以货币形式自我资本化，将广袤农村的自然要素锚定于更具流通性的价值度量，推动城乡产业融合发展、促进商品流通和农村内需延扩，都是更为实质性的问题。而在知识阶层再一次渐趋过剩的今天，除了城市服务业蓄水池之外，如何进一步发挥好农村在解决产能和劳动力匹配性问题的作用，也是令人值得深思的问题。</p>
 <h2 id="横向叙事与资本主义符号幻觉" class="headerLink">
     <a href="#%e6%a8%aa%e5%90%91%e5%8f%99%e4%ba%8b%e4%b8%8e%e8%b5%84%e6%9c%ac%e4%b8%bb%e4%b9%89%e7%ac%a6%e5%8f%b7%e5%b9%bb%e8%a7%89" class="header-mark"></a>横向叙事与资本主义符号幻觉</h2><h3 id="资本主义存续的逻辑" class="headerLink">
-    <a href="#%e8%b5%84%e6%9c%ac%e4%b8%bb%e4%b9%89%e5%ad%98%e7%bb%ad%e7%9a%84%e9%80%bb%e8%be%91" class="header-mark"></a>资本主义存续的逻辑</h3><p>自工业革命以降，以雇佣劳动为基础的资本主义生产方式通过技术革新和市场扩张，推动了生产力的跃迁式进步，然而，生产社会化与生产资料私有制之间的固有矛盾使得以剥削为本质的资本主义阶级社会不断震荡于贫富分化、生产过剩的复合危机。不同于封建社会，在其本身无法容纳的新经济基础还未出现前，经历了从自由到国家垄断阶段的资本主义统治机器为了消弭资产阶级和无产阶级的内在矛盾，<font color=red><b>建构了一系列旨在分化无产阶级的横向叙事与实现隐性奴役的精巧符号机制</b></font><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，本文试图揭露当代资本主义以放大人民内部矛盾方式维护其合法性和稳定性的原因和具体手段，以批判其压迫本质。</p>
-<p>作为一种基于商品生产和货币交换的异化社会形态，资本主义的寄生于被广泛标的的一切价值客体之中。人既以劳动力形式被出卖，又沦为再生产环节的消费奴隶，从而矮化为资本增殖的直接手段，即便是掌握生产资料的资产阶级，也不过是资本的人格化主体。<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>于是，资本主义结构性地运作于私有制基础上的两大基本阶级与社会再生产在形式与内容上的耦合过程，<font color=red><b>实现资本增殖和调和阶级矛盾便成为其存续的现实张力，前者是目的，后者则是手段的总和。</b></font></p>
+    <a href="#%e8%b5%84%e6%9c%ac%e4%b8%bb%e4%b9%89%e5%ad%98%e7%bb%ad%e7%9a%84%e9%80%bb%e8%be%91" class="header-mark"></a>资本主义存续的逻辑</h3><p>自工业革命以降，以雇佣劳动为基础的资本主义生产方式通过技术革新和市场扩张，推动了生产力的跃迁式进步，然而，生产社会化与生产资料私有制之间的固有矛盾使得以剥削为本质的资本主义阶级社会不断震荡于贫富分化、生产过剩的复合危机。不同于封建社会，在其本身无法容纳的新经济基础还未出现前，经历了从自由到国家垄断阶段的资本主义统治机器为了消弭资产阶级和无产阶级的内在矛盾，<font color=red><b>建构了一系列旨在分化无产阶级的横向叙事与实现隐性奴役的精巧符号机制</b></font><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，本文试图揭露当代资本主义以放大人民内部矛盾方式维护其合法性和稳定性的原因和具体手段，以批判其压迫本质。</p>
+<p>作为一种基于商品生产和货币交换的异化社会形态，资本主义的寄生于被广泛标的的一切价值客体之中。人既以劳动力形式被出卖，又沦为再生产环节的消费奴隶，从而矮化为资本增殖的直接手段，即便是掌握生产资料的资产阶级，也不过是资本的人格化主体。<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>于是，资本主义结构性地运作于私有制基础上的两大基本阶级与社会再生产在形式与内容上的耦合过程，<font color=red><b>实现资本增殖和调和阶级矛盾便成为其存续的现实张力，前者是目的，后者则是手段的总和。</b></font></p>
 <h3 id="合法性建构" class="headerLink">
-    <a href="#%e5%90%88%e6%b3%95%e6%80%a7%e5%bb%ba%e6%9e%84" class="header-mark"></a>合法性建构</h3><p>实现自身增殖是资本的天然使命。<sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>社会化生产下，资产阶级通过生产资料资本化后的周期性运作，不仅需要通过剥削无产阶级以获得剩余价值，也要求大量的无产阶级作为消费者参与到被资本广泛度量的商品的价值实现过程中去，因此资本主义制度不仅派生了受压迫的潜在掘墓人，也源源不断地筛取了劳动力这一社会再生产中无可替代的燃料，从而最大限度的榨取了剩余价值，奠基了资本主义的规模与效率导向。</p>
-<p>为了合理化资本主义的剥削机制、维护统治，资产阶级在深层逻辑上建构起一套以自洽的叙事，<font color=red><b>即在物质层面以商品经济和消费社会为载体的行为准则限定被统治阶级的作用范畴，同时在思想上编织一套以分化无产阶级为手段的叙事话语。</b></font>以消费为标志的符号社会<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>为叙事的完备性提供了客观基础，而性别、地域矛盾的转嫁又更好地标签化这些消费的主体，进一步加深了资本主义再生产的坚实基础。</p>
+    <a href="#%e5%90%88%e6%b3%95%e6%80%a7%e5%bb%ba%e6%9e%84" class="header-mark"></a>合法性建构</h3><p>实现自身增殖是资本的天然使命。<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>社会化生产下，资产阶级通过生产资料资本化后的周期性运作，不仅需要通过剥削无产阶级以获得剩余价值，也要求大量的无产阶级作为消费者参与到被资本广泛度量的商品的价值实现过程中去，因此资本主义制度不仅派生了受压迫的潜在掘墓人，也源源不断地筛取了劳动力这一社会再生产中无可替代的燃料，从而最大限度的榨取了剩余价值，奠基了资本主义的规模与效率导向。</p>
+<p>为了合理化资本主义的剥削机制、维护统治，资产阶级在深层逻辑上建构起一套以自洽的叙事，<font color=red><b>即在物质层面以商品经济和消费社会为载体的行为准则限定被统治阶级的作用范畴，同时在思想上编织一套以分化无产阶级为手段的叙事话语。</b></font>以消费为标志的符号社会<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>为叙事的完备性提供了客观基础，而性别、地域矛盾的转嫁又更好地标签化这些消费的主体，进一步加深了资本主义再生产的坚实基础。</p>
 <h4 id="符号崇拜" class="headerLink">
-    <a href="#%e7%ac%a6%e5%8f%b7%e5%b4%87%e6%8b%9c" class="header-mark"></a>符号崇拜</h4><p>基于工业化、市场化的资本主义现代化路径，资本将物质度量为可供交易的消费品，而商品符号<sup id="fnref2:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>在资本规则的集体叙事下约束了使用者的行为，将无产阶级也置于一套无法脱离的生产生活体系之中，人性的自然需求被嫁接于社会性的消费浪潮之内，而交易本身隐去了资本主义的结构本质，物质的欲望反而成为了他们辩护资本主义生产方式的内驱动力，由此，阶级的对立被掩盖，表象的价值均衡与实在的利益剥削在后者的集体意识形态中得以错置。</p>
+    <a href="#%e7%ac%a6%e5%8f%b7%e5%b4%87%e6%8b%9c" class="header-mark"></a>符号崇拜</h4><p>基于工业化、市场化的资本主义现代化路径，资本将物质度量为可供交易的消费品，而商品符号<sup id="fnref2:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>在资本规则的集体叙事下约束了使用者的行为，将无产阶级也置于一套无法脱离的生产生活体系之中，人性的自然需求被嫁接于社会性的消费浪潮之内，而交易本身隐去了资本主义的结构本质，物质的欲望反而成为了他们辩护资本主义生产方式的内驱动力，由此，阶级的对立被掩盖，表象的价值均衡与实在的利益剥削在后者的集体意识形态中得以错置。</p>
 <p>资本主义的生产模式决定了商品化社会下，人作为劳动力被卷入庞大的生产结构之中沦为消耗品，同时，资本在社会化生产的循环链路中不断通过对劳动者的剥削和商品价值增殖的过程来构建起利益的势垒。<font color=red><b>在消费社会中，需求侧铺展为更为精细的标签画像，性别、地域乃至年龄、偏好都服务于消费本身，个体的反抗在博取他人认同和辨识的消费中转化为心理层面的满足感，我们消费的并不再是物的单一使用价值，而是通过消费体现社会地位与身份的认同，从而无形地消解了资本主义体制下社会再生产中统治阶级的褫夺原罪，而参与其中的无产阶级在集体无意识中为资本主义生产―利润体系的高效运转和规模扩大贡献了正向力量，因此消费作为符号意义体系结构，是现代资本主义社会合法性的根据。</b></font></p>
 <p>另一方面，消费主义又利用了性别等领域的对立。性别化消费将商品赋予性别气质，建立身份标签和消费的主观联系，将消费行为注入了性别化符号的价值，实现了资本更为隐性的增殖。</p>
 <h4 id="叙事的艺术" class="headerLink">
@@ -918,47 +50,43 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <p>鉴于资本主义制度本身所解放的生产力和带动的科技进步普遍性地提高了社会群体的文化水平，诉求多元化既成为资产阶级的重大威胁，也恰好为利益团体和边缘群体的割裂提供了社会基础。<font color=red><b>价值的解释权作为资产阶级剥削剩余价值的衍生成果，提供了软暴力叙事的支撑。</b></font>相较于马克思笔下强调人的解放和价值肯定的共产主义理想社会，资本主义则恰恰以异化劳动的方式将人赋以高度社会分工体系下更为机械的存在。人们的工作成为换取商品的任务，劳动被流水线式的生产进一步单维化，在维持生计、满足物欲的静观生活方式中，资本主义秩序在事实上消解了人的价值，人沦为了商品的买家和生产的资源，于是为身份政治等人民内部矛盾创造了意识缺口。</p>
 <h3 id="稳定性维系" class="headerLink">
     <a href="#%e7%a8%b3%e5%ae%9a%e6%80%a7%e7%bb%b4%e7%b3%bb" class="header-mark"></a>稳定性维系</h3><h4 id="议程的垄断" class="headerLink">
-    <a href="#%e8%ae%ae%e7%a8%8b%e7%9a%84%e5%9e%84%e6%96%ad" class="header-mark"></a>议程的垄断</h4><p>如果说资产阶级实现前述目标的核心权力是传播议程的设定，那么后续一系列标签的塑造则是议程控制的现实表现。压制民众躁动，首先要削弱工人的阶级意识，以“新闻自由”之名实现资本对舆论操纵的自由，从而在实际上剥夺了民众知情的自由；<font color=red><b>以话语权力的收敛将焦点从阶级斗争转移，重塑人们的价值观和矛盾指向的对象，从而将纵向的阶级矛盾迁移为横向的身份矛盾，生产力与生产关系、经济基础与上层建筑的基本矛盾由此蒙上了面纱。</b></font><sup id="fnref2:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+    <a href="#%e8%ae%ae%e7%a8%8b%e7%9a%84%e5%9e%84%e6%96%ad" class="header-mark"></a>议程的垄断</h4><p>如果说资产阶级实现前述目标的核心权力是传播议程的设定，那么后续一系列标签的塑造则是议程控制的现实表现。压制民众躁动，首先要削弱工人的阶级意识，以“新闻自由”之名实现资本对舆论操纵的自由，从而在实际上剥夺了民众知情的自由；<font color=red><b>以话语权力的收敛将焦点从阶级斗争转移，重塑人们的价值观和矛盾指向的对象，从而将纵向的阶级矛盾迁移为横向的身份矛盾，生产力与生产关系、经济基础与上层建筑的基本矛盾由此蒙上了面纱。</b></font><sup id="fnref2:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>随着金融资本的发展，资本主义统治依托资本符号的形式自由和契约关系实现了更优的形式隐蔽性，金融资本攫取了相当可观的、依赖于历史建构的文化权力，为维系稳定性的手段披上了合法的外衣和真理性的背书。</p>
 <h4 id="结构性规训" class="headerLink">
-    <a href="#%e7%bb%93%e6%9e%84%e6%80%a7%e8%a7%84%e8%ae%ad" class="header-mark"></a>结构性规训</h4><p><font color=red><b>通过制造地域矛盾、性别矛盾、族裔和宗教差异以及宣传媒体控制等手段，资产阶级得以削弱人民的团结力量，使人们更关心个人利益和短期满足，忽视阶级斗争和资本对劳动的剥削。通过这些结构性的规训手段，资本主义下的生产关系被装裱为无主体的权力关系，于是消解了经济基础的决定作用，把社会斗争形式分解为多元且离散的要素和碎片化的叙事。</b></font><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>人们的注意力刻画于微观个体的生存状态，英雄史观代替了人民史观，也便有意地孤立了阶级的使命。在资产阶级媒介的宣教下，这些身份标签意义下的个体不再是社会生产关系意义上的个体，也就剥离了马克思关于“人是一切社会关系的总和”<sup id="fnref3:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>的本质。进而，无产阶级在抽象个体的论调中，从原本革命主体力量的地位坠为被排除在社会主体结构之外的边缘存在。</p>
+    <a href="#%e7%bb%93%e6%9e%84%e6%80%a7%e8%a7%84%e8%ae%ad" class="header-mark"></a>结构性规训</h4><p><font color=red><b>通过制造地域矛盾、性别矛盾、族裔和宗教差异以及宣传媒体控制等手段，资产阶级得以削弱人民的团结力量，使人们更关心个人利益和短期满足，忽视阶级斗争和资本对劳动的剥削。通过这些结构性的规训手段，资本主义下的生产关系被装裱为无主体的权力关系，于是消解了经济基础的决定作用，把社会斗争形式分解为多元且离散的要素和碎片化的叙事。</b></font><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>人们的注意力刻画于微观个体的生存状态，英雄史观代替了人民史观，也便有意地孤立了阶级的使命。在资产阶级媒介的宣教下，这些身份标签意义下的个体不再是社会生产关系意义上的个体，也就剥离了马克思关于“人是一切社会关系的总和”<sup id="fnref3:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>的本质。进而，无产阶级在抽象个体的论调中，从原本革命主体力量的地位坠为被排除在社会主体结构之外的边缘存在。</p>
 <h4 id="身份政治神话" class="headerLink">
     <a href="#%e8%ba%ab%e4%bb%bd%e6%94%bf%e6%b2%bb%e7%a5%9e%e8%af%9d" class="header-mark"></a>身份政治神话</h4><p><font color=red><b>当代资本主义话语体系下大肆宣扬的地域、性别等横向矛盾构建了一套温和的“种族隔离”机制，通过强化刻板印象和生理性差异，诱导群众相互攻讦、以个体的极化抹煞作为同为被资本主义制度系统性压迫的集体的团结可能性。</b></font></p>
-<p>不仅资产阶级在议题上制造割裂，资本主义生产体系本身也在提供分化的社会基础，企业中普遍存在的职业性别歧视和工资差异刻意放大了群体间的差异，而以西方发达资本主义国家代表性的以“宠坏”弱势、边缘群体的身份政治手段，则进一步迫使本就可怜的底层个体不得不趋附于多元文化主义叙事下的资本主义政治制度，成为意识自觉的现有体制维护者。<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>不仅资产阶级在议题上制造割裂，资本主义生产体系本身也在提供分化的社会基础，企业中普遍存在的职业性别歧视和工资差异刻意放大了群体间的差异，而以西方发达资本主义国家代表性的以“宠坏”弱势、边缘群体的身份政治手段，则进一步迫使本就可怜的底层个体不得不趋附于多元文化主义叙事下的资本主义政治制度，成为意识自觉的现有体制维护者。<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <p>性别议题原本是平权主义的分支，对女性权益的维护应当是消除传统桎梏尚未完全解体的性别歧视与刻板印象。然而，在资产阶级蛊惑下，性别标签所争论的群体特质，却恰恰潜移默化地成为扩大隔阂的帮凶。值得一提的是，从生物学上说，男女之间的基因演化最终是趋同的，男性与女性不同基因对其认知与行为模式差异的影响远远小于外在环境等因素。但资本主义性别叙事下的女权主义中将反抗精神塑造为一种“弱势者的群体皈依”，巧妙地忽视了话语权的分野并非存在于性别，使女本位和资本主义本身深度耦合，以性别压迫反抗逃避了阶级斗争，强化了压迫本身的土壤。事实上，当代妇女解放与女性意识的觉醒原本就是在后工业化时代，社会生产关系中的性别差异被机器的运用所逐渐抹平、女性大规模参与到现代生产活动之中的成果，如今身处在父权制与消费符号主义双重夹击的女性，在这样的引导下，攻讦男性却成为了她们唯一的出路。</p>
-<p><font color=red><b>身份政治表面上看似极具反抗力量，实际成为了与资本主义相当匹配的意识形态框架，即拥有实质地位的资产阶级可以通过舆论、选举、集体叙事的三位一体将阶级意识转变为政治权力交接中的横向议题，而掌握议题主动权的资产阶级则永远处于政治权力的舞台之上。</b></font><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p><font color=red><b>身份政治表面上看似极具反抗力量，实际成为了与资本主义相当匹配的意识形态框架，即拥有实质地位的资产阶级可以通过舆论、选举、集体叙事的三位一体将阶级意识转变为政治权力交接中的横向议题，而掌握议题主动权的资产阶级则永远处于政治权力的舞台之上。</b></font><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
 <h3 id="归宿" class="headerLink">
     <a href="#%e5%bd%92%e5%ae%bf" class="header-mark"></a>归宿</h3><p>资本主义身份叙事本质上是基于符号学将无产阶级分化瓦解的统治手段，根本目的是削弱其反抗的意识、掩盖阶级矛盾，以实现稳固统治。被割裂的人民群众不仅成为自相厮杀的棋子，也在内部对立中进一步在思想和物质基础上固化了资本主义制度。</p>
 <p>而建立在人民内部矛盾上的、文化斗争形式的身份政治运动无法触及资本主义私有制和剥削的本质，无法真正改变政治经济不平等的现实。然而，资本主义分化民众所催生的身份焦虑，恰恰引发了被统治群体的普遍极化。<font color=red><b>民众的撕裂虽然短期缓和了阶级上的矛盾，却进一步瓦解了资本主义政治体制存在的基础，反过来损害资本主义生产力的发展，最终必然迎来阶级意识的觉醒和资本主义被新生产关系取代的必然结局。</b></font></p>
-<p style="text-align:right">（3419字）</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>《去依附》温铁军&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>（法）让·鲍德里亚著；夏莹译. 符号政治经济学批判[M]. 南京：南京大学出版社, 2015.01.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>（法）让·鲍德里亚著；夏莹译. 符号政治经济学批判[M]. 南京：南京大学出版社, 2015.01.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>中共中央马克思恩格斯列宁斯大林著作编译局编译. 马克思恩格斯全集[M]. 北京：人民出版社, 2014.08.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p>中共中央马克思恩格斯列宁斯大林著作编译局编译. 马克思恩格斯全集[M]. 北京：人民出版社, 2014.08.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>（法）米歇尔·福柯（Michel Foucault）著；刘北成，杨远婴译. 规训与惩罚 监狱的诞生[M]. 北京：生活·读书·新知三联书店, 2003.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
-<p>（法）米歇尔·福柯（Michel Foucault）著；刘北成，杨远婴译. 规训与惩罚 监狱的诞生[M]. 北京：生活·读书·新知三联书店, 2003.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>南希.弗雷泽. 超越身份政治和政治正确：资本主义作为制度化的社会秩序.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:5">
-<p>南希.弗雷泽. 超越身份政治和政治正确：资本主义作为制度化的社会秩序.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:6">
-<p>宋朝龙.后现代主义身份政治的衰颓与新民粹主义的崛起[J].北京行政学院学报,2020(02):114-121.DOI:10.16365/j.cnki.11-4054/d.2020.02.014.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>宋朝龙.后现代主义身份政治的衰颓与新民粹主义的崛起[J].北京行政学院学报,2020(02):114-121.DOI:10.16365/j.cnki.11-4054/d.2020.02.014.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>
 </item><item>
     <title>数据结构与算法</title>
-    <link>https://blog.ralvines.top/shujujiegou/</link>
+    <link>https://blog.ralvines.top/dsa/</link>
     <pubDate>Wed, 01 Sep 2021 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/shujujiegou/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/dsa/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><h2 id="c-基础知识" class="headerLink">
@@ -1896,10 +1024,10 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 <p>总体来说，此种话语权的不匹配在现代社会下是在不断消解的。我比较认同平权问题用辩证唯物主义那套理论框架来阐释，当代妇女解放与女性意识的觉醒本身就是在后工业化时代，社会生产关系中的性别差异被机器的运用所逐渐抹平，女性大规模参与到现代生产活动之中的结果。</p>
 <p>男女的差异事实上主要仍然体现在基因等生理要素之上，当代很多性别不平等现象相较封建时代已经得到了很大的进步，相反，很多问题是文化惯性、历史遗留，这在生产力落后的农村和欠发达地区仍有呈现。我们知道即便是在原始社会也存在着母系社会，所谓的父权社会很大程度上是战争频繁的农耕时代男性由于生理上具有的体力优势的社会经济基础所衍生出的一套伦理体系。而这些差异已经被证明是能够随着科技进步而式微的，因此，对于“女性的悲剧结局能否避免”这一论题，我相信这将随着时代的发展获得肯定的答案。</p>]]></description>
 </item><item>
-    <title>史纲：解构苦难，建构辉煌</title>
-    <link>https://blog.ralvines.top/sg/</link>
+    <title>解构苦难，建构辉煌</title>
+    <link>https://blog.ralvines.top/knhh/</link>
     <pubDate>Sun, 10 Jan 2021 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sg/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/knhh/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAfKt1.png" referrerpolicy="no-referrer">
             </div><h2 id="旨归" class="headerLink">
@@ -1939,7 +1067,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 因而，如今身为后人的我们复鉴历史，须知解构苦难，才能建构辉煌。当筚路蓝缕的红军战士使光鲜体面的党国将领都不得不为之气折，他们历历在目的艰难险阻便散发出应有的光辉。与此同时，有太多太多的英雄在胜利的前夜倒下，他们无法触及的永恒目标，则是后辈最值得承续的伟大事业。</p>
 <p>最后，正如金一南先生感慨，机缘、时运、窍门从来不属于这个事业，只有依靠不屈不挠的坚韧、义无反顾的坚强、前仆后继的牺牲，我们才能在从革命、建设到改革的漫长征程中披荆斩棘，铸就辉煌。愿共勉！</p>]]></description>
 </item><item>
-    <title>理解马克思：工人、工会与资本家</title>
+    <title>效率与资本</title>
     <link>https://blog.ralvines.top/marx/</link>
     <pubDate>Sun, 01 Nov 2020 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/marx/</guid>

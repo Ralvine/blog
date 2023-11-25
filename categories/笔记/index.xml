@@ -5,9 +5,9 @@
         <description>笔记 - 分类 - 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/categories/%E7%AC%94%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
     <title>分类问题中的 k 近邻法</title>
-    <link>https://blog.ralvines.top/qianyan/</link>
+    <link>https://blog.ralvines.top/knn/</link>
     <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/knn/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/piuKE6K.png" referrerpolicy="no-referrer">
             </div><h2 id="分类问题1" class="headerLink">
@@ -491,7 +491,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ol>
 </div>]]></description>
 </item><item>
-    <title>SQL 强化</title>
+    <title>SQL 技术栈基本语法</title>
     <link>https://blog.ralvines.top/sql/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sql/</guid>
@@ -865,7 +865,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ol>
 </div>]]></description>
 </item><item>
-    <title>大数据理论与数据分析</title>
+    <title>大数据基本理论</title>
     <link>https://blog.ralvines.top/big-data/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/big-data/</guid>
@@ -1274,73 +1274,32 @@ Spark Streaming</li>
 <h3 id="数据透视表8" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e9%80%8f%e8%a7%86%e8%a1%a88" class="header-mark"></a>数据透视表<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h3><h2 id="可视化tableau9" class="headerLink">
     <a href="#%e5%8f%af%e8%a7%86%e5%8c%96tableau9" class="header-mark"></a>可视化：Tableau<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></h2><h3 id="常见问题10" class="headerLink">
-    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%9810" class="header-mark"></a>常见问题<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h3><div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>大数据基础 @知乎用户MuDbXQ <a href="https://zhuanlan.zhihu.com/p/84554633" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/84554633</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>大数据(big data)：基础概念 @刘博 <a href="https://zhuanlan.zhihu.com/p/33619503" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/33619503</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>一文给小白讲清数据治理 @POINT小数点数据 <a href="https://zhuanlan.zhihu.com/p/388520475" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/388520475</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p>什么是数据仓库？它和数据库的区别是什么？看这一篇就够了 @麦聪软件首席架构 <a href="https://zhuanlan.zhihu.com/p/433495465" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/433495465</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:5">
-<p>【基础】大数据技术栈介绍 @法映 <a href="https://zhuanlan.zhihu.com/p/138352849" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/138352849</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:6">
-<p>缺失值的处理（数学建模-数据预处理） @数学建模BOOM <a href="https://zhuanlan.zhihu.com/p/402497542" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/402497542</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:7">
-<p>Excel函数公式大全(图文详解) @真假斗士 <a href="https://zhuanlan.zhihu.com/p/436372294" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/436372294</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:8">
-<p>Excel基础操作 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:9">
-<p>Tableau数据可视化与仪表盘搭建 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:10">
-<p>Tableau常见面试题和答案合集：求职面试必备 <a href="https://www.lsbin.com/15371.html" target="_blank" rel="noopener noreferrer">https://www.lsbin.com/15371.html</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
-</item><item>
-    <title>数据仓库与治理</title>
-    <link>https://blog.ralvines.top/data-warehouse/</link>
-    <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
-            </div><h2 id="数仓建设规范3" class="headerLink">
-    <a href="#%e6%95%b0%e4%bb%93%e5%bb%ba%e8%ae%be%e8%a7%84%e8%8c%833" class="header-mark"></a>数仓建设规范<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="架构原则" class="headerLink">
+    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%9810" class="header-mark"></a>常见问题<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h3><h2 id="数仓建设规范13" class="headerLink">
+    <a href="#%e6%95%b0%e4%bb%93%e5%bb%ba%e8%ae%be%e8%a7%84%e8%8c%8313" class="header-mark"></a>数仓建设规范<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></h2><h3 id="架构原则" class="headerLink">
     <a href="#%e6%9e%b6%e6%9e%84%e5%8e%9f%e5%88%99" class="header-mark"></a>架构原则</h3><h4 id="数仓分层" class="headerLink">
     <a href="#%e6%95%b0%e4%bb%93%e5%88%86%e5%b1%82" class="header-mark"></a>数仓分层</h4><ol>
 <li>ODS 源</li>
-<li>DW 明细 建模
+<li>DW 明细 建模</li>
+</ol>
 <ul>
 <li>DWD (Detail) 清理 规范化</li>
 <li>DWM (Middle) 聚合 中间表</li>
 <li>DWS (Service) 汇总 主题域服务数据 宽表（字段多）</li>
 </ul>
-</li>
+<ol start="3">
 <li>DM 轻汇总</li>
-<li>APP 应用
+<li>APP 应用</li>
+</ol>
 <ul>
 <li>数据产品 数据分析 报表</li>
 </ul>
-</li>
-<li>维表层
+<ol start="5">
+<li>维表层</li>
+</ol>
 <ul>
 <li>高基数：资料表 数据量大</li>
 <li>低基数：配置表</li>
 </ul>
-</li>
-</ol>
 <h4 id="主题域划分" class="headerLink">
     <a href="#%e4%b8%bb%e9%a2%98%e5%9f%9f%e5%88%92%e5%88%86" class="header-mark"></a>主题域划分</h4><pre class="mermaid">graph LR;
     A[系统A] --> B(业务过程A)
@@ -1361,7 +1320,7 @@ Spark Streaming</li>
 </li>
 </ul>
 <h4 id="数据模型设计" class="headerLink">
-    <a href="#%e6%95%b0%e6%8d%ae%e6%a8%a1%e5%9e%8b%e8%ae%be%e8%ae%a1" class="header-mark"></a>数据模型设计</h4><p>普通全量表<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+    <a href="#%e6%95%b0%e6%8d%ae%e6%a8%a1%e5%9e%8b%e8%ae%be%e8%ae%a1" class="header-mark"></a>数据模型设计</h4><p>普通全量表<sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <h3 id="模型" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b" class="header-mark"></a>模型</h3><ol>
 <li>星型模型：事实表+维度表</li>
@@ -1379,242 +1338,59 @@ Spark Streaming</li>
 <li>大小倾斜：部分记录大小过大</li>
 </ul>
 <h2 id="hadoop" class="headerLink">
-    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓12" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%9312" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2><div class="footnotes" role="doc-endnotes">
+    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓1112" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931112" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup><sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup></h2><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>最强最全面的数仓建设规范指南 @五分钟学大数据 <a href="https://yuanmore.blog.csdn.net/article/details/121265222" target="_blank" rel="noopener noreferrer">https://yuanmore.blog.csdn.net/article/details/121265222</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>大数据基础 @知乎用户MuDbXQ <a href="https://zhuanlan.zhihu.com/p/84554633" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/84554633</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>生命周期管理矩阵 <a href="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png" target="_blank" rel="noopener noreferrer">https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>大数据(big data)：基础概念 @刘博 <a href="https://zhuanlan.zhihu.com/p/33619503" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/33619503</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>一文给小白讲清数据治理 @POINT小数点数据 <a href="https://zhuanlan.zhihu.com/p/388520475" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/388520475</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
-<p>尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 <a href="https://zhuanlan.zhihu.com/p/647035072" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/647035072</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>什么是数据仓库？它和数据库的区别是什么？看这一篇就够了 @麦聪软件首席架构 <a href="https://zhuanlan.zhihu.com/p/433495465" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/433495465</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>【基础】大数据技术栈介绍 @法映 <a href="https://zhuanlan.zhihu.com/p/138352849" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/138352849</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>缺失值的处理（数学建模-数据预处理） @数学建模BOOM <a href="https://zhuanlan.zhihu.com/p/402497542" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/402497542</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Excel函数公式大全(图文详解) @真假斗士 <a href="https://zhuanlan.zhihu.com/p/436372294" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/436372294</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Excel基础操作 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Tableau数据可视化与仪表盘搭建 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Tableau常见面试题和答案合集：求职面试必备 <a href="https://www.lsbin.com/15371.html" target="_blank" rel="noopener noreferrer">https://www.lsbin.com/15371.html</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>最强最全面的数仓建设规范指南 @五分钟学大数据 <a href="https://yuanmore.blog.csdn.net/article/details/121265222" target="_blank" rel="noopener noreferrer">https://yuanmore.blog.csdn.net/article/details/121265222</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 <a href="https://zhuanlan.zhihu.com/p/647035072" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/647035072</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>
 </item><item>
-    <title>政治经济学导论</title>
-    <link>https://blog.ralvines.top/zzjjxdl/</link>
+    <title>符号权力的三十年</title>
+    <link>https://blog.ralvines.top/capital/</link>
     <pubDate>Sat, 29 Apr 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/zzjjxdl/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/capital/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGKJ0.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 经济学院<br>
-🕙 2022-2023 夏<br>
-🧑‍🏫 俞彬<br>
-📝 40%平时（两次问卷调查），60%论文</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>PPT（导论）
-<ul>
-<li>Lecture1</li>
-<li>Lecture2</li>
-<li>Lecture3</li>
-<li>Lecture4</li>
-<li>Lecture5</li>
-<li>Lecture6</li>
-</ul>
-</li>
-<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=47818&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="lecture1" class="headerLink">
-    <a href="#lecture1" class="header-mark"></a>Lecture1.</h2><blockquote>
-<p>夏一周</p>
-</blockquote>
-<ul>
-<li>客观/主观价值论（信用、劳动）</li>
-<li>货币
-<ul>
-<li>明朝货币（农业、税收）</li>
-<li>俄乌战争、汇率（资源）</li>
-<li>美元（资产、国债，农产品、石油、高新制造）</li>
-<li>长征、抗币（与盐、农产品的锚定）</li>
-<li>国民党法币（铸币税）</li>
-<li>人民币国际化（工业门类）</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture2" class="headerLink">
-    <a href="#lecture2" class="header-mark"></a>Lecture2.</h2><blockquote>
-<p>夏三周（引用政治经济学春二周的内容，基本一致）</p>
-</blockquote>
-<ul>
-<li>货币
-<ul>
-<li>螃蟹战略、石油美元，结算系统 SWIFT -&gt; 中国</li>
-<li>数字人民币（DCEP） 1.0 -&gt; 2.0（移动支付）-&gt; 3.0，DC、EP</li>
-<li>大明宝钞、民国法币/金圆券、美元/港币（联系汇率制）、人民币，锚定资产 &lt;-&gt; 负债</li>
-<li>货币：农业（耕地红线）、制造业（完整工业体系）、资产（清洁能源）、文明</li>
-<li>核心：劳动价值论、历史唯物主义</li>
-</ul>
-</li>
-<li>阶级和生产关系的变革
-<ul>
-<li>商鞅变法：废井田（王有） -&gt; 私有、买卖</li>
-<li>江南豪强 -&gt; 科举 -&gt; 资本文官（户部官员不让浙江人担任、万里国本之争）</li>
-<li>明朝
-<ul>
-<li>土地兼并：对农民生产资料的剥夺</li>
-<li>三大阶级、民众鼓噪
-<ul>
-<li>封建官僚、资本官僚、民众</li>
-<li>《显微镜的大明》</li>
-</ul>
-</li>
-<li>失败：资产阶级的软弱性</li>
-</ul>
-</li>
-<li>国富论关于三大阶级论述
-<ul>
-<li>地主、工资生活的阶级、靠利润生活的阶级</li>
-</ul>
-</li>
-<li>资本主义生产关系出现的两个条件
-<ul>
-<li>失去生产资料、人身自由</li>
-<li>少数人的货币积累</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>价值和资本
-<ul>
-<li>特殊商品：劳动力，必要劳动时间和剩余劳动时间</li>
-<li>价值与剩余价值（两种形式：绝对/相对）</li>
-<li>不变资本与可变资本，资本（完成价值增殖的钱）</li>
-<li>资本主义制度的工资本质（计时/计件，后者剥削更隐蔽）</li>
-<li>高强度长时间工作和高工资的因果关系</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture3" class="headerLink">
-    <a href="#lecture3" class="header-mark"></a>Lecture3.</h2><blockquote>
-<p>夏四周</p>
-</blockquote>
-<ul>
-<li>中国资本主义黄金时代
-<ul>
-<li>买办</li>
-<li>资产阶级的矛盾诉求</li>
-<li>自由资本主义到垄断资本主义</li>
-</ul>
-</li>
-<li>剩余价值学说
-<ul>
-<li>商品化的劳动力：价值和使用价值</li>
-<li>资本主义生产过程：劳动+价值增殖</li>
-<li>流通领域的劳动力和商品买卖和非流通领域的价值增殖（剥削）</li>
-<li>企业亏本：私人劳动转换为社会劳动</li>
-<li>私有化和苏联解体</li>
-<li>两种形式：绝对、相对</li>
-<li>工资本质和形式：计时、计件</li>
-</ul>
-</li>
-<li>一些实例
-<ul>
-<li>湖畔大学和滴滴打车</li>
-<li>流量的政治经济学解释
-<ul>
-<li>消费主义</li>
-<li>标签化和群体割裂</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture4" class="headerLink">
-    <a href="#lecture4" class="header-mark"></a>Lecture4.</h2><blockquote>
-<p>夏五周</p>
-</blockquote>
-<ul>
-<li>历史虚无主义、解构</li>
-<li>剩余价值、利润转化
-<ul>
-<li>不变资本、可变资本</li>
-<li>平均利润率</li>
-<li>价值、价格转化</li>
-</ul>
-</li>
-<li>产业资本、商业资本</li>
-<li>借贷资本、银行资本
-<ul>
-<li>三家私有银行</li>
-</ul>
-</li>
-<li>股份制、“资本民主化”
-<ul>
-<li>股民不是资产阶级</li>
-<li>白领、自由职业、微企业</li>
-<li>大企业对中小企业的剥削</li>
-</ul>
-</li>
-<li>生产关系与上层建筑
-<ul>
-<li>日本财阀</li>
-<li>特朗普、资本全球主义和经济民族主义</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture5" class="headerLink">
-    <a href="#lecture5" class="header-mark"></a>Lecture5.</h2><blockquote>
-<p>夏六周</p>
-</blockquote>
-<ul>
-<li>资本主义再生产
-<ul>
-<li>资本积累</li>
-<li>二十年代美国</li>
-</ul>
-</li>
-<li>两极分化、二八定律</li>
-<li>平台、监视资本主义
-<ul>
-<li>数据监管</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture6" class="headerLink">
-    <a href="#lecture6" class="header-mark"></a>Lecture6.</h2><blockquote>
-<p>夏七周</p>
-</blockquote>
-<ul>
-<li>人工智能时代的私有制剥削</li>
-<li>费米悖论、人类的未来</li>
-<li>周期性金融危机</li>
-<li>发达资本主义国家的全国掠夺和剥削</li>
-</ul>
-<h2 id="lecture7" class="headerLink">
-    <a href="#lecture7" class="header-mark"></a>Lecture7.</h2><blockquote>
-<p>夏八周</p>
-</blockquote>
-<h2 id="期末论文" class="headerLink">
-    <a href="#%e6%9c%9f%e6%9c%ab%e8%ae%ba%e6%96%87" class="header-mark"></a>期末论文</h2><p><em>（课程约定）</em></p>
-<p>这是资本无序扩张的第三十年，与泡沫般飞涨的资本主义繁荣神话相伴的是，工业化和市场化浪潮下生产资料的结构性错配在其让渡于资本权力的进程中精妙地编织起一套无处挣脱的生产方式和叙事体系，即便是矗立于社会金字塔尖的名义精英也潜意识地驯服于资本-消费符号构成的全景社会之内、安适于新贵族般的森严而坚实的壁龛之中。</p>
+            </div><p>这是资本无序扩张的第三十年，与泡沫般飞涨的资本主义繁荣神话相伴的是，工业化和市场化浪潮下生产资料的结构性错配在其让渡于资本权力的进程中精妙地编织起一套无处挣脱的生产方式和叙事体系，即便是矗立于社会金字塔尖的名义精英也潜意识地驯服于资本-消费符号构成的全景社会之内、安适于新贵族般的森严而坚实的壁龛之中。</p>
 <p>资本主义首要刻画的是附着于人性原始欲望的商品世界童话。在纸醉金迷的浪潮中，头脑聪明、精于算计的“精致利己主义”轻而易举地渗透了道德意识形态的高地，以财富导向的社会天梯的攀附者们，自发地戴上了旧时代残存的冠冕，在阶级的金字塔沿互相倾轧。在这个效率第一的时代，几乎没有人意识到自己身处于资本疯狂自我增殖的子宫之中，由其浇筑的雇佣制社会化再生产链路和附着于其间的劳动者和资本家，无非是燃料和傀儡的区别，所有人生来的目的便是幻想在资本浇筑的符号幻觉里叱咤风云，他们无一例外地在攫取财富和消费需求的周期里麻木地寻求物欲的安慰，劳作成了自我意识存续的手段本身。</p>
 <p>而在商品和消费为通用语言的符号社会里，无产阶级以打工人的身份被赋予了更广泛、更系统性的剥削定位，工人不仅仅作为生产环节的劳动资料被以工资的形式贴上价格标签自由出卖，同时也在货币符号的诱惑下成为劳动产物的需求端被更为精细地剖分为消费主义的二次收割对象。被褫夺了时间和生活的工薪阶层在博取他人认同和辨识的消费行为中无形地将反抗意识转换为心理层面异化了的满足感，财富和消费定义了新的身份价值标签，于是人们并不再孤立地居于物的使用价值作用范畴之中，而是以消费重新勾勒了社会地位与身份认同，在这里，剥削的原罪被巧妙地消弭，无产阶级在集体无意识中反而为资本主义生产―利润体系的高效运转和规模扩大贡献了正向反馈，成为其合法性的建筑师和辩经者。</p>
 <p>随着资本扩张悄然僭越了将它释放出来的设计师们所划定的效率范畴，文化意识形态和政治结构便在这套全球化的资本主义生产体系下显得势单力薄，在私有财产神圣不可侵犯的神话里，富人与穷人间事实上如猿猴与人类般地经历了二次自然选择，塑造了从生活方式到价值观的社会隔离，于是从小镇成长起来的新兴精英阶层渐渐失去了和底层共情的意愿，剥削不再是可耻的，福报和奋斗的措辞从老大哥修正主义批判的辞典里焕发新生，一面是劳动消费负债三重枷锁嵌入焦虑和麻木的普遍神色，群众推动历史的史观则被英雄和个体的抽象叙事缓缓取代，另一面是资本的提线木偶将贪婪的目光投射于涵盖了政治权力和舆论场的一切尚未触及的领域，不遗余力地把社会斗争形式分解为多元且离散的要素，被身份标签细化瓦解的无产者则只能不平等地收获可怜的施舍。一批高级打工人陷入归化小资产阶级的自我实现预言之中，另一批人则陷入理论荒芜的桎梏，或是在新自由主义的幻想中极化，或是在宏大叙事中将泛左翼与民族主义联姻。</p>
@@ -1958,56 +1734,14 @@ u(x,0)=\varphi(x), & x\in\mathbb
   \end{array}\right.
 $$]]></description>
 </item><item>
-    <title>政治经济学</title>
+    <title>现代化的代价</title>
     <link>https://blog.ralvines.top/zzjjx/</link>
     <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/zzjjx/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piA8qxO.png" referrerpolicy="no-referrer">
-            </div><h2 id="思考题-1" class="headerLink">
-    <a href="#%e6%80%9d%e8%80%83%e9%a2%98-1" class="header-mark"></a>思考题 1</h2>
-
-    <div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>选题<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">制度创新与中国式现代化。</div>
-        </div>
-    </div>
-
-    
-<p>从卸下旧社会三座大山到迈向现代化强国建设新征程，中国在站起来、富起来、强起来的历史脉络中找到了一条自主适定、以制度创新一以贯之的独特现代化道路，以思想理念引领，并从其战略与战术中分别派生完备架构与动态规制的实践，宣告了历史终结论和西方单线路径依赖史观的破产。</p>
-<p>战略上<strong>知行交互</strong>。始终以理论指引实践，实事求是，统筹人文地理、阶层产业等规模和结构的特有国情，在社会主义原则下顺应先进生产力方向，通过顶层设计明晰目标，把握民族复兴国家富强的总体方向，规范了现代化的中心任务、原则和本质要求。此外，以实践导向反馈理论创新，在改革试验和制度化积累的循环中，逐渐建构起从粗放到集约、创新协调绿色开放共享的现代化发展模式，服务于最广大人民根本利益，在各个阶段锚定顺应现实规律的着力点。</p>
-<p>战术上<strong>要素协同</strong>。完善各领域联系，将现代化贯穿于五位一体布局之中，让生产方式的广义主体相适配，注重有效市场和有为政府、城市群拓与乡村振兴、执政党和政府、公有经济与私有资本等要素的权衡和配合，在执政党总揽全局、协调各方的宏观尺度下，以政府报告、五年规划等常态规划推动策略创新，如在节奏快、容错强的领域引入社会资本，合理使用金融工具在适度的贫富差距下分配各主体在生产中的地位，以共同富裕和国际竞争旨归推动结构性改革，拉动制造产业等供给端升级，带动需求端的扩张，统筹国内循环和同国际双循环的协同发展。</p>
-<p>空间上，<strong>架构完备</strong>是根本。中国式现代化有效发挥一切积极因素，实践探索和制度化相得益彰，打通了规划、执行、监督的链路。既覆盖农业工业服务业三大产业和政府企业两大主体，统筹地区、城乡、收入差异，又践行全过程人民民主和协商民主，团结各阶层有序参与建设，使生产力和生产关系、经济基础和上层建筑的基本矛盾在战略战术的迭代中更加系统完备。同上述规划环节的科学民主性对偶，地区试点和举国体制的交织、央地人事财各类权力的分工，则构成了中国式现代化高效执行力和创新力的根基。</p>
-<p>时间上，<strong>规策动态</strong>是保障。从韬光养晦到奋发有为、双轨制到市场决定资源配置、从自立自主到融入国际，从以农哺工到乡村振兴，在大时代的振荡中，中国式现代化下的内政外交、政治经济方方面面都围绕着主要矛盾和国际情势，抓住机遇，保持历史主动，因势而动、顺势而为，不断推进方针与制度的革新，打破路径依赖，换道超车，审视未来。</p>
-<p>总之，中国式现代化是社会主义性质、具有中国特色的现代化，摒弃了西方物质与资本导向、两极分化、对外扩张的老路，科学而富有活力。</p>
-<p style="text-align:right">（984字）</p>
-<h2 id="思考题-26" class="headerLink">
-    <a href="#%e6%80%9d%e8%80%83%e9%a2%98-26" class="header-mark"></a>思考题 2<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
-
-    <div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>选题<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">从劳动分工和异化劳动等视角，探究“大国大城”论与“美丽乡村”论之间的辩证统一关系。</div>
-        </div>
-    </div>
-
-    
-<p>“大国大城”论与“美丽乡村”论映射出了社会经济发展之于二元的城市和乡村取向模式的路径差异。前者渴望通过规模扩张与分工细化获得更优效率收益，后者考量劳动异化和剩余价值，指出乡村百业兴旺模式以效率代价兼顾劳动者的公平。</p>
-<p>发展大城市和乡村振兴在形式上<strong>存在对立</strong>。城市化意味着生产资料的集中化，人才积聚、资本汇集建构起庞大规模且高度分工协作的产业网络。然而，在市场决定资源配置和私有制资本普遍存在的当代，社会生产过程是产生使用价值的劳动过程和派生剩余价值的价值增殖过程的统一，劳动创造价值，但剩余价值往往被占据支配地位者褫夺。高度社会分工下，规模且系统的工作被分解为简单的流程，个体沦为重复工作的机器，而生产的社会化和所有制的私有进一步割裂了劳动者与它的劳动成果，后者被货币化统一衡量、以商品形式在市场上高速流通，个体的价值被矮化为一套单一维度标准体系下的投入与产出过程，劳动者变为可被交易的生产要素。分工严重阻碍了人的自由全面发展，作为集体的城市得到了更高的收益，但作为个体的劳动者却缺省了应有的公平。</p>
-<p>作为多体系统的乡村是我国粮食安全和国民经济发展的压舱石。以农业为基础的乡村百业虽然参与同城市的商品流通和社会化生产，但因其自然条件和所有制结构表征出相对独立的样态。相对分散的土地、资本和人口使农民大多自有生产要素和居住空间，从农林牧副渔五业并举到旅游等新兴产业的蓬勃交融并不改变乡村分散生产模式和农民为自己打工的生产关系，但这种颇具自给自足小农经济色彩的低分工模式也不可避免的牺牲了一定的效率。</p>
-<p>两种路径的执理内核在于对于社会发展中效率与公平、短期与长期效益的分歧。现代化建设应当统筹兼顾做大蛋糕和分好蛋糕，国家经济社会的发展也离不开时间尺度下的利弊权衡。</p>
-<p>发展大城市和乡村振兴在现代化进程中又是<strong>统一</strong>的。城乡区别本质上是经济基础即生产力和生产关系上的差异，表现为形式上的二元和载体的内生一致性。形式上，城乡具有相对独立的产业经济体系，然而同时，它们又是置于全国经济格局下相互联系的地域主体。</p>
-<p>城乡融合是乡村振兴和城市化的耦合。通过城乡要素自由流动，引导三类产业深度融合，带动乡村产业振兴，规模工业和资本密集型的高新产业则为城市赋以更佳的效能，辅以城乡居民基本权益与服务均等化，乡村为产业资本集中的城市工业提供产能和劳动力过剩危机的“软着陆”蓄水池，城市则为乡村提供更强的三产流动性和工业品，从而实现城市的短期效率与乡村的长期公平的优势互补、共同繁荣。</p>
-<p style="text-align:right">（996字）</p>
-<h2 id="读书报告" class="headerLink">
-    <a href="#%e8%af%bb%e4%b9%a6%e6%8a%a5%e5%91%8a" class="header-mark"></a>读书报告</h2><center><b>现代化的代价</b></center>
-<center><b>——《八次危机》读书报告</b></center>
-<blockquote>
+            </div><h2 id="现代化的代价" class="headerLink">
+    <a href="#%e7%8e%b0%e4%bb%a3%e5%8c%96%e7%9a%84%e4%bb%a3%e4%bb%b7" class="header-mark"></a>现代化的代价</h2><blockquote>
 <p>“两个互不否定”的历史见证了中国经济举世瞩目的成就。那么，代价是什么呢？</p>
 </blockquote>
 <p>作为在“三农”领域深耕多年的乡建派学者，温铁军教授的《八次危机》一书深刻阐释了新中国经济社会发展的辉煌成果背后，所经历的八次“经济危机”，同时探讨了乡村对缓冲共和国工业化进程中多次危机的重要贡献。本书还剖析了宏观微观双重视角下的中国式现代化历程，提出了成本转嫁论，即城乡二元结构体制下的“三农”承载着城市资本危机的“软着陆”代价。</p>
@@ -2018,13 +1752,13 @@ $$]]></description>
 <p>回望当下，随着对外开放的进一步深入和金融资本同经济社会更深层的嵌合，为了防范化解重大危机，实现可持续发展，解决好“三农”问题成为时代的新命题。新世纪以来，资本相较于产业不断过剩，旧的经济发展主义向更为绿色、科学的精细化模式转变。进入免除了农业税的“后税费时代”，农业人口结构的老龄化所引发的劳动力稀缺危机弱化了农村的社会调节功能，如何以生态文明建设引领农村新型工业化和城镇化，将山水资源以货币形式自我资本化，将广袤农村的自然要素锚定于更具流通性的价值度量，推动城乡产业融合发展、促进商品流通和农村内需延扩，都是更为实质性的问题。而在知识阶层再一次渐趋过剩的今天，除了城市服务业蓄水池之外，如何进一步发挥好农村在解决产能和劳动力匹配性问题的作用，也是令人值得深思的问题。</p>
 <h2 id="横向叙事与资本主义符号幻觉" class="headerLink">
     <a href="#%e6%a8%aa%e5%90%91%e5%8f%99%e4%ba%8b%e4%b8%8e%e8%b5%84%e6%9c%ac%e4%b8%bb%e4%b9%89%e7%ac%a6%e5%8f%b7%e5%b9%bb%e8%a7%89" class="header-mark"></a>横向叙事与资本主义符号幻觉</h2><h3 id="资本主义存续的逻辑" class="headerLink">
-    <a href="#%e8%b5%84%e6%9c%ac%e4%b8%bb%e4%b9%89%e5%ad%98%e7%bb%ad%e7%9a%84%e9%80%bb%e8%be%91" class="header-mark"></a>资本主义存续的逻辑</h3><p>自工业革命以降，以雇佣劳动为基础的资本主义生产方式通过技术革新和市场扩张，推动了生产力的跃迁式进步，然而，生产社会化与生产资料私有制之间的固有矛盾使得以剥削为本质的资本主义阶级社会不断震荡于贫富分化、生产过剩的复合危机。不同于封建社会，在其本身无法容纳的新经济基础还未出现前，经历了从自由到国家垄断阶段的资本主义统治机器为了消弭资产阶级和无产阶级的内在矛盾，<font color=red><b>建构了一系列旨在分化无产阶级的横向叙事与实现隐性奴役的精巧符号机制</b></font><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，本文试图揭露当代资本主义以放大人民内部矛盾方式维护其合法性和稳定性的原因和具体手段，以批判其压迫本质。</p>
-<p>作为一种基于商品生产和货币交换的异化社会形态，资本主义的寄生于被广泛标的的一切价值客体之中。人既以劳动力形式被出卖，又沦为再生产环节的消费奴隶，从而矮化为资本增殖的直接手段，即便是掌握生产资料的资产阶级，也不过是资本的人格化主体。<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>于是，资本主义结构性地运作于私有制基础上的两大基本阶级与社会再生产在形式与内容上的耦合过程，<font color=red><b>实现资本增殖和调和阶级矛盾便成为其存续的现实张力，前者是目的，后者则是手段的总和。</b></font></p>
+    <a href="#%e8%b5%84%e6%9c%ac%e4%b8%bb%e4%b9%89%e5%ad%98%e7%bb%ad%e7%9a%84%e9%80%bb%e8%be%91" class="header-mark"></a>资本主义存续的逻辑</h3><p>自工业革命以降，以雇佣劳动为基础的资本主义生产方式通过技术革新和市场扩张，推动了生产力的跃迁式进步，然而，生产社会化与生产资料私有制之间的固有矛盾使得以剥削为本质的资本主义阶级社会不断震荡于贫富分化、生产过剩的复合危机。不同于封建社会，在其本身无法容纳的新经济基础还未出现前，经历了从自由到国家垄断阶段的资本主义统治机器为了消弭资产阶级和无产阶级的内在矛盾，<font color=red><b>建构了一系列旨在分化无产阶级的横向叙事与实现隐性奴役的精巧符号机制</b></font><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，本文试图揭露当代资本主义以放大人民内部矛盾方式维护其合法性和稳定性的原因和具体手段，以批判其压迫本质。</p>
+<p>作为一种基于商品生产和货币交换的异化社会形态，资本主义的寄生于被广泛标的的一切价值客体之中。人既以劳动力形式被出卖，又沦为再生产环节的消费奴隶，从而矮化为资本增殖的直接手段，即便是掌握生产资料的资产阶级，也不过是资本的人格化主体。<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>于是，资本主义结构性地运作于私有制基础上的两大基本阶级与社会再生产在形式与内容上的耦合过程，<font color=red><b>实现资本增殖和调和阶级矛盾便成为其存续的现实张力，前者是目的，后者则是手段的总和。</b></font></p>
 <h3 id="合法性建构" class="headerLink">
-    <a href="#%e5%90%88%e6%b3%95%e6%80%a7%e5%bb%ba%e6%9e%84" class="header-mark"></a>合法性建构</h3><p>实现自身增殖是资本的天然使命。<sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>社会化生产下，资产阶级通过生产资料资本化后的周期性运作，不仅需要通过剥削无产阶级以获得剩余价值，也要求大量的无产阶级作为消费者参与到被资本广泛度量的商品的价值实现过程中去，因此资本主义制度不仅派生了受压迫的潜在掘墓人，也源源不断地筛取了劳动力这一社会再生产中无可替代的燃料，从而最大限度的榨取了剩余价值，奠基了资本主义的规模与效率导向。</p>
-<p>为了合理化资本主义的剥削机制、维护统治，资产阶级在深层逻辑上建构起一套以自洽的叙事，<font color=red><b>即在物质层面以商品经济和消费社会为载体的行为准则限定被统治阶级的作用范畴，同时在思想上编织一套以分化无产阶级为手段的叙事话语。</b></font>以消费为标志的符号社会<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>为叙事的完备性提供了客观基础，而性别、地域矛盾的转嫁又更好地标签化这些消费的主体，进一步加深了资本主义再生产的坚实基础。</p>
+    <a href="#%e5%90%88%e6%b3%95%e6%80%a7%e5%bb%ba%e6%9e%84" class="header-mark"></a>合法性建构</h3><p>实现自身增殖是资本的天然使命。<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>社会化生产下，资产阶级通过生产资料资本化后的周期性运作，不仅需要通过剥削无产阶级以获得剩余价值，也要求大量的无产阶级作为消费者参与到被资本广泛度量的商品的价值实现过程中去，因此资本主义制度不仅派生了受压迫的潜在掘墓人，也源源不断地筛取了劳动力这一社会再生产中无可替代的燃料，从而最大限度的榨取了剩余价值，奠基了资本主义的规模与效率导向。</p>
+<p>为了合理化资本主义的剥削机制、维护统治，资产阶级在深层逻辑上建构起一套以自洽的叙事，<font color=red><b>即在物质层面以商品经济和消费社会为载体的行为准则限定被统治阶级的作用范畴，同时在思想上编织一套以分化无产阶级为手段的叙事话语。</b></font>以消费为标志的符号社会<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>为叙事的完备性提供了客观基础，而性别、地域矛盾的转嫁又更好地标签化这些消费的主体，进一步加深了资本主义再生产的坚实基础。</p>
 <h4 id="符号崇拜" class="headerLink">
-    <a href="#%e7%ac%a6%e5%8f%b7%e5%b4%87%e6%8b%9c" class="header-mark"></a>符号崇拜</h4><p>基于工业化、市场化的资本主义现代化路径，资本将物质度量为可供交易的消费品，而商品符号<sup id="fnref2:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>在资本规则的集体叙事下约束了使用者的行为，将无产阶级也置于一套无法脱离的生产生活体系之中，人性的自然需求被嫁接于社会性的消费浪潮之内，而交易本身隐去了资本主义的结构本质，物质的欲望反而成为了他们辩护资本主义生产方式的内驱动力，由此，阶级的对立被掩盖，表象的价值均衡与实在的利益剥削在后者的集体意识形态中得以错置。</p>
+    <a href="#%e7%ac%a6%e5%8f%b7%e5%b4%87%e6%8b%9c" class="header-mark"></a>符号崇拜</h4><p>基于工业化、市场化的资本主义现代化路径，资本将物质度量为可供交易的消费品，而商品符号<sup id="fnref2:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>在资本规则的集体叙事下约束了使用者的行为，将无产阶级也置于一套无法脱离的生产生活体系之中，人性的自然需求被嫁接于社会性的消费浪潮之内，而交易本身隐去了资本主义的结构本质，物质的欲望反而成为了他们辩护资本主义生产方式的内驱动力，由此，阶级的对立被掩盖，表象的价值均衡与实在的利益剥削在后者的集体意识形态中得以错置。</p>
 <p>资本主义的生产模式决定了商品化社会下，人作为劳动力被卷入庞大的生产结构之中沦为消耗品，同时，资本在社会化生产的循环链路中不断通过对劳动者的剥削和商品价值增殖的过程来构建起利益的势垒。<font color=red><b>在消费社会中，需求侧铺展为更为精细的标签画像，性别、地域乃至年龄、偏好都服务于消费本身，个体的反抗在博取他人认同和辨识的消费中转化为心理层面的满足感，我们消费的并不再是物的单一使用价值，而是通过消费体现社会地位与身份的认同，从而无形地消解了资本主义体制下社会再生产中统治阶级的褫夺原罪，而参与其中的无产阶级在集体无意识中为资本主义生产―利润体系的高效运转和规模扩大贡献了正向力量，因此消费作为符号意义体系结构，是现代资本主义社会合法性的根据。</b></font></p>
 <p>另一方面，消费主义又利用了性别等领域的对立。性别化消费将商品赋予性别气质，建立身份标签和消费的主观联系，将消费行为注入了性别化符号的价值，实现了资本更为隐性的增殖。</p>
 <h4 id="叙事的艺术" class="headerLink">
@@ -2032,47 +1766,43 @@ $$]]></description>
 <p>鉴于资本主义制度本身所解放的生产力和带动的科技进步普遍性地提高了社会群体的文化水平，诉求多元化既成为资产阶级的重大威胁，也恰好为利益团体和边缘群体的割裂提供了社会基础。<font color=red><b>价值的解释权作为资产阶级剥削剩余价值的衍生成果，提供了软暴力叙事的支撑。</b></font>相较于马克思笔下强调人的解放和价值肯定的共产主义理想社会，资本主义则恰恰以异化劳动的方式将人赋以高度社会分工体系下更为机械的存在。人们的工作成为换取商品的任务，劳动被流水线式的生产进一步单维化，在维持生计、满足物欲的静观生活方式中，资本主义秩序在事实上消解了人的价值，人沦为了商品的买家和生产的资源，于是为身份政治等人民内部矛盾创造了意识缺口。</p>
 <h3 id="稳定性维系" class="headerLink">
     <a href="#%e7%a8%b3%e5%ae%9a%e6%80%a7%e7%bb%b4%e7%b3%bb" class="header-mark"></a>稳定性维系</h3><h4 id="议程的垄断" class="headerLink">
-    <a href="#%e8%ae%ae%e7%a8%8b%e7%9a%84%e5%9e%84%e6%96%ad" class="header-mark"></a>议程的垄断</h4><p>如果说资产阶级实现前述目标的核心权力是传播议程的设定，那么后续一系列标签的塑造则是议程控制的现实表现。压制民众躁动，首先要削弱工人的阶级意识，以“新闻自由”之名实现资本对舆论操纵的自由，从而在实际上剥夺了民众知情的自由；<font color=red><b>以话语权力的收敛将焦点从阶级斗争转移，重塑人们的价值观和矛盾指向的对象，从而将纵向的阶级矛盾迁移为横向的身份矛盾，生产力与生产关系、经济基础与上层建筑的基本矛盾由此蒙上了面纱。</b></font><sup id="fnref2:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+    <a href="#%e8%ae%ae%e7%a8%8b%e7%9a%84%e5%9e%84%e6%96%ad" class="header-mark"></a>议程的垄断</h4><p>如果说资产阶级实现前述目标的核心权力是传播议程的设定，那么后续一系列标签的塑造则是议程控制的现实表现。压制民众躁动，首先要削弱工人的阶级意识，以“新闻自由”之名实现资本对舆论操纵的自由，从而在实际上剥夺了民众知情的自由；<font color=red><b>以话语权力的收敛将焦点从阶级斗争转移，重塑人们的价值观和矛盾指向的对象，从而将纵向的阶级矛盾迁移为横向的身份矛盾，生产力与生产关系、经济基础与上层建筑的基本矛盾由此蒙上了面纱。</b></font><sup id="fnref2:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>随着金融资本的发展，资本主义统治依托资本符号的形式自由和契约关系实现了更优的形式隐蔽性，金融资本攫取了相当可观的、依赖于历史建构的文化权力，为维系稳定性的手段披上了合法的外衣和真理性的背书。</p>
 <h4 id="结构性规训" class="headerLink">
-    <a href="#%e7%bb%93%e6%9e%84%e6%80%a7%e8%a7%84%e8%ae%ad" class="header-mark"></a>结构性规训</h4><p><font color=red><b>通过制造地域矛盾、性别矛盾、族裔和宗教差异以及宣传媒体控制等手段，资产阶级得以削弱人民的团结力量，使人们更关心个人利益和短期满足，忽视阶级斗争和资本对劳动的剥削。通过这些结构性的规训手段，资本主义下的生产关系被装裱为无主体的权力关系，于是消解了经济基础的决定作用，把社会斗争形式分解为多元且离散的要素和碎片化的叙事。</b></font><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>人们的注意力刻画于微观个体的生存状态，英雄史观代替了人民史观，也便有意地孤立了阶级的使命。在资产阶级媒介的宣教下，这些身份标签意义下的个体不再是社会生产关系意义上的个体，也就剥离了马克思关于“人是一切社会关系的总和”<sup id="fnref3:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>的本质。进而，无产阶级在抽象个体的论调中，从原本革命主体力量的地位坠为被排除在社会主体结构之外的边缘存在。</p>
+    <a href="#%e7%bb%93%e6%9e%84%e6%80%a7%e8%a7%84%e8%ae%ad" class="header-mark"></a>结构性规训</h4><p><font color=red><b>通过制造地域矛盾、性别矛盾、族裔和宗教差异以及宣传媒体控制等手段，资产阶级得以削弱人民的团结力量，使人们更关心个人利益和短期满足，忽视阶级斗争和资本对劳动的剥削。通过这些结构性的规训手段，资本主义下的生产关系被装裱为无主体的权力关系，于是消解了经济基础的决定作用，把社会斗争形式分解为多元且离散的要素和碎片化的叙事。</b></font><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>人们的注意力刻画于微观个体的生存状态，英雄史观代替了人民史观，也便有意地孤立了阶级的使命。在资产阶级媒介的宣教下，这些身份标签意义下的个体不再是社会生产关系意义上的个体，也就剥离了马克思关于“人是一切社会关系的总和”<sup id="fnref3:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>的本质。进而，无产阶级在抽象个体的论调中，从原本革命主体力量的地位坠为被排除在社会主体结构之外的边缘存在。</p>
 <h4 id="身份政治神话" class="headerLink">
     <a href="#%e8%ba%ab%e4%bb%bd%e6%94%bf%e6%b2%bb%e7%a5%9e%e8%af%9d" class="header-mark"></a>身份政治神话</h4><p><font color=red><b>当代资本主义话语体系下大肆宣扬的地域、性别等横向矛盾构建了一套温和的“种族隔离”机制，通过强化刻板印象和生理性差异，诱导群众相互攻讦、以个体的极化抹煞作为同为被资本主义制度系统性压迫的集体的团结可能性。</b></font></p>
-<p>不仅资产阶级在议题上制造割裂，资本主义生产体系本身也在提供分化的社会基础，企业中普遍存在的职业性别歧视和工资差异刻意放大了群体间的差异，而以西方发达资本主义国家代表性的以“宠坏”弱势、边缘群体的身份政治手段，则进一步迫使本就可怜的底层个体不得不趋附于多元文化主义叙事下的资本主义政治制度，成为意识自觉的现有体制维护者。<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p>不仅资产阶级在议题上制造割裂，资本主义生产体系本身也在提供分化的社会基础，企业中普遍存在的职业性别歧视和工资差异刻意放大了群体间的差异，而以西方发达资本主义国家代表性的以“宠坏”弱势、边缘群体的身份政治手段，则进一步迫使本就可怜的底层个体不得不趋附于多元文化主义叙事下的资本主义政治制度，成为意识自觉的现有体制维护者。<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <p>性别议题原本是平权主义的分支，对女性权益的维护应当是消除传统桎梏尚未完全解体的性别歧视与刻板印象。然而，在资产阶级蛊惑下，性别标签所争论的群体特质，却恰恰潜移默化地成为扩大隔阂的帮凶。值得一提的是，从生物学上说，男女之间的基因演化最终是趋同的，男性与女性不同基因对其认知与行为模式差异的影响远远小于外在环境等因素。但资本主义性别叙事下的女权主义中将反抗精神塑造为一种“弱势者的群体皈依”，巧妙地忽视了话语权的分野并非存在于性别，使女本位和资本主义本身深度耦合，以性别压迫反抗逃避了阶级斗争，强化了压迫本身的土壤。事实上，当代妇女解放与女性意识的觉醒原本就是在后工业化时代，社会生产关系中的性别差异被机器的运用所逐渐抹平、女性大规模参与到现代生产活动之中的成果，如今身处在父权制与消费符号主义双重夹击的女性，在这样的引导下，攻讦男性却成为了她们唯一的出路。</p>
-<p><font color=red><b>身份政治表面上看似极具反抗力量，实际成为了与资本主义相当匹配的意识形态框架，即拥有实质地位的资产阶级可以通过舆论、选举、集体叙事的三位一体将阶级意识转变为政治权力交接中的横向议题，而掌握议题主动权的资产阶级则永远处于政治权力的舞台之上。</b></font><sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<p><font color=red><b>身份政治表面上看似极具反抗力量，实际成为了与资本主义相当匹配的意识形态框架，即拥有实质地位的资产阶级可以通过舆论、选举、集体叙事的三位一体将阶级意识转变为政治权力交接中的横向议题，而掌握议题主动权的资产阶级则永远处于政治权力的舞台之上。</b></font><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
 <h3 id="归宿" class="headerLink">
     <a href="#%e5%bd%92%e5%ae%bf" class="header-mark"></a>归宿</h3><p>资本主义身份叙事本质上是基于符号学将无产阶级分化瓦解的统治手段，根本目的是削弱其反抗的意识、掩盖阶级矛盾，以实现稳固统治。被割裂的人民群众不仅成为自相厮杀的棋子，也在内部对立中进一步在思想和物质基础上固化了资本主义制度。</p>
 <p>而建立在人民内部矛盾上的、文化斗争形式的身份政治运动无法触及资本主义私有制和剥削的本质，无法真正改变政治经济不平等的现实。然而，资本主义分化民众所催生的身份焦虑，恰恰引发了被统治群体的普遍极化。<font color=red><b>民众的撕裂虽然短期缓和了阶级上的矛盾，却进一步瓦解了资本主义政治体制存在的基础，反过来损害资本主义生产力的发展，最终必然迎来阶级意识的觉醒和资本主义被新生产关系取代的必然结局。</b></font></p>
-<p style="text-align:right">（3419字）</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>《去依附》温铁军&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>（法）让·鲍德里亚著；夏莹译. 符号政治经济学批判[M]. 南京：南京大学出版社, 2015.01.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>（法）让·鲍德里亚著；夏莹译. 符号政治经济学批判[M]. 南京：南京大学出版社, 2015.01.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>中共中央马克思恩格斯列宁斯大林著作编译局编译. 马克思恩格斯全集[M]. 北京：人民出版社, 2014.08.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p>中共中央马克思恩格斯列宁斯大林著作编译局编译. 马克思恩格斯全集[M]. 北京：人民出版社, 2014.08.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref3:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>（法）米歇尔·福柯（Michel Foucault）著；刘北成，杨远婴译. 规训与惩罚 监狱的诞生[M]. 北京：生活·读书·新知三联书店, 2003.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
-<p>（法）米歇尔·福柯（Michel Foucault）著；刘北成，杨远婴译. 规训与惩罚 监狱的诞生[M]. 北京：生活·读书·新知三联书店, 2003.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>南希.弗雷泽. 超越身份政治和政治正确：资本主义作为制度化的社会秩序.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:5">
-<p>南希.弗雷泽. 超越身份政治和政治正确：资本主义作为制度化的社会秩序.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:6">
-<p>宋朝龙.后现代主义身份政治的衰颓与新民粹主义的崛起[J].北京行政学院学报,2020(02):114-121.DOI:10.16365/j.cnki.11-4054/d.2020.02.014.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>宋朝龙.后现代主义身份政治的衰颓与新民粹主义的崛起[J].北京行政学院学报,2020(02):114-121.DOI:10.16365/j.cnki.11-4054/d.2020.02.014.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>
 </item><item>
     <title>数据结构与算法</title>
-    <link>https://blog.ralvines.top/shujujiegou/</link>
+    <link>https://blog.ralvines.top/dsa/</link>
     <pubDate>Wed, 01 Sep 2021 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/shujujiegou/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/dsa/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
             </div><h2 id="c-基础知识" class="headerLink">
@@ -3009,5 +2739,48 @@ $$]]></description>
 <p>课上谈论女性悲剧形象时，就有不少同学指出去除性别标签后，悲剧的形象仍然有着共性。而女性文学中普遍提到的封建社会下如翠翠独守闺房与祥林嫂式的悲剧，前者是女性在生活上的依附现实，后者则是生产上的性别依附。</p>
 <p>总体来说，此种话语权的不匹配在现代社会下是在不断消解的。我比较认同平权问题用辩证唯物主义那套理论框架来阐释，当代妇女解放与女性意识的觉醒本身就是在后工业化时代，社会生产关系中的性别差异被机器的运用所逐渐抹平，女性大规模参与到现代生产活动之中的结果。</p>
 <p>男女的差异事实上主要仍然体现在基因等生理要素之上，当代很多性别不平等现象相较封建时代已经得到了很大的进步，相反，很多问题是文化惯性、历史遗留，这在生产力落后的农村和欠发达地区仍有呈现。我们知道即便是在原始社会也存在着母系社会，所谓的父权社会很大程度上是战争频繁的农耕时代男性由于生理上具有的体力优势的社会经济基础所衍生出的一套伦理体系。而这些差异已经被证明是能够随着科技进步而式微的，因此，对于“女性的悲剧结局能否避免”这一论题，我相信这将随着时代的发展获得肯定的答案。</p>]]></description>
+</item><item>
+    <title>解构苦难，建构辉煌</title>
+    <link>https://blog.ralvines.top/knhh/</link>
+    <pubDate>Sun, 10 Jan 2021 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/knhh/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAfKt1.png" referrerpolicy="no-referrer">
+            </div><h2 id="旨归" class="headerLink">
+    <a href="#%e6%97%a8%e5%bd%92" class="header-mark"></a>旨归</h2><h3 id="叙事结构" class="headerLink">
+    <a href="#%e5%8f%99%e4%ba%8b%e7%bb%93%e6%9e%84" class="header-mark"></a>叙事结构</h3><p>作为国防大学教授金一南少将的代表作之一，《苦难辉煌》以生动的笔调叙写了20世纪前半叶动荡中国的革命史诗。“中国革命从来不是一场被看好的革命，中国共产党也从来不是一个被看好的政党。”各个政治派别的激荡抗争之中，中国共产党以其艰苦卓绝的成长历程为主线所勾勒出的浓重笔墨，交融着一大代表的不同命运、张国焘与毛泽东的分分合合、共产国际掣肘下的独立觉醒……无情的历史画卷是无数革命志士的鲜活点缀：有的人无名而终，有的人中道易辙。然而不论如何，厚重的历史尘埃掩盖不住的是周恩来、毛泽东等早期领导人的绝妙史话，求索纷繁崛起道路中的壮阔史歌。</p>
+<h3 id="内核金一南少将与他的革命史观" class="headerLink">
+    <a href="#%e5%86%85%e6%a0%b8%e9%87%91%e4%b8%80%e5%8d%97%e5%b0%91%e5%b0%86%e4%b8%8e%e4%bb%96%e7%9a%84%e9%9d%a9%e5%91%bd%e5%8f%b2%e8%a7%82" class="header-mark"></a>内核：金一南少将与他的革命史观</h3><p>初读《苦难辉煌》便缘于金一南教授在海口市委演讲的公开视频，无论是从宏观视角对中共革命史的重新解构，还是着眼于微观层面的生动历史细节，我已然在历史的薄纱之后同一群虽遥不可及却理想崇高且运筹帷幄的先烈产生了思想的共鸣，也逐步地借此突破抽象的政治名词体味事实给予的、一个先锋队政党如何成长壮大并有效执政拥有数千年历史与庞大地理体量的文明型国家的答案——</p>
+<p>马克思、恩格斯共同建构的哲学与政治经济学理论及其后来者在实践中探索出的革命道路，生动地在中国大地特别是中国共产党的革命活动中表现出的群众路线、统战方针、党指挥的富有理想且作风民主纪律严明的人民军队、毛泽东同志为代表的领导集体的军事战略智慧，以及无数仁人志士的苦难奋斗……这便是《苦难辉煌》的精神旨归，亦可能是中国革命必然前途命题的最优解。</p>
+<h2 id="细节" class="headerLink">
+    <a href="#%e7%bb%86%e8%8a%82" class="header-mark"></a>细节</h2><h3 id="一群信仰者的韧性" class="headerLink">
+    <a href="#%e4%b8%80%e7%be%a4%e4%bf%a1%e4%bb%b0%e8%80%85%e7%9a%84%e9%9f%a7%e6%80%a7" class="header-mark"></a>一群信仰者的韧性</h3><p>韧性是共产党人的名片，并贯穿于近代民主主义革命史始终。诚然，建党之初的先行者们有如陈公博、李达、李汉俊等人数年内便脱党，或如刘仁静、张国焘等人被党开除，能够历经锤炼直达新中国成立的却是寥寥无几。“历史命运蜕变为个人命运，众生便只有在周易八卦面前诚惶诚恐。”建立之初的中国共产党在那个每天都有无数松散的政治组织或军事派系起起落落的年代似乎并不显眼，甚至连发起者都难以预料她的前程。她诞生于凄风苦雨，在乱世的客观环境与统治者苛政的制约下，信仰恰恰成为了弥足珍贵的事物。如周恩来同志感慨，“敌人可以在三五分钟内消灭我们的领袖，我们却无法在三五年内将他们造就出来”。正是在这样残酷而冷峻的时代氛围之中，选择这个政党意味着向危险且不确定的未来宣战，而他们的唯一武器便是从日本、俄国传来的星星点点的崭新理论；也正是在此种历程之间，共产党人从先行的觉醒者们蜕变为信仰坚毅、意志坚韧的阶级斗士。</p>
+<p>分散的地理分布与统一集中的精神内核塑造了共产党极其团结的韧性。先进的思想即革命的火种，无论是“砍头不要紧，只要主义真”慷慨赴死的英勇烈士，还是一趟一趟为上海党中央运送黄金物资的苏区根据地，星罗棋布的组织在广袤的群众中吸纳同志，在最现代化的城市联合先进知识分子阶层源源不断地翻译印刷革命的理论。漫长的斗争征程，更是在意见的分野、路线的分歧中愈发成熟。从工人暴动到真正拿起枪杆子进行武装斗争，从租界的地下活动到扎根于贫困落后的边区山区，毛泽东所开辟的“武装斗争、农村包围城市”之路以其同中国现实的紧密契合成为了革命历程的鲜明主线。</p>
+<p>不可计数的无名英雄们亦是红色政权韧性品质的具象展现。蒋介石步步紧逼的围剿催生出了朱德等一批青史留名的将领。陈毅将军后来回忆道：“朱总司令在最黑暗的日子里，在群众情绪低到零度、灰色丧气的时候，指出了光明的前途，增加了群众的革命信念。这是总司令的伟大。”而在隐蔽战线，以李克农为代表的无名英雄们深刻诠释了何为谍报高手，他们出生入死，每日同恐惧与压抑打交道早已不值得诉说，高尚的理想与精妙的战术甚至永远得不到普罗大众的一滴热泪。的确，多如牛毛的赴死者之中有人经受不住严刑拷打，可涌现出的大多数至死忠于敌人看来虚无缥缈的远大理想的坚毅灵魂，放眼整个世界千百年来，本身就是最大的奇迹，这无疑是应当永恒铭记的。</p>
+<h3 id="历史转折中的长征" class="headerLink">
+    <a href="#%e5%8e%86%e5%8f%b2%e8%bd%ac%e6%8a%98%e4%b8%ad%e7%9a%84%e9%95%bf%e5%be%81" class="header-mark"></a>历史转折中的长征</h3><p>长征并非红军的本意，“长征”一词本身甚至出自蒋介石之口，并被用于形容追截红军的国军士兵。然而，正是这场起源于反围剿失败、旷日持久的“战略转移”，让中共从危难之中谋生存跨越性地居于赢得独立、解放全国的新坐标。</p>
+<p>一方面，长征塑造了毛泽东、周恩来等一批执政精英。长征前夕，国民党中统协调清除了中共上海某地下组织，瘫痪其电报系统，使得长征前期党无法同苏联取得直接联系。而正是在长征期间，曾短暂失去权力的毛泽东同志在遵义会议的历史节点上取得了领导地位，纠正了顶着中共中央和红军负责人头衔的博古、李德以及共产国际的许多错误指示，并带领着麾下的红四军取得节节胜利。也无怪乎金一南教授如此评价：“一部电台竟使历史突然间改变了走向，这是一九三四年的博古、李德、毛泽东，以及在上海忙于搜查的国民党秘密警察们，谁都不曾想到的。”然而质变分割历史，变革总是寓于长期的斗争积累之中。中央苏区中央局早已多次对共产国际的指示表达反对，许多党内同志亦对其代言人博古等人不满甚久，正是长征的契机，使得量变促成了质变。与之类似，张国焘的“另立中央”也在长征实践中终结，中国共产党实现了新生。</p>
+<p>另一方面，长征更加速了中共的成熟，为其走向全国性胜利奠定了不可磨灭的基础。根据埃德加·斯诺的调查，红军成员以农民青年为主，他们惊人的忠诚度体现在伤亡率50%的情况下仍然保持战斗力，而一般军队在伤亡率超过5%时就会溃散。长征的苦难恰恰铸就了红军的辉煌，毛泽东、周恩来、彭德怀等人的智慧才能于此更为凸显，中国共产党的韧性也于此更加深远地奠基。</p>
+<h2 id="感悟" class="headerLink">
+    <a href="#%e6%84%9f%e6%82%9f" class="header-mark"></a>感悟</h2><h3 id="红色政权何以存在" class="headerLink">
+    <a href="#%e7%ba%a2%e8%89%b2%e6%94%bf%e6%9d%83%e4%bd%95%e4%bb%a5%e5%ad%98%e5%9c%a8" class="header-mark"></a>红色政权何以存在</h3><p>从南湖红船上不起眼的寥寥数人到夺得新民主主义革命伟大胜利，这支红色政权如何屹立中国政治舞台中央并领导着她实现民族复兴、国家崛起的宏大目标、迈向社会主义、共产主义的理想征程？事实上，国民党一大召开伊始，中共就展现出其卓越超凡的组织能力，这无疑是一个政党组织壮大的首要因素。彼时，这一刚刚成立三年的政党便已开始为前方的探索者提供自身的政治智慧了。</p>
+<p>作为党的三大法宝之一，武装斗争始终是革命的第一要义。如马克思所言，“批判的武器永远代替不了武器的批判”，若要在军阀割据的黑暗世代摧毁旧社会的腐朽大厦，作为硬实力的军事要素必然置于一个革命组织奠基性的位置。这也是中国共产党在工人暴动受到残酷镇压的教训中逐步总结而来的。而历史永远无法忘记的更是那些斗争锤炼中的巨人们——“彭德怀是一团火，一团从里烧到外，随时准备摧枯拉朽的烈火；林彪则是一潭水，一潭深不可测却含而不露的静水”，鞠躬尽瘁的周总理在革命期间展现出令人惊叹的情报工作才能，改革开放的总设计师邓小平也曾千里跃进大别山……群雄闪耀背后，教员的话更是振聋发聩：“革命不是请客吃饭……革命是暴动，是一个阶级推翻另一个阶级的暴烈行动。”</p>
+<p>此外，群众路线指引下的中共正确地找到了自身的历史站位，即代表无产阶级，之于中国大地特别是包括农民、工人在内的广大底层劳动者的利益，向新旧交织的地主、军阀与官僚资本家等统治者宣战，并顺应时势变化笼络部分知识分子阶层与民族资产阶级，代表中华民族的整体利益向日本侵略者及其他西方列强殖民者宣战。“每一次轰轰烈烈的大革命都是对历史的颠倒，也是一次对人们原本位置的颠倒”，鲜明的阶级立场给予了红军战士最为明晰的目标，也阐释了“谁是我们敌人，谁是我们的朋友”这一革命的首要问题。</p>
+<p>严明的纪律、民主的作风则共同构成了中共扎根华夏广袤大地的充分条件。无论是解放前硝烟弥漫的战场还是在天安门城楼宣布“中国人民从此站立起来了”之后的建设时期，人民军队都保持着其不变的子弟兵底色。书中提及，红军的“三大纪律、八项注意”与“不拿群众一针一线”的优良作风令群众印象深刻，红军进驻农村时，许多农民还会自发地组成委员会为他们提供帮助，年轻的人们则对参加这支充满了理想与民主、平等氛围的军队十分踊跃。此外，红军在苏区的分地政策也切实地反映了她的性质与宗旨。而民主的作风在那个封建礼教尚未褪去、军阀体系下等级日趋森严的时代更显得珍贵且富有吸引力。党内民主的发扬使得军队上下级之间的传统隔阂被有效地瓦解了，在组织之内，没有人可以颐指气使，也没有人可以如许多国民党军阀们一般利欲熏心、尊卑显著。从上到下不讳言的批评与自我批评，框架清晰的党内选举制度，以及规章面前人人平等的纪律处分体系，显著地提升了这支庞大队伍的凝聚力和战斗力。战士们洞察着的不仅是此刻的局势，更是一个尚未到达的理想社会、一个具象的赶跑侵略者和旧统治者的奋斗目标。</p>
+<h3 id="唯物的笔调" class="headerLink">
+    <a href="#%e5%94%af%e7%89%a9%e7%9a%84%e7%ac%94%e8%b0%83" class="header-mark"></a>唯物的笔调</h3><p>“历史的奥妙，在于它可以包括无穷无尽的假设。历史的冷峻，又在于它总把假设永远置于假设。”详尽的叙事笔调事无巨细地展现出20世纪上半叶的种种细节，巧妙地铺陈也使得作者的观点态度含蓄内敛，即他希望通过客观事实的组合引导读者于此抽离出辩证的判断。徜徉其中，方才知道，周恩来同志曾“人生中唯一一次拍桌子”与张国焘据理力争，国共第一次合作中，在当代被中共推崇为革命先行者的孙中山也多次设计限制共产党的壮大，军事战略的伟人毛泽东同志亦在遵义会议后经历过多次败仗的挫折，博古与其背后的共产国际提名李德在很大意义上出于对打压中国本土的党员精英的政治考量；更为重要的是，即便是苏联也曾更为支持国民党却又极力控制中国共产党以致后者的成员从“苏共中国党支部”的调侃转变为长征路上对前者政策的强烈反对……</p>
+<p>“从来就没有什么救世主，也不靠神仙皇帝；要创造人类的幸福，全靠我们自己。”一幕幕苦难与辉煌及其内在逻辑联系正是对历史唯物主义的最好印证。高山仰止指向的那群无论多么光芒万丈、高瞻远瞩的英雄们，亦是最广大人民群众的重要一员。人无完人，历史也绝非精心设计的完美剧本。“一个政党、一个社团独立与否，并不在起领导人的主观意念如何，而在于是否具备客观条件。”由是，在共产国际指派的决策者的次次错误之后，秋收起义、农村根据地应运而生；在对苏联不切实际指示的不满情绪不断积累之后，毛泽东代表的本土战略家们在长征中逐一登上舞台中央。</p>
+<h3 id="成大事者" class="headerLink">
+    <a href="#%e6%88%90%e5%a4%a7%e4%ba%8b%e8%80%85" class="header-mark"></a>成大事者</h3><p>“苦难来源于物质的困境和探寻的艰难，辉煌则来源于精神的强大和追求的实践。”《苦难辉煌》所刻画的众多历史人物在浩浩汤汤的时代大潮中烙下鲜明的印迹。</p>
+<p>新中国的缔造者——毛泽东同志在长征中的重要作用在作者的笔下得到了充分的展现。他不仅写下了《星星之火，可以燎原》《论持久战》等旷世巨著，更作为最高指挥者，在一次次的胜负交叠中灵活应变。他不避讳错误，虽然在遵义会议后的头两次战斗中遭受失败，也曾被彭德怀、林彪等前线指挥员异议，可这仍旧无法掩盖他的军事才能和辩证思维，特别是运用机动的战术迅速弥补了先前的漏洞，带领全军在四渡赤水中夺得胜利。</p>
+<p>与之相较，那些半途而废之流如此黯淡。我们确然无法苛责每一位沉浮于历史长河的小人物拥有如此完美的成就，可他们老泪纵横、悔恨不已的结局也警示着当代渴望实现理想的人们如何避免埋没于平凡的大多数中。龚楚，从工农运动、井冈山到红军长征，原本较高的资历与优秀的军事本领让他一度有望载入史册，然而他最终沦为了助纣为虐的叛徒。</p>
+<p>如若那些失败者能够预见未来的结局，便能摇身一变成为英雄的一员吗？在我看来，答案显然是否定的。真正的成大事者不拘泥于成功道途上的每一次选择，恰恰相反，是他们自身的内在品质成就了他们的伟业。缺乏坚定信仰、坚毅意志、正义立场或是优秀才能的前者，只会如蒋介石般在彻底的失败后不甘地在日记中埋怨、在对历史的假设中沉沦。</p>
+<h3 id="遗憾" class="headerLink">
+    <a href="#%e9%81%97%e6%86%be" class="header-mark"></a>遗憾</h3><p>《苦难辉煌》毕竟并非严肃的学术研究报告，在尝试表现尺度如此宏大的历史叙事中不免存在一些不足之处，特别是一些史实尚不全面或带有误导性。譬如，对肃反事件语焉不详，强调了内部的叛徒问题却避开了权力的纷争；又或是尽管并无学术考据上的定论，仍暗示中山舰事件是蒋介石所为。而对长征后期红军的分裂与部署过程虽有较大篇幅却仍显简略，难以搭建出完整的逻辑链条。当然，这只是此版存在的瑕疵之处，而《苦难辉煌》一书正是在不断地修订再版中吸收读者的建议、指正或是新的近代史研究成果。</p>
+<h2 id="结语" class="headerLink">
+    <a href="#%e7%bb%93%e8%af%ad" class="header-mark"></a>结语</h2><p>时至今日，为什么我们仍然需要《苦难辉煌》？</p>
+<p>叱咤风云的人物纷纷消失之后，历史便成为一笔巨大的遗产，完整无损地留给了我们。可并不是每个人都能“以短暂的生命辉映漫长的历史”，历史是兴衰，也是命运。
+因而，如今身为后人的我们复鉴历史，须知解构苦难，才能建构辉煌。当筚路蓝缕的红军战士使光鲜体面的党国将领都不得不为之气折，他们历历在目的艰难险阻便散发出应有的光辉。与此同时，有太多太多的英雄在胜利的前夜倒下，他们无法触及的永恒目标，则是后辈最值得承续的伟大事业。</p>
+<p>最后，正如金一南先生感慨，机缘、时运、窍门从来不属于这个事业，只有依靠不屈不挠的坚韧、义无反顾的坚强、前仆后继的牺牲，我们才能在从革命、建设到改革的漫长征程中披荆斩棘，铸就辉煌。愿共勉！</p>]]></description>
 </item></channel>
 </rss>

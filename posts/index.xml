@@ -5,9 +5,9 @@
         <description>🌳 所有文章 | 暮瞻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</lastBuildDate><atom:link href="https://blog.ralvines.top/posts/" rel="self" type="application/rss+xml" /><item>
     <title>分类问题中的 k 近邻法</title>
-    <link>https://blog.ralvines.top/qianyan/</link>
+    <link>https://blog.ralvines.top/knn/</link>
     <pubDate>Mon, 30 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/qianyan/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/knn/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/11/01/piuKE6K.png" referrerpolicy="no-referrer">
             </div><h2 id="分类问题1" class="headerLink">
@@ -491,7 +491,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ol>
 </div>]]></description>
 </item><item>
-    <title>SQL 强化</title>
+    <title>SQL 技术栈基本语法</title>
     <link>https://blog.ralvines.top/sql/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/sql/</guid>
@@ -865,7 +865,7 @@ k 值一般取一个比较小的数值。通常采用交叉验证法来选取最
 </ol>
 </div>]]></description>
 </item><item>
-    <title>大数据理论与数据分析</title>
+    <title>大数据基本理论</title>
     <link>https://blog.ralvines.top/big-data/</link>
     <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/big-data/</guid>
@@ -1274,73 +1274,32 @@ Spark Streaming</li>
 <h3 id="数据透视表8" class="headerLink">
     <a href="#%e6%95%b0%e6%8d%ae%e9%80%8f%e8%a7%86%e8%a1%a88" class="header-mark"></a>数据透视表<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></h3><h2 id="可视化tableau9" class="headerLink">
     <a href="#%e5%8f%af%e8%a7%86%e5%8c%96tableau9" class="header-mark"></a>可视化：Tableau<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></h2><h3 id="常见问题10" class="headerLink">
-    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%9810" class="header-mark"></a>常见问题<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h3><div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>大数据基础 @知乎用户MuDbXQ <a href="https://zhuanlan.zhihu.com/p/84554633" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/84554633</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>大数据(big data)：基础概念 @刘博 <a href="https://zhuanlan.zhihu.com/p/33619503" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/33619503</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>一文给小白讲清数据治理 @POINT小数点数据 <a href="https://zhuanlan.zhihu.com/p/388520475" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/388520475</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:4">
-<p>什么是数据仓库？它和数据库的区别是什么？看这一篇就够了 @麦聪软件首席架构 <a href="https://zhuanlan.zhihu.com/p/433495465" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/433495465</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:5">
-<p>【基础】大数据技术栈介绍 @法映 <a href="https://zhuanlan.zhihu.com/p/138352849" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/138352849</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:6">
-<p>缺失值的处理（数学建模-数据预处理） @数学建模BOOM <a href="https://zhuanlan.zhihu.com/p/402497542" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/402497542</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:7">
-<p>Excel函数公式大全(图文详解) @真假斗士 <a href="https://zhuanlan.zhihu.com/p/436372294" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/436372294</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:8">
-<p>Excel基础操作 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:9">
-<p>Tableau数据可视化与仪表盘搭建 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:10">
-<p>Tableau常见面试题和答案合集：求职面试必备 <a href="https://www.lsbin.com/15371.html" target="_blank" rel="noopener noreferrer">https://www.lsbin.com/15371.html</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
-</item><item>
-    <title>数据仓库与治理</title>
-    <link>https://blog.ralvines.top/data-warehouse/</link>
-    <pubDate>Sun, 22 Oct 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/data-warehouse/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://z1.ax1x.com/2023/10/23/piAtBlV.png" referrerpolicy="no-referrer">
-            </div><h2 id="数仓建设规范3" class="headerLink">
-    <a href="#%e6%95%b0%e4%bb%93%e5%bb%ba%e8%ae%be%e8%a7%84%e8%8c%833" class="header-mark"></a>数仓建设规范<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><h3 id="架构原则" class="headerLink">
+    <a href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%9810" class="header-mark"></a>常见问题<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h3><h2 id="数仓建设规范13" class="headerLink">
+    <a href="#%e6%95%b0%e4%bb%93%e5%bb%ba%e8%ae%be%e8%a7%84%e8%8c%8313" class="header-mark"></a>数仓建设规范<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></h2><h3 id="架构原则" class="headerLink">
     <a href="#%e6%9e%b6%e6%9e%84%e5%8e%9f%e5%88%99" class="header-mark"></a>架构原则</h3><h4 id="数仓分层" class="headerLink">
     <a href="#%e6%95%b0%e4%bb%93%e5%88%86%e5%b1%82" class="header-mark"></a>数仓分层</h4><ol>
 <li>ODS 源</li>
-<li>DW 明细 建模
+<li>DW 明细 建模</li>
+</ol>
 <ul>
 <li>DWD (Detail) 清理 规范化</li>
 <li>DWM (Middle) 聚合 中间表</li>
 <li>DWS (Service) 汇总 主题域服务数据 宽表（字段多）</li>
 </ul>
-</li>
+<ol start="3">
 <li>DM 轻汇总</li>
-<li>APP 应用
+<li>APP 应用</li>
+</ol>
 <ul>
 <li>数据产品 数据分析 报表</li>
 </ul>
-</li>
-<li>维表层
+<ol start="5">
+<li>维表层</li>
+</ol>
 <ul>
 <li>高基数：资料表 数据量大</li>
 <li>低基数：配置表</li>
 </ul>
-</li>
-</ol>
 <h4 id="主题域划分" class="headerLink">
     <a href="#%e4%b8%bb%e9%a2%98%e5%9f%9f%e5%88%92%e5%88%86" class="header-mark"></a>主题域划分</h4><pre class="mermaid">graph LR;
     A[系统A] --> B(业务过程A)
@@ -1361,7 +1320,7 @@ Spark Streaming</li>
 </li>
 </ul>
 <h4 id="数据模型设计" class="headerLink">
-    <a href="#%e6%95%b0%e6%8d%ae%e6%a8%a1%e5%9e%8b%e8%ae%be%e8%ae%a1" class="header-mark"></a>数据模型设计</h4><p>普通全量表<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+    <a href="#%e6%95%b0%e6%8d%ae%e6%a8%a1%e5%9e%8b%e8%ae%be%e8%ae%a1" class="header-mark"></a>数据模型设计</h4><p>普通全量表<sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <h3 id="模型" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b" class="header-mark"></a>模型</h3><ol>
 <li>星型模型：事实表+维度表</li>
@@ -1379,21 +1338,48 @@ Spark Streaming</li>
 <li>大小倾斜：部分记录大小过大</li>
 </ul>
 <h2 id="hadoop" class="headerLink">
-    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓12" class="headerLink">
-    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%9312" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2><div class="footnotes" role="doc-endnotes">
+    <a href="#hadoop" class="header-mark"></a>Hadoop</h2><h2 id="实例尚硅谷-电商数仓1112" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b%e5%b0%9a%e7%a1%85%e8%b0%b7-%e7%94%b5%e5%95%86%e6%95%b0%e4%bb%931112" class="header-mark"></a>实例：尚硅谷-电商数仓<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup><sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup></h2><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>最强最全面的数仓建设规范指南 @五分钟学大数据 <a href="https://yuanmore.blog.csdn.net/article/details/121265222" target="_blank" rel="noopener noreferrer">https://yuanmore.blog.csdn.net/article/details/121265222</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>大数据基础 @知乎用户MuDbXQ <a href="https://zhuanlan.zhihu.com/p/84554633" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/84554633</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>生命周期管理矩阵 <a href="https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png" target="_blank" rel="noopener noreferrer">https://img-blog.csdnimg.cn/img_convert/d07f7d6509938865ac596bfcfcbee826.png</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>大数据(big data)：基础概念 @刘博 <a href="https://zhuanlan.zhihu.com/p/33619503" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/33619503</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3">
-<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>一文给小白讲清数据治理 @POINT小数点数据 <a href="https://zhuanlan.zhihu.com/p/388520475" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/388520475</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:4">
-<p>尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 <a href="https://zhuanlan.zhihu.com/p/647035072" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/647035072</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>什么是数据仓库？它和数据库的区别是什么？看这一篇就够了 @麦聪软件首席架构 <a href="https://zhuanlan.zhihu.com/p/433495465" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/433495465</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>【基础】大数据技术栈介绍 @法映 <a href="https://zhuanlan.zhihu.com/p/138352849" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/138352849</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>缺失值的处理（数学建模-数据预处理） @数学建模BOOM <a href="https://zhuanlan.zhihu.com/p/402497542" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/402497542</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>Excel函数公式大全(图文详解) @真假斗士 <a href="https://zhuanlan.zhihu.com/p/436372294" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/436372294</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>Excel基础操作 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnOxqQPowAqr0iPzUZYFTirg</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>Tableau数据可视化与仪表盘搭建 @戴师兄 <a href="https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd" target="_blank" rel="noopener noreferrer">https://yrzu9y4st8.feishu.cn/mindnotes/bmncnQCbk8yr68s4eBikgB06Awd</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>Tableau常见面试题和答案合集：求职面试必备 <a href="https://www.lsbin.com/15371.html" target="_blank" rel="noopener noreferrer">https://www.lsbin.com/15371.html</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>最强最全面的数仓建设规范指南 @五分钟学大数据 <a href="https://yuanmore.blog.csdn.net/article/details/121265222" target="_blank" rel="noopener noreferrer">https://yuanmore.blog.csdn.net/article/details/121265222</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p><a href="https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1yY411b72x/?vd_source=e81e93bc6892fd0d7e19b265d26a2b3a</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>尚硅谷物流数仓笔记（数仓基础知识） @橘生淮南 <a href="https://zhuanlan.zhihu.com/p/647035072" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/647035072</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>
@@ -1885,223 +1871,13 @@ ML Python</p>
 </a>
 <p class="img-desc" style="text-align: center">▲ 城市呼吸。</span></p>]]></description>
 </item><item>
-    <title>政治经济学导论</title>
-    <link>https://blog.ralvines.top/zzjjxdl/</link>
+    <title>符号权力的三十年</title>
+    <link>https://blog.ralvines.top/capital/</link>
     <pubDate>Sat, 29 Apr 2023 20:20:40 &#43;0800</pubDate><author>
-                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/zzjjxdl/</guid>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/capital/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAGKJ0.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 经济学院<br>
-🕙 2022-2023 夏<br>
-🧑‍🏫 俞彬<br>
-📝 40%平时（两次问卷调查），60%论文</div>
-        </div>
-    </div>
-
-    
-
-
-    <div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>课程材料<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><ul>
-<li>PPT（导论）
-<ul>
-<li>Lecture1</li>
-<li>Lecture2</li>
-<li>Lecture3</li>
-<li>Lecture4</li>
-<li>Lecture5</li>
-<li>Lecture6</li>
-</ul>
-</li>
-<li><a href="https://classroom.zju.edu.cn/coursedetail?course_id=47818&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">智云课堂回放</a></li>
-</ul>
-</div>
-        </div>
-    </div>
-
-    
-<h2 id="lecture1" class="headerLink">
-    <a href="#lecture1" class="header-mark"></a>Lecture1.</h2><blockquote>
-<p>夏一周</p>
-</blockquote>
-<ul>
-<li>客观/主观价值论（信用、劳动）</li>
-<li>货币
-<ul>
-<li>明朝货币（农业、税收）</li>
-<li>俄乌战争、汇率（资源）</li>
-<li>美元（资产、国债，农产品、石油、高新制造）</li>
-<li>长征、抗币（与盐、农产品的锚定）</li>
-<li>国民党法币（铸币税）</li>
-<li>人民币国际化（工业门类）</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture2" class="headerLink">
-    <a href="#lecture2" class="header-mark"></a>Lecture2.</h2><blockquote>
-<p>夏三周（引用政治经济学春二周的内容，基本一致）</p>
-</blockquote>
-<ul>
-<li>货币
-<ul>
-<li>螃蟹战略、石油美元，结算系统 SWIFT -&gt; 中国</li>
-<li>数字人民币（DCEP） 1.0 -&gt; 2.0（移动支付）-&gt; 3.0，DC、EP</li>
-<li>大明宝钞、民国法币/金圆券、美元/港币（联系汇率制）、人民币，锚定资产 &lt;-&gt; 负债</li>
-<li>货币：农业（耕地红线）、制造业（完整工业体系）、资产（清洁能源）、文明</li>
-<li>核心：劳动价值论、历史唯物主义</li>
-</ul>
-</li>
-<li>阶级和生产关系的变革
-<ul>
-<li>商鞅变法：废井田（王有） -&gt; 私有、买卖</li>
-<li>江南豪强 -&gt; 科举 -&gt; 资本文官（户部官员不让浙江人担任、万里国本之争）</li>
-<li>明朝
-<ul>
-<li>土地兼并：对农民生产资料的剥夺</li>
-<li>三大阶级、民众鼓噪
-<ul>
-<li>封建官僚、资本官僚、民众</li>
-<li>《显微镜的大明》</li>
-</ul>
-</li>
-<li>失败：资产阶级的软弱性</li>
-</ul>
-</li>
-<li>国富论关于三大阶级论述
-<ul>
-<li>地主、工资生活的阶级、靠利润生活的阶级</li>
-</ul>
-</li>
-<li>资本主义生产关系出现的两个条件
-<ul>
-<li>失去生产资料、人身自由</li>
-<li>少数人的货币积累</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>价值和资本
-<ul>
-<li>特殊商品：劳动力，必要劳动时间和剩余劳动时间</li>
-<li>价值与剩余价值（两种形式：绝对/相对）</li>
-<li>不变资本与可变资本，资本（完成价值增殖的钱）</li>
-<li>资本主义制度的工资本质（计时/计件，后者剥削更隐蔽）</li>
-<li>高强度长时间工作和高工资的因果关系</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture3" class="headerLink">
-    <a href="#lecture3" class="header-mark"></a>Lecture3.</h2><blockquote>
-<p>夏四周</p>
-</blockquote>
-<ul>
-<li>中国资本主义黄金时代
-<ul>
-<li>买办</li>
-<li>资产阶级的矛盾诉求</li>
-<li>自由资本主义到垄断资本主义</li>
-</ul>
-</li>
-<li>剩余价值学说
-<ul>
-<li>商品化的劳动力：价值和使用价值</li>
-<li>资本主义生产过程：劳动+价值增殖</li>
-<li>流通领域的劳动力和商品买卖和非流通领域的价值增殖（剥削）</li>
-<li>企业亏本：私人劳动转换为社会劳动</li>
-<li>私有化和苏联解体</li>
-<li>两种形式：绝对、相对</li>
-<li>工资本质和形式：计时、计件</li>
-</ul>
-</li>
-<li>一些实例
-<ul>
-<li>湖畔大学和滴滴打车</li>
-<li>流量的政治经济学解释
-<ul>
-<li>消费主义</li>
-<li>标签化和群体割裂</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture4" class="headerLink">
-    <a href="#lecture4" class="header-mark"></a>Lecture4.</h2><blockquote>
-<p>夏五周</p>
-</blockquote>
-<ul>
-<li>历史虚无主义、解构</li>
-<li>剩余价值、利润转化
-<ul>
-<li>不变资本、可变资本</li>
-<li>平均利润率</li>
-<li>价值、价格转化</li>
-</ul>
-</li>
-<li>产业资本、商业资本</li>
-<li>借贷资本、银行资本
-<ul>
-<li>三家私有银行</li>
-</ul>
-</li>
-<li>股份制、“资本民主化”
-<ul>
-<li>股民不是资产阶级</li>
-<li>白领、自由职业、微企业</li>
-<li>大企业对中小企业的剥削</li>
-</ul>
-</li>
-<li>生产关系与上层建筑
-<ul>
-<li>日本财阀</li>
-<li>特朗普、资本全球主义和经济民族主义</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture5" class="headerLink">
-    <a href="#lecture5" class="header-mark"></a>Lecture5.</h2><blockquote>
-<p>夏六周</p>
-</blockquote>
-<ul>
-<li>资本主义再生产
-<ul>
-<li>资本积累</li>
-<li>二十年代美国</li>
-</ul>
-</li>
-<li>两极分化、二八定律</li>
-<li>平台、监视资本主义
-<ul>
-<li>数据监管</li>
-</ul>
-</li>
-</ul>
-<h2 id="lecture6" class="headerLink">
-    <a href="#lecture6" class="header-mark"></a>Lecture6.</h2><blockquote>
-<p>夏七周</p>
-</blockquote>
-<ul>
-<li>人工智能时代的私有制剥削</li>
-<li>费米悖论、人类的未来</li>
-<li>周期性金融危机</li>
-<li>发达资本主义国家的全国掠夺和剥削</li>
-</ul>
-<h2 id="lecture7" class="headerLink">
-    <a href="#lecture7" class="header-mark"></a>Lecture7.</h2><blockquote>
-<p>夏八周</p>
-</blockquote>
-<h2 id="期末论文" class="headerLink">
-    <a href="#%e6%9c%9f%e6%9c%ab%e8%ae%ba%e6%96%87" class="header-mark"></a>期末论文</h2><p><em>（课程约定）</em></p>
-<p>这是资本无序扩张的第三十年，与泡沫般飞涨的资本主义繁荣神话相伴的是，工业化和市场化浪潮下生产资料的结构性错配在其让渡于资本权力的进程中精妙地编织起一套无处挣脱的生产方式和叙事体系，即便是矗立于社会金字塔尖的名义精英也潜意识地驯服于资本-消费符号构成的全景社会之内、安适于新贵族般的森严而坚实的壁龛之中。</p>
+            </div><p>这是资本无序扩张的第三十年，与泡沫般飞涨的资本主义繁荣神话相伴的是，工业化和市场化浪潮下生产资料的结构性错配在其让渡于资本权力的进程中精妙地编织起一套无处挣脱的生产方式和叙事体系，即便是矗立于社会金字塔尖的名义精英也潜意识地驯服于资本-消费符号构成的全景社会之内、安适于新贵族般的森严而坚实的壁龛之中。</p>
 <p>资本主义首要刻画的是附着于人性原始欲望的商品世界童话。在纸醉金迷的浪潮中，头脑聪明、精于算计的“精致利己主义”轻而易举地渗透了道德意识形态的高地，以财富导向的社会天梯的攀附者们，自发地戴上了旧时代残存的冠冕，在阶级的金字塔沿互相倾轧。在这个效率第一的时代，几乎没有人意识到自己身处于资本疯狂自我增殖的子宫之中，由其浇筑的雇佣制社会化再生产链路和附着于其间的劳动者和资本家，无非是燃料和傀儡的区别，所有人生来的目的便是幻想在资本浇筑的符号幻觉里叱咤风云，他们无一例外地在攫取财富和消费需求的周期里麻木地寻求物欲的安慰，劳作成了自我意识存续的手段本身。</p>
 <p>而在商品和消费为通用语言的符号社会里，无产阶级以打工人的身份被赋予了更广泛、更系统性的剥削定位，工人不仅仅作为生产环节的劳动资料被以工资的形式贴上价格标签自由出卖，同时也在货币符号的诱惑下成为劳动产物的需求端被更为精细地剖分为消费主义的二次收割对象。被褫夺了时间和生活的工薪阶层在博取他人认同和辨识的消费行为中无形地将反抗意识转换为心理层面异化了的满足感，财富和消费定义了新的身份价值标签，于是人们并不再孤立地居于物的使用价值作用范畴之中，而是以消费重新勾勒了社会地位与身份认同，在这里，剥削的原罪被巧妙地消弭，无产阶级在集体无意识中反而为资本主义生产―利润体系的高效运转和规模扩大贡献了正向反馈，成为其合法性的建筑师和辩经者。</p>
 <p>随着资本扩张悄然僭越了将它释放出来的设计师们所划定的效率范畴，文化意识形态和政治结构便在这套全球化的资本主义生产体系下显得势单力薄，在私有财产神圣不可侵犯的神话里，富人与穷人间事实上如猿猴与人类般地经历了二次自然选择，塑造了从生活方式到价值观的社会隔离，于是从小镇成长起来的新兴精英阶层渐渐失去了和底层共情的意愿，剥削不再是可耻的，福报和奋斗的措辞从老大哥修正主义批判的辞典里焕发新生，一面是劳动消费负债三重枷锁嵌入焦虑和麻木的普遍神色，群众推动历史的史观则被英雄和个体的抽象叙事缓缓取代，另一面是资本的提线木偶将贪婪的目光投射于涵盖了政治权力和舆论场的一切尚未触及的领域，不遗余力地把社会斗争形式分解为多元且离散的要素，被身份标签细化瓦解的无产者则只能不平等地收获可怜的施舍。一批高级打工人陷入归化小资产阶级的自我实现预言之中，另一批人则陷入理论荒芜的桎梏，或是在新自由主义的幻想中极化，或是在宏大叙事中将泛左翼与民族主义联姻。</p>
@@ -3102,5 +2878,212 @@ ML Python</p>
 </li>
 </ol>
 </div>]]></description>
+</item><item>
+    <title>偏微分方程绪论</title>
+    <link>https://blog.ralvines.top/pde/</link>
+    <pubDate>Wed, 01 Mar 2023 20:20:40 &#43;0800</pubDate><author>
+                        <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/pde/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://z1.ax1x.com/2023/10/23/piAW5eH.png" referrerpolicy="no-referrer">
+            </div><h2 id="发展史" class="headerLink">
+    <a href="#%e5%8f%91%e5%b1%95%e5%8f%b2" class="header-mark"></a>发展史</h2><blockquote>
+<p>17 - 微积分 Newton &amp; Lebnitz<br>
+18 - Euler &amp; Bernoulli &amp; Lagrange &amp; Laplace &amp; Poisson<br>
+19 - pde应用 Fourier &amp; Green &amp; Cauchy &amp; Hadamard<br>
+20 - 复杂理论<br>
+21 - 计算机数值分析 &amp; 微分方程数值解</p>
+</blockquote>
+<h2 id="基本定义" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89" class="header-mark"></a>基本定义</h2><h3 id="概念" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h3><ul>
+<li>
+<p><strong>向量：</strong> 开区域 $$x=(x_1,x_2,\cdots,x_n)\in \mathbb{R}^n,x\in \Omega$$</p>
+</li>
+<li>
+<p><strong>函数：</strong>
+$$u:\Omega\rightarrow\mathbb{R}$$
+$$偏导\ \displaystyle\frac{\partial u}{\partial x_1}=\partial_{x_{1}}u=\partial_{1}u$$</p>
+</li>
+<li>
+<p><strong>梯度：</strong>$$grad/\nabla/Du=(\partial_{1}u,\partial_{2}u,\cdots,\partial_{n}u)$$</p>
+</li>
+<li>
+<p><strong>散度：</strong>$$\vec{F}=(F_1,F_2,\cdots,F_n),\Omega\rightarrow \mathbb{R}^n\Rightarrow div\vec{F}=\displaystyle\sum\limits_{i=1}^n\frac{\partial F_i}{\partial x_i}$$</p>
+</li>
+<li>
+<p><strong>Hessian矩阵：</strong> $$D^2u=\begin{pmatrix}\displaystyle\frac{\partial^2u}{\partial x_1^2}&\displaystyle\frac{\partial^2 u}{\partial x_1x_2}&\cdots&\displaystyle\frac{\partial^2u}{\partial x_1x_n}\\\vdots&\vdots&\ddots&\vdots\\\displaystyle\frac{\partial^2u}{\partial x_nx_1}&\displaystyle\frac{\partial^2u}{\partial x_nx_2}&\cdots&\displaystyle\frac{\partial^2u}{\partial x_n^2}\end{pmatrix}$$</p>
+</li>
+<li>
+<p><strong>Laplace算子：</strong> $$\Delta u=tr(D^2u)=\displaystyle\sum\limits_{i=1}^n\frac{\partial ^2u}{\partial x_i^2}=\text{div}(Du)\ 散度的梯度$$</p>
+</li>
+<li>
+<p><strong>所有k阶偏导：</strong>
+$$D^ku=\displaystyle\frac{\partial^ku}{\partial x_{i1}\partial x_{i2}\cdots\partial x_{ik}}\in\mathbb{R}^{n^k},\ n^k个$$
+$$|D^ku|=(\sum\limits_{i1=1}^n\sum\limits_{i2=1}^n\cdots\sum\limits_{ik=1}^n|\partial_{x1}\partial_{x2}\cdots\partial_{xk}u|)^{1/2}$$</p>
+</li>
+<li>
+<p><strong>多重指标：</strong>
+$$\alpha=(\alpha_1,\alpha_2,\cdots,\alpha_n),$$
+$$阶\ |\alpha|=\alpha_1+\alpha_2+\cdots+\alpha_n$$
+$$去重\ D^\alpha u=\partial_{x1}^{\alpha1}\partial_{x1}^{\alpha2}\cdots\partial_{x1}^{\alpha n}\Rightarrow|D^ku|=(\sum\limits_{|\alpha|=k}|D^\alpha u|^2)^{1/2}$$</p>
+</li>
+<li>
+<p><strong>偏微分方程：</strong>
+ 
+$$F(D^ku(x),D^{k-1}u(x),\cdots,Du(x),u(x),x)=0, x\in\Omega.\ k阶$$
+
+$$\left\{\begin{array}{l}
+F:\mathbb{R}^{n^k}\times\mathbb{R}^{n^{k-1}}\times\cdots\times\mathbb{R}^{n}\times\mathbb{R}\times\Omega\rightarrow\mathbb{R}.（已知）\\
+u:\Omega\rightarrow\mathbb{R}.（未知）\\
+\end{array}\right.$$
+</p>
+</li>
+</ul>
+<h3 id="线性空间" class="headerLink">
+    <a href="#%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4" class="header-mark"></a>线性空间</h3><ul>
+<li>
+<p><strong>函数：</strong>
+ 
+$$u\rightarrow C(\Omega), ||u||_{C(\Omega)}=\sup\limits_{x\in\Omega} |u(x)|.$$
+</p>
+</li>
+<li>
+<p><strong>k次连续可微函数：</strong>
+ 
+$$ ||u||_{C^k(\Omega)}=\sup\limits_{x\in\Omega}|u(x)| + \displaystyle\sum\limits_{|\alpha|=1}^2 \sup\limits_{x\in\Omega}|D^\alpha u(x)| $$
+</p>
+</li>
+<li>
+<p><strong>支集：</strong>
+
+$$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
+
+所有满足$u(x)\neq0$点集在$\Omega$上的闭包</p>
+</li>
+<li>
+<p>$C_0^k$ 具有紧支集的函数</p>
+</li>
+<li>
+<p>$C^\infty(\Omega)=\bigcap\limits_{k=1}^\infty C^k(\Omega)$任意阶偏导存在且连续的函数类</p>
+</li>
+</ul>
+<h3 id="解的光滑性" class="headerLink">
+    <a href="#%e8%a7%a3%e7%9a%84%e5%85%89%e6%bb%91%e6%80%a7" class="header-mark"></a>解的光滑性</h3><center>解析 $\rightarrow$ 无穷光滑 $\rightarrow$ k次连续可微(古典解) $\rightarrow$ 弱解(广义解)</center>
+<h3 id="分类" class="headerLink">
+    <a href="#%e5%88%86%e7%b1%bb" class="header-mark"></a>分类</h3><ul>
+<li>
+<p><strong>线性：</strong>$\displaystyle\sum\limits_{|\alpha|\leq k}a_{\alpha}(x)D^{\alpha}u=f(x)$</p>
+</li>
+<li>
+<p><strong>半线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}(x)D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
+</li>
+<li>
+<p><strong>拟线性：</strong>$\displaystyle\sum\limits_{|\alpha|=k}a_{\alpha}[D^{k-1}u(x),\cdots,Du(x),u(x),x]D^{\alpha}u=f[D^{k-1}u(x),\cdots,Du(x),u(x),x]$</p>
+</li>
+<li>
+<p>完全非线性：非线性依赖 $D^ku$</p>
+</li>
+</ul>
+<h2 id="实例" class="headerLink">
+    <a href="#%e5%ae%9e%e4%be%8b" class="header-mark"></a>实例</h2><ol>
+<li><strong>Laplace方程：</strong>$\Delta u=0$</li>
+<li><strong>特征值方程：</strong>$\Delta u+\lambda u=0$</li>
+<li><strong>热方程：</strong>$u_t-a^2\Delta u=0(a&gt;0)$</li>
+<li>&hellip;</li>
+</ol>
+<h2 id="椭圆型" class="headerLink">
+    <a href="#%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>椭圆型&amp;</h2><h2 id="适定性" class="headerLink">
+    <a href="#%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>适定性</h2><h3 id="定义" class="headerLink">
+    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h3><ul>
+<li>
+<p>定解问题：PDE+条件</p>
+</li>
+<li>
+<p>适定：解存在、唯一、连续依赖已知函数</p>
+</li>
+<li>
+<p>形式解：对实际问题假设解的光滑性以求出表达式（先验估计）</p>
+</li>
+<li>
+<p>$\Omega$ - 开域、$\overline\Omega$ - 闭包、$\partial\Omega$ - 边界</p>
+<p> $\mathbb{R}_+^n=\{x=(x_1,\cdots,x_n)\in\mathbb{R}^n|x_n>0\}$ 上半空间 <br></p>
+ $\mathbb{R}_+^1=\mathbb{R}_+,\space\mathbb{R}_+^{n+1}=\mathbb{R}_+^n\times\mathbb{R}_+$ 
+</li>
+<li>
+<p><strong>闭球：</strong>$B(x,r),$ 体积 $\alpha(n)r^n$</p>
+</li>
+</ul>
+<h3 id="定理" class="headerLink">
+    <a href="#%e5%ae%9a%e7%90%86" class="header-mark"></a>定理</h3><ul>
+<li><strong>Green 公式</strong></li>
+</ul>
+<h1 id="位势方程" class="headerLink">
+    <a href="#%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>位势方程</h1><h2 id="possion方程" class="headerLink">
+    <a href="#possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>Possion方程</h2><p>$$-\Delta u=f(x)$$</p>
+<h2 id="调和函数" class="headerLink">
+    <a href="#%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>调和函数</h2><p>$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$$</p>
+<h1 id="热方程" class="headerLink">
+    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>热方程</h1><h2 id="基本定义-1" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89-1" class="header-mark"></a>基本定义</h2><h3 id="热方程-1" class="headerLink">
+    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b-1" class="header-mark"></a>热方程</h3><ul>
+<li><strong>基本形式：</strong>$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t&gt;0$</li>
+<li><strong>推导</strong></li>
+<li>反应扩散方程：反应项、扩散项</li>
+</ul>
+<h3 id="概念-1" class="headerLink">
+    <a href="#%e6%a6%82%e5%bf%b5-1" class="header-mark"></a>概念</h3><ul>
+<li>
+<p><strong>定解问题：</strong></p>
+<ul>
+<li>
+<p><strong>定解条件</strong></p>
+<ul>
+<li>
+<p><strong>初始条件：</strong>$u(x,0)=\varphi (x)$</p>
+</li>
+<li>
+<p><strong>边值条件：</strong> 边界分布或外围介质影响（$x\in\partial\Omega,t\ge0$）</p>
+<p>$u(x,t)=g(x,t)$. $g=\text{const}$ 恒温</p>
+<p>$k\frac{\partial}{\partial\displaystyle\vec{n}}u(x,t)=g(x,t)$. $g\ge0$ 热量流入；$g\equiv0$ 绝热</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>偏微分方程</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>函数集：</strong> 所有$Q$内关于$x$二阶偏导连续，关于$t$一阶偏导连续函数</p>
+ $C^{2,1}(Q)=\{u\in C(Q)|u_t, u_{xi},u_{xixj}\in C(Q);i,j=1,\cdots,n\}$ 
+</li>
+<li>
+<p><strong>古典解：</strong> 热方程在上述集中的解</p>
+</li>
+<li>
+<p>$C^{1,0}(Q)$</p>
+</li>
+</ul>
+<h2 id="初值问题" class="headerLink">
+    <a href="#%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>初值问题</h2><h3 id="fourier" class="headerLink">
+    <a href="#fourier" class="header-mark"></a>Fourier</h3><ul>
+<li>
+<p><strong>Fourier 级数展开</strong></p>
+<p>$f(x)\in C^1(\mathbb{R}),\space\forall l&gt;0,\space x\in(-l,l)$</p>
+<p>$f(x)=\displaystyle\frac{a_0}{2}+\displaystyle\sum\limits_{k=1}^\infty \big (a_k\cos \displaystyle\frac{k\pi}{l}x+b_k\sin\displaystyle\frac{k\pi}{l}x\big )$</p>
+</li>
+<li>
+<p><strong>Fourier 积分：</strong> 级数极限</p>
+</li>
+</ul>
+<h3 id="一维热方程初值问题" class="headerLink">
+    <a href="#%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>一维热方程初值问题</h3>
+$$
+\displaystyle\left\{\begin{array}{l}
+ \displaystyle\frac{\partial{u}}{\partial t}-a^2\displaystyle\frac{\partial^2u}{\partial x^2}=f(x,t), & (x,t)\in\mathbb{R}\times\mathbb{R}_+\\
+u(x,0)=\varphi(x), & x\in\mathbb
+{R}\\
+  \end{array}\right.
+$$]]></description>
 </item></channel>
 </rss>

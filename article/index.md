@@ -98,9 +98,9 @@
     </a>
   </div>
   <div class="subpage-box-cover-2-left">
-    <a href="../categories/回溯" data-pjax-state="">
+    <a href="../categories/评论" data-pjax-state="">
       <p class="image-hyper">⏳</p>
-      <p class="image-caption">回溯</p>
+      <p class="image-caption">评论</p>
       <img alt="回溯" data-src="" src="https://z1.ax1x.com/2023/10/24/piEyqgg.png" data-loaded="true">
     </a>
   </div>

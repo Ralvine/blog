@@ -3,28 +3,6 @@
 
 <!--more-->
 
-{{< admonition quote "课程信息" true >}}
-🎓 数学科学学院<br>
-🕙 2021-2022 秋冬<br>
-🧑‍🏫 王何宇<br>
-📝 作业，项目作业，期末考试
-{{< /admonition >}}
-
-{{< admonition note "课程材料" true >}}
-- 《Mathematical Foundations for Data Analysis》Jeff M. Phillips
-{{< /admonition >}}
-
-{{< admonition note "课程大纲" true >}}
-- CH3. 链表、栈和队列
-- CH4. 树
-- CH5. 哈希
-- CH6. 优先队列和堆
-- CH7. 分类
-- CH8. *
-- CH9. 图
-- Extra. 主定理
-{{< /admonition >}}
-
 ## C++ 基础知识
 
 ###  动态内存与释放
