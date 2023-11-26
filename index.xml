@@ -2993,99 +2993,98 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 <li><strong>热方程：</strong>$u_t-a^2\Delta u=0(a&gt;0)$</li>
 <li>&hellip;</li>
 </ol>
-<h2 id="椭圆型" class="headerLink">
-    <a href="#%e6%a4%ad%e5%9c%86%e5%9e%8b" class="header-mark"></a>椭圆型&amp;</h2><h2 id="适定性" class="headerLink">
-    <a href="#%e9%80%82%e5%ae%9a%e6%80%a7" class="header-mark"></a>适定性</h2><h3 id="定义" class="headerLink">
-    <a href="#%e5%ae%9a%e4%b9%89" class="header-mark"></a>定义</h3><ul>
-<li>
-<p>定解问题：PDE+条件</p>
-</li>
-<li>
-<p>适定：解存在、唯一、连续依赖已知函数</p>
-</li>
-<li>
-<p>形式解：对实际问题假设解的光滑性以求出表达式（先验估计）</p>
-</li>
-<li>
-<p>$\Omega$ - 开域、$\overline\Omega$ - 闭包、$\partial\Omega$ - 边界</p>
-<p> $\mathbb{R}_+^n=\{x=(x_1,\cdots,x_n)\in\mathbb{R}^n|x_n>0\}$ 上半空间 <br></p>
- $\mathbb{R}_+^1=\mathbb{R}_+,\space\mathbb{R}_+^{n+1}=\mathbb{R}_+^n\times\mathbb{R}_+$ 
-</li>
-<li>
-<p><strong>闭球：</strong>$B(x,r),$ 体积 $\alpha(n)r^n$</p>
-</li>
-</ul>
-<h3 id="定理" class="headerLink">
-    <a href="#%e5%ae%9a%e7%90%86" class="header-mark"></a>定理</h3><ul>
-<li><strong>Green 公式</strong></li>
-</ul>
-<h1 id="位势方程" class="headerLink">
-    <a href="#%e4%bd%8d%e5%8a%bf%e6%96%b9%e7%a8%8b" class="header-mark"></a>位势方程</h1><h2 id="possion方程" class="headerLink">
-    <a href="#possion%e6%96%b9%e7%a8%8b" class="header-mark"></a>Possion方程</h2><p>$$-\Delta u=f(x)$$</p>
-<h2 id="调和函数" class="headerLink">
-    <a href="#%e8%b0%83%e5%92%8c%e5%87%bd%e6%95%b0" class="header-mark"></a>调和函数</h2><p>$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x), \mathrm{d}x$$</p>
-<h1 id="热方程" class="headerLink">
-    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b" class="header-mark"></a>热方程</h1><h2 id="基本定义-1" class="headerLink">
-    <a href="#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89-1" class="header-mark"></a>基本定义</h2><h3 id="热方程-1" class="headerLink">
-    <a href="#%e7%83%ad%e6%96%b9%e7%a8%8b-1" class="header-mark"></a>热方程</h3><ul>
-<li><strong>基本形式：</strong>$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t&gt;0$</li>
-<li><strong>推导</strong></li>
-<li>反应扩散方程：反应项、扩散项</li>
-</ul>
-<h3 id="概念-1" class="headerLink">
-    <a href="#%e6%a6%82%e5%bf%b5-1" class="header-mark"></a>概念</h3><ul>
-<li>
-<p><strong>定解问题：</strong></p>
-<ul>
-<li>
-<p><strong>定解条件</strong></p>
-<ul>
-<li>
-<p><strong>初始条件：</strong>$u(x,0)=\varphi (x)$</p>
-</li>
-<li>
-<p><strong>边值条件：</strong> 边界分布或外围介质影响（$x\in\partial\Omega,t\ge0$）</p>
-<p>$u(x,t)=g(x,t)$. $g=\text{const}$ 恒温</p>
-<p>$k\frac{\partial}{\partial\displaystyle\vec{n}}u(x,t)=g(x,t)$. $g\ge0$ 热量流入；$g\equiv0$ 绝热</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>偏微分方程</strong></p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>函数集：</strong> 所有$Q$内关于$x$二阶偏导连续，关于$t$一阶偏导连续函数</p>
- $C^{2,1}(Q)=\{u\in C(Q)|u_t, u_{xi},u_{xixj}\in C(Q);i,j=1,\cdots,n\}$ 
-</li>
-<li>
-<p><strong>古典解：</strong> 热方程在上述集中的解</p>
-</li>
-<li>
-<p>$C^{1,0}(Q)$</p>
-</li>
-</ul>
-<h2 id="初值问题" class="headerLink">
-    <a href="#%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>初值问题</h2><h3 id="fourier" class="headerLink">
-    <a href="#fourier" class="header-mark"></a>Fourier</h3><ul>
-<li>
-<p><strong>Fourier 级数展开</strong></p>
-<p>$f(x)\in C^1(\mathbb{R}),\space\forall l&gt;0,\space x\in(-l,l)$</p>
-<p>$f(x)=\displaystyle\frac{a_0}{2}+\displaystyle\sum\limits_{k=1}^\infty \big (a_k\cos \displaystyle\frac{k\pi}{l}x+b_k\sin\displaystyle\frac{k\pi}{l}x\big )$</p>
-</li>
-<li>
-<p><strong>Fourier 积分：</strong> 级数极限</p>
-</li>
-</ul>
-<h3 id="一维热方程初值问题" class="headerLink">
-    <a href="#%e4%b8%80%e7%bb%b4%e7%83%ad%e6%96%b9%e7%a8%8b%e5%88%9d%e5%80%bc%e9%97%ae%e9%a2%98" class="header-mark"></a>一维热方程初值问题</h3>
+<!-- ## 椭圆型&
+
+## 适定性
+
+### 定义
+
+- 定解问题：PDE+条件
+
+- 适定：解存在、唯一、连续依赖已知函数
+
+- 形式解：对实际问题假设解的光滑性以求出表达式（先验估计）
+
+- $\Omega$ - 开域、$\overline\Omega$ - 闭包、$\partial\Omega$ - 边界
+
+   $\mathbb{R}_+^n=\{x=(x_1,\cdots,x_n)\in\mathbb{R}^n|x_n>0\}$ 上半空间 <br>
+  
+   $\mathbb{R}_+^1=\mathbb{R}_+,\space\mathbb{R}_+^{n+1}=\mathbb{R}_+^n\times\mathbb{R}_+$ 
+
+- **闭球：**$B(x,r),$ 体积 $\alpha(n)r^n$
+
+
+### 定理
+
+- **Green 公式**
+
+# 位势方程
+
+## Possion方程
+
+$$-\Delta u=f(x)$$
+
+## 调和函数
+
+$$\displaystyle\int_a^b\hspace{-1.5em}-\ f(x)\, \mathrm{d}x$$
+
+# 热方程
+
+## 基本定义
+
+### 热方程
+
+- **基本形式：**$u_t-a^2\Delta u=f,\space u(x,t),\space f(x,t),\space x\in\Omega\subset\mathbb{R^n},t>0$
+- **推导**
+- 反应扩散方程：反应项、扩散项
+
+### 概念
+
+- **定解问题：**
+
+  - **定解条件**
+
+    - **初始条件：**$u(x,0)=\varphi (x)$
+
+    - **边值条件：** 边界分布或外围介质影响（$x\in\partial\Omega,t\ge0$）
+
+      $u(x,t)=g(x,t)$. $g=\text{const}$ 恒温
+      
+      $k\frac{\partial}{\partial\displaystyle\vec{n}}u(x,t)=g(x,t)$. $g\ge0$ 热量流入；$g\equiv0$ 绝热
+
+  - **偏微分方程**
+
+- **函数集：** 所有$Q$内关于$x$二阶偏导连续，关于$t$一阶偏导连续函数
+  
+   $C^{2,1}(Q)=\{u\in C(Q)|u_t, u_{xi},u_{xixj}\in C(Q);i,j=1,\cdots,n\}$ 
+
+- **古典解：** 热方程在上述集中的解
+
+- $C^{1,0}(Q)$
+
+## 初值问题
+
+### Fourier
+
+- **Fourier 级数展开**
+
+  $f(x)\in C^1(\mathbb{R}),\space\forall l>0,\space x\in(-l,l)$
+
+  $f(x)=\displaystyle\frac{a_0}{2}+\displaystyle\sum\limits_{k=1}^\infty \big (a_k\cos \displaystyle\frac{k\pi}{l}x+b_k\sin\displaystyle\frac{k\pi}{l}x\big )$
+
+- **Fourier 积分：** 级数极限
+
+### 一维热方程初值问题
+
+
 $$
 \displaystyle\left\{\begin{array}{l}
  \displaystyle\frac{\partial{u}}{\partial t}-a^2\displaystyle\frac{\partial^2u}{\partial x^2}=f(x,t), & (x,t)\in\mathbb{R}\times\mathbb{R}_+\\
 u(x,0)=\varphi(x), & x\in\mathbb
 {R}\\
   \end{array}\right.
-$$]]></description>
+$$
+
+ -->]]></description>
 </item></channel>
 </rss>

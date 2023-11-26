@@ -82,7 +82,7 @@ $$spt\space u=\overline{\{ x\in\Omega|u(x)\neq0\}}.$$
 3. **热方程：**$u_t-a^2\Delta u=0(a>0)$
 4. ...
 
-## 椭圆型&
+<!-- ## 椭圆型&
 
 ## 适定性
 
@@ -174,4 +174,4 @@ u(x,0)=\varphi(x), & x\in\mathbb
   \end{array}\right.
 $$
 {{< /math >}}
-
+ -->
