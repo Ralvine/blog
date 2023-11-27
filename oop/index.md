@@ -3,14 +3,7 @@
 
 <!--more-->
 
-{{< admonition quote "课程信息" true >}}
-🎓 计算机科学与技术学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 许威威<br>
-📝 50%作业，50%期末
-{{< /admonition >}}
-
-## 介绍[^1]
+## 介绍
 
 Buzzwords
 - 继承
@@ -156,8 +149,4 @@ Class中有成员变量为其他Class类型，即称其为成员对象。例如C
 还需要为其写单独的复制构造函数。
 
 若声明时直接赋值，属于调用构造函数。
-
-[^1]: 智云课堂回放 https://classroom.zju.edu.cn/coursedetail?course_id=50910&tenant_code=112
-[^2]: 面向对象MOOC https://www.bilibili.com/video/BV1ob411q7vb/
-[^3]: 笔记 @Ryan
 

@@ -1390,21 +1390,8 @@ Spark Streaming</li>
                         <name>Ralvine</name><uri>https://blog.ralvines.top/about/praise/</uri><email>ralvine@163.com</email></author><guid>https://blog.ralvines.top/oop/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://z1.ax1x.com/2023/10/23/piAWIwd.png" referrerpolicy="no-referrer">
-            </div><div class="details admonition quote open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>课程信息<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">🎓 计算机科学与技术学院<br>
-🕙 2022-2023 春夏<br>
-🧑‍🏫 许威威<br>
-📝 50%作业，50%期末</div>
-        </div>
-    </div>
-
-    
-<h2 id="介绍1" class="headerLink">
-    <a href="#%e4%bb%8b%e7%bb%8d1" class="header-mark"></a>介绍<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2><p>Buzzwords</p>
+            </div><h2 id="介绍" class="headerLink">
+    <a href="#%e4%bb%8b%e7%bb%8d" class="header-mark"></a>介绍</h2><p>Buzzwords</p>
 <ul>
 <li>继承</li>
 <li>cohesion 凝聚</li>
@@ -1503,15 +1490,7 @@ Spark Streaming</li>
 <p>此时返回对象需要引用，如<code>String&amp;</code>：应当保留运算符原本特性，使得允许a=b=c和(a=b)=c.</p>
 <p>还需要防止s=s.</p>
 <p>还需要为其写单独的复制构造函数。</p>
-<p>若声明时直接赋值，属于调用构造函数。</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>智云课堂回放 <a href="https://classroom.zju.edu.cn/coursedetail?course_id=50910&amp;tenant_code=112" target="_blank" rel="noopener noreferrer">https://classroom.zju.edu.cn/coursedetail?course_id=50910&tenant_code=112</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>]]></description>
+<p>若声明时直接赋值，属于调用构造函数。</p>]]></description>
 </item><item>
     <title>偏微分方程绪论</title>
     <link>https://blog.ralvines.top/pde/</link>
