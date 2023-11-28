@@ -12,10 +12,12 @@
   <p class="bord">[</p>
   <a href="../movies"><p class="not">影片</p></a>&nbsp;
   <p class="now">视频</p>&nbsp;
-  <a href="../movies-drama"><p class="not">剧集</p></a>
+  <a href="../movies-drama"><p class="not">剧集</p></a>&nbsp;
+  <a href="../music"><p class="not">音乐</p></a>
   <p class="bord">]</p>
 </div>
 
-
-<center><br><br>🔐<br>隐藏中</center>
+{{< admonition question "时政" true false >}}
+[🎞️](https://www.youtube.com/watch?v=MdD8YAGf_aY) 习近平的扶贫足迹
+{{< /admonition >}}
 

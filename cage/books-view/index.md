@@ -17,96 +17,8 @@
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">媒体</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8g7Nt.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">Vista 看天下<span style="float:right;font-weight:400">类型施工中</span></div>
-      <div class="media-meta-item">
-        <span class="author">2014-2020</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
-      </div>
-      <div class="media-meta-item intro">施工中...</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gH4P.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">凤凰周刊<span style="float:right;font-weight:400">类型施工中</span></div>
-      <div class="media-meta-item">
-        <span class="author">2012-2017</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
-      </div>
-      <div class="media-meta-item intro">施工中...</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gOgS.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">环球人物<span style="float:right;font-weight:400">类型施工中</span></div>
-      <div class="media-meta-item">
-        <span class="author">2013-2019</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
-      </div>
-      <div class="media-meta-item intro">施工中...</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gq9f.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">炎黄春秋<span style="float:right;font-weight:400">类型施工中</span></div>
-      <div class="media-meta-item">
-        <span class="author">2012-2016</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
-      </div>
-      <div class="media-meta-item intro">施工中...</div>
-    </div>
-  </div>
-</div>
-<div class="culture-list" cover-src="" json-src="books.json">
-  <div class="media-3-prime">
-    <div class="media-meta-item title">南方周末<span style="float:right;font-weight:400">类型施工中</span></div>
-    <div class="media-meta-item">
-      <span class="author"></span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">三联生活周刊<span style="float:right;font-weight:400">类型施工中</span></div>
-    <div class="media-meta-item">
-      <span class="author"></span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">中国新闻周刊<span style="float:right;font-weight:400">类型施工中</span></div>
-    <div class="media-meta-item">
-      <span class="author"></span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-</div>
-<div class="culture-list" cover-src="" json-src="books.json">
-  <div class="media-3">
-    <div class="media-meta-item title">南方人物周刊<span style="float:right;font-weight:400">类型施工中</span></div>
-    <div class="media-meta-item">
-      <span class="author"></span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-</div>
-
-
-<center><p class="tabtag"><del>经典文章</del></p></center>
-
 {{< admonition question "文化" true false >}}
-[🗞️](https://zhuanlan.zhihu.com/p/32030547) 中文的常态与变态 - 余光中
+[🗞️](https://zhuanlan.zhihu.com/p/32030547) 中文的常态与变态 - 余光中<br>
 [🗞️](https://www.guancha.cn/BianQin/2014_05_16_229901.shtml) 温柔的独裁：统一的上层建筑 - 边芹
 {{< /admonition >}}
 
@@ -122,11 +34,15 @@
 🗞️ [全输-全赢博弈与当代中国政治的变迁与改革](../../../xuanjuminzhu) - 傅士卓<br>
 🗞️ [阿拉伯之春在欧洲](../../../xuanjuminzhu) - 宋鲁郑<br>
 [🗞️](https://m.fx361.com/news/2013/0411/13202897.html) 人人都恨官话套话，但这就是规则 - 领导文萃 - 2013年9期<br>
-🗞️ [领导人家庭生活首度公开](../../../shibada)
-🗞️ [中南海里的托克维尔](../../../shibada) - 傅士卓
-🗞️ [习近平时代：什么样的人可以进入中共高层](../../../shibada)
-🗞️ [中国政治制度的比较优势](../../../xuanjuminzhu) - 宋鲁郑
-[🗞️](https://chinadigitaltimes.net/chinese/tag/%E5%AD%A6%E4%B9%A0%E7%B2%89%E4%B8%9D%E5%9B%A2) “学习粉丝团”相关报道存档
+🗞️ [领导人家庭生活首度公开](../../../shibada)<br>
+🗞️ [中南海里的托克维尔](../../../shibada) - 傅士卓<br>
+🗞️ [习近平时代：什么样的人可以进入中共高层](../../../shibada)<br>
+🗞️ [中国政治制度的比较优势](../../../xuanjuminzhu) - 宋鲁郑<br>
+[🗞️](https://chinadigitaltimes.net/chinese/tag/%E5%AD%A6%E4%B9%A0%E7%B2%89%E4%B8%9D%E5%9B%A2) “学习粉丝团”相关报道存档<br>
+[🗞️](https://www.chinanews.com.cn/gn/news/2008/04-14/1219806.shtml) 营造一个更加宽松的舆论环境 - 中国新闻周刊 - 2008年13期<br>
+[🗞️](https://www.aisixiang.com/data/35703.html) 世博会与亚运会的不同舆论生态 - 炎黄春秋 - 2010年5期<br>
+[🗞️](https://www.guancha.cn/chenping1/2012_02_24_66477.shtml) 十问美国的真格总统 - 观察者网<br>
+[🗞️](http://paper.people.com.cn/rmrbhwb/html/2019-02/28/content_1911072.htm) 我走进了中南海 - 人民日报海外版
 {{< /admonition >}}
 
 {{< admonition question "历史" true false >}}
@@ -134,7 +50,11 @@
 [🗞️](https://www.aisixiang.com/data/89919.html) [我做知识分子工作的往事](../../../zhengdang) - 炎黄春秋 - 2015年6期<br>
 [🗞️](https://www.chinesepen.org/blog/archives/138566) [邓小平推动多党合作方案](../../../zhengdang) - 炎黄春秋 - 2015年7期<br>
 [🗞️](https://user.guancha.cn/main/content?id=58388) 我翻遍近代史，发现一件不起眼的小事改变了国运和历史 - 李栩然<br>
-🗞️ [中国精英政治的转变](../../../xuanjuminzhu) - 傅士卓
+🗞️ [中国精英政治的转变](../../../xuanjuminzhu) - 傅士卓<br>
+[🗞️](https://www.chinesepen.org/blog/archives/10768)《南方周末》停刊风波 - 炎黄春秋 - 2014年10期<br>
+[🗞️](https://www.aisixiang.com/data/69129.html) 中苏“十年论战”是文革的舆论准备 - 炎黄春秋 - 2013年9期
+🗞️ 参与胡耀邦追悼会的回忆 - 炎黄春秋 - 2015年3期
+
 {{< /admonition >}}
 
 {{< admonition question "长者" true false >}}
@@ -144,11 +64,6 @@
 [🗞️](https://chinadigitaltimes.net/chinese/424823.html) “膜蛤”的模因与迷思 - 林中来信
 {{< /admonition >}}
 
-{{< admonition question "自由派" true false >}}
-[🗞️](https://chinadigitaltimes.net/chinese/194113.html) 杜导正：“两头真”的春秋 - 南方人物周刊 - 2011年38期<br>
-[🗞️](https://www.chinanews.com.cn/gn/news/2008/04-14/1219806.shtml) 营造一个更加宽松的舆论环境 - 中国新闻周刊 - 2008年13期
-{{< /admonition >}}
-
 {{< admonition question "人物" true false >}}
 [🗞️](https://www.fx361.cc/page/2015/0910/9536874.shtml) 青年王岐山 - 环球人物 - 2015年12期<br>
 [🗞️](https://www.fx361.cc/page/2016/0405/451413.shtml) 北京知青的延安激情岁月 - 凤凰周刊 - 2016年8期<br>
@@ -156,6 +71,9 @@
 [🗞️](https://jp.reuters.com/article/idCNCHINA-2183620100427) 汪洋：“不允许不改革” - 财经国家周刊<br>
 [🗞️](http://news.enorth.com.cn/system/2012/12/25/010442951.shtml) 俞正声特稿：曾电视公布自己的收入 夫人已退休 - 新华社<br>
 [🗞️](http://paper.people.com.cn/hqrw/html/2013-03/26/content_1219105.htm) 政协常委里有个“葛大炮” - 环球人物 - 2013年8期<br>
-[🗞️](https://www.gov.cn/ldhd/2012-12/25/content_2298339.htm) 李克强：“万事民为先” - 环球人物 - 2013年1期
+[🗞️](https://chinadigitaltimes.net/chinese/194113.html) 杜导正：“两头真”的春秋 - 南方人物周刊 - 2011年38期<br>
+[🗞️](https://www.gov.cn/ldhd/2012-12/25/content_2298339.htm) 李克强：“万事民为先” - 环球人物 - 2013年1期<br>
+[🗞️](https://hb.ifeng.com/news/cjgc/detail_2014_11/07/3119887_0.shtml) 谁是最后一位穿中山装拍标准照的政治局常委 - 博客天下 - 2014年29期<br>
+[🗞️](http://www.qstheory.cn/zhuanqu/bkjx/2019-04/24/c_1124408198.htm) 习近平自述：我的文学情缘
 {{< /admonition >}}
 

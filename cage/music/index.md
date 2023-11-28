@@ -1,4 +1,4 @@
-# 🎹
+# 🎞️
 
 
 <div class="nav-tab">
@@ -10,12 +10,14 @@
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <p class="now">华语</p>&nbsp;
-  <a href="../music-en"><p class="not">英语</p></a>&nbsp;
-  <a href="../music-light"><p class="not">纯音乐</p></a>&nbsp;
-  <a href="../music-other"><p class="not">小语种</p></a>
+  <a href="../movies"><p class="not">影片</p></a>&nbsp;
+  <a href="../movies-docum"><p class="not">视频</p></a>&nbsp;
+  <a href="../movies-drama"><p class="not">剧集</p></a>&nbsp;
+  <p class="now">音乐</p>
   <p class="bord">]</p>
 </div>
+
+<center><p class="tabtag">华语</p></center>
 
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
@@ -96,5 +98,11 @@
     </div>
   </div>
 </div>
+
+<center><p class="tabtag">英语</p></center>
+
+<center><p class="tabtag">纯音乐</p></center>
+
+<center><p class="tabtag">小语种</p></center>
 
 <center><br><br>🔐<br>更多音乐搬运中</center>

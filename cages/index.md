@@ -29,25 +29,18 @@
 <center><p class="tabtag">🗂️ 札录</p></center>
 
 <div class="subpage-box">
-  <div class="subpage-box-cover">
+  <div class="subpage-box-cover-2-left">
     <a href="../cage/books" data-pjax-state="">
       <p class="image-hyper">📚</p>
       <p class="image-caption">阅览</p>
       <img alt="书籍" data-src="" src="https://z1.ax1x.com/2023/10/24/piEyqgg.png" data-loaded="true">
     </a>
   </div>
-  <div class="subpage-box-cover">
+  <div class="subpage-box-cover-2">
     <a href="../cage/movies" data-pjax-state="">
       <p class="image-hyper">🎞️</p>
       <p class="image-caption">影视</p>
-      <img alt="影片" data-src="" src="https://z1.ax1x.com/2023/10/30/pimsTne.png" data-loaded="true">
-    </a>
-  </div>
-  <div class="subpage-box-cover">
-    <a href="../cage/music" data-pjax-state="">
-      <p class="image-hyper">🎹</p>
-      <p class="image-caption">音乐</p>
-      <img alt="音乐" data-src="" src="https://z1.ax1x.com/2023/10/23/piA8oI1.png" data-loaded="true">
+      <img alt="影片" data-src="" src="https://z1.ax1x.com/2023/10/23/piA8oI1.png" data-loaded="true">
     </a>
   </div>
 </div>
