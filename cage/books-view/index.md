@@ -86,7 +86,7 @@
 🗞️ [中国精英政治的转变](../../../xuanjuminzhu) - 傅士卓<br>
 🗞️ [习近平时代：什么样的人可以进入中共高层](../../../shibada)<br>
 [🗞️](http://www.qstheory.cn/dukan/qs/2018-09/01/c_1123362691.htm) 认清“国家资本主义”问题的真相 - 求是<br>
-[🗞️](https://review.youngchina.org/archives/2892) 第一次是正剧，第二次是闹剧，第三次是CCTV的狗血连续剧](../../../minzuxushi) - 马前卒<br>
+[🗞️](https://review.youngchina.org/archives/2892) [第一次是正剧，第二次是闹剧，第三次是CCTV的狗血连续剧](../../../minzuxushi) - 马前卒<br>
 [🗞️](https://zhuanlan.zhihu.com/p/420746023) 资本的复兴和脑力无产者的左转 - 佐伊23<br>
 [🗞️](https://www.aisixiang.com/data/51554.html) 我学的不是马克思主义 - 炎黄春秋 - 2012年1期<br>
 [🗞️](https://www.aisixiang.com/data/49917.html) 三十年新闻立法历程与思考 - 炎黄春秋 - 2012年2期<br>
