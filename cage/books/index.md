@@ -121,7 +121,7 @@
   </div>
 </div>
 
-<div class="culture-list" cover-src="" json-src="books.json">
+<!-- <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-3-prime">
     <div class="media-meta-item title">邓小平传1904-1974<span style="float:right;font-weight:400">类型施工中</span></div>
     <div class="media-meta-item">
@@ -687,10 +687,12 @@
     <div class="media-meta-item intro">施工中...</div>
   </div>
 </div>
-
+ -->
 <!-- 
 
 <h2>读完</h2>
+
+梦游症调查报告
 
 - 俗世奇人
 - 消失在醒来后
