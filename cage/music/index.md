@@ -11,7 +11,6 @@
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../movies"><p class="not">影片</p></a>&nbsp;
-  <a href="../video"><p class="not">视频</p></a>&nbsp;
   <a href="../drama"><p class="not">剧集</p></a>&nbsp;
   <p class="now">音乐</p>
   <p class="bord">]</p>

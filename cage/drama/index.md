@@ -11,7 +11,6 @@
 <div class="nav-tab">
   <p class="bord">[</p>
   <a href="../movies"><p class="not">影片</p></a>&nbsp;
-  <a href="../video"><p class="not">视频</p></a>&nbsp;
   <p class="now">剧集</p>&nbsp;
   <a href="../music"><p class="not">音乐</p></a>
   <p class="bord">]</p>
@@ -83,4 +82,18 @@
 - 中国老师，来了
 - 超级中国
 - 探秘下议院
+ -->
+
+ {{< admonition question "时政" true false >}}
+🎞️ 罕见的习近平 - [1](https://www.youtube.com/watch?v=MdD8YAGf_aY) 2 3
+{{< /admonition >}}
+
+<!-- 
+
+历史
+
+中越战争 - 欣哥的超级补习班 - 1 2 3 4 5 6 7 8 9 10
+朝鲜战争解密档案 - 欣哥的超级补习班 - 1 2 3 4 5 6 7 8 9 10
+
+
  -->

@@ -1,35 +1,37 @@
-# 🏫
+# 🔦
 
 
 <div class="nav-tab">
   <a href="../../cages"><p class="not">拾迹</p></a>
-  <p class="now">/</p><p class="now">课程</p>
+  <p class="now">/</p><p class="now">探索</p>
 </div>
 
 ---
 
 <div class="nav-tab">
   <p class="bord">[</p>
-  <p class="now">本科</p>
+  <p class="now">学业</p>&nbsp;
+  <a href="../dev"><p class="not">技术</p></a>&nbsp;
+  <a href="../hobby"><p class="not">兴趣</p></a>
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">23-24 学年</p></center>
+<center><p class="tabtag">课程</p></center>
 
+{{< admonition question "大四" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b><a href="./sxqy/">数学前沿专题讨论</a></b></span>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">22-23 学年</p></center>
-
+{{< admonition tip "大三" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description">数学实践</span>
   </div>
 </div>
-
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b><a href="./pdeszj/">微分方程数值解</a></b></span>
@@ -59,7 +61,6 @@
     <span class="image-description">网球</span>
   </div>
 </div>
-
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b><a href="./sjkx/">数据科学的数学基础</a></b></span>
@@ -89,15 +90,14 @@
     <span class="image-description">羽毛球</span>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">21-22 学年</p></center>
-
+{{< admonition success "大二" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description">数学软件</span>
   </div>
 </div>
-
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b><a href="./sbhs/">实变函数</a></b></span>
@@ -130,7 +130,6 @@
     <span class="image-description">定向越野</span>
   </div>
 </div>
-
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b>数学分析 III</b></span>
@@ -160,15 +159,14 @@
     <span class="image-description">军训</span>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">20-21 学年</p></center>
-
+{{< admonition info "大一" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description">形势与政策</span>
   </div>
 </div>
-
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b>数学分析 II</b></span>
@@ -198,7 +196,6 @@
     <span class="image-description">定向越野</span>
   </div>
 </div>
-
 <div class="little-box">
   <div class="little-box-cover">
     <span class="image-description"><b>数学分析 I</b></span>
@@ -234,3 +231,114 @@
     <span class="image-description">乒乓球</span>
   </div>
 </div>
+{{< /admonition >}}
+
+{{< admonition tip "教材" true false >}}
+<div class="culture-list" cover-src="" json-src="books.json">
+  <div class="media-3-prime">
+    <div class="media-meta-item title">实变函数<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">周性伟</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">实变函数与泛函分析概要<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">王声望</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">经济学原理<span style="float:right;font-weight:400">经济</span></div>
+    <div class="media-meta-item">
+      <span class="author">曼昆</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">高等代数<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">谢启鸿</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">Complex Analysis<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">Stein</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">概率论<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">林正炎</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">高等代数<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">丘维声</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">常微分方程<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">方道元</span>
+      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">偏微分方程<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">孔德兴</span>
+      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">偏微分方程<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">周蜀林</span>
+      <span class="star-score">★★<span class="grey-star">☆☆☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">数学建模算法与程序<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">司守奎</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">统计学习方法<span style="float:right;font-weight:400">数学</span></div>
+    <div class="media-meta-item">
+      <span class="author">李航</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">经济法理论与实务<span style="float:right;font-weight:400">法律</span></div>
+    <div class="media-meta-item">
+      <span class="author">周黎明</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+</div>
+{{< /admonition >}}
+

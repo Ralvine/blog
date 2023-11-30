@@ -11,14 +11,15 @@
 <div class="nav-tab">
   <p class="bord">[</p>
   <p class="now">书籍</p>&nbsp;
-  <a href="../books-view"><p class="not">观点</p></a>&nbsp;
-  <a href="../books-wenxian"><p class="not">文献</p></a>
+  <a href="../view"><p class="not">观点</p></a>&nbsp;
+  <a href="../source"><p class="not">信源</p></a>
   <p class="bord">]</p>
 </div>
 
 
-<center><p class="tabtag">本科</p></center>
+<center><p class="tabtag">精读</p></center>
 
+{{< admonition question "本科" true false >}}
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gfje.jpg)"></div>
@@ -80,7 +81,7 @@
     <div class="media-meta">
       <div class="media-meta-item title">硅谷之火<span style="float:right;font-weight:400">文学/纪实</span></div>
       <div class="media-meta-item">
-        <span class="author">迈克尔·斯韦因 / 保罗·弗赖伯格</span>
+        <span class="author">迈克尔·斯韦因</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item intro">一部互联网发展的史诗，一个日新月异的时代。</div>
@@ -120,8 +121,63 @@
     </div>
   </div>
 </div>
+{{< /admonition >}}
 
-<!-- <div class="culture-list" cover-src="" json-src="books.json">
+<div class="culture-list" cover-src="" json-src="books.json">
+
+{{< admonition tip "中学" true false >}}
+<div class="culture-list" cover-src="" json-src="books.json">
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gL38.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">他改变了中国：江泽民传<span style="float:right;font-weight:400">传记</span></div>
+      <div class="media-meta-item">
+        <span class="author">罗伯特·劳伦斯·库恩</span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+      </div>
+      <div class="media-meta-item intro">施工中...</div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gXjg.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">邓小平时代<span style="float:right;font-weight:400">传记</span></div>
+      <div class="media-meta-item">
+        <span class="author">傅高义</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro">施工中...</div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi82K4x.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">自由在高处<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item">
+        <span class="author">熊培云</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro">施工中...</div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/12/piGQs1S.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">人类简史<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item">
+        <span class="author">尤瓦尔·赫拉利</span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+      </div>
+      <div class="media-meta-item intro">施工中...</div>
+    </div>
+  </div>
+</div>
+{{< /admonition >}}
+
+<center><p class="tabtag">略览</p></center>
+
+{{< admonition question "本科" true false >}}
+<div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-3-prime">
     <div class="media-meta-item title">邓小平传1904-1974<span style="float:right;font-weight:400">类型施工中</span></div>
     <div class="media-meta-item">
@@ -451,56 +507,9 @@
     <div class="media-meta-item intro">施工中...</div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">高中</p></center>
-
-<div class="culture-list" cover-src="" json-src="books.json">
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gL38.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">他改变了中国：江泽民传<span style="float:right;font-weight:400">传记</span></div>
-      <div class="media-meta-item">
-        <span class="author">罗伯特·劳伦斯·库恩</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
-      </div>
-      <div class="media-meta-item intro">施工中...</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gXjg.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">邓小平时代<span style="float:right;font-weight:400">传记</span></div>
-      <div class="media-meta-item">
-        <span class="author">傅高义</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item intro">施工中...</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi82K4x.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">自由在高处<span style="float:right;font-weight:400">类型施工中</span></div>
-      <div class="media-meta-item">
-        <span class="author">熊培云</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item intro">施工中...</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/12/piGQs1S.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">人类简史<span style="float:right;font-weight:400">类型施工中</span></div>
-      <div class="media-meta-item">
-        <span class="author">尤瓦尔·赫拉利</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
-      </div>
-      <div class="media-meta-item intro">施工中...</div>
-    </div>
-  </div>
-</div>
-
+{{< admonition tip "中学" true false >}}
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-3-prime">
     <div class="media-meta-item title">食罪者<span style="float:right;font-weight:400">类型施工中</span></div>
@@ -687,7 +696,8 @@
     <div class="media-meta-item intro">施工中...</div>
   </div>
 </div>
- -->
+{{< /admonition >}}
+
 <!-- 
 
 <h2>读完</h2>
