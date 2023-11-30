@@ -14,6 +14,11 @@
 
 {{< friend name="Barney's Blog" url="https://hugo.bnblogs.cc" avatar="https://hugo.bnblogs.cc/images/img/20220215001349.png" bio="All the truth is simple" >}}
 
+{{< friend name="Night1918" url="https://blog.jyhao.cn" avatar="https://blog.jyhao.cn/img/favicon.png" bio="一个爱折腾的大学生" >}}
+
+{{< friend name="Isshiki修's Notebook" url="https://note.isshikih.top" avatar="https://note.isshikih.top/_assets/iro/IroPatch_Green.png" bio="その時を待つよ" >}}
+
+
 <center><p class="tabtag">🚪 传送门</p></center>
 
 {{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" avatar="https://www.sulvblog.cn/img/Q.gif" bio="一个记录技术、阅读、生活的博客" >}}
@@ -21,8 +26,6 @@
 {{< friend name="长街短梦" url="https://wangyunzi.com/" avatar="https://blog.wangyunzi.com/avatar.png" bio="此行山高路远，我只剩口袋玫瑰一片" >}}
 
 {{< friend name="频率" url="https://pinlyu.com/" avatar="https://pinlyu.com/resources/img/avatar.webp" bio="风卷过的起点" >}}
-
-{{< friend name="Night1918" url="https://blog.jyhao.cn" avatar="https://blog.jyhao.cn/img/favicon.png" bio="一个爱折腾的大学生" >}}
 
 {{< friend name="核子" url="https://hezj-opt.github.io" avatar="https://hezj-opt.github.io/images/mylogo.webp" bio="关注核子谢谢喵" >}}
 
