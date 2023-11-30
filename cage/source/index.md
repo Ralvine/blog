@@ -65,32 +65,6 @@
     </div>
   </div>
 </div>
-<div class="culture-list" cover-src="" json-src="books.json">
-  <div class="media-3-prime">
-    <div class="media-meta-item title">南方周末<span style="float:right;font-weight:400">类型施工中</span></div>
-    <div class="media-meta-item">
-      <span class="author"></span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">三联生活周刊<span style="float:right;font-weight:400">类型施工中</span></div>
-    <div class="media-meta-item">
-      <span class="author"></span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">中国新闻周刊<span style="float:right;font-weight:400">类型施工中</span></div>
-    <div class="media-meta-item">
-      <span class="author"></span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-</div>
 {{< /admonition >}}
 
 {{< admonition tip "RSS" true false >}}
@@ -134,20 +108,6 @@
 
 {{< admonition tip "播客" true false >}}
 🎤 高能量
-{{< /admonition >}}
-<center><p class="tabtag">人物</p></center>
-
-{{< admonition question "刊物" true false >}}
-<div class="culture-list" cover-src="" json-src="books.json">
-  <div class="media-3">
-    <div class="media-meta-item title">南方人物周刊<span style="float:right;font-weight:400">类型施工中</span></div>
-    <div class="media-meta-item">
-      <span class="author"></span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-</div>
 {{< /admonition >}}
 
 <center><p class="tabtag">文化</p></center>
