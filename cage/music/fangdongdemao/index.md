@@ -3,7 +3,7 @@
 
 <div class="nav-tab">
   <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
-  <a href="../../../cage/music"><p class="not">音乐</p></a>
+  <a href="../../../cage/music"><p class="not">影视</p></a>
   <p class="now">/</p><p class="now">房东的猫</p>
 </div>
 

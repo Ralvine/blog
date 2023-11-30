@@ -3,7 +3,7 @@
 
 <div class="nav-tab">
   <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
-  <a href="../"><p class="not">课程</p></a>
+  <a href="../"><p class="not">探索</p></a>
   <p class="now">/</p><p class="now">泛函分析</p>
 </div>
 
