@@ -16,9 +16,9 @@
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">待读</p></center>
+<!-- <center><p class="tabtag">待读</p></center>
 
-{{< admonition note "书单 2024" false>}}
+{{< admonition question "书单 2024" false>}}
 - [ ] 三体 - 刘慈欣<br>
 - [ ] 看世界 - 傅莹<br>
 - [ ] 亲历中苏关系 - 中央办公厅翻译组的十年<br>
@@ -47,8 +47,10 @@
 - [ ] 筚路蓝缕<br>
 - [ ] 漫长的革命<br>
 - [ ] 解构现代化 - 温铁军<br>
-- [ ] 从点子到产品
-{{< /admonition >}}
+- [ ] 从点子到产品<br>
+- [ ] 玻璃房 - 蔡奇<br>
+- [ ] 习近平时代
+{{< /admonition >}} -->
 
 <center><p class="tabtag">精读</p></center>
 
@@ -68,7 +70,7 @@
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi86a5V.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title"><a href="../../wanghuning/">政治的人生</a></div>
+      <div class="media-meta-item title"><a href="../../wanghuning/">政治的人生</a><span style="float:right;font-weight:400">日记</span></div>
       <div class="media-meta-item">
         <span class="author">王沪宁</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
@@ -157,7 +159,7 @@
         <span class="author">罗伯特·劳伦斯·库恩</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">叙事流畅舒适，对历史细节阐述详尽，有大量的一手访谈材料、文献引用详实，有很多趣味的、西方视角下对中国政治结构的思考，也是一部了解长者的不可多得的佳作。</div>
     </div>
   </div>
   <div class="media">
@@ -168,7 +170,7 @@
         <span class="author">傅高义</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">相对完备的小平传记，兼顾了学术性和通俗性，和改开主流叙事的契合度很高，但也导致了对某些历史节点的叙事主观色彩比较浓重，深度略有所缺。</div>
     </div>
   </div>
   <div class="media">
@@ -179,7 +181,7 @@
         <span class="author">熊培云</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">新世纪初期这一批自由主义知识分子的缩影，熊培云的代表作，充满个人色彩、微观叙事、泛滥的共情和对理念价值的推崇，倒是挺适合激进、理想主义的学生群体的读物。</div>
     </div>
   </div>
   <div class="media">
@@ -190,7 +192,7 @@
         <span class="author">尤瓦尔·赫拉利</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">比较经典的通俗作品，对人类史学有浅显而独到的观点，指出共同想象和观念共识对人类现代群体社会结构的塑造的重要意义，其中部落、银行和不同人种的举例印象深刻。</div>
     </div>
   </div>
 </div>

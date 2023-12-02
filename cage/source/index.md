@@ -23,45 +23,45 @@
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8g7Nt.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">Vista 看天下<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">Vista 看天下</div>
       <div class="media-meta-item">
         <span class="author">2014-2020</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">市场化杂志中做的比较优质的，有比较强的读者群吸引力，内容本身的严谨度和客观性有所缺失，排版设计和内容布局都比较精彩，高中时期的回忆。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gH4P.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">凤凰周刊<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">凤凰周刊</div>
       <div class="media-meta-item">
         <span class="author">2012-2017</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">国新办背景但外宾视角，改革浪潮的舆论阵地，消息源很扎实，提供不一样的视角和态度。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gOgS.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">环球人物<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">环球人物</div>
       <div class="media-meta-item">
         <span class="author">2013-2019</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">人民日报主管的市场化程度比较高的刊物，内容偏严肃、富有官媒色彩，话题深度和泛度兼具，有都不讨好但都可接受的意味，优势在于时政等垄断性话题的报道，排版比较松散。</div>
     </div>
   </div>
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/11/11/pi8gq9f.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">炎黄春秋<span style="float:right;font-weight:400">类型施工中</span></div>
+      <div class="media-meta-item title">炎黄春秋</div>
       <div class="media-meta-item">
         <span class="author">2012-2016</span>
-        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item intro">施工中...</div>
+      <div class="media-meta-item intro">改革派阵地，更愿称之为保守或改良的自由主义刊物，不乏诸多改开元老和党内改革派的亲属，依托仲勋同志的题字算是国内出版物中话题范畴涉及最敏感者，历史领域的亲历录和宪政等价值观的呼声总体还是耳目一新。</div>
     </div>
   </div>
 </div>

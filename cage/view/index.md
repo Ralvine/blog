@@ -53,10 +53,10 @@
 [🗞️](https://www.aisixiang.com/data/35703.html) 世博会与亚运会的不同舆论生态 - 炎黄春秋 - 2010年5期<br>
 [🗞️](https://www.guancha.cn/chenping1/2012_02_24_66477.shtml) 十问美国的真格总统 - 观察者网<br>
 [🗞️](http://paper.people.com.cn/rmrbhwb/html/2019-02/28/content_1911072.htm) 我走进了中南海 - 人民日报海外版<br>
-[🗞️](http://m.51xinshidai.com/showinfo-12-5551-0.html) 上下互动：温总理谈话解读 - 2010年11期<br>
+[🗞️](http://m.51xinshidai.com/showinfo-12-5551-0.html) 上下互动：温总理谈话解读 - 炎黄春秋 - 2010年11期<br>
 [🗞️](https://web.archive.org/web/20150630094428/http://opinion.huanqiu.com/editorial/2015-01/5425253.html) 对一些人和事，官方沉默也是态度 - 环球时报<br>
-[🗞️](http://paper.people.com.cn/hqrw/html/2014-09/16/content_1498087.htm) 中组部如何选“补缺”官员 - 2014年25期<br>
-[🗞️](http://paper.people.com.cn/hqrw/html/2014-11/06/content_1513748.htm) 习近平执政两周年 - 2014年29期<br>
+[🗞️](http://paper.people.com.cn/hqrw/html/2014-09/16/content_1498087.htm) 中组部如何选“补缺”官员 - 环球人物 - 2014年25期<br>
+[🗞️](http://paper.people.com.cn/hqrw/html/2014-11/06/content_1513748.htm) 习近平执政两周年 - 环球人物 - 2014年29期<br>
 [🗞️](https://web.archive.org/web/20160908080159/http://paper.people.com.cn/hqrw/html/2015-01/06/content_1556021.htm) 令计划布局与败落 - 环球人物 - 2015年1期<br>
 [🗞️](https://www.aisixiang.com/data/86604.html) 2015中国新闻立法之争解读 - 传媒透视<br>
 [🗞️](https://mp.weixin.qq.com/s/8X_xDs94zK6_hKA7whVIsA) 不懂美国政治的特朗普，还能当选吗 - 观学院<br>
