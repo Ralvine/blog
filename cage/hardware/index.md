@@ -395,7 +395,7 @@ OPPO Reno ? Pro
         <span class="author">¥5??? 购于初中</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">被当时Fview的评测所吸引，双色温闪光灯、64位的A7、扁平化的iOS7、TouchID以及三段式的设计，应该是最经典的机型之一了。</div>
     </div>
   </div>
   <div class="media-app">
@@ -406,7 +406,7 @@ OPPO Reno ? Pro
         <span class="author">¥4??? 购于小学</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">拟物化时代的小屏旗舰，彼时的iOS生态傲视群雄，从工业设计到系统体验都是遥遥领先。</div>
     </div>
   </div>
   <div class="media-app">
@@ -417,7 +417,7 @@ OPPO Reno ? Pro
         <span class="author">¥6??? 购于小学</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">我的第一台iPad。丰富的App生态流连忘返，iCloud也为我存下了许多模糊的记忆。</div>
     </div>
   </div>
 </div>

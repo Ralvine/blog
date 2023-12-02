@@ -63,6 +63,8 @@
 
 {{< friend name="进击的学霸的博客" url="https://blog.jjdxb.top" avatar="https://qny.jjdxb.top/pikaqiu.png" bio="代码写出来是给人看的，附带能在机器上运行" >}}
 
+{{< friend name="ChrAlpha's Blog" url="https://blog.ichr.me" avatar="https://avatars-githubusercontent.webp.se/u/53332481" bio="Student / Maybe a writer" >}}
+
 <center><p class="tabtag">👉 交换友链</p></center>
 
 <center>点击<p class="tabtag"><a href="https://wj.qq.com/s2/13631849/44ac/">这里</p></a>以申请收录、更改或删除您的站点。</center>

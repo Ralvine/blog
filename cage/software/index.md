@@ -15,26 +15,56 @@
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">App</p></center>
+<center><p class="tabtag">应用</p></center>
 
 <!-- 
-Cubox
 Procreate Dream
-Obsidian
-Typora
  -->
 
 {{< admonition question "2023" true false >}}
 <div class="culture-list">
   <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/91/c6/a2/91c6a29c-4a14-d980-2903-3a7d56bc4989/AppIcon-0-0-1x_U007emarketing-0-10-0-0-sRGB-85-220.jpeg/460x0w.webp)"></div>
+    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/81/b9/65/81b9651f-a9ed-8c9d-3f8c-d161e38d3cb7/AppIcon-0-1x_U007ephone-0-0-85-220-0.png/460x0w.webp)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">番茄 to do<span style="float:right;font-weight:400">效率</span></div>
+      <div class="media-meta-item title">Stress Watch<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">小而美的心理压力监测App，拥有漂亮的小组件和及时的通知提醒。</div>
+    </div>
+  </div>
+  <div class="media-app">
+    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7f/02/4e/7f024e9a-7f65-dc61-aae6-b3653d55939e/AppIcon-0-0-2x_U007euniversal-0-4-0-85-220.png/460x0w.webp)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">Cubox<span style="float:right;font-weight:400">效率</span></div>
+      <div class="media-meta-item">
+        <span class="author">Mac/iPhone/iPad/Safari</span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+      </div>
+      <div class="media-meta-item-app intro">好用的一站式收藏工具，支持跨平台、跨应用的内容收藏，类似于某些国产ROM的收藏卡片功能。</div>
+    </div>
+  </div>
+  <div class="media-app">
+    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/1c/47/95/1c479542-cfde-496e-91b3-c14c4588be21/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">Obsidian<span style="float:right;font-weight:400">效率</span></div>
+      <div class="media-meta-item">
+        <span class="author">Mac/iPad</span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
+      </div>
+      <div class="media-meta-item-app intro">兜兜转转作为最终选择的Markdown笔记工具，拥有丰富的扩展，搭配工作区文件云同步适合作为本地笔记本。</div>
+    </div>
+  </div>
+  <div class="media-app">
+    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/91/c6/a2/91c6a29c-4a14-d980-2903-3a7d56bc4989/AppIcon-0-0-1x_U007emarketing-0-10-0-0-sRGB-85-220.jpeg/460x0w.webp)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">番茄 To Do<span style="float:right;font-weight:400">效率</span></div>
+      <div class="media-meta-item">
+        <span class="author">iPhone/iPad</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item-app intro">可能是最适合备考和专注的GTD工具，番茄钟+回溯饼图+倒计时非常适合细致执行日常主线任务。</div>
     </div>
   </div>
   <div class="media-app">
@@ -42,7 +72,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">心光<span style="float:right;font-weight:400">生活</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
       <div class="media-meta-item-app intro">最好用的心理+复盘工具，引入AI使记录碎片生动化，UI和交互也很赏心悦目。</div>
@@ -53,10 +83,10 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">哈特健康 Pro<span style="float:right;font-weight:400">健康</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">模块化设计、弥补了 iOS 健康概览页无图表的问题，心理监测比较好用，但没有亮色模式。</div>
+      <div class="media-meta-item-app intro">模块化设计、弥补了 iPhone 健康概览页无图表的问题，心理监测比较好用，但没有亮色模式。</div>
     </div>
   </div>
   <div class="media-app">
@@ -64,43 +94,44 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">不背单词<span style="float:right;font-weight:400">教育</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
       <div class="media-meta-item-app intro">最好用的背单词工具，打卡激励+模块自定义+沉浸刷词+丰富的例句库和词根词组。</div>
     </div>
-  </div><br>
-  <div class="media-app-3-prime">
-    <div class="media-meta-item title">墨墨记忆卡<span style="float:right;font-weight:400">教育</span></div>
-    <div class="media-meta-item">
-      <span class="author">iOS</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
   </div>
-  <div class="media-app-3">
-    <div class="media-meta-item title">月亮山<span style="float:right;font-weight:400">生活</span></div>
-    <div class="media-meta-item">
-      <span class="author">iOS</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+  <div class="media-app">
+    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d3/3c/35/d33c3583-5c70-f5b2-8562-c3b40c5ee31c/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">墨墨记忆卡<span style="float:right;font-weight:400">教育</span></div>
+      <div class="media-meta-item">
+        <span class="author">iPhone</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item-app intro">平替Anki的记忆辅助工具，优点是生态良好，有许多卡组贡献者，使用成本也比较可观。</div>
     </div>
-    <div class="media-meta-item-app intro">施工中...</div>
   </div>
-  <div class="media-app-3">
-    <div class="media-meta-item title">会读<span style="float:right;font-weight:400">效率</span></div>
-    <div class="media-meta-item">
-      <span class="author">iOS</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+  <div class="media-app">
+    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0a/5e/bb/0a5ebbe6-b331-2d24-8981-898d109a193f/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">月亮山<span style="float:right;font-weight:400">生活</span></div>
+      <div class="media-meta-item">
+        <span class="author">iPhone</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item-app intro">部分平替心光的心理类记录与回溯工具，简约但由于自有一套逻辑，上手需要一定的学习。</div>
     </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div><br>
-  <div class="media-app-3-prime">
-    <div class="media-meta-item title">华住会<span style="float:right;font-weight:400">旅游</span></div>
-    <div class="media-meta-item">
-      <span class="author">iOS</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+  </div>
+  <div class="media-app">
+    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/35/13/73/351373a1-a21a-2996-3e1d-144b43976308/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">会读<span style="float:right;font-weight:400">效率</span></div>
+      <div class="media-meta-item">
+        <span class="author">iPhone</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item-app intro">渐进式阅读工具，核心优势是微信助手及AI概要总结功能，但价格有点劝退。</div>
     </div>
-    <div class="media-meta-item-app intro">施工中...</div>
   </div>
 </div>
 {{< /admonition >}}
@@ -112,10 +143,10 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">iCost<span style="float:right;font-weight:400">财务</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">比钱迹更简约、逻辑统一的记账工具，功能不够强大但可以覆盖主要需求。</div>
     </div>
   </div>
   <div class="media-app">
@@ -123,10 +154,10 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">flomo<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">轻量的碎片化摘录工具，拥有热力视图和精美的组件，微信助手亦可记录琐碎灵感。</div>
     </div>
   </div>
 </div>
@@ -139,10 +170,10 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">Goodnotes<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPad</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">更接近传统笔记本的笔记应用，但尴尬之处在于速记比较臃肿，而对精记则不够高效。</div>
     </div>
   </div>
   <div class="media-app">
@@ -150,10 +181,10 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">WolframAlpha<span style="float:right;font-weight:400">教育</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">更适合数学专业的计算工具，支持一般微积分的运算求解，并提供过程。</div>
     </div>
   </div>
   <div class="media-app">
@@ -161,7 +192,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">Notion<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">Web/iPhone/Mac/iPad</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -172,7 +203,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">醒图<span style="float:right;font-weight:400">摄影</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -183,29 +214,22 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">小宇宙<span style="float:right;font-weight:400">社区</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
     </div>
   </div>
-</div>
-<div class="culture-list">
-  <div class="media-app-3-prime">
-    <div class="media-meta-item title">阅读记录<span style="float:right;font-weight:400">效率</span></div>
-    <div class="media-meta-item">
-      <span class="author">iOS</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+  <div class="media-app">
+    <div class="media-cover-round" style="background-image:url(https://typoraio.cn/img/favicon-128.png)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">Typora<span style="float:right;font-weight:400">效率</span></div>
+      <div class="media-meta-item">
+        <span class="author">Mac</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item-app intro">施工中...</div>
     </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-app-3">
-    <div class="media-meta-item title">瓣读<span style="float:right;font-weight:400">效率</span></div>
-    <div class="media-meta-item">
-      <span class="author">iOS</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
   </div>
 </div>
 {{< /admonition >}}
@@ -217,7 +241,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">MarginNote<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -228,7 +252,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">钱迹<span style="float:right;font-weight:400">财务</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -239,7 +263,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">倒数日<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -250,7 +274,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">幕布<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -261,7 +285,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">NetNewsWire<span style="float:right;font-weight:400">新闻</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -272,7 +296,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">Spark<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -283,7 +307,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">坚果云<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -294,7 +318,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">少数派<span style="float:right;font-weight:400">社区</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -305,7 +329,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">Notability<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -316,7 +340,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">滴答清单<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -327,7 +351,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">潮汐<span style="float:right;font-weight:400">健康</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -338,7 +362,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">微信读书<span style="float:right;font-weight:400">图书</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -354,7 +378,7 @@ Typora
     <div class="media-meta">
       <div class="media-meta-item title">ZAKER<span style="float:right;font-weight:400">新闻</span></div>
       <div class="media-meta-item">
-        <span class="author">iOS</span>
+        <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
@@ -362,3 +386,5 @@ Typora
   </div>
 </div>
 {{< /admonition >}}
+
+<center><p class="tabtag">工具</p></center>
