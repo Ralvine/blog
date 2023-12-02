@@ -16,9 +16,9 @@
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">院线</p></center>
+<center><p class="tabtag">2023</p></center>
 
-{{< admonition question "2023" true false >}}
+{{< admonition question "院线" true false >}}
 <div class="culture-list">
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pim7aNV.jpg)"></div>
@@ -112,7 +112,7 @@
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyawQ.jpg)"></div>
     <div class="media-meta">
-      <div class="media-meta-item title">名侦探柯南：贝克街的亡灵<span style="float:right;font-weight:400">冒险/悬疑</span></div>
+      <div class="media-meta-item title">贝克街的亡灵<span style="float:right;font-weight:400">冒险/悬疑</span></div>
       <div class="media-meta-item">
         <span class="author">04-09 影院·杭州 重映</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
@@ -156,355 +156,7 @@
 </div>
 {{< /admonition >}}
 
-{{< admonition tip "2022" true false >}}
-<div class="culture-list">
-  <div class="media-3-prime">
-    <div class="media-meta-item title">椒麻堂会<span style="float:right;font-weight:400">剧情</span></div>
-    <div class="media-meta-item">
-      <span class="author">12-19 影院·台州</span>
-      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">万里归途<span style="float:right;font-weight:400">剧情/战争</span></div>
-    <div class="media-meta-item">
-      <span class="author">10-03 影院·台州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">新神榜：杨戬<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">09-04 影院·台州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">神探大战<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">08-01 影院·台州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">人生大事<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">07-16 影院·台州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">侏罗纪世界3<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">06-10 影院·杭州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">神奇动物：邓布利多之谜<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">04-08 线上</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">喜羊羊与灰太狼之筐出未来<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">02-10 影院·台州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">狙击手<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">02-05 影院·台州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">我和我的家乡<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">01-16 影院·杭州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">唐人街探案3<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-    <div class="media-meta-item">
-      <span class="author">01-13 影院·台州</span>
-      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-    </div>
-    <div class="media-meta-item intro"></div>
-  </div>
-  <div class="media-3">
-      <div class="media-meta-item title">魔法满屋<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-      <div class="media-meta-item">
-        <span class="author">01-11 影院·台州</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item intro"></div>
-  </div>
-</div>
-{{< /admonition >}}
-
-{{< admonition success "更早" true false >}}
-<div class="culture-list">
-  <div class="media-3-prime">
-    <div class="media-meta-item title">长津湖<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">我和我的父辈<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">失控玩家<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">怒火·重案<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">白蛇2：青蛇劫起<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">悬崖之上<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">人再囧途之泰囧<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">流浪地球<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">野性的呼唤<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">夺冠<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">我和我的祖国<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">西游降魔篇<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">神秘巨星<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">复仇者联盟4：终局之战<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">音乐之声<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">我不是药神<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">哈利·波特与魔法石<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">终结者5：创世纪<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">神奇动物：格林德沃之罪<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">神奇动物在哪里<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">摔跤吧！爸爸<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">魁拔之大战元泱界<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">我的姐姐<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">移动迷宫3<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">刺杀小说家<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">送你一朵小红花<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">哪吒之魔童降世<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3-prime">
-    <div class="media-meta-item title">中国机长<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">八佰<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-  <div class="media-3">
-    <div class="media-meta-item title">阿凡达<span style="float:right;font-weight:400">奇幻</span></div>
-    <div class="media-meta-item">
-      <span class="author">影院</span>
-      <span class="star-score">★★★★★<span class="grey-star"></span></span>
-    </div>
-    <div class="media-meta-item-app intro">施工中...</div>
-  </div>
-</div>
-{{< /admonition >}}
-
-<center><p class="tabtag">荧幕</p></center>
-
-{{< admonition question "2023" true false >}}
+{{< admonition tip "荧幕" true false >}}
 <div class="culture-list">
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimOgf0.jpg)"></div>
@@ -517,7 +169,7 @@
       <div class="media-meta-item intro">充满了蜘蛛侠早期经典的影子，比较新奇的画风配合收放自如的情节起伏推进，属于蜘蛛侠IP中的良作。</div>
     </div>
   </div>
-<div class="media">
+  <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimOsTs.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">遗愿清单<span style="float:right;font-weight:400">剧情/喜剧</span></div>
@@ -619,7 +271,159 @@
 </div>
 {{< /admonition >}}
 
-{{< admonition tip "2022" true false >}}
+{{< admonition success "解说" true false >}}
+<div class="culture-list">
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimb3es.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">大决战 三部曲<span style="float:right;font-weight:400">历史/战争</span></div>
+      <div class="media-meta-item">
+        <span class="author">07-24 精讲</span>
+        <span class="star-score">★★★★★</span>
+      </div>
+      <div class="media-meta-item intro">无法复制的历史战争片经典，比肩苏联的百万群演和部队参演，绝妙传神的选角和战争细节，展现五大书记的运筹帷幄、充满张力的文戏和人心向背的对比。</div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimblLj.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">彗星来的那一夜<span style="float:right;font-weight:400">悬疑/惊悚</span></div>
+      <div class="media-meta-item">
+        <span class="author">05-15 解说</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro">科幻包裹下对于人性恐惧本质的挖掘，让停电和平行时空的简单意象在“未知”语境下恣意编织出如此精彩的剧情，但很难在观后有深刻的印象。</div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimbMQg.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">横空出世<span style="float:right;font-weight:400">历史/剧情</span></div>
+      <div class="media-meta-item">
+        <span class="author">05-12 精讲</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro">原子弹工程里的隐形守护者，叙事和画面本身并不出彩，但对于精神理念的表达富有感染力，也是对人物塑造的恰然写照。</div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyYy8.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">超时空宠爱<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+      <div class="media-meta-item">
+        <span class="author">01-08 解说</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"></div>
+    </div>
+  </div>
+</div>
+{{< /admonition >}}
+
+<center><p class="tabtag">2022</p></center>
+
+{{< admonition question "院线" true false >}}
+<div class="culture-list">
+  <div class="media-3-prime">
+    <div class="media-meta-item title">椒麻堂会<span style="float:right;font-weight:400">剧情</span></div>
+    <div class="media-meta-item">
+      <span class="author">12-19 影院·台州</span>
+      <span class="star-score">★★★<span class="grey-star">☆☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">万里归途<span style="float:right;font-weight:400">剧情/战争</span></div>
+    <div class="media-meta-item">
+      <span class="author">10-03 影院·台州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">新神榜：杨戬<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">09-04 影院·台州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">神探大战<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">08-01 影院·台州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">人生大事<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">07-16 影院·台州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">侏罗纪世界3<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">06-10 影院·杭州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">神奇动物：邓布利多之谜<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">04-08 线上</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">喜羊羊与灰太狼之筐出未来<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">02-10 影院·台州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">狙击手<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">02-05 影院·台州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">我和我的家乡<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">01-16 影院·杭州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">唐人街探案3<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+    <div class="media-meta-item">
+      <span class="author">01-13 影院·台州</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3">
+      <div class="media-meta-item title">魔法满屋<span style="float:right;font-weight:400">喜剧/爱情</span></div>
+      <div class="media-meta-item">
+        <span class="author">01-11 影院·台州</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"></div>
+  </div>
+</div>
+{{< /admonition >}}
+
+{{< admonition tip "荧幕" true false >}}
 <div class="culture-list">
   <div class="media-3-prime">
     <div class="media-meta-item title">开国大典<span style="float:right;font-weight:400">历史/战争</span></div>
@@ -888,7 +692,254 @@
 </div>
 {{< /admonition >}}
 
-{{< admonition success "更早" true false >}}
+<center><p class="tabtag">更早</p></center>
+
+{{< admonition question "院线" true false >}}
+<div class="culture-list">
+  <div class="media-3-prime">
+    <div class="media-meta-item title">长津湖<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">我和我的父辈<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">失控玩家<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">怒火·重案<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">白蛇2：青蛇劫起<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">悬崖之上<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">人再囧途之泰囧<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">流浪地球<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">野性的呼唤<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">夺冠<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">我和我的祖国<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">西游降魔篇<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">神秘巨星<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">复仇者联盟4：终局之战<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">音乐之声<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">我不是药神<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">哈利·波特与魔法石<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">终结者5：创世纪<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">神奇动物：格林德沃之罪<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">神奇动物在哪里<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">摔跤吧！爸爸<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">魁拔之大战元泱界<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">我的姐姐<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">移动迷宫3<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">刺杀小说家<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">送你一朵小红花<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">哪吒之魔童降世<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">中国机长<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">八佰<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">阿凡达<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">影院</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro">施工中...</div>
+  </div>
+</div>
+{{< /admonition >}}
+
+{{< admonition success "荧幕" true false >}}
 
 <div class="culture-list">
   <div class="media">
@@ -1468,56 +1519,8 @@
 </div>
 {{< /admonition >}}
 
-<center><p class="tabtag">解说</p></center>
 
-{{< admonition question "2023" true false >}}
-<div class="culture-list">
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimb3es.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">大决战 三部曲<span style="float:right;font-weight:400">历史/战争</span></div>
-      <div class="media-meta-item">
-        <span class="author">07-24 精讲</span>
-        <span class="star-score">★★★★★</span>
-      </div>
-      <div class="media-meta-item intro">无法复制的历史战争片经典，比肩苏联的百万群演和部队参演，绝妙传神的选角和战争细节，展现五大书记的运筹帷幄、充满张力的文戏和人心向背的对比。</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimblLj.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">彗星来的那一夜<span style="float:right;font-weight:400">悬疑/惊悚</span></div>
-      <div class="media-meta-item">
-        <span class="author">05-15 解说</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item intro">科幻包裹下对于人性恐惧本质的挖掘，让停电和平行时空的简单意象在“未知”语境下恣意编织出如此精彩的剧情，但很难在观后有深刻的印象。</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/30/pimbMQg.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">横空出世<span style="float:right;font-weight:400">历史/剧情</span></div>
-      <div class="media-meta-item">
-        <span class="author">05-12 精讲</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item intro">原子弹工程里的隐形守护者，叙事和画面本身并不出彩，但对于精神理念的表达富有感染力，也是对人物塑造的恰然写照。</div>
-    </div>
-  </div>
-  <div class="media">
-    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinyYy8.jpg)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">超时空宠爱<span style="float:right;font-weight:400">喜剧/爱情</span></div>
-      <div class="media-meta-item">
-        <span class="author">01-08 解说</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item intro"></div>
-    </div>
-  </div>
-</div>
-{{< /admonition >}}
+
 
 <!-- 即将到来的对华战争 大同 -->
 

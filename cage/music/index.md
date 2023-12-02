@@ -16,8 +16,9 @@
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">华语</p></center>
+<center><p class="tabtag">乐手</p></center>
 
+{{< admonition question "华语" true false >}}
 <div class="culture-list" cover-src="" json-src="books.json">
   <div class="media-app">
     <div class="media-cover-round">{{< music auto="https://music.163.com/#/playlist?id=8848213704" list-max-height="340px" autoplay="true" mini="true">}}</div>
@@ -97,11 +98,15 @@
     </div>
   </div>
 </div>
+{{< /admonition >}}
 
-<center><p class="tabtag">英语</p></center>
+{{< admonition tip "英语" true false >}}
+{{< /admonition >}}
 
-<center><p class="tabtag">纯音乐</p></center>
+{{< admonition success "纯音乐" true false >}}
+{{< /admonition >}}
 
-<center><p class="tabtag">小语种</p></center>
+{{< admonition info "小语种" true false >}}
+{{< /admonition >}}
 
 <center><br><br>🔐<br>更多音乐搬运中</center>

@@ -3,7 +3,7 @@
 
 <div class="nav-tab">
   <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
-  <a href="../"><p class="not">光影</p></a>
+  <a href="../../moment"><p class="not">光影</p></a>
   <p class="now">/</p><p class="now">西区春景</p>
 </div>
 
@@ -86,20 +86,16 @@
     <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f02c458853aef8e39c0.webp"></a>
   </div>
   <div class="group-picture-cover">
-    <a class="lightgallery" href="https://pic.imgdb.cn/item/654e2f05c458853aef8e47f7.webp" title="大讲堂前的暮色。" data-thumbnail="https://pic.imgdb.cn/item/654e2f05c458853aef8e47f7.webp">
-    <img loading="lazy" src="https://pic.imgdb.cn/item/654e2f05c458853aef8e47f7.webp"></a>
-  </div>
-</div>
-<div class="group-picture">
-  <div class="group3-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d4e3.jpg" title="“当心落水”。" data-thumbnail="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d4e3.jpg">
     <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d4e3.jpg"></a>
   </div>
-  <div class="group3-picture-cover">
+</div>
+<div class="group-picture">
+  <div class="group-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3f8c458853aeffa9d20.jpg" title="银泉公寓。" data-thumbnail="https://pic.imgdb.cn/item/6559a3f8c458853aeffa9d20.jpg">
     <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3f8c458853aeffa9d20.jpg"></a>
   </div>
-  <div class="group3-picture-cover">
+  <div class="group-picture-cover">
     <a class="lightgallery" href="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d67a.jpg" title="银泉外景。" data-thumbnail="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d67a.jpg">
     <img loading="lazy" src="https://pic.imgdb.cn/item/6559a3c0c458853aeff9d67a.jpg"></a>
   </div>

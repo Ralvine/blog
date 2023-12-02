@@ -3,7 +3,7 @@
 
 <div class="nav-tab">
   <a href="../../../cages"><p class="not">拾迹</p></a><p class="not">/</p>
-  <a href="../"><p class="not">光影</p></a>
+  <a href="../../moment"><p class="not">光影</p></a>
   <p class="now">/</p><p class="now">良渚</p>
 </div>
 

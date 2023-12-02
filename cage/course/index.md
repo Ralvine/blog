@@ -18,58 +18,72 @@
 
 <center><p class="tabtag">课程</p></center>
 
-{{< admonition question "大四" true false >}}
+{{< admonition question "专业必修" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description"><b><a href="./sxqy/">数学前沿专题讨论</a></b></span>
+    <span class="image-description"><a href="./sxqy/">数学前沿专题讨论</a></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">数学实践</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><a href="./pdeszj/">微分方程数值解</a></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><a href="./sjjm/">数据建模与分析</a></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><a href="./sjkx/">数据科学的数学基础</a></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">数值分析</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">概率论</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">数学软件</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><a href="./sbhs/">实变函数</a></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><a href="./pde/">偏微分方程</a></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">数学分析 III</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">常微分方程</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description"><a href="./dsa/">数据结构与算法</a></span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">数学分析 II</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">高等代数 II</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">数学分析 I</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">高等代数 I</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">几何学</span>
   </div>
 </div>
 {{< /admonition >}}
 
-{{< admonition tip "大三" true false >}}
+{{< admonition tip "专业选修" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description">数学实践</span>
-  </div>
-</div>
-<div class="little-box">
-  <div class="little-box-cover">
-    <span class="image-description"><b><a href="./pdeszj/">微分方程数值解</a></b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description"><b><a href="./sjjm/">数据建模与分析</a></b></span>
-  </div>
-   <div class="little-box-cover">
-    <span class="image-description"><b><a href="./fhfx/">泛函分析</a></b></span>
+    <span class="image-description"><a href="./fhfx/">泛函分析</a></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">复变函数</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description"><a href="./zzjjxdl/">政治经济学导论</a></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">政治经济学</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">打开艺术之门——钢琴</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">面向对象程序设计</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">网球</span>
-  </div>
-</div>
-<div class="little-box">
-  <div class="little-box-cover">
-    <span class="image-description"><b><a href="./sjkx/">数据科学的数学基础</a></b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description"><b>数值分析</b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description"><b>概率论</b></span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">量子信息与量子计算</span>
@@ -78,35 +92,27 @@
     <span class="image-description">抽象代数</span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description">微观经济学</span>
+    <span class="image-description">数值代数</span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description">商业模式</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">习概</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">羽毛球</span>
+    <span class="image-description">数学建模</span>
   </div>
 </div>
 {{< /admonition >}}
 
-{{< admonition success "大二" true false >}}
+{{< admonition success "跨专业辅修" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description">数学软件</span>
-  </div>
-</div>
-<div class="little-box">
-  <div class="little-box-cover">
-    <span class="image-description"><b><a href="./sbhs/">实变函数</a></b></span>
+    <span class="image-description">政治经济学</span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description"><b><a href="./pde/">偏微分方程</a></b></span>
+    <span class="image-description">面向对象程序设计</span>
   </div>
-   <div class="little-box-cover">
-    <span class="image-description"><b>数值代数</b></span>
+  <div class="little-box-cover">
+    <span class="image-description">微观经济学</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">商业模式</span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">管理学</span>
@@ -115,102 +121,27 @@
     <span class="image-description">经济学</span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description">军事理论</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">毛概</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">数学建模</span>
-  </div>
-  <div class="little-box-cover">
     <span class="image-description">团队沟通与领导力</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">定向越野</span>
-  </div>
-</div>
-<div class="little-box">
-  <div class="little-box-cover">
-    <span class="image-description"><b>数学分析 III</b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description"><b>常微分方程</b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description"><b><a href="./dsa/">数据结构与算法</a></b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">大学物理</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">大学物理实验</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">公共经济分析导论</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">马克思主义原理概论</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">羽毛球</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">军训</span>
   </div>
 </div>
 {{< /admonition >}}
 
-{{< admonition info "大一" true false >}}
+{{< admonition info "通识选修" true false >}}
 <div class="little-box">
   <div class="little-box-cover">
-    <span class="image-description">形势与政策</span>
-  </div>
-</div>
-<div class="little-box">
-  <div class="little-box-cover">
-    <span class="image-description"><b>数学分析 II</b></span>
+    <span class="image-description"><a href="./zzjjxdl/">政治经济学导论</a></span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description"><b>高等代数 II</b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">大学英语 IV</span>
+    <span class="image-description">打开艺术之门——钢琴</span>
   </div>
   <div class="little-box-cover">
     <span class="image-description"><a href="./wxqy/">当代文学前沿问题研究</a></span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description">C程序设计基础</span>
-  </div>
-  <div class="little-box-cover">
     <span class="image-description">Python程序设计</span>
   </div>
   <div class="little-box-cover">
-    <span class="image-description">职业生涯规划</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">中国近现代史纲要</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">定向越野</span>
-  </div>
-</div>
-<div class="little-box">
-  <div class="little-box-cover">
-    <span class="image-description"><b>数学分析 I</b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description"><b>高等代数 I</b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description"><b>几何学</b></span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">计算机科学基础</span>
-  </div>
-  <div class="little-box-cover">
-    <span class="image-description">大学英语 III</span>
+    <span class="image-description">公共经济分析导论</span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">经济法理论与实务</span>
@@ -223,6 +154,68 @@
   </div>
   <div class="little-box-cover">
     <span class="image-description">生命科学导论实验</span>
+  </div>
+</div>
+{{< /admonition >}}
+
+{{< admonition note "通识必修" true false >}}
+<div class="little-box">
+  <div class="little-box-cover">
+    <span class="image-description">网球</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">习概</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">羽毛球</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">军事理论</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">毛概</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">定向越野</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">大学物理</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">大学物理实验</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">马克思主义原理概论</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">羽毛球</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">军训</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">形势与政策</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">大学英语 IV</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">C程序设计基础</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">职业生涯规划</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">中国近现代史纲要</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">定向越野</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">计算机科学基础</span>
+  </div>
+  <div class="little-box-cover">
+    <span class="image-description">大学英语 III</span>
   </div>
   <div class="little-box-cover">
     <span class="image-description">思想道德修养基础</span>

@@ -15,13 +15,15 @@
   <p class="bord">]</p>
 </div>
 
-<center><p class="tabtag">应用</p></center>
+<!-- 应用，工具，服务 -->
+
+<center><p class="tabtag">2023</p></center>
 
 <!-- 
 Procreate Dream
  -->
 
-{{< admonition question "2023" true false >}}
+{{< admonition question "应用" true false >}}
 <div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/81/b9/65/81b9651f-a9ed-8c9d-3f8c-d161e38d3cb7/AppIcon-0-1x_U007ephone-0-0-85-220-0.png/460x0w.webp)"></div>
@@ -42,7 +44,7 @@ Procreate Dream
         <span class="author">Mac/iPhone/iPad/Safari</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro">好用的一站式收藏工具，支持跨平台、跨应用的内容收藏，类似于某些国产ROM的收藏卡片功能。</div>
+      <div class="media-meta-item-app intro">好用的一站式收藏工具，支持跨平台、跨 的内容收藏，类似于某些国产ROM的收藏卡片功能。</div>
     </div>
   </div>
   <div class="media-app">
@@ -136,7 +138,9 @@ Procreate Dream
 </div>
 {{< /admonition >}}
 
-{{< admonition tip "2022" true false >}}
+<center><p class="tabtag">2022</p></center>
+
+{{< admonition question "应用" true false >}}
 <div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fc/da/61/fcda61bb-d07b-9136-c029-487076f45644/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/460x0w.webp)"></div>
@@ -163,7 +167,9 @@ Procreate Dream
 </div>
 {{< /admonition >}}
 
-{{< admonition success "2021" true false >}}
+<center><p class="tabtag">2021</p></center>
+
+{{< admonition question "应用" true false >}}
 <div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/06/c7/c706c7fb-6250-f0e5-f2ea-3b657b79c906/AppIcon-2x-4-85-220.png/460x0w.webp);background-size: 113px 113px;"></div>
@@ -173,7 +179,7 @@ Procreate Dream
         <span class="author">iPad</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">更接近传统笔记本的笔记应用，但尴尬之处在于速记比较臃肿，而对精记则不够高效。</div>
+      <div class="media-meta-item-app intro">更接近传统笔记本的笔记 ，但尴尬之处在于速记比较臃肿，而对精记则不够高效。</div>
     </div>
   </div>
   <div class="media-app">
@@ -195,7 +201,7 @@ Procreate Dream
         <span class="author">Web/iPhone/Mac/iPad</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">功能强大的md笔记工具，兼顾知识管理和事务规划，还可部署为静态网站，但无法本地存储，不得不弃之。</div>
     </div>
   </div>
   <div class="media-app">
@@ -206,7 +212,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">功能丰富、相对好用的移动端图像处理 ，比较适合社交媒体的图像前置美化和配文案。</div>
     </div>
   </div>
   <div class="media-app">
@@ -215,9 +221,9 @@ Procreate Dream
       <div class="media-meta-item title">小宇宙<span style="float:right;font-weight:400">社区</span></div>
       <div class="media-meta-item">
         <span class="author">iPhone</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">最好用的播客 。</div>
     </div>
   </div>
   <div class="media-app">
@@ -228,13 +234,15 @@ Procreate Dream
         <span class="author">Mac</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">最轻便易用的MarkDown编辑器之一，主打支持实时预览和丰富的自定义主题配置。</div>
     </div>
   </div>
 </div>
 {{< /admonition >}}
 
-{{< admonition info "2020" true false >}}
+<center><p class="tabtag">2020</p></center>
+
+{{< admonition question "应用" true false >}}
 <div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c8/bf/21/c8bf2180-ddb2-3935-5c28-3ef958366908/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp)"></div>
@@ -244,7 +252,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">虽设计一般但功能独一档，适合阅读书籍文献，有完善的批注、大纲和卡片功能，支持PDF串联构建笔记。</div>
     </div>
   </div>
   <div class="media-app">
@@ -253,7 +261,7 @@ Procreate Dream
       <div class="media-meta-item title">钱迹<span style="float:right;font-weight:400">财务</span></div>
       <div class="media-meta-item">
         <span class="author">iPhone</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
     </div>
@@ -264,7 +272,7 @@ Procreate Dream
       <div class="media-meta-item title">倒数日<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
         <span class="author">iPhone</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
     </div>
@@ -330,7 +338,7 @@ Procreate Dream
       <div class="media-meta-item title">Notability<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
         <span class="author">iPhone</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
     </div>
@@ -363,7 +371,7 @@ Procreate Dream
       <div class="media-meta-item title">微信读书<span style="float:right;font-weight:400">图书</span></div>
       <div class="media-meta-item">
         <span class="author">iPhone</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
       <div class="media-meta-item-app intro">施工中...</div>
     </div>
@@ -371,7 +379,9 @@ Procreate Dream
 </div>
 {{< /admonition >}}
 
-{{< admonition failure "更早" true false >}}
+<center><p class="tabtag">更早</p></center>
+
+{{< admonition question "应用" true false >}}
 <div class="culture-list">
   <div class="media-app">
     <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/58/00/fc/5800fc54-23eb-e2a1-408a-4eaccb20231e/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png/460x0w.webp)"></div>
@@ -386,5 +396,3 @@ Procreate Dream
   </div>
 </div>
 {{< /admonition >}}
-
-<center><p class="tabtag">工具</p></center>
