@@ -223,7 +223,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro">最好用的播客 。</div>
+      <div class="media-meta-item-app intro">最好用的播客。</div>
     </div>
   </div>
   <div class="media-app">
@@ -260,10 +260,10 @@ Procreate Dream
     <div class="media-meta">
       <div class="media-meta-item title">钱迹<span style="float:right;font-weight:400">财务</span></div>
       <div class="media-meta-item">
-        <span class="author">iPhone</span>
+        <span class="author">iPhone/iPad/Mac</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">最好用的记账应用之一，支持多平台同步和丰富的功能，采用了Material Design的设计逻辑。</div>
     </div>
   </div>
   <div class="media-app">
@@ -274,7 +274,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">经典的倒数日工具，拥有轻便的小组件和拟物化的界面，但页面也存在广告，略显臃肿。</div>
     </div>
   </div>
   <div class="media-app">
@@ -282,10 +282,10 @@ Procreate Dream
     <div class="media-meta">
       <div class="media-meta-item title">幕布<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iPhone</span>
+        <span class="author">iPad</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">MarkDown+思维导图的绝佳工具，价格小贵，适合专业课学习和项目策划时的快速梳理。</div>
     </div>
   </div>
   <div class="media-app">
@@ -293,10 +293,10 @@ Procreate Dream
     <div class="media-meta">
       <div class="media-meta-item title">NetNewsWire<span style="float:right;font-weight:400">新闻</span></div>
       <div class="media-meta-item">
-        <span class="author">iPhone</span>
+        <span class="author">iPhone/iPad/Mac</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">经典轻量的RSS阅读器，支持iCloud同步和展开阅读。</div>
     </div>
   </div>
   <div class="media-app">
@@ -307,7 +307,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">轻量简约的邮件客户端，但由于地区限制和第三方配置的困难最后还是弃用了。</div>
     </div>
   </div>
   <div class="media-app">
@@ -315,21 +315,10 @@ Procreate Dream
     <div class="media-meta">
       <div class="media-meta-item title">坚果云<span style="float:right;font-weight:400">效率</span></div>
       <div class="media-meta-item">
-        <span class="author">iPhone</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+        <span class="author">iPhone/iPad/Mac/Web</span>
+        <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
-    </div>
-  </div>
-  <div class="media-app">
-    <div class="media-cover-round" style="background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ff/f8/b3/fff8b3b9-ee78-dce8-acc3-eb94a3447f4c/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp)"></div>
-    <div class="media-meta">
-      <div class="media-meta-item title">少数派<span style="float:right;font-weight:400">社区</span></div>
-      <div class="media-meta-item">
-        <span class="author">iPhone</span>
-        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
-      </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">好用的文档云同步工具，支持文件夹同步，免费版的流量勉强够用，平台支持比较丰富，继承了锤子系的简洁。</div>
     </div>
   </div>
   <div class="media-app">
@@ -340,7 +329,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">最常用的笔记软件，支持自动续页，偶尔有同步和渲染的问题，曾经还是买断制时是最好的选择。</div>
     </div>
   </div>
   <div class="media-app">
@@ -351,7 +340,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">功能最丰富的GTD应用，但交互动画比较生硬，订阅价格比较贵，对有专业需求者比较合适。</div>
     </div>
   </div>
   <div class="media-app">
@@ -362,7 +351,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">经典白噪音+潮汐日帖使之长久驻留于我的设备。</div>
     </div>
   </div>
   <div class="media-app">
@@ -373,7 +362,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★★<span class="grey-star"></span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">国内目前最优质的阅读应用，交互设计十分优秀，书源比较有限，划线、社交功能都做得恰到好处。</div>
     </div>
   </div>
 </div>
@@ -391,7 +380,7 @@ Procreate Dream
         <span class="author">iPhone</span>
         <span class="star-score">★★★★<span class="grey-star">☆</span></span>
       </div>
-      <div class="media-meta-item-app intro">施工中...</div>
+      <div class="media-meta-item-app intro">早期WP生态下比较优质的新闻聚合应用，简洁高效，颇有RSS订阅的感觉。</div>
     </div>
   </div>
 </div>
