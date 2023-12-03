@@ -85,8 +85,8 @@ k最近邻算法 (kNN) 适用于处理这两种类型的数据。对于数值型
 2. 距离度量
 3. 决策规则
 
-<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
-<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKE6K.png" width="50%" alt="特征空间划分"></a>
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
+<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKE6K.png" width="50%"></a>
 
 <p class="img-desc" style="text-align: center">▲ 特征空间划分。</p>
 
@@ -147,8 +147,8 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 
 首先引入最简单的思路：线性扫描的方法。
 
-<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
-<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKkSx.png" width="50%" alt="kNN算法流程可视化"></a>
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
+<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKkSx.png" width="50%"></a>
 
 <p class="img-desc" style="text-align: center">▲ kNN算法流程可视化。</p>
 
@@ -228,8 +228,8 @@ print(predictions)
 
 #### 构造[^11]
 
-<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
-<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKif1.png" width="50%" alt="kd树的构造"></a>
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
+<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKif1.png" width="50%"></a>
 
 <p class="img-desc" style="text-align: center">▲ kd树的构造。</p>
 
@@ -251,8 +251,8 @@ print(predictions)
 
 #### 搜索
 
-<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
-<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKAl6.png" width="50%" alt="kd树的搜索"></a>
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+<img loading="lazy" src="https://z1.ax1x.com/2023/11/01/piuKAl6.png" width="50%"></a>
 
 <p class="img-desc" style="text-align: center">▲ kd树的搜索。</p>
 

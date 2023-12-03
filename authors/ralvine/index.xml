@@ -84,7 +84,7 @@ $$y=\text{arg}\max\limits_{c_j} \sum\limits_{x_i\in N_k(x)} I(y_i=c_j)$$</p>
 <li>距离度量</li>
 <li>决策规则</li>
 </ol>
-<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" title="特征空间划分" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKE6K.png" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKE6K.png">
 </a>
 <p class="img-desc" style="text-align: center">▲ 特征空间划分。</p>
 <p>特殊情况：最近邻（k=1）</p>
@@ -139,7 +139,7 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <h2 id="模型预测" class="headerLink">
     <a href="#%e6%a8%a1%e5%9e%8b%e9%a2%84%e6%b5%8b" class="header-mark"></a>模型预测</h2><h3 id="预测流程" class="headerLink">
     <a href="#%e9%a2%84%e6%b5%8b%e6%b5%81%e7%a8%8b" class="header-mark"></a>预测流程</h3><p>首先引入最简单的思路：线性扫描的方法。</p>
-<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" title="kNN算法流程可视化" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
+<a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKkSx.png" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKkSx.png">
 </a>
 <p class="img-desc" style="text-align: center">▲ kNN算法流程可视化。</p>
 <ol>
@@ -243,7 +243,7 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 </ol>
 <p>可能因数据的特定分布而表现不佳。<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
 <h4 id="构造11" class="headerLink">
-    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" title="kd树的构造" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
+    <a href="#%e6%9e%84%e9%80%a011" class="header-mark"></a>构造<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKif1.png" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKif1.png">
 </a>
 <p class="img-desc" style="text-align: center">▲ kd树的构造。</p>
 <ol>
@@ -263,7 +263,7 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>切分点的选择：中位数</li>
 </ul>
 <h4 id="搜索" class="headerLink">
-    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" title="kd树的搜索" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
+    <a href="#%e6%90%9c%e7%b4%a2" class="header-mark"></a>搜索</h4><a class="lightgallery" href="https://z1.ax1x.com/2023/11/01/piuKAl6.png" data-thumbnail="https://z1.ax1x.com/2023/11/01/piuKAl6.png">
 </a>
 <p class="img-desc" style="text-align: center">▲ kd树的搜索。</p>
 <h4 id="算法" class="headerLink">
