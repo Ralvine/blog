@@ -12,18 +12,21 @@
   <p class="bord">[</p>
   <a href="../movies"><p class="not">影片</p></a>&nbsp;
   <p class="now">剧集</p>&nbsp;
+  <a href="../video"><p class="not">频道</p></a>&nbsp;
   <a href="../music"><p class="not">音乐</p></a>
   <p class="bord">]</p>
 </div>
 
-<!-- 
-<div class="culture-list" cover-src="" json-src="books.json">
+<center><p class="tabtag">2023</p></center>
+
+{{< admonition question "电视剧" true false >}}
+<div class="culture-list">
   <div class="media">
     <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/10/31/pinltqU.jpg)"></div>
     <div class="media-meta">
       <div class="media-meta-item title">潜伏<span style="float:right;font-weight:400">历史/谍战</span></div>
       <div class="media-meta-item">
-        <span class="author">07-22 精讲</span>
+        <span class="author">7月 精讲</span>
         <span class="star-score">★★★★★</span>
       </div>
       <div class="media-meta-item intro"></div>
@@ -34,19 +37,79 @@
     <div class="media-meta">
       <div class="media-meta-item title">漫长的季节<span style="float:right;font-weight:400">犯罪/家庭</span></div>
       <div class="media-meta-item">
-        <span class="author">08-19 精讲</span>
+        <span class="author">8月 精讲</span>
+        <span class="star-score">★★★★★</span>
+      </div>
+      <div class="media-meta-item intro"></div>
+    </div>
+  </div>
+  <div class="media-3-prime">
+    <div class="media-meta-item title">狂飙<span style="float:right;font-weight:400">犯罪</span></div>
+    <div class="media-meta-item">
+      <span class="author">1月</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">三体<span style="float:right;font-weight:400">科幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">1月</span>
+      <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+  <div class="media-3">
+    <div class="media-meta-item title">东周列国·春秋篇<span style="float:right;font-weight:400">历史</span></div>
+    <div class="media-meta-item">
+      <span class="author">1月</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item intro"></div>
+  </div>
+</div>
+{{< /admonition >}}
+
+{{< admonition tip "综艺" true false >}}
+<div class="culture-list">
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/12/03/piywXXn.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">令人心动的 Offer 1<span style="float:right;font-weight:400">职场</span></div>
+      <div class="media-meta-item">
+        <span class="author">1月</span>
+        <span class="star-score">★★★★<span class="grey-star">☆</span></span>
+      </div>
+      <div class="media-meta-item intro"></div>
+    </div>
+  </div>
+  <div class="media">
+    <div class="media-cover" style="background-image:url(https://z1.ax1x.com/2023/12/03/piywvmq.jpg)"></div>
+    <div class="media-meta">
+      <div class="media-meta-item title">极限挑战 1-4<span style="float:right;font-weight:400">户外</span></div>
+      <div class="media-meta-item">
+        <span class="author">1-7月</span>
         <span class="star-score">★★★★★</span>
       </div>
       <div class="media-meta-item intro"></div>
     </div>
   </div>
 </div>
+{{< /admonition >}}
 
-- 东周列国·春秋篇，2023-01
-- 狂飙，2023-01
-- 三体，2023-01
-- 令人心动的 Offer 系列，2023-02
-- 极限挑战系列，2022-01
+<!-- 
+  <div class="media-3-prime">
+    <div class="media-meta-item title">功勋<span style="float:right;font-weight:400">奇幻</span></div>
+    <div class="media-meta-item">
+      <span class="author">线上</span>
+      <span class="star-score">★★★★★<span class="grey-star"></span></span>
+    </div>
+    <div class="media-meta-item-app intro"></div>
+  </div>
+ -->
+
+<!-- 
+
 - 守护解放西系列，2022-02,03
 - 巡回检察组
 - 扫黑风暴
@@ -64,8 +127,6 @@
 - 流言终结者 系列
 - 大国工程
 - 鸟瞰中国
-- 大同：中国市长
-- 即将到来的对华战争
 - 将改革进行到底
 - 永远在路上
 - 正风反腐就在身边
@@ -84,21 +145,17 @@
 - 探秘下议院
  -->
 
-<!--  {{< admonition question "时政" true false >}}
-🎞️ 罕见的习近平 - [1](https://www.youtube.com/watch?v=MdD8YAGf_aY) 2 3
-{{< /admonition >}} -->
-
 <!--
 
 历史-人物-时政等
+
+时间
 
 【电视剧】
 【纪录片】
 【节目】
 【频道】
-
-中越战争 - 欣哥的超级补习班 - 1 2 3 4 5 6 7 8 9 10
-朝鲜战争解密档案 - 欣哥的超级补习班 - 1 2 3 4 5 6 7 8 9 10
+【动画】
 华莱士访谈
 
  -->

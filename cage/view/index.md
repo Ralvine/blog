@@ -81,10 +81,6 @@
 🗞️ [给中国新媒体的八条标准](../../../xinwen) - 马前卒
 {{< /admonition >}}
 
-
-
-
-
 <center><p class="tabtag">历史</p></center>
 
 {{< admonition question "报道" true false >}}
