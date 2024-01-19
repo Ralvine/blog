@@ -416,6 +416,7 @@ $$\frac{1}{k}\sum\limits_{x_i\in N_k(x)} I(y_i\ne c_j)=1-\frac{1}{k}\sum\limits_
 <li>适用于异常值和噪声数据<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></li>
 </ul>
 <p>广泛用于分类和聚类分析。</p>
+<p>s</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

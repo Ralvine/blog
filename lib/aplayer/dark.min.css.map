@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "dark.min.css",
-	"sourceRoot": "/Users/ralvine/Documents/时下/Websites/Dawniew",
+	"sourceRoot": "/Users/ralvine/Documents/开发/Websites/Dawniew",
 	"sources": [
 		"themes/DoIt-0.4.0/assets/lib/aplayer/dark.scss"
 	],
