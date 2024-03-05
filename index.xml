@@ -1,9 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>暮瞻</title>
-        <link>https://blog.ralvines.top/</link>
-        <description>不忘其所始，不求其所终；受而喜之，忘而复之。</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate>
-            <atom:link href="https://blog.ralvines.top/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
-</rss>
